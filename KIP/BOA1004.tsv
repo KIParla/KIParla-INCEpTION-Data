@@ -1,0 +1,1555 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_SP=webanno.custom.Type|Type_values
+#T_SP=webanno.custom.code_variation|code_variation_values
+#T_SP=webanno.custom.Prolongation|Prolongation_values
+#T_SP=webanno.custom.Pace|Pace_values
+#T_SP=webanno.custom.Guesses|Guesses_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=buongiorno
+1-1	0-10	buongiorno	Falling	>°buongiorno.°<	BO027	0-0	linguistic	none	_	Fast=0-10(0)	_	_	_
+
+#Text=buongiorno
+2-1	11-21	buongiorno	Falling	buongiorno.	BO026	1-0	linguistic	none	_	_	_	_	_
+
+#Text=e allora io avevo mandato delle mail e poi si era interrotta un po' la comunicazione
+3-1	22-23	e	_	e::	BO027	2-0	linguistic	none	0x2	_	_	_	_
+3-2	24-30	allora	_	allora	_	2-1	linguistic	none	_	_	_	_	_
+3-3	31-33	io	_	io:	_	2-2	linguistic	none	1x1	_	_	_	_
+3-4	34-39	avevo	_	avevo	_	2-3	linguistic	none	_	_	_	_	_
+3-5	40-47	mandato	_	mandato	_	2-4	linguistic	none	_	_	_	_	_
+3-6	48-53	delle	_	delle	_	2-5	linguistic	none	_	_	_	_	_
+3-7	54-58	mail	_	mail	_	2-6	linguistic	none	_	_	_	_	_
+3-8	59-60	e	_	e	_	2-7	linguistic	none	_	_	_	_	_
+3-9	61-64	poi	_	poi	_	2-8	linguistic	none	_	_	_	_	_
+3-10	65-67	si	_	si	_	2-9	linguistic	none	_	_	_	_	_
+3-11	68-71	era	_	era	_	2-10	linguistic	none	_	_	_	_	_
+3-12	72-82	interrotta	_	interrotta	_	2-11	linguistic	none	_	_	_	_	_
+3-13	83-85	un	_	un	_	2-12	linguistic	none	_	_	_	_	_
+3-14	86-89	po'	_	po'	_	2-13	linguistic	none	_	_	_	_	_
+3-15	90-92	la	_	la	_	2-14	linguistic	none	_	_	_	_	_
+3-16	93-106	comunicazione	WeaklyRising	comunicazione,	_	2-15	linguistic	none	_	_	_	_	_
+
+#Text=per due saggi
+4-1	107-110	per	_	p\[er	BO027	3-0	linguistic	none	_	_	_	_	_
+4-1.1	108-110	er	_	_	_	_	_	_	_	_	_	*->1-1	*[1]
+4-2	111-114	due	_	due	_	3-1	linguistic	none	_	_	_	*->1-2	*[1]
+4-3	115-120	saggi	WeaklyRising	saggi\],	_	3-2	linguistic	none	_	_	_	*->1-3	*[1]
+
+#Text=x xx chi è lei
+5-1	121-122	x	_	\[°x	BO026	4-0	unknown	none	_	_	_	*->1-4	*[1]
+5-2	123-125	xx	_	xx	_	4-1	unknown	none	_	_	_	*->1-5	*[1]
+5-3	126-129	chi	_	(chi	_	4-2	linguistic	none	_	_	0-3(0)	*->1-6	*[1]
+5-4	130-131	è	_	è	_	4-3	linguistic	none	_	_	0-1(0)	*->1-7	*[1]
+5-5	132-135	lei	Rising	lei?)°\]	_	4-4	linguistic	none	_	_	0-3(0)	*->1-8	*[1]
+
+#Text=rossi chiara
+6-1	136-141	rossi	_	rossi	BO027	5-0	linguistic	none	_	_	_	_	_
+6-2	142-148	chiara	_	chiara	_	5-1	linguistic	none	_	_	_	_	_
+
+#Text=per dei saggi e praticamente io ho dato l' esame di
+7-1	149-152	per	_	per	BO027	6-0	linguistic	none	_	_	_	_	_
+7-2	153-156	dei	_	dei	_	6-1	linguistic	none	_	_	_	_	_
+7-3	157-162	saggi	_	saggi:	_	6-2	linguistic	none	4x1	_	_	_	_
+7-4	163-164	e	_	e:	_	6-3	linguistic	none	0x1	_	_	_	_
+7-5	165-177	praticamente	_	>praticamente	_	6-4	linguistic	none	_	Fast=0-12(0)	_	_	_
+7-6	178-180	io	_	io	_	6-5	linguistic	none	_	Fast=0-2(0)	_	_	_
+7-7	181-183	ho	_	ho	_	6-6	linguistic	none	_	Fast=0-2(0)	_	_	_
+7-8	184-188	dato	_	dato	_	6-7	linguistic	none	_	Fast=0-4(0)	_	_	_
+7-9	189-191	l'	_	l'	_	6-8	linguistic	none	_	Fast=0-2(0)	_	_	_
+7-10	192-197	esame	_	esame	_	6-9	linguistic	none	_	Fast=0-5(0)	_	_	_
+7-11	198-200	di	_	di:<	_	6-10	linguistic	none	1x1	Fast=0-2(0)	_	_	_
+
+#Text=rossi
+8-1	201-206	rossi	WeaklyRising	rossi,	BO027	7-0	linguistic	none	_	_	_	_	_
+
+#Text=mh mh
+9-1	207-209	mh	_	°mh	BO026	8-0	linguistic	none	_	_	_	_	_
+9-2	210-212	mh	_	mh°	_	8-1	linguistic	none	_	_	_	_	_
+
+#Text=chiara
+10-1	213-219	chiara	Falling	chiara.	BO027	9-0	linguistic	none	_	_	_	_	_
+
+#Text=perfetto
+11-1	220-228	perfetto	Falling	°perfet(to).°	BO026	10-0	linguistic	none	_	_	6-8(0)	_	_
+
+#Text=e
+12-1	229-230	e	_	\[e::\]	BO026	11-0	linguistic	none	0x2	_	_	*->2-1	*[2]
+
+#Text=ho dato l' esame di didattica elle due in triennale
+13-1	231-233	ho	_	\[ho	BO027	12-0	linguistic	none	_	_	_	*->2-2	*[2]
+13-2	234-238	dato	_	da\]to	_	12-1	linguistic	none	_	_	_	_	_
+13-2.1	234-236	da	_	_	_	_	_	_	_	_	_	*->2-3	*[2]
+13-3	239-241	l'	_	\[l'	_	12-2	linguistic	none	_	_	_	*->3-1	*[3]
+13-4	242-247	esame	_	esame	_	12-3	linguistic	none	_	_	_	*->3-2	*[3]
+13-5	248-250	di	_	di:	_	12-4	linguistic	none	1x1	_	_	*->3-3	*[3]
+13-6	251-260	didattica	_	didattica	_	12-5	linguistic	none	_	_	_	*->3-4	*[3]
+13-7	261-265	elle	_	elle	_	12-6	linguistic	none	_	_	_	*->3-5	*[3]
+13-8	266-269	due	_	due\]	_	12-7	linguistic	none	_	_	_	*->3-6	*[3]
+13-9	270-272	in	_	in	_	12-8	linguistic	none	_	_	_	_	_
+13-10	273-282	triennale	WeaklyRising	triennale,	_	12-9	linguistic	none	_	_	_	_	_
+
+#Text=lei me l' ha già fatto
+14-1	283-286	lei	_	\[lei	BO026	13-0	linguistic	none	_	_	_	*->3-7	*[3]
+14-2	287-289	me	_	me	_	13-1	linguistic	none	_	_	_	*->3-8	*[3]
+14-3	290-292	l'	_	l'	_	13-2	linguistic	none	_	_	_	*->3-9	*[3]
+14-4	293-295	ha	_	ha	_	13-3	linguistic	none	_	_	_	*->3-10	*[3]
+14-5	296-299	già	_	già	_	13-4	linguistic	none	_	_	_	*->3-11	*[3]
+14-6	300-305	fatto	_	fatto::\]	_	13-5	linguistic	none	4x2	_	_	*->3-12	*[3]
+
+#Text=mh mh
+15-1	306-308	mh	_	mh	BO026	14-0	linguistic	none	_	_	_	_	_
+15-2	309-311	mh	_	mh	_	14-1	linguistic	none	_	_	_	_	_
+
+#Text=e praticamente
+16-1	312-313	e	_	\[e::	BO027	15-0	linguistic	none	0x2	_	_	*->4-1	*[4]
+16-2	314-326	praticamente	WeaklyRising	praticamente\],	_	15-1	linguistic	none	_	_	_	*->4-2	*[4]
+
+#Text=e quindi deve sostituire la prima parte
+17-1	327-328	e	_	\[e	BO026	16-0	linguistic	none	_	_	_	*->4-3	*[4]
+17-2	329-335	quindi	_	quindi	_	16-1	linguistic	none	_	_	_	*->4-4	*[4]
+17-3	336-340	deve	_	deve	_	16-2	linguistic	none	_	_	_	*->4-5	*[4]
+17-4	341-351	sostituire	_	sostituire	_	16-3	linguistic	none	_	_	_	*->4-6	*[4]
+17-5	352-354	la	_	la	_	16-4	linguistic	none	_	_	_	*->4-7	*[4]
+17-6	355-360	prima	_	prima\]	_	16-5	linguistic	none	_	_	_	*->4-8	*[4]
+17-7	361-366	parte	Falling	par\[te\].	_	16-6	linguistic	none	_	_	_	_	_
+17-7.1	364-366	te	_	_	_	_	_	_	_	_	_	*->5-1	*[5]
+
+#Text=s~ praticamente lei mi aveva detto che siccome il l' esame con il programma di quest' anno solamente due saggi si si ripetono
+18-1	367-369	s~	_	\[s~	BO027	17-0	linguistic	none	_	_	_	*->5-2	*[5]
+18-2	370-382	praticamente	_	p\]raticamente	_	17-1	linguistic	none	_	_	_	_	_
+18-2.1	370-371	p	_	_	_	_	_	_	_	_	_	*->5-3	*[5]
+18-3	383-386	lei	_	lei	_	17-2	linguistic	none	_	_	_	_	_
+18-4	387-389	mi	_	mi	_	17-3	linguistic	none	_	_	_	_	_
+18-5	390-395	aveva	_	aveva	_	17-4	linguistic	none	_	_	_	_	_
+18-6	396-401	detto	_	detto	_	17-5	linguistic	none	_	_	_	_	_
+18-7	402-405	che	_	che	_	17-6	linguistic	none	_	_	_	_	_
+18-8	406-413	siccome	_	siccome	_	17-7	linguistic	none	_	_	_	_	_
+18-9	414-416	il	_	il	_	17-8	linguistic	none	_	_	_	_	_
+18-10	417-419	l'	_	l'	_	17-9	linguistic	none	_	_	_	_	_
+18-11	420-425	esame	_	esame:	_	17-10	linguistic	none	4x1	_	_	_	_
+18-12	426-429	con	_	con	_	17-11	linguistic	none	_	_	_	_	_
+18-13	430-432	il	_	il	_	17-12	linguistic	none	_	_	_	_	_
+18-14	433-442	programma	_	programma	_	17-13	linguistic	none	_	_	_	_	_
+18-15	443-445	di	_	di	_	17-14	linguistic	none	_	_	_	_	_
+18-16	446-452	quest'	_	quest'	_	17-15	linguistic	none	_	_	_	_	_
+18-17	453-457	anno	_	anno	_	17-16	linguistic	none	_	_	_	_	_
+18-18	458-467	solamente	_	solamente	_	17-17	linguistic	none	_	_	_	_	_
+18-19	468-471	due	_	due	_	17-18	linguistic	none	_	_	_	_	_
+18-20	472-477	saggi	_	saggi	_	17-19	linguistic	none	_	_	_	_	_
+18-21	478-480	si	_	si:	_	17-20	linguistic	none	1x1	_	_	_	_
+18-22	481-483	si	_	si	_	17-21	linguistic	none	_	_	_	_	_
+18-23	484-492	ripetono	WeaklyRising	ripetono,	_	17-22	linguistic	none	_	_	_	_	_
+
+#Text=per il resto è tutto completamente diverso
+19-1	493-496	per	_	\[per	BO027	18-0	linguistic	none	_	_	_	*->6-1	*[6]
+19-2	497-499	il	_	il	_	18-1	linguistic	none	_	_	_	*->6-2	*[6]
+19-3	500-505	resto	_	re\]sto	_	18-2	linguistic	none	_	_	_	_	_
+19-3.1	500-502	re	_	_	_	_	_	_	_	_	_	*->6-3	*[6]
+19-4	506-507	è	_	è	_	18-3	linguistic	none	_	_	_	_	_
+19-5	508-513	tutto	_	tutto	_	18-4	linguistic	none	_	_	_	_	_
+19-6	514-527	completamente	_	completamente	_	18-5	linguistic	none	_	_	_	_	_
+19-7	528-535	diverso	Falling	diverso.	_	18-6	linguistic	none	_	_	_	_	_
+
+#Text=mh mh
+20-1	536-538	mh	_	\[°mh	BO026	19-0	linguistic	none	_	_	_	*->6-4	*[6]
+20-2	539-541	mh	_	mh°\]	_	19-1	linguistic	none	_	_	_	*->6-5	*[6]
+
+#Text=di eh cambiare integrare insomma solamente quei due saggi
+21-1	542-544	di	_	di	BO027	20-0	linguistic	none	_	_	_	_	_
+21-2	545-547	eh	_	eh	_	20-1	linguistic	none	_	_	_	_	_
+21-3	548-556	cambiare	WeaklyRising	cambiare,	_	20-2	linguistic	none	_	_	_	_	_
+21-4	557-566	integrare	WeaklyRising	integrare,	_	20-3	linguistic	none	_	_	_	_	_
+21-5	567-574	insomma	_	insomma	_	20-4	linguistic	none	_	_	_	_	_
+21-6	575-584	solamente	_	\[(solamente)	_	20-5	linguistic	none	_	_	0-9(0)	*->7-1	*[7]
+21-7	585-589	quei	_	quei	_	20-6	linguistic	none	_	_	_	*->7-2	*[7]
+21-8	590-593	due	_	due	_	20-7	linguistic	none	_	_	_	*->7-3	*[7]
+21-9	594-599	saggi	Falling	saggi\].	_	20-8	linguistic	none	_	_	_	*->7-4	*[7]
+
+#Text=soltanto questi due
+22-1	600-608	soltanto	_	\[soltanto	BO026	21-0	linguistic	none	_	_	_	*->7-5	*[7]
+22-2	609-615	questi	_	questi	_	21-1	linguistic	none	_	_	_	*->7-6	*[7]
+22-3	616-619	due	Falling	due\].	_	21-2	linguistic	none	_	_	_	*->7-7	*[7]
+
+#Text=che fa solo pontecorvo come si dice
+23-1	620-623	che	_	(che	BO027	22-0	linguistic	none	_	_	0-3(0)	_	_
+23-2	624-626	fa	_	fa)	_	22-1	linguistic	none	_	_	0-2(0)	_	_
+23-3	627-631	solo	_	solo	_	22-2	linguistic	none	_	_	_	_	_
+23-4	632-642	pontecorvo	_	pontecorvo	_	22-3	linguistic	none	_	_	_	_	_
+23-5	643-647	come	_	come	_	22-4	linguistic	none	_	_	_	_	_
+23-6	648-650	si	_	si	_	22-5	linguistic	none	_	_	_	_	_
+23-7	651-655	dice	Falling	dice.	_	22-6	linguistic	none	_	_	_	_	_
+
+#Text=e le lingue in classe
+24-1	656-657	e	_	e::	BO027	23-0	linguistic	none	0x2	_	_	_	_
+24-2	658-660	le	_	le	_	23-1	linguistic	none	_	_	_	_	_
+24-3	661-667	lingue	_	lingue	_	23-2	linguistic	none	_	_	_	_	_
+24-4	668-670	in	_	\[in	_	23-3	linguistic	none	_	_	_	*->8-1	*[8]
+24-5	671-677	classe	Falling	classe\].	_	23-4	linguistic	none	_	_	_	*->8-2	*[8]
+
+#Text=ma rispetto al programma vecchio della
+25-1	678-680	ma	_	\[(ma)	BO026	24-0	linguistic	none	_	_	0-2(0)	*->8-3	*[8]
+25-2	681-689	rispetto	_	rispe\]tto	_	24-1	linguistic	none	_	_	_	_	_
+25-2.1	681-686	rispe	_	_	_	_	_	_	_	_	_	*->8-4	*[8]
+25-3	690-692	al	_	al	_	24-2	linguistic	none	_	_	_	_	_
+25-4	693-702	programma	_	programma	_	24-3	linguistic	none	_	_	_	_	_
+25-5	703-710	vecchio	_	\[vecchio	_	24-4	linguistic	none	_	_	_	*->9-1	*[9]
+25-6	711-716	della	_	de\]lla::	_	24-5	linguistic	none	4x2	_	_	_	_
+25-6.1	711-713	de	_	_	_	_	_	_	_	_	_	*->9-2	*[9]
+
+#Text=esatto
+26-1	717-723	esatto	Falling	\[esatto\].	BO027	25-0	linguistic	none	_	_	_	*->9-3	*[9]
+
+#Text=eh mh
+27-1	724-726	eh	_	e:h	BO026	26-0	linguistic	none	0x1	_	_	_	_
+27-2	727-729	mh	_	mh	_	26-1	linguistic	none	_	_	_	_	_
+
+#Text=mh
+28-1	730-732	mh	_	mh	BO026	27-0	linguistic	none	_	_	_	_	_
+
+#Text=però fasulo le serve comunque per l~ perché lei non aveva analizzato non aveva fatto la te~ aveva preparato la tesina
+29-1	733-737	però	_	però	BO026	28-0	linguistic	none	_	_	_	_	_
+29-2	738-744	fasulo	_	fasulo	_	28-1	linguistic	none	_	_	_	_	_
+29-3	745-747	le	_	le	_	28-2	linguistic	none	_	_	_	_	_
+29-4	748-753	serve	_	serve	_	28-3	linguistic	none	_	_	_	_	_
+29-5	754-762	comunque	_	comunque	_	28-4	linguistic	none	_	_	_	_	_
+29-6	763-766	per	_	per	_	28-5	linguistic	none	_	_	_	_	_
+29-7	767-769	l~	_	l~	_	28-6	linguistic	none	_	_	_	_	_
+29-8	770-776	perché	_	perché	_	28-7	linguistic	none	_	_	_	_	_
+29-9	777-780	lei	_	lei	_	28-8	linguistic	none	_	_	_	_	_
+29-10	781-784	non	_	non	_	28-9	linguistic	none	_	_	_	_	_
+29-11	785-790	aveva	_	aveva	_	28-10	linguistic	none	_	_	_	_	_
+29-12	791-801	analizzato	_	analizzato	_	28-11	linguistic	none	_	_	_	_	_
+29-13	802-805	non	_	non	_	28-12	linguistic	none	_	_	_	_	_
+29-14	806-811	aveva	_	aveva	_	28-13	linguistic	none	_	_	_	_	_
+29-15	812-817	fatto	_	fat\[to	_	28-14	linguistic	none	_	_	_	_	_
+29-15.1	815-817	to	_	_	_	_	_	_	_	_	_	*->10-1	*[10]
+29-16	818-820	la	_	la	_	28-15	linguistic	none	_	_	_	*->10-2	*[10]
+29-17	821-824	te~	_	te~	_	28-16	linguistic	none	_	_	_	*->10-3	*[10]
+29-18	825-830	aveva	_	aveva	_	28-17	linguistic	none	_	_	_	*->10-4	*[10]
+29-19	831-840	preparato	_	preparato	_	28-18	linguistic	none	_	_	_	*->10-5	*[10]
+29-20	841-843	la	_	la	_	28-19	linguistic	none	_	_	_	*->10-6	*[10]
+29-21	844-850	tesina	Rising	tesina\]?	_	28-20	linguistic	none	_	_	_	*->10-7	*[10]
+
+#Text=sì io avevo in triennale
+30-1	851-853	sì	Falling	\[sì.	BO027	29-0	linguistic	none	_	_	_	*->10-8	*[10]
+30-2	854-856	io	_	io:	_	29-1	linguistic	none	1x1	_	_	*->10-9	*[10]
+30-3	857-862	avevo	_	avevo:	_	29-2	linguistic	none	4x1	_	_	*->10-10	*[10]
+30-4	863-865	in	_	in	_	29-3	linguistic	none	_	_	_	*->10-11	*[10]
+30-5	866-875	triennale	WeaklyRising	triennale\],	_	29-4	linguistic	none	_	_	_	*->10-12	*[10]
+
+#Text=e non avevo fatto la tesina ma c' era comunque la parte scritta in cui c' è l' analisi dell' interlingua
+31-1	876-877	e	_	e::	BO027	30-0	linguistic	none	0x2	_	_	_	_
+31-2	878-881	non	_	non	_	30-1	linguistic	none	_	_	_	_	_
+31-3	882-887	avevo	_	avevo	_	30-2	linguistic	none	_	_	_	_	_
+31-4	888-893	fatto	_	fatto	_	30-3	linguistic	none	_	_	_	_	_
+31-5	894-896	la	_	la	_	30-4	linguistic	none	_	_	_	_	_
+31-6	897-903	tesina	_	tesina	_	30-5	linguistic	none	_	_	_	_	_
+31-7	904-906	ma	_	ma	_	30-6	linguistic	none	_	_	_	_	_
+31-8	907-909	c'	_	c'	_	30-7	linguistic	none	_	_	_	_	_
+31-9	910-913	era	_	era	_	30-8	linguistic	none	_	_	_	_	_
+31-10	914-922	comunque	_	comunque	_	30-9	linguistic	none	_	_	_	_	_
+31-11	923-925	la	_	la	_	30-10	linguistic	none	_	_	_	_	_
+31-12	926-931	parte	_	parte	_	30-11	linguistic	none	_	_	_	_	_
+31-13	932-939	scritta	_	scritta	_	30-12	linguistic	none	_	_	_	_	_
+31-14	940-942	in	_	in	_	30-13	linguistic	none	_	_	_	_	_
+31-15	943-946	cui	_	cui	_	30-14	linguistic	none	_	_	_	_	_
+31-16	947-949	c'	_	c'	_	30-15	linguistic	none	_	_	_	_	_
+31-17	950-951	è	_	è	_	30-16	linguistic	none	_	_	_	_	_
+31-18	952-954	l'	_	l'	_	30-17	linguistic	none	_	_	_	_	_
+31-19	955-962	analisi	_	analisi	_	30-18	linguistic	none	_	_	_	_	_
+31-20	963-968	dell'	_	dell'	_	30-19	linguistic	none	_	_	_	_	_
+31-21	969-980	interlingua	Falling	interlingua.	_	30-20	linguistic	none	_	_	_	_	_
+
+#Text=però lei non ha fatto didattica della lingua italiana elle due
+32-1	981-985	però	_	però	BO026	31-0	linguistic	none	_	_	_	_	_
+32-2	986-989	lei	_	lei	_	31-1	linguistic	none	_	_	_	_	_
+32-3	990-993	non	_	non	_	31-2	linguistic	none	_	_	_	_	_
+32-4	994-996	ha	_	ha	_	31-3	linguistic	none	_	_	_	_	_
+32-5	997-1002	fatto	_	fatto	_	31-4	linguistic	none	_	_	_	_	_
+32-6	1003-1012	didattica	_	didattica	_	31-5	linguistic	none	_	_	_	_	_
+32-7	1013-1018	della	_	della	_	31-6	linguistic	none	_	_	_	_	_
+32-8	1019-1025	lingua	_	lingua	_	31-7	linguistic	none	_	_	_	_	_
+32-9	1026-1034	italiana	_	italiana	_	31-8	linguistic	none	_	_	_	_	_
+32-10	1035-1039	elle	_	\[elle	_	31-9	linguistic	none	_	_	_	*->11-1	*[11]
+32-11	1040-1043	due	Falling	due\].	_	31-10	linguistic	none	_	_	_	*->11-2	*[11]
+
+#Text=sì sì sì
+33-1	1044-1046	sì	Falling	\[sì\].	BO027	32-0	linguistic	none	_	_	_	*->11-3	*[11]
+33-2	1047-1049	sì	Falling	sì.	_	32-1	linguistic	none	_	_	_	_	_
+33-3	1050-1052	sì	Falling	sì.	_	32-2	linguistic	none	_	_	_	_	_
+
+#Text=ah no è vero perché (.) stiamo parlando di alcuni anni fa
+34-1	1053-1055	ah	_	ah	BO026	33-0	linguistic	none	_	_	_	_	_
+34-2	1056-1058	no	_	no	_	33-1	linguistic	none	_	_	_	_	_
+34-3	1059-1060	è	_	è	_	33-2	linguistic	none	_	_	_	_	_
+34-4	1061-1065	vero	Falling	vero.	_	33-3	linguistic	none	_	_	_	_	_
+34-5	1066-1072	perché	_	perché	_	33-4	linguistic	none	_	_	_	_	_
+34-6	1073-1076	(.)	_	(.)	_	33-5	shortpause	none	_	_	_	_	_
+34-7	1077-1083	stiamo	_	stiamo	_	33-6	linguistic	none	_	_	_	_	_
+34-8	1084-1092	parlando	_	parlando	_	33-7	linguistic	none	_	_	_	_	_
+34-9	1093-1095	di	_	di	_	33-8	linguistic	none	_	_	_	_	_
+34-10	1096-1102	alcuni	_	alcuni	_	33-9	linguistic	none	_	_	_	_	_
+34-11	1103-1107	anni	_	anni	_	33-10	linguistic	none	_	_	_	_	_
+34-12	1108-1110	fa	Falling	\[fa\].	_	33-11	linguistic	none	_	_	_	*->12-1	*[12]
+
+#Text=esatto stiamo parlando del duemilaundici duemiladodici quando la seconda parte era ancora scritta e io avevo analizzato la l' interlingua scr~
+35-1	1111-1117	esatto	_	\[esa\]tto	BO027	34-0	linguistic	none	_	_	_	_	_
+35-1.1	1111-1114	esa	_	_	_	_	_	_	_	_	_	*->12-2	*[12]
+35-2	1118-1124	stiamo	_	\[stiamo	_	34-1	linguistic	none	_	_	_	*->13-1	*[13]
+35-3	1125-1133	parlando	_	parlando	_	34-2	linguistic	none	_	_	_	*->13-2	*[13]
+35-4	1134-1137	del	_	del	_	34-3	linguistic	none	_	_	_	*->13-3	*[13]
+35-5	1138-1151	duemilaundici	_	duemilaundici	_	34-4	linguistic	none	_	_	_	*->13-4	*[13]
+35-6	1152-1165	duemiladodici	_	duem\]iladodici	_	34-5	linguistic	none	_	_	_	_	_
+35-6.1	1152-1156	duem	_	_	_	_	_	_	_	_	_	*->13-5	*[13]
+35-7	1166-1172	quando	_	quando	_	34-6	linguistic	none	_	_	_	_	_
+35-8	1173-1175	la	_	la	_	34-7	linguistic	none	_	_	_	_	_
+35-9	1176-1183	seconda	_	\[secon\]da	_	34-8	linguistic	none	_	_	_	_	_
+35-9.1	1176-1181	secon	_	_	_	_	_	_	_	_	_	*->14-1	*[14]
+35-10	1184-1189	parte	_	parte	_	34-9	linguistic	none	_	_	_	_	_
+35-11	1190-1193	era	_	era	_	34-10	linguistic	none	_	_	_	_	_
+35-12	1194-1200	ancora	_	a\[ncora\]	_	34-11	linguistic	none	_	_	_	_	_
+35-12.1	1195-1200	ncora	_	_	_	_	_	_	_	_	_	*->15-1	*[15]
+35-13	1201-1208	scritta	_	scritta	_	34-12	linguistic	none	_	_	_	_	_
+35-14	1209-1210	e	_	\[e	_	34-13	linguistic	none	_	_	_	*->16-1	*[16]
+35-15	1211-1213	io	_	io\]	_	34-14	linguistic	none	_	_	_	*->16-2	*[16]
+35-16	1214-1219	avevo	_	avevo	_	34-15	linguistic	none	_	_	_	_	_
+35-17	1220-1230	analizzato	_	analizzato	_	34-16	linguistic	none	_	_	_	_	_
+35-18	1231-1233	la	_	la:	_	34-17	linguistic	none	1x1	_	_	_	_
+35-19	1234-1236	l'	_	l'	_	34-18	linguistic	none	_	_	_	_	_
+35-20	1237-1248	interlingua	_	interlingua	_	34-19	linguistic	none	_	_	_	_	_
+35-21	1249-1253	scr~	_	scr~	_	34-20	linguistic	none	_	_	_	_	_
+
+#Text=quando la prima parte
+36-1	1254-1260	quando	_	\[quando	BO026	35-0	linguistic	none	_	_	_	*->13-6	*[13]
+36-2	1261-1263	la	_	la	_	35-1	linguistic	none	_	_	_	*->13-7	*[13]
+36-3	1264-1269	prima	_	prima	_	35-2	linguistic	none	_	_	_	*->13-8	*[13]
+36-4	1270-1275	parte	WeaklyRising	parte\],	_	35-3	linguistic	none	_	_	_	*->13-9	*[13]
+
+#Text=sì
+37-1	1276-1278	sì	Falling	\[sì\].	BO026	36-0	linguistic	none	_	_	_	*->14-2	*[14]
+
+#Text=sì
+38-1	1279-1281	sì	Falling	\[sì\].	BO026	37-0	linguistic	none	_	_	_	*->15-2	*[15]
+
+#Text=sì
+39-1	1282-1284	sì	Falling	\[sì\].	BO026	38-0	linguistic	none	_	_	_	*->16-3	*[16]
+
+#Text=all' esame scritto la parte scritta
+40-1	1285-1289	all'	_	all'	BO027	39-0	linguistic	none	_	_	_	_	_
+40-2	1290-1295	esame	_	esame	_	39-1	linguistic	none	_	_	_	_	_
+40-3	1296-1303	scritto	_	scritto	_	39-2	linguistic	none	_	_	_	_	_
+40-4	1304-1306	la	_	la	_	39-3	linguistic	none	_	_	_	_	_
+40-5	1307-1312	parte	_	parte	_	39-4	linguistic	none	_	_	_	_	_
+40-6	1313-1320	scritta	Falling	scritta.	_	39-5	linguistic	none	_	_	_	_	_
+
+#Text=eh mh
+41-1	1321-1323	eh	_	e:h	BO026	40-0	linguistic	none	0x1	_	_	_	_
+41-2	1324-1326	mh	_	mh	_	40-1	linguistic	none	_	_	_	_	_
+
+#Text=quindi ab~ dobbiamo sostituire ciliberti e anderson i capitoli de le lingue in classe
+42-1	1327-1333	quindi	_	quindi	BO026	41-0	linguistic	none	_	_	_	_	_
+42-2	1334-1337	ab~	_	ab~	_	41-1	linguistic	none	_	_	_	_	_
+42-3	1338-1346	dobbiamo	_	dobbiamo	_	41-2	linguistic	none	_	_	_	_	_
+42-4	1347-1357	sostituire	_	sostituire	_	41-3	linguistic	none	_	_	_	_	_
+42-5	1358-1367	ciliberti	_	ciliberti	_	41-4	linguistic	none	_	_	_	_	_
+42-6	1368-1369	e	_	e	_	41-5	linguistic	none	_	_	_	_	_
+42-7	1370-1378	anderson	_	anderson	_	41-6	linguistic	none	_	_	_	_	_
+42-8	1379-1380	i	_	i	_	41-7	linguistic	none	_	_	_	_	_
+42-9	1381-1389	capitoli	_	capitoli	_	41-8	linguistic	none	_	_	_	_	_
+42-10	1390-1392	de	_	\[de	_	41-9	linguistic	none	_	_	_	*->17-1	*[17]
+42-11	1393-1395	le	_	le	_	41-10	linguistic	none	_	_	_	*->17-2	*[17]
+42-12	1396-1402	lingue	_	lingue	_	41-11	linguistic	none	_	_	_	*->17-3	*[17]
+42-13	1403-1405	in	_	in	_	41-12	linguistic	none	_	_	_	*->17-4	*[17]
+42-14	1406-1412	classe	WeaklyRising	cla\]sse,	_	41-13	linguistic	none	_	_	_	_	_
+42-14.1	1406-1409	cla	_	_	_	_	_	_	_	_	_	*->17-5	*[17]
+
+#Text=esatto
+43-1	1413-1419	esatto	Falling	\[esatto\].	BO027	42-0	linguistic	none	_	_	_	*->17-6	*[17]
+
+#Text=e i capitoli di fasulo
+44-1	1420-1421	e	_	e:	BO026	43-0	linguistic	none	0x1	_	_	_	_
+44-2	1422-1423	i	_	i	_	43-1	linguistic	none	_	_	_	_	_
+44-3	1424-1432	capitoli	_	capitoli	_	43-2	linguistic	none	_	_	_	_	_
+44-4	1433-1435	di	_	di	_	43-3	linguistic	none	_	_	_	_	_
+44-5	1436-1442	fasulo	Falling	fasulo.	_	43-4	linguistic	none	_	_	_	_	_
+
+#Text=esatto
+45-1	1443-1449	esatto	Falling	esatto.	BO027	44-0	linguistic	none	_	_	_	_	_
+
+#Text=che le servono per l' analisi della sequenza
+46-1	1450-1453	che	_	che	BO026	45-0	linguistic	none	_	_	_	_	_
+46-2	1454-1456	le	_	le	_	45-1	linguistic	none	_	_	_	_	_
+46-3	1457-1464	servono	_	servono	_	45-2	linguistic	none	_	_	_	_	_
+46-4	1465-1468	per	_	pe::r	_	45-3	linguistic	none	1x2	_	_	_	_
+46-5	1469-1471	l'	_	l'	_	45-4	linguistic	none	_	_	_	_	_
+46-6	1472-1479	analisi	_	analisi	_	45-5	linguistic	none	_	_	_	_	_
+46-7	1480-1485	della	_	della	_	45-6	linguistic	none	_	_	_	_	_
+46-8	1486-1494	sequenza	WeaklyRising	sequenza,	_	45-7	linguistic	none	_	_	_	_	_
+
+#Text=eh mh
+47-1	1495-1497	eh	_	e::h	BO026	46-0	linguistic	none	0x2	_	_	_	_
+47-2	1498-1500	mh	_	mh	_	46-1	linguistic	none	_	_	_	_	_
+
+#Text=non le avevo già indicato
+48-1	1501-1504	non	_	non	BO026	47-0	linguistic	none	_	_	_	_	_
+48-2	1505-1507	le	_	le	_	47-1	linguistic	none	_	_	_	_	_
+48-3	1508-1513	avevo	_	avevo	_	47-2	linguistic	none	_	_	_	_	_
+48-4	1514-1517	già	_	già	_	47-3	linguistic	none	_	_	_	_	_
+48-5	1518-1526	indicato	WeaklyRising	indica\[to\],	_	47-4	linguistic	none	_	_	_	_	_
+48-5.1	1524-1526	to	_	_	_	_	_	_	_	_	_	*->18-1	*[18]
+
+#Text=e no ha detto che aveva in mente dei saggi
+49-1	1527-1528	e	_	\[e:\]	BO027	48-0	linguistic	none	0x1	_	_	*->18-2	*[18]
+49-2	1529-1531	no	_	no	_	48-1	linguistic	none	_	_	_	_	_
+49-3	1532-1534	ha	_	ha	_	48-2	linguistic	none	_	_	_	_	_
+49-4	1535-1540	detto	_	\[detto	_	48-3	linguistic	none	_	_	_	*->19-1	*[19]
+49-5	1541-1544	che	_	che	_	48-4	linguistic	none	_	_	_	*->19-2	*[19]
+49-6	1545-1550	aveva	_	(aveva	_	48-5	linguistic	none	_	_	0-5(0)	*->19-3	*[19]
+49-7	1551-1553	in	_	in)	_	48-6	linguistic	none	_	_	0-2(0)	*->19-4	*[19]
+49-8	1554-1559	mente	_	mente	_	48-7	linguistic	none	_	_	_	*->19-5	*[19]
+49-9	1560-1563	dei	_	dei\]	_	48-8	linguistic	none	_	_	_	*->19-6	*[19]
+49-10	1564-1569	saggi	WeaklyRising	\[saggi\],	_	48-9	linguistic	none	_	_	_	*->20-1	*[20]
+
+#Text=eh mh eh allora
+50-1	1570-1572	eh	_	\[e:h	BO026	49-0	linguistic	none	0x1	_	_	*->19-7	*[19]
+50-2	1573-1575	mh	_	mh	_	49-1	linguistic	none	_	_	_	*->19-8	*[19]
+50-3	1576-1578	eh	_	eh	_	49-2	linguistic	none	_	_	_	*->19-9	*[19]
+50-4	1579-1585	allora	WeaklyRising	(allora)\],	_	49-3	linguistic	none	_	_	0-6(0)	*->19-10	*[19]
+
+#Text=quali era~ quali sono le sue lingue straniere
+51-1	1586-1591	quali	_	\[quali	BO026	50-0	linguistic	none	_	_	_	*->20-2	*[20]
+51-2	1592-1596	era~	_	era~	_	50-1	linguistic	none	_	_	_	*->20-3	*[20]
+51-3	1597-1602	quali	_	quali	_	50-2	linguistic	none	_	_	_	*->20-4	*[20]
+51-4	1603-1607	sono	_	so\]no	_	50-3	linguistic	none	_	_	_	_	_
+51-4.1	1603-1605	so	_	_	_	_	_	_	_	_	_	*->20-5	*[20]
+51-5	1608-1610	le	_	le	_	50-4	linguistic	none	_	_	_	_	_
+51-6	1611-1614	sue	_	sue	_	50-5	linguistic	none	_	_	_	_	_
+51-7	1615-1621	lingue	_	lingue	_	50-6	linguistic	none	_	_	_	_	_
+51-8	1622-1631	straniere	Rising	straniere?	_	50-7	linguistic	none	_	_	_	_	_
+
+#Text=e inglese e tedesco
+52-1	1632-1633	e	_	e:	BO027	51-0	linguistic	none	0x1	_	_	_	_
+52-2	1634-1641	inglese	_	inglese	_	51-1	linguistic	none	_	_	_	_	_
+52-3	1642-1643	e	_	e	_	51-2	linguistic	none	_	_	_	_	_
+52-4	1644-1651	tedesco	Falling	tedesco.	_	51-3	linguistic	none	_	_	_	_	_
+
+#Text=quindi c' è già l' articolo in inglese quello di tom coley sull' interazione in classe
+53-1	1652-1658	quindi	_	quindi	BO026	52-0	linguistic	none	_	_	_	_	_
+53-2	1659-1661	c'	_	c'	_	52-1	linguistic	none	_	_	_	_	_
+53-3	1662-1663	è	_	è	_	52-2	linguistic	none	_	_	_	_	_
+53-4	1664-1667	già	_	già	_	52-3	linguistic	none	_	_	_	_	_
+53-5	1668-1670	l'	_	l'	_	52-4	linguistic	none	_	_	_	_	_
+53-6	1671-1679	articolo	_	articolo	_	52-5	linguistic	none	_	_	_	_	_
+53-7	1680-1682	in	_	in	_	52-6	linguistic	none	_	_	_	_	_
+53-8	1683-1690	inglese	_	inglese	_	52-7	linguistic	none	_	_	_	_	_
+53-9	1691-1697	quello	_	\[quello\]	_	52-8	linguistic	none	_	_	_	*->21-1	*[21]
+53-10	1698-1700	di	_	di	_	52-9	linguistic	none	_	_	_	_	_
+53-11	1701-1704	tom	_	tom	_	52-10	linguistic	none	_	_	_	_	_
+53-12	1705-1710	coley	_	c\[oley	_	52-11	linguistic	none	_	_	_	_	_
+53-12.1	1706-1710	oley	_	_	_	_	_	_	_	_	_	*->22-1	*[22]
+53-13	1711-1716	sull'	_	sul\]l'	_	52-12	linguistic	none	_	_	_	_	_
+53-13.1	1711-1714	sul	_	_	_	_	_	_	_	_	_	*->22-2	*[22]
+53-14	1717-1728	interazione	_	interazione	_	52-13	linguistic	none	_	_	_	_	_
+53-15	1729-1731	in	_	in	_	52-14	linguistic	none	_	_	_	_	_
+53-16	1732-1738	classe	WeaklyRising	classe,	_	52-15	linguistic	none	_	_	_	_	_
+
+#Text=sì
+54-1	1739-1741	sì	Falling	\[sì\].	BO027	53-0	linguistic	none	_	_	_	*->21-2	*[21]
+
+#Text=esatto
+55-1	1742-1748	esatto	Falling	\[esatto\].	BO027	54-0	linguistic	none	_	_	_	*->22-3	*[22]
+
+#Text=eh mh
+56-1	1749-1751	eh	_	e::h	BO026	55-0	linguistic	none	0x2	_	_	_	_
+56-2	1752-1754	mh	_	mh	_	55-1	linguistic	none	_	_	_	_	_
+
+#Text=le ridurrei il materiale però le darei il un articolo un altro articolo in inglese
+57-1	1755-1757	le	_	le	BO026	56-0	linguistic	none	_	_	_	_	_
+57-2	1758-1766	ridurrei	_	ridurrei	_	56-1	linguistic	none	_	_	_	_	_
+57-3	1767-1769	il	_	il	_	56-2	linguistic	none	_	_	_	_	_
+57-4	1770-1779	materiale	_	materiale	_	56-3	linguistic	none	_	_	_	_	_
+57-5	1780-1784	però	_	però	_	56-4	linguistic	none	_	_	_	_	_
+57-6	1785-1787	le	_	le	_	56-5	linguistic	none	_	_	_	_	_
+57-7	1788-1793	darei	_	darei	_	56-6	linguistic	none	_	_	_	_	_
+57-8	1794-1796	il	_	i:l	_	56-7	linguistic	none	0x1	_	_	_	_
+57-9	1797-1799	un	_	un	_	56-8	linguistic	none	_	_	_	_	_
+57-10	1800-1808	articolo	_	articolo	_	56-9	linguistic	none	_	_	_	_	_
+57-11	1809-1811	un	_	un	_	56-10	linguistic	none	_	_	_	_	_
+57-12	1812-1817	altro	_	altro	_	56-11	linguistic	none	_	_	_	_	_
+57-13	1818-1826	articolo	_	articolo	_	56-12	linguistic	none	_	_	_	_	_
+57-14	1827-1829	in	_	\[in\]	_	56-13	linguistic	none	_	_	_	*->23-1	*[23]
+57-15	1830-1837	inglese	WeaklyRising	inglese,	_	56-14	linguistic	none	_	_	_	_	_
+
+#Text=sì
+58-1	1838-1840	sì	Falling	\[sì\].	BO027	57-0	linguistic	none	_	_	_	*->23-2	*[23]
+
+#Text=sì sì
+59-1	1841-1843	sì	Falling	sì.	BO027	58-0	linguistic	none	_	_	_	_	_
+59-2	1844-1846	sì	Falling	sì.	_	58-1	linguistic	none	_	_	_	_	_
+
+#Text=mh
+60-1	1847-1849	mh	WeaklyRising	mh,	BO026	59-0	linguistic	none	_	_	_	_	_
+
+#Text=non c' è problema
+61-1	1850-1853	non	_	non	BO027	60-0	linguistic	none	_	_	_	_	_
+61-2	1854-1856	c'	_	c'	_	60-1	linguistic	none	_	_	_	_	_
+61-3	1857-1858	è	_	è	_	60-2	linguistic	none	_	_	_	_	_
+61-4	1859-1867	problema	Falling	problema.	_	60-3	linguistic	none	_	_	_	_	_
+
+#Text=e di stephen walsh adesso me lo segno perché glielo mando alla fine del ricevimento
+62-1	1868-1869	e	_	e::	BO026	61-0	linguistic	none	0x2	_	_	_	_
+62-2	1870-1872	di	_	di	_	61-1	linguistic	none	_	_	_	_	_
+62-3	1873-1880	stephen	_	stephen	_	61-2	linguistic	none	_	_	_	_	_
+62-4	1881-1886	walsh	_	walsh	_	61-3	linguistic	none	_	_	_	_	_
+62-5	1887-1893	adesso	_	adesso	_	61-4	linguistic	none	_	_	_	_	_
+62-6	1894-1896	me	_	me	_	61-5	linguistic	none	_	_	_	_	_
+62-7	1897-1899	lo	_	lo	_	61-6	linguistic	none	_	_	_	_	_
+62-8	1900-1905	segno	_	segno	_	61-7	linguistic	none	_	_	_	_	_
+62-9	1906-1912	perché	_	perché	_	61-8	linguistic	none	_	_	_	_	_
+62-10	1913-1919	glielo	_	glielo	_	61-9	linguistic	none	_	_	_	_	_
+62-11	1920-1925	mando	_	mando	_	61-10	linguistic	none	_	_	_	_	_
+62-12	1926-1930	alla	_	alla	_	61-11	linguistic	none	_	_	_	_	_
+62-13	1931-1935	fine	_	fine	_	61-12	linguistic	none	_	_	_	_	_
+62-14	1936-1939	del	_	del	_	61-13	linguistic	none	_	_	_	_	_
+62-15	1940-1951	ricevimento	WeaklyRising	ricevimento,	_	61-14	linguistic	none	_	_	_	_	_
+
+#Text=okay
+63-1	1952-1956	okay	Falling	okay.	BO027	62-0	linguistic	none	_	_	_	_	_
+
+#Text=è sempre sull' interazione in classe
+64-1	1957-1958	è	_	è	BO026	63-0	linguistic	none	_	_	_	_	_
+64-2	1959-1965	sempre	_	sempre	_	63-1	linguistic	none	_	_	_	_	_
+64-3	1966-1971	sull'	_	°sull'	_	63-2	linguistic	none	_	_	_	_	_
+64-4	1972-1983	interazione	_	interazione	_	63-3	linguistic	none	_	_	_	_	_
+64-5	1984-1986	in	_	in	_	63-4	linguistic	none	_	_	_	_	_
+64-6	1987-1993	classe	Falling	classe.°	_	63-5	linguistic	none	_	_	_	_	_
+
+#Text=e
+65-1	1994-1995	e	WeaklyRising	e,	BO026	64-0	linguistic	none	_	_	_	_	_
+
+#Text=eh mh
+66-1	1996-1998	eh	_	e:h	BO026	65-0	linguistic	none	0x1	_	_	_	_
+66-2	1999-2001	mh	_	mh	_	65-1	linguistic	none	_	_	_	_	_
+
+#Text=e poi
+67-1	2002-2003	e	_	e	BO026	66-0	linguistic	none	_	_	_	_	_
+67-2	2004-2007	poi	WeaklyRising	poi,	_	66-1	linguistic	none	_	_	_	_	_
+
+#Text=sa che devo considerare anche proprio la quantità per quanto non debba essere la stessa
+68-1	2008-2010	sa	_	sa	BO026	67-0	linguistic	none	_	_	_	_	_
+68-2	2011-2014	che	_	che	_	67-1	linguistic	none	_	_	_	_	_
+68-3	2015-2019	devo	_	devo	_	67-2	linguistic	none	_	_	_	_	_
+68-4	2020-2031	considerare	_	considerare	_	67-3	linguistic	none	_	_	_	_	_
+68-5	2032-2037	anche	_	anche	_	67-4	linguistic	none	_	_	_	_	_
+68-6	2038-2045	proprio	_	proprio	_	67-5	linguistic	none	_	_	_	_	_
+68-7	2046-2048	la	_	la	_	67-6	linguistic	none	_	_	_	_	_
+68-8	2049-2057	quantità	_	quantità	_	67-7	linguistic	none	_	_	_	_	_
+68-9	2058-2061	per	_	per	_	67-8	linguistic	none	_	_	_	_	_
+68-10	2062-2068	quanto	_	quanto	_	67-9	linguistic	none	_	_	_	_	_
+68-11	2069-2072	non	_	non	_	67-10	linguistic	none	_	_	_	_	_
+68-12	2073-2078	debba	_	debba	_	67-11	linguistic	none	_	_	_	_	_
+68-13	2079-2085	essere	_	essere	_	67-12	linguistic	none	_	_	_	_	_
+68-14	2086-2088	la	_	la	_	67-13	linguistic	none	_	_	_	_	_
+68-15	2089-2095	stessa	WeaklyRising	stessa,	_	67-14	linguistic	none	_	_	_	_	_
+
+#Text=cioè
+69-1	2096-2100	cioè	WeaklyRising	cioè,	BO026	68-0	linguistic	none	_	_	_	_	_
+
+#Text=ab~ mh
+70-1	2101-2104	ab~	_	ab~	BO026	69-0	linguistic	none	_	_	_	_	_
+70-2	2105-2107	mh	_	m:h	_	69-1	linguistic	none	0x1	_	_	_	_
+
+#Text=diciamo (.) quasi equivalente però considerando che le aggiungo un un articolo in inglese
+71-1	2108-2115	diciamo	_	diciamo	BO026	70-0	linguistic	none	_	_	_	_	_
+71-2	2116-2119	(.)	_	(.)	_	70-1	shortpause	none	_	_	_	_	_
+71-3	2120-2125	quasi	_	quasi	_	70-2	linguistic	none	_	_	_	_	_
+71-4	2126-2137	equivalente	Falling	equivalente.	_	70-3	linguistic	none	_	_	_	_	_
+71-5	2138-2142	però	_	\[però\]	_	70-4	linguistic	none	_	_	_	*->24-1	*[24]
+71-6	2143-2155	considerando	_	considerando	_	70-5	linguistic	none	_	_	_	_	_
+71-7	2156-2159	che	_	che	_	70-6	linguistic	none	_	_	_	_	_
+71-8	2160-2162	le	_	le	_	70-7	linguistic	none	_	_	_	_	_
+71-9	2163-2171	aggiungo	_	aggiungo	_	70-8	linguistic	none	_	_	_	_	_
+71-10	2172-2174	un	_	un	_	70-9	linguistic	none	_	_	_	_	_
+71-11	2175-2177	un	_	un	_	70-10	linguistic	none	_	_	_	_	_
+71-12	2178-2186	articolo	_	articolo	_	70-11	linguistic	none	_	_	_	_	_
+71-13	2187-2189	in	_	in	_	70-12	linguistic	none	_	_	_	_	_
+71-14	2190-2197	inglese	WeaklyRising	inglese,	_	70-13	linguistic	none	_	_	_	_	_
+
+#Text=sì
+72-1	2198-2200	sì	Falling	\[sì\].	BO027	71-0	linguistic	none	_	_	_	*->24-2	*[24]
+
+#Text=quindi
+73-1	2201-2207	quindi	WeaklyRising	quindi,	BO026	72-0	linguistic	none	_	_	_	_	_
+
+#Text=sarà comunque ridotta rispettoaquel quel programma
+74-1	2208-2212	sarà	_	sarà	BO026	73-0	linguistic	none	_	_	_	_	_
+74-2	2213-2221	comunque	_	comunque	_	73-1	linguistic	none	_	_	_	_	_
+74-3	2222-2229	ridotta	_	ridotta	_	73-2	linguistic	none	_	_	_	_	_
+74-4	2230-2243	rispettoaquel	_	rispetto\[a\]quel	_	73-3	linguistic	none	_	_	_	_	_
+74-4.1	2238-2239	a	_	_	_	_	_	_	_	_	_	*->25-1	*[25]
+74-5	2244-2248	quel	_	quel	_	73-4	linguistic	none	_	_	_	_	_
+74-6	2249-2258	programma	Falling	programma.	_	73-5	linguistic	none	_	_	_	_	_
+
+#Text=okay
+75-1	2259-2263	okay	Falling	\[okay\].	BO027	74-0	linguistic	none	_	_	_	*->25-2	*[25]
+
+#Text=eh mh
+76-1	2264-2266	eh	_	e::h	BO026	75-0	linguistic	none	0x2	_	_	_	_
+76-2	2267-2269	mh	_	mh	_	75-1	linguistic	none	_	_	_	_	_
+
+#Text=questo di di steven walsh (.) e
+77-1	2270-2276	questo	_	questo	BO026	76-0	linguistic	none	_	_	_	_	_
+77-2	2277-2279	di	_	di:	_	76-1	linguistic	none	1x1	_	_	_	_
+77-3	2280-2282	di	_	di	_	76-2	linguistic	none	_	_	_	_	_
+77-4	2283-2289	steven	_	steven	_	76-3	linguistic	none	_	_	_	_	_
+77-5	2290-2295	walsh	_	walsh	_	76-4	linguistic	none	_	_	_	_	_
+77-6	2296-2299	(.)	_	(.)	_	76-5	shortpause	none	_	_	_	_	_
+77-7	2300-2301	e	WeaklyRising	e,	_	76-6	linguistic	none	_	_	_	_	_
+
+#Text=uh un altro che contenga anche degli esempi
+78-1	2302-2304	uh	_	uh	BO026	77-0	linguistic	none	_	_	_	_	_
+78-2	2305-2307	un	_	un	_	77-1	linguistic	none	_	_	_	_	_
+78-3	2308-2313	altro	_	altro	_	77-2	linguistic	none	_	_	_	_	_
+78-4	2314-2317	che	_	che	_	77-3	linguistic	none	_	_	_	_	_
+78-5	2318-2326	contenga	_	contenga	_	77-4	linguistic	none	_	_	_	_	_
+78-6	2327-2332	anche	_	anche	_	77-5	linguistic	none	_	_	_	_	_
+78-7	2333-2338	degli	_	degli	_	77-6	linguistic	none	_	_	_	_	_
+78-8	2339-2345	esempi	Falling	esem\[pi\].	_	77-7	linguistic	none	_	_	_	_	_
+78-8.1	2343-2345	pi	_	_	_	_	_	_	_	_	_	*->26-1	*[26]
+
+#Text=certo
+79-1	2346-2351	certo	Falling	\[c\]erto.	BO027	78-0	linguistic	none	_	_	_	_	_
+79-1.1	2346-2347	c	_	_	_	_	_	_	_	_	_	*->26-2	*[26]
+
+#Text=così le serve proprio per l' analisi della sequenza
+80-1	2352-2356	così	_	così	BO026	79-0	linguistic	none	_	_	_	_	_
+80-2	2357-2359	le	_	le	_	79-1	linguistic	none	_	_	_	_	_
+80-3	2360-2365	serve	_	serve	_	79-2	linguistic	none	_	_	_	_	_
+80-4	2366-2373	proprio	_	proprio	_	79-3	linguistic	none	_	_	_	_	_
+80-5	2374-2377	per	_	per	_	79-4	linguistic	none	_	_	_	_	_
+80-6	2378-2380	l'	_	l'	_	79-5	linguistic	none	_	_	_	_	_
+80-7	2381-2388	analisi	_	analisi	_	79-6	linguistic	none	_	_	_	_	_
+80-8	2389-2394	della	_	della	_	79-7	linguistic	none	_	_	_	_	_
+80-9	2395-2403	sequenza	Falling	sequen\[za\].	_	79-8	linguistic	none	_	_	_	_	_
+80-9.1	2401-2403	za	_	_	_	_	_	_	_	_	_	*->28-1	*[28]
+
+#Text=okay
+81-1	2404-2408	okay	Falling	\[o\]kay.	BO027	80-0	linguistic	none	_	_	_	_	_
+81-1.1	2404-2405	o	_	_	_	_	_	_	_	_	_	*->28-2	*[28]
+
+#Text=eh mh
+82-1	2409-2411	eh	_	e::h	BO026	81-0	linguistic	none	0x2	_	_	_	_
+82-2	2412-2414	mh	_	mh	_	81-1	linguistic	none	_	_	_	_	_
+
+#Text=glieli mando adesso li~ appena ho finito e glieli mando
+83-1	2415-2421	glieli	_	glieli	BO026	82-0	linguistic	none	_	_	_	_	_
+83-2	2422-2427	mando	_	mando::	_	82-1	linguistic	none	4x2	_	_	_	_
+83-3	2428-2434	adesso	_	adesso:	_	82-2	linguistic	none	5x1	_	_	_	_
+83-4	2435-2438	li~	_	li~	_	82-3	linguistic	none	_	_	_	_	_
+83-5	2439-2445	appena	_	appena	_	82-4	linguistic	none	_	_	_	_	_
+83-6	2446-2448	ho	_	ho	_	82-5	linguistic	none	_	_	_	_	_
+83-7	2449-2455	finito	_	f\[inito\]	_	82-6	linguistic	none	_	_	_	_	_
+83-7.1	2450-2455	inito	_	_	_	_	_	_	_	_	_	*->29-1	*[29]
+83-8	2456-2457	e	_	e:	_	82-7	linguistic	none	0x1	_	_	_	_
+83-9	2458-2464	glieli	_	\[°glieli	_	82-8	linguistic	none	_	_	_	*->30-1	*[30]
+83-10	2465-2470	mando	Falling	mando.°\]	_	82-9	linguistic	none	_	_	_	*->30-2	*[30]
+
+#Text=okay
+84-1	2471-2475	okay	Falling	\[okay\].	BO027	83-0	linguistic	none	_	_	_	*->29-2	*[29]
+
+#Text=e quindi noi eravamo rimaste poi che io dovevo sostenere solamente la mh l' esame orale no
+85-1	2476-2477	e	_	\[e:	BO027	84-0	linguistic	none	0x1	_	_	*->30-3	*[30]
+85-2	2478-2484	quindi	_	quindi	_	84-1	linguistic	none	_	_	_	*->30-4	*[30]
+85-3	2485-2488	noi	_	n\]oi	_	84-2	linguistic	none	_	_	_	_	_
+85-3.1	2485-2486	n	_	_	_	_	_	_	_	_	_	*->30-5	*[30]
+85-4	2489-2496	eravamo	_	eravamo	_	84-3	linguistic	none	_	_	_	_	_
+85-5	2497-2504	rimaste	_	rimaste	_	84-4	linguistic	none	_	_	_	_	_
+85-6	2505-2508	poi	_	poi	_	84-5	linguistic	none	_	_	_	_	_
+85-7	2509-2512	che	_	che	_	84-6	linguistic	none	_	_	_	_	_
+85-8	2513-2515	io	_	io	_	84-7	linguistic	none	_	_	_	_	_
+85-9	2516-2522	dovevo	_	dovevo	_	84-8	linguistic	none	_	_	_	_	_
+85-10	2523-2532	sostenere	_	sostenere	_	84-9	linguistic	none	_	_	_	_	_
+85-11	2533-2542	solamente	_	solamente	_	84-10	linguistic	none	_	_	_	_	_
+85-12	2543-2545	la	_	la:	_	84-11	linguistic	none	1x1	_	_	_	_
+85-13	2546-2548	mh	_	m:h	_	84-12	linguistic	none	0x1	_	_	_	_
+85-14	2549-2551	l'	_	l'	_	84-13	linguistic	none	_	_	_	_	_
+85-15	2552-2557	esame	_	esame	_	84-14	linguistic	none	_	_	_	_	_
+85-16	2558-2563	orale	_	orale	_	84-15	linguistic	none	_	_	_	_	_
+85-17	2564-2566	no	WeaklyRising	no,	_	84-16	linguistic	none	_	_	_	_	_
+
+#Text=senza lo scritto
+86-1	2567-2572	senza	_	senza	BO027	85-0	linguistic	none	_	_	_	_	_
+86-2	2573-2575	lo	_	\[lo	_	85-1	linguistic	none	_	_	_	*->31-1	*[31]
+86-3	2576-2583	scritto	Falling	scri\]tto.	_	85-2	linguistic	none	_	_	_	_	_
+86-3.1	2576-2580	scri	_	_	_	_	_	_	_	_	_	*->31-2	*[31]
+
+#Text=sì
+87-1	2584-2586	sì	Falling	\[°sì.°\]	BO026	86-0	linguistic	none	_	_	_	*->31-3	*[31]
+
+#Text=xx lo scritto lo deve sostituire
+88-1	2587-2589	xx	_	\[xx	BO026	87-0	unknown	none	_	_	_	*->32-1	*[32]
+88-2	2590-2592	lo	_	lo	_	87-1	linguistic	none	_	_	_	*->32-2	*[32]
+88-3	2593-2600	scritto	_	scritto\]	_	87-2	linguistic	none	_	_	_	*->32-3	*[32]
+88-4	2601-2603	lo	_	lo	_	87-3	linguistic	none	_	_	_	_	_
+88-5	2604-2608	deve	_	deve	_	87-4	linguistic	none	_	_	_	_	_
+88-6	2609-2619	sostituire	Falling	sostituire.	_	87-5	linguistic	none	_	_	_	_	_
+
+#Text=e quando
+89-1	2620-2621	e	_	\[e	BO027	88-0	linguistic	none	_	_	_	*->32-4	*[32]
+89-2	2622-2628	quando	_	quando:\]	_	88-1	linguistic	none	5x1	_	_	*->32-5	*[32]
+
+#Text=sì
+90-1	2629-2631	sì	Falling	sì.	BO027	89-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+91-1	2632-2634	sì	Falling	sì.	BO026	90-0	linguistic	none	_	_	_	_	_
+
+#Text=lei mi aveva detto nel caso poi facciamo un' analisi direttamente all' orale insomma in classe
+92-1	2635-2638	lei	_	lei	BO027	91-0	linguistic	none	_	_	_	_	_
+92-2	2639-2641	mi	_	mi	_	91-1	linguistic	none	_	_	_	_	_
+92-3	2642-2647	aveva	_	aveva	_	91-2	linguistic	none	_	_	_	_	_
+92-4	2648-2653	detto	_	detto	_	91-3	linguistic	none	_	_	_	_	_
+92-5	2654-2657	nel	_	nel	_	91-4	linguistic	none	_	_	_	_	_
+92-6	2658-2662	caso	_	caso	_	91-5	linguistic	none	_	_	_	_	_
+92-7	2663-2666	poi	_	poi:	_	91-6	linguistic	none	2x1	_	_	_	_
+92-8	2667-2675	facciamo	_	facciamo	_	91-7	linguistic	none	_	_	_	_	_
+92-9	2676-2679	un'	_	un'	_	91-8	linguistic	none	_	_	_	_	_
+92-10	2680-2687	analisi	_	analisi	_	91-9	linguistic	none	_	_	_	_	_
+92-11	2688-2700	direttamente	_	direttamente	_	91-10	linguistic	none	_	_	_	_	_
+92-12	2701-2705	all'	_	all'	_	91-11	linguistic	none	_	_	_	_	_
+92-13	2706-2711	orale	_	orale	_	91-12	linguistic	none	_	_	_	_	_
+92-14	2712-2719	insomma	_	insomma	_	91-13	linguistic	none	_	_	_	_	_
+92-15	2720-2722	in	_	in	_	91-14	linguistic	none	_	_	_	_	_
+92-16	2723-2729	classe	WeaklyRising	classe,	_	91-15	linguistic	none	_	_	_	_	_
+
+#Text=senza mh sostenere di nuovo lo scritto
+93-1	2730-2735	senza	_	senza	BO027	92-0	linguistic	none	_	_	_	_	_
+93-2	2736-2738	mh	_	m:\[h	_	92-1	linguistic	none	0x1	_	_	_	_
+93-2.1	2737-2738	h	_	_	_	_	_	_	_	_	_	*->33-1	*[33]
+93-3	2739-2748	sostenere	_	sostenere	_	92-2	linguistic	none	_	_	_	*->33-2	*[33]
+93-4	2749-2751	di	_	di	_	92-3	linguistic	none	_	_	_	*->33-3	*[33]
+93-5	2752-2757	nuovo	_	nuovo	_	92-4	linguistic	none	_	_	_	*->33-4	*[33]
+93-6	2758-2760	lo	_	lo	_	92-5	linguistic	none	_	_	_	*->33-5	*[33]
+93-7	2761-2768	scritto	Falling	scri\]tto.	_	92-6	linguistic	none	_	_	_	_	_
+93-7.1	2761-2765	scri	_	_	_	_	_	_	_	_	_	*->33-6	*[33]
+
+#Text=no allora aspetti
+94-1	2769-2771	no	_	\[no	BO026	93-0	linguistic	none	_	_	_	*->33-7	*[33]
+94-2	2772-2778	allora	_	allora	_	93-1	linguistic	none	_	_	_	*->33-8	*[33]
+94-3	2779-2786	aspetti	Falling	aspetti\].	_	93-2	linguistic	none	_	_	_	*->33-9	*[33]
+
+#Text=no no non può fare solo una parte dell' esame se lei ha fatto
+95-1	2787-2789	no	_	no	BO026	94-0	linguistic	none	_	_	_	_	_
+95-2	2790-2792	no	Falling	no.	_	94-1	linguistic	none	_	_	_	_	_
+95-3	2793-2796	non	_	non	_	94-2	linguistic	none	_	_	_	_	_
+95-4	2797-2800	può	_	può	_	94-3	linguistic	none	_	_	_	_	_
+95-5	2801-2805	fare	_	fare	_	94-4	linguistic	none	_	_	_	_	_
+95-6	2806-2810	solo	_	solo	_	94-5	linguistic	none	_	_	_	_	_
+95-7	2811-2814	una	_	una	_	94-6	linguistic	none	_	_	_	_	_
+95-8	2815-2820	parte	_	parte	_	94-7	linguistic	none	_	_	_	_	_
+95-9	2821-2826	dell'	_	dell'	_	94-8	linguistic	none	_	_	_	_	_
+95-10	2827-2832	esame	Falling	esame.	_	94-9	linguistic	none	_	_	_	_	_
+95-11	2833-2835	se	_	se	_	94-10	linguistic	none	_	_	_	_	_
+95-12	2836-2839	lei	_	lei	_	94-11	linguistic	none	_	_	_	_	_
+95-13	2840-2842	ha	_	ha	_	94-12	linguistic	none	_	_	_	_	_
+95-14	2843-2848	fatto	WeaklyRising	fatto,	_	94-13	linguistic	none	_	_	_	_	_
+
+#Text=l~ già la prova scritta sull' analisi dell' interlingua
+96-1	2849-2851	l~	_	l~	BO026	95-0	linguistic	none	_	_	_	_	_
+96-2	2852-2855	già	_	già	_	95-1	linguistic	none	_	_	_	_	_
+96-3	2856-2858	la	_	la	_	95-2	linguistic	none	_	_	_	_	_
+96-4	2859-2864	prova	_	prova	_	95-3	linguistic	none	_	_	_	_	_
+96-5	2865-2872	scritta	_	scritta	_	95-4	linguistic	none	_	_	_	_	_
+96-6	2873-2878	sull'	_	sull'	_	95-5	linguistic	none	_	_	_	_	_
+96-7	2879-2886	analisi	_	analisi	_	95-6	linguistic	none	_	_	_	_	_
+96-8	2887-2892	dell'	_	dell'	_	95-7	linguistic	none	_	_	_	_	_
+96-9	2893-2904	interlingua	WeaklyRising	interli\[ngua\],	_	95-8	linguistic	none	_	_	_	_	_
+96-9.1	2900-2904	ngua	_	_	_	_	_	_	_	_	_	*->34-1	*[34]
+
+#Text=sì
+97-1	2905-2907	sì	Falling	\[sì\].	BO027	96-0	linguistic	none	_	_	_	*->34-2	*[34]
+
+#Text=allora dobbiamo sostituire la prima parte e quindi tutti i materiali che sono previsti nella prima parte
+98-1	2908-2914	allora	_	allora	BO026	97-0	linguistic	none	_	_	_	_	_
+98-2	2915-2923	dobbiamo	_	dobbiamo	_	97-1	linguistic	none	_	_	_	_	_
+98-3	2924-2934	sostituire	_	sostituire	_	97-2	linguistic	none	_	_	_	_	_
+98-4	2935-2937	la	_	la	_	97-3	linguistic	none	_	_	_	_	_
+98-5	2938-2943	prima	_	prima	_	97-4	linguistic	none	_	_	_	_	_
+98-6	2944-2949	parte	_	parte	_	97-5	linguistic	none	_	_	_	_	_
+98-7	2950-2951	e	_	\[e	_	97-6	linguistic	none	_	_	_	*->35-1	*[35]
+98-8	2952-2958	quindi	_	quin\]di	_	97-7	linguistic	none	_	_	_	_	_
+98-8.1	2952-2956	quin	_	_	_	_	_	_	_	_	_	*->35-2	*[35]
+98-9	2959-2964	tutti	_	tutti	_	97-8	linguistic	none	_	_	_	_	_
+98-10	2965-2966	i	_	i	_	97-9	linguistic	none	_	_	_	_	_
+98-11	2967-2976	materiali	_	materiali	_	97-10	linguistic	none	_	_	_	_	_
+98-12	2977-2980	che	_	che	_	97-11	linguistic	none	_	_	_	_	_
+98-13	2981-2985	sono	_	sono	_	97-12	linguistic	none	_	_	_	_	_
+98-14	2986-2994	previsti	_	previsti	_	97-13	linguistic	none	_	_	_	_	_
+98-15	2995-3000	nella	_	nella	_	97-14	linguistic	none	_	_	_	_	_
+98-16	3001-3006	prima	_	prima	_	97-15	linguistic	none	_	_	_	_	_
+98-17	3007-3012	parte	WeaklyRising	parte,	_	97-16	linguistic	none	_	_	_	_	_
+
+#Text=sì
+99-1	3013-3015	sì	Falling	\[sì\].	BO027	98-0	linguistic	none	_	_	_	*->35-3	*[35]
+
+#Text=eh mh
+100-1	3016-3018	eh	_	e:h	BO026	99-0	linguistic	none	0x1	_	_	_	_
+100-2	3019-3021	mh	_	mh	_	99-1	linguistic	none	_	_	_	_	_
+
+#Text=lei li sostituirà con un volume che diventa un approfondimento di un altro tema
+101-1	3022-3025	lei	_	lei	BO026	100-0	linguistic	none	_	_	_	_	_
+101-2	3026-3028	li	_	li	_	100-1	linguistic	none	_	_	_	_	_
+101-3	3029-3039	sostituirà	_	sostituirà	_	100-2	linguistic	none	_	_	_	_	_
+101-4	3040-3043	con	_	con	_	100-3	linguistic	none	_	_	_	_	_
+101-5	3044-3046	un	_	un	_	100-4	linguistic	none	_	_	_	_	_
+101-6	3047-3053	volume	_	volume	_	100-5	linguistic	none	_	_	_	_	_
+101-7	3054-3057	che	_	che	_	100-6	linguistic	none	_	_	_	_	_
+101-8	3058-3065	diventa	_	diventa	_	100-7	linguistic	none	_	_	_	_	_
+101-9	3066-3068	un	_	un	_	100-8	linguistic	none	_	_	_	_	_
+101-10	3069-3084	approfondimento	_	approfondimento	_	100-9	linguistic	none	_	_	_	_	_
+101-11	3085-3087	di	_	di	_	100-10	linguistic	none	_	_	_	_	_
+101-12	3088-3090	un	_	un	_	100-11	linguistic	none	_	_	_	_	_
+101-13	3091-3096	altro	_	altro	_	100-12	linguistic	none	_	_	_	_	_
+101-14	3097-3101	tema	Falling	tema.	_	100-13	linguistic	none	_	_	_	_	_
+
+#Text=sì sì quello okay
+102-1	3102-3104	sì	_	>s\[ì	BO027	101-0	linguistic	none	_	Fast=0-2(0)	_	_	_
+102-1.1	3103-3104	ì	_	_	_	_	_	_	_	_	_	*->36-1	*[36]
+102-2	3105-3107	sì	Falling	sì.	_	101-1	linguistic	none	_	Fast=0-2(0)	_	*->36-2	*[36]
+102-3	3108-3114	quello	_	quello	_	101-2	linguistic	none	_	Fast=0-6(0)	_	*->36-3	*[36]
+102-4	3115-3119	okay	Falling	okay<\].	_	101-3	linguistic	none	_	Fast=0-4(0)	_	*->36-4	*[36]
+
+#Text=di italiano ldue per lo studio
+103-1	3120-3122	di	_	\[di	BO026	102-0	linguistic	none	_	_	_	*->36-5	*[36]
+103-2	3123-3131	italiano	_	italiano	_	102-1	linguistic	none	_	_	_	*->36-6	*[36]
+103-3	3132-3136	ldue	_	L\]due	_	102-2	linguistic	none	_	_	_	_	_
+103-3.1	3132-3133	l	_	_	_	_	_	_	_	_	_	*->36-7	*[36]
+103-4	3137-3140	per	_	per	_	102-3	linguistic	none	_	_	_	_	_
+103-5	3141-3143	lo	_	lo	_	102-4	linguistic	none	_	_	_	_	_
+103-6	3144-3150	studio	Falling	\[studio\].	_	102-5	linguistic	none	_	_	_	*->37-1	*[37]
+
+#Text=va bene sì sì no quello non è un problema no dicevo
+104-1	3151-3153	va	_	\[va	BO027	103-0	linguistic	none	_	_	_	*->37-2	*[37]
+104-2	3154-3158	bene	_	bene	_	103-1	linguistic	none	_	_	_	*->37-3	*[37]
+104-3	3159-3161	sì	_	s\]ì	_	103-2	linguistic	none	_	_	_	_	_
+104-3.1	3159-3160	s	_	_	_	_	_	_	_	_	_	*->37-4	*[37]
+104-4	3162-3164	sì	_	sì	_	103-3	linguistic	none	_	_	_	_	_
+104-5	3165-3167	no	_	>no	_	103-4	linguistic	none	_	Fast=0-2(0)	_	_	_
+104-6	3168-3174	quello	_	quello	_	103-5	linguistic	none	_	Fast=0-6(0)	_	_	_
+104-7	3175-3178	non	_	non	_	103-6	linguistic	none	_	Fast=0-3(0)	_	_	_
+104-8	3179-3180	è	_	è	_	103-7	linguistic	none	_	Fast=0-1(0)	_	_	_
+104-9	3181-3183	un	_	un	_	103-8	linguistic	none	_	Fast=0-2(0)	_	_	_
+104-10	3184-3192	problema	_	problema	_	103-9	linguistic	none	_	Fast=0-8(0)	_	_	_
+104-11	3193-3195	no	_	no	_	103-10	linguistic	none	_	Fast=0-2(0)	_	_	_
+104-12	3196-3202	dicevo	WeaklyRising	dicevo<,	_	103-11	linguistic	none	_	Fast=0-6(0)	_	_	_
+
+#Text=che comunque io dovrei sostenere solamente comunque un orale senza una parte scr~ esatto
+105-1	3203-3206	che	_	che	BO027	104-0	linguistic	none	_	_	_	_	_
+105-2	3207-3215	comunque	_	comunque	_	104-1	linguistic	none	_	_	_	_	_
+105-3	3216-3218	io	_	io	_	104-2	linguistic	none	_	_	_	_	_
+105-4	3219-3225	dovrei	_	\[dovrei	_	104-3	linguistic	none	_	_	_	*->38-1	*[38]
+105-5	3226-3235	sostenere	_	sostenere	_	104-4	linguistic	none	_	_	_	*->38-2	*[38]
+105-6	3236-3245	solamente	_	solamente	_	104-5	linguistic	none	_	_	_	*->38-3	*[38]
+105-7	3246-3254	comunque	_	comunque	_	104-6	linguistic	none	_	_	_	*->38-4	*[38]
+105-8	3255-3257	un	_	un	_	104-7	linguistic	none	_	_	_	*->38-5	*[38]
+105-9	3258-3263	orale	_	ora\]:le	_	104-8	linguistic	none	2x1	_	_	_	_
+105-9.1	3258-3261	ora	_	_	_	_	_	_	_	_	_	*->38-6	*[38]
+105-10	3264-3269	senza	_	senza	_	104-9	linguistic	none	_	_	_	_	_
+105-11	3270-3273	una	_	u\[na	_	104-10	linguistic	none	_	_	_	_	_
+105-11.1	3271-3273	na	_	_	_	_	_	_	_	_	_	*->39-1	*[39]
+105-12	3274-3279	parte	_	parte	_	104-11	linguistic	none	_	_	_	*->39-2	*[39]
+105-13	3280-3284	scr~	_	scr~	_	104-12	linguistic	none	_	_	_	*->39-3	*[39]
+105-14	3285-3291	esatto	Falling	esatto\].	_	104-13	linguistic	none	_	_	_	*->39-4	*[39]
+
+#Text=mentre qusto riguarda la seconda
+106-1	3292-3298	mentre	_	\[mentre	BO026	105-0	linguistic	none	_	_	_	*->38-7	*[38]
+106-2	3299-3304	qusto	_	qusto	_	105-1	linguistic	none	_	_	_	*->38-8	*[38]
+106-3	3305-3313	riguarda	_	riguarda	_	105-2	linguistic	none	_	_	_	*->38-9	*[38]
+106-4	3314-3316	la	_	(la)	_	105-3	linguistic	none	_	_	0-2(0)	*->38-10	*[38]
+106-5	3317-3324	seconda	WeaklyRising	seconda\],	_	105-4	linguistic	none	_	_	_	*->38-11	*[38]
+
+#Text=solo orale solo orale
+107-1	3325-3329	solo	_	\[solo	BO026	106-0	linguistic	none	_	_	_	*->39-5	*[39]
+107-2	3330-3335	orale	Falling	orale.	_	106-1	linguistic	none	_	_	_	*->39-6	*[39]
+107-3	3336-3340	solo	_	solo	_	106-2	linguistic	none	_	_	_	*->39-7	*[39]
+107-4	3341-3346	orale	Falling	orale\].	_	106-3	linguistic	none	_	_	_	*->39-8	*[39]
+
+#Text=perché lo scritto lo ha già fatto l' analisi dell' interlingua
+108-1	3347-3353	perché	_	perché	BO026	107-0	linguistic	none	_	_	_	_	_
+108-2	3354-3356	lo	_	lo	_	107-1	linguistic	none	_	_	_	_	_
+108-3	3357-3364	scritto	_	scritto	_	107-2	linguistic	none	_	_	_	_	_
+108-4	3365-3367	lo	_	lo	_	107-3	linguistic	none	_	_	_	_	_
+108-5	3368-3370	ha	_	ha	_	107-4	linguistic	none	_	_	_	_	_
+108-6	3371-3374	già	_	già	_	107-5	linguistic	none	_	_	_	_	_
+108-7	3375-3380	fatto	_	f\[atto	_	107-6	linguistic	none	_	_	_	_	_
+108-7.1	3376-3380	atto	_	_	_	_	_	_	_	_	_	*->40-1	*[40]
+108-8	3381-3383	l'	_	l'	_	107-7	linguistic	none	_	_	_	*->40-2	*[40]
+108-9	3384-3391	analisi	_	analis\]i	_	107-8	linguistic	none	_	_	_	_	_
+108-9.1	3384-3390	analis	_	_	_	_	_	_	_	_	_	*->40-3	*[40]
+108-10	3392-3397	dell'	_	dell'	_	107-9	linguistic	none	_	_	_	_	_
+108-11	3398-3409	interlingua	Falling	in\[terlingua\].	_	107-10	linguistic	none	_	_	_	_	_
+108-11.1	3400-3409	terlingua	_	_	_	_	_	_	_	_	_	*->41-1	*[41]
+
+#Text=esatto
+109-1	3410-3416	esatto	Falling	\[esatto\].	BO027	108-0	linguistic	none	_	_	_	*->40-4	*[40]
+
+#Text=benissimo
+110-1	3417-3426	benissimo	Falling	\[benissimo\].	BO027	109-0	linguistic	none	_	_	_	*->41-2	*[41]
+
+#Text=eh mh
+111-1	3427-3429	eh	_	\[e:\]:h	BO027	110-0	linguistic	none	0x2	_	_	_	_
+111-1.1	3427-3428	e	_	_	_	_	_	_	_	_	_	*->42-1	*[42]
+111-2	3430-3432	mh	_	mh	_	110-1	linguistic	none	_	_	_	_	_
+
+#Text=eh
+112-1	3433-3435	eh	_	\[e:h\]	BO026	111-0	linguistic	none	0x1	_	_	*->42-2	*[42]
+
+#Text=quando è possiible sostenerlo perché io vorrei
+113-1	3436-3442	quando	_	quando:::	BO027	112-0	linguistic	none	5x3	_	_	_	_
+113-2	3443-3444	è	_	è	_	112-1	linguistic	none	_	_	_	_	_
+113-3	3445-3454	possiible	_	possiible:	_	112-2	linguistic	none	8x1	_	_	_	_
+113-4	3455-3465	sostenerlo	_	sostenerlo	_	112-3	linguistic	none	_	_	_	_	_
+113-5	3466-3472	perché	_	perché	_	112-4	linguistic	none	_	_	_	_	_
+113-6	3473-3475	io	_	io	_	112-5	linguistic	none	_	_	_	_	_
+113-7	3476-3482	vorrei	WeaklyRising	vorrei,	_	112-6	linguistic	none	_	_	_	_	_
+
+#Text=finire entro il quindici giugno
+114-1	3483-3489	finire	_	finire	BO027	113-0	linguistic	none	_	_	_	_	_
+114-2	3490-3495	entro	_	entro	_	113-1	linguistic	none	_	_	_	_	_
+114-3	3496-3498	il	_	il	_	113-2	linguistic	none	_	_	_	_	_
+114-4	3499-3507	quindici	_	quindici	_	113-3	linguistic	none	_	_	_	_	_
+114-5	3508-3514	giugno	Falling	giugno.	_	113-4	linguistic	none	_	_	_	_	_
+
+#Text=tutti gli esami
+115-1	3515-3520	tutti	_	°tutti	BO026	114-0	linguistic	none	_	_	_	_	_
+115-2	3521-3524	gli	_	gli	_	114-1	linguistic	none	_	_	_	_	_
+115-3	3525-3530	esami	Rising	esami?°	_	114-2	linguistic	none	_	_	_	_	_
+
+#Text=mi manca questo è l' ultimo esame
+116-1	3531-3533	mi	_	mi	BO027	115-0	linguistic	none	_	_	_	_	_
+116-2	3534-3539	manca	_	manca	_	115-1	linguistic	none	_	_	_	_	_
+116-3	3540-3546	questo	_	questo	_	115-2	linguistic	none	_	_	_	_	_
+116-4	3547-3548	è	_	è	_	115-3	linguistic	none	_	_	_	_	_
+116-5	3549-3551	l'	_	l'	_	115-4	linguistic	none	_	_	_	_	_
+116-6	3552-3558	ultimo	_	ultimo	_	115-5	linguistic	none	_	_	_	_	_
+116-7	3559-3564	esame	Falling	esame.	_	115-6	linguistic	none	_	_	_	_	_
+
+#Text=sinceramente poi dovrei partire per lavoro e tornerei a fine settembre inizio ottobre
+117-1	3565-3577	sinceramente	Falling	sinceramente.	BO027	116-0	linguistic	none	_	_	_	_	_
+117-2	3578-3581	poi	_	poi	_	116-1	linguistic	none	_	_	_	_	_
+117-3	3582-3588	dovrei	_	dovrei	_	116-2	linguistic	none	_	_	_	_	_
+117-4	3589-3596	partire	_	partire	_	116-3	linguistic	none	_	_	_	_	_
+117-5	3597-3600	per	_	per	_	116-4	linguistic	none	_	_	_	_	_
+117-6	3601-3607	lavoro	_	lavoro	_	116-5	linguistic	none	_	_	_	_	_
+117-7	3608-3609	e	_	e	_	116-6	linguistic	none	_	_	_	_	_
+117-8	3610-3618	tornerei	_	tornerei:	_	116-7	linguistic	none	7x1	_	_	_	_
+117-9	3619-3620	a	_	a::	_	116-8	linguistic	none	0x2	_	_	_	_
+117-10	3621-3625	fine	_	fine::	_	116-9	linguistic	none	3x2	_	_	_	_
+117-11	3626-3635	settembre	_	settembre	_	116-10	linguistic	none	_	_	_	_	_
+117-12	3636-3642	inizio	_	inizio	_	116-11	linguistic	none	_	_	_	_	_
+117-13	3643-3650	ottobre	Falling	ottobre.	_	116-12	linguistic	none	_	_	_	_	_
+
+#Text=l' appello (.) comincia il dodici (.) giugno
+118-1	3651-3653	l'	_	l'	BO026	117-0	linguistic	none	_	_	_	_	_
+118-2	3654-3661	appello	_	appello	_	117-1	linguistic	none	_	_	_	_	_
+118-3	3662-3665	(.)	_	(.)	_	117-2	shortpause	none	_	_	_	_	_
+118-4	3666-3674	comincia	_	comincia	_	117-3	linguistic	none	_	_	_	_	_
+118-5	3675-3677	il	_	il	_	117-4	linguistic	none	_	_	_	_	_
+118-6	3678-3684	dodici	_	dodi\[ci	_	117-5	linguistic	none	_	_	_	_	_
+118-6.1	3682-3684	ci	_	_	_	_	_	_	_	_	_	*->43-1	*[43]
+118-7	3685-3688	(.)	_	(.)	_	117-6	shortpause	none	_	_	_	*->43-2	*[43]
+118-8	3689-3695	giugno	Rising	giu\]gno?	_	117-7	linguistic	none	_	_	_	_	_
+118-8.1	3689-3692	giu	_	_	_	_	_	_	_	_	_	*->43-3	*[43]
+
+#Text=esatto
+119-1	3696-3702	esatto	Falling	\[esatto\].	BO027	118-0	linguistic	none	_	_	_	*->43-4	*[43]
+
+#Text=e io avrò lei si iscrive e non farà lo scritto il dodici giugno
+120-1	3703-3704	e	_	e:	BO026	119-0	linguistic	none	0x1	_	_	_	_
+120-2	3705-3707	io	_	io	_	119-1	linguistic	none	_	_	_	_	_
+120-3	3708-3712	avrò	_	avrò:	_	119-2	linguistic	none	3x1	_	_	_	_
+120-4	3713-3716	lei	_	lei	_	119-3	linguistic	none	_	_	_	_	_
+120-5	3717-3719	si	_	si	_	119-4	linguistic	none	_	_	_	_	_
+120-6	3720-3727	iscrive	_	iscrive	_	119-5	linguistic	none	_	_	_	_	_
+120-7	3728-3729	e	_	e::	_	119-6	linguistic	none	0x2	_	_	_	_
+120-8	3730-3733	non	_	non	_	119-7	linguistic	none	_	_	_	_	_
+120-9	3734-3738	farà	_	farà	_	119-8	linguistic	none	_	_	_	_	_
+120-10	3739-3741	lo	_	lo	_	119-9	linguistic	none	_	_	_	_	_
+120-11	3742-3749	scritto	_	scritto	_	119-10	linguistic	none	_	_	_	_	_
+120-12	3750-3752	il	_	il	_	119-11	linguistic	none	_	_	_	_	_
+120-13	3753-3759	dodici	_	dodici:	_	119-12	linguistic	none	5x1	_	_	_	_
+120-14	3760-3766	giugno	WeaklyRising	giugno,	_	119-13	linguistic	none	_	_	_	_	_
+
+#Text=okay
+121-1	3767-3771	okay	Falling	okay.	BO027	120-0	linguistic	none	_	_	_	_	_
+
+#Text=il dodici giugno in base al numero degli studenti effettivamente presenti comunico la data dell' orale che sarà due giorni dopo tre giorni dopo quindi
+122-1	3772-3774	il	_	il	BO026	121-0	linguistic	none	_	_	_	_	_
+122-2	3775-3781	dodici	_	dodici	_	121-1	linguistic	none	_	_	_	_	_
+122-3	3782-3788	giugno	_	giugno	_	121-2	linguistic	none	_	_	_	_	_
+122-4	3789-3791	in	_	in	_	121-3	linguistic	none	_	_	_	_	_
+122-5	3792-3796	base	_	base	_	121-4	linguistic	none	_	_	_	_	_
+122-6	3797-3799	al	_	al	_	121-5	linguistic	none	_	_	_	_	_
+122-7	3800-3806	numero	_	numero	_	121-6	linguistic	none	_	_	_	_	_
+122-8	3807-3812	degli	_	degli	_	121-7	linguistic	none	_	_	_	_	_
+122-9	3813-3821	studenti	_	studenti	_	121-8	linguistic	none	_	_	_	_	_
+122-10	3822-3836	effettivamente	_	effettivamente	_	121-9	linguistic	none	_	_	_	_	_
+122-11	3837-3845	presenti	_	presenti	_	121-10	linguistic	none	_	_	_	_	_
+122-12	3846-3854	comunico	_	comunico	_	121-11	linguistic	none	_	_	_	_	_
+122-13	3855-3857	la	_	la	_	121-12	linguistic	none	_	_	_	_	_
+122-14	3858-3862	data	_	data	_	121-13	linguistic	none	_	_	_	_	_
+122-15	3863-3868	dell'	_	dell'	_	121-14	linguistic	none	_	_	_	_	_
+122-16	3869-3874	orale	_	orale	_	121-15	linguistic	none	_	_	_	_	_
+122-17	3875-3878	che	_	che	_	121-16	linguistic	none	_	_	_	_	_
+122-18	3879-3883	sarà	_	sarà	_	121-17	linguistic	none	_	_	_	_	_
+122-19	3884-3887	due	_	due	_	121-18	linguistic	none	_	_	_	_	_
+122-20	3888-3894	giorni	_	giorni	_	121-19	linguistic	none	_	_	_	_	_
+122-21	3895-3899	dopo	Falling	dopo.	_	121-20	linguistic	none	_	_	_	_	_
+122-22	3900-3903	tre	_	tre	_	121-21	linguistic	none	_	_	_	_	_
+122-23	3904-3910	giorni	_	giorni	_	121-22	linguistic	none	_	_	_	_	_
+122-24	3911-3915	dopo	Falling	dopo.	_	121-23	linguistic	none	_	_	_	_	_
+122-25	3916-3922	quindi	WeaklyRising	quindi,	_	121-24	linguistic	none	_	_	_	_	_
+
+#Text=lei potrebbe concludere il sedici
+123-1	3923-3926	lei	_	lei	BO026	122-0	linguistic	none	_	_	_	_	_
+123-2	3927-3935	potrebbe	_	potrebbe	_	122-1	linguistic	none	_	_	_	_	_
+123-3	3936-3946	concludere	_	concludere	_	122-2	linguistic	none	_	_	_	_	_
+123-4	3947-3949	il	_	il	_	122-3	linguistic	none	_	_	_	_	_
+123-5	3950-3956	sedici	Falling	sedici.	_	122-4	linguistic	none	_	_	_	_	_
+
+#Text=okay
+124-1	3957-3961	okay	Falling	okay.	BO027	123-0	linguistic	none	_	_	_	_	_
+
+#Text=ma le devo mandare una email per dirle
+125-1	3962-3964	ma	_	ma	BO027	124-0	linguistic	none	_	_	_	_	_
+125-2	3965-3967	le	_	le	_	124-1	linguistic	none	_	_	_	_	_
+125-3	3968-3972	devo	_	devo	_	124-2	linguistic	none	_	_	_	_	_
+125-4	3973-3980	mandare	_	mandare	_	124-3	linguistic	none	_	_	_	_	_
+125-5	3981-3984	una	_	una	_	124-4	linguistic	none	_	_	_	_	_
+125-6	3985-3990	email	_	email	_	124-5	linguistic	none	_	_	_	_	_
+125-7	3991-3994	per	_	per	_	124-6	linguistic	none	_	_	_	_	_
+125-8	3995-4000	dirle	WeaklyRising	dirle,	_	124-7	linguistic	none	_	_	_	_	_
+
+#Text=sì mi manda una mail perché (.) e io le mando anche le l' indicazione de~ dell' altro testo che sostituisce la prima parte
+126-1	4001-4003	sì	_	sì	BO026	125-0	linguistic	none	_	_	_	_	_
+126-2	4004-4006	mi	_	mi	_	125-1	linguistic	none	_	_	_	_	_
+126-3	4007-4012	manda	_	manda	_	125-2	linguistic	none	_	_	_	_	_
+126-4	4013-4016	una	_	una	_	125-3	linguistic	none	_	_	_	_	_
+126-5	4017-4021	mail	_	mail	_	125-4	linguistic	none	_	_	_	_	_
+126-6	4022-4028	perché	_	perché	_	125-5	linguistic	none	_	_	_	_	_
+126-7	4029-4032	(.)	_	(.)	_	125-6	shortpause	none	_	_	_	_	_
+126-8	4033-4034	e	_	e::	_	125-7	linguistic	none	0x2	_	_	_	_
+126-9	4035-4037	io	_	io	_	125-8	linguistic	none	_	_	_	_	_
+126-10	4038-4040	le	_	le	_	125-9	linguistic	none	_	_	_	_	_
+126-11	4041-4046	mando	_	mando	_	125-10	linguistic	none	_	_	_	_	_
+126-12	4047-4052	anche	_	anche	_	125-11	linguistic	none	_	_	_	_	_
+126-13	4053-4055	le	_	le	_	125-12	linguistic	none	_	_	_	_	_
+126-14	4056-4058	l'	_	l'	_	125-13	linguistic	none	_	_	_	_	_
+126-15	4059-4070	indicazione	_	indicazione	_	125-14	linguistic	none	_	_	_	_	_
+126-16	4071-4074	de~	_	de~	_	125-15	linguistic	none	_	_	_	_	_
+126-17	4075-4080	dell'	_	dell'	_	125-16	linguistic	none	_	_	_	_	_
+126-18	4081-4086	altro	_	\[altro\]	_	125-17	linguistic	none	_	_	_	*->45-1	*[45]
+126-19	4087-4092	testo	_	testo	_	125-18	linguistic	none	_	_	_	_	_
+126-20	4093-4096	che	_	\[che	_	125-19	linguistic	none	_	_	_	*->46-1	*[46]
+126-21	4097-4108	sostituisce	_	sostitu\]isce	_	125-20	linguistic	none	_	_	_	_	_
+126-21.1	4097-4104	sostitu	_	_	_	_	_	_	_	_	_	*->46-2	*[46]
+126-22	4109-4111	la	_	la	_	125-21	linguistic	none	_	_	_	_	_
+126-23	4112-4117	prima	_	prima	_	125-22	linguistic	none	_	_	_	_	_
+126-24	4118-4123	parte	Falling	\[parte\].	_	125-23	linguistic	none	_	_	_	*->44-1	*[44]
+
+#Text=sì
+127-1	4124-4126	sì	Falling	\[sì\].	BO027	126-0	linguistic	none	_	_	_	*->45-2	*[45]
+
+#Text=okay
+128-1	4127-4131	okay	Falling	\[okay\].	BO027	127-0	linguistic	none	_	_	_	*->46-3	*[46]
+
+#Text=va bene
+129-1	4132-4134	va	_	\[va	BO027	128-0	linguistic	none	_	_	_	*->44-2	*[44]
+129-2	4135-4139	bene	Falling	bene\].	_	128-1	linguistic	none	_	_	_	*->44-3	*[44]
+
+#Text=e mh valentini ed altri accurati sull' italiano le abilità di studio in italiano elle due
+130-1	4140-4141	e	_	e::	BO026	129-0	linguistic	none	0x2	_	_	_	_
+130-2	4142-4144	mh	_	mh	_	129-1	linguistic	none	_	_	_	_	_
+130-3	4145-4154	valentini	_	valentini	_	129-2	linguistic	none	_	_	_	_	_
+130-4	4155-4157	ed	_	ed	_	129-3	linguistic	none	_	_	_	_	_
+130-5	4158-4163	altri	_	altri	_	129-4	linguistic	none	_	_	_	_	_
+130-6	4164-4172	accurati	_	(accurati)	_	129-5	linguistic	none	_	_	0-8(0)	_	_
+130-7	4173-4178	sull'	_	sull'	_	129-6	linguistic	none	_	_	_	_	_
+130-8	4179-4187	italiano	_	italiano::	_	129-7	linguistic	none	7x2	_	_	_	_
+130-9	4188-4190	le	_	le	_	129-8	linguistic	none	_	_	_	_	_
+130-10	4191-4198	abilità	_	abilità	_	129-9	linguistic	none	_	_	_	_	_
+130-11	4199-4201	di	_	di	_	129-10	linguistic	none	_	_	_	_	_
+130-12	4202-4208	studio	_	studio	_	129-11	linguistic	none	_	_	_	_	_
+130-13	4209-4211	in	_	in	_	129-12	linguistic	none	_	_	_	_	_
+130-14	4212-4220	italiano	_	italiano	_	129-13	linguistic	none	_	_	_	_	_
+130-15	4221-4225	elle	_	elle	_	129-14	linguistic	none	_	_	_	_	_
+130-16	4226-4229	due	Falling	due.	_	129-15	linguistic	none	_	_	_	_	_
+
+#Text=okay
+131-1	4230-4234	okay	Falling	okay.	BO027	130-0	linguistic	none	_	_	_	_	_
+
+#Text=va bene
+132-1	4235-4237	va	_	°va	BO026	131-0	linguistic	none	_	_	_	_	_
+132-2	4238-4242	bene	Rising	bene?°	_	131-1	linguistic	none	_	_	_	_	_
+
+#Text=quindi questo (.) e
+133-1	4243-4249	quindi	_	quindi	BO026	132-0	linguistic	none	_	_	_	_	_
+133-2	4250-4256	questo	_	questo	_	132-1	linguistic	none	_	_	_	_	_
+133-3	4257-4260	(.)	_	(.)	_	132-2	shortpause	none	_	_	_	_	_
+133-4	4261-4262	e	_	e::	_	132-3	linguistic	none	0x2	_	_	_	_
+
+#Text=sostituire
+134-1	4263-4273	sostituire	WeaklyRising	°sostituire,°	BO026	133-0	linguistic	none	_	_	_	_	_
+
+#Text=le abilità di studio
+135-1	4274-4276	le	_	°le	BO026	134-0	linguistic	none	_	_	_	_	_
+135-2	4277-4284	abilità	_	abilità	_	134-1	linguistic	none	_	_	_	_	_
+135-3	4285-4287	di	_	di	_	134-2	linguistic	none	_	_	_	_	_
+135-4	4288-4294	studio	Falling	studio.°	_	134-3	linguistic	none	_	_	_	_	_
+
+#Text=okay
+136-1	4295-4299	okay	Falling	okay.	BO026	135-0	linguistic	none	_	_	_	_	_
+
+#Text=va bene
+137-1	4300-4302	va	_	va	BO026	136-0	linguistic	none	_	_	_	_	_
+137-2	4303-4307	bene	Falling	bene.	_	136-1	linguistic	none	_	_	_	_	_
+
+#Text=lei si può già iscrivere adesso eh
+138-1	4308-4311	lei	_	lei	BO026	137-0	linguistic	none	_	_	_	_	_
+138-2	4312-4314	si	_	si	_	137-1	linguistic	none	_	_	_	_	_
+138-3	4315-4318	può	_	può	_	137-2	linguistic	none	_	_	_	_	_
+138-4	4319-4322	già	_	già	_	137-3	linguistic	none	_	_	_	_	_
+138-5	4323-4332	iscrivere	_	iscrivere	_	137-4	linguistic	none	_	_	_	_	_
+138-6	4333-4339	adesso	_	adesso	_	137-5	linguistic	none	_	_	_	_	_
+138-7	4340-4342	eh	WeaklyRising	eh,	_	137-6	linguistic	none	_	_	_	_	_
+
+#Text=okay
+139-1	4343-4347	okay	Falling	okay.	BO027	138-0	linguistic	none	_	_	_	_	_
+
+#Text=quindi comunque mi iscrivo al mh (.) allo scritto e comunque esatto
+140-1	4348-4354	quindi	_	\[quindi	BO027	139-0	linguistic	none	_	_	_	*->47-1	*[47]
+140-2	4355-4363	comunque	_	comunque	_	139-1	linguistic	none	_	_	_	*->47-2	*[47]
+140-3	4364-4366	mi	_	mi	_	139-2	linguistic	none	_	_	_	*->47-3	*[47]
+140-4	4367-4374	iscrivo	_	iscrivo:\]	_	139-3	linguistic	none	6x1	_	_	*->47-4	*[47]
+140-5	4375-4377	al	_	al	_	139-4	linguistic	none	_	_	_	_	_
+140-6	4378-4380	mh	_	mh	_	139-5	linguistic	none	_	_	_	_	_
+140-7	4381-4384	(.)	_	(.)	_	139-6	shortpause	none	_	_	_	_	_
+140-8	4385-4389	allo	_	\[allo	_	139-7	linguistic	none	_	_	_	*->48-1	*[48]
+140-9	4390-4397	scritto	_	scritto	_	139-8	linguistic	none	_	_	_	*->48-2	*[48]
+140-10	4398-4399	e	_	e	_	139-9	linguistic	none	_	_	_	*->48-3	*[48]
+140-11	4400-4408	comunque	WeaklyRising	comunque,	_	139-10	linguistic	none	_	_	_	*->48-4	*[48]
+140-12	4409-4415	esatto	Falling	esatto\].	_	139-11	linguistic	none	_	_	_	*->48-5	*[48]
+
+#Text=da oggi da oggi
+141-1	4416-4418	da	_	\[da	BO026	140-0	linguistic	none	_	_	_	*->47-5	*[47]
+141-2	4419-4423	oggi	_	oggi	_	140-1	linguistic	none	_	_	_	*->47-6	*[47]
+141-3	4424-4426	da	_	da	_	140-2	linguistic	none	_	_	_	*->47-7	*[47]
+141-4	4427-4431	oggi	_	oggi:\]	_	140-3	linguistic	none	3x1	_	_	*->47-8	*[47]
+
+#Text=all' come se xx xxx sono io che verifico eh sulla base delle medie degli studenti che non faranno lo scritto
+142-1	4432-4436	all'	_	\[all'	BO026	141-0	linguistic	none	_	_	_	*->48-6	*[48]
+142-2	4437-4441	come	_	come	_	141-1	linguistic	none	_	_	_	*->48-7	*[48]
+142-3	4442-4444	se	_	se	_	141-2	linguistic	none	_	_	_	*->48-8	*[48]
+142-4	4445-4447	xx	_	xx	_	141-3	unknown	none	_	_	_	*->48-9	*[48]
+142-5	4448-4451	xxx	_	xxx	_	141-4	unknown	none	_	_	_	*->48-10	*[48]
+142-6	4452-4456	sono	_	sono	_	141-5	linguistic	none	_	_	_	*->48-11	*[48]
+142-7	4457-4459	io	_	io\]	_	141-6	linguistic	none	_	_	_	*->48-12	*[48]
+142-8	4460-4463	che	_	che	_	141-7	linguistic	none	_	_	_	_	_
+142-9	4464-4472	verifico	_	verifico	_	141-8	linguistic	none	_	_	_	_	_
+142-10	4473-4475	eh	_	eh	_	141-9	linguistic	none	_	_	_	_	_
+142-11	4476-4481	sulla	_	\[sulla	_	141-10	linguistic	none	_	_	_	*->49-1	*[49]
+142-12	4482-4486	base	_	base	_	141-11	linguistic	none	_	_	_	*->49-2	*[49]
+142-13	4487-4492	delle	_	delle	_	141-12	linguistic	none	_	_	_	*->49-3	*[49]
+142-14	4493-4498	medie	_	medie	_	141-13	linguistic	none	_	_	_	*->49-4	*[49]
+142-15	4499-4504	degli	_	d\]egli	_	141-14	linguistic	none	_	_	_	_	_
+142-15.1	4499-4500	d	_	_	_	_	_	_	_	_	_	*->49-5	*[49]
+142-16	4505-4513	studenti	_	studenti	_	141-15	linguistic	none	_	_	_	_	_
+142-17	4514-4517	che	_	che	_	141-16	linguistic	none	_	_	_	_	_
+142-18	4518-4521	non	_	non	_	141-17	linguistic	none	_	_	_	_	_
+142-19	4522-4529	faranno	_	faranno:	_	141-18	linguistic	none	6x1	_	_	_	_
+142-20	4530-4532	lo	_	lo	_	141-19	linguistic	none	_	_	_	_	_
+142-21	4533-4540	scritto	Falling	scritto.	_	141-20	linguistic	none	_	_	_	_	_
+
+#Text=ah (.) okay perfetto
+143-1	4541-4543	ah	Falling	\[ah.	BO027	142-0	linguistic	none	_	_	_	*->49-6	*[49]
+143-2	4544-4547	(.)	_	(.)	_	142-1	shortpause	none	_	_	_	*->49-7	*[49]
+143-3	4548-4552	okay	_	okay	_	142-2	linguistic	none	_	_	_	*->49-8	*[49]
+143-4	4553-4561	perfetto	Falling	perfetto\].	_	142-3	linguistic	none	_	_	_	*->49-9	*[49]
+
+#Text=perché ho già
+144-1	4562-4568	perché	_	\[°perché	BO026	143-0	linguistic	none	_	_	_	*->50-1	*[50]
+144-2	4569-4571	ho	_	ho	_	143-1	linguistic	none	_	_	_	*->50-2	*[50]
+144-3	4572-4575	già	_	già:\]	_	143-2	linguistic	none	2x1	_	_	*->50-3	*[50]
+
+#Text=perfetto quindi io mi iscrivo e poi le mando una mail e le dico guardi io devo xx
+145-1	4576-4584	perfetto	Falling	\[perfetto.	BO027	144-0	linguistic	none	_	_	_	*->50-4	*[50]
+145-2	4585-4591	quindi	_	>quindi\]	_	144-1	linguistic	none	_	Fast=0-6(0)	_	*->50-5	*[50]
+145-3	4592-4594	io	_	io	_	144-2	linguistic	none	_	Fast=0-2(0)	_	_	_
+145-4	4595-4597	mi	_	mi	_	144-3	linguistic	none	_	Fast=0-2(0)	_	_	_
+145-5	4598-4605	iscrivo	_	iscrivo	_	144-4	linguistic	none	_	Fast=0-7(0)	_	_	_
+145-6	4606-4607	e	_	e	_	144-5	linguistic	none	_	Fast=0-1(0)	_	_	_
+145-7	4608-4611	poi	_	poi	_	144-6	linguistic	none	_	Fast=0-3(0)	_	_	_
+145-8	4612-4614	le	_	le	_	144-7	linguistic	none	_	Fast=0-2(0)	_	_	_
+145-9	4615-4620	mando	_	mando	_	144-8	linguistic	none	_	Fast=0-5(0)	_	_	_
+145-10	4621-4624	una	_	una	_	144-9	linguistic	none	_	Fast=0-3(0)	_	_	_
+145-11	4625-4629	mail	_	mail	_	144-10	linguistic	none	_	Fast=0-4(0)	_	_	_
+145-12	4630-4631	e	_	e	_	144-11	linguistic	none	_	Fast=0-1(0)	_	_	_
+145-13	4632-4634	le	_	le	_	144-12	linguistic	none	_	Fast=0-2(0)	_	_	_
+145-14	4635-4639	dico	_	dico	_	144-13	linguistic	none	_	Fast=0-4(0)	_	_	_
+145-15	4640-4646	guardi	_	\[guardi	_	144-14	linguistic	none	_	Fast=0-6(0)	_	*->51-1	*[51]
+145-16	4647-4649	io	_	io\]	_	144-15	linguistic	none	_	Fast=0-2(0)	_	*->51-2	*[51]
+145-17	4650-4654	devo	_	devo	_	144-16	linguistic	none	_	Fast=0-4(0)	_	_	_
+145-18	4655-4657	xx	_	xx<	_	144-17	unknown	none	_	Fast=0-2(0)	_	_	_
+
+#Text=sì sì
+146-1	4658-4660	sì	_	\[°sì	BO026	145-0	linguistic	none	_	_	_	*->51-3	*[51]
+146-2	4661-4663	sì	Falling	sì.°\]	_	145-1	linguistic	none	_	_	_	*->51-4	*[51]
+
+#Text=perfetto
+147-1	4664-4672	perfetto	Falling	perfetto.	BO027	146-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+148-1	4673-4675	sì	Falling	sì.	BO026	147-0	linguistic	none	_	_	_	_	_
+
+#Text=okay
+149-1	4676-4680	okay	Falling	okay.	BO027	148-0	linguistic	none	_	_	_	_	_
+
+#Text=io ho lo stesso suo problema ho dato didattica delle lingue italiane
+150-1	4681-4683	io	_	io	??	149-0	linguistic	none	_	_	_	_	_
+150-2	4684-4686	ho	_	ho	_	149-1	linguistic	none	_	_	_	_	_
+150-3	4687-4689	lo	_	lo	_	149-2	linguistic	none	_	_	_	_	_
+150-4	4690-4696	stesso	_	stesso	_	149-3	linguistic	none	_	_	_	_	_
+150-5	4697-4700	suo	_	suo	_	149-4	linguistic	none	_	_	_	_	_
+150-6	4701-4709	problema	WeaklyRising	problema,	_	149-5	linguistic	none	_	_	_	_	_
+150-7	4710-4712	ho	_	ho	_	149-6	linguistic	none	_	_	_	_	_
+150-8	4713-4717	dato	_	dato::	_	149-7	linguistic	none	3x2	_	_	_	_
+150-9	4718-4727	didattica	_	didattica:	_	149-8	linguistic	none	8x1	_	_	_	_
+150-10	4728-4733	delle	_	d\[elle	_	149-9	linguistic	none	_	_	_	_	_
+150-10.1	4729-4733	elle	_	_	_	_	_	_	_	_	_	*->52-1	*[52]
+150-11	4734-4740	lingue	_	lingue	_	149-10	linguistic	none	_	_	_	*->52-2	*[52]
+150-12	4741-4749	italiane	WeaklyRising	italiane\],	_	149-11	linguistic	none	_	_	_	*->52-3	*[52]
+
+#Text=in che anno c~ cos' era duemil duemila~ quattordici
+151-1	4750-4752	in	_	\[in	BO026	150-0	linguistic	none	_	_	_	*->52-4	*[52]
+151-2	4753-4756	che	_	che	_	150-1	linguistic	none	_	_	_	*->52-5	*[52]
+151-3	4757-4761	anno	WeaklyRising	anno,	_	150-2	linguistic	none	_	_	_	*->52-6	*[52]
+151-4	4762-4764	c~	_	c~\]	_	150-3	linguistic	none	_	_	_	*->52-7	*[52]
+151-5	4765-4769	cos'	_	co\[s'	_	150-4	linguistic	none	_	_	_	_	_
+151-5.1	4767-4769	s'	_	_	_	_	_	_	_	_	_	*->53-1	*[53]
+151-6	4770-4773	era	_	era	_	150-5	linguistic	none	_	_	_	*->53-2	*[53]
+151-7	4774-4780	duemil	_	duemil	_	150-6	linguistic	none	_	_	_	*->53-3	*[53]
+151-8	4781-4789	duemila~	_	duemila~	_	150-7	linguistic	none	_	_	_	*->53-4	*[53]
+151-9	4790-4801	quattordici	Falling	quattordi\]ci.	_	150-8	linguistic	none	_	_	_	_	_
+151-9.1	4790-4799	quattordi	_	_	_	_	_	_	_	_	_	*->53-5	*[53]
+
+#Text=duemilatredici duemilaquattordici
+152-1	4802-4816	duemilatredici	_	\[duemilatredici	??	151-0	linguistic	none	_	_	_	*->53-6	*[53]
+152-2	4817-4835	duemilaquattordici	Falling	duemilaquattordici\].	_	151-1	linguistic	none	_	_	_	*->53-7	*[53]
+
+#Text=no forse il programma era duemiladodici duemilatredici però
+153-1	4836-4838	no	Falling	no.	??	152-0	linguistic	none	_	_	_	_	_
+153-2	4839-4844	forse	_	forse	_	152-1	linguistic	none	_	_	_	_	_
+153-3	4845-4847	il	_	il	_	152-2	linguistic	none	_	_	_	_	_
+153-4	4848-4857	programma	_	programma	_	152-3	linguistic	none	_	_	_	_	_
+153-5	4858-4861	era	_	era	_	152-4	linguistic	none	_	_	_	_	_
+153-6	4862-4875	duemiladodici	_	duemiladodici	_	152-5	linguistic	none	_	_	_	_	_
+153-7	4876-4890	duemilatredici	_	duemilatredici	_	152-6	linguistic	none	_	_	_	_	_
+153-8	4891-4895	però	WeaklyRising	però,	_	152-7	linguistic	none	_	_	_	_	_
+
+#Text=mh mh
+154-1	4896-4898	mh	_	mh	BO026	153-0	linguistic	none	_	_	_	_	_
+154-2	4899-4901	mh	_	mh	_	153-1	linguistic	none	_	_	_	_	_
+
+#Text=e ho fatto lo scritto
+155-1	4902-4903	e	_	e	??	154-0	linguistic	none	_	_	_	_	_
+155-2	4904-4906	ho	_	ho	_	154-1	linguistic	none	_	_	_	_	_
+155-3	4907-4912	fatto	_	\[fatto	_	154-2	linguistic	none	_	_	_	*->54-1	*[54]
+155-4	4913-4915	lo	_	lo	_	154-3	linguistic	none	_	_	_	*->54-2	*[54]
+155-5	4916-4923	scritto	WeaklyRising	scritto\],	_	154-4	linguistic	none	_	_	_	*->54-3	*[54]
+
+#Text=come si chiama lei
+156-1	4924-4928	come	_	\[come	BO026	155-0	linguistic	none	_	_	_	*->54-4	*[54]
+156-2	4929-4931	si	_	si	_	155-1	linguistic	none	_	_	_	*->54-5	*[54]
+156-3	4932-4938	chiama	_	chiama	_	155-2	linguistic	none	_	_	_	*->54-6	*[54]
+156-4	4939-4942	lei	Rising	lei\]?	_	155-3	linguistic	none	_	_	_	*->54-7	*[54]
+
+#Text=verdi mara
+157-1	4943-4948	verdi	_	verdi	??	156-0	linguistic	none	_	_	_	_	_
+157-2	4949-4953	mara	Falling	mara.	_	156-1	linguistic	none	_	_	_	_	_
+
+#Text=e quindi ho fatto lo scritto con l' analisi dell' interlingua e le due domande aperte e poi l' orale
+158-1	4954-4955	e	_	°e:	??	157-0	linguistic	none	0x1	_	_	_	_
+158-2	4956-4962	quindi	_	quindi	_	157-1	linguistic	none	_	_	_	_	_
+158-3	4963-4965	ho	_	ho	_	157-2	linguistic	none	_	_	_	_	_
+158-4	4966-4971	fatto	_	fatto	_	157-3	linguistic	none	_	_	_	_	_
+158-5	4972-4974	lo	_	lo	_	157-4	linguistic	none	_	_	_	_	_
+158-6	4975-4982	scritto	_	scritto::	_	157-5	linguistic	none	6x2	_	_	_	_
+158-7	4983-4986	con	_	con	_	157-6	linguistic	none	_	_	_	_	_
+158-8	4987-4989	l'	_	l'	_	157-7	linguistic	none	_	_	_	_	_
+158-9	4990-4997	analisi	_	analisi	_	157-8	linguistic	none	_	_	_	_	_
+158-10	4998-5003	dell'	_	dell'	_	157-9	linguistic	none	_	_	_	_	_
+158-11	5004-5015	interlingua	_	interlingua	_	157-10	linguistic	none	_	_	_	_	_
+158-12	5016-5017	e	_	e	_	157-11	linguistic	none	_	_	_	_	_
+158-13	5018-5020	le	_	le	_	157-12	linguistic	none	_	_	_	_	_
+158-14	5021-5024	due	_	due	_	157-13	linguistic	none	_	_	_	_	_
+158-15	5025-5032	domande	_	domande	_	157-14	linguistic	none	_	_	_	_	_
+158-16	5033-5039	aperte	_	aperte	_	157-15	linguistic	none	_	_	_	_	_
+158-17	5040-5041	e	_	e	_	157-16	linguistic	none	_	_	_	_	_
+158-18	5042-5045	poi	_	poi	_	157-17	linguistic	none	_	_	_	_	_
+158-19	5046-5048	l'	_	(l'	_	157-18	linguistic	none	_	_	0-2(0)	_	_
+158-20	5049-5054	orale	Falling	orale).°	_	157-19	linguistic	none	_	_	0-5(0)	_	_
+
+#Text=lei ha fatto didattica della lingua italiana a inizio anno no
+159-1	5055-5058	lei	_	lei	BO026	158-0	linguistic	none	_	_	_	_	_
+159-2	5059-5061	ha	_	ha	_	158-1	linguistic	none	_	_	_	_	_
+159-3	5062-5067	fatto	_	fatto	_	158-2	linguistic	none	_	_	_	_	_
+159-4	5068-5077	didattica	_	didattica	_	158-3	linguistic	none	_	_	_	_	_
+159-5	5078-5083	della	_	della	_	158-4	linguistic	none	_	_	_	_	_
+159-6	5084-5090	lingua	_	lingua	_	158-5	linguistic	none	_	_	_	_	_
+159-7	5091-5099	italiana	_	italiana	_	158-6	linguistic	none	_	_	_	_	_
+159-8	5100-5101	a	_	(a	_	158-7	linguistic	none	_	_	0-1(0)	_	_
+159-9	5102-5108	inizio	_	inizio	_	158-8	linguistic	none	_	_	0-6(0)	_	_
+159-10	5109-5113	anno	_	anno)	_	158-9	linguistic	none	_	_	0-4(0)	_	_
+159-11	5114-5116	no	WeaklyRising	no,	_	158-10	linguistic	none	_	_	_	_	_
+
+#Text=sì
+160-1	5117-5119	sì	Falling	sì.	??	159-0	linguistic	none	_	_	_	_	_
+
+#Text=mh
+161-1	5120-5122	mh	_	°mh°	BO026	160-0	linguistic	none	_	_	_	_	_
+
+#Text=e niente il l~ l~ la parte alternativa al a solo della prima parte n~ non della seconda
+162-1	5123-5124	e	_	e	BO026	161-0	linguistic	none	_	_	_	_	_
+162-2	5125-5131	niente	Falling	niente.	_	161-1	linguistic	none	_	_	_	_	_
+162-3	5132-5134	il	_	il	_	161-2	linguistic	none	_	_	_	_	_
+162-4	5135-5137	l~	_	l~	_	161-3	linguistic	none	_	_	_	_	_
+162-5	5138-5140	l~	_	l~	_	161-4	linguistic	none	_	_	_	_	_
+162-6	5141-5143	la	_	la	_	161-5	linguistic	none	_	_	_	_	_
+162-7	5144-5149	parte	_	parte	_	161-6	linguistic	none	_	_	_	_	_
+162-8	5150-5161	alternativa	_	alternativa::	_	161-7	linguistic	none	10x2	_	_	_	_
+162-9	5162-5164	al	_	al	_	161-8	linguistic	none	_	_	_	_	_
+162-10	5165-5166	a	_	\[A	_	161-9	linguistic	none	_	_	_	*->55-1	*[55]
+162-11	5167-5171	solo	_	SOLO\]	_	161-10	linguistic	none	_	_	_	*->55-2	*[55]
+162-12	5172-5177	della	_	della	_	161-11	linguistic	none	_	_	_	_	_
+162-13	5178-5183	prima	_	prima	_	161-12	linguistic	none	_	_	_	_	_
+162-14	5184-5189	parte	_	parte	_	161-13	linguistic	none	_	_	_	_	_
+162-15	5190-5192	n~	_	\[n~\]	_	161-14	linguistic	none	_	_	_	*->56-1	*[56]
+162-16	5193-5196	non	_	non	_	161-15	linguistic	none	_	_	_	_	_
+162-17	5197-5202	della	_	della	_	161-16	linguistic	none	_	_	_	_	_
+162-18	5203-5210	seconda	Falling	seconda.	_	161-17	linguistic	none	_	_	_	_	_
+
+#Text=devo sostituire
+163-1	5211-5215	devo	_	\[devo	??	162-0	linguistic	none	_	_	_	*->55-3	*[55]
+163-2	5216-5226	sostituire	WeaklyRising	sostituire\],	_	162-1	linguistic	none	_	_	_	*->55-4	*[55]
+
+#Text=sì
+164-1	5227-5229	sì	Falling	\[sì\].	??	163-0	linguistic	none	_	_	_	*->56-2	*[56]
+
+#Text=quindi al posto della prima parte che c' è scritta sul programma il libro
+165-1	5230-5236	quindi	_	quindi	??	164-0	linguistic	none	_	_	_	_	_
+165-2	5237-5239	al	_	al	_	164-1	linguistic	none	_	_	_	_	_
+165-3	5240-5245	posto	_	posto:	_	164-2	linguistic	none	4x1	_	_	_	_
+165-4	5246-5251	della	_	della	_	164-3	linguistic	none	_	_	_	_	_
+165-5	5252-5257	prima	_	prima	_	164-4	linguistic	none	_	_	_	_	_
+165-6	5258-5263	parte	_	parte	_	164-5	linguistic	none	_	_	_	_	_
+165-7	5264-5267	che	_	che	_	164-6	linguistic	none	_	_	_	_	_
+165-8	5268-5270	c'	_	c'	_	164-7	linguistic	none	_	_	_	_	_
+165-9	5271-5272	è	_	è	_	164-8	linguistic	none	_	_	_	_	_
+165-10	5273-5280	scritta	_	scritta	_	164-9	linguistic	none	_	_	_	_	_
+165-11	5281-5284	sul	_	\[sul	_	164-10	linguistic	none	_	_	_	*->57-1	*[57]
+165-12	5285-5294	programma	WeaklyRising	programma,	_	164-11	linguistic	none	_	_	_	*->57-2	*[57]
+165-13	5295-5297	il	_	il	_	164-12	linguistic	none	_	_	_	*->57-3	*[57]
+165-14	5298-5303	libro	Falling	libro\].	_	164-13	linguistic	none	_	_	_	*->57-4	*[57]
+
+#Text=sì questo volume d~ sulle abilità di studio in elle due
+166-1	5304-5306	sì	Falling	\[sì.	BO026	165-0	linguistic	none	_	_	_	*->57-5	*[57]
+166-2	5307-5313	questo	_	questo	_	165-1	linguistic	none	_	_	_	*->57-6	*[57]
+166-3	5314-5320	volume	_	volume	_	165-2	linguistic	none	_	_	_	*->57-7	*[57]
+166-4	5321-5323	d~	_	d~	_	165-3	linguistic	none	_	_	_	*->57-8	*[57]
+166-5	5324-5329	sulle	_	sulle	_	165-4	linguistic	none	_	_	_	*->57-9	*[57]
+166-6	5330-5337	abilità	_	abilità\]	_	165-5	linguistic	none	_	_	_	*->57-10	*[57]
+166-7	5338-5340	di	_	di	_	165-6	linguistic	none	_	_	_	_	_
+166-8	5341-5347	studio	_	studio	_	165-7	linguistic	none	_	_	_	_	_
+166-9	5348-5350	in	_	(in)	_	165-8	linguistic	none	_	_	0-2(0)	_	_
+166-10	5351-5355	elle	_	elle	_	165-9	linguistic	none	_	_	_	_	_
+166-11	5356-5359	due	Falling	due.	_	165-10	linguistic	none	_	_	_	_	_
+
+#Text=sostituite alla prima parte del programma che c' è scritto okay quindi mi iscrivo anch' io alla lista ma non devo presentarmi allo scritto
+167-1	5360-5370	sostituite	_	s\[osti\]tuite	??	166-0	linguistic	none	_	_	_	_	_
+167-1.1	5361-5365	osti	_	_	_	_	_	_	_	_	_	*->61-1	*[61]
+167-2	5371-5375	alla	_	alla	_	166-1	linguistic	none	_	_	_	_	_
+167-3	5376-5381	prima	_	prima	_	166-2	linguistic	none	_	_	_	_	_
+167-4	5382-5387	parte	_	parte	_	166-3	linguistic	none	_	_	_	_	_
+167-5	5388-5391	del	_	\[del	_	166-4	linguistic	none	_	_	_	*->58-1	*[58]
+167-6	5392-5401	programma	_	pr\]ogramma	_	166-5	linguistic	none	_	_	_	_	_
+167-6.1	5392-5394	pr	_	_	_	_	_	_	_	_	_	*->58-2	*[58]
+167-7	5402-5405	che	_	che	_	166-6	linguistic	none	_	_	_	_	_
+167-8	5406-5408	c'	_	c'	_	166-7	linguistic	none	_	_	_	_	_
+167-9	5409-5410	è	_	è	_	166-8	linguistic	none	_	_	_	_	_
+167-10	5411-5418	scritto	Falling	scritt\[o.	_	166-9	linguistic	none	_	_	_	_	_
+167-10.1	5417-5418	o	_	_	_	_	_	_	_	_	_	*->59-1	*[59]
+167-11	5419-5423	okay	Falling	okay\].	_	166-10	linguistic	none	_	_	_	*->59-2	*[59]
+167-12	5424-5430	quindi	_	quindi	_	166-11	linguistic	none	_	_	_	_	_
+167-13	5431-5433	mi	_	mi	_	166-12	linguistic	none	_	_	_	_	_
+167-14	5434-5441	iscrivo	_	iscrivo	_	166-13	linguistic	none	_	_	_	_	_
+167-15	5442-5447	anch'	_	anch'	_	166-14	linguistic	none	_	_	_	_	_
+167-16	5448-5450	io	_	io	_	166-15	linguistic	none	_	_	_	_	_
+167-17	5451-5455	alla	_	al\[la	_	166-16	linguistic	none	_	_	_	_	_
+167-17.1	5453-5455	la	_	_	_	_	_	_	_	_	_	*->60-1	*[60]
+167-18	5456-5461	lista	_	li\]sta	_	166-17	linguistic	none	_	_	_	_	_
+167-18.1	5456-5458	li	_	_	_	_	_	_	_	_	_	*->60-2	*[60]
+167-19	5462-5464	ma	_	ma	_	166-18	linguistic	none	_	_	_	_	_
+167-20	5465-5468	non	_	no:n	_	166-19	linguistic	none	1x1	_	_	_	_
+167-21	5469-5473	devo	_	devo	_	166-20	linguistic	none	_	_	_	_	_
+167-22	5474-5485	presentarmi	_	presentarmi	_	166-21	linguistic	none	_	_	_	_	_
+167-23	5486-5490	allo	_	allo	_	166-22	linguistic	none	_	_	_	_	_
+167-24	5491-5498	scritto	Falling	scritto.	_	166-23	linguistic	none	_	_	_	_	_
+
+#Text=sì
+168-1	5499-5501	sì	Falling	\[sì\].	BO026	167-0	linguistic	none	_	_	_	*->61-2	*[61]
+
+#Text=sì
+169-1	5502-5504	sì	Falling	\[sì\].	BO026	168-0	linguistic	none	_	_	_	*->58-3	*[58]
+
+#Text=esatto
+170-1	5505-5511	esatto	Falling	\[°esatto.°\]	BO026	169-0	linguistic	none	_	_	_	*->59-3	*[59]
+
+#Text=sì
+171-1	5512-5514	sì	Falling	\[sì\].	BO026	170-0	linguistic	none	_	_	_	*->60-3	*[60]
+
+#Text=no
+172-1	5515-5517	no	Falling	no.	BO026	171-0	linguistic	none	_	_	_	_	_
+
+#Text=okay
+173-1	5518-5522	okay	Falling	okay.	??	172-0	linguistic	none	_	_	_	_	_
+
+#Text=va bene
+174-1	5523-5525	va	_	°va	??	173-0	linguistic	none	_	_	_	_	_
+174-2	5526-5530	bene	_	bene°	_	173-1	linguistic	none	_	_	_	_	_
+
+#Text=e mando anche a lei i riferimenti precisi della perché era era
+175-1	5531-5532	e	_	e::	BO026	174-0	linguistic	none	0x2	_	_	_	_
+175-2	5533-5538	mando	_	mando	_	174-1	linguistic	none	_	_	_	_	_
+175-3	5539-5544	anche	_	anche	_	174-2	linguistic	none	_	_	_	_	_
+175-4	5545-5546	a	_	a	_	174-3	linguistic	none	_	_	_	_	_
+175-5	5547-5550	lei	_	lei	_	174-4	linguistic	none	_	_	_	_	_
+175-6	5551-5552	i	_	i	_	174-5	linguistic	none	_	_	_	_	_
+175-7	5553-5564	riferimenti	_	riferimenti	_	174-6	linguistic	none	_	_	_	_	_
+175-8	5565-5572	precisi	_	precisi	_	174-7	linguistic	none	_	_	_	_	_
+175-9	5573-5578	della	_	della:	_	174-8	linguistic	none	4x1	_	_	_	_
+175-10	5579-5585	perché	_	perché	_	174-9	linguistic	none	_	_	_	_	_
+175-11	5586-5589	era	_	era	_	174-10	linguistic	none	_	_	_	_	_
+175-12	5590-5593	era	WeaklyRising	era,	_	174-11	linguistic	none	_	_	_	_	_
+
+#Text=quello che ho messo anche
+176-1	5594-5600	quello	_	quello	BO026	175-0	linguistic	none	_	_	_	_	_
+176-2	5601-5604	che	_	che	_	175-1	linguistic	none	_	_	_	_	_
+176-3	5605-5607	ho	_	ho	_	175-2	linguistic	none	_	_	_	_	_
+176-4	5608-5613	messo	_	messo	_	175-3	linguistic	none	_	_	_	_	_
+176-5	5614-5619	anche	WeaklyRising	anche,	_	175-4	linguistic	none	_	_	_	_	_
+
+#Text=okay
+177-1	5620-5624	okay	Falling	okay.	??	176-0	linguistic	none	_	_	_	_	_
+
+#Text=in realtà sulla homepage però mh gliela (.) gliela mando
+178-1	5625-5627	in	_	in	BO026	177-0	linguistic	none	_	_	_	_	_
+178-2	5628-5634	realtà	_	realtà	_	177-1	linguistic	none	_	_	_	_	_
+178-3	5635-5640	sulla	_	sulla:	_	177-2	linguistic	none	4x1	_	_	_	_
+178-4	5641-5649	homepage	Falling	homepage.	_	177-3	linguistic	none	_	_	_	_	_
+178-5	5650-5654	però	WeaklyRising	però,	_	177-4	linguistic	none	_	_	_	_	_
+178-6	5655-5657	mh	_	m:h	_	177-5	linguistic	none	0x1	_	_	_	_
+178-7	5658-5664	gliela	_	gliela:	_	177-6	linguistic	none	5x1	_	_	_	_
+178-8	5665-5668	(.)	_	(.)	_	177-7	shortpause	none	_	_	_	_	_
+178-9	5669-5675	gliela	_	gliela	_	177-8	linguistic	none	_	_	_	_	_
+178-10	5676-5681	mando	Falling	mando.	_	177-9	linguistic	none	_	_	_	_	_
+
+#Text=okay e poi le devo rispondere per dirle che non che non devo dare lo scritto (.) o lo sa già lei
+179-1	5682-5686	okay	Falling	okay.	??	178-0	linguistic	none	_	_	_	_	_
+179-2	5687-5688	e	_	e	_	178-1	linguistic	none	_	_	_	_	_
+179-3	5689-5692	poi	_	poi	_	178-2	linguistic	none	_	_	_	_	_
+179-4	5693-5695	le	_	le	_	178-3	linguistic	none	_	_	_	_	_
+179-5	5696-5700	devo	_	\[devo	_	178-4	linguistic	none	_	_	_	*->62-1	*[62]
+179-6	5701-5711	rispondere	_	rispondere	_	178-5	linguistic	none	_	_	_	*->62-2	*[62]
+179-7	5712-5715	per	_	per	_	178-6	linguistic	none	_	_	_	*->62-3	*[62]
+179-8	5716-5721	dirle	_	dirle	_	178-7	linguistic	none	_	_	_	*->62-4	*[62]
+179-9	5722-5725	che	_	che	_	178-8	linguistic	none	_	_	_	*->62-5	*[62]
+179-10	5726-5729	non	_	n\]o:n	_	178-9	linguistic	none	1x1	_	_	_	_
+179-10.1	5726-5727	n	_	_	_	_	_	_	_	_	_	*->62-6	*[62]
+179-11	5730-5733	che	_	che	_	178-10	linguistic	none	_	_	_	_	_
+179-12	5734-5737	non	_	no:n	_	178-11	linguistic	none	1x1	_	_	_	_
+179-13	5738-5742	devo	_	devo	_	178-12	linguistic	none	_	_	_	_	_
+179-14	5743-5747	dare	_	dare	_	178-13	linguistic	none	_	_	_	_	_
+179-15	5748-5750	lo	_	lo	_	178-14	linguistic	none	_	_	_	_	_
+179-16	5751-5758	scritto	WeaklyRising	scritto,	_	178-15	linguistic	none	_	_	_	_	_
+179-17	5759-5762	(.)	_	(.)	_	178-16	shortpause	none	_	_	_	_	_
+179-18	5763-5764	o	_	o	_	178-17	linguistic	none	_	_	_	_	_
+179-19	5765-5767	lo	_	lo	_	178-18	linguistic	none	_	_	_	_	_
+179-20	5768-5770	sa	_	°sa	_	178-19	linguistic	none	_	_	_	_	_
+179-21	5771-5774	già	_	già	_	178-20	linguistic	none	_	_	_	_	_
+179-22	5775-5778	lei	Falling	lei.°	_	178-21	linguistic	none	_	_	_	_	_
+
+#Text=xx valentini
+180-1	5779-5781	xx	_	\[xx	BO026	179-0	unknown	none	_	_	_	*->62-7	*[62]
+180-2	5782-5791	valentini	Falling	valentini\].	_	179-1	linguistic	none	_	_	_	*->62-8	*[62]
+
+#Text=cioè le rispond~
+181-1	5792-5796	cioè	_	c\[ioè	??	180-0	linguistic	none	_	_	_	_	_
+181-1.1	5793-5796	ioè	_	_	_	_	_	_	_	_	_	*->63-1	*[63]
+181-2	5797-5799	le	_	le	_	180-1	linguistic	none	_	_	_	*->63-2	*[63]
+181-3	5800-5808	rispond~	_	rispond~\]	_	180-2	linguistic	none	_	_	_	*->63-3	*[63]
+
+#Text=no no m~ me me lo scrivo io adesso
+182-1	5809-5811	no	_	\[no	BO026	181-0	linguistic	none	_	_	_	*->63-4	*[63]
+182-2	5812-5814	no	_	no	_	181-1	linguistic	none	_	_	_	*->63-5	*[63]
+182-3	5815-5817	m~	_	m~	_	181-2	linguistic	none	_	_	_	*->63-6	*[63]
+182-4	5818-5820	me	_	me	_	181-3	linguistic	none	_	_	_	*->63-7	*[63]
+182-5	5821-5823	me	_	m\]e	_	181-4	linguistic	none	_	_	_	_	_
+182-5.1	5821-5822	m	_	_	_	_	_	_	_	_	_	*->63-8	*[63]
+182-6	5824-5826	lo	_	lo	_	181-5	linguistic	none	_	_	_	_	_
+182-7	5827-5833	scrivo	_	scrivo	_	181-6	linguistic	none	_	_	_	_	_
+182-8	5834-5836	io	_	io	_	181-7	linguistic	none	_	_	_	_	_
+182-9	5837-5843	adesso	Falling	ades\[so\].	_	181-8	linguistic	none	_	_	_	_	_
+182-9.1	5841-5843	so	_	_	_	_	_	_	_	_	_	*->64-1	*[64]
+
+#Text=okay
+183-1	5844-5848	okay	Falling	\[o\]kay.	??	182-0	linguistic	none	_	_	_	_	_
+183-1.1	5844-5845	o	_	_	_	_	_	_	_	_	_	*->64-2	*[64]
+
+#Text=va bene
+184-1	5849-5851	va	_	va	BO026	183-0	linguistic	none	_	_	_	_	_
+184-2	5852-5856	bene	Rising	bene?	_	183-1	linguistic	none	_	_	_	_	_
+
+#Text=va bene allora io mi iscrivo
+185-1	5857-5859	va	_	va	??	184-0	linguistic	none	_	_	_	_	_
+185-2	5860-5864	bene	_	bene	_	184-1	linguistic	none	_	_	_	_	_
+185-3	5865-5871	allora	_	allora	_	184-2	linguistic	none	_	_	_	_	_
+185-4	5872-5874	io	_	io	_	184-3	linguistic	none	_	_	_	_	_
+185-5	5875-5877	mi	_	mi	_	184-4	linguistic	none	_	_	_	_	_
+185-6	5878-5885	iscrivo	_	iscrivo:	_	184-5	linguistic	none	6x1	_	_	_	_
+
+#Text=sì
+186-1	5886-5888	sì	Falling	\[s\]ì.	BO026	185-0	linguistic	none	_	_	_	_	_
+186-1.1	5886-5887	s	_	_	_	_	_	_	_	_	_	*->65-1	*[65]
+
+#Text=per giugno lo farà
+187-1	5889-5892	per	_	per	BO026	186-0	linguistic	none	_	_	_	_	_
+187-2	5893-5899	giugno	_	giugno	_	186-1	linguistic	none	_	_	_	_	_
+187-3	5900-5902	lo	_	lo	_	186-2	linguistic	none	_	_	_	_	_
+187-4	5903-5907	farà	Rising	farà?	_	186-3	linguistic	none	_	_	_	_	_
+
+#Text=sì
+188-1	5908-5910	sì	Falling	sì.	BO027	187-0	linguistic	none	_	_	_	_	_
+
+#Text=d' accordo
+189-1	5911-5913	d'	_	d'	BO026	188-0	linguistic	none	_	_	_	_	_
+189-2	5914-5921	accordo	Falling	accordo.	_	188-1	linguistic	none	_	_	_	_	_
+
+#Text=grazie arrivederci
+190-1	5922-5928	grazie	_	°grazie	BO027	189-0	linguistic	none	_	_	_	_	_
+190-2	5929-5940	arrivederci	Falling	arrivederci.°	_	189-1	linguistic	none	_	_	_	_	_

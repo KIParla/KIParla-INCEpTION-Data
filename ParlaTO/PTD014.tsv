@@ -1,0 +1,2443 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_SP=webanno.custom.Type|Type_values
+#T_SP=webanno.custom.code_variation|code_variation_values
+#T_SP=webanno.custom.Prolongation|Prolongation_values
+#T_SP=webanno.custom.Pace|Pace_values
+#T_SP=webanno.custom.Guesses|Guesses_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=adesso sta registrando (.) in quale paese vive
+1-1	0-6	adesso	_	adesso	TOR010	0-0	linguistic	none	_	_	_	_	_
+1-2	7-10	sta	_	sta	_	0-1	linguistic	none	_	_	_	_	_
+1-3	11-22	registrando	_	registrando	_	0-2	linguistic	none	_	_	_	_	_
+1-4	23-26	(.)	_	(.)	_	0-3	shortpause	none	_	_	_	_	_
+1-5	27-29	in	_	in	_	0-4	linguistic	none	_	_	_	_	_
+1-6	30-35	quale	_	quale	_	0-5	linguistic	none	_	_	_	_	_
+1-7	36-41	paese	_	paese	_	0-6	linguistic	none	_	_	_	_	_
+1-8	42-46	vive	Rising	vive?	_	0-7	linguistic	none	_	_	_	_	_
+
+#Text=io vivo in un comune al confine della provincia fra torino e cuneo di cin~ circa cinquemila abitanti che si chiama villafranca piemonte
+2-1	47-49	io	_	io	TOI112	1-0	linguistic	none	_	_	_	_	_
+2-2	50-54	vivo	_	vivo	_	1-1	linguistic	none	_	_	_	_	_
+2-3	55-57	in	_	in	_	1-2	linguistic	none	_	_	_	_	_
+2-4	58-60	un	_	un	_	1-3	linguistic	none	_	_	_	_	_
+2-5	61-67	comune	_	comune:	_	1-4	linguistic	none	5x1	_	_	_	_
+2-6	68-70	al	_	al	_	1-5	linguistic	none	_	_	_	_	_
+2-7	71-78	confine	_	confine	_	1-6	linguistic	none	_	_	_	_	_
+2-8	79-84	della	_	della	_	1-7	linguistic	none	_	_	_	_	_
+2-9	85-94	provincia	_	provincia	_	1-8	linguistic	none	_	_	_	_	_
+2-10	95-98	fra	_	fra	_	1-9	linguistic	none	_	_	_	_	_
+2-11	99-105	torino	_	torino	_	1-10	linguistic	none	_	_	_	_	_
+2-12	106-107	e	_	e	_	1-11	linguistic	none	_	_	_	_	_
+2-13	108-113	cuneo	_	cuneo	_	1-12	linguistic	none	_	_	_	_	_
+2-14	114-116	di	_	di	_	1-13	linguistic	none	_	_	_	_	_
+2-15	117-121	cin~	_	cin~	_	1-14	linguistic	none	_	_	_	_	_
+2-16	122-127	circa	_	circa	_	1-15	linguistic	none	_	_	_	_	_
+2-17	128-138	cinquemila	_	cinquemila	_	1-16	linguistic	none	_	_	_	_	_
+2-18	139-147	abitanti	_	abitanti	_	1-17	linguistic	none	_	_	_	_	_
+2-19	148-151	che	_	che	_	1-18	linguistic	none	_	_	_	_	_
+2-20	152-154	si	_	si	_	1-19	linguistic	none	_	_	_	_	_
+2-21	155-161	chiama	_	chiama	_	1-20	linguistic	none	_	_	_	_	_
+2-22	162-173	villafranca	_	villafranca	_	1-21	linguistic	none	_	_	_	_	_
+2-23	174-182	piemonte	_	piemonte	_	1-22	linguistic	none	_	_	_	_	_
+
+#Text=okay (.) è cambiato molto nel corso degli anni questo paese (.) se sì come
+3-1	183-187	okay	_	okay	TOR010	2-0	linguistic	none	_	_	_	_	_
+3-2	188-191	(.)	_	(.)	_	2-1	shortpause	none	_	_	_	_	_
+3-3	192-193	è	_	è	_	2-2	linguistic	none	_	_	_	_	_
+3-4	194-202	cambiato	_	cambiato	_	2-3	linguistic	none	_	_	_	_	_
+3-5	203-208	molto	_	molto	_	2-4	linguistic	none	_	_	_	_	_
+3-6	209-212	nel	_	nel	_	2-5	linguistic	none	_	_	_	_	_
+3-7	213-218	corso	_	corso	_	2-6	linguistic	none	_	_	_	_	_
+3-8	219-224	degli	_	degli	_	2-7	linguistic	none	_	_	_	_	_
+3-9	225-229	anni	_	anni	_	2-8	linguistic	none	_	_	_	_	_
+3-10	230-236	questo	_	questo	_	2-9	linguistic	none	_	_	_	_	_
+3-11	237-242	paese	Rising	paese?	_	2-10	linguistic	none	_	_	_	_	_
+3-12	243-246	(.)	_	(.)	_	2-11	shortpause	none	_	_	_	_	_
+3-13	247-249	se	_	se	_	2-12	linguistic	none	_	_	_	_	_
+3-14	250-252	sì	_	sì	_	2-13	linguistic	none	_	_	_	_	_
+3-15	253-257	come	Rising	come?	_	2-14	linguistic	none	_	_	_	_	_
+
+#Text=mah questo paese è sempre rimasto com' era una volta agricolo però l' agricoltura è cambiata che è diventata intensiva invece di (.) di un' agricoltura più più di piccole realtà
+4-1	258-261	mah	_	mah	TOI112	3-0	linguistic	none	_	_	_	_	_
+4-2	262-268	questo	_	questo	_	3-1	linguistic	none	_	_	_	_	_
+4-3	269-274	paese	_	paese	_	3-2	linguistic	none	_	_	_	_	_
+4-4	275-276	è	_	è	_	3-3	linguistic	none	_	_	_	_	_
+4-5	277-283	sempre	_	sempre	_	3-4	linguistic	none	_	_	_	_	_
+4-6	284-291	rimasto	_	rimasto::	_	3-5	linguistic	none	6x2	_	_	_	_
+4-7	292-296	com'	_	com'	_	3-6	linguistic	none	_	_	_	_	_
+4-8	297-300	era	_	era	_	3-7	linguistic	none	_	_	_	_	_
+4-9	301-304	una	_	una	_	3-8	linguistic	none	_	_	_	_	_
+4-10	305-310	volta	_	volta	_	3-9	linguistic	none	_	_	_	_	_
+4-11	311-319	agricolo	_	agricolo	_	3-10	linguistic	none	_	_	_	_	_
+4-12	320-324	però	_	però	_	3-11	linguistic	none	_	_	_	_	_
+4-13	325-327	l'	_	l'	_	3-12	linguistic	none	_	_	_	_	_
+4-14	328-339	agricoltura	_	agricoltura	_	3-13	linguistic	none	_	_	_	_	_
+4-15	340-341	è	_	è	_	3-14	linguistic	none	_	_	_	_	_
+4-16	342-350	cambiata	_	cambiata	_	3-15	linguistic	none	_	_	_	_	_
+4-17	351-354	che	_	che	_	3-16	linguistic	none	_	_	_	_	_
+4-18	355-356	è	_	è	_	3-17	linguistic	none	_	_	_	_	_
+4-19	357-366	diventata	_	diventata	_	3-18	linguistic	none	_	_	_	_	_
+4-20	367-376	intensiva	_	intensiva	_	3-19	linguistic	none	_	_	_	_	_
+4-21	377-383	invece	_	invece	_	3-20	linguistic	none	_	_	_	_	_
+4-22	384-386	di	_	di	_	3-21	linguistic	none	_	_	_	_	_
+4-23	387-390	(.)	_	(.)	_	3-22	shortpause	none	_	_	_	_	_
+4-24	391-393	di	_	di	_	3-23	linguistic	none	_	_	_	_	_
+4-25	394-397	un'	_	un'	_	3-24	linguistic	none	_	_	_	_	_
+4-26	398-409	agricoltura	_	agricoltura	_	3-25	linguistic	none	_	_	_	_	_
+4-27	410-413	più	_	più:::	_	3-26	linguistic	none	2x3	_	_	_	_
+4-28	414-417	più	_	più	_	3-27	linguistic	none	_	_	_	_	_
+4-29	418-420	di	_	di	_	3-28	linguistic	none	_	_	_	_	_
+4-30	421-428	piccole	_	piccole	_	3-29	linguistic	none	_	_	_	_	_
+4-31	429-435	realtà	_	realtà	_	3-30	linguistic	none	_	_	_	_	_
+
+#Text=okay
+5-1	436-440	okay	_	°okay°	TOR010	4-0	linguistic	none	_	_	_	_	_
+
+#Text=eh come si trova in questo paese le piace
+6-1	441-443	eh	_	e:h	TOR010	5-0	linguistic	none	0x1	_	_	_	_
+6-2	444-448	come	_	come	_	5-1	linguistic	none	_	_	_	_	_
+6-3	449-451	si	_	si	_	5-2	linguistic	none	_	_	_	_	_
+6-4	452-457	trova	_	trova	_	5-3	linguistic	none	_	_	_	_	_
+6-5	458-460	in	_	in	_	5-4	linguistic	none	_	_	_	_	_
+6-6	461-467	questo	_	questo	_	5-5	linguistic	none	_	_	_	_	_
+6-7	468-473	paese	Rising	paese?	_	5-6	linguistic	none	_	_	_	_	_
+6-8	474-476	le	_	le	_	5-7	linguistic	none	_	_	_	_	_
+6-9	477-482	piace	Rising	piace?	_	5-8	linguistic	none	_	_	_	_	_
+
+#Text=mah io sono nato qua ehm sono abituato qua mh sto bene qua (.) sicuramente ci sono posti migliori però
+7-1	483-486	mah	_	mah	TOI112	6-0	linguistic	none	_	_	_	_	_
+7-2	487-489	io	_	io	_	6-1	linguistic	none	_	_	_	_	_
+7-3	490-494	sono	_	sono	_	6-2	linguistic	none	_	_	_	_	_
+7-4	495-499	nato	_	nato	_	6-3	linguistic	none	_	_	_	_	_
+7-5	500-503	qua	_	qua:	_	6-4	linguistic	none	2x1	_	_	_	_
+7-6	504-507	ehm	_	e::hm	_	6-5	linguistic	none	0x2	_	_	_	_
+7-7	508-512	sono	_	sono	_	6-6	linguistic	none	_	_	_	_	_
+7-8	513-521	abituato	_	abituato	_	6-7	linguistic	none	_	_	_	_	_
+7-9	522-525	qua	_	qua	_	6-8	linguistic	none	_	_	_	_	_
+7-10	526-528	mh	_	mh	_	6-9	linguistic	none	_	_	_	_	_
+7-11	529-532	sto	_	sto	_	6-10	linguistic	none	_	_	_	_	_
+7-12	533-537	bene	_	bene	_	6-11	linguistic	none	_	_	_	_	_
+7-13	538-541	qua	_	qua	_	6-12	linguistic	none	_	_	_	_	_
+7-14	542-545	(.)	_	(.)	_	6-13	shortpause	none	_	_	_	_	_
+7-15	546-557	sicuramente	_	sicuramente	_	6-14	linguistic	none	_	_	_	_	_
+7-16	558-560	ci	_	ci	_	6-15	linguistic	none	_	_	_	_	_
+7-17	561-565	sono	_	sono	_	6-16	linguistic	none	_	_	_	_	_
+7-18	566-571	posti	_	posti	_	6-17	linguistic	none	_	_	_	_	_
+7-19	572-580	migliori	_	migliori	_	6-18	linguistic	none	_	_	_	_	_
+7-20	581-585	però	_	però::	_	6-19	linguistic	none	3x2	_	_	_	_
+
+#Text=essendo nato qua ehm
+8-1	586-593	essendo	_	essendo::	TOI112	7-0	linguistic	none	6x2	_	_	_	_
+8-2	594-598	nato	_	nato	_	7-1	linguistic	none	_	_	_	_	_
+8-3	599-602	qua	_	qua	_	7-2	linguistic	none	_	_	_	_	_
+8-4	603-606	ehm	_	e::hm	_	7-3	linguistic	none	0x2	_	_	_	_
+
+#Text=va bene così
+9-1	607-609	va	_	va	TOI112	8-0	linguistic	none	_	_	_	_	_
+9-2	610-614	bene	_	bene	_	8-1	linguistic	none	_	_	_	_	_
+9-3	615-619	così	_	così	_	8-2	linguistic	none	_	_	_	_	_
+
+#Text=sono cambiate le persone che vivono nel paese
+10-1	620-624	sono	_	sono	TOR010	9-0	linguistic	none	_	_	_	_	_
+10-2	625-633	cambiate	_	cambiate	_	9-1	linguistic	none	_	_	_	_	_
+10-3	634-636	le	_	le	_	9-2	linguistic	none	_	_	_	_	_
+10-4	637-644	persone	_	persone	_	9-3	linguistic	none	_	_	_	_	_
+10-5	645-648	che	_	che	_	9-4	linguistic	none	_	_	_	_	_
+10-6	649-655	vivono	_	vivono	_	9-5	linguistic	none	_	_	_	_	_
+10-7	656-659	nel	_	nel	_	9-6	linguistic	none	_	_	_	_	_
+10-8	660-665	paese	Rising	paese?	_	9-7	linguistic	none	_	_	_	_	_
+
+#Text=persone che vivono nel paese sono molto più sulle sue rispetto a una volta cioè basta fare un esempio
+11-1	666-673	persone	_	persone	TOI112	10-0	linguistic	none	_	_	_	_	_
+11-2	674-677	che	_	che	_	10-1	linguistic	none	_	_	_	_	_
+11-3	678-684	vivono	_	vivono	_	10-2	linguistic	none	_	_	_	_	_
+11-4	685-688	nel	_	nel	_	10-3	linguistic	none	_	_	_	_	_
+11-5	689-694	paese	_	paese:::	_	10-4	linguistic	none	4x3	_	_	_	_
+11-6	695-699	sono	_	sono	_	10-5	linguistic	none	_	_	_	_	_
+11-7	700-705	molto	_	molto	_	10-6	linguistic	none	_	_	_	_	_
+11-8	706-709	più	_	più:::	_	10-7	linguistic	none	2x3	_	_	_	_
+11-9	710-715	sulle	_	sulle	_	10-8	linguistic	none	_	_	_	_	_
+11-10	716-719	sue	_	sue	_	10-9	linguistic	none	_	_	_	_	_
+11-11	720-728	rispetto	_	rispetto	_	10-10	linguistic	none	_	_	_	_	_
+11-12	729-730	a	_	a	_	10-11	linguistic	none	_	_	_	_	_
+11-13	731-734	una	_	una	_	10-12	linguistic	none	_	_	_	_	_
+11-14	735-740	volta	_	volta	_	10-13	linguistic	none	_	_	_	_	_
+11-15	741-745	cioè	_	cioè	_	10-14	linguistic	none	_	_	_	_	_
+11-16	746-751	basta	_	basta	_	10-15	linguistic	none	_	_	_	_	_
+11-17	752-756	fare	_	fare	_	10-16	linguistic	none	_	_	_	_	_
+11-18	757-759	un	_	un	_	10-17	linguistic	none	_	_	_	_	_
+11-19	760-767	esempio	_	esempio	_	10-18	linguistic	none	_	_	_	_	_
+
+#Text=cioè io vengo dalla campagna ehm lavoro ancora adesso in campagna cioè una volta ehm per esempio quando si aveva bisogno di un' attrezzatura agricola si andava a chieder~ a richiederla a un vicino mh che te la dava in prestito e poi magari il vicino veniva a mh prenderla da te e tu gliela davi in prestito
+12-1	768-772	cioè	_	cioè:	TOI112	11-0	linguistic	none	3x1	_	_	_	_
+12-2	773-775	io	_	io	_	11-1	linguistic	none	_	_	_	_	_
+12-3	776-781	vengo	_	vengo	_	11-2	linguistic	none	_	_	_	_	_
+12-4	782-787	dalla	_	dalla	_	11-3	linguistic	none	_	_	_	_	_
+12-5	788-796	campagna	_	campagna:	_	11-4	linguistic	none	7x1	_	_	_	_
+12-6	797-800	ehm	_	e::hm	_	11-5	linguistic	none	0x2	_	_	_	_
+12-7	801-807	lavoro	_	lavoro	_	11-6	linguistic	none	_	_	_	_	_
+12-8	808-814	ancora	_	ancora	_	11-7	linguistic	none	_	_	_	_	_
+12-9	815-821	adesso	_	adesso	_	11-8	linguistic	none	_	_	_	_	_
+12-10	822-824	in	_	in	_	11-9	linguistic	none	_	_	_	_	_
+12-11	825-833	campagna	_	campagna	_	11-10	linguistic	none	_	_	_	_	_
+12-12	834-838	cioè	_	cioè	_	11-11	linguistic	none	_	_	_	_	_
+12-13	839-842	una	_	una	_	11-12	linguistic	none	_	_	_	_	_
+12-14	843-848	volta	_	volta	_	11-13	linguistic	none	_	_	_	_	_
+12-15	849-852	ehm	_	e:hm	_	11-14	linguistic	none	0x1	_	_	_	_
+12-16	853-856	per	_	per	_	11-15	linguistic	none	_	_	_	_	_
+12-17	857-864	esempio	_	esempio	_	11-16	linguistic	none	_	_	_	_	_
+12-18	865-871	quando	_	quando	_	11-17	linguistic	none	_	_	_	_	_
+12-19	872-874	si	_	si	_	11-18	linguistic	none	_	_	_	_	_
+12-20	875-880	aveva	_	aveva	_	11-19	linguistic	none	_	_	_	_	_
+12-21	881-888	bisogno	_	bisogno	_	11-20	linguistic	none	_	_	_	_	_
+12-22	889-891	di	_	di::	_	11-21	linguistic	none	1x2	_	_	_	_
+12-23	892-895	un'	_	un'	_	11-22	linguistic	none	_	_	_	_	_
+12-24	896-908	attrezzatura	_	attrezzatura	_	11-23	linguistic	none	_	_	_	_	_
+12-25	909-917	agricola	_	agricola	_	11-24	linguistic	none	_	_	_	_	_
+12-26	918-920	si	_	si	_	11-25	linguistic	none	_	_	_	_	_
+12-27	921-927	andava	_	andava:	_	11-26	linguistic	none	5x1	_	_	_	_
+12-28	928-929	a	_	a	_	11-27	linguistic	none	_	_	_	_	_
+12-29	930-938	chieder~	_	chieder~	_	11-28	linguistic	none	_	_	_	_	_
+12-30	939-940	a	_	a	_	11-29	linguistic	none	_	_	_	_	_
+12-31	941-952	richiederla	_	richiederla	_	11-30	linguistic	none	_	_	_	_	_
+12-32	953-954	a	_	a	_	11-31	linguistic	none	_	_	_	_	_
+12-33	955-957	un	_	un	_	11-32	linguistic	none	_	_	_	_	_
+12-34	958-964	vicino	_	vicino	_	11-33	linguistic	none	_	_	_	_	_
+12-35	965-967	mh	_	mh	_	11-34	linguistic	none	_	_	_	_	_
+12-36	968-971	che	_	che	_	11-35	linguistic	none	_	_	_	_	_
+12-37	972-974	te	_	te	_	11-36	linguistic	none	_	_	_	_	_
+12-38	975-977	la	_	la	_	11-37	linguistic	none	_	_	_	_	_
+12-39	978-982	dava	_	dava	_	11-38	linguistic	none	_	_	_	_	_
+12-40	983-985	in	_	in	_	11-39	linguistic	none	_	_	_	_	_
+12-41	986-994	prestito	_	prestito	_	11-40	linguistic	none	_	_	_	_	_
+12-42	995-996	e	_	e	_	11-41	linguistic	none	_	_	_	_	_
+12-43	997-1000	poi	_	poi	_	11-42	linguistic	none	_	_	_	_	_
+12-44	1001-1007	magari	_	magari	_	11-43	linguistic	none	_	_	_	_	_
+12-45	1008-1010	il	_	il	_	11-44	linguistic	none	_	_	_	_	_
+12-46	1011-1017	vicino	_	vicino	_	11-45	linguistic	none	_	_	_	_	_
+12-47	1018-1024	veniva	_	veniva	_	11-46	linguistic	none	_	_	_	_	_
+12-48	1025-1026	a	_	a::	_	11-47	linguistic	none	0x2	_	_	_	_
+12-49	1027-1029	mh	_	mh	_	11-48	linguistic	none	_	_	_	_	_
+12-50	1030-1039	prenderla	_	prenderla	_	11-49	linguistic	none	_	_	_	_	_
+12-51	1040-1042	da	_	da	_	11-50	linguistic	none	_	_	_	_	_
+12-52	1043-1045	te	_	te	_	11-51	linguistic	none	_	_	_	_	_
+12-53	1046-1047	e	_	e	_	11-52	linguistic	none	_	_	_	_	_
+12-54	1048-1050	tu	_	tu	_	11-53	linguistic	none	_	_	_	_	_
+12-55	1051-1057	gliela	_	gliela	_	11-54	linguistic	none	_	_	_	_	_
+12-56	1058-1062	davi	_	davi	_	11-55	linguistic	none	_	_	_	_	_
+12-57	1063-1065	in	_	in	_	11-56	linguistic	none	_	_	_	_	_
+12-58	1066-1074	prestito	_	prestito	_	11-57	linguistic	none	_	_	_	_	_
+
+#Text=mh non era raro magari gente che andava a chiedere ehm magari un' attrezzatura in prestito magari a un chilometro due chilomentri di distanza cosa che adesso non succede più perché piuttosto di andare a prendere in prestito un' attrezzatura uno se la compera perché poi ehm
+13-1	1075-1077	mh	_	m::h	TOI112	12-0	linguistic	none	0x2	_	_	_	_
+13-2	1078-1081	non	_	non	_	12-1	linguistic	none	_	_	_	_	_
+13-3	1082-1085	era	_	era	_	12-2	linguistic	none	_	_	_	_	_
+13-4	1086-1090	raro	_	raro	_	12-3	linguistic	none	_	_	_	_	_
+13-5	1091-1097	magari	_	magari	_	12-4	linguistic	none	_	_	_	_	_
+13-6	1098-1103	gente	_	gente	_	12-5	linguistic	none	_	_	_	_	_
+13-7	1104-1107	che	_	che	_	12-6	linguistic	none	_	_	_	_	_
+13-8	1108-1114	andava	_	andava	_	12-7	linguistic	none	_	_	_	_	_
+13-9	1115-1116	a	_	a	_	12-8	linguistic	none	_	_	_	_	_
+13-10	1117-1125	chiedere	_	chiedere	_	12-9	linguistic	none	_	_	_	_	_
+13-11	1126-1129	ehm	_	e:hm	_	12-10	linguistic	none	0x1	_	_	_	_
+13-12	1130-1136	magari	_	magari	_	12-11	linguistic	none	_	_	_	_	_
+13-13	1137-1140	un'	_	un'	_	12-12	linguistic	none	_	_	_	_	_
+13-14	1141-1153	attrezzatura	_	attrezzatura	_	12-13	linguistic	none	_	_	_	_	_
+13-15	1154-1156	in	_	in	_	12-14	linguistic	none	_	_	_	_	_
+13-16	1157-1165	prestito	_	prestito	_	12-15	linguistic	none	_	_	_	_	_
+13-17	1166-1172	magari	_	magari	_	12-16	linguistic	none	_	_	_	_	_
+13-18	1173-1174	a	_	a	_	12-17	linguistic	none	_	_	_	_	_
+13-19	1175-1177	un	_	un	_	12-18	linguistic	none	_	_	_	_	_
+13-20	1178-1188	chilometro	_	chilometro	_	12-19	linguistic	none	_	_	_	_	_
+13-21	1189-1192	due	_	due	_	12-20	linguistic	none	_	_	_	_	_
+13-22	1193-1204	chilomentri	_	chilomentri	_	12-21	linguistic	none	_	_	_	_	_
+13-23	1205-1207	di	_	di	_	12-22	linguistic	none	_	_	_	_	_
+13-24	1208-1216	distanza	_	distanza	_	12-23	linguistic	none	_	_	_	_	_
+13-25	1217-1221	cosa	_	cosa	_	12-24	linguistic	none	_	_	_	_	_
+13-26	1222-1225	che	_	che	_	12-25	linguistic	none	_	_	_	_	_
+13-27	1226-1232	adesso	_	adesso	_	12-26	linguistic	none	_	_	_	_	_
+13-28	1233-1236	non	_	non	_	12-27	linguistic	none	_	_	_	_	_
+13-29	1237-1244	succede	_	succede	_	12-28	linguistic	none	_	_	_	_	_
+13-30	1245-1248	più	_	più	_	12-29	linguistic	none	_	_	_	_	_
+13-31	1249-1255	perché	_	perché	_	12-30	linguistic	none	_	_	_	_	_
+13-32	1256-1265	piuttosto	_	piuttosto	_	12-31	linguistic	none	_	_	_	_	_
+13-33	1266-1268	di	_	di	_	12-32	linguistic	none	_	_	_	_	_
+13-34	1269-1275	andare	_	andare	_	12-33	linguistic	none	_	_	_	_	_
+13-35	1276-1277	a	_	a	_	12-34	linguistic	none	_	_	_	_	_
+13-36	1278-1286	prendere	_	prendere	_	12-35	linguistic	none	_	_	_	_	_
+13-37	1287-1289	in	_	in	_	12-36	linguistic	none	_	_	_	_	_
+13-38	1290-1298	prestito	_	prestito	_	12-37	linguistic	none	_	_	_	_	_
+13-39	1299-1302	un'	_	un'	_	12-38	linguistic	none	_	_	_	_	_
+13-40	1303-1315	attrezzatura	_	attrezzatura	_	12-39	linguistic	none	_	_	_	_	_
+13-41	1316-1319	uno	_	uno	_	12-40	linguistic	none	_	_	_	_	_
+13-42	1320-1322	se	_	se	_	12-41	linguistic	none	_	_	_	_	_
+13-43	1323-1325	la	_	la	_	12-42	linguistic	none	_	_	_	_	_
+13-44	1326-1333	compera	_	compera	_	12-43	linguistic	none	_	_	_	_	_
+13-45	1334-1340	perché	_	perché	_	12-44	linguistic	none	_	_	_	_	_
+13-46	1341-1344	poi	_	poi::	_	12-45	linguistic	none	2x2	_	_	_	_
+13-47	1345-1348	ehm	_	e:hm	_	12-46	linguistic	none	0x1	_	_	_	_
+
+#Text=ehm (.) mh la gente si è chiusa maggiormente quindi ehm è una cosa un po' reciproca io non vado a prendere una cosa in presito da te e però mi dà fastidio se tu vieni a prenderla da me solo proprio in casi no
+14-1	1349-1352	ehm	_	e:hm	TOI112	13-0	linguistic	none	0x1	_	_	_	_
+14-2	1353-1356	(.)	_	(.)	_	13-1	shortpause	none	_	_	_	_	_
+14-3	1357-1359	mh	_	mh	_	13-2	linguistic	none	_	_	_	_	_
+14-4	1360-1362	la	_	la	_	13-3	linguistic	none	_	_	_	_	_
+14-5	1363-1368	gente	_	gente	_	13-4	linguistic	none	_	_	_	_	_
+14-6	1369-1371	si	_	si	_	13-5	linguistic	none	_	_	_	_	_
+14-7	1372-1373	è	_	è	_	13-6	linguistic	none	_	_	_	_	_
+14-8	1374-1380	chiusa	_	chiusa	_	13-7	linguistic	none	_	_	_	_	_
+14-9	1381-1393	maggiormente	_	maggiormente	_	13-8	linguistic	none	_	_	_	_	_
+14-10	1394-1400	quindi	_	quindi	_	13-9	linguistic	none	_	_	_	_	_
+14-11	1401-1404	ehm	_	e::hm	_	13-10	linguistic	none	0x2	_	_	_	_
+14-12	1405-1406	è	_	è	_	13-11	linguistic	none	_	_	_	_	_
+14-13	1407-1410	una	_	una	_	13-12	linguistic	none	_	_	_	_	_
+14-14	1411-1415	cosa	_	cosa	_	13-13	linguistic	none	_	_	_	_	_
+14-15	1416-1418	un	_	un	_	13-14	linguistic	none	_	_	_	_	_
+14-16	1419-1422	po'	_	po'	_	13-15	linguistic	none	_	_	_	_	_
+14-17	1423-1432	reciproca	_	reciproca	_	13-16	linguistic	none	_	_	_	_	_
+14-18	1433-1435	io	_	io	_	13-17	linguistic	none	_	_	_	_	_
+14-19	1436-1439	non	_	non	_	13-18	linguistic	none	_	_	_	_	_
+14-20	1440-1444	vado	_	vado	_	13-19	linguistic	none	_	_	_	_	_
+14-21	1445-1446	a	_	a	_	13-20	linguistic	none	_	_	_	_	_
+14-22	1447-1455	prendere	_	prendere	_	13-21	linguistic	none	_	_	_	_	_
+14-23	1456-1459	una	_	una	_	13-22	linguistic	none	_	_	_	_	_
+14-24	1460-1464	cosa	_	cosa	_	13-23	linguistic	none	_	_	_	_	_
+14-25	1465-1467	in	_	in	_	13-24	linguistic	none	_	_	_	_	_
+14-26	1468-1475	presito	_	presito	_	13-25	linguistic	none	_	_	_	_	_
+14-27	1476-1478	da	_	da	_	13-26	linguistic	none	_	_	_	_	_
+14-28	1479-1481	te	_	te	_	13-27	linguistic	none	_	_	_	_	_
+14-29	1482-1483	e	_	e:::	_	13-28	linguistic	none	0x3	_	_	_	_
+14-30	1484-1488	però	_	però	_	13-29	linguistic	none	_	_	_	_	_
+14-31	1489-1491	mi	_	mi	_	13-30	linguistic	none	_	_	_	_	_
+14-32	1492-1494	dà	_	dà	_	13-31	linguistic	none	_	_	_	_	_
+14-33	1495-1503	fastidio	_	fastidio	_	13-32	linguistic	none	_	_	_	_	_
+14-34	1504-1506	se	_	se	_	13-33	linguistic	none	_	_	_	_	_
+14-35	1507-1509	tu	_	tu	_	13-34	linguistic	none	_	_	_	_	_
+14-36	1510-1515	vieni	_	vieni	_	13-35	linguistic	none	_	_	_	_	_
+14-37	1516-1517	a	_	a	_	13-36	linguistic	none	_	_	_	_	_
+14-38	1518-1527	prenderla	_	prenderla	_	13-37	linguistic	none	_	_	_	_	_
+14-39	1528-1530	da	_	da	_	13-38	linguistic	none	_	_	_	_	_
+14-40	1531-1533	me	_	me	_	13-39	linguistic	none	_	_	_	_	_
+14-41	1534-1538	solo	_	solo	_	13-40	linguistic	none	_	_	_	_	_
+14-42	1539-1546	proprio	_	proprio	_	13-41	linguistic	none	_	_	_	_	_
+14-43	1547-1549	in	_	in	_	13-42	linguistic	none	_	_	_	_	_
+14-44	1550-1554	casi	_	casi	_	13-43	linguistic	none	_	_	_	_	_
+14-45	1555-1557	no	Rising	no?	_	13-44	linguistic	none	_	_	_	_	_
+
+#Text=quindi è molto raro che (.) quindi questa c' è stata una chiusura delle persone che ognuno si fa gli affari suoi è molto meno espansiva è molto meno socializza meno di una volta
+15-1	1558-1564	quindi	_	quindi	TOI112	14-0	linguistic	none	_	_	_	_	_
+15-2	1565-1566	è	_	è	_	14-1	linguistic	none	_	_	_	_	_
+15-3	1567-1572	molto	_	molto	_	14-2	linguistic	none	_	_	_	_	_
+15-4	1573-1577	raro	_	raro	_	14-3	linguistic	none	_	_	_	_	_
+15-5	1578-1581	che	_	che	_	14-4	linguistic	none	_	_	_	_	_
+15-6	1582-1585	(.)	_	(.)	_	14-5	shortpause	none	_	_	_	_	_
+15-7	1586-1592	quindi	_	quindi	_	14-6	linguistic	none	_	_	_	_	_
+15-8	1593-1599	questa	_	questa	_	14-7	linguistic	none	_	_	_	_	_
+15-9	1600-1602	c'	_	c'	_	14-8	linguistic	none	_	_	_	_	_
+15-10	1603-1604	è	_	è	_	14-9	linguistic	none	_	_	_	_	_
+15-11	1605-1610	stata	_	stata	_	14-10	linguistic	none	_	_	_	_	_
+15-12	1611-1614	una	_	una	_	14-11	linguistic	none	_	_	_	_	_
+15-13	1615-1623	chiusura	_	chiusura	_	14-12	linguistic	none	_	_	_	_	_
+15-14	1624-1629	delle	_	delle	_	14-13	linguistic	none	_	_	_	_	_
+15-15	1630-1637	persone	_	persone	_	14-14	linguistic	none	_	_	_	_	_
+15-16	1638-1641	che	_	che	_	14-15	linguistic	none	_	_	_	_	_
+15-17	1642-1648	ognuno	_	ognuno	_	14-16	linguistic	none	_	_	_	_	_
+15-18	1649-1651	si	_	si	_	14-17	linguistic	none	_	_	_	_	_
+15-19	1652-1654	fa	_	fa	_	14-18	linguistic	none	_	_	_	_	_
+15-20	1655-1658	gli	_	gli	_	14-19	linguistic	none	_	_	_	_	_
+15-21	1659-1665	affari	_	affari	_	14-20	linguistic	none	_	_	_	_	_
+15-22	1666-1670	suoi	_	suoi	_	14-21	linguistic	none	_	_	_	_	_
+15-23	1671-1672	è	_	è	_	14-22	linguistic	none	_	_	_	_	_
+15-24	1673-1678	molto	_	molto	_	14-23	linguistic	none	_	_	_	_	_
+15-25	1679-1683	meno	_	meno	_	14-24	linguistic	none	_	_	_	_	_
+15-26	1684-1693	espansiva	_	espansiva	_	14-25	linguistic	none	_	_	_	_	_
+15-27	1694-1695	è	_	è	_	14-26	linguistic	none	_	_	_	_	_
+15-28	1696-1701	molto	_	molto	_	14-27	linguistic	none	_	_	_	_	_
+15-29	1702-1706	meno	_	meno::	_	14-28	linguistic	none	3x2	_	_	_	_
+15-30	1707-1717	socializza	_	socializza	_	14-29	linguistic	none	_	_	_	_	_
+15-31	1718-1722	meno	_	meno	_	14-30	linguistic	none	_	_	_	_	_
+15-32	1723-1725	di	_	di	_	14-31	linguistic	none	_	_	_	_	_
+15-33	1726-1729	una	_	una	_	14-32	linguistic	none	_	_	_	_	_
+15-34	1730-1735	volta	_	volta	_	14-33	linguistic	none	_	_	_	_	_
+
+#Text=mh
+16-1	1736-1738	mh	_	mh	TOI112	15-0	linguistic	none	_	_	_	_	_
+
+#Text=e ti piace questo cioè ti piaceva più prima o
+17-1	1739-1740	e	_	e	TOR010	16-0	linguistic	none	_	_	_	_	_
+17-2	1741-1743	ti	_	ti	_	16-1	linguistic	none	_	_	_	_	_
+17-3	1744-1749	piace	_	piace	_	16-2	linguistic	none	_	_	_	_	_
+17-4	1750-1756	questo	_	questo:	_	16-3	linguistic	none	5x1	_	_	_	_
+17-5	1757-1761	cioè	_	cioè	_	16-4	linguistic	none	_	_	_	_	_
+17-6	1762-1764	ti	_	ti	_	16-5	linguistic	none	_	_	_	_	_
+17-7	1765-1772	piaceva	_	piaceva	_	16-6	linguistic	none	_	_	_	_	_
+17-8	1773-1776	più	_	più	_	16-7	linguistic	none	_	_	_	_	_
+17-9	1777-1782	prima	_	prima	_	16-8	linguistic	none	_	_	_	_	_
+17-10	1783-1784	o	Rising	o::?	_	16-9	linguistic	none	0x2	_	_	_	_
+
+#Text=mah una volta era così e un po' per mancanza di disponibilità finanziaria e ci si aiutava di più adesso comunque con il benessere provato il benessere ha provocato ehm meno mh problema finanziari quindi mh la gente e si ha è più abituata a fare da sè
+18-1	1785-1788	mah	_	mah	TOI112	17-0	linguistic	none	_	_	_	_	_
+18-2	1789-1792	una	_	una	_	17-1	linguistic	none	_	_	_	_	_
+18-3	1793-1798	volta	_	volta:	_	17-2	linguistic	none	4x1	_	_	_	_
+18-4	1799-1802	era	_	era	_	17-3	linguistic	none	_	_	_	_	_
+18-5	1803-1807	così	_	così	_	17-4	linguistic	none	_	_	_	_	_
+18-6	1808-1809	e	_	e::	_	17-5	linguistic	none	0x2	_	_	_	_
+18-7	1810-1812	un	_	un	_	17-6	linguistic	none	_	_	_	_	_
+18-8	1813-1816	po'	_	po'	_	17-7	linguistic	none	_	_	_	_	_
+18-9	1817-1820	per	_	pe:r	_	17-8	linguistic	none	1x1	_	_	_	_
+18-10	1821-1829	mancanza	_	mancanza	_	17-9	linguistic	none	_	_	_	_	_
+18-11	1830-1832	di	_	di	_	17-10	linguistic	none	_	_	_	_	_
+18-12	1833-1846	disponibilità	_	disponibilità	_	17-11	linguistic	none	_	_	_	_	_
+18-13	1847-1858	finanziaria	_	finanziaria	_	17-12	linguistic	none	_	_	_	_	_
+18-14	1859-1860	e	_	e	_	17-13	linguistic	none	_	_	_	_	_
+18-15	1861-1863	ci	_	ci	_	17-14	linguistic	none	_	_	_	_	_
+18-16	1864-1866	si	_	si	_	17-15	linguistic	none	_	_	_	_	_
+18-17	1867-1874	aiutava	_	aiutava	_	17-16	linguistic	none	_	_	_	_	_
+18-18	1875-1877	di	_	di	_	17-17	linguistic	none	_	_	_	_	_
+18-19	1878-1881	più	_	più	_	17-18	linguistic	none	_	_	_	_	_
+18-20	1882-1888	adesso	_	adesso	_	17-19	linguistic	none	_	_	_	_	_
+18-21	1889-1897	comunque	_	comunque	_	17-20	linguistic	none	_	_	_	_	_
+18-22	1898-1901	con	_	con	_	17-21	linguistic	none	_	_	_	_	_
+18-23	1902-1904	il	_	il	_	17-22	linguistic	none	_	_	_	_	_
+18-24	1905-1914	benessere	_	benessere	_	17-23	linguistic	none	_	_	_	_	_
+18-25	1915-1922	provato	_	provato	_	17-24	linguistic	none	_	_	_	_	_
+18-26	1923-1925	il	_	il	_	17-25	linguistic	none	_	_	_	_	_
+18-27	1926-1935	benessere	_	benessere	_	17-26	linguistic	none	_	_	_	_	_
+18-28	1936-1938	ha	_	ha	_	17-27	linguistic	none	_	_	_	_	_
+18-29	1939-1948	provocato	_	provocato	_	17-28	linguistic	none	_	_	_	_	_
+18-30	1949-1952	ehm	_	e:hm	_	17-29	linguistic	none	0x1	_	_	_	_
+18-31	1953-1957	meno	_	meno::	_	17-30	linguistic	none	3x2	_	_	_	_
+18-32	1958-1960	mh	_	mh	_	17-31	linguistic	none	_	_	_	_	_
+18-33	1961-1969	problema	_	problema	_	17-32	linguistic	none	_	_	_	_	_
+18-34	1970-1980	finanziari	_	finanziari	_	17-33	linguistic	none	_	_	_	_	_
+18-35	1981-1987	quindi	_	quindi	_	17-34	linguistic	none	_	_	_	_	_
+18-36	1988-1990	mh	_	mh	_	17-35	linguistic	none	_	_	_	_	_
+18-37	1991-1993	la	_	la	_	17-36	linguistic	none	_	_	_	_	_
+18-38	1994-1999	gente	_	gente	_	17-37	linguistic	none	_	_	_	_	_
+18-39	2000-2001	e	_	e::	_	17-38	linguistic	none	0x2	_	_	_	_
+18-40	2002-2004	si	_	si	_	17-39	linguistic	none	_	_	_	_	_
+18-41	2005-2007	ha	_	ha	_	17-40	linguistic	none	_	_	_	_	_
+18-42	2008-2009	è	_	è	_	17-41	linguistic	none	_	_	_	_	_
+18-43	2010-2013	più	_	più	_	17-42	linguistic	none	_	_	_	_	_
+18-44	2014-2022	abituata	_	abituata	_	17-43	linguistic	none	_	_	_	_	_
+18-45	2023-2024	a	_	a	_	17-44	linguistic	none	_	_	_	_	_
+18-46	2025-2029	fare	_	fare	_	17-45	linguistic	none	_	_	_	_	_
+18-47	2030-2032	da	_	da	_	17-46	linguistic	none	_	_	_	_	_
+18-48	2033-2035	sè	_	sè	_	17-47	linguistic	none	_	_	_	_	_
+
+#Text=ehm insomma per me va bene (.) anche adesso non è che
+19-1	2036-2039	ehm	_	e:::hm	TOI112	18-0	linguistic	none	0x3	_	_	_	_
+19-2	2040-2047	insomma	_	insomma	_	18-1	linguistic	none	_	_	_	_	_
+19-3	2048-2051	per	_	per	_	18-2	linguistic	none	_	_	_	_	_
+19-4	2052-2054	me	_	me	_	18-3	linguistic	none	_	_	_	_	_
+19-5	2055-2057	va	_	va	_	18-4	linguistic	none	_	_	_	_	_
+19-6	2058-2062	bene	_	bene	_	18-5	linguistic	none	_	_	_	_	_
+19-7	2063-2066	(.)	_	(.)	_	18-6	shortpause	none	_	_	_	_	_
+19-8	2067-2072	anche	_	anche	_	18-7	linguistic	none	_	_	_	_	_
+19-9	2073-2079	adesso	_	adesso	_	18-8	linguistic	none	_	_	_	_	_
+19-10	2080-2083	non	_	non	_	18-9	linguistic	none	_	_	_	_	_
+19-11	2084-2085	è	_	è	_	18-10	linguistic	none	_	_	_	_	_
+19-12	2086-2089	che	_	che:	_	18-11	linguistic	none	2x1	_	_	_	_
+
+#Text=okay
+20-1	2090-2094	okay	_	°okay°	TOR010	19-0	linguistic	none	_	_	_	_	_
+
+#Text=ehm ti ricordi come hai conosciuto tua moglie
+21-1	2095-2098	ehm	_	e:hm	TOR010	20-0	linguistic	none	0x1	_	_	_	_
+21-2	2099-2101	ti	_	ti	_	20-1	linguistic	none	_	_	_	_	_
+21-3	2102-2109	ricordi	_	ricordi	_	20-2	linguistic	none	_	_	_	_	_
+21-4	2110-2114	come	_	come	_	20-3	linguistic	none	_	_	_	_	_
+21-5	2115-2118	hai	_	hai	_	20-4	linguistic	none	_	_	_	_	_
+21-6	2119-2129	conosciuto	_	conosciuto	_	20-5	linguistic	none	_	_	_	_	_
+21-7	2130-2133	tua	_	tua	_	20-6	linguistic	none	_	_	_	_	_
+21-8	2134-2140	moglie	Rising	moglie?	_	20-7	linguistic	none	_	_	_	_	_
+
+#Text=certo che mi ricordo come l' ho conosciuta mia moglie mia moglie l' ho conosciuta in discoteca come si faceva negli anni settanta ottanta (.) che il maggiore di il posto più probabile per incontrare una ragazza era comunque la discoteca in quegli anni là poi le discoteche sono cambiate sono diventate un ritrovo per matti
+22-1	2141-2146	certo	_	>certo	TOI112	21-0	linguistic	none	_	Fast=0-5(0)	_	_	_
+22-2	2147-2150	che	_	che	_	21-1	linguistic	none	_	Fast=0-3(0)	_	_	_
+22-3	2151-2153	mi	_	mi	_	21-2	linguistic	none	_	Fast=0-2(0)	_	_	_
+22-4	2154-2161	ricordo	_	ricordo	_	21-3	linguistic	none	_	Fast=0-7(0)	_	_	_
+22-5	2162-2166	come	_	come	_	21-4	linguistic	none	_	Fast=0-4(0)	_	_	_
+22-6	2167-2169	l'	_	l'	_	21-5	linguistic	none	_	Fast=0-2(0)	_	_	_
+22-7	2170-2172	ho	_	ho	_	21-6	linguistic	none	_	Fast=0-2(0)	_	_	_
+22-8	2173-2183	conosciuta	_	conosciuta	_	21-7	linguistic	none	_	Fast=0-10(0)	_	_	_
+22-9	2184-2187	mia	_	mia	_	21-8	linguistic	none	_	Fast=0-3(0)	_	_	_
+22-10	2188-2194	moglie	_	moglie<	_	21-9	linguistic	none	_	Fast=0-6(0)	_	_	_
+22-11	2195-2198	mia	_	mia	_	21-10	linguistic	none	_	_	_	_	_
+22-12	2199-2205	moglie	_	moglie	_	21-11	linguistic	none	_	_	_	_	_
+22-13	2206-2208	l'	_	l'	_	21-12	linguistic	none	_	_	_	_	_
+22-14	2209-2211	ho	_	ho	_	21-13	linguistic	none	_	_	_	_	_
+22-15	2212-2222	conosciuta	_	conosciuta	_	21-14	linguistic	none	_	_	_	_	_
+22-16	2223-2225	in	_	in	_	21-15	linguistic	none	_	_	_	_	_
+22-17	2226-2235	discoteca	_	discoteca	_	21-16	linguistic	none	_	_	_	_	_
+22-18	2236-2240	come	_	come	_	21-17	linguistic	none	_	_	_	_	_
+22-19	2241-2243	si	_	si	_	21-18	linguistic	none	_	_	_	_	_
+22-20	2244-2250	faceva	_	faceva	_	21-19	linguistic	none	_	_	_	_	_
+22-21	2251-2256	negli	_	negli	_	21-20	linguistic	none	_	_	_	_	_
+22-22	2257-2261	anni	_	anni	_	21-21	linguistic	none	_	_	_	_	_
+22-23	2262-2270	settanta	_	settanta	_	21-22	linguistic	none	_	_	_	_	_
+22-24	2271-2278	ottanta	_	ottanta	_	21-23	linguistic	none	_	_	_	_	_
+22-25	2279-2282	(.)	_	(.)	_	21-24	shortpause	none	_	_	_	_	_
+22-26	2283-2286	che	_	che	_	21-25	linguistic	none	_	_	_	_	_
+22-27	2287-2289	il	_	il	_	21-26	linguistic	none	_	_	_	_	_
+22-28	2290-2298	maggiore	_	maggiore	_	21-27	linguistic	none	_	_	_	_	_
+22-29	2299-2301	di	_	di:	_	21-28	linguistic	none	1x1	_	_	_	_
+22-30	2302-2304	il	_	il	_	21-29	linguistic	none	_	_	_	_	_
+22-31	2305-2310	posto	_	posto::	_	21-30	linguistic	none	4x2	_	_	_	_
+22-32	2311-2314	più	_	più	_	21-31	linguistic	none	_	_	_	_	_
+22-33	2315-2324	probabile	_	probabile	_	21-32	linguistic	none	_	_	_	_	_
+22-34	2325-2328	per	_	per	_	21-33	linguistic	none	_	_	_	_	_
+22-35	2329-2339	incontrare	_	incontrare	_	21-34	linguistic	none	_	_	_	_	_
+22-36	2340-2343	una	_	una	_	21-35	linguistic	none	_	_	_	_	_
+22-37	2344-2351	ragazza	_	ragazza	_	21-36	linguistic	none	_	_	_	_	_
+22-38	2352-2355	era	_	era	_	21-37	linguistic	none	_	_	_	_	_
+22-39	2356-2364	comunque	_	comunque	_	21-38	linguistic	none	_	_	_	_	_
+22-40	2365-2367	la	_	la	_	21-39	linguistic	none	_	_	_	_	_
+22-41	2368-2377	discoteca	_	discoteca	_	21-40	linguistic	none	_	_	_	_	_
+22-42	2378-2380	in	_	in	_	21-41	linguistic	none	_	_	_	_	_
+22-43	2381-2387	quegli	_	quegli	_	21-42	linguistic	none	_	_	_	_	_
+22-44	2388-2392	anni	_	anni	_	21-43	linguistic	none	_	_	_	_	_
+22-45	2393-2395	là	_	là	_	21-44	linguistic	none	_	_	_	_	_
+22-46	2396-2399	poi	_	poi	_	21-45	linguistic	none	_	_	_	_	_
+22-47	2400-2402	le	_	le	_	21-46	linguistic	none	_	_	_	_	_
+22-48	2403-2413	discoteche	_	discoteche	_	21-47	linguistic	none	_	_	_	_	_
+22-49	2414-2418	sono	_	sono	_	21-48	linguistic	none	_	_	_	_	_
+22-50	2419-2427	cambiate	_	cambiate	_	21-49	linguistic	none	_	_	_	_	_
+22-51	2428-2432	sono	_	sono	_	21-50	linguistic	none	_	_	_	_	_
+22-52	2433-2442	diventate	_	diventate	_	21-51	linguistic	none	_	_	_	_	_
+22-53	2443-2445	un	_	un	_	21-52	linguistic	none	_	_	_	_	_
+22-54	2446-2453	ritrovo	_	ritrovo	_	21-53	linguistic	none	_	_	_	_	_
+22-55	2454-2457	per	_	per	_	21-54	linguistic	none	_	_	_	_	_
+22-56	2458-2463	matti	_	matti	_	21-55	linguistic	none	_	_	_	_	_
+
+#Text=cioè aumentando le musiche facevano delle musiche non più ballabili queste cose (.) e quindi penso che i giovani che si incontrano in discoteca adesso siano praticamente pochi o praticamente nessuno
+23-1	2464-2468	cioè	_	cioè	TOI112	22-0	linguistic	none	_	_	_	_	_
+23-2	2469-2479	aumentando	_	aumentando	_	22-1	linguistic	none	_	_	_	_	_
+23-3	2480-2482	le	_	le	_	22-2	linguistic	none	_	_	_	_	_
+23-4	2483-2490	musiche	_	musiche	_	22-3	linguistic	none	_	_	_	_	_
+23-5	2491-2499	facevano	_	facevano	_	22-4	linguistic	none	_	_	_	_	_
+23-6	2500-2505	delle	_	delle	_	22-5	linguistic	none	_	_	_	_	_
+23-7	2506-2513	musiche	_	musiche	_	22-6	linguistic	none	_	_	_	_	_
+23-8	2514-2517	non	_	non	_	22-7	linguistic	none	_	_	_	_	_
+23-9	2518-2521	più	_	più	_	22-8	linguistic	none	_	_	_	_	_
+23-10	2522-2531	ballabili	_	ballabili	_	22-9	linguistic	none	_	_	_	_	_
+23-11	2532-2538	queste	_	queste	_	22-10	linguistic	none	_	_	_	_	_
+23-12	2539-2543	cose	_	cose	_	22-11	linguistic	none	_	_	_	_	_
+23-13	2544-2547	(.)	_	(.)	_	22-12	shortpause	none	_	_	_	_	_
+23-14	2548-2549	e	_	e	_	22-13	linguistic	none	_	_	_	_	_
+23-15	2550-2556	quindi	_	quindi::	_	22-14	linguistic	none	5x2	_	_	_	_
+23-16	2557-2562	penso	_	penso	_	22-15	linguistic	none	_	_	_	_	_
+23-17	2563-2566	che	_	che	_	22-16	linguistic	none	_	_	_	_	_
+23-18	2567-2568	i	_	i	_	22-17	linguistic	none	_	_	_	_	_
+23-19	2569-2576	giovani	_	giovani	_	22-18	linguistic	none	_	_	_	_	_
+23-20	2577-2580	che	_	che	_	22-19	linguistic	none	_	_	_	_	_
+23-21	2581-2583	si	_	si	_	22-20	linguistic	none	_	_	_	_	_
+23-22	2584-2594	incontrano	_	incontrano	_	22-21	linguistic	none	_	_	_	_	_
+23-23	2595-2597	in	_	in	_	22-22	linguistic	none	_	_	_	_	_
+23-24	2598-2607	discoteca	_	discoteca	_	22-23	linguistic	none	_	_	_	_	_
+23-25	2608-2614	adesso	_	adesso	_	22-24	linguistic	none	_	_	_	_	_
+23-26	2615-2620	siano	_	siano	_	22-25	linguistic	none	_	_	_	_	_
+23-27	2621-2633	praticamente	_	praticamente	_	22-26	linguistic	none	_	_	_	_	_
+23-28	2634-2639	pochi	_	pochi	_	22-27	linguistic	none	_	_	_	_	_
+23-29	2640-2641	o	_	o	_	22-28	linguistic	none	_	_	_	_	_
+23-30	2642-2654	praticamente	_	praticamente	_	22-29	linguistic	none	_	_	_	_	_
+23-31	2655-2662	nessuno	_	nessuno	_	22-30	linguistic	none	_	_	_	_	_
+
+#Text=okay
+24-1	2663-2667	okay	_	okay	TOR010	23-0	linguistic	none	_	_	_	_	_
+
+#Text=((ride))
+25-1	2668-2676	((ride))	_	((ride))	TOI112	24-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=mh hai figli com' è cambiata la tua vita dopo la loro nascita
+26-1	2677-2679	mh	_	mh	TOR010	25-0	linguistic	none	_	_	_	_	_
+26-2	2680-2683	hai	_	hai	_	25-1	linguistic	none	_	_	_	_	_
+26-3	2684-2689	figli	Rising	figli?	_	25-2	linguistic	none	_	_	_	_	_
+26-4	2690-2694	com'	_	com'	_	25-3	linguistic	none	_	_	_	_	_
+26-5	2695-2696	è	_	è	_	25-4	linguistic	none	_	_	_	_	_
+26-6	2697-2705	cambiata	_	cambiata	_	25-5	linguistic	none	_	_	_	_	_
+26-7	2706-2708	la	_	la	_	25-6	linguistic	none	_	_	_	_	_
+26-8	2709-2712	tua	_	tua	_	25-7	linguistic	none	_	_	_	_	_
+26-9	2713-2717	vita	_	vita	_	25-8	linguistic	none	_	_	_	_	_
+26-10	2718-2722	dopo	_	dopo	_	25-9	linguistic	none	_	_	_	_	_
+26-11	2723-2725	la	_	la	_	25-10	linguistic	none	_	_	_	_	_
+26-12	2726-2730	loro	_	loro	_	25-11	linguistic	none	_	_	_	_	_
+26-13	2731-2738	nascita	Rising	nascita?	_	25-12	linguistic	none	_	_	_	_	_
+
+#Text=sì ho due figli la mia vita è cambiata che però è cambiata anche perché io sono invecchiato quindi (.) e penso sia una cosa naturale
+27-1	2739-2741	sì	_	sì	TOI112	26-0	linguistic	none	_	_	_	_	_
+27-2	2742-2744	ho	_	ho	_	26-1	linguistic	none	_	_	_	_	_
+27-3	2745-2748	due	_	due	_	26-2	linguistic	none	_	_	_	_	_
+27-4	2749-2754	figli	_	figli:	_	26-3	linguistic	none	4x1	_	_	_	_
+27-5	2755-2757	la	_	la	_	26-4	linguistic	none	_	_	_	_	_
+27-6	2758-2761	mia	_	mia	_	26-5	linguistic	none	_	_	_	_	_
+27-7	2762-2766	vita	_	vita	_	26-6	linguistic	none	_	_	_	_	_
+27-8	2767-2768	è	_	è	_	26-7	linguistic	none	_	_	_	_	_
+27-9	2769-2777	cambiata	_	cambiata	_	26-8	linguistic	none	_	_	_	_	_
+27-10	2778-2781	che	_	che	_	26-9	linguistic	none	_	_	_	_	_
+27-11	2782-2786	però	_	però	_	26-10	linguistic	none	_	_	_	_	_
+27-12	2787-2788	è	_	è	_	26-11	linguistic	none	_	_	_	_	_
+27-13	2789-2797	cambiata	_	cambiata	_	26-12	linguistic	none	_	_	_	_	_
+27-14	2798-2803	anche	_	anche	_	26-13	linguistic	none	_	_	_	_	_
+27-15	2804-2810	perché	_	perché	_	26-14	linguistic	none	_	_	_	_	_
+27-16	2811-2813	io	_	io	_	26-15	linguistic	none	_	_	_	_	_
+27-17	2814-2818	sono	_	sono	_	26-16	linguistic	none	_	_	_	_	_
+27-18	2819-2830	invecchiato	_	invecchiato	_	26-17	linguistic	none	_	_	_	_	_
+27-19	2831-2837	quindi	_	quindi	_	26-18	linguistic	none	_	_	_	_	_
+27-20	2838-2841	(.)	_	(.)	_	26-19	shortpause	none	_	_	_	_	_
+27-21	2842-2843	e	_	e	_	26-20	linguistic	none	_	_	_	_	_
+27-22	2844-2849	penso	_	penso	_	26-21	linguistic	none	_	_	_	_	_
+27-23	2850-2853	sia	_	sia	_	26-22	linguistic	none	_	_	_	_	_
+27-24	2854-2857	una	_	una	_	26-23	linguistic	none	_	_	_	_	_
+27-25	2858-2862	cosa	_	cosa	_	26-24	linguistic	none	_	_	_	_	_
+27-26	2863-2871	naturale	_	naturale	_	26-25	linguistic	none	_	_	_	_	_
+
+#Text=eh avere dei figli è una cosa bellissima perché comunque ti lascia un qualcosa ti lascia un come dire u~ una mh
+28-1	2872-2874	eh	_	eh	TOI112	27-0	linguistic	none	_	_	_	_	_
+28-2	2875-2880	avere	_	avere	_	27-1	linguistic	none	_	_	_	_	_
+28-3	2881-2884	dei	_	dei	_	27-2	linguistic	none	_	_	_	_	_
+28-4	2885-2890	figli	_	figli	_	27-3	linguistic	none	_	_	_	_	_
+28-5	2891-2892	è	_	è	_	27-4	linguistic	none	_	_	_	_	_
+28-6	2893-2896	una	_	una	_	27-5	linguistic	none	_	_	_	_	_
+28-7	2897-2901	cosa	_	cosa	_	27-6	linguistic	none	_	_	_	_	_
+28-8	2902-2912	bellissima	_	bellissima	_	27-7	linguistic	none	_	_	_	_	_
+28-9	2913-2919	perché	_	perché	_	27-8	linguistic	none	_	_	_	_	_
+28-10	2920-2928	comunque	_	comunque	_	27-9	linguistic	none	_	_	_	_	_
+28-11	2929-2931	ti	_	ti	_	27-10	linguistic	none	_	_	_	_	_
+28-12	2932-2938	lascia	_	lascia	_	27-11	linguistic	none	_	_	_	_	_
+28-13	2939-2941	un	_	un	_	27-12	linguistic	none	_	_	_	_	_
+28-14	2942-2950	qualcosa	_	qualcosa:	_	27-13	linguistic	none	7x1	_	_	_	_
+28-15	2951-2953	ti	_	ti	_	27-14	linguistic	none	_	_	_	_	_
+28-16	2954-2960	lascia	_	lascia	_	27-15	linguistic	none	_	_	_	_	_
+28-17	2961-2963	un	_	u::n	_	27-16	linguistic	none	0x2	_	_	_	_
+28-18	2964-2968	come	_	come	_	27-17	linguistic	none	_	_	_	_	_
+28-19	2969-2973	dire	Rising	dire?	_	27-18	linguistic	none	_	_	_	_	_
+28-20	2974-2976	u~	_	u~	_	27-19	linguistic	none	_	_	_	_	_
+28-21	2977-2980	una	_	una::	_	27-20	linguistic	none	2x2	_	_	_	_
+28-22	2981-2983	mh	_	m::h	_	27-21	linguistic	none	0x2	_	_	_	_
+
+#Text=ehm (.) ti lascia mh
+29-1	2984-2987	ehm	_	e::hm	TOI112	28-0	linguistic	none	0x2	_	_	_	_
+29-2	2988-2991	(.)	_	(.)	_	28-1	shortpause	none	_	_	_	_	_
+29-3	2992-2994	ti	_	ti	_	28-2	linguistic	none	_	_	_	_	_
+29-4	2995-3001	lascia	_	lascia:	_	28-3	linguistic	none	5x1	_	_	_	_
+29-5	3002-3004	mh	_	mh	_	28-4	linguistic	none	_	_	_	_	_
+
+#Text=ehm una cert~ un' importanza no cioè almeno hai vissuto per qualcosa almeno sai che ci sarà qualcuno che viene dopo di te perché poi a te
+30-1	3005-3008	ehm	_	e:hm	TOI112	29-0	linguistic	none	0x1	_	_	_	_
+30-2	3009-3012	una	_	una	_	29-1	linguistic	none	_	_	_	_	_
+30-3	3013-3018	cert~	_	cert~	_	29-2	linguistic	none	_	_	_	_	_
+30-4	3019-3022	un'	_	un'	_	29-3	linguistic	none	_	_	_	_	_
+30-5	3023-3033	importanza	_	importanza	_	29-4	linguistic	none	_	_	_	_	_
+30-6	3034-3036	no	Rising	no?	_	29-5	linguistic	none	_	_	_	_	_
+30-7	3037-3041	cioè	_	cioè	_	29-6	linguistic	none	_	_	_	_	_
+30-8	3042-3048	almeno	_	almeno	_	29-7	linguistic	none	_	_	_	_	_
+30-9	3049-3052	hai	_	hai	_	29-8	linguistic	none	_	_	_	_	_
+30-10	3053-3060	vissuto	_	vissuto	_	29-9	linguistic	none	_	_	_	_	_
+30-11	3061-3064	per	_	per	_	29-10	linguistic	none	_	_	_	_	_
+30-12	3065-3073	qualcosa	_	qualcosa	_	29-11	linguistic	none	_	_	_	_	_
+30-13	3074-3080	almeno	_	almeno	_	29-12	linguistic	none	_	_	_	_	_
+30-14	3081-3084	sai	_	sai	_	29-13	linguistic	none	_	_	_	_	_
+30-15	3085-3088	che	_	che	_	29-14	linguistic	none	_	_	_	_	_
+30-16	3089-3091	ci	_	ci	_	29-15	linguistic	none	_	_	_	_	_
+30-17	3092-3096	sarà	_	sarà	_	29-16	linguistic	none	_	_	_	_	_
+30-18	3097-3105	qualcuno	_	qualcuno	_	29-17	linguistic	none	_	_	_	_	_
+30-19	3106-3109	che	_	che	_	29-18	linguistic	none	_	_	_	_	_
+30-20	3110-3115	viene	_	viene	_	29-19	linguistic	none	_	_	_	_	_
+30-21	3116-3120	dopo	_	dopo	_	29-20	linguistic	none	_	_	_	_	_
+30-22	3121-3123	di	_	di	_	29-21	linguistic	none	_	_	_	_	_
+30-23	3124-3126	te	_	te	_	29-22	linguistic	none	_	_	_	_	_
+30-24	3127-3133	perché	_	perché	_	29-23	linguistic	none	_	_	_	_	_
+30-25	3134-3137	poi	_	poi	_	29-24	linguistic	none	_	_	_	_	_
+30-26	3138-3139	a	_	a	_	29-25	linguistic	none	_	_	_	_	_
+30-27	3140-3142	te	_	te	_	29-26	linguistic	none	_	_	_	_	_
+
+#Text=cioè se non sono i figli (.) per il resto che senso ha (.) se non è per i figli (.) la vita
+31-1	3143-3147	cioè	_	cioè	TOI112	30-0	linguistic	none	_	_	_	_	_
+31-2	3148-3150	se	_	se	_	30-1	linguistic	none	_	_	_	_	_
+31-3	3151-3154	non	_	non	_	30-2	linguistic	none	_	_	_	_	_
+31-4	3155-3159	sono	_	sono	_	30-3	linguistic	none	_	_	_	_	_
+31-5	3160-3161	i	_	i	_	30-4	linguistic	none	_	_	_	_	_
+31-6	3162-3167	figli	_	figli	_	30-5	linguistic	none	_	_	_	_	_
+31-7	3168-3171	(.)	_	(.)	_	30-6	shortpause	none	_	_	_	_	_
+31-8	3172-3175	per	_	per	_	30-7	linguistic	none	_	_	_	_	_
+31-9	3176-3178	il	_	il	_	30-8	linguistic	none	_	_	_	_	_
+31-10	3179-3184	resto	_	resto	_	30-9	linguistic	none	_	_	_	_	_
+31-11	3185-3188	che	_	che	_	30-10	linguistic	none	_	_	_	_	_
+31-12	3189-3194	senso	_	senso	_	30-11	linguistic	none	_	_	_	_	_
+31-13	3195-3197	ha	Rising	ha?	_	30-12	linguistic	none	_	_	_	_	_
+31-14	3198-3201	(.)	_	(.)	_	30-13	shortpause	none	_	_	_	_	_
+31-15	3202-3204	se	_	se	_	30-14	linguistic	none	_	_	_	_	_
+31-16	3205-3208	non	_	non	_	30-15	linguistic	none	_	_	_	_	_
+31-17	3209-3210	è	_	è	_	30-16	linguistic	none	_	_	_	_	_
+31-18	3211-3214	per	_	per	_	30-17	linguistic	none	_	_	_	_	_
+31-19	3215-3216	i	_	i	_	30-18	linguistic	none	_	_	_	_	_
+31-20	3217-3222	figli	_	figli	_	30-19	linguistic	none	_	_	_	_	_
+31-21	3223-3226	(.)	_	(.)	_	30-20	shortpause	none	_	_	_	_	_
+31-22	3227-3229	la	_	la	_	30-21	linguistic	none	_	_	_	_	_
+31-23	3230-3234	vita	_	vita	_	30-22	linguistic	none	_	_	_	_	_
+
+#Text=invece con i figli sai che bene o male fanno la loro vita ma un pensiero per te lo dedicano
+32-1	3235-3241	invece	_	invece	TOI112	31-0	linguistic	none	_	_	_	_	_
+32-2	3242-3245	con	_	con	_	31-1	linguistic	none	_	_	_	_	_
+32-3	3246-3247	i	_	i	_	31-2	linguistic	none	_	_	_	_	_
+32-4	3248-3253	figli	_	figli:	_	31-3	linguistic	none	4x1	_	_	_	_
+32-5	3254-3257	sai	_	sai	_	31-4	linguistic	none	_	_	_	_	_
+32-6	3258-3261	che	_	che	_	31-5	linguistic	none	_	_	_	_	_
+32-7	3262-3266	bene	_	bene	_	31-6	linguistic	none	_	_	_	_	_
+32-8	3267-3268	o	_	o	_	31-7	linguistic	none	_	_	_	_	_
+32-9	3269-3273	male	_	male	_	31-8	linguistic	none	_	_	_	_	_
+32-10	3274-3279	fanno	_	fanno	_	31-9	linguistic	none	_	_	_	_	_
+32-11	3280-3282	la	_	la	_	31-10	linguistic	none	_	_	_	_	_
+32-12	3283-3287	loro	_	loro	_	31-11	linguistic	none	_	_	_	_	_
+32-13	3288-3292	vita	_	vita	_	31-12	linguistic	none	_	_	_	_	_
+32-14	3293-3295	ma	_	ma	_	31-13	linguistic	none	_	_	_	_	_
+32-15	3296-3298	un	_	un	_	31-14	linguistic	none	_	_	_	_	_
+32-16	3299-3307	pensiero	_	pensiero	_	31-15	linguistic	none	_	_	_	_	_
+32-17	3308-3311	per	_	per	_	31-16	linguistic	none	_	_	_	_	_
+32-18	3312-3314	te	_	te	_	31-17	linguistic	none	_	_	_	_	_
+32-19	3315-3317	lo	_	lo	_	31-18	linguistic	none	_	_	_	_	_
+32-20	3318-3326	dedicano	_	dedicano	_	31-19	linguistic	none	_	_	_	_	_
+
+#Text=no
+33-1	3327-3329	no	Rising	no?	TOI112	32-0	linguistic	none	_	_	_	_	_
+
+#Text=invece se sono già nipoti o cugini vabbè
+34-1	3330-3336	invece	_	invece	TOI112	33-0	linguistic	none	_	_	_	_	_
+34-2	3337-3339	se	_	se	_	33-1	linguistic	none	_	_	_	_	_
+34-3	3340-3344	sono	_	sono	_	33-2	linguistic	none	_	_	_	_	_
+34-4	3345-3348	già	_	già	_	33-3	linguistic	none	_	_	_	_	_
+34-5	3349-3355	nipoti	_	nipoti	_	33-4	linguistic	none	_	_	_	_	_
+34-6	3356-3357	o	_	o	_	33-5	linguistic	none	_	_	_	_	_
+34-7	3358-3364	cugini	_	cugini	_	33-6	linguistic	none	_	_	_	_	_
+34-8	3365-3370	vabbè	_	vabbè::	_	33-7	linguistic	none	4x2	_	_	_	_
+
+#Text=cioè magari ci pensano anche ma (.) solitamente solo per (.) per un interesse ((ride)) finanziario un interesse interess~ per interesse di soldi diversamente i figli almeno sono nati lì li hai cresciuti tu
+35-1	3371-3375	cioè	_	c(io)è	TOI112	34-0	linguistic	none	_	_	_	_	_
+35-2	3376-3382	magari	_	magari	_	34-1	linguistic	none	_	_	_	_	_
+35-3	3383-3385	ci	_	ci	_	34-2	linguistic	none	_	_	_	_	_
+35-4	3386-3393	pensano	_	pensano	_	34-3	linguistic	none	_	_	_	_	_
+35-5	3394-3399	anche	_	anche	_	34-4	linguistic	none	_	_	_	_	_
+35-6	3400-3402	ma	_	ma	_	34-5	linguistic	none	_	_	_	_	_
+35-7	3403-3406	(.)	_	(.)	_	34-6	shortpause	none	_	_	_	_	_
+35-8	3407-3418	solitamente	_	solitamente	_	34-7	linguistic	none	_	_	_	_	_
+35-9	3419-3423	solo	_	solo	_	34-8	linguistic	none	_	_	_	_	_
+35-10	3424-3427	per	_	pe::r	_	34-9	linguistic	none	1x2	_	_	_	_
+35-11	3428-3431	(.)	_	(.)	_	34-10	shortpause	none	_	_	_	_	_
+35-12	3432-3435	per	_	per	_	34-11	linguistic	none	_	_	_	_	_
+35-13	3436-3438	un	_	un	_	34-12	linguistic	none	_	_	_	_	_
+35-14	3439-3448	interesse	_	interesse	_	34-13	linguistic	none	_	_	_	_	_
+35-15	3449-3457	((ride))	_	((ride))	_	34-14	nonverbalbehavior	none	_	_	_	_	_
+35-16	3458-3469	finanziario	_	finanziario	_	34-15	linguistic	none	_	_	_	_	_
+35-17	3470-3472	un	_	un	_	34-16	linguistic	none	_	_	_	_	_
+35-18	3473-3482	interesse	_	interesse	_	34-17	linguistic	none	_	_	_	_	_
+35-19	3483-3492	interess~	_	interess~	_	34-18	linguistic	none	_	_	_	_	_
+35-20	3493-3496	per	_	per	_	34-19	linguistic	none	_	_	_	_	_
+35-21	3497-3506	interesse	_	interesse	_	34-20	linguistic	none	_	_	_	_	_
+35-22	3507-3509	di	_	di	_	34-21	linguistic	none	_	_	_	_	_
+35-23	3510-3515	soldi	_	soldi	_	34-22	linguistic	none	_	_	_	_	_
+35-24	3516-3528	diversamente	_	diversamente	_	34-23	linguistic	none	_	_	_	_	_
+35-25	3529-3530	i	_	i	_	34-24	linguistic	none	_	_	_	_	_
+35-26	3531-3536	figli	_	figli	_	34-25	linguistic	none	_	_	_	_	_
+35-27	3537-3543	almeno	_	almeno	_	34-26	linguistic	none	_	_	_	_	_
+35-28	3544-3548	sono	_	sono	_	34-27	linguistic	none	_	_	_	_	_
+35-29	3549-3553	nati	_	nati	_	34-28	linguistic	none	_	_	_	_	_
+35-30	3554-3556	lì	_	lì	_	34-29	linguistic	none	_	_	_	_	_
+35-31	3557-3559	li	_	li	_	34-30	linguistic	none	_	_	_	_	_
+35-32	3560-3563	hai	_	hai	_	34-31	linguistic	none	_	_	_	_	_
+35-33	3564-3573	cresciuti	_	cresciuti	_	34-32	linguistic	none	_	_	_	_	_
+35-34	3574-3576	tu	_	tu	_	34-33	linguistic	none	_	_	_	_	_
+
+#Text=hanno un ricordo no che può essere (.) bello o un po' meno bello dipende dalle famiglie però
+36-1	3577-3582	hanno	_	hanno	TOI112	35-0	linguistic	none	_	_	_	_	_
+36-2	3583-3585	un	_	un	_	35-1	linguistic	none	_	_	_	_	_
+36-3	3586-3593	ricordo	_	ricordo	_	35-2	linguistic	none	_	_	_	_	_
+36-4	3594-3596	no	Rising	no?	_	35-3	linguistic	none	_	_	_	_	_
+36-5	3597-3600	che	_	che	_	35-4	linguistic	none	_	_	_	_	_
+36-6	3601-3604	può	_	può	_	35-5	linguistic	none	_	_	_	_	_
+36-7	3605-3611	essere	_	essere	_	35-6	linguistic	none	_	_	_	_	_
+36-8	3612-3615	(.)	_	(.)	_	35-7	shortpause	none	_	_	_	_	_
+36-9	3616-3621	bello	_	bello	_	35-8	linguistic	none	_	_	_	_	_
+36-10	3622-3623	o	_	o	_	35-9	linguistic	none	_	_	_	_	_
+36-11	3624-3626	un	_	un	_	35-10	linguistic	none	_	_	_	_	_
+36-12	3627-3630	po'	_	po'	_	35-11	linguistic	none	_	_	_	_	_
+36-13	3631-3635	meno	_	meno	_	35-12	linguistic	none	_	_	_	_	_
+36-14	3636-3641	bello	_	bello	_	35-13	linguistic	none	_	_	_	_	_
+36-15	3642-3649	dipende	_	dipende	_	35-14	linguistic	none	_	_	_	_	_
+36-16	3650-3655	dalle	_	dalle	_	35-15	linguistic	none	_	_	_	_	_
+36-17	3656-3664	famiglie	_	famiglie	_	35-16	linguistic	none	_	_	_	_	_
+36-18	3665-3669	però	_	però	_	35-17	linguistic	none	_	_	_	_	_
+
+#Text=okay
+37-1	3670-3674	okay	_	okay	TOR010	36-0	linguistic	none	_	_	_	_	_
+
+#Text=ehm
+38-1	3675-3678	ehm	_	e:hm	TOR010	37-0	linguistic	none	0x1	_	_	_	_
+
+#Text=((ride)) queste domande non le faccio perché non si riferiscono a te (.) che lavoro fa
+39-1	3679-3687	((ride))	_	((ride))	TOR010	38-0	nonverbalbehavior	none	_	_	_	_	_
+39-2	3688-3694	queste	_	queste	_	38-1	linguistic	none	_	_	_	_	_
+39-3	3695-3702	domande	_	domande	_	38-2	linguistic	none	_	_	_	_	_
+39-4	3703-3706	non	_	non	_	38-3	linguistic	none	_	_	_	_	_
+39-5	3707-3709	le	_	le	_	38-4	linguistic	none	_	_	_	_	_
+39-6	3710-3716	faccio	_	faccio	_	38-5	linguistic	none	_	_	_	_	_
+39-7	3717-3723	perché	_	perché	_	38-6	linguistic	none	_	_	_	_	_
+39-8	3724-3727	non	_	non	_	38-7	linguistic	none	_	_	_	_	_
+39-9	3728-3730	si	_	si	_	38-8	linguistic	none	_	_	_	_	_
+39-10	3731-3742	riferiscono	_	riferiscono	_	38-9	linguistic	none	_	_	_	_	_
+39-11	3743-3744	a	_	a	_	38-10	linguistic	none	_	_	_	_	_
+39-12	3745-3747	te	_	te:	_	38-11	linguistic	none	1x1	_	_	_	_
+39-13	3748-3751	(.)	_	(.)	_	38-12	shortpause	none	_	_	_	_	_
+39-14	3752-3755	che	_	che	_	38-13	linguistic	none	_	_	_	_	_
+39-15	3756-3762	lavoro	_	lavoro	_	38-14	linguistic	none	_	_	_	_	_
+39-16	3763-3765	fa	Rising	fa?	_	38-15	linguistic	none	_	_	_	_	_
+
+#Text=allora io faccio due lavori perché (.) io s~ ((tossisce)) vengo da una famiglia di agricoltori coltivatori diretti
+40-1	3766-3772	allora	_	allora	TOI112	39-0	linguistic	none	_	_	_	_	_
+40-2	3773-3775	io	_	io:::	_	39-1	linguistic	none	1x3	_	_	_	_
+40-3	3776-3782	faccio	_	faccio	_	39-2	linguistic	none	_	_	_	_	_
+40-4	3783-3786	due	_	due	_	39-3	linguistic	none	_	_	_	_	_
+40-5	3787-3793	lavori	_	lavori	_	39-4	linguistic	none	_	_	_	_	_
+40-6	3794-3800	perché	_	perché:	_	39-5	linguistic	none	5x1	_	_	_	_
+40-7	3801-3804	(.)	_	(.)	_	39-6	shortpause	none	_	_	_	_	_
+40-8	3805-3807	io	_	io	_	39-7	linguistic	none	_	_	_	_	_
+40-9	3808-3810	s~	_	s~	_	39-8	linguistic	none	_	_	_	_	_
+40-10	3811-3823	((tossisce))	_	((tossisce))	_	39-9	nonverbalbehavior	none	_	_	_	_	_
+40-11	3824-3829	vengo	_	vengo	_	39-10	linguistic	none	_	_	_	_	_
+40-12	3830-3832	da	_	da	_	39-11	linguistic	none	_	_	_	_	_
+40-13	3833-3836	una	_	una	_	39-12	linguistic	none	_	_	_	_	_
+40-14	3837-3845	famiglia	_	famiglia	_	39-13	linguistic	none	_	_	_	_	_
+40-15	3846-3848	di	_	di	_	39-14	linguistic	none	_	_	_	_	_
+40-16	3849-3860	agricoltori	_	agricoltori	_	39-15	linguistic	none	_	_	_	_	_
+40-17	3861-3872	coltivatori	_	coltivatori	_	39-16	linguistic	none	_	_	_	_	_
+40-18	3873-3880	diretti	_	diretti	_	39-17	linguistic	none	_	_	_	_	_
+
+#Text=ehm però poi ehm negli anni le aziende sono state divise la mia xx un' azienda piccola ho dovuto fare una una come si dire aprire un' altra attività che n~ è secondaria rispetto all' agricoltura che è una agric~ è un' attività di da muratore (.) da posatore pavimenti e e scale comunque lavori di edilizia in genere
+41-1	3881-3884	ehm	_	e::hm	TOI112	40-0	linguistic	none	0x2	_	_	_	_
+41-2	3885-3889	però	_	però	_	40-1	linguistic	none	_	_	_	_	_
+41-3	3890-3893	poi	_	poi::	_	40-2	linguistic	none	2x2	_	_	_	_
+41-4	3894-3897	ehm	_	e:hm	_	40-3	linguistic	none	0x1	_	_	_	_
+41-5	3898-3903	negli	_	negli	_	40-4	linguistic	none	_	_	_	_	_
+41-6	3904-3908	anni	_	anni	_	40-5	linguistic	none	_	_	_	_	_
+41-7	3909-3911	le	_	le	_	40-6	linguistic	none	_	_	_	_	_
+41-8	3912-3919	aziende	_	aziende:	_	40-7	linguistic	none	6x1	_	_	_	_
+41-9	3920-3924	sono	_	sono	_	40-8	linguistic	none	_	_	_	_	_
+41-10	3925-3930	state	_	state	_	40-9	linguistic	none	_	_	_	_	_
+41-11	3931-3937	divise	_	divise	_	40-10	linguistic	none	_	_	_	_	_
+41-12	3938-3940	la	_	la	_	40-11	linguistic	none	_	_	_	_	_
+41-13	3941-3944	mia	_	mia	_	40-12	linguistic	none	_	_	_	_	_
+41-14	3945-3947	xx	_	xx	_	40-13	unknown	none	_	_	_	_	_
+41-15	3948-3951	un'	_	un'	_	40-14	linguistic	none	_	_	_	_	_
+41-16	3952-3959	azienda	_	azienda	_	40-15	linguistic	none	_	_	_	_	_
+41-17	3960-3967	piccola	_	piccola	_	40-16	linguistic	none	_	_	_	_	_
+41-18	3968-3970	ho	_	ho	_	40-17	linguistic	none	_	_	_	_	_
+41-19	3971-3977	dovuto	_	dovuto	_	40-18	linguistic	none	_	_	_	_	_
+41-20	3978-3982	fare	_	fare	_	40-19	linguistic	none	_	_	_	_	_
+41-21	3983-3986	una	_	una:	_	40-20	linguistic	none	2x1	_	_	_	_
+41-22	3987-3990	una	_	una	_	40-21	linguistic	none	_	_	_	_	_
+41-23	3991-3995	come	_	come	_	40-22	linguistic	none	_	_	_	_	_
+41-24	3996-3998	si	_	si	_	40-23	linguistic	none	_	_	_	_	_
+41-25	3999-4003	dire	_	dire	_	40-24	linguistic	none	_	_	_	_	_
+41-26	4004-4010	aprire	_	aprire	_	40-25	linguistic	none	_	_	_	_	_
+41-27	4011-4014	un'	_	un'	_	40-26	linguistic	none	_	_	_	_	_
+41-28	4015-4020	altra	_	altra	_	40-27	linguistic	none	_	_	_	_	_
+41-29	4021-4029	attività	_	attività	_	40-28	linguistic	none	_	_	_	_	_
+41-30	4030-4033	che	_	che::	_	40-29	linguistic	none	2x2	_	_	_	_
+41-31	4034-4036	n~	_	n~	_	40-30	linguistic	none	_	_	_	_	_
+41-32	4037-4038	è	_	è	_	40-31	linguistic	none	_	_	_	_	_
+41-33	4039-4049	secondaria	_	secondaria	_	40-32	linguistic	none	_	_	_	_	_
+41-34	4050-4058	rispetto	_	rispetto	_	40-33	linguistic	none	_	_	_	_	_
+41-35	4059-4063	all'	_	all'	_	40-34	linguistic	none	_	_	_	_	_
+41-36	4064-4075	agricoltura	_	agricoltura	_	40-35	linguistic	none	_	_	_	_	_
+41-37	4076-4079	che	_	che:	_	40-36	linguistic	none	2x1	_	_	_	_
+41-38	4080-4081	è	_	è	_	40-37	linguistic	none	_	_	_	_	_
+41-39	4082-4085	una	_	una:	_	40-38	linguistic	none	2x1	_	_	_	_
+41-40	4086-4092	agric~	_	agric~	_	40-39	linguistic	none	_	_	_	_	_
+41-41	4093-4094	è	_	è	_	40-40	linguistic	none	_	_	_	_	_
+41-42	4095-4098	un'	_	un'	_	40-41	linguistic	none	_	_	_	_	_
+41-43	4099-4107	attività	_	attività	_	40-42	linguistic	none	_	_	_	_	_
+41-44	4108-4110	di	_	di	_	40-43	linguistic	none	_	_	_	_	_
+41-45	4111-4113	da	_	da	_	40-44	linguistic	none	_	_	_	_	_
+41-46	4114-4122	muratore	_	muratore	_	40-45	linguistic	none	_	_	_	_	_
+41-47	4123-4126	(.)	_	(.)	_	40-46	shortpause	none	_	_	_	_	_
+41-48	4127-4129	da	_	da	_	40-47	linguistic	none	_	_	_	_	_
+41-49	4130-4138	posatore	_	posatore	_	40-48	linguistic	none	_	_	_	_	_
+41-50	4139-4148	pavimenti	_	pavimenti::	_	40-49	linguistic	none	8x2	_	_	_	_
+41-51	4149-4150	e	_	e:	_	40-50	linguistic	none	0x1	_	_	_	_
+41-52	4151-4152	e	_	e	_	40-51	linguistic	none	_	_	_	_	_
+41-53	4153-4158	scale	_	scale	_	40-52	linguistic	none	_	_	_	_	_
+41-54	4159-4167	comunque	_	comunque	_	40-53	linguistic	none	_	_	_	_	_
+41-55	4168-4174	lavori	_	lavori	_	40-54	linguistic	none	_	_	_	_	_
+41-56	4175-4177	di	_	di	_	40-55	linguistic	none	_	_	_	_	_
+41-57	4178-4186	edilizia	_	edilizia::	_	40-56	linguistic	none	7x2	_	_	_	_
+41-58	4187-4189	in	_	in	_	40-57	linguistic	none	_	_	_	_	_
+41-59	4190-4196	genere	_	genere	_	40-58	linguistic	none	_	_	_	_	_
+
+#Text=le piace il entramb~ le piacciono entrambi i lavori
+42-1	4197-4199	le	_	le	TOR010	41-0	linguistic	none	_	_	_	_	_
+42-2	4200-4205	piace	Rising	piace?	_	41-1	linguistic	none	_	_	_	_	_
+42-3	4206-4208	il	_	i:l	_	41-2	linguistic	none	0x1	_	_	_	_
+42-4	4209-4217	entramb~	_	entramb~	_	41-3	linguistic	none	_	_	_	_	_
+42-5	4218-4220	le	_	le	_	41-4	linguistic	none	_	_	_	_	_
+42-6	4221-4230	piacciono	_	piacciono	_	41-5	linguistic	none	_	_	_	_	_
+42-7	4231-4239	entrambi	_	entrambi	_	41-6	linguistic	none	_	_	_	_	_
+42-8	4240-4241	i	_	i	_	41-7	linguistic	none	_	_	_	_	_
+42-9	4242-4248	lavori	Rising	lavori?	_	41-8	linguistic	none	_	_	_	_	_
+
+#Text=allora io lavoro da da in edilizia (.) ehm non essendo proprio il mio lavoro non ho mai visto come un lavoro l' ho sempre (.) dall' inizio l' ho sempre visto come un lavoro che l' avrei fatto magari un po' di tempo per necessità perché la mia era un' azienda piccola quindi
+43-1	4249-4255	allora	_	allora	TOI112	42-0	linguistic	none	_	_	_	_	_
+43-2	4256-4258	io	_	io	_	42-1	linguistic	none	_	_	_	_	_
+43-3	4259-4265	lavoro	_	lavoro	_	42-2	linguistic	none	_	_	_	_	_
+43-4	4266-4268	da	_	da:	_	42-3	linguistic	none	1x1	_	_	_	_
+43-5	4269-4271	da	_	da	_	42-4	linguistic	none	_	_	_	_	_
+43-6	4272-4274	in	_	in	_	42-5	linguistic	none	_	_	_	_	_
+43-7	4275-4283	edilizia	_	edilizia	_	42-6	linguistic	none	_	_	_	_	_
+43-8	4284-4287	(.)	_	(.)	_	42-7	shortpause	none	_	_	_	_	_
+43-9	4288-4291	ehm	_	e:hm	_	42-8	linguistic	none	0x1	_	_	_	_
+43-10	4292-4295	non	_	non	_	42-9	linguistic	none	_	_	_	_	_
+43-11	4296-4303	essendo	_	essendo	_	42-10	linguistic	none	_	_	_	_	_
+43-12	4304-4311	proprio	_	proprio	_	42-11	linguistic	none	_	_	_	_	_
+43-13	4312-4314	il	_	il	_	42-12	linguistic	none	_	_	_	_	_
+43-14	4315-4318	mio	_	mio	_	42-13	linguistic	none	_	_	_	_	_
+43-15	4319-4325	lavoro	_	lavoro	_	42-14	linguistic	none	_	_	_	_	_
+43-16	4326-4329	non	_	non	_	42-15	linguistic	none	_	_	_	_	_
+43-17	4330-4332	ho	_	ho	_	42-16	linguistic	none	_	_	_	_	_
+43-18	4333-4336	mai	_	mai	_	42-17	linguistic	none	_	_	_	_	_
+43-19	4337-4342	visto	_	visto	_	42-18	linguistic	none	_	_	_	_	_
+43-20	4343-4347	come	_	come	_	42-19	linguistic	none	_	_	_	_	_
+43-21	4348-4350	un	_	un	_	42-20	linguistic	none	_	_	_	_	_
+43-22	4351-4357	lavoro	_	lavoro:	_	42-21	linguistic	none	5x1	_	_	_	_
+43-23	4358-4360	l'	_	l'	_	42-22	linguistic	none	_	_	_	_	_
+43-24	4361-4363	ho	_	ho	_	42-23	linguistic	none	_	_	_	_	_
+43-25	4364-4370	sempre	_	sempre	_	42-24	linguistic	none	_	_	_	_	_
+43-26	4371-4374	(.)	_	(.)	_	42-25	shortpause	none	_	_	_	_	_
+43-27	4375-4380	dall'	_	dall'	_	42-26	linguistic	none	_	_	_	_	_
+43-28	4381-4387	inizio	_	inizio	_	42-27	linguistic	none	_	_	_	_	_
+43-29	4388-4390	l'	_	l'	_	42-28	linguistic	none	_	_	_	_	_
+43-30	4391-4393	ho	_	ho	_	42-29	linguistic	none	_	_	_	_	_
+43-31	4394-4400	sempre	_	sempre	_	42-30	linguistic	none	_	_	_	_	_
+43-32	4401-4406	visto	_	visto	_	42-31	linguistic	none	_	_	_	_	_
+43-33	4407-4411	come	_	come	_	42-32	linguistic	none	_	_	_	_	_
+43-34	4412-4414	un	_	un	_	42-33	linguistic	none	_	_	_	_	_
+43-35	4415-4421	lavoro	_	lavoro	_	42-34	linguistic	none	_	_	_	_	_
+43-36	4422-4425	che	_	che	_	42-35	linguistic	none	_	_	_	_	_
+43-37	4426-4428	l'	_	l'	_	42-36	linguistic	none	_	_	_	_	_
+43-38	4429-4434	avrei	_	avrei	_	42-37	linguistic	none	_	_	_	_	_
+43-39	4435-4440	fatto	_	fatto	_	42-38	linguistic	none	_	_	_	_	_
+43-40	4441-4447	magari	_	magari	_	42-39	linguistic	none	_	_	_	_	_
+43-41	4448-4450	un	_	un	_	42-40	linguistic	none	_	_	_	_	_
+43-42	4451-4454	po'	_	po'	_	42-41	linguistic	none	_	_	_	_	_
+43-43	4455-4457	di	_	di	_	42-42	linguistic	none	_	_	_	_	_
+43-44	4458-4463	tempo	_	tempo	_	42-43	linguistic	none	_	_	_	_	_
+43-45	4464-4467	per	_	per	_	42-44	linguistic	none	_	_	_	_	_
+43-46	4468-4477	necessità	_	necessità	_	42-45	linguistic	none	_	_	_	_	_
+43-47	4478-4484	perché	_	perché	_	42-46	linguistic	none	_	_	_	_	_
+43-48	4485-4487	la	_	la	_	42-47	linguistic	none	_	_	_	_	_
+43-49	4488-4491	mia	_	mia	_	42-48	linguistic	none	_	_	_	_	_
+43-50	4492-4495	era	_	era	_	42-49	linguistic	none	_	_	_	_	_
+43-51	4496-4499	un'	_	un'	_	42-50	linguistic	none	_	_	_	_	_
+43-52	4500-4507	azienda	_	azienda	_	42-51	linguistic	none	_	_	_	_	_
+43-53	4508-4515	piccola	_	piccola	_	42-52	linguistic	none	_	_	_	_	_
+43-54	4516-4522	quindi	_	quindi	_	42-53	linguistic	none	_	_	_	_	_
+
+#Text=ehm che non poteva darmi ehm sufficiente sussistenza per andare avanti
+44-1	4523-4526	ehm	_	e:hm	TOI112	43-0	linguistic	none	0x1	_	_	_	_
+44-2	4527-4530	che	_	che	_	43-1	linguistic	none	_	_	_	_	_
+44-3	4531-4534	non	_	non	_	43-2	linguistic	none	_	_	_	_	_
+44-4	4535-4541	poteva	_	poteva	_	43-3	linguistic	none	_	_	_	_	_
+44-5	4542-4547	darmi	_	darmi	_	43-4	linguistic	none	_	_	_	_	_
+44-6	4548-4551	ehm	_	e::hm	_	43-5	linguistic	none	0x2	_	_	_	_
+44-7	4552-4563	sufficiente	_	sufficiente	_	43-6	linguistic	none	_	_	_	_	_
+44-8	4564-4575	sussistenza	_	sussistenza	_	43-7	linguistic	none	_	_	_	_	_
+44-9	4576-4579	per	_	per	_	43-8	linguistic	none	_	_	_	_	_
+44-10	4580-4586	andare	_	andare	_	43-9	linguistic	none	_	_	_	_	_
+44-11	4587-4593	avanti	_	avanti	_	43-10	linguistic	none	_	_	_	_	_
+
+#Text=però poi mh (.) questa cosa è andata avanti negli anni e senza accorgermene praticamente l' ho fatto tutta la vita
+45-1	4594-4598	però	_	però	TOI112	44-0	linguistic	none	_	_	_	_	_
+45-2	4599-4602	poi	_	poi:::	_	44-1	linguistic	none	2x3	_	_	_	_
+45-3	4603-4605	mh	_	m:h	_	44-2	linguistic	none	0x1	_	_	_	_
+45-4	4606-4609	(.)	_	(.)	_	44-3	shortpause	none	_	_	_	_	_
+45-5	4610-4616	questa	_	questa	_	44-4	linguistic	none	_	_	_	_	_
+45-6	4617-4621	cosa	_	cosa	_	44-5	linguistic	none	_	_	_	_	_
+45-7	4622-4623	è	_	è	_	44-6	linguistic	none	_	_	_	_	_
+45-8	4624-4630	andata	_	andata	_	44-7	linguistic	none	_	_	_	_	_
+45-9	4631-4637	avanti	_	avanti	_	44-8	linguistic	none	_	_	_	_	_
+45-10	4638-4643	negli	_	negli	_	44-9	linguistic	none	_	_	_	_	_
+45-11	4644-4648	anni	_	anni	_	44-10	linguistic	none	_	_	_	_	_
+45-12	4649-4650	e	_	e	_	44-11	linguistic	none	_	_	_	_	_
+45-13	4651-4656	senza	_	senza	_	44-12	linguistic	none	_	_	_	_	_
+45-14	4657-4669	accorgermene	_	accorgermene	_	44-13	linguistic	none	_	_	_	_	_
+45-15	4670-4682	praticamente	_	praticamente	_	44-14	linguistic	none	_	_	_	_	_
+45-16	4683-4685	l'	_	l'	_	44-15	linguistic	none	_	_	_	_	_
+45-17	4686-4688	ho	_	ho	_	44-16	linguistic	none	_	_	_	_	_
+45-18	4689-4694	fatto	_	fatto	_	44-17	linguistic	none	_	_	_	_	_
+45-19	4695-4700	tutta	_	tutta	_	44-18	linguistic	none	_	_	_	_	_
+45-20	4701-4703	la	_	la	_	44-19	linguistic	none	_	_	_	_	_
+45-21	4704-4708	vita	_	vita	_	44-20	linguistic	none	_	_	_	_	_
+
+#Text=okay
+46-1	4709-4713	okay	_	okay	TOR010	45-0	linguistic	none	_	_	_	_	_
+
+#Text=ehm
+47-1	4714-4717	ehm	_	e::hm	TOR010	46-0	linguistic	none	0x2	_	_	_	_
+
+#Text=ti viene in mente un bel ricordo legato al lavoro
+48-1	4718-4720	ti	_	ti	TOR010	47-0	linguistic	none	_	_	_	_	_
+48-2	4721-4726	viene	_	viene	_	47-1	linguistic	none	_	_	_	_	_
+48-3	4727-4729	in	_	in	_	47-2	linguistic	none	_	_	_	_	_
+48-4	4730-4735	mente	_	mente	_	47-3	linguistic	none	_	_	_	_	_
+48-5	4736-4738	un	_	un	_	47-4	linguistic	none	_	_	_	_	_
+48-6	4739-4742	bel	_	bel	_	47-5	linguistic	none	_	_	_	_	_
+48-7	4743-4750	ricordo	_	ricordo	_	47-6	linguistic	none	_	_	_	_	_
+48-8	4751-4757	legato	_	legato	_	47-7	linguistic	none	_	_	_	_	_
+48-9	4758-4760	al	_	al	_	47-8	linguistic	none	_	_	_	_	_
+48-10	4761-4767	lavoro	Rising	lavoro?	_	47-9	linguistic	none	_	_	_	_	_
+
+#Text=mah ho tanti bei ricordi legati al lavoro perché comunque il lavoro se lo fai con un
+49-1	4768-4771	mah	_	mah	TOI112	48-0	linguistic	none	_	_	_	_	_
+49-2	4772-4774	ho	_	ho	_	48-1	linguistic	none	_	_	_	_	_
+49-3	4775-4780	tanti	_	tanti	_	48-2	linguistic	none	_	_	_	_	_
+49-4	4781-4784	bei	_	bei	_	48-3	linguistic	none	_	_	_	_	_
+49-5	4785-4792	ricordi	_	ricordi	_	48-4	linguistic	none	_	_	_	_	_
+49-6	4793-4799	legati	_	legati	_	48-5	linguistic	none	_	_	_	_	_
+49-7	4800-4802	al	_	al	_	48-6	linguistic	none	_	_	_	_	_
+49-8	4803-4809	lavoro	_	lavoro	_	48-7	linguistic	none	_	_	_	_	_
+49-9	4810-4816	perché	_	perché	_	48-8	linguistic	none	_	_	_	_	_
+49-10	4817-4825	comunque	_	comunque	_	48-9	linguistic	none	_	_	_	_	_
+49-11	4826-4828	il	_	il	_	48-10	linguistic	none	_	_	_	_	_
+49-12	4829-4835	lavoro	_	lavoro	_	48-11	linguistic	none	_	_	_	_	_
+49-13	4836-4838	se	_	se	_	48-12	linguistic	none	_	_	_	_	_
+49-14	4839-4841	lo	_	lo	_	48-13	linguistic	none	_	_	_	_	_
+49-15	4842-4845	fai	_	fai	_	48-14	linguistic	none	_	_	_	_	_
+49-16	4846-4849	con	_	co::n	_	48-15	linguistic	none	1x2	_	_	_	_
+49-17	4850-4852	un	_	u:n	_	48-16	linguistic	none	0x1	_	_	_	_
+
+#Text=se lo fai co~ un piacere co un passione ti lascia comunque dei bei ricordi
+50-1	4853-4855	se	_	se	TOI112	49-0	linguistic	none	_	_	_	_	_
+50-2	4856-4858	lo	_	lo	_	49-1	linguistic	none	_	_	_	_	_
+50-3	4859-4862	fai	_	fai	_	49-2	linguistic	none	_	_	_	_	_
+50-4	4863-4866	co~	_	co~	_	49-3	linguistic	none	_	_	_	_	_
+50-5	4867-4869	un	_	u::n	_	49-4	linguistic	none	0x2	_	_	_	_
+50-6	4870-4877	piacere	_	piacere	_	49-5	linguistic	none	_	_	_	_	_
+50-7	4878-4880	co	_	co	_	49-6	linguistic	none	_	_	_	_	_
+50-8	4881-4883	un	_	u:n	_	49-7	linguistic	none	0x1	_	_	_	_
+50-9	4884-4892	passione	_	passione	_	49-8	linguistic	none	_	_	_	_	_
+50-10	4893-4895	ti	_	ti	_	49-9	linguistic	none	_	_	_	_	_
+50-11	4896-4902	lascia	_	lascia	_	49-10	linguistic	none	_	_	_	_	_
+50-12	4903-4911	comunque	_	comunque	_	49-11	linguistic	none	_	_	_	_	_
+50-13	4912-4915	dei	_	dei	_	49-12	linguistic	none	_	_	_	_	_
+50-14	4916-4919	bei	_	bei	_	49-13	linguistic	none	_	_	_	_	_
+50-15	4920-4927	ricordi	_	ricordi	_	49-14	linguistic	none	_	_	_	_	_
+
+#Text=bei ricordi i miei bei ricordi sono (.) sono legati a ai miei campi di mais quando il mais è bello e rigoglioso e fa delle belle produzioni quando i raccolti sono belli anche legati all' orto cioè perché l' orto lo faccio io personalmente quindi avere l' orto bello ehm mi rende felice
+51-1	4928-4931	bei	_	bei	TOI112	50-0	linguistic	none	_	_	_	_	_
+51-2	4932-4939	ricordi	_	ricordi:	_	50-1	linguistic	none	6x1	_	_	_	_
+51-3	4940-4941	i	_	i	_	50-2	linguistic	none	_	_	_	_	_
+51-4	4942-4946	miei	_	miei	_	50-3	linguistic	none	_	_	_	_	_
+51-5	4947-4950	bei	_	bei	_	50-4	linguistic	none	_	_	_	_	_
+51-6	4951-4958	ricordi	_	ricordi	_	50-5	linguistic	none	_	_	_	_	_
+51-7	4959-4963	sono	_	sono	_	50-6	linguistic	none	_	_	_	_	_
+51-8	4964-4967	(.)	_	(.)	_	50-7	shortpause	none	_	_	_	_	_
+51-9	4968-4972	sono	_	sono	_	50-8	linguistic	none	_	_	_	_	_
+51-10	4973-4979	legati	_	legati	_	50-9	linguistic	none	_	_	_	_	_
+51-11	4980-4981	a	_	a:::	_	50-10	linguistic	none	0x3	_	_	_	_
+51-12	4982-4984	ai	_	ai	_	50-11	linguistic	none	_	_	_	_	_
+51-13	4985-4989	miei	_	miei	_	50-12	linguistic	none	_	_	_	_	_
+51-14	4990-4995	campi	_	campi	_	50-13	linguistic	none	_	_	_	_	_
+51-15	4996-4998	di	_	di	_	50-14	linguistic	none	_	_	_	_	_
+51-16	4999-5003	mais	_	mais	_	50-15	linguistic	none	_	_	_	_	_
+51-17	5004-5010	quando	_	quando	_	50-16	linguistic	none	_	_	_	_	_
+51-18	5011-5013	il	_	il	_	50-17	linguistic	none	_	_	_	_	_
+51-19	5014-5018	mais	_	mais	_	50-18	linguistic	none	_	_	_	_	_
+51-20	5019-5020	è	_	è	_	50-19	linguistic	none	_	_	_	_	_
+51-21	5021-5026	bello	_	bello	_	50-20	linguistic	none	_	_	_	_	_
+51-22	5027-5028	e	_	e	_	50-21	linguistic	none	_	_	_	_	_
+51-23	5029-5039	rigoglioso	_	rigoglioso	_	50-22	linguistic	none	_	_	_	_	_
+51-24	5040-5041	e	_	e	_	50-23	linguistic	none	_	_	_	_	_
+51-25	5042-5044	fa	_	fa	_	50-24	linguistic	none	_	_	_	_	_
+51-26	5045-5050	delle	_	delle	_	50-25	linguistic	none	_	_	_	_	_
+51-27	5051-5056	belle	_	belle	_	50-26	linguistic	none	_	_	_	_	_
+51-28	5057-5067	produzioni	_	produzioni	_	50-27	linguistic	none	_	_	_	_	_
+51-29	5068-5074	quando	_	quando	_	50-28	linguistic	none	_	_	_	_	_
+51-30	5075-5076	i	_	i	_	50-29	linguistic	none	_	_	_	_	_
+51-31	5077-5085	raccolti	_	raccolti	_	50-30	linguistic	none	_	_	_	_	_
+51-32	5086-5090	sono	_	sono	_	50-31	linguistic	none	_	_	_	_	_
+51-33	5091-5096	belli	_	belli	_	50-32	linguistic	none	_	_	_	_	_
+51-34	5097-5102	anche	_	anche	_	50-33	linguistic	none	_	_	_	_	_
+51-35	5103-5109	legati	_	legati	_	50-34	linguistic	none	_	_	_	_	_
+51-36	5110-5114	all'	_	all'	_	50-35	linguistic	none	_	_	_	_	_
+51-37	5115-5119	orto	_	orto	_	50-36	linguistic	none	_	_	_	_	_
+51-38	5120-5124	cioè	_	cioè	_	50-37	linguistic	none	_	_	_	_	_
+51-39	5125-5131	perché	_	perché	_	50-38	linguistic	none	_	_	_	_	_
+51-40	5132-5134	l'	_	l'	_	50-39	linguistic	none	_	_	_	_	_
+51-41	5135-5139	orto	_	orto	_	50-40	linguistic	none	_	_	_	_	_
+51-42	5140-5142	lo	_	lo	_	50-41	linguistic	none	_	_	_	_	_
+51-43	5143-5149	faccio	_	faccio	_	50-42	linguistic	none	_	_	_	_	_
+51-44	5150-5152	io	_	io	_	50-43	linguistic	none	_	_	_	_	_
+51-45	5153-5166	personalmente	_	personalmente	_	50-44	linguistic	none	_	_	_	_	_
+51-46	5167-5173	quindi	_	quindi	_	50-45	linguistic	none	_	_	_	_	_
+51-47	5174-5179	avere	_	avere	_	50-46	linguistic	none	_	_	_	_	_
+51-48	5180-5182	l'	_	l'	_	50-47	linguistic	none	_	_	_	_	_
+51-49	5183-5187	orto	_	orto	_	50-48	linguistic	none	_	_	_	_	_
+51-50	5188-5193	bello	_	bello	_	50-49	linguistic	none	_	_	_	_	_
+51-51	5194-5197	ehm	_	e:hm	_	50-50	linguistic	none	0x1	_	_	_	_
+51-52	5198-5200	mi	_	mi	_	50-51	linguistic	none	_	_	_	_	_
+51-53	5201-5206	rende	_	rende	_	50-52	linguistic	none	_	_	_	_	_
+51-54	5207-5213	felice	_	felice	_	50-53	linguistic	none	_	_	_	_	_
+
+#Text=poi legati non so a mh agli animaletti che ho in cortile che vedendoli sono come degli amici che mi danno soddisfazione
+52-1	5214-5217	poi	_	poi	TOI112	51-0	linguistic	none	_	_	_	_	_
+52-2	5218-5224	legati	_	legati	_	51-1	linguistic	none	_	_	_	_	_
+52-3	5225-5228	non	_	non	_	51-2	linguistic	none	_	_	_	_	_
+52-4	5229-5231	so	_	so	_	51-3	linguistic	none	_	_	_	_	_
+52-5	5232-5233	a	_	a::	_	51-4	linguistic	none	0x2	_	_	_	_
+52-6	5234-5236	mh	_	m::h	_	51-5	linguistic	none	0x2	_	_	_	_
+52-7	5237-5241	agli	_	agli	_	51-6	linguistic	none	_	_	_	_	_
+52-8	5242-5252	animaletti	_	animaletti	_	51-7	linguistic	none	_	_	_	_	_
+52-9	5253-5256	che	_	che	_	51-8	linguistic	none	_	_	_	_	_
+52-10	5257-5259	ho	_	ho	_	51-9	linguistic	none	_	_	_	_	_
+52-11	5260-5262	in	_	in	_	51-10	linguistic	none	_	_	_	_	_
+52-12	5263-5270	cortile	_	cortile	_	51-11	linguistic	none	_	_	_	_	_
+52-13	5271-5274	che	_	che::	_	51-12	linguistic	none	2x2	_	_	_	_
+52-14	5275-5284	vedendoli	_	vedendoli	_	51-13	linguistic	none	_	_	_	_	_
+52-15	5285-5289	sono	_	sono	_	51-14	linguistic	none	_	_	_	_	_
+52-16	5290-5294	come	_	come	_	51-15	linguistic	none	_	_	_	_	_
+52-17	5295-5300	degli	_	degli	_	51-16	linguistic	none	_	_	_	_	_
+52-18	5301-5306	amici	_	amici	_	51-17	linguistic	none	_	_	_	_	_
+52-19	5307-5310	che	_	che	_	51-18	linguistic	none	_	_	_	_	_
+52-20	5311-5313	mi	_	mi	_	51-19	linguistic	none	_	_	_	_	_
+52-21	5314-5319	danno	_	danno	_	51-20	linguistic	none	_	_	_	_	_
+52-22	5320-5333	soddisfazione	_	soddisfazione	_	51-21	linguistic	none	_	_	_	_	_
+
+#Text=poi per rigua~ in riguardo all' edilizia sicuramente tante tante belle soddisfazioni la soddisfazione di vedere un lavoro ben riuscito di vedere che il cliente è col~ è contento del lavoro fatto che mh parlano bene di te è comunque una grande soddisfazione
+53-1	5334-5337	poi	_	poi:	TOI112	52-0	linguistic	none	2x1	_	_	_	_
+53-2	5338-5341	per	_	per	_	52-1	linguistic	none	_	_	_	_	_
+53-3	5342-5348	rigua~	_	rigua~	_	52-2	linguistic	none	_	_	_	_	_
+53-4	5349-5351	in	_	in	_	52-3	linguistic	none	_	_	_	_	_
+53-5	5352-5360	riguardo	_	riguardo	_	52-4	linguistic	none	_	_	_	_	_
+53-6	5361-5365	all'	_	all'	_	52-5	linguistic	none	_	_	_	_	_
+53-7	5366-5374	edilizia	_	edilizia	_	52-6	linguistic	none	_	_	_	_	_
+53-8	5375-5386	sicuramente	_	sicuramente	_	52-7	linguistic	none	_	_	_	_	_
+53-9	5387-5392	tante	_	tante	_	52-8	linguistic	none	_	_	_	_	_
+53-10	5393-5398	tante	_	tante	_	52-9	linguistic	none	_	_	_	_	_
+53-11	5399-5404	belle	_	belle	_	52-10	linguistic	none	_	_	_	_	_
+53-12	5405-5418	soddisfazioni	_	soddisfazioni	_	52-11	linguistic	none	_	_	_	_	_
+53-13	5419-5421	la	_	la	_	52-12	linguistic	none	_	_	_	_	_
+53-14	5422-5435	soddisfazione	_	soddisfazione	_	52-13	linguistic	none	_	_	_	_	_
+53-15	5436-5438	di	_	di	_	52-14	linguistic	none	_	_	_	_	_
+53-16	5439-5445	vedere	_	vedere	_	52-15	linguistic	none	_	_	_	_	_
+53-17	5446-5448	un	_	un	_	52-16	linguistic	none	_	_	_	_	_
+53-18	5449-5455	lavoro	_	lavoro	_	52-17	linguistic	none	_	_	_	_	_
+53-19	5456-5459	ben	_	ben	_	52-18	linguistic	none	_	_	_	_	_
+53-20	5460-5468	riuscito	WeaklyRising	riuscito,	_	52-19	linguistic	none	_	_	_	_	_
+53-21	5469-5471	di	_	di	_	52-20	linguistic	none	_	_	_	_	_
+53-22	5472-5478	vedere	_	vedere	_	52-21	linguistic	none	_	_	_	_	_
+53-23	5479-5482	che	_	che:	_	52-22	linguistic	none	2x1	_	_	_	_
+53-24	5483-5485	il	_	il	_	52-23	linguistic	none	_	_	_	_	_
+53-25	5486-5493	cliente	_	cliente	_	52-24	linguistic	none	_	_	_	_	_
+53-26	5494-5495	è	_	è	_	52-25	linguistic	none	_	_	_	_	_
+53-27	5496-5500	col~	_	col~	_	52-26	linguistic	none	_	_	_	_	_
+53-28	5501-5502	è	_	è	_	52-27	linguistic	none	_	_	_	_	_
+53-29	5503-5511	contento	_	contento	_	52-28	linguistic	none	_	_	_	_	_
+53-30	5512-5515	del	_	del	_	52-29	linguistic	none	_	_	_	_	_
+53-31	5516-5522	lavoro	_	lavoro	_	52-30	linguistic	none	_	_	_	_	_
+53-32	5523-5528	fatto	WeaklyRising	fatto,	_	52-31	linguistic	none	_	_	_	_	_
+53-33	5529-5532	che	_	che::	_	52-32	linguistic	none	2x2	_	_	_	_
+53-34	5533-5535	mh	_	m:h	_	52-33	linguistic	none	0x1	_	_	_	_
+53-35	5536-5543	parlano	_	parlano	_	52-34	linguistic	none	_	_	_	_	_
+53-36	5544-5548	bene	_	bene	_	52-35	linguistic	none	_	_	_	_	_
+53-37	5549-5551	di	_	di	_	52-36	linguistic	none	_	_	_	_	_
+53-38	5552-5554	te	_	te	_	52-37	linguistic	none	_	_	_	_	_
+53-39	5555-5556	è	_	è	_	52-38	linguistic	none	_	_	_	_	_
+53-40	5557-5565	comunque	_	comunque	_	52-39	linguistic	none	_	_	_	_	_
+53-41	5566-5569	una	_	una	_	52-40	linguistic	none	_	_	_	_	_
+53-42	5570-5576	grande	_	grande	_	52-41	linguistic	none	_	_	_	_	_
+53-43	5577-5590	soddisfazione	_	soddisfazione	_	52-42	linguistic	none	_	_	_	_	_
+
+#Text=cosa fai durante il tuo tempo libero
+54-1	5591-5595	cosa	_	cosa	TOR010	53-0	linguistic	none	_	_	_	_	_
+54-2	5596-5599	fai	_	fai	_	53-1	linguistic	none	_	_	_	_	_
+54-3	5600-5607	durante	_	durante	_	53-2	linguistic	none	_	_	_	_	_
+54-4	5608-5610	il	_	il	_	53-3	linguistic	none	_	_	_	_	_
+54-5	5611-5614	tuo	_	tuo	_	53-4	linguistic	none	_	_	_	_	_
+54-6	5615-5620	tempo	_	tempo	_	53-5	linguistic	none	_	_	_	_	_
+54-7	5621-5627	libero	Rising	libero?	_	53-6	linguistic	none	_	_	_	_	_
+
+#Text=oh io ho un sacco di cose da fare nel mio tempo libero ((ride)) eh sono e quelle che faccio sono non sono niente rispetto a quello che potrei fare
+55-1	5628-5630	oh	_	oh	TOI112	54-0	linguistic	none	_	_	_	_	_
+55-2	5631-5633	io	_	io	_	54-1	linguistic	none	_	_	_	_	_
+55-3	5634-5636	ho	_	ho	_	54-2	linguistic	none	_	_	_	_	_
+55-4	5637-5639	un	_	un	_	54-3	linguistic	none	_	_	_	_	_
+55-5	5640-5645	sacco	_	sacco	_	54-4	linguistic	none	_	_	_	_	_
+55-6	5646-5648	di	_	di	_	54-5	linguistic	none	_	_	_	_	_
+55-7	5649-5653	cose	_	cose	_	54-6	linguistic	none	_	_	_	_	_
+55-8	5654-5656	da	_	da	_	54-7	linguistic	none	_	_	_	_	_
+55-9	5657-5661	fare	_	fare	_	54-8	linguistic	none	_	_	_	_	_
+55-10	5662-5665	nel	_	nel	_	54-9	linguistic	none	_	_	_	_	_
+55-11	5666-5669	mio	_	mio	_	54-10	linguistic	none	_	_	_	_	_
+55-12	5670-5675	tempo	_	tempo	_	54-11	linguistic	none	_	_	_	_	_
+55-13	5676-5682	libero	_	libero	_	54-12	linguistic	none	_	_	_	_	_
+55-14	5683-5691	((ride))	_	((ride))	_	54-13	nonverbalbehavior	none	_	_	_	_	_
+55-15	5692-5694	eh	_	e:::h	_	54-14	linguistic	none	0x3	_	_	_	_
+55-16	5695-5699	sono	_	sono	_	54-15	linguistic	none	_	_	_	_	_
+55-17	5700-5701	e	_	e	_	54-16	linguistic	none	_	_	_	_	_
+55-18	5702-5708	quelle	_	quelle	_	54-17	linguistic	none	_	_	_	_	_
+55-19	5709-5712	che	_	che	_	54-18	linguistic	none	_	_	_	_	_
+55-20	5713-5719	faccio	_	faccio	_	54-19	linguistic	none	_	_	_	_	_
+55-21	5720-5724	sono	_	sono:	_	54-20	linguistic	none	3x1	_	_	_	_
+55-22	5725-5728	non	_	non	_	54-21	linguistic	none	_	_	_	_	_
+55-23	5729-5733	sono	_	sono	_	54-22	linguistic	none	_	_	_	_	_
+55-24	5734-5740	niente	_	niente	_	54-23	linguistic	none	_	_	_	_	_
+55-25	5741-5749	rispetto	_	rispetto	_	54-24	linguistic	none	_	_	_	_	_
+55-26	5750-5751	a	_	a	_	54-25	linguistic	none	_	_	_	_	_
+55-27	5752-5758	quello	_	quello	_	54-26	linguistic	none	_	_	_	_	_
+55-28	5759-5762	che	_	che	_	54-27	linguistic	none	_	_	_	_	_
+55-29	5763-5769	potrei	_	potrei	_	54-28	linguistic	none	_	_	_	_	_
+55-30	5770-5774	fare	_	fare	_	54-29	linguistic	none	_	_	_	_	_
+
+#Text=((ride)) perché ho un sacco di passioni no
+56-1	5775-5783	((ride))	_	((ride))	TOI112	55-0	nonverbalbehavior	none	_	_	_	_	_
+56-2	5784-5790	perché	_	perché	_	55-1	linguistic	none	_	_	_	_	_
+56-3	5791-5793	ho	_	ho	_	55-2	linguistic	none	_	_	_	_	_
+56-4	5794-5796	un	_	un	_	55-3	linguistic	none	_	_	_	_	_
+56-5	5797-5802	sacco	_	sacco	_	55-4	linguistic	none	_	_	_	_	_
+56-6	5803-5805	di	_	di	_	55-5	linguistic	none	_	_	_	_	_
+56-7	5806-5814	passioni	_	passioni	_	55-6	linguistic	none	_	_	_	_	_
+56-8	5815-5817	no	Rising	no?	_	55-7	linguistic	none	_	_	_	_	_
+
+#Text=ho la passione del canto ho la passione della musica ho la passione (.) delle moto e delle auto vecchie ho la passione di (.) mh riparare qualsiasi tipo di riparazione a me piace farla
+57-1	5818-5820	ho	_	ho	TOI112	56-0	linguistic	none	_	_	_	_	_
+57-2	5821-5823	la	_	la	_	56-1	linguistic	none	_	_	_	_	_
+57-3	5824-5832	passione	_	passione	_	56-2	linguistic	none	_	_	_	_	_
+57-4	5833-5836	del	_	del	_	56-3	linguistic	none	_	_	_	_	_
+57-5	5837-5842	canto	WeaklyRising	canto,	_	56-4	linguistic	none	_	_	_	_	_
+57-6	5843-5845	ho	_	ho	_	56-5	linguistic	none	_	_	_	_	_
+57-7	5846-5848	la	_	la	_	56-6	linguistic	none	_	_	_	_	_
+57-8	5849-5857	passione	_	passione	_	56-7	linguistic	none	_	_	_	_	_
+57-9	5858-5863	della	_	della	_	56-8	linguistic	none	_	_	_	_	_
+57-10	5864-5870	musica	WeaklyRising	musica,	_	56-9	linguistic	none	_	_	_	_	_
+57-11	5871-5873	ho	_	ho	_	56-10	linguistic	none	_	_	_	_	_
+57-12	5874-5876	la	_	la	_	56-11	linguistic	none	_	_	_	_	_
+57-13	5877-5885	passione	_	passione	_	56-12	linguistic	none	_	_	_	_	_
+57-14	5886-5889	(.)	_	(.)	_	56-13	shortpause	none	_	_	_	_	_
+57-15	5890-5895	delle	_	delle	_	56-14	linguistic	none	_	_	_	_	_
+57-16	5896-5900	moto	_	moto	_	56-15	linguistic	none	_	_	_	_	_
+57-17	5901-5902	e	_	e	_	56-16	linguistic	none	_	_	_	_	_
+57-18	5903-5908	delle	_	delle	_	56-17	linguistic	none	_	_	_	_	_
+57-19	5909-5913	auto	_	auto	_	56-18	linguistic	none	_	_	_	_	_
+57-20	5914-5921	vecchie	WeaklyRising	vecchie,	_	56-19	linguistic	none	_	_	_	_	_
+57-21	5922-5924	ho	_	ho	_	56-20	linguistic	none	_	_	_	_	_
+57-22	5925-5927	la	_	la	_	56-21	linguistic	none	_	_	_	_	_
+57-23	5928-5936	passione	_	passione	_	56-22	linguistic	none	_	_	_	_	_
+57-24	5937-5939	di	_	di::	_	56-23	linguistic	none	1x2	_	_	_	_
+57-25	5940-5943	(.)	_	(.)	_	56-24	shortpause	none	_	_	_	_	_
+57-26	5944-5946	mh	_	m::h	_	56-25	linguistic	none	0x2	_	_	_	_
+57-27	5947-5955	riparare	_	riparare:	_	56-26	linguistic	none	7x1	_	_	_	_
+57-28	5956-5965	qualsiasi	_	qualsiasi	_	56-27	linguistic	none	_	_	_	_	_
+57-29	5966-5970	tipo	_	tipo	_	56-28	linguistic	none	_	_	_	_	_
+57-30	5971-5973	di	_	di	_	56-29	linguistic	none	_	_	_	_	_
+57-31	5974-5985	riparazione	_	riparazione	_	56-30	linguistic	none	_	_	_	_	_
+57-32	5986-5987	a	_	a	_	56-31	linguistic	none	_	_	_	_	_
+57-33	5988-5990	me	_	me	_	56-32	linguistic	none	_	_	_	_	_
+57-34	5991-5996	piace	_	piace	_	56-33	linguistic	none	_	_	_	_	_
+57-35	5997-6002	farla	_	farla	_	56-34	linguistic	none	_	_	_	_	_
+
+#Text=mh poi avrei a~ mh un mucchio di passioni che che ho fatto poco ho fatto da giovane ho scritto poesie ho ho ((ride)) ho anche dipinto ho disegnato ho sono tutte passioni che che sono sempre accantonate lì perche manca il tempo
+58-1	6003-6005	mh	_	m::h	TOI112	57-0	linguistic	none	0x2	_	_	_	_
+58-2	6006-6009	poi	_	poi	_	57-1	linguistic	none	_	_	_	_	_
+58-3	6010-6015	avrei	_	avrei	_	57-2	linguistic	none	_	_	_	_	_
+58-4	6016-6018	a~	_	a~	_	57-3	linguistic	none	_	_	_	_	_
+58-5	6019-6021	mh	_	m::h	_	57-4	linguistic	none	0x2	_	_	_	_
+58-6	6022-6024	un	_	un	_	57-5	linguistic	none	_	_	_	_	_
+58-7	6025-6032	mucchio	_	mucchio	_	57-6	linguistic	none	_	_	_	_	_
+58-8	6033-6035	di	_	di	_	57-7	linguistic	none	_	_	_	_	_
+58-9	6036-6044	passioni	_	passioni	_	57-8	linguistic	none	_	_	_	_	_
+58-10	6045-6048	che	_	che	_	57-9	linguistic	none	_	_	_	_	_
+58-11	6049-6052	che	_	che	_	57-10	linguistic	none	_	_	_	_	_
+58-12	6053-6055	ho	_	ho	_	57-11	linguistic	none	_	_	_	_	_
+58-13	6056-6061	fatto	_	fatto	_	57-12	linguistic	none	_	_	_	_	_
+58-14	6062-6066	poco	_	poco	_	57-13	linguistic	none	_	_	_	_	_
+58-15	6067-6069	ho	_	ho	_	57-14	linguistic	none	_	_	_	_	_
+58-16	6070-6075	fatto	_	fatto	_	57-15	linguistic	none	_	_	_	_	_
+58-17	6076-6078	da	_	da	_	57-16	linguistic	none	_	_	_	_	_
+58-18	6079-6086	giovane	_	giovane	_	57-17	linguistic	none	_	_	_	_	_
+58-19	6087-6089	ho	_	ho	_	57-18	linguistic	none	_	_	_	_	_
+58-20	6090-6097	scritto	_	scritto	_	57-19	linguistic	none	_	_	_	_	_
+58-21	6098-6104	poesie	WeaklyRising	poesie,	_	57-20	linguistic	none	_	_	_	_	_
+58-22	6105-6107	ho	_	ho	_	57-21	linguistic	none	_	_	_	_	_
+58-23	6108-6110	ho	_	ho	_	57-22	linguistic	none	_	_	_	_	_
+58-24	6111-6119	((ride))	_	((ride))	_	57-23	nonverbalbehavior	none	_	_	_	_	_
+58-25	6120-6122	ho	_	ho	_	57-24	linguistic	none	_	_	_	_	_
+58-26	6123-6128	anche	_	anche	_	57-25	linguistic	none	_	_	_	_	_
+58-27	6129-6136	dipinto	WeaklyRising	dipinto,	_	57-26	linguistic	none	_	_	_	_	_
+58-28	6137-6139	ho	_	ho	_	57-27	linguistic	none	_	_	_	_	_
+58-29	6140-6149	disegnato	WeaklyRising	disegnato,	_	57-28	linguistic	none	_	_	_	_	_
+58-30	6150-6152	ho	_	ho	_	57-29	linguistic	none	_	_	_	_	_
+58-31	6153-6157	sono	_	sono	_	57-30	linguistic	none	_	_	_	_	_
+58-32	6158-6163	tutte	_	tutte	_	57-31	linguistic	none	_	_	_	_	_
+58-33	6164-6172	passioni	_	passioni	_	57-32	linguistic	none	_	_	_	_	_
+58-34	6173-6176	che	_	che	_	57-33	linguistic	none	_	_	_	_	_
+58-35	6177-6180	che	_	che::	_	57-34	linguistic	none	2x2	_	_	_	_
+58-36	6181-6185	sono	_	sono	_	57-35	linguistic	none	_	_	_	_	_
+58-37	6186-6192	sempre	_	sempre	_	57-36	linguistic	none	_	_	_	_	_
+58-38	6193-6204	accantonate	_	accantonate	_	57-37	linguistic	none	_	_	_	_	_
+58-39	6205-6207	lì	_	lì	_	57-38	linguistic	none	_	_	_	_	_
+58-40	6208-6214	perche	_	perche	_	57-39	linguistic	none	_	_	_	_	_
+58-41	6215-6220	manca	_	manca	_	57-40	linguistic	none	_	_	_	_	_
+58-42	6221-6223	il	_	il	_	57-41	linguistic	none	_	_	_	_	_
+58-43	6224-6229	tempo	_	tempo	_	57-42	linguistic	none	_	_	_	_	_
+
+#Text=ehm
+59-1	6230-6233	ehm	_	e:hm	TOI112	58-0	linguistic	none	0x1	_	_	_	_
+
+#Text=ehm
+60-1	6234-6237	ehm	_	e::hm	TOR010	59-0	linguistic	none	0x2	_	_	_	_
+
+#Text=come trascorri di solito le vacanze
+61-1	6238-6242	come	_	come	TOR010	60-0	linguistic	none	_	_	_	_	_
+61-2	6243-6252	trascorri	_	trascorri	_	60-1	linguistic	none	_	_	_	_	_
+61-3	6253-6255	di	_	di	_	60-2	linguistic	none	_	_	_	_	_
+61-4	6256-6262	solito	_	solito	_	60-3	linguistic	none	_	_	_	_	_
+61-5	6263-6265	le	_	le	_	60-4	linguistic	none	_	_	_	_	_
+61-6	6266-6273	vacanze	Rising	vacanze?	_	60-5	linguistic	none	_	_	_	_	_
+
+#Text=le vacanze le mie vacanze sono molto poche le trascorro con mia moglie con i figli se possibile (.) e qualche viaggio
+62-1	6274-6276	le	_	le	TOI112	61-0	linguistic	none	_	_	_	_	_
+62-2	6277-6284	vacanze	_	vacanze::	_	61-1	linguistic	none	6x2	_	_	_	_
+62-3	6285-6287	le	_	le	_	61-2	linguistic	none	_	_	_	_	_
+62-4	6288-6291	mie	_	mie	_	61-3	linguistic	none	_	_	_	_	_
+62-5	6292-6299	vacanze	_	vacanze	_	61-4	linguistic	none	_	_	_	_	_
+62-6	6300-6304	sono	_	sono	_	61-5	linguistic	none	_	_	_	_	_
+62-7	6305-6310	molto	_	molto	_	61-6	linguistic	none	_	_	_	_	_
+62-8	6311-6316	poche	_	poche	_	61-7	linguistic	none	_	_	_	_	_
+62-9	6317-6319	le	_	le	_	61-8	linguistic	none	_	_	_	_	_
+62-10	6320-6329	trascorro	_	trascorro	_	61-9	linguistic	none	_	_	_	_	_
+62-11	6330-6333	con	_	con	_	61-10	linguistic	none	_	_	_	_	_
+62-12	6334-6337	mia	_	mia	_	61-11	linguistic	none	_	_	_	_	_
+62-13	6338-6344	moglie	WeaklyRising	moglie,	_	61-12	linguistic	none	_	_	_	_	_
+62-14	6345-6348	con	_	con	_	61-13	linguistic	none	_	_	_	_	_
+62-15	6349-6350	i	_	i	_	61-14	linguistic	none	_	_	_	_	_
+62-16	6351-6356	figli	_	figli	_	61-15	linguistic	none	_	_	_	_	_
+62-17	6357-6359	se	_	se	_	61-16	linguistic	none	_	_	_	_	_
+62-18	6360-6369	possibile	_	possibile	_	61-17	linguistic	none	_	_	_	_	_
+62-19	6370-6373	(.)	_	(.)	_	61-18	shortpause	none	_	_	_	_	_
+62-20	6374-6375	e	_	e::	_	61-19	linguistic	none	0x2	_	_	_	_
+62-21	6376-6383	qualche	_	qualche	_	61-20	linguistic	none	_	_	_	_	_
+62-22	6384-6391	viaggio	_	viaggio	_	61-21	linguistic	none	_	_	_	_	_
+
+#Text=qualche che non è mai lungo comunque i viaggi non s~ non sono mai più di tre quattro cinque giorni una settimana al massimo
+63-1	6392-6399	qualche	_	qualche:::	TOI112	62-0	linguistic	none	6x3	_	_	_	_
+63-2	6400-6403	che	_	che	_	62-1	linguistic	none	_	_	_	_	_
+63-3	6404-6407	non	_	non	_	62-2	linguistic	none	_	_	_	_	_
+63-4	6408-6409	è	_	è	_	62-3	linguistic	none	_	_	_	_	_
+63-5	6410-6413	mai	_	mai	_	62-4	linguistic	none	_	_	_	_	_
+63-6	6414-6419	lungo	_	lungo	_	62-5	linguistic	none	_	_	_	_	_
+63-7	6420-6428	comunque	_	comunque	_	62-6	linguistic	none	_	_	_	_	_
+63-8	6429-6430	i	_	i	_	62-7	linguistic	none	_	_	_	_	_
+63-9	6431-6437	viaggi	_	viaggi	_	62-8	linguistic	none	_	_	_	_	_
+63-10	6438-6441	non	_	non	_	62-9	linguistic	none	_	_	_	_	_
+63-11	6442-6444	s~	_	s~	_	62-10	linguistic	none	_	_	_	_	_
+63-12	6445-6448	non	_	non	_	62-11	linguistic	none	_	_	_	_	_
+63-13	6449-6453	sono	_	sono	_	62-12	linguistic	none	_	_	_	_	_
+63-14	6454-6457	mai	_	mai	_	62-13	linguistic	none	_	_	_	_	_
+63-15	6458-6461	più	_	più	_	62-14	linguistic	none	_	_	_	_	_
+63-16	6462-6464	di	_	di	_	62-15	linguistic	none	_	_	_	_	_
+63-17	6465-6468	tre	_	tre	_	62-16	linguistic	none	_	_	_	_	_
+63-18	6469-6476	quattro	_	quattro	_	62-17	linguistic	none	_	_	_	_	_
+63-19	6477-6483	cinque	_	cinque	_	62-18	linguistic	none	_	_	_	_	_
+63-20	6484-6490	giorni	_	giorni	_	62-19	linguistic	none	_	_	_	_	_
+63-21	6491-6494	una	_	una	_	62-20	linguistic	none	_	_	_	_	_
+63-22	6495-6504	settimana	_	settimana	_	62-21	linguistic	none	_	_	_	_	_
+63-23	6505-6507	al	_	al	_	62-22	linguistic	none	_	_	_	_	_
+63-24	6508-6515	massimo	_	massimo	_	62-23	linguistic	none	_	_	_	_	_
+
+#Text=e poi mh magari una settimana al mare
+64-1	6516-6517	e	_	e	TOI112	63-0	linguistic	none	_	_	_	_	_
+64-2	6518-6521	poi	_	poi::	_	63-1	linguistic	none	2x2	_	_	_	_
+64-3	6522-6524	mh	_	mh	_	63-2	linguistic	none	_	_	_	_	_
+64-4	6525-6531	magari	_	magari	_	63-3	linguistic	none	_	_	_	_	_
+64-5	6532-6535	una	_	una	_	63-4	linguistic	none	_	_	_	_	_
+64-6	6536-6545	settimana	_	settimana	_	63-5	linguistic	none	_	_	_	_	_
+64-7	6546-6548	al	_	al	_	63-6	linguistic	none	_	_	_	_	_
+64-8	6549-6553	mare	_	mare	_	63-7	linguistic	none	_	_	_	_	_
+
+#Text=ehm (.) dove ho abbiamo in proprietà una casetta con un uliveto quindi c' è anche lì un po' di lavoro da fare anche lì dà dà soddisfazione perché sembra che la soddisfazone più grossa per me sia lavorare ((ride))
+65-1	6554-6557	ehm	_	e:hm	TOI112	64-0	linguistic	none	0x1	_	_	_	_
+65-2	6558-6561	(.)	_	(.)	_	64-1	shortpause	none	_	_	_	_	_
+65-3	6562-6566	dove	_	dove	_	64-2	linguistic	none	_	_	_	_	_
+65-4	6567-6569	ho	_	ho	_	64-3	linguistic	none	_	_	_	_	_
+65-5	6570-6577	abbiamo	_	abbiamo	_	64-4	linguistic	none	_	_	_	_	_
+65-6	6578-6580	in	_	in	_	64-5	linguistic	none	_	_	_	_	_
+65-7	6581-6590	proprietà	_	proprietà	_	64-6	linguistic	none	_	_	_	_	_
+65-8	6591-6594	una	_	una	_	64-7	linguistic	none	_	_	_	_	_
+65-9	6595-6602	casetta	_	casetta	_	64-8	linguistic	none	_	_	_	_	_
+65-10	6603-6606	con	_	con	_	64-9	linguistic	none	_	_	_	_	_
+65-11	6607-6609	un	_	un	_	64-10	linguistic	none	_	_	_	_	_
+65-12	6610-6617	uliveto	_	uliveto	_	64-11	linguistic	none	_	_	_	_	_
+65-13	6618-6624	quindi	_	quindi	_	64-12	linguistic	none	_	_	_	_	_
+65-14	6625-6627	c'	_	c'	_	64-13	linguistic	none	_	_	_	_	_
+65-15	6628-6629	è	_	è	_	64-14	linguistic	none	_	_	_	_	_
+65-16	6630-6635	anche	_	anche	_	64-15	linguistic	none	_	_	_	_	_
+65-17	6636-6638	lì	_	lì	_	64-16	linguistic	none	_	_	_	_	_
+65-18	6639-6641	un	_	un	_	64-17	linguistic	none	_	_	_	_	_
+65-19	6642-6645	po'	_	po'	_	64-18	linguistic	none	_	_	_	_	_
+65-20	6646-6648	di	_	di	_	64-19	linguistic	none	_	_	_	_	_
+65-21	6649-6655	lavoro	_	lavoro	_	64-20	linguistic	none	_	_	_	_	_
+65-22	6656-6658	da	_	da	_	64-21	linguistic	none	_	_	_	_	_
+65-23	6659-6663	fare	_	fare	_	64-22	linguistic	none	_	_	_	_	_
+65-24	6664-6669	anche	_	anche	_	64-23	linguistic	none	_	_	_	_	_
+65-25	6670-6672	lì	_	lì	_	64-24	linguistic	none	_	_	_	_	_
+65-26	6673-6675	dà	_	dà	_	64-25	linguistic	none	_	_	_	_	_
+65-27	6676-6678	dà	_	dà	_	64-26	linguistic	none	_	_	_	_	_
+65-28	6679-6692	soddisfazione	_	soddisfazione	_	64-27	linguistic	none	_	_	_	_	_
+65-29	6693-6699	perché	_	perché	_	64-28	linguistic	none	_	_	_	_	_
+65-30	6700-6706	sembra	_	sembra	_	64-29	linguistic	none	_	_	_	_	_
+65-31	6707-6710	che	_	che	_	64-30	linguistic	none	_	_	_	_	_
+65-32	6711-6713	la	_	la	_	64-31	linguistic	none	_	_	_	_	_
+65-33	6714-6726	soddisfazone	_	soddisfazone	_	64-32	linguistic	none	_	_	_	_	_
+65-34	6727-6730	più	_	più	_	64-33	linguistic	none	_	_	_	_	_
+65-35	6731-6737	grossa	_	grossa	_	64-34	linguistic	none	_	_	_	_	_
+65-36	6738-6741	per	_	per	_	64-35	linguistic	none	_	_	_	_	_
+65-37	6742-6744	me	_	me	_	64-36	linguistic	none	_	_	_	_	_
+65-38	6745-6748	sia	_	sia	_	64-37	linguistic	none	_	_	_	_	_
+65-39	6749-6757	lavorare	_	lavorare	_	64-38	linguistic	none	_	_	_	_	_
+65-40	6758-6766	((ride))	_	((ride))	_	64-39	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=ehm
+66-1	6767-6770	ehm	_	ehm	TOR010	65-0	linguistic	none	_	_	_	_	_
+
+#Text=oltre la cri~ (.) oltre la crisi degli ultimi anni ti ricordi altri periodi di crisi economica
+67-1	6771-6776	oltre	_	oltre	TOR010	66-0	linguistic	none	_	_	_	_	_
+67-2	6777-6779	la	_	la	_	66-1	linguistic	none	_	_	_	_	_
+67-3	6780-6784	cri~	_	cri~	_	66-2	linguistic	none	_	_	_	_	_
+67-4	6785-6788	(.)	_	(.)	_	66-3	shortpause	none	_	_	_	_	_
+67-5	6789-6794	oltre	_	oltre	_	66-4	linguistic	none	_	_	_	_	_
+67-6	6795-6797	la	_	la	_	66-5	linguistic	none	_	_	_	_	_
+67-7	6798-6803	crisi	_	crisi	_	66-6	linguistic	none	_	_	_	_	_
+67-8	6804-6809	degli	_	degli	_	66-7	linguistic	none	_	_	_	_	_
+67-9	6810-6816	ultimi	_	ultimi	_	66-8	linguistic	none	_	_	_	_	_
+67-10	6817-6821	anni	_	anni	_	66-9	linguistic	none	_	_	_	_	_
+67-11	6822-6824	ti	_	ti	_	66-10	linguistic	none	_	_	_	_	_
+67-12	6825-6832	ricordi	_	ricordi	_	66-11	linguistic	none	_	_	_	_	_
+67-13	6833-6838	altri	_	altri	_	66-12	linguistic	none	_	_	_	_	_
+67-14	6839-6846	periodi	_	periodi	_	66-13	linguistic	none	_	_	_	_	_
+67-15	6847-6849	di	_	di	_	66-14	linguistic	none	_	_	_	_	_
+67-16	6850-6855	crisi	_	crisi	_	66-15	linguistic	none	_	_	_	_	_
+67-17	6856-6865	economica	Rising	economica?	_	66-16	linguistic	none	_	_	_	_	_
+
+#Text=mah io la crisi economica (.) eh questa degli ultimi anni per me è stata una crisi (.) che si è avvertita molto specialmente nell' edilizia perché in agricoltura la crisi non si avverte perché comunque siamo sempre stati perennermente in crisi
+68-1	6866-6869	mah	_	mah	TOI112	67-0	linguistic	none	_	_	_	_	_
+68-2	6870-6872	io	_	io	_	67-1	linguistic	none	_	_	_	_	_
+68-3	6873-6875	la	_	la	_	67-2	linguistic	none	_	_	_	_	_
+68-4	6876-6881	crisi	_	crisi	_	67-3	linguistic	none	_	_	_	_	_
+68-5	6882-6891	economica	_	economica	_	67-4	linguistic	none	_	_	_	_	_
+68-6	6892-6895	(.)	_	(.)	_	67-5	shortpause	none	_	_	_	_	_
+68-7	6896-6898	eh	_	e::h	_	67-6	linguistic	none	0x2	_	_	_	_
+68-8	6899-6905	questa	_	questa	_	67-7	linguistic	none	_	_	_	_	_
+68-9	6906-6911	degli	_	degli	_	67-8	linguistic	none	_	_	_	_	_
+68-10	6912-6918	ultimi	_	ultimi	_	67-9	linguistic	none	_	_	_	_	_
+68-11	6919-6923	anni	_	anni	_	67-10	linguistic	none	_	_	_	_	_
+68-12	6924-6927	per	_	per	_	67-11	linguistic	none	_	_	_	_	_
+68-13	6928-6930	me	_	me	_	67-12	linguistic	none	_	_	_	_	_
+68-14	6931-6932	è	_	è	_	67-13	linguistic	none	_	_	_	_	_
+68-15	6933-6938	stata	_	stata	_	67-14	linguistic	none	_	_	_	_	_
+68-16	6939-6942	una	_	una	_	67-15	linguistic	none	_	_	_	_	_
+68-17	6943-6948	crisi	_	crisi::	_	67-16	linguistic	none	4x2	_	_	_	_
+68-18	6949-6952	(.)	_	(.)	_	67-17	shortpause	none	_	_	_	_	_
+68-19	6953-6956	che	_	che	_	67-18	linguistic	none	_	_	_	_	_
+68-20	6957-6959	si	_	si	_	67-19	linguistic	none	_	_	_	_	_
+68-21	6960-6961	è	_	è	_	67-20	linguistic	none	_	_	_	_	_
+68-22	6962-6971	avvertita	_	avvertita	_	67-21	linguistic	none	_	_	_	_	_
+68-23	6972-6977	molto	_	molto	_	67-22	linguistic	none	_	_	_	_	_
+68-24	6978-6990	specialmente	_	specialmente	_	67-23	linguistic	none	_	_	_	_	_
+68-25	6991-6996	nell'	_	nell'	_	67-24	linguistic	none	_	_	_	_	_
+68-26	6997-7005	edilizia	_	edilizia	_	67-25	linguistic	none	_	_	_	_	_
+68-27	7006-7012	perché	_	perché::	_	67-26	linguistic	none	5x2	_	_	_	_
+68-28	7013-7015	in	_	in	_	67-27	linguistic	none	_	_	_	_	_
+68-29	7016-7027	agricoltura	_	agricoltura	_	67-28	linguistic	none	_	_	_	_	_
+68-30	7028-7030	la	_	la	_	67-29	linguistic	none	_	_	_	_	_
+68-31	7031-7036	crisi	_	crisi	_	67-30	linguistic	none	_	_	_	_	_
+68-32	7037-7040	non	_	non	_	67-31	linguistic	none	_	_	_	_	_
+68-33	7041-7043	si	_	si	_	67-32	linguistic	none	_	_	_	_	_
+68-34	7044-7051	avverte	_	avverte	_	67-33	linguistic	none	_	_	_	_	_
+68-35	7052-7058	perché	_	perché	_	67-34	linguistic	none	_	_	_	_	_
+68-36	7059-7067	comunque	_	comunque	_	67-35	linguistic	none	_	_	_	_	_
+68-37	7068-7073	siamo	_	siamo	_	67-36	linguistic	none	_	_	_	_	_
+68-38	7074-7080	sempre	_	sempre	_	67-37	linguistic	none	_	_	_	_	_
+68-39	7081-7086	stati	_	stati	_	67-38	linguistic	none	_	_	_	_	_
+68-40	7087-7100	perennermente	_	perennermente	_	67-39	linguistic	none	_	_	_	_	_
+68-41	7101-7103	in	_	in	_	67-40	linguistic	none	_	_	_	_	_
+68-42	7104-7109	crisi	_	crisi	_	67-41	linguistic	none	_	_	_	_	_
+
+#Text=io ne~ nell' agricoltura cioè tran~ tranne (.) spor~ ehm piccoli periodi per cui cerea~ io la mia azienda è un' azienda cerealicola quindi (.) che i prezzi erano lievitati ma sono cose un po' rare
+69-1	7110-7112	io	_	io	TOI112	68-0	linguistic	none	_	_	_	_	_
+69-2	7113-7116	ne~	_	ne~	_	68-1	linguistic	none	_	_	_	_	_
+69-3	7117-7122	nell'	_	nell'	_	68-2	linguistic	none	_	_	_	_	_
+69-4	7123-7134	agricoltura	_	agricoltura	_	68-3	linguistic	none	_	_	_	_	_
+69-5	7135-7139	cioè	_	c(io)è	_	68-4	linguistic	none	_	_	_	_	_
+69-6	7140-7145	tran~	_	tran~	_	68-5	linguistic	none	_	_	_	_	_
+69-7	7146-7152	tranne	_	tranne::	_	68-6	linguistic	none	5x2	_	_	_	_
+69-8	7153-7156	(.)	_	(.)	_	68-7	shortpause	none	_	_	_	_	_
+69-9	7157-7162	spor~	_	spor~	_	68-8	linguistic	none	_	_	_	_	_
+69-10	7163-7166	ehm	_	ehm	_	68-9	linguistic	none	_	_	_	_	_
+69-11	7167-7174	piccoli	_	piccoli::	_	68-10	linguistic	none	6x2	_	_	_	_
+69-12	7175-7182	periodi	_	periodi	_	68-11	linguistic	none	_	_	_	_	_
+69-13	7183-7186	per	_	per	_	68-12	linguistic	none	_	_	_	_	_
+69-14	7187-7190	cui	_	cui	_	68-13	linguistic	none	_	_	_	_	_
+69-15	7191-7197	cerea~	_	cerea~	_	68-14	linguistic	none	_	_	_	_	_
+69-16	7198-7200	io	_	io::	_	68-15	linguistic	none	1x2	_	_	_	_
+69-17	7201-7203	la	_	la	_	68-16	linguistic	none	_	_	_	_	_
+69-18	7204-7207	mia	_	mia	_	68-17	linguistic	none	_	_	_	_	_
+69-19	7208-7215	azienda	_	azienda	_	68-18	linguistic	none	_	_	_	_	_
+69-20	7216-7217	è	_	è	_	68-19	linguistic	none	_	_	_	_	_
+69-21	7218-7221	un'	_	un'	_	68-20	linguistic	none	_	_	_	_	_
+69-22	7222-7229	azienda	_	azienda	_	68-21	linguistic	none	_	_	_	_	_
+69-23	7230-7241	cerealicola	_	cerealicola	_	68-22	linguistic	none	_	_	_	_	_
+69-24	7242-7248	quindi	_	quindi	_	68-23	linguistic	none	_	_	_	_	_
+69-25	7249-7252	(.)	_	(.)	_	68-24	shortpause	none	_	_	_	_	_
+69-26	7253-7256	che	_	che	_	68-25	linguistic	none	_	_	_	_	_
+69-27	7257-7258	i	_	i	_	68-26	linguistic	none	_	_	_	_	_
+69-28	7259-7265	prezzi	_	prezzi	_	68-27	linguistic	none	_	_	_	_	_
+69-29	7266-7271	erano	_	erano	_	68-28	linguistic	none	_	_	_	_	_
+69-30	7272-7281	lievitati	_	lievitati	_	68-29	linguistic	none	_	_	_	_	_
+69-31	7282-7284	ma	_	ma	_	68-30	linguistic	none	_	_	_	_	_
+69-32	7285-7289	sono	_	sono	_	68-31	linguistic	none	_	_	_	_	_
+69-33	7290-7294	cose	_	cose	_	68-32	linguistic	none	_	_	_	_	_
+69-34	7295-7297	un	_	un	_	68-33	linguistic	none	_	_	_	_	_
+69-35	7298-7301	po'	_	po'	_	68-34	linguistic	none	_	_	_	_	_
+69-36	7302-7306	rare	_	rare	_	68-35	linguistic	none	_	_	_	_	_
+
+#Text=diversamente in agricoltura (.) per noi la crisi è sempre stata (.) c' è sempre stata perché c' è sempre stata una lotta per riuscire a far quadrare i bilanci per riuscire a guadagnare qualcosa lavorando
+70-1	7307-7319	diversamente	_	diversamente	TOI112	69-0	linguistic	none	_	_	_	_	_
+70-2	7320-7322	in	_	in	_	69-1	linguistic	none	_	_	_	_	_
+70-3	7323-7334	agricoltura	_	agricoltura	_	69-2	linguistic	none	_	_	_	_	_
+70-4	7335-7338	(.)	_	(.)	_	69-3	shortpause	none	_	_	_	_	_
+70-5	7339-7342	per	_	per	_	69-4	linguistic	none	_	_	_	_	_
+70-6	7343-7346	noi	_	noi	_	69-5	linguistic	none	_	_	_	_	_
+70-7	7347-7349	la	_	la	_	69-6	linguistic	none	_	_	_	_	_
+70-8	7350-7355	crisi	_	crisi	_	69-7	linguistic	none	_	_	_	_	_
+70-9	7356-7357	è	_	è	_	69-8	linguistic	none	_	_	_	_	_
+70-10	7358-7364	sempre	_	sempre	_	69-9	linguistic	none	_	_	_	_	_
+70-11	7365-7370	stata	_	stata:	_	69-10	linguistic	none	4x1	_	_	_	_
+70-12	7371-7374	(.)	_	(.)	_	69-11	shortpause	none	_	_	_	_	_
+70-13	7375-7377	c'	_	c'	_	69-12	linguistic	none	_	_	_	_	_
+70-14	7378-7379	è	_	è	_	69-13	linguistic	none	_	_	_	_	_
+70-15	7380-7386	sempre	_	sempre	_	69-14	linguistic	none	_	_	_	_	_
+70-16	7387-7392	stata	_	stata	_	69-15	linguistic	none	_	_	_	_	_
+70-17	7393-7399	perché	_	perché	_	69-16	linguistic	none	_	_	_	_	_
+70-18	7400-7402	c'	_	c'	_	69-17	linguistic	none	_	_	_	_	_
+70-19	7403-7404	è	_	è	_	69-18	linguistic	none	_	_	_	_	_
+70-20	7405-7411	sempre	_	sempre	_	69-19	linguistic	none	_	_	_	_	_
+70-21	7412-7417	stata	_	stata	_	69-20	linguistic	none	_	_	_	_	_
+70-22	7418-7421	una	_	una	_	69-21	linguistic	none	_	_	_	_	_
+70-23	7422-7427	lotta	_	lotta	_	69-22	linguistic	none	_	_	_	_	_
+70-24	7428-7431	per	_	per	_	69-23	linguistic	none	_	_	_	_	_
+70-25	7432-7440	riuscire	_	riuscire	_	69-24	linguistic	none	_	_	_	_	_
+70-26	7441-7442	a	_	a	_	69-25	linguistic	none	_	_	_	_	_
+70-27	7443-7446	far	_	far	_	69-26	linguistic	none	_	_	_	_	_
+70-28	7447-7455	quadrare	_	quadrare	_	69-27	linguistic	none	_	_	_	_	_
+70-29	7456-7457	i	_	i	_	69-28	linguistic	none	_	_	_	_	_
+70-30	7458-7465	bilanci	_	bilanci	_	69-29	linguistic	none	_	_	_	_	_
+70-31	7466-7469	per	_	per	_	69-30	linguistic	none	_	_	_	_	_
+70-32	7470-7478	riuscire	_	riuscire	_	69-31	linguistic	none	_	_	_	_	_
+70-33	7479-7480	a	_	a	_	69-32	linguistic	none	_	_	_	_	_
+70-34	7481-7491	guadagnare	_	guadagnare	_	69-33	linguistic	none	_	_	_	_	_
+70-35	7492-7500	qualcosa	_	qualcosa	_	69-34	linguistic	none	_	_	_	_	_
+70-36	7501-7510	lavorando	_	lavorando	_	69-35	linguistic	none	_	_	_	_	_
+
+#Text=e comunque m~ la mia esperienza mi ha detto che per guadagnare qualcosa bisogna saper spendere molto poco (.) nelle attrezzature bisogna fare molta attenzione a quello che si spende perché se uno spende e spande (.) no~ non ha più senso lavorare
+71-1	7511-7512	e	_	e:::	TOI112	70-0	linguistic	none	0x3	_	_	_	_
+71-2	7513-7521	comunque	_	comunque::	_	70-1	linguistic	none	7x2	_	_	_	_
+71-3	7522-7524	m~	_	m~	_	70-2	linguistic	none	_	_	_	_	_
+71-4	7525-7527	la	_	la	_	70-3	linguistic	none	_	_	_	_	_
+71-5	7528-7531	mia	_	mia	_	70-4	linguistic	none	_	_	_	_	_
+71-6	7532-7542	esperienza	_	esperienza	_	70-5	linguistic	none	_	_	_	_	_
+71-7	7543-7545	mi	_	mi	_	70-6	linguistic	none	_	_	_	_	_
+71-8	7546-7548	ha	_	ha	_	70-7	linguistic	none	_	_	_	_	_
+71-9	7549-7554	detto	_	detto	_	70-8	linguistic	none	_	_	_	_	_
+71-10	7555-7558	che	_	che	_	70-9	linguistic	none	_	_	_	_	_
+71-11	7559-7562	per	_	per	_	70-10	linguistic	none	_	_	_	_	_
+71-12	7563-7573	guadagnare	_	guadagnare	_	70-11	linguistic	none	_	_	_	_	_
+71-13	7574-7582	qualcosa	_	qualcosa	_	70-12	linguistic	none	_	_	_	_	_
+71-14	7583-7590	bisogna	_	bisogna	_	70-13	linguistic	none	_	_	_	_	_
+71-15	7591-7596	saper	_	saper	_	70-14	linguistic	none	_	_	_	_	_
+71-16	7597-7605	spendere	_	spendere	_	70-15	linguistic	none	_	_	_	_	_
+71-17	7606-7611	molto	_	molto	_	70-16	linguistic	none	_	_	_	_	_
+71-18	7612-7616	poco	_	poco	_	70-17	linguistic	none	_	_	_	_	_
+71-19	7617-7620	(.)	_	(.)	_	70-18	shortpause	none	_	_	_	_	_
+71-20	7621-7626	nelle	_	nelle	_	70-19	linguistic	none	_	_	_	_	_
+71-21	7627-7639	attrezzature	_	attrezzature:	_	70-20	linguistic	none	11x1	_	_	_	_
+71-22	7640-7647	bisogna	_	bisogna	_	70-21	linguistic	none	_	_	_	_	_
+71-23	7648-7652	fare	_	fare	_	70-22	linguistic	none	_	_	_	_	_
+71-24	7653-7658	molta	_	molta	_	70-23	linguistic	none	_	_	_	_	_
+71-25	7659-7669	attenzione	_	attenzione	_	70-24	linguistic	none	_	_	_	_	_
+71-26	7670-7671	a	_	a	_	70-25	linguistic	none	_	_	_	_	_
+71-27	7672-7678	quello	_	quello	_	70-26	linguistic	none	_	_	_	_	_
+71-28	7679-7682	che	_	che	_	70-27	linguistic	none	_	_	_	_	_
+71-29	7683-7685	si	_	si	_	70-28	linguistic	none	_	_	_	_	_
+71-30	7686-7692	spende	_	spende	_	70-29	linguistic	none	_	_	_	_	_
+71-31	7693-7699	perché	_	perché	_	70-30	linguistic	none	_	_	_	_	_
+71-32	7700-7702	se	_	se	_	70-31	linguistic	none	_	_	_	_	_
+71-33	7703-7706	uno	_	uno	_	70-32	linguistic	none	_	_	_	_	_
+71-34	7707-7713	spende	_	spende	_	70-33	linguistic	none	_	_	_	_	_
+71-35	7714-7715	e	_	e	_	70-34	linguistic	none	_	_	_	_	_
+71-36	7716-7722	spande	_	spande	_	70-35	linguistic	none	_	_	_	_	_
+71-37	7723-7726	(.)	_	(.)	_	70-36	shortpause	none	_	_	_	_	_
+71-38	7727-7730	no~	_	no~	_	70-37	linguistic	none	_	_	_	_	_
+71-39	7731-7734	non	_	non	_	70-38	linguistic	none	_	_	_	_	_
+71-40	7735-7737	ha	_	ha	_	70-39	linguistic	none	_	_	_	_	_
+71-41	7738-7741	più	_	più	_	70-40	linguistic	none	_	_	_	_	_
+71-42	7742-7747	senso	_	senso	_	70-41	linguistic	none	_	_	_	_	_
+71-43	7748-7756	lavorare	_	lavorare	_	70-42	linguistic	none	_	_	_	_	_
+
+#Text=e ne~ invece nella nell' edilizia negli ultimi dal duemilaotto ai novanta c' è stata una crisi molto profonda (.) molto forte che ha limitato molto il lavoro
+72-1	7757-7758	e	_	e	TOI112	71-0	linguistic	none	_	_	_	_	_
+72-2	7759-7762	ne~	_	ne~	_	71-1	linguistic	none	_	_	_	_	_
+72-3	7763-7769	invece	_	invece	_	71-2	linguistic	none	_	_	_	_	_
+72-4	7770-7775	nella	_	nella	_	71-3	linguistic	none	_	_	_	_	_
+72-5	7776-7781	nell'	_	nell'	_	71-4	linguistic	none	_	_	_	_	_
+72-6	7782-7790	edilizia	_	edilizia	_	71-5	linguistic	none	_	_	_	_	_
+72-7	7791-7796	negli	_	negli	_	71-6	linguistic	none	_	_	_	_	_
+72-8	7797-7803	ultimi	_	ultimi	_	71-7	linguistic	none	_	_	_	_	_
+72-9	7804-7807	dal	_	dal	_	71-8	linguistic	none	_	_	_	_	_
+72-10	7808-7819	duemilaotto	_	duemilaotto	_	71-9	linguistic	none	_	_	_	_	_
+72-11	7820-7822	ai	_	ai	_	71-10	linguistic	none	_	_	_	_	_
+72-12	7823-7830	novanta	_	novanta	_	71-11	linguistic	none	_	_	_	_	_
+72-13	7831-7833	c'	_	c'	_	71-12	linguistic	none	_	_	_	_	_
+72-14	7834-7835	è	_	è	_	71-13	linguistic	none	_	_	_	_	_
+72-15	7836-7841	stata	_	stata	_	71-14	linguistic	none	_	_	_	_	_
+72-16	7842-7845	una	_	una	_	71-15	linguistic	none	_	_	_	_	_
+72-17	7846-7851	crisi	_	crisi	_	71-16	linguistic	none	_	_	_	_	_
+72-18	7852-7857	molto	_	molto	_	71-17	linguistic	none	_	_	_	_	_
+72-19	7858-7866	profonda	_	profonda	_	71-18	linguistic	none	_	_	_	_	_
+72-20	7867-7870	(.)	_	(.)	_	71-19	shortpause	none	_	_	_	_	_
+72-21	7871-7876	molto	_	molto	_	71-20	linguistic	none	_	_	_	_	_
+72-22	7877-7882	forte	_	forte	_	71-21	linguistic	none	_	_	_	_	_
+72-23	7883-7886	che	_	che::	_	71-22	linguistic	none	2x2	_	_	_	_
+72-24	7887-7889	ha	_	ha	_	71-23	linguistic	none	_	_	_	_	_
+72-25	7890-7898	limitato	_	limitato	_	71-24	linguistic	none	_	_	_	_	_
+72-26	7899-7904	molto	_	molto:	_	71-25	linguistic	none	4x1	_	_	_	_
+72-27	7905-7907	il	_	il	_	71-26	linguistic	none	_	_	_	_	_
+72-28	7908-7914	lavoro	_	lavoro	_	71-27	linguistic	none	_	_	_	_	_
+
+#Text=eh cioè proprio anche la qualità del lavoro prima c' erano dei bei lavori dopo c' erano solo dei lavoretti praticamente lavori di di (.) di piccoli lavori di ristrutturazione (.) ehm sempre legati comunque a (.) a parti di di immobili che più si usurano quali bagni o o balconi (.) quindi (.) si è avvertita molto
+73-1	7915-7917	eh	_	e::h	TOI112	72-0	linguistic	none	0x2	_	_	_	_
+73-2	7918-7922	cioè	_	c(io)è	_	72-1	linguistic	none	_	_	_	_	_
+73-3	7923-7930	proprio	_	proprio	_	72-2	linguistic	none	_	_	_	_	_
+73-4	7931-7936	anche	_	anche	_	72-3	linguistic	none	_	_	_	_	_
+73-5	7937-7939	la	_	la	_	72-4	linguistic	none	_	_	_	_	_
+73-6	7940-7947	qualità	_	qualità	_	72-5	linguistic	none	_	_	_	_	_
+73-7	7948-7951	del	_	del	_	72-6	linguistic	none	_	_	_	_	_
+73-8	7952-7958	lavoro	_	lavoro	_	72-7	linguistic	none	_	_	_	_	_
+73-9	7959-7964	prima	_	prima	_	72-8	linguistic	none	_	_	_	_	_
+73-10	7965-7967	c'	_	c'	_	72-9	linguistic	none	_	_	_	_	_
+73-11	7968-7973	erano	_	erano	_	72-10	linguistic	none	_	_	_	_	_
+73-12	7974-7977	dei	_	dei	_	72-11	linguistic	none	_	_	_	_	_
+73-13	7978-7981	bei	_	bei	_	72-12	linguistic	none	_	_	_	_	_
+73-14	7982-7988	lavori	_	lavori	_	72-13	linguistic	none	_	_	_	_	_
+73-15	7989-7993	dopo	_	dopo	_	72-14	linguistic	none	_	_	_	_	_
+73-16	7994-7996	c'	_	c'	_	72-15	linguistic	none	_	_	_	_	_
+73-17	7997-8002	erano	_	erano	_	72-16	linguistic	none	_	_	_	_	_
+73-18	8003-8007	solo	_	solo	_	72-17	linguistic	none	_	_	_	_	_
+73-19	8008-8011	dei	_	dei	_	72-18	linguistic	none	_	_	_	_	_
+73-20	8012-8021	lavoretti	_	lavoretti	_	72-19	linguistic	none	_	_	_	_	_
+73-21	8022-8034	praticamente	_	praticamente	_	72-20	linguistic	none	_	_	_	_	_
+73-22	8035-8041	lavori	_	lavori	_	72-21	linguistic	none	_	_	_	_	_
+73-23	8042-8044	di	_	di	_	72-22	linguistic	none	_	_	_	_	_
+73-24	8045-8047	di	_	di	_	72-23	linguistic	none	_	_	_	_	_
+73-25	8048-8051	(.)	_	(.)	_	72-24	shortpause	none	_	_	_	_	_
+73-26	8052-8054	di	_	di:::	_	72-25	linguistic	none	1x3	_	_	_	_
+73-27	8055-8062	piccoli	_	piccoli	_	72-26	linguistic	none	_	_	_	_	_
+73-28	8063-8069	lavori	_	lavori	_	72-27	linguistic	none	_	_	_	_	_
+73-29	8070-8072	di	_	di	_	72-28	linguistic	none	_	_	_	_	_
+73-30	8073-8089	ristrutturazione	_	ristrutturazione	_	72-29	linguistic	none	_	_	_	_	_
+73-31	8090-8093	(.)	_	(.)	_	72-30	shortpause	none	_	_	_	_	_
+73-32	8094-8097	ehm	_	ehm	_	72-31	linguistic	none	_	_	_	_	_
+73-33	8098-8104	sempre	_	sempre	_	72-32	linguistic	none	_	_	_	_	_
+73-34	8105-8111	legati	_	legati	_	72-33	linguistic	none	_	_	_	_	_
+73-35	8112-8120	comunque	_	comunque	_	72-34	linguistic	none	_	_	_	_	_
+73-36	8121-8122	a	_	a::	_	72-35	linguistic	none	0x2	_	_	_	_
+73-37	8123-8126	(.)	_	(.)	_	72-36	shortpause	none	_	_	_	_	_
+73-38	8127-8128	a	_	a	_	72-37	linguistic	none	_	_	_	_	_
+73-39	8129-8134	parti	_	parti	_	72-38	linguistic	none	_	_	_	_	_
+73-40	8135-8137	di	_	di:	_	72-39	linguistic	none	1x1	_	_	_	_
+73-41	8138-8140	di	_	di	_	72-40	linguistic	none	_	_	_	_	_
+73-42	8141-8149	immobili	_	immobili	_	72-41	linguistic	none	_	_	_	_	_
+73-43	8150-8153	che	_	che	_	72-42	linguistic	none	_	_	_	_	_
+73-44	8154-8157	più	_	più	_	72-43	linguistic	none	_	_	_	_	_
+73-45	8158-8160	si	_	si	_	72-44	linguistic	none	_	_	_	_	_
+73-46	8161-8168	usurano	_	usurano	_	72-45	linguistic	none	_	_	_	_	_
+73-47	8169-8174	quali	_	quali	_	72-46	linguistic	none	_	_	_	_	_
+73-48	8175-8180	bagni	_	bagni	_	72-47	linguistic	none	_	_	_	_	_
+73-49	8181-8182	o	_	o	_	72-48	linguistic	none	_	_	_	_	_
+73-50	8183-8184	o	_	o:	_	72-49	linguistic	none	0x1	_	_	_	_
+73-51	8185-8192	balconi	_	balconi	_	72-50	linguistic	none	_	_	_	_	_
+73-52	8193-8196	(.)	_	(.)	_	72-51	shortpause	none	_	_	_	_	_
+73-53	8197-8203	quindi	_	quindi::	_	72-52	linguistic	none	5x2	_	_	_	_
+73-54	8204-8207	(.)	_	(.)	_	72-53	shortpause	none	_	_	_	_	_
+73-55	8208-8210	si	_	si	_	72-54	linguistic	none	_	_	_	_	_
+73-56	8211-8212	è	_	è	_	72-55	linguistic	none	_	_	_	_	_
+73-57	8213-8222	avvertita	_	avvertita	_	72-56	linguistic	none	_	_	_	_	_
+73-58	8223-8228	molto	_	molto	_	72-57	linguistic	none	_	_	_	_	_
+
+#Text=eh nella mia vita altri periodi di crisi
+74-1	8229-8231	eh	_	e::h	TOI112	73-0	linguistic	none	0x2	_	_	_	_
+74-2	8232-8237	nella	_	nella	_	73-1	linguistic	none	_	_	_	_	_
+74-3	8238-8241	mia	_	mia	_	73-2	linguistic	none	_	_	_	_	_
+74-4	8242-8246	vita	_	vita	_	73-3	linguistic	none	_	_	_	_	_
+74-5	8247-8252	altri	_	altri	_	73-4	linguistic	none	_	_	_	_	_
+74-6	8253-8260	periodi	_	periodi	_	73-5	linguistic	none	_	_	_	_	_
+74-7	8261-8263	di	_	di	_	73-6	linguistic	none	_	_	_	_	_
+74-8	8264-8269	crisi	_	crisi	_	73-7	linguistic	none	_	_	_	_	_
+
+#Text=io ricordo molto bene la crisi petrolifera del settantatré quando quando si mh non c' era non si poteva usare la macchina dal sabato a mezzanotte a lunedì alla domenica a mezzanotte
+75-1	8270-8272	io	_	io	TOI112	74-0	linguistic	none	_	_	_	_	_
+75-2	8273-8280	ricordo	_	ricordo	_	74-1	linguistic	none	_	_	_	_	_
+75-3	8281-8286	molto	_	molto	_	74-2	linguistic	none	_	_	_	_	_
+75-4	8287-8291	bene	_	bene	_	74-3	linguistic	none	_	_	_	_	_
+75-5	8292-8294	la	_	la	_	74-4	linguistic	none	_	_	_	_	_
+75-6	8295-8300	crisi	_	crisi::	_	74-5	linguistic	none	4x2	_	_	_	_
+75-7	8301-8312	petrolifera	_	petrolifera	_	74-6	linguistic	none	_	_	_	_	_
+75-8	8313-8316	del	_	del	_	74-7	linguistic	none	_	_	_	_	_
+75-9	8317-8328	settantatré	_	settantatré	_	74-8	linguistic	none	_	_	_	_	_
+75-10	8329-8335	quando	_	quando	_	74-9	linguistic	none	_	_	_	_	_
+75-11	8336-8342	quando	_	quando	_	74-10	linguistic	none	_	_	_	_	_
+75-12	8343-8345	si	_	si:::	_	74-11	linguistic	none	1x3	_	_	_	_
+75-13	8346-8348	mh	_	mh	_	74-12	linguistic	none	_	_	_	_	_
+75-14	8349-8352	non	_	non	_	74-13	linguistic	none	_	_	_	_	_
+75-15	8353-8355	c'	_	c'	_	74-14	linguistic	none	_	_	_	_	_
+75-16	8356-8359	era	_	era	_	74-15	linguistic	none	_	_	_	_	_
+75-17	8360-8363	non	_	non	_	74-16	linguistic	none	_	_	_	_	_
+75-18	8364-8366	si	_	si	_	74-17	linguistic	none	_	_	_	_	_
+75-19	8367-8373	poteva	_	poteva	_	74-18	linguistic	none	_	_	_	_	_
+75-20	8374-8379	usare	_	usare	_	74-19	linguistic	none	_	_	_	_	_
+75-21	8380-8382	la	_	la	_	74-20	linguistic	none	_	_	_	_	_
+75-22	8383-8391	macchina	_	macchina	_	74-21	linguistic	none	_	_	_	_	_
+75-23	8392-8395	dal	_	dal	_	74-22	linguistic	none	_	_	_	_	_
+75-24	8396-8402	sabato	_	sabato	_	74-23	linguistic	none	_	_	_	_	_
+75-25	8403-8404	a	_	a	_	74-24	linguistic	none	_	_	_	_	_
+75-26	8405-8415	mezzanotte	_	mezzanotte	_	74-25	linguistic	none	_	_	_	_	_
+75-27	8416-8417	a	_	a	_	74-26	linguistic	none	_	_	_	_	_
+75-28	8418-8424	lunedì	_	lunedì	_	74-27	linguistic	none	_	_	_	_	_
+75-29	8425-8429	alla	_	alla	_	74-28	linguistic	none	_	_	_	_	_
+75-30	8430-8438	domenica	_	domenica	_	74-29	linguistic	none	_	_	_	_	_
+75-31	8439-8440	a	_	a	_	74-30	linguistic	none	_	_	_	_	_
+75-32	8441-8451	mezzanotte	_	mezzanotte	_	74-31	linguistic	none	_	_	_	_	_
+
+#Text=eh quindi si andava in giro in bici la domenica
+76-1	8452-8454	eh	_	e:h	TOI112	75-0	linguistic	none	0x1	_	_	_	_
+76-2	8455-8461	quindi	_	quindi	_	75-1	linguistic	none	_	_	_	_	_
+76-3	8462-8464	si	_	si	_	75-2	linguistic	none	_	_	_	_	_
+76-4	8465-8471	andava	_	andava	_	75-3	linguistic	none	_	_	_	_	_
+76-5	8472-8474	in	_	in	_	75-4	linguistic	none	_	_	_	_	_
+76-6	8475-8479	giro	_	giro	_	75-5	linguistic	none	_	_	_	_	_
+76-7	8480-8482	in	_	in	_	75-6	linguistic	none	_	_	_	_	_
+76-8	8483-8487	bici	_	bici	_	75-7	linguistic	none	_	_	_	_	_
+76-9	8488-8490	la	_	la	_	75-8	linguistic	none	_	_	_	_	_
+76-10	8491-8499	domenica	_	domenica	_	75-9	linguistic	none	_	_	_	_	_
+
+#Text=quando proprio non si riusciva a trovare c' erano dei periodi in cui non si riusciva a trovare il gasolio per far funzionare i trattori per l' azienda agricola
+77-1	8500-8506	quando	_	quando::	TOI112	76-0	linguistic	none	5x2	_	_	_	_
+77-2	8507-8514	proprio	_	proprio	_	76-1	linguistic	none	_	_	_	_	_
+77-3	8515-8518	non	_	non	_	76-2	linguistic	none	_	_	_	_	_
+77-4	8519-8521	si	_	si	_	76-3	linguistic	none	_	_	_	_	_
+77-5	8522-8530	riusciva	_	riusciva	_	76-4	linguistic	none	_	_	_	_	_
+77-6	8531-8532	a	_	a	_	76-5	linguistic	none	_	_	_	_	_
+77-7	8533-8540	trovare	_	trovare::	_	76-6	linguistic	none	6x2	_	_	_	_
+77-8	8541-8543	c'	_	c'	_	76-7	linguistic	none	_	_	_	_	_
+77-9	8544-8549	erano	_	erano	_	76-8	linguistic	none	_	_	_	_	_
+77-10	8550-8553	dei	_	dei	_	76-9	linguistic	none	_	_	_	_	_
+77-11	8554-8561	periodi	_	periodi	_	76-10	linguistic	none	_	_	_	_	_
+77-12	8562-8564	in	_	in	_	76-11	linguistic	none	_	_	_	_	_
+77-13	8565-8568	cui	_	cui	_	76-12	linguistic	none	_	_	_	_	_
+77-14	8569-8572	non	_	non	_	76-13	linguistic	none	_	_	_	_	_
+77-15	8573-8575	si	_	si	_	76-14	linguistic	none	_	_	_	_	_
+77-16	8576-8584	riusciva	_	riusciva	_	76-15	linguistic	none	_	_	_	_	_
+77-17	8585-8586	a	_	a	_	76-16	linguistic	none	_	_	_	_	_
+77-18	8587-8594	trovare	_	trovare	_	76-17	linguistic	none	_	_	_	_	_
+77-19	8595-8597	il	_	il	_	76-18	linguistic	none	_	_	_	_	_
+77-20	8598-8605	gasolio	_	gasolio	_	76-19	linguistic	none	_	_	_	_	_
+77-21	8606-8609	per	_	per	_	76-20	linguistic	none	_	_	_	_	_
+77-22	8610-8613	far	_	far	_	76-21	linguistic	none	_	_	_	_	_
+77-23	8614-8624	funzionare	_	funzionare	_	76-22	linguistic	none	_	_	_	_	_
+77-24	8625-8626	i	_	i	_	76-23	linguistic	none	_	_	_	_	_
+77-25	8627-8635	trattori	_	trattori	_	76-24	linguistic	none	_	_	_	_	_
+77-26	8636-8639	per	_	per	_	76-25	linguistic	none	_	_	_	_	_
+77-27	8640-8642	l'	_	l'	_	76-26	linguistic	none	_	_	_	_	_
+77-28	8643-8650	azienda	_	azienda	_	76-27	linguistic	none	_	_	_	_	_
+77-29	8651-8659	agricola	_	agricola	_	76-28	linguistic	none	_	_	_	_	_
+
+#Text=quindi si andava a prendere il gasolio al consorzio agrario (.) si prendevano duecen~ duecento litri per volta e si andava avanti si faceva molta attenzione a consumare perché non c' era non c' era gasolio no~ non arrivava non lo consegnavano
+78-1	8660-8666	quindi	_	quindi	TOI112	77-0	linguistic	none	_	_	_	_	_
+78-2	8667-8669	si	_	si	_	77-1	linguistic	none	_	_	_	_	_
+78-3	8670-8676	andava	_	andava	_	77-2	linguistic	none	_	_	_	_	_
+78-4	8677-8678	a	_	a	_	77-3	linguistic	none	_	_	_	_	_
+78-5	8679-8687	prendere	_	prendere	_	77-4	linguistic	none	_	_	_	_	_
+78-6	8688-8690	il	_	il	_	77-5	linguistic	none	_	_	_	_	_
+78-7	8691-8698	gasolio	_	gasolio	_	77-6	linguistic	none	_	_	_	_	_
+78-8	8699-8701	al	_	al	_	77-7	linguistic	none	_	_	_	_	_
+78-9	8702-8711	consorzio	_	consorzio	_	77-8	linguistic	none	_	_	_	_	_
+78-10	8712-8719	agrario	_	agrario	_	77-9	linguistic	none	_	_	_	_	_
+78-11	8720-8723	(.)	_	(.)	_	77-10	shortpause	none	_	_	_	_	_
+78-12	8724-8726	si	_	si	_	77-11	linguistic	none	_	_	_	_	_
+78-13	8727-8737	prendevano	_	prendevano	_	77-12	linguistic	none	_	_	_	_	_
+78-14	8738-8745	duecen~	_	duecen~	_	77-13	linguistic	none	_	_	_	_	_
+78-15	8746-8754	duecento	_	duecento	_	77-14	linguistic	none	_	_	_	_	_
+78-16	8755-8760	litri	_	litri	_	77-15	linguistic	none	_	_	_	_	_
+78-17	8761-8764	per	_	per	_	77-16	linguistic	none	_	_	_	_	_
+78-18	8765-8770	volta	_	volta	_	77-17	linguistic	none	_	_	_	_	_
+78-19	8771-8772	e	_	e	_	77-18	linguistic	none	_	_	_	_	_
+78-20	8773-8775	si	_	si	_	77-19	linguistic	none	_	_	_	_	_
+78-21	8776-8782	andava	_	andava	_	77-20	linguistic	none	_	_	_	_	_
+78-22	8783-8789	avanti	_	avanti	_	77-21	linguistic	none	_	_	_	_	_
+78-23	8790-8792	si	_	si	_	77-22	linguistic	none	_	_	_	_	_
+78-24	8793-8799	faceva	_	faceva	_	77-23	linguistic	none	_	_	_	_	_
+78-25	8800-8805	molta	_	molta	_	77-24	linguistic	none	_	_	_	_	_
+78-26	8806-8816	attenzione	_	attenzione	_	77-25	linguistic	none	_	_	_	_	_
+78-27	8817-8818	a	_	a	_	77-26	linguistic	none	_	_	_	_	_
+78-28	8819-8828	consumare	_	consumare	_	77-27	linguistic	none	_	_	_	_	_
+78-29	8829-8835	perché	_	perché	_	77-28	linguistic	none	_	_	_	_	_
+78-30	8836-8839	non	_	non	_	77-29	linguistic	none	_	_	_	_	_
+78-31	8840-8842	c'	_	c'	_	77-30	linguistic	none	_	_	_	_	_
+78-32	8843-8846	era	_	era	_	77-31	linguistic	none	_	_	_	_	_
+78-33	8847-8850	non	_	non	_	77-32	linguistic	none	_	_	_	_	_
+78-34	8851-8853	c'	_	c'	_	77-33	linguistic	none	_	_	_	_	_
+78-35	8854-8857	era	_	era	_	77-34	linguistic	none	_	_	_	_	_
+78-36	8858-8865	gasolio	_	gasolio	_	77-35	linguistic	none	_	_	_	_	_
+78-37	8866-8869	no~	_	no~	_	77-36	linguistic	none	_	_	_	_	_
+78-38	8870-8873	non	_	non	_	77-37	linguistic	none	_	_	_	_	_
+78-39	8874-8882	arrivava	_	arrivava	_	77-38	linguistic	none	_	_	_	_	_
+78-40	8883-8886	non	_	non	_	77-39	linguistic	none	_	_	_	_	_
+78-41	8887-8889	lo	_	lo	_	77-40	linguistic	none	_	_	_	_	_
+78-42	8890-8902	consegnavano	_	consegnavano	_	77-41	linguistic	none	_	_	_	_	_
+
+#Text=diversamente proprio periodi di crisi
+79-1	8903-8915	diversamente	_	diversamente::	TOI112	78-0	linguistic	none	11x2	_	_	_	_
+79-2	8916-8923	proprio	_	proprio	_	78-1	linguistic	none	_	_	_	_	_
+79-3	8924-8931	periodi	_	periodi:	_	78-2	linguistic	none	6x1	_	_	_	_
+79-4	8932-8934	di	_	di	_	78-3	linguistic	none	_	_	_	_	_
+79-5	8935-8940	crisi	_	crisi::	_	78-4	linguistic	none	4x2	_	_	_	_
+
+#Text=però quella del settantatré io ero molto giovane quindi si avvertiva cioè da giovani queste cose non è che si avvertono tanto
+80-1	8941-8945	però	_	però	TOI112	79-0	linguistic	none	_	_	_	_	_
+80-2	8946-8952	quella	_	quella	_	79-1	linguistic	none	_	_	_	_	_
+80-3	8953-8956	del	_	del	_	79-2	linguistic	none	_	_	_	_	_
+80-4	8957-8968	settantatré	_	settantatré	_	79-3	linguistic	none	_	_	_	_	_
+80-5	8969-8971	io	_	io	_	79-4	linguistic	none	_	_	_	_	_
+80-6	8972-8975	ero	_	ero	_	79-5	linguistic	none	_	_	_	_	_
+80-7	8976-8981	molto	_	molto	_	79-6	linguistic	none	_	_	_	_	_
+80-8	8982-8989	giovane	_	giovane	_	79-7	linguistic	none	_	_	_	_	_
+80-9	8990-8996	quindi	_	quindi::	_	79-8	linguistic	none	5x2	_	_	_	_
+80-10	8997-8999	si	_	si	_	79-9	linguistic	none	_	_	_	_	_
+80-11	9000-9009	avvertiva	_	avvertiva:	_	79-10	linguistic	none	8x1	_	_	_	_
+80-12	9010-9014	cioè	_	c(io)è	_	79-11	linguistic	none	_	_	_	_	_
+80-13	9015-9017	da	_	da	_	79-12	linguistic	none	_	_	_	_	_
+80-14	9018-9025	giovani	_	giovani	_	79-13	linguistic	none	_	_	_	_	_
+80-15	9026-9032	queste	_	queste	_	79-14	linguistic	none	_	_	_	_	_
+80-16	9033-9037	cose	_	cose	_	79-15	linguistic	none	_	_	_	_	_
+80-17	9038-9041	non	_	non	_	79-16	linguistic	none	_	_	_	_	_
+80-18	9042-9043	è	_	è	_	79-17	linguistic	none	_	_	_	_	_
+80-19	9044-9047	che	_	che	_	79-18	linguistic	none	_	_	_	_	_
+80-20	9048-9050	si	_	si	_	79-19	linguistic	none	_	_	_	_	_
+80-21	9051-9060	avvertono	_	avvertono	_	79-20	linguistic	none	_	_	_	_	_
+80-22	9061-9066	tanto	_	tanto	_	79-21	linguistic	none	_	_	_	_	_
+
+#Text=non ci si rende praticamente quasi neanche conto cioè si va avanti
+81-1	9067-9070	non	_	non	TOI112	80-0	linguistic	none	_	_	_	_	_
+81-2	9071-9073	ci	_	ci	_	80-1	linguistic	none	_	_	_	_	_
+81-3	9074-9076	si	_	si	_	80-2	linguistic	none	_	_	_	_	_
+81-4	9077-9082	rende	_	rende	_	80-3	linguistic	none	_	_	_	_	_
+81-5	9083-9095	praticamente	_	praticamente	_	80-4	linguistic	none	_	_	_	_	_
+81-6	9096-9101	quasi	_	quasi	_	80-5	linguistic	none	_	_	_	_	_
+81-7	9102-9109	neanche	_	neanche	_	80-6	linguistic	none	_	_	_	_	_
+81-8	9110-9115	conto	_	conto	_	80-7	linguistic	none	_	_	_	_	_
+81-9	9116-9120	cioè	_	c(io)è	_	80-8	linguistic	none	_	_	_	_	_
+81-10	9121-9123	si	_	si	_	80-9	linguistic	none	_	_	_	_	_
+81-11	9124-9126	va	_	va	_	80-10	linguistic	none	_	_	_	_	_
+81-12	9127-9133	avanti	_	avanti	_	80-11	linguistic	none	_	_	_	_	_
+
+#Text=tanto ci sono i genitori
+82-1	9134-9139	tanto	_	ta\[nto	TOR010	81-0	linguistic	none	_	_	_	_	_
+82-1.1	9136-9139	nto	_	_	_	_	_	_	_	_	_	*->1-1	*[1]
+82-2	9140-9142	ci	_	ci\]	_	81-1	linguistic	none	_	_	_	*->1-2	*[1]
+82-3	9143-9147	sono	_	sono	_	81-2	linguistic	none	_	_	_	_	_
+82-4	9148-9149	i	_	i	_	81-3	linguistic	none	_	_	_	_	_
+82-5	9150-9158	genitori	_	genitori:	_	81-4	linguistic	none	7x1	_	_	_	_
+
+#Text=e basta
+83-1	9159-9160	e	_	\[e	TOI112	82-0	linguistic	none	_	_	_	*->1-3	*[1]
+83-2	9161-9166	basta	_	basta\]	_	82-1	linguistic	none	_	_	_	*->1-4	*[1]
+
+#Text=eh ci sono altri che ci pensano (.) e si va avanti eh
+84-1	9167-9169	eh	_	eh	TOI112	83-0	linguistic	none	_	_	_	_	_
+84-2	9170-9172	ci	_	ci	_	83-1	linguistic	none	_	_	_	_	_
+84-3	9173-9177	sono	_	sono	_	83-2	linguistic	none	_	_	_	_	_
+84-4	9178-9183	altri	_	altri	_	83-3	linguistic	none	_	_	_	_	_
+84-5	9184-9187	che	_	che	_	83-4	linguistic	none	_	_	_	_	_
+84-6	9188-9190	ci	_	ci	_	83-5	linguistic	none	_	_	_	_	_
+84-7	9191-9198	pensano	_	pensano	_	83-6	linguistic	none	_	_	_	_	_
+84-8	9199-9202	(.)	_	(.)	_	83-7	shortpause	none	_	_	_	_	_
+84-9	9203-9204	e	_	\[e	_	83-8	linguistic	none	_	_	_	*->2-1	*[2]
+84-10	9205-9207	si	_	si	_	83-9	linguistic	none	_	_	_	*->2-2	*[2]
+84-11	9208-9210	va	_	va\]	_	83-10	linguistic	none	_	_	_	*->2-3	*[2]
+84-12	9211-9217	avanti	_	avanti	_	83-11	linguistic	none	_	_	_	_	_
+84-13	9218-9220	eh	_	eh	_	83-12	linguistic	none	_	_	_	_	_
+
+#Text=certo
+85-1	9221-9226	certo	_	\[certo\]	TOR010	84-0	linguistic	none	_	_	_	*->2-4	*[2]
+
+#Text=ehm
+86-1	9227-9230	ehm	_	e::hm	TOR010	85-0	linguistic	none	0x2	_	_	_	_
+
+#Text=che consigli daresti ai più giovani per superare questo periodo di crisi
+87-1	9231-9234	che	_	che	TOR010	86-0	linguistic	none	_	_	_	_	_
+87-2	9235-9243	consigli	_	consigli	_	86-1	linguistic	none	_	_	_	_	_
+87-3	9244-9251	daresti	_	daresti	_	86-2	linguistic	none	_	_	_	_	_
+87-4	9252-9254	ai	_	ai	_	86-3	linguistic	none	_	_	_	_	_
+87-5	9255-9258	più	_	più	_	86-4	linguistic	none	_	_	_	_	_
+87-6	9259-9266	giovani	_	giovani	_	86-5	linguistic	none	_	_	_	_	_
+87-7	9267-9270	per	_	per	_	86-6	linguistic	none	_	_	_	_	_
+87-8	9271-9279	superare	_	superare	_	86-7	linguistic	none	_	_	_	_	_
+87-9	9280-9286	questo	_	questo	_	86-8	linguistic	none	_	_	_	_	_
+87-10	9287-9294	periodo	_	periodo	_	86-9	linguistic	none	_	_	_	_	_
+87-11	9295-9297	di	_	di	_	86-10	linguistic	none	_	_	_	_	_
+87-12	9298-9303	crisi	Rising	crisi?	_	86-11	linguistic	none	_	_	_	_	_
+
+#Text=non saprei che consigli dare
+88-1	9304-9307	non	_	non	TOI112	87-0	linguistic	none	_	_	_	_	_
+88-2	9308-9314	saprei	_	saprei	_	87-1	linguistic	none	_	_	_	_	_
+88-3	9315-9318	che	_	che	_	87-2	linguistic	none	_	_	_	_	_
+88-4	9319-9327	consigli	_	consigli	_	87-3	linguistic	none	_	_	_	_	_
+88-5	9328-9332	dare	_	dare	_	87-4	linguistic	none	_	_	_	_	_
+
+#Text=comunque ehm s~ sicuramente rimanere in un paese come villafranca (.) ehm (.) a fare ehm a svolgere un' attività (.) ci sono cioè ci sono degli spazi di certe attività però sono molto rischiose
+89-1	9333-9341	comunque	_	comunque::	TOI112	88-0	linguistic	none	7x2	_	_	_	_
+89-2	9342-9345	ehm	_	e::hm	_	88-1	linguistic	none	0x2	_	_	_	_
+89-3	9346-9348	s~	_	s~	_	88-2	linguistic	none	_	_	_	_	_
+89-4	9349-9360	sicuramente	_	sicuramente	_	88-3	linguistic	none	_	_	_	_	_
+89-5	9361-9369	rimanere	_	rimanere	_	88-4	linguistic	none	_	_	_	_	_
+89-6	9370-9372	in	_	in	_	88-5	linguistic	none	_	_	_	_	_
+89-7	9373-9375	un	_	un	_	88-6	linguistic	none	_	_	_	_	_
+89-8	9376-9381	paese	_	paese	_	88-7	linguistic	none	_	_	_	_	_
+89-9	9382-9386	come	_	come	_	88-8	linguistic	none	_	_	_	_	_
+89-10	9387-9398	villafranca	_	villafranca	_	88-9	linguistic	none	_	_	_	_	_
+89-11	9399-9402	(.)	_	(.)	_	88-10	shortpause	none	_	_	_	_	_
+89-12	9403-9406	ehm	_	e::hm	_	88-11	linguistic	none	0x2	_	_	_	_
+89-13	9407-9410	(.)	_	(.)	_	88-12	shortpause	none	_	_	_	_	_
+89-14	9411-9412	a	_	a	_	88-13	linguistic	none	_	_	_	_	_
+89-15	9413-9417	fare	_	fare	_	88-14	linguistic	none	_	_	_	_	_
+89-16	9418-9421	ehm	_	ehm	_	88-15	linguistic	none	_	_	_	_	_
+89-17	9422-9423	a	_	a	_	88-16	linguistic	none	_	_	_	_	_
+89-18	9424-9432	svolgere	_	svolgere	_	88-17	linguistic	none	_	_	_	_	_
+89-19	9433-9436	un'	_	un'	_	88-18	linguistic	none	_	_	_	_	_
+89-20	9437-9445	attività	_	attività	_	88-19	linguistic	none	_	_	_	_	_
+89-21	9446-9449	(.)	_	(.)	_	88-20	shortpause	none	_	_	_	_	_
+89-22	9450-9452	ci	_	ci	_	88-21	linguistic	none	_	_	_	_	_
+89-23	9453-9457	sono	_	sono	_	88-22	linguistic	none	_	_	_	_	_
+89-24	9458-9462	cioè	_	c(io)è	_	88-23	linguistic	none	_	_	_	_	_
+89-25	9463-9465	ci	_	ci	_	88-24	linguistic	none	_	_	_	_	_
+89-26	9466-9470	sono	_	sono	_	88-25	linguistic	none	_	_	_	_	_
+89-27	9471-9476	degli	_	degli	_	88-26	linguistic	none	_	_	_	_	_
+89-28	9477-9482	spazi	_	spazi	_	88-27	linguistic	none	_	_	_	_	_
+89-29	9483-9485	di	_	di	_	88-28	linguistic	none	_	_	_	_	_
+89-30	9486-9491	certe	_	certe	_	88-29	linguistic	none	_	_	_	_	_
+89-31	9492-9500	attività	_	attività	_	88-30	linguistic	none	_	_	_	_	_
+89-32	9501-9505	però	_	però	_	88-31	linguistic	none	_	_	_	_	_
+89-33	9506-9510	sono	_	sono	_	88-32	linguistic	none	_	_	_	_	_
+89-34	9511-9516	molto	_	molto	_	88-33	linguistic	none	_	_	_	_	_
+89-35	9517-9526	rischiose	_	rischiose	_	88-34	linguistic	none	_	_	_	_	_
+
+#Text=eh è molto difficile riuscire a a ingranare (.) e a a riuscire a lavorare quindi (.) quasi sicuramente secondo me la maggior parte dei giovani deve spostarsi
+90-1	9527-9529	eh	_	e:h	TOI112	89-0	linguistic	none	0x1	_	_	_	_
+90-2	9530-9531	è	_	è	_	89-1	linguistic	none	_	_	_	_	_
+90-3	9532-9537	molto	_	molto	_	89-2	linguistic	none	_	_	_	_	_
+90-4	9538-9547	difficile	_	difficile	_	89-3	linguistic	none	_	_	_	_	_
+90-5	9548-9556	riuscire	_	riuscire	_	89-4	linguistic	none	_	_	_	_	_
+90-6	9557-9558	a	_	a::	_	89-5	linguistic	none	0x2	_	_	_	_
+90-7	9559-9560	a	_	a	_	89-6	linguistic	none	_	_	_	_	_
+90-8	9561-9570	ingranare	_	ingranare	_	89-7	linguistic	none	_	_	_	_	_
+90-9	9571-9574	(.)	_	(.)	_	89-8	shortpause	none	_	_	_	_	_
+90-10	9575-9576	e	_	e	_	89-9	linguistic	none	_	_	_	_	_
+90-11	9577-9578	a	_	a	_	89-10	linguistic	none	_	_	_	_	_
+90-12	9579-9580	a	_	a	_	89-11	linguistic	none	_	_	_	_	_
+90-13	9581-9589	riuscire	_	riuscire	_	89-12	linguistic	none	_	_	_	_	_
+90-14	9590-9591	a	_	a	_	89-13	linguistic	none	_	_	_	_	_
+90-15	9592-9600	lavorare	_	lavorare	_	89-14	linguistic	none	_	_	_	_	_
+90-16	9601-9607	quindi	_	quindi	_	89-15	linguistic	none	_	_	_	_	_
+90-17	9608-9611	(.)	_	(.)	_	89-16	shortpause	none	_	_	_	_	_
+90-18	9612-9617	quasi	_	quasi	_	89-17	linguistic	none	_	_	_	_	_
+90-19	9618-9629	sicuramente	_	sicuramente::	_	89-18	linguistic	none	10x2	_	_	_	_
+90-20	9630-9637	secondo	_	secondo	_	89-19	linguistic	none	_	_	_	_	_
+90-21	9638-9640	me	_	me	_	89-20	linguistic	none	_	_	_	_	_
+90-22	9641-9643	la	_	la	_	89-21	linguistic	none	_	_	_	_	_
+90-23	9644-9651	maggior	_	maggior	_	89-22	linguistic	none	_	_	_	_	_
+90-24	9652-9657	parte	_	parte	_	89-23	linguistic	none	_	_	_	_	_
+90-25	9658-9661	dei	_	dei	_	89-24	linguistic	none	_	_	_	_	_
+90-26	9662-9669	giovani	_	giovani	_	89-25	linguistic	none	_	_	_	_	_
+90-27	9670-9674	deve	_	deve	_	89-26	linguistic	none	_	_	_	_	_
+90-28	9675-9684	spostarsi	_	spostarsi	_	89-27	linguistic	none	_	_	_	_	_
+
+#Text=ehm o se no anche nell' ambito dell' agricoltura riuscire a avere un' azienda che ti ti mantenga un tenore di vita normale non è facile perché comunque i guadagni sono pochi eh e i costi molto alti
+91-1	9685-9688	ehm	_	ehm	TOI112	90-0	linguistic	none	_	_	_	_	_
+91-2	9689-9690	o	_	o	_	90-1	linguistic	none	_	_	_	_	_
+91-3	9691-9693	se	_	se	_	90-2	linguistic	none	_	_	_	_	_
+91-4	9694-9696	no	_	no	_	90-3	linguistic	none	_	_	_	_	_
+91-5	9697-9702	anche	_	anche	_	90-4	linguistic	none	_	_	_	_	_
+91-6	9703-9708	nell'	_	nell'	_	90-5	linguistic	none	_	_	_	_	_
+91-7	9709-9715	ambito	_	ambito	_	90-6	linguistic	none	_	_	_	_	_
+91-8	9716-9721	dell'	_	dell'	_	90-7	linguistic	none	_	_	_	_	_
+91-9	9722-9733	agricoltura	_	agricoltura	_	90-8	linguistic	none	_	_	_	_	_
+91-10	9734-9742	riuscire	_	riuscire	_	90-9	linguistic	none	_	_	_	_	_
+91-11	9743-9744	a	_	a	_	90-10	linguistic	none	_	_	_	_	_
+91-12	9745-9750	avere	_	avere	_	90-11	linguistic	none	_	_	_	_	_
+91-13	9751-9754	un'	_	un'	_	90-12	linguistic	none	_	_	_	_	_
+91-14	9755-9762	azienda	_	azienda	_	90-13	linguistic	none	_	_	_	_	_
+91-15	9763-9766	che	_	che	_	90-14	linguistic	none	_	_	_	_	_
+91-16	9767-9769	ti	_	ti	_	90-15	linguistic	none	_	_	_	_	_
+91-17	9770-9772	ti	_	ti	_	90-16	linguistic	none	_	_	_	_	_
+91-18	9773-9781	mantenga	_	mantenga	_	90-17	linguistic	none	_	_	_	_	_
+91-19	9782-9784	un	_	un	_	90-18	linguistic	none	_	_	_	_	_
+91-20	9785-9791	tenore	_	tenore	_	90-19	linguistic	none	_	_	_	_	_
+91-21	9792-9794	di	_	di	_	90-20	linguistic	none	_	_	_	_	_
+91-22	9795-9799	vita	_	vita	_	90-21	linguistic	none	_	_	_	_	_
+91-23	9800-9807	normale	_	normale	_	90-22	linguistic	none	_	_	_	_	_
+91-24	9808-9811	non	_	non	_	90-23	linguistic	none	_	_	_	_	_
+91-25	9812-9813	è	_	è	_	90-24	linguistic	none	_	_	_	_	_
+91-26	9814-9820	facile	_	facile	_	90-25	linguistic	none	_	_	_	_	_
+91-27	9821-9827	perché	_	perché	_	90-26	linguistic	none	_	_	_	_	_
+91-28	9828-9836	comunque	_	comunque	_	90-27	linguistic	none	_	_	_	_	_
+91-29	9837-9838	i	_	i	_	90-28	linguistic	none	_	_	_	_	_
+91-30	9839-9847	guadagni	_	guadagni	_	90-29	linguistic	none	_	_	_	_	_
+91-31	9848-9852	sono	_	sono	_	90-30	linguistic	none	_	_	_	_	_
+91-32	9853-9858	pochi	_	pochi	_	90-31	linguistic	none	_	_	_	_	_
+91-33	9859-9861	eh	_	e::h	_	90-32	linguistic	none	0x2	_	_	_	_
+91-34	9862-9863	e	_	e	_	90-33	linguistic	none	_	_	_	_	_
+91-35	9864-9865	i	_	i	_	90-34	linguistic	none	_	_	_	_	_
+91-36	9866-9871	costi	_	costi	_	90-35	linguistic	none	_	_	_	_	_
+91-37	9872-9877	molto	_	molto	_	90-36	linguistic	none	_	_	_	_	_
+91-38	9878-9882	alti	_	alti	_	90-37	linguistic	none	_	_	_	_	_
+
+#Text=e poi c' è sempre il problema di trovare i terreni da lavorare per cui acquistarli è è impossibile affittarli gli affitti sono cari non non poi non i terreni in affitto praticamente non sono p~ non sono remunerativi in un' azienda perché gli affitti sono troppo cari
+92-1	9883-9884	e	_	e	TOI112	91-0	linguistic	none	_	_	_	_	_
+92-2	9885-9888	poi	_	poi	_	91-1	linguistic	none	_	_	_	_	_
+92-3	9889-9891	c'	_	c'	_	91-2	linguistic	none	_	_	_	_	_
+92-4	9892-9893	è	_	è	_	91-3	linguistic	none	_	_	_	_	_
+92-5	9894-9900	sempre	_	sempre	_	91-4	linguistic	none	_	_	_	_	_
+92-6	9901-9903	il	_	il	_	91-5	linguistic	none	_	_	_	_	_
+92-7	9904-9912	problema	_	problema	_	91-6	linguistic	none	_	_	_	_	_
+92-8	9913-9915	di	_	di::	_	91-7	linguistic	none	1x2	_	_	_	_
+92-9	9916-9923	trovare	_	trovare	_	91-8	linguistic	none	_	_	_	_	_
+92-10	9924-9925	i	_	i	_	91-9	linguistic	none	_	_	_	_	_
+92-11	9926-9933	terreni	_	terreni	_	91-10	linguistic	none	_	_	_	_	_
+92-12	9934-9936	da	_	da	_	91-11	linguistic	none	_	_	_	_	_
+92-13	9937-9945	lavorare	_	lavorare	_	91-12	linguistic	none	_	_	_	_	_
+92-14	9946-9949	per	_	per	_	91-13	linguistic	none	_	_	_	_	_
+92-15	9950-9953	cui	_	cui	_	91-14	linguistic	none	_	_	_	_	_
+92-16	9954-9965	acquistarli	_	acquistarli	_	91-15	linguistic	none	_	_	_	_	_
+92-17	9966-9967	è	_	è::	_	91-16	linguistic	none	0x2	_	_	_	_
+92-18	9968-9969	è	_	è	_	91-17	linguistic	none	_	_	_	_	_
+92-19	9970-9981	impossibile	_	impossibile	_	91-18	linguistic	none	_	_	_	_	_
+92-20	9982-9992	affittarli	_	affittarli	_	91-19	linguistic	none	_	_	_	_	_
+92-21	9993-9996	gli	_	gli	_	91-20	linguistic	none	_	_	_	_	_
+92-22	9997-10004	affitti	_	affitti	_	91-21	linguistic	none	_	_	_	_	_
+92-23	10005-10009	sono	_	sono	_	91-22	linguistic	none	_	_	_	_	_
+92-24	10010-10014	cari	_	cari	_	91-23	linguistic	none	_	_	_	_	_
+92-25	10015-10018	non	_	non	_	91-24	linguistic	none	_	_	_	_	_
+92-26	10019-10022	non	_	non	_	91-25	linguistic	none	_	_	_	_	_
+92-27	10023-10026	poi	_	poi	_	91-26	linguistic	none	_	_	_	_	_
+92-28	10027-10030	non	_	non	_	91-27	linguistic	none	_	_	_	_	_
+92-29	10031-10032	i	_	i	_	91-28	linguistic	none	_	_	_	_	_
+92-30	10033-10040	terreni	_	terreni	_	91-29	linguistic	none	_	_	_	_	_
+92-31	10041-10043	in	_	in	_	91-30	linguistic	none	_	_	_	_	_
+92-32	10044-10051	affitto	_	affitto	_	91-31	linguistic	none	_	_	_	_	_
+92-33	10052-10064	praticamente	_	praticamente	_	91-32	linguistic	none	_	_	_	_	_
+92-34	10065-10068	non	_	non	_	91-33	linguistic	none	_	_	_	_	_
+92-35	10069-10073	sono	_	sono	_	91-34	linguistic	none	_	_	_	_	_
+92-36	10074-10076	p~	_	p~	_	91-35	linguistic	none	_	_	_	_	_
+92-37	10077-10080	non	_	non	_	91-36	linguistic	none	_	_	_	_	_
+92-38	10081-10085	sono	_	sono	_	91-37	linguistic	none	_	_	_	_	_
+92-39	10086-10098	remunerativi	_	remunerativi	_	91-38	linguistic	none	_	_	_	_	_
+92-40	10099-10101	in	_	in	_	91-39	linguistic	none	_	_	_	_	_
+92-41	10102-10105	un'	_	un'	_	91-40	linguistic	none	_	_	_	_	_
+92-42	10106-10113	azienda	_	azienda	_	91-41	linguistic	none	_	_	_	_	_
+92-43	10114-10120	perché	_	perché	_	91-42	linguistic	none	_	_	_	_	_
+92-44	10121-10124	gli	_	gli	_	91-43	linguistic	none	_	_	_	_	_
+92-45	10125-10132	affitti	_	affitti	_	91-44	linguistic	none	_	_	_	_	_
+92-46	10133-10137	sono	_	sono	_	91-45	linguistic	none	_	_	_	_	_
+92-47	10138-10144	troppo	_	troppo	_	91-46	linguistic	none	_	_	_	_	_
+92-48	10145-10149	cari	_	cari	_	91-47	linguistic	none	_	_	_	_	_
+
+#Text=e per le coltivazioni intensive
+93-1	10150-10151	e	_	e::	TOI112	92-0	linguistic	none	0x2	_	_	_	_
+93-2	10152-10155	per	_	per	_	92-1	linguistic	none	_	_	_	_	_
+93-3	10156-10158	le	_	le	_	92-2	linguistic	none	_	_	_	_	_
+93-4	10159-10171	coltivazioni	_	coltivazioni::	_	92-3	linguistic	none	11x2	_	_	_	_
+93-5	10172-10181	intensive	_	intensive	_	92-4	linguistic	none	_	_	_	_	_
+
+#Text=per gli altri tipo di contivazioni villafranca non è una realtà adatta a coltivazioni (.) ehm tipo mh
+94-1	10182-10185	per	_	per	TOI112	93-0	linguistic	none	_	_	_	_	_
+94-2	10186-10189	gli	_	gli	_	93-1	linguistic	none	_	_	_	_	_
+94-3	10190-10195	altri	_	altri	_	93-2	linguistic	none	_	_	_	_	_
+94-4	10196-10200	tipo	_	tipo	_	93-3	linguistic	none	_	_	_	_	_
+94-5	10201-10203	di	_	di	_	93-4	linguistic	none	_	_	_	_	_
+94-6	10204-10216	contivazioni	_	contivazioni::	_	93-5	linguistic	none	11x2	_	_	_	_
+94-7	10217-10228	villafranca	_	villafranca	_	93-6	linguistic	none	_	_	_	_	_
+94-8	10229-10232	non	_	non	_	93-7	linguistic	none	_	_	_	_	_
+94-9	10233-10234	è	_	è	_	93-8	linguistic	none	_	_	_	_	_
+94-10	10235-10238	una	_	una	_	93-9	linguistic	none	_	_	_	_	_
+94-11	10239-10245	realtà	_	realtà	_	93-10	linguistic	none	_	_	_	_	_
+94-12	10246-10252	adatta	_	adatta:	_	93-11	linguistic	none	5x1	_	_	_	_
+94-13	10253-10254	a	_	a	_	93-12	linguistic	none	_	_	_	_	_
+94-14	10255-10267	coltivazioni	_	coltivazioni	_	93-13	linguistic	none	_	_	_	_	_
+94-15	10268-10271	(.)	_	(.)	_	93-14	shortpause	none	_	_	_	_	_
+94-16	10272-10275	ehm	_	ehm	_	93-15	linguistic	none	_	_	_	_	_
+94-17	10276-10280	tipo	_	tipo:	_	93-16	linguistic	none	3x1	_	_	_	_
+94-18	10281-10283	mh	_	m:h	_	93-17	linguistic	none	0x1	_	_	_	_
+
+#Text=ehm
+95-1	10284-10287	ehm	_	e:hm	TOI112	94-0	linguistic	none	0x1	_	_	_	_
+
+#Text=come si dice estensi~
+96-1	10288-10292	come	_	come	TOI112	95-0	linguistic	none	_	_	_	_	_
+96-2	10293-10295	si	_	si	_	95-1	linguistic	none	_	_	_	_	_
+96-3	10296-10300	dice	Rising	dice?	_	95-2	linguistic	none	_	_	_	_	_
+96-4	10301-10309	estensi~	_	estensi~	_	95-3	linguistic	none	_	_	_	_	_
+
+#Text=ta~
+97-1	10310-10313	ta~	_	ta~	TOR010	96-0	linguistic	none	_	_	_	_	_
+
+#Text=eh
+98-1	10314-10316	eh	_	eh	TOR010	97-0	linguistic	none	_	_	_	_	_
+
+#Text=c~ coltivazioni
+99-1	10317-10319	c~	_	c~	TOI112	98-0	linguistic	none	_	_	_	_	_
+99-2	10320-10332	coltivazioni	_	coltivazioni::	_	98-1	linguistic	none	11x2	_	_	_	_
+
+#Text=mh che possono essere non lo so mh
+100-1	10333-10335	mh	_	m:::h	TOI112	99-0	linguistic	none	0x3	_	_	_	_
+100-2	10336-10339	che	_	che	_	99-1	linguistic	none	_	_	_	_	_
+100-3	10340-10347	possono	_	possono	_	99-2	linguistic	none	_	_	_	_	_
+100-4	10348-10354	essere	_	essere::	_	99-3	linguistic	none	5x2	_	_	_	_
+100-5	10355-10358	non	_	non	_	99-4	linguistic	none	_	_	_	_	_
+100-6	10359-10361	lo	_	lo	_	99-5	linguistic	none	_	_	_	_	_
+100-7	10362-10364	so	_	so	_	99-6	linguistic	none	_	_	_	_	_
+100-8	10365-10367	mh	_	mh	_	99-7	linguistic	none	_	_	_	_	_
+
+#Text=non è adatta quindi non non vedo molti sbocchi (.) almeno in questa zona
+101-1	10368-10371	non	_	non	TOI112	100-0	linguistic	none	_	_	_	_	_
+101-2	10372-10373	è	_	è	_	100-1	linguistic	none	_	_	_	_	_
+101-3	10374-10380	adatta	_	adatta	_	100-2	linguistic	none	_	_	_	_	_
+101-4	10381-10387	quindi	_	quindi	_	100-3	linguistic	none	_	_	_	_	_
+101-5	10388-10391	non	_	no::n	_	100-4	linguistic	none	1x2	_	_	_	_
+101-6	10392-10395	non	_	non	_	100-5	linguistic	none	_	_	_	_	_
+101-7	10396-10400	vedo	_	vedo::	_	100-6	linguistic	none	3x2	_	_	_	_
+101-8	10401-10406	molti	_	molti	_	100-7	linguistic	none	_	_	_	_	_
+101-9	10407-10414	sbocchi	_	sbocchi:	_	100-8	linguistic	none	6x1	_	_	_	_
+101-10	10415-10418	(.)	_	(.)	_	100-9	shortpause	none	_	_	_	_	_
+101-11	10419-10425	almeno	_	almeno	_	100-10	linguistic	none	_	_	_	_	_
+101-12	10426-10428	in	_	in	_	100-11	linguistic	none	_	_	_	_	_
+101-13	10429-10435	questa	_	questa	_	100-12	linguistic	none	_	_	_	_	_
+101-14	10436-10440	zona	_	zona	_	100-13	linguistic	none	_	_	_	_	_
+
+#Text=anche nell' ambito turistico non è una zona (.) vocata cioè per carità (.) ci sono (.) è una zona che facendo cinquanta chilometri (.) c~ ci sono molte cose da vedere però ci sono altri posti molto più vicini (.) molto più mh comodi quindi più vocati per (.) mh
+102-1	10441-10446	anche	_	anche	TOI112	101-0	linguistic	none	_	_	_	_	_
+102-2	10447-10452	nell'	_	nell'	_	101-1	linguistic	none	_	_	_	_	_
+102-3	10453-10459	ambito	_	ambito	_	101-2	linguistic	none	_	_	_	_	_
+102-4	10460-10469	turistico	_	turistico	_	101-3	linguistic	none	_	_	_	_	_
+102-5	10470-10473	non	_	non	_	101-4	linguistic	none	_	_	_	_	_
+102-6	10474-10475	è	_	è	_	101-5	linguistic	none	_	_	_	_	_
+102-7	10476-10479	una	_	una	_	101-6	linguistic	none	_	_	_	_	_
+102-8	10480-10484	zona	_	zona::	_	101-7	linguistic	none	3x2	_	_	_	_
+102-9	10485-10488	(.)	_	(.)	_	101-8	shortpause	none	_	_	_	_	_
+102-10	10489-10495	vocata	_	vocata	_	101-9	linguistic	none	_	_	_	_	_
+102-11	10496-10500	cioè	_	c(io)è	_	101-10	linguistic	none	_	_	_	_	_
+102-12	10501-10504	per	_	per	_	101-11	linguistic	none	_	_	_	_	_
+102-13	10505-10511	carità	_	carità::	_	101-12	linguistic	none	5x2	_	_	_	_
+102-14	10512-10515	(.)	_	(.)	_	101-13	shortpause	none	_	_	_	_	_
+102-15	10516-10518	ci	_	ci	_	101-14	linguistic	none	_	_	_	_	_
+102-16	10519-10523	sono	_	sono	_	101-15	linguistic	none	_	_	_	_	_
+102-17	10524-10527	(.)	_	(.)	_	101-16	shortpause	none	_	_	_	_	_
+102-18	10528-10529	è	_	è	_	101-17	linguistic	none	_	_	_	_	_
+102-19	10530-10533	una	_	una	_	101-18	linguistic	none	_	_	_	_	_
+102-20	10534-10538	zona	_	zona	_	101-19	linguistic	none	_	_	_	_	_
+102-21	10539-10542	che	_	che	_	101-20	linguistic	none	_	_	_	_	_
+102-22	10543-10550	facendo	_	facendo::	_	101-21	linguistic	none	6x2	_	_	_	_
+102-23	10551-10560	cinquanta	_	cinquanta	_	101-22	linguistic	none	_	_	_	_	_
+102-24	10561-10571	chilometri	_	chilometri	_	101-23	linguistic	none	_	_	_	_	_
+102-25	10572-10575	(.)	_	(.)	_	101-24	shortpause	none	_	_	_	_	_
+102-26	10576-10578	c~	_	c~	_	101-25	linguistic	none	_	_	_	_	_
+102-27	10579-10581	ci	_	ci	_	101-26	linguistic	none	_	_	_	_	_
+102-28	10582-10586	sono	_	sono	_	101-27	linguistic	none	_	_	_	_	_
+102-29	10587-10592	molte	_	molte	_	101-28	linguistic	none	_	_	_	_	_
+102-30	10593-10597	cose	_	cose	_	101-29	linguistic	none	_	_	_	_	_
+102-31	10598-10600	da	_	da	_	101-30	linguistic	none	_	_	_	_	_
+102-32	10601-10607	vedere	_	vedere::	_	101-31	linguistic	none	5x2	_	_	_	_
+102-33	10608-10612	però	_	però	_	101-32	linguistic	none	_	_	_	_	_
+102-34	10613-10615	ci	_	ci	_	101-33	linguistic	none	_	_	_	_	_
+102-35	10616-10620	sono	_	sono	_	101-34	linguistic	none	_	_	_	_	_
+102-36	10621-10626	altri	_	altri	_	101-35	linguistic	none	_	_	_	_	_
+102-37	10627-10632	posti	_	posti	_	101-36	linguistic	none	_	_	_	_	_
+102-38	10633-10638	molto	_	molto	_	101-37	linguistic	none	_	_	_	_	_
+102-39	10639-10642	più	_	più	_	101-38	linguistic	none	_	_	_	_	_
+102-40	10643-10649	vicini	_	vicini	_	101-39	linguistic	none	_	_	_	_	_
+102-41	10650-10653	(.)	_	(.)	_	101-40	shortpause	none	_	_	_	_	_
+102-42	10654-10659	molto	_	molto	_	101-41	linguistic	none	_	_	_	_	_
+102-43	10660-10663	più	_	più::	_	101-42	linguistic	none	2x2	_	_	_	_
+102-44	10664-10666	mh	_	m:h	_	101-43	linguistic	none	0x1	_	_	_	_
+102-45	10667-10673	comodi	_	comodi	_	101-44	linguistic	none	_	_	_	_	_
+102-46	10674-10680	quindi	_	quindi	_	101-45	linguistic	none	_	_	_	_	_
+102-47	10681-10684	più	_	più	_	101-46	linguistic	none	_	_	_	_	_
+102-48	10685-10691	vocati	_	vocati	_	101-47	linguistic	none	_	_	_	_	_
+102-49	10692-10695	per	_	per	_	101-48	linguistic	none	_	_	_	_	_
+102-50	10696-10699	(.)	_	(.)	_	101-49	shortpause	none	_	_	_	_	_
+102-51	10700-10702	mh	_	mh	_	101-50	linguistic	none	_	_	_	_	_
+
+#Text=okay
+103-1	10703-10707	okay	_	okay	TOR010	102-0	linguistic	none	_	_	_	_	_
+
+#Text=quindi andare via (.) è il consiglio
+104-1	10708-10714	quindi	_	quindi	TOR010	103-0	linguistic	none	_	_	_	_	_
+104-2	10715-10721	andare	_	andare	_	103-1	linguistic	none	_	_	_	_	_
+104-3	10722-10725	via	_	via	_	103-2	linguistic	none	_	_	_	_	_
+104-4	10726-10729	(.)	_	(.)	_	103-3	shortpause	none	_	_	_	_	_
+104-5	10730-10731	è	_	è	_	103-4	linguistic	none	_	_	_	_	_
+104-6	10732-10734	il	_	il	_	103-5	linguistic	none	_	_	_	_	_
+104-7	10735-10744	consiglio	_	consiglio	_	103-6	linguistic	none	_	_	_	_	_
+
+#Text=eh per i giovani
+105-1	10745-10747	eh	_	e::h	TOI112	104-0	linguistic	none	0x2	_	_	_	_
+105-2	10748-10751	per	_	per	_	104-1	linguistic	none	_	_	_	_	_
+105-3	10752-10753	i	_	i	_	104-2	linguistic	none	_	_	_	_	_
+105-4	10754-10761	giovani	_	giovani::	_	104-3	linguistic	none	6x2	_	_	_	_
+
+#Text=per i giovani mh cioè mh ci sono sempre (.) c' è qualche insediamento di giovani (.) però sono rari eh cioè una volta perché comunque i negozi chiudono mh aziende (.) ehm xxxxx industriali non esistono sono poche (.) eh non ci sono
+106-1	10762-10765	per	_	per	TOI112	105-0	linguistic	none	_	_	_	_	_
+106-2	10766-10767	i	_	i	_	105-1	linguistic	none	_	_	_	_	_
+106-3	10768-10775	giovani	_	giovani:::	_	105-2	linguistic	none	6x3	_	_	_	_
+106-4	10776-10778	mh	_	mh	_	105-3	linguistic	none	_	_	_	_	_
+106-5	10779-10783	cioè	_	c(io)è	_	105-4	linguistic	none	_	_	_	_	_
+106-6	10784-10786	mh	_	m:h	_	105-5	linguistic	none	0x1	_	_	_	_
+106-7	10787-10789	ci	_	ci	_	105-6	linguistic	none	_	_	_	_	_
+106-8	10790-10794	sono	_	sono	_	105-7	linguistic	none	_	_	_	_	_
+106-9	10795-10801	sempre	_	sempre::	_	105-8	linguistic	none	5x2	_	_	_	_
+106-10	10802-10805	(.)	_	(.)	_	105-9	shortpause	none	_	_	_	_	_
+106-11	10806-10808	c'	_	c'	_	105-10	linguistic	none	_	_	_	_	_
+106-12	10809-10810	è	_	è	_	105-11	linguistic	none	_	_	_	_	_
+106-13	10811-10818	qualche	_	qualche	_	105-12	linguistic	none	_	_	_	_	_
+106-14	10819-10831	insediamento	_	insediamento	_	105-13	linguistic	none	_	_	_	_	_
+106-15	10832-10834	di	_	di	_	105-14	linguistic	none	_	_	_	_	_
+106-16	10835-10842	giovani	_	giovani:	_	105-15	linguistic	none	6x1	_	_	_	_
+106-17	10843-10846	(.)	_	(.)	_	105-16	shortpause	none	_	_	_	_	_
+106-18	10847-10851	però	_	però	_	105-17	linguistic	none	_	_	_	_	_
+106-19	10852-10856	sono	_	sono	_	105-18	linguistic	none	_	_	_	_	_
+106-20	10857-10861	rari	_	rari	_	105-19	linguistic	none	_	_	_	_	_
+106-21	10862-10864	eh	_	eh	_	105-20	linguistic	none	_	_	_	_	_
+106-22	10865-10869	cioè	_	c(io)è	_	105-21	linguistic	none	_	_	_	_	_
+106-23	10870-10873	una	_	una	_	105-22	linguistic	none	_	_	_	_	_
+106-24	10874-10879	volta	_	volta	_	105-23	linguistic	none	_	_	_	_	_
+106-25	10880-10886	perché	_	perché	_	105-24	linguistic	none	_	_	_	_	_
+106-26	10887-10895	comunque	_	comunque	_	105-25	linguistic	none	_	_	_	_	_
+106-27	10896-10897	i	_	i	_	105-26	linguistic	none	_	_	_	_	_
+106-28	10898-10904	negozi	_	negozi	_	105-27	linguistic	none	_	_	_	_	_
+106-29	10905-10913	chiudono	_	chiudono::	_	105-28	linguistic	none	7x2	_	_	_	_
+106-30	10914-10916	mh	_	mh	_	105-29	linguistic	none	_	_	_	_	_
+106-31	10917-10924	aziende	_	aziende	_	105-30	linguistic	none	_	_	_	_	_
+106-32	10925-10928	(.)	_	(.)	_	105-31	shortpause	none	_	_	_	_	_
+106-33	10929-10932	ehm	_	e:hm	_	105-32	linguistic	none	0x1	_	_	_	_
+106-34	10933-10938	xxxxx	_	xxxxx	_	105-33	unknown	none	_	_	_	_	_
+106-35	10939-10950	industriali	_	industriali	_	105-34	linguistic	none	_	_	_	_	_
+106-36	10951-10954	non	_	non	_	105-35	linguistic	none	_	_	_	_	_
+106-37	10955-10963	esistono	_	esistono	_	105-36	linguistic	none	_	_	_	_	_
+106-38	10964-10968	sono	_	sono	_	105-37	linguistic	none	_	_	_	_	_
+106-39	10969-10974	poche	_	poche	_	105-38	linguistic	none	_	_	_	_	_
+106-40	10975-10978	(.)	_	(.)	_	105-39	shortpause	none	_	_	_	_	_
+106-41	10979-10981	eh	_	eh	_	105-40	linguistic	none	_	_	_	_	_
+106-42	10982-10985	non	_	non	_	105-41	linguistic	none	_	_	_	_	_
+106-43	10986-10988	ci	_	ci	_	105-42	linguistic	none	_	_	_	_	_
+106-44	10989-10993	sono	_	sono::	_	105-43	linguistic	none	3x2	_	_	_	_
+
+#Text=non è facile (.) mh
+107-1	10994-10997	non	_	non	TOI112	106-0	linguistic	none	_	_	_	_	_
+107-2	10998-10999	è	_	è	_	106-1	linguistic	none	_	_	_	_	_
+107-3	11000-11006	facile	_	facile	_	106-2	linguistic	none	_	_	_	_	_
+107-4	11007-11010	(.)	_	(.)	_	106-3	shortpause	none	_	_	_	_	_
+107-5	11011-11013	mh	_	mh	_	106-4	linguistic	none	_	_	_	_	_
+
+#Text=parli piemontese
+108-1	11014-11019	parli	_	parli	TOR010	107-0	linguistic	none	_	_	_	_	_
+108-2	11020-11030	piemontese	Rising	piemontese?	_	107-1	linguistic	none	_	_	_	_	_
+
+#Text=certo
+109-1	11031-11036	certo	_	certo	TOI112	108-0	linguistic	none	_	_	_	_	_
+
+#Text=preferisci parlare piemontese o italiano di solito
+110-1	11037-11047	preferisci	_	preferisci	TOR010	109-0	linguistic	none	_	_	_	_	_
+110-2	11048-11055	parlare	_	parlare:	_	109-1	linguistic	none	6x1	_	_	_	_
+110-3	11056-11066	piemontese	_	piemontese	_	109-2	linguistic	none	_	_	_	_	_
+110-4	11067-11068	o	_	o	_	109-3	linguistic	none	_	_	_	_	_
+110-5	11069-11077	italiano	_	italiano	_	109-4	linguistic	none	_	_	_	_	_
+110-6	11078-11080	di	_	di	_	109-5	linguistic	none	_	_	_	_	_
+110-7	11081-11087	solito	Rising	solito?	_	109-6	linguistic	none	_	_	_	_	_
+
+#Text=ma io mh generalmente parlo sempre piemontese
+111-1	11088-11090	ma	_	ma	TOI112	110-0	linguistic	none	_	_	_	_	_
+111-2	11091-11093	io	_	io	_	110-1	linguistic	none	_	_	_	_	_
+111-3	11094-11096	mh	_	mh	_	110-2	linguistic	none	_	_	_	_	_
+111-4	11097-11109	generalmente	_	generalmente	_	110-3	linguistic	none	_	_	_	_	_
+111-5	11110-11115	parlo	_	parlo	_	110-4	linguistic	none	_	_	_	_	_
+111-6	11116-11122	sempre	_	sempre	_	110-5	linguistic	none	_	_	_	_	_
+111-7	11123-11133	piemontese	_	piemontese	_	110-6	linguistic	none	_	_	_	_	_
+
+#Text=con l' italiano lo parlo con qualche difficoltà perché (.) perché comunque
+112-1	11134-11137	con	_	con	TOI112	111-0	linguistic	none	_	_	_	_	_
+112-2	11138-11140	l'	_	l'	_	111-1	linguistic	none	_	_	_	_	_
+112-3	11141-11149	italiano	_	italiano:	_	111-2	linguistic	none	7x1	_	_	_	_
+112-4	11150-11152	lo	_	lo	_	111-3	linguistic	none	_	_	_	_	_
+112-5	11153-11158	parlo	_	parlo	_	111-4	linguistic	none	_	_	_	_	_
+112-6	11159-11162	con	_	co:n	_	111-5	linguistic	none	1x1	_	_	_	_
+112-7	11163-11170	qualche	_	qualche	_	111-6	linguistic	none	_	_	_	_	_
+112-8	11171-11181	difficoltà	_	difficoltà	_	111-7	linguistic	none	_	_	_	_	_
+112-9	11182-11188	perché	_	perché	_	111-8	linguistic	none	_	_	_	_	_
+112-10	11189-11192	(.)	_	(.)	_	111-9	shortpause	none	_	_	_	_	_
+112-11	11193-11199	perché	_	perché	_	111-10	linguistic	none	_	_	_	_	_
+112-12	11200-11208	comunque	_	comunque::	_	111-11	linguistic	none	7x2	_	_	_	_
+
+#Text=parlando praticamente sempre in piemontese l' italiano (.) ehm (.) non sempre si usano dei termini (.) proprio corretti o
+113-1	11209-11217	parlando	_	parlando	TOI112	112-0	linguistic	none	_	_	_	_	_
+113-2	11218-11230	praticamente	_	praticamente	_	112-1	linguistic	none	_	_	_	_	_
+113-3	11231-11237	sempre	_	sempre	_	112-2	linguistic	none	_	_	_	_	_
+113-4	11238-11240	in	_	in	_	112-3	linguistic	none	_	_	_	_	_
+113-5	11241-11251	piemontese	_	piemontese	_	112-4	linguistic	none	_	_	_	_	_
+113-6	11252-11254	l'	_	l'	_	112-5	linguistic	none	_	_	_	_	_
+113-7	11255-11263	italiano	_	italiano:	_	112-6	linguistic	none	7x1	_	_	_	_
+113-8	11264-11267	(.)	_	(.)	_	112-7	shortpause	none	_	_	_	_	_
+113-9	11268-11271	ehm	_	e:hm	_	112-8	linguistic	none	0x1	_	_	_	_
+113-10	11272-11275	(.)	_	(.)	_	112-9	shortpause	none	_	_	_	_	_
+113-11	11276-11279	non	_	non	_	112-10	linguistic	none	_	_	_	_	_
+113-12	11280-11286	sempre	_	sempre	_	112-11	linguistic	none	_	_	_	_	_
+113-13	11287-11289	si	_	si	_	112-12	linguistic	none	_	_	_	_	_
+113-14	11290-11295	usano	_	usano	_	112-13	linguistic	none	_	_	_	_	_
+113-15	11296-11299	dei	_	dei	_	112-14	linguistic	none	_	_	_	_	_
+113-16	11300-11307	termini	_	termini::	_	112-15	linguistic	none	6x2	_	_	_	_
+113-17	11308-11311	(.)	_	(.)	_	112-16	shortpause	none	_	_	_	_	_
+113-18	11312-11319	proprio	_	proprio	_	112-17	linguistic	none	_	_	_	_	_
+113-19	11320-11328	corretti	_	corretti	_	112-18	linguistic	none	_	_	_	_	_
+113-20	11329-11330	o	_	o::	_	112-19	linguistic	none	0x2	_	_	_	_
+
+#Text=ti dispiace che i giovani parlino meno in piemontese
+114-1	11331-11333	ti	_	ti	TOR010	113-0	linguistic	none	_	_	_	_	_
+114-2	11334-11342	dispiace	_	dispiace	_	113-1	linguistic	none	_	_	_	_	_
+114-3	11343-11346	che	_	che	_	113-2	linguistic	none	_	_	_	_	_
+114-4	11347-11348	i	_	i	_	113-3	linguistic	none	_	_	_	_	_
+114-5	11349-11356	giovani	_	giovani	_	113-4	linguistic	none	_	_	_	_	_
+114-6	11357-11364	parlino	_	parlino	_	113-5	linguistic	none	_	_	_	_	_
+114-7	11365-11369	meno	_	meno:	_	113-6	linguistic	none	3x1	_	_	_	_
+114-8	11370-11372	in	_	in	_	113-7	linguistic	none	_	_	_	_	_
+114-9	11373-11383	piemontese	Rising	piemontese?	_	113-8	linguistic	none	_	_	_	_	_
+
+#Text=mah no mh io cioè mi fa piacere che parlino piemontese perché comunque non va a perdersi una una (.) cioè un dialetto che che c' è sempre stato dalle nostre zone fa piacere io a me è successo di lavorare a volte in torino nelle zone di mh della crocetta dove senti proprio la gente parlare piemontese
+115-1	11384-11387	mah	_	mah	TOI112	114-0	linguistic	none	_	_	_	_	_
+115-2	11388-11390	no	_	no	_	114-1	linguistic	none	_	_	_	_	_
+115-3	11391-11393	mh	_	mh	_	114-2	linguistic	none	_	_	_	_	_
+115-4	11394-11396	io	_	io	_	114-3	linguistic	none	_	_	_	_	_
+115-5	11397-11401	cioè	_	c(io)è	_	114-4	linguistic	none	_	_	_	_	_
+115-6	11402-11404	mi	_	mi	_	114-5	linguistic	none	_	_	_	_	_
+115-7	11405-11407	fa	_	fa	_	114-6	linguistic	none	_	_	_	_	_
+115-8	11408-11415	piacere	_	piacere	_	114-7	linguistic	none	_	_	_	_	_
+115-9	11416-11419	che	_	che	_	114-8	linguistic	none	_	_	_	_	_
+115-10	11420-11427	parlino	_	parlino	_	114-9	linguistic	none	_	_	_	_	_
+115-11	11428-11438	piemontese	_	piemontese	_	114-10	linguistic	none	_	_	_	_	_
+115-12	11439-11445	perché	_	perché	_	114-11	linguistic	none	_	_	_	_	_
+115-13	11446-11454	comunque	_	comunque	_	114-12	linguistic	none	_	_	_	_	_
+115-14	11455-11458	non	_	non	_	114-13	linguistic	none	_	_	_	_	_
+115-15	11459-11461	va	_	va	_	114-14	linguistic	none	_	_	_	_	_
+115-16	11462-11463	a	_	a	_	114-15	linguistic	none	_	_	_	_	_
+115-17	11464-11472	perdersi	_	perdersi	_	114-16	linguistic	none	_	_	_	_	_
+115-18	11473-11476	una	_	una:::	_	114-17	linguistic	none	2x3	_	_	_	_
+115-19	11477-11480	una	_	una	_	114-18	linguistic	none	_	_	_	_	_
+115-20	11481-11484	(.)	_	(.)	_	114-19	shortpause	none	_	_	_	_	_
+115-21	11485-11489	cioè	_	cioè	_	114-20	linguistic	none	_	_	_	_	_
+115-22	11490-11492	un	_	un	_	114-21	linguistic	none	_	_	_	_	_
+115-23	11493-11501	dialetto	_	dialetto	_	114-22	linguistic	none	_	_	_	_	_
+115-24	11502-11505	che	_	che:::	_	114-23	linguistic	none	2x3	_	_	_	_
+115-25	11506-11509	che	_	che	_	114-24	linguistic	none	_	_	_	_	_
+115-26	11510-11512	c'	_	c'	_	114-25	linguistic	none	_	_	_	_	_
+115-27	11513-11514	è	_	è	_	114-26	linguistic	none	_	_	_	_	_
+115-28	11515-11521	sempre	_	sempre	_	114-27	linguistic	none	_	_	_	_	_
+115-29	11522-11527	stato	_	stato	_	114-28	linguistic	none	_	_	_	_	_
+115-30	11528-11533	dalle	_	dalle	_	114-29	linguistic	none	_	_	_	_	_
+115-31	11534-11540	nostre	_	nostre	_	114-30	linguistic	none	_	_	_	_	_
+115-32	11541-11545	zone	_	zone	_	114-31	linguistic	none	_	_	_	_	_
+115-33	11546-11548	fa	_	fa	_	114-32	linguistic	none	_	_	_	_	_
+115-34	11549-11556	piacere	_	piacere	_	114-33	linguistic	none	_	_	_	_	_
+115-35	11557-11559	io	_	io	_	114-34	linguistic	none	_	_	_	_	_
+115-36	11560-11561	a	_	a	_	114-35	linguistic	none	_	_	_	_	_
+115-37	11562-11564	me	_	me	_	114-36	linguistic	none	_	_	_	_	_
+115-38	11565-11566	è	_	è	_	114-37	linguistic	none	_	_	_	_	_
+115-39	11567-11575	successo	_	successo	_	114-38	linguistic	none	_	_	_	_	_
+115-40	11576-11578	di	_	di	_	114-39	linguistic	none	_	_	_	_	_
+115-41	11579-11587	lavorare	_	lavorare	_	114-40	linguistic	none	_	_	_	_	_
+115-42	11588-11589	a	_	a	_	114-41	linguistic	none	_	_	_	_	_
+115-43	11590-11595	volte	_	volte	_	114-42	linguistic	none	_	_	_	_	_
+115-44	11596-11598	in	_	i:n	_	114-43	linguistic	none	0x1	_	_	_	_
+115-45	11599-11605	torino	_	torino	_	114-44	linguistic	none	_	_	_	_	_
+115-46	11606-11611	nelle	_	nelle	_	114-45	linguistic	none	_	_	_	_	_
+115-47	11612-11616	zone	_	zone	_	114-46	linguistic	none	_	_	_	_	_
+115-48	11617-11619	di	_	di:::	_	114-47	linguistic	none	1x3	_	_	_	_
+115-49	11620-11622	mh	_	m:h	_	114-48	linguistic	none	0x1	_	_	_	_
+115-50	11623-11628	della	_	della	_	114-49	linguistic	none	_	_	_	_	_
+115-51	11629-11637	crocetta	_	crocetta	_	114-50	linguistic	none	_	_	_	_	_
+115-52	11638-11642	dove	_	dove	_	114-51	linguistic	none	_	_	_	_	_
+115-53	11643-11648	senti	_	senti	_	114-52	linguistic	none	_	_	_	_	_
+115-54	11649-11656	proprio	_	proprio	_	114-53	linguistic	none	_	_	_	_	_
+115-55	11657-11659	la	_	la	_	114-54	linguistic	none	_	_	_	_	_
+115-56	11660-11665	gente	_	gente	_	114-55	linguistic	none	_	_	_	_	_
+115-57	11666-11673	parlare	_	parlare	_	114-56	linguistic	none	_	_	_	_	_
+115-58	11674-11684	piemontese	_	piemontese	_	114-57	linguistic	none	_	_	_	_	_
+
+#Text=questo mi fa piacere perché c' è ancora gente che parla piemontese che (.) che è radicata che non perde queste abitudini
+116-1	11685-11691	questo	_	questo	TOI112	115-0	linguistic	none	_	_	_	_	_
+116-2	11692-11694	mi	_	mi	_	115-1	linguistic	none	_	_	_	_	_
+116-3	11695-11697	fa	_	fa	_	115-2	linguistic	none	_	_	_	_	_
+116-4	11698-11705	piacere	_	piacere	_	115-3	linguistic	none	_	_	_	_	_
+116-5	11706-11712	perché	_	perché:	_	115-4	linguistic	none	5x1	_	_	_	_
+116-6	11713-11715	c'	_	c'	_	115-5	linguistic	none	_	_	_	_	_
+116-7	11716-11717	è	_	è	_	115-6	linguistic	none	_	_	_	_	_
+116-8	11718-11724	ancora	_	ancora	_	115-7	linguistic	none	_	_	_	_	_
+116-9	11725-11730	gente	_	gente	_	115-8	linguistic	none	_	_	_	_	_
+116-10	11731-11734	che	_	che	_	115-9	linguistic	none	_	_	_	_	_
+116-11	11735-11740	parla	_	parla	_	115-10	linguistic	none	_	_	_	_	_
+116-12	11741-11751	piemontese	_	piemontese	_	115-11	linguistic	none	_	_	_	_	_
+116-13	11752-11755	che	_	che	_	115-12	linguistic	none	_	_	_	_	_
+116-14	11756-11759	(.)	_	(.)	_	115-13	shortpause	none	_	_	_	_	_
+116-15	11760-11763	che	_	che	_	115-14	linguistic	none	_	_	_	_	_
+116-16	11764-11765	è	_	è	_	115-15	linguistic	none	_	_	_	_	_
+116-17	11766-11774	radicata	_	radicata::	_	115-16	linguistic	none	7x2	_	_	_	_
+116-18	11775-11778	che	_	che	_	115-17	linguistic	none	_	_	_	_	_
+116-19	11779-11782	non	_	non	_	115-18	linguistic	none	_	_	_	_	_
+116-20	11783-11788	perde	_	perde	_	115-19	linguistic	none	_	_	_	_	_
+116-21	11789-11795	queste	_	queste	_	115-20	linguistic	none	_	_	_	_	_
+116-22	11796-11805	abitudini	_	abitudini	_	115-21	linguistic	none	_	_	_	_	_
+
+#Text=okay finita l' intervista sì io ho finito le domande
+117-1	11806-11810	okay	_	okay	TOR010	116-0	linguistic	none	_	_	_	_	_
+117-2	11811-11817	finita	_	finita	_	116-1	linguistic	none	_	_	_	_	_
+117-3	11818-11820	l'	_	l'	_	116-2	linguistic	none	_	_	_	_	_
+117-4	11821-11831	intervista	_	inter\[vista\]	_	116-3	linguistic	none	_	_	_	_	_
+117-4.1	11826-11831	vista	_	_	_	_	_	_	_	_	_	*->3-1	*[3]
+117-5	11832-11834	sì	_	sì	_	116-4	linguistic	none	_	_	_	_	_
+117-6	11835-11837	io	_	io	_	116-5	linguistic	none	_	_	_	_	_
+117-7	11838-11840	ho	_	ho	_	116-6	linguistic	none	_	_	_	_	_
+117-8	11841-11847	finito	_	finito	_	116-7	linguistic	none	_	_	_	_	_
+117-9	11848-11850	le	_	le	_	116-8	linguistic	none	_	_	_	_	_
+117-10	11851-11858	domande	_	domande	_	116-9	linguistic	none	_	_	_	_	_
+
+#Text=finita
+118-1	11859-11865	finita	Rising	\[finita\]?	TOI112	117-0	linguistic	none	_	_	_	*->3-2	*[3]

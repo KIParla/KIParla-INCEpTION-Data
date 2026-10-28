@@ -1,0 +1,3185 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_SP=webanno.custom.Type|Type_values
+#T_SP=webanno.custom.code_variation|code_variation_values
+#T_SP=webanno.custom.Prolongation|Prolongation_values
+#T_SP=webanno.custom.Pace|Pace_values
+#T_SP=webanno.custom.Guesses|Guesses_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=((è_unica_lombarda_le_altre_due_sono_di_perugia))
+1-1	0-49	((è_unica_lombarda_le_altre_due_sono_di_perugia))	_	((è_unica_lombarda_le_altre_due_sono_di_perugia))	TO085	0-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=((è_la_persona_più_vicina_al_microfono))
+2-1	50-90	((è_la_persona_più_vicina_al_microfono))	_	((è_la_persona_più_vicina_al_microfono))	TO095	1-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=cioè come se fosse la vostra città
+3-1	91-95	cioè	_	cioè	TO095	2-0	linguistic	none	_	_	_	_	_
+3-2	96-100	come	_	come	_	2-1	linguistic	none	_	_	_	_	_
+3-3	101-103	se	_	se	_	2-2	linguistic	none	_	_	_	_	_
+3-4	104-109	fosse	_	fosse	_	2-3	linguistic	none	_	_	_	_	_
+3-5	110-112	la	_	la	_	2-4	linguistic	none	_	_	_	_	_
+3-6	113-119	vostra	_	vostra	_	2-5	linguistic	none	_	_	_	_	_
+3-7	120-125	città	WeaklyRising	città,	_	2-6	linguistic	none	_	_	_	_	_
+
+#Text=quindi conoscete la gente andate in giro salutate la gente cazzo bello
+4-1	126-132	quindi	_	quindi	TO095	3-0	linguistic	none	_	_	_	_	_
+4-2	133-142	conoscete	_	conoscete	_	3-1	linguistic	none	_	_	_	_	_
+4-3	143-145	la	_	la	_	3-2	linguistic	none	_	_	_	_	_
+4-4	146-151	gente	WeaklyRising	gente,	_	3-3	linguistic	none	_	_	_	_	_
+4-5	152-158	andate	_	andate	_	3-4	linguistic	none	_	_	_	_	_
+4-6	159-161	in	_	in	_	3-5	linguistic	none	_	_	_	_	_
+4-7	162-166	giro	WeaklyRising	giro,	_	3-6	linguistic	none	_	_	_	_	_
+4-8	167-175	salutate	_	salutate	_	3-7	linguistic	none	_	_	_	_	_
+4-9	176-178	la	_	la	_	3-8	linguistic	none	_	_	_	_	_
+4-10	179-184	gente	WeaklyRising	gente,	_	3-9	linguistic	none	_	_	_	_	_
+4-11	185-190	cazzo	_	cazzo	_	3-10	linguistic	none	_	_	_	_	_
+4-12	191-196	bello	_	bello	_	3-11	linguistic	none	_	_	_	_	_
+
+#Text=vabbè che poi a perugia è diverso
+5-1	197-202	vabbè	_	vabbè	TO091	4-0	linguistic	none	_	_	_	_	_
+5-2	203-206	che	_	che	_	4-1	linguistic	none	_	_	_	_	_
+5-3	207-210	poi	_	poi	_	4-2	linguistic	none	_	_	_	_	_
+5-4	211-212	a	_	a	_	4-3	linguistic	none	_	_	_	_	_
+5-5	213-220	perugia	_	perugia	_	4-4	linguistic	none	_	_	_	_	_
+5-6	221-222	è	_	è	_	4-5	linguistic	none	_	_	_	_	_
+5-7	223-230	diverso	WeaklyRising	diverso,	_	4-6	linguistic	none	_	_	_	_	_
+
+#Text=perché comunque
+6-1	231-237	perché	_	perché	TO091	5-0	linguistic	none	_	_	_	_	_
+6-2	238-246	comunque	WeaklyRising	comunque::,	_	5-1	linguistic	none	7x2	_	_	_	_
+
+#Text=vabbè però metti che comunque esci conosci la gente ed è il tuo posto no
+7-1	247-252	vabbè	WeaklyRising	vabbè,	TO095	6-0	linguistic	none	_	_	_	_	_
+7-2	253-257	però	_	però	_	6-1	linguistic	none	_	_	_	_	_
+7-3	258-263	metti	_	metti	_	6-2	linguistic	none	_	_	_	_	_
+7-4	264-267	che	_	che	_	6-3	linguistic	none	_	_	_	_	_
+7-5	268-276	comunque	_	comunque	_	6-4	linguistic	none	_	_	_	_	_
+7-6	277-281	esci	WeaklyRising	esci,	_	6-5	linguistic	none	_	_	_	_	_
+7-7	282-289	conosci	_	conosci	_	6-6	linguistic	none	_	_	_	_	_
+7-8	290-292	la	_	la	_	6-7	linguistic	none	_	_	_	_	_
+7-9	293-298	gente	WeaklyRising	gente,	_	6-8	linguistic	none	_	_	_	_	_
+7-10	299-301	ed	_	(ed	_	6-9	linguistic	none	_	_	0-2(0)	_	_
+7-11	302-303	è	_	è	_	6-10	linguistic	none	_	_	0-1(0)	_	_
+7-12	304-306	il	_	il)	_	6-11	linguistic	none	_	_	0-2(0)	_	_
+7-13	307-310	tuo	_	tuo	_	6-12	linguistic	none	_	_	_	_	_
+7-14	311-316	posto	_	posto	_	6-13	linguistic	none	_	_	_	_	_
+7-15	317-319	no	Rising	no?	_	6-14	linguistic	none	_	_	_	_	_
+
+#Text=cioè
+8-1	320-324	cioè	_	c(io)è	TO095	7-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+9-1	325-327	sì	Falling	sì.	TO091	8-0	linguistic	none	_	_	_	_	_
+
+#Text=e lei se mette a fa' la cogliona con una che si scopava prima di te
+10-1	328-329	e	_	e	TO095	9-0	linguistic	none	_	_	_	_	_
+10-2	330-333	lei	_	lei	_	9-1	linguistic	none	_	_	_	_	_
+10-3	334-336	se	_	se	_	9-2	linguistic	none	_	_	_	_	_
+10-4	337-342	mette	_	mette	_	9-3	linguistic	none	_	_	_	_	_
+10-5	343-344	a	_	a	_	9-4	linguistic	none	_	_	_	_	_
+10-6	345-348	fa'	_	fa'	_	9-5	linguistic	none	_	_	_	_	_
+10-7	349-351	la	_	la	_	9-6	linguistic	none	_	_	_	_	_
+10-8	352-360	cogliona	_	co(gl)iona	_	9-7	linguistic	none	_	_	2-4(0)	_	_
+10-9	361-364	con	_	con	_	9-8	linguistic	none	_	_	_	_	_
+10-10	365-368	una	_	una	_	9-9	linguistic	none	_	_	_	_	_
+10-11	369-372	che	_	che	_	9-10	linguistic	none	_	_	_	_	_
+10-12	373-375	si	_	si	_	9-11	linguistic	none	_	_	_	_	_
+10-13	376-383	scopava	_	scopava	_	9-12	linguistic	none	_	_	_	_	_
+10-14	384-389	prima	_	prima	_	9-13	linguistic	none	_	_	_	_	_
+10-15	390-392	di	_	di	_	9-14	linguistic	none	_	_	_	_	_
+10-16	393-395	te	Falling	te.	_	9-15	linguistic	none	_	_	_	_	_
+
+#Text=ali
+11-1	396-399	ali	WeaklyRising	ali,	TO085	10-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+12-1	400-402	sì	Falling	sì.	TO095	11-0	linguistic	none	_	_	_	_	_
+
+#Text=okay
+13-1	403-407	okay	_	ok\[ay\]	TO085	12-0	linguistic	none	_	_	_	_	_
+13-1.1	405-407	ay	_	_	_	_	_	_	_	_	_	*->2-1	*[2]
+
+#Text=però poi viene a dormire con te e scopa con te
+14-1	408-412	però	_	\[però\]	TO095	13-0	linguistic	none	_	_	_	*->2-2	*[2]
+14-2	413-416	poi	_	poi	_	13-1	linguistic	none	_	_	_	_	_
+14-3	417-422	viene	_	viene	_	13-2	linguistic	none	_	_	_	_	_
+14-4	423-424	a	_	a	_	13-3	linguistic	none	_	_	_	_	_
+14-5	425-432	dormire	_	dormire	_	13-4	linguistic	none	_	_	_	_	_
+14-6	433-436	con	_	con	_	13-5	linguistic	none	_	_	_	_	_
+14-7	437-439	te	WeaklyRising	te,	_	13-6	linguistic	none	_	_	_	_	_
+14-8	440-441	e	_	e	_	13-7	linguistic	none	_	_	_	_	_
+14-9	442-447	scopa	_	scopa	_	13-8	linguistic	none	_	_	_	_	_
+14-10	448-451	con	_	con	_	13-9	linguistic	none	_	_	_	_	_
+14-11	452-454	te	Falling	te.	_	13-10	linguistic	none	_	_	_	_	_
+
+#Text=sì
+15-1	455-457	sì	Falling	sì.	TO085	14-0	linguistic	none	_	_	_	_	_
+
+#Text=cioè (.) con tutto il bene nel mondo
+16-1	458-462	cioè	WeaklyRising	c(io)è,	TO095	15-0	linguistic	none	_	_	_	_	_
+16-2	463-466	(.)	_	(.)	_	15-1	shortpause	none	_	_	_	_	_
+16-3	467-470	con	_	con	_	15-2	linguistic	none	_	_	_	_	_
+16-4	471-476	tutto	_	tutto	_	15-3	linguistic	none	_	_	_	_	_
+16-5	477-479	il	_	il	_	15-4	linguistic	none	_	_	_	_	_
+16-6	480-484	bene	_	bene	_	15-5	linguistic	none	_	_	_	_	_
+16-7	485-488	nel	_	nel	_	15-6	linguistic	none	_	_	_	_	_
+16-8	489-494	mondo	WeaklyRising	mondo,	_	15-7	linguistic	none	_	_	_	_	_
+
+#Text=poi magari la mattina dopo te svegli tranquilla e beata sapendo che anche che che lei si scopa altra gente
+17-1	495-498	poi	_	poi	TO095	16-0	linguistic	none	_	_	_	_	_
+17-2	499-505	magari	_	magari	_	16-1	linguistic	none	_	_	_	_	_
+17-3	506-508	la	_	la	_	16-2	linguistic	none	_	_	_	_	_
+17-4	509-516	mattina	_	mattina	_	16-3	linguistic	none	_	_	_	_	_
+17-5	517-521	dopo	_	dopo	_	16-4	linguistic	none	_	_	_	_	_
+17-6	522-524	te	_	te	_	16-5	linguistic	none	_	_	_	_	_
+17-7	525-531	svegli	_	svegli	_	16-6	linguistic	none	_	_	_	_	_
+17-8	532-542	tranquilla	_	tranquilla	_	16-7	linguistic	none	_	_	_	_	_
+17-9	543-544	e	_	e	_	16-8	linguistic	none	_	_	_	_	_
+17-10	545-550	beata	_	beata	_	16-9	linguistic	none	_	_	_	_	_
+17-11	551-558	sapendo	_	sapendo	_	16-10	linguistic	none	_	_	_	_	_
+17-12	559-562	che	_	che	_	16-11	linguistic	none	_	_	_	_	_
+17-13	563-568	anche	_	anche	_	16-12	linguistic	none	_	_	_	_	_
+17-14	569-572	che	_	che	_	16-13	linguistic	none	_	_	_	_	_
+17-15	573-576	che	_	che	_	16-14	linguistic	none	_	_	_	_	_
+17-16	577-580	lei	_	lei	_	16-15	linguistic	none	_	_	_	_	_
+17-17	581-583	si	_	si	_	16-16	linguistic	none	_	_	_	_	_
+17-18	584-589	scopa	_	scopa	_	16-17	linguistic	none	_	_	_	_	_
+17-19	590-595	altra	_	altra	_	16-18	linguistic	none	_	_	_	_	_
+17-20	596-601	gente	Falling	gente.	_	16-19	linguistic	none	_	_	_	_	_
+
+#Text=ma in quel momento
+18-1	602-604	ma	_	ma	TO095	17-0	linguistic	none	_	_	_	_	_
+18-2	605-607	in	_	in	_	17-1	linguistic	none	_	_	_	_	_
+18-3	608-612	quel	_	quel	_	17-2	linguistic	none	_	_	_	_	_
+18-4	613-620	momento	WeaklyRising	momento,	_	17-3	linguistic	none	_	_	_	_	_
+
+#Text=t' incazzi
+19-1	621-623	t'	_	t'	TO085	18-0	linguistic	none	_	_	_	_	_
+19-2	624-631	incazzi	_	(incazzi	_	18-1	linguistic	none	_	_	_	_	_
+
+#Text=porco due
+20-1	632-637	porco	_	porco	TO095	19-0	linguistic	none	_	_	_	_	_
+20-2	638-641	due	_	\[due\]	_	19-1	linguistic	none	_	_	_	*->4-1	*[4]
+
+#Text=io l' ho fatto
+21-1	642-644	io	_	\[io\]	TO085	20-0	linguistic	none	_	_	_	*->4-2	*[4]
+21-2	645-647	l'	_	l'	_	20-1	linguistic	none	_	_	_	_	_
+21-3	648-650	ho	_	ho	_	20-2	linguistic	none	_	_	_	_	_
+21-4	651-656	fatto	_	fatto	_	20-3	linguistic	none	_	_	_	_	_
+
+#Text=cioè
+22-1	657-661	cioè	_	cioè	TO085	21-0	linguistic	none	_	_	_	_	_
+
+#Text=ma io non ho capito poi ch' è successo
+23-1	662-664	ma	_	ma	TO091	22-0	linguistic	none	_	_	_	_	_
+23-2	665-667	io	_	io	_	22-1	linguistic	none	_	_	_	_	_
+23-3	668-671	non	_	non	_	22-2	linguistic	none	_	_	_	_	_
+23-4	672-674	ho	_	ho	_	22-3	linguistic	none	_	_	_	_	_
+23-5	675-681	capito	_	capito	_	22-4	linguistic	none	_	_	_	_	_
+23-6	682-685	poi	_	poi	_	22-5	linguistic	none	_	_	_	_	_
+23-7	686-689	ch'	_	ch'	_	22-6	linguistic	none	_	_	_	_	_
+23-8	690-691	è	_	è	_	22-7	linguistic	none	_	_	_	_	_
+23-9	692-700	successo	WeaklyRising	successo,	_	22-8	linguistic	none	_	_	_	_	_
+
+#Text=ma per~ ma tu c' hai provato con uno
+24-1	701-703	ma	_	ma	TO085	23-0	linguistic	none	_	_	_	_	_
+24-2	704-708	per~	_	per~	_	23-1	linguistic	none	_	_	_	_	_
+24-3	709-711	ma	_	ma	_	23-2	linguistic	none	_	_	_	_	_
+24-4	712-714	tu	_	tu	_	23-3	linguistic	none	_	_	_	_	_
+24-5	715-717	c'	_	c'	_	23-4	linguistic	none	_	_	_	_	_
+24-6	718-721	hai	_	hai	_	23-5	linguistic	none	_	_	_	_	_
+24-7	722-729	provato	_	provato	_	23-6	linguistic	none	_	_	_	_	_
+24-8	730-733	con	_	con	_	23-7	linguistic	none	_	_	_	_	_
+24-9	734-737	uno	WeaklyRising	uno,	_	23-8	linguistic	none	_	_	_	_	_
+
+#Text=no
+25-1	738-740	no	_	n\[o::\]	TO095	24-0	linguistic	none	1x2	_	_	_	_
+25-1.1	739-740	o	_	_	_	_	_	_	_	_	_	*->5-1	*[5]
+
+#Text=no uno c' ha provato con te
+26-1	741-743	no	WeaklyRising	\[no,	TO085	25-0	linguistic	none	_	_	_	_	_
+26-2	744-747	uno	_	uno	_	25-1	linguistic	none	_	_	_	_	_
+26-3	748-750	c'	_	c'	_	25-2	linguistic	none	_	_	_	_	_
+26-4	751-753	ha	_	ha	_	25-3	linguistic	none	_	_	_	_	_
+26-5	754-761	provato	_	provato	_	25-4	linguistic	none	_	_	_	_	_
+26-6	762-765	con	_	con	_	25-5	linguistic	none	_	_	_	_	_
+26-7	766-768	te	_	te\]	_	25-6	linguistic	none	_	_	_	_	_
+
+#Text=no io quello lì che io scopavo
+27-1	769-771	no	_	\[no	TO095	26-0	linguistic	none	_	_	_	*->91-1	*[91]
+27-2	772-774	io	WeaklyRising	io,	_	26-1	linguistic	none	_	_	_	*->91-2	*[91]
+27-3	775-781	quello	_	quello	_	26-2	linguistic	none	_	_	_	*->91-3	*[91]
+27-4	782-784	lì	_	lì	_	26-3	linguistic	none	_	_	_	*->91-4	*[91]
+27-5	785-788	che	_	che	_	26-4	linguistic	none	_	_	_	*->91-5	*[91]
+27-6	789-791	io	_	io	_	26-5	linguistic	none	_	_	_	*->91-6	*[91]
+27-7	792-799	scopavo	WeaklyRising	scopavo\],	_	26-6	linguistic	none	_	_	_	*->91-7	*[91]
+
+#Text=no no non sono io
+28-1	800-802	no	_	\[no	TO091	27-0	linguistic	none	_	_	_	*->91-8	*[91]
+28-2	803-805	no	_	no	_	27-1	linguistic	none	_	_	_	*->91-9	*[91]
+28-3	806-809	non	_	non	_	27-2	linguistic	none	_	_	_	*->91-10	*[91]
+28-4	810-814	sono	_	sono	_	27-3	linguistic	none	_	_	_	*->91-11	*[91]
+28-5	815-817	io	_	io\]	_	27-4	linguistic	none	_	_	_	*->91-12	*[91]
+
+#Text=ah non sei tu l' altra tipa
+29-1	818-820	ah	_	a::h	TO085	28-0	linguistic	none	0x2	_	_	_	_
+29-2	821-824	non	_	non	_	28-1	linguistic	none	_	_	_	_	_
+29-3	825-828	sei	_	sei	_	28-2	linguistic	none	_	_	_	_	_
+29-4	829-831	tu	_	tu	_	28-3	linguistic	none	_	_	_	_	_
+29-5	832-834	l'	_	\[l'	_	28-4	linguistic	none	_	_	_	*->92-1	*[92]
+29-6	835-840	altra	_	altra	_	28-5	linguistic	none	_	_	_	*->92-2	*[92]
+29-7	841-845	tipa	WeaklyRising	tipa\],	_	28-6	linguistic	none	_	_	_	*->92-3	*[92]
+
+#Text=no no io io
+30-1	846-848	no	_	\[no	TO095	29-0	linguistic	none	_	_	_	_	_
+30-2	849-851	no	WeaklyRising	no,	_	29-1	linguistic	none	_	_	_	_	_
+30-3	852-854	io	_	io	_	29-2	linguistic	none	_	_	_	_	_
+30-4	855-857	io	_	io\]	_	29-3	linguistic	none	_	_	_	_	_
+
+#Text=no no
+31-1	858-860	no	_	\[no	TO091	30-0	linguistic	none	_	_	_	*->92-4	*[92]
+31-2	861-863	no	_	no\]	_	30-1	linguistic	none	_	_	_	*->92-5	*[92]
+
+#Text=ah
+32-1	864-866	ah	_	\[a::h\]	TO085	31-0	linguistic	none	0x2	_	_	*->6-1	*[6]
+
+#Text=no le scenate di gelo~ lei me veniva da me adesso me incazzo
+33-1	867-869	no	WeaklyRising	no,	TO091	32-0	linguistic	none	_	_	_	_	_
+33-2	870-872	le	_	le	_	32-1	linguistic	none	_	_	_	_	_
+33-3	873-880	scenate	_	scenate	_	32-2	linguistic	none	_	_	_	_	_
+33-4	881-883	di	_	di	_	32-3	linguistic	none	_	_	_	_	_
+33-5	884-889	gelo~	WeaklyRising	gelo~,	_	32-4	linguistic	none	_	_	_	_	_
+33-6	890-893	lei	_	lei	_	32-5	linguistic	none	_	_	_	_	_
+33-7	894-896	me	_	me	_	32-6	linguistic	none	_	_	_	_	_
+33-8	897-903	veniva	_	veniva	_	32-7	linguistic	none	_	_	_	_	_
+33-9	904-906	da	_	da	_	32-8	linguistic	none	_	_	_	_	_
+33-10	907-909	me	WeaklyRising	me,	_	32-9	linguistic	none	_	_	_	_	_
+33-11	910-916	adesso	_	adesso	_	32-10	linguistic	none	_	_	_	_	_
+33-12	917-919	me	_	me	_	32-11	linguistic	none	_	_	_	_	_
+33-13	920-927	incazzo	WeaklyRising	incazzo,	_	32-12	linguistic	none	_	_	_	_	_
+
+#Text=eh ma porca troia ma scusa ma tanto
+34-1	928-930	eh	_	eh	TO095	33-0	linguistic	none	_	_	_	_	_
+34-2	931-933	ma	_	ma	_	33-1	linguistic	none	_	_	_	_	_
+34-3	934-939	porca	_	porca	_	33-2	linguistic	none	_	_	_	_	_
+34-4	940-945	troia	WeaklyRising	troia,	_	33-3	linguistic	none	_	_	_	_	_
+34-5	946-948	ma	_	ma	_	33-4	linguistic	none	_	_	_	_	_
+34-6	949-954	scusa	WeaklyRising	scusa,	_	33-5	linguistic	none	_	_	_	_	_
+34-7	955-957	ma	_	\[ma	_	33-6	linguistic	none	_	_	_	*->7-1	*[7]
+34-8	958-963	tanto	_	tanto\]	_	33-7	linguistic	none	_	_	_	*->7-2	*[7]
+
+#Text=no hai ragione
+35-1	964-966	no	WeaklyRising	\[no:\],	TO085	34-0	linguistic	none	1x1	_	_	*->7-3	*[7]
+35-2	967-970	hai	_	hai	_	34-1	linguistic	none	_	_	_	_	_
+35-3	971-978	ragione	Falling	ragione.	_	34-2	linguistic	none	_	_	_	_	_
+
+#Text=cioè ma che cazzo fai
+36-1	979-983	cioè	WeaklyRising	c(io)è,	TO095	35-0	linguistic	none	_	_	_	_	_
+36-2	984-986	ma	_	ma	_	35-1	linguistic	none	_	_	_	_	_
+36-3	987-990	che	_	che	_	35-2	linguistic	none	_	_	_	_	_
+36-4	991-996	cazzo	_	cazzo	_	35-3	linguistic	none	_	_	_	_	_
+36-5	997-1000	fai	WeaklyRising	fai,	_	35-4	linguistic	none	_	_	_	_	_
+
+#Text=hai ragione
+37-1	1001-1004	hai	_	\[hai	TO085	36-0	linguistic	none	_	_	_	*->8-1	*[8]
+37-2	1005-1012	ragione	_	ragione\]	_	36-1	linguistic	none	_	_	_	*->8-2	*[8]
+
+#Text=io adesso
+38-1	1013-1015	io	_	\[io	TO095	37-0	linguistic	none	_	_	_	*->8-3	*[8]
+38-2	1016-1022	adesso	_	adesso\]	_	37-1	linguistic	none	_	_	_	*->8-4	*[8]
+
+#Text=io non ho capito un cazzo
+39-1	1023-1025	io	_	io	TO091	38-0	linguistic	none	_	_	_	_	_
+39-2	1026-1029	non	_	non	_	38-1	linguistic	none	_	_	_	_	_
+39-3	1030-1032	ho	_	ho	_	38-2	linguistic	none	_	_	_	_	_
+39-4	1033-1039	capito	_	capito	_	38-3	linguistic	none	_	_	_	_	_
+39-5	1040-1042	un	_	\[un	_	38-4	linguistic	none	_	_	_	*->9-1	*[9]
+39-6	1043-1048	cazzo	WeaklyRising	cazzo\],	_	38-5	linguistic	none	_	_	_	*->9-2	*[9]
+
+#Text=allora praticamente pri~
+40-1	1049-1055	allora	WeaklyRising	\[allora\],	TO095	39-0	linguistic	none	_	_	_	*->9-3	*[9]
+40-2	1056-1068	praticamente	WeaklyRising	praticamente,	_	39-1	linguistic	none	_	_	_	_	_
+40-3	1069-1073	pri~	_	pri~	_	39-2	linguistic	none	_	_	_	_	_
+
+#Text=proprio il giorno prima che
+41-1	1074-1081	proprio	_	proprio	TO095	40-0	linguistic	none	_	_	_	_	_
+41-2	1082-1084	il	_	il	_	40-1	linguistic	none	_	_	_	_	_
+41-3	1085-1091	giorno	_	\[giorno	_	40-2	linguistic	none	_	_	_	*->10-1	*[10]
+41-4	1092-1097	prima	_	prima	_	40-3	linguistic	none	_	_	_	*->10-2	*[10]
+41-5	1098-1101	che	WeaklyRising	che::\],	_	40-4	linguistic	none	2x2	_	_	*->10-3	*[10]
+
+#Text=mi metto in mezzo per favore
+42-1	1102-1104	mi	_	\[mi	TO085	41-0	linguistic	none	_	_	_	*->10-4	*[10]
+42-2	1105-1110	metto	_	metto	_	41-1	linguistic	none	_	_	_	*->10-5	*[10]
+42-3	1111-1113	in	_	in	_	41-2	linguistic	none	_	_	_	*->10-6	*[10]
+42-4	1114-1119	mezzo	_	mezzo	_	41-3	linguistic	none	_	_	_	*->10-7	*[10]
+42-5	1120-1123	per	_	per	_	41-4	linguistic	none	_	_	_	*->10-8	*[10]
+42-6	1124-1130	favore	_	favore\]	_	41-5	linguistic	none	_	_	_	*->10-9	*[10]
+
+#Text=il giorno prima che io arrivassi ma anche 'na settimana prima lui se vedeva con questa
+43-1	1131-1133	il	_	il	TO095	42-0	linguistic	none	_	_	_	_	_
+43-2	1134-1140	giorno	_	giorno	_	42-1	linguistic	none	_	_	_	_	_
+43-3	1141-1146	prima	_	prima	_	42-2	linguistic	none	_	_	_	_	_
+43-4	1147-1150	che	_	che	_	42-3	linguistic	none	_	_	_	_	_
+43-5	1151-1153	io	_	io	_	42-4	linguistic	none	_	_	_	_	_
+43-6	1154-1163	arrivassi	WeaklyRising	arrivassi,	_	42-5	linguistic	none	_	_	_	_	_
+43-7	1164-1166	ma	_	ma	_	42-6	linguistic	none	_	_	_	_	_
+43-8	1167-1172	anche	_	anche	_	42-7	linguistic	none	_	_	_	_	_
+43-9	1173-1176	'na	_	'na	_	42-8	linguistic	none	_	_	_	_	_
+43-10	1177-1186	settimana	_	settimana	_	42-9	linguistic	none	_	_	_	_	_
+43-11	1187-1192	prima	WeaklyRising	prima,	_	42-10	linguistic	none	_	_	_	_	_
+43-12	1193-1196	lui	_	lui	_	42-11	linguistic	none	_	_	_	_	_
+43-13	1197-1199	se	_	se	_	42-12	linguistic	none	_	_	_	_	_
+43-14	1200-1206	vedeva	_	vedeva	_	42-13	linguistic	none	_	_	_	_	_
+43-15	1207-1210	con	_	con	_	42-14	linguistic	none	_	_	_	_	_
+43-16	1211-1217	questa	Falling	questa.	_	42-15	linguistic	none	_	_	_	_	_
+
+#Text=ma poi chi è
+44-1	1218-1220	ma	_	ma	TO091	43-0	linguistic	none	_	_	_	_	_
+44-2	1221-1224	poi	_	poi	_	43-1	linguistic	none	_	_	_	_	_
+44-3	1225-1228	chi	_	chi	_	43-2	linguistic	none	_	_	_	_	_
+44-4	1229-1230	è	Rising	è?	_	43-3	linguistic	none	_	_	_	_	_
+
+#Text=laura rossi se chiama
+45-1	1231-1236	laura	_	laura	TO095	44-0	linguistic	none	_	_	_	_	_
+45-2	1237-1242	rossi	_	rossi	_	44-1	linguistic	none	_	_	_	_	_
+45-3	1243-1245	se	_	se	_	44-2	linguistic	none	_	_	_	_	_
+45-4	1246-1252	chiama	_	chiama	_	44-3	linguistic	none	_	_	_	_	_
+
+#Text=e tutto lì vabbè sti cazzi ovvio c' è non me vedi da tre mesi
+46-1	1253-1254	e	_	e	TO095	45-0	linguistic	none	_	_	_	_	_
+46-2	1255-1260	tutto	_	tutto	_	45-1	linguistic	none	_	_	_	_	_
+46-3	1261-1263	lì	WeaklyRising	lì,	_	45-2	linguistic	none	_	_	_	_	_
+46-4	1264-1269	vabbè	_	vabbè	_	45-3	linguistic	none	_	_	_	_	_
+46-5	1270-1273	sti	_	sti	_	45-4	linguistic	none	_	_	_	_	_
+46-6	1274-1279	cazzi	WeaklyRising	cazzi,	_	45-5	linguistic	none	_	_	_	_	_
+46-7	1280-1285	ovvio	_	ovvio	_	45-6	linguistic	none	_	_	_	_	_
+46-8	1286-1288	c'	_	c'	_	45-7	linguistic	none	_	_	_	_	_
+46-9	1289-1290	è	WeaklyRising	è:,	_	45-8	linguistic	none	0x1	_	_	_	_
+46-10	1291-1294	non	_	non	_	45-9	linguistic	none	_	_	_	_	_
+46-11	1295-1297	me	_	me	_	45-10	linguistic	none	_	_	_	_	_
+46-12	1298-1302	vedi	_	vedi	_	45-11	linguistic	none	_	_	_	_	_
+46-13	1303-1305	da	_	da	_	45-12	linguistic	none	_	_	_	_	_
+46-14	1306-1309	tre	_	tre	_	45-13	linguistic	none	_	_	_	_	_
+46-15	1310-1314	mesi	WeaklyRising	mesi:,	_	45-14	linguistic	none	3x1	_	_	_	_
+
+#Text=no però quando ci sei
+47-1	1315-1317	no	_	no	TO085	46-0	linguistic	none	_	_	_	_	_
+47-2	1318-1322	però	_	però	_	46-1	linguistic	none	_	_	_	_	_
+47-3	1323-1329	quando	_	quando	_	46-2	linguistic	none	_	_	_	_	_
+47-4	1330-1332	ci	_	ci	_	46-3	linguistic	none	_	_	_	_	_
+47-5	1333-1336	sei	WeaklyRising	sei,	_	46-4	linguistic	none	_	_	_	_	_
+
+#Text=eh
+48-1	1337-1339	eh	_	E:H	TO095	47-0	linguistic	none	0x1	_	_	_	_
+
+#Text=dai evita
+49-1	1340-1343	dai	_	dai	TO085	48-0	linguistic	none	_	_	_	_	_
+49-2	1344-1349	evita	_	evita	_	48-1	linguistic	none	_	_	_	_	_
+
+#Text=ma perché non ho capito che te faceva
+50-1	1350-1352	ma	_	ma	TO091	49-0	linguistic	none	_	_	_	_	_
+50-2	1353-1359	perché	WeaklyRising	\[perché\],	_	49-1	linguistic	none	_	_	_	*->11-1	*[11]
+50-3	1360-1363	non	_	non	_	49-2	linguistic	none	_	_	_	_	_
+50-4	1364-1366	ho	_	ho	_	49-3	linguistic	none	_	_	_	_	_
+50-5	1367-1373	capito	_	capito	_	49-4	linguistic	none	_	_	_	_	_
+50-6	1374-1377	che	_	che	_	49-5	linguistic	none	_	_	_	_	_
+50-7	1378-1380	te	_	te	_	49-6	linguistic	none	_	_	_	_	_
+50-8	1381-1387	faceva	WeaklyRising	faceva,	_	49-7	linguistic	none	_	_	_	_	_
+
+#Text=no è vero
+51-1	1388-1390	no	_	\[no	TO085	50-0	linguistic	none	_	_	_	*->11-2	*[11]
+51-2	1391-1392	è	_	è	_	50-1	linguistic	none	_	_	_	*->11-3	*[11]
+51-3	1393-1397	vero	_	vero\]	_	50-2	linguistic	none	_	_	_	*->11-4	*[11]
+
+#Text=lo
+52-1	1398-1400	lo	_	lo	TO095	51-0	linguistic	none	_	_	_	_	_
+
+#Text=praticamente
+53-1	1401-1413	praticamente	WeaklyRising	praticamente,	TO095	52-0	linguistic	none	_	_	_	_	_
+
+#Text=io ho capito solo che avesse salutato sta frega e stava lì a amoreggiare con sta frega e a te te dava fastidio
+54-1	1414-1416	io	_	io	TO091	53-0	linguistic	none	_	_	_	_	_
+54-2	1417-1419	ho	_	ho	_	53-1	linguistic	none	_	_	_	_	_
+54-3	1420-1426	capito	_	capito	_	53-2	linguistic	none	_	_	_	_	_
+54-4	1427-1431	solo	_	solo	_	53-3	linguistic	none	_	_	_	_	_
+54-5	1432-1435	che	_	che	_	53-4	linguistic	none	_	_	_	_	_
+54-6	1436-1442	avesse	_	avesse	_	53-5	linguistic	none	_	_	_	_	_
+54-7	1443-1451	salutato	_	salutato	_	53-6	linguistic	none	_	_	_	_	_
+54-8	1452-1455	sta	_	sta	_	53-7	linguistic	none	_	_	_	_	_
+54-9	1456-1461	frega	WeaklyRising	frega,	_	53-8	linguistic	none	_	_	_	_	_
+54-10	1462-1463	e	_	e	_	53-9	linguistic	none	_	_	_	_	_
+54-11	1464-1469	stava	_	stava	_	53-10	linguistic	none	_	_	_	_	_
+54-12	1470-1472	lì	_	lì	_	53-11	linguistic	none	_	_	_	_	_
+54-13	1473-1474	a	_	a	_	53-12	linguistic	none	_	_	_	_	_
+54-14	1475-1486	amoreggiare	_	amoreggiare	_	53-13	linguistic	none	_	_	_	_	_
+54-15	1487-1490	con	_	con	_	53-14	linguistic	none	_	_	_	_	_
+54-16	1491-1494	sta	_	sta	_	53-15	linguistic	none	_	_	_	_	_
+54-17	1495-1500	frega	_	frega	_	53-16	linguistic	none	_	_	_	_	_
+54-18	1501-1502	e	_	e	_	53-17	linguistic	none	_	_	_	_	_
+54-19	1503-1504	a	_	a	_	53-18	linguistic	none	_	_	_	_	_
+54-20	1505-1507	te	_	te	_	53-19	linguistic	none	_	_	_	_	_
+54-21	1508-1510	te	_	te	_	53-20	linguistic	none	_	_	_	_	_
+54-22	1511-1515	dava	_	dava	_	53-21	linguistic	none	_	_	_	_	_
+54-23	1516-1524	fastidio	Falling	fastidio.	_	53-22	linguistic	none	_	_	_	_	_
+
+#Text=frega
+55-1	1525-1530	frega	Rising	frega?	TO095	54-0	linguistic	none	_	_	_	_	_
+
+#Text=carlo amoreggiava con questa
+56-1	1531-1536	carlo	_	carlo	TO091	55-0	linguistic	none	_	_	_	_	_
+56-2	1537-1548	amoreggiava	_	\[amoreggiava	_	55-1	linguistic	none	_	_	_	*->12-1	*[12]
+56-3	1549-1552	con	_	con	_	55-2	linguistic	none	_	_	_	*->12-2	*[12]
+56-4	1553-1559	questa	_	questa\]	_	55-3	linguistic	none	_	_	_	*->12-3	*[12]
+
+#Text=ah lui lui sì
+57-1	1560-1562	ah	_	\[a:::h	TO095	56-0	linguistic	none	0x3	_	_	*->12-4	*[12]
+57-2	1563-1566	lui	WeaklyRising	lui\],	_	56-1	linguistic	none	_	_	_	*->12-5	*[12]
+57-3	1567-1570	lui	_	lui	_	56-2	linguistic	none	_	_	_	_	_
+57-4	1571-1573	sì	Falling	sì.	_	56-3	linguistic	none	_	_	_	_	_
+
+#Text=eh praticam~
+58-1	1574-1576	eh	_	e:h	TO095	57-0	linguistic	none	0x1	_	_	_	_
+58-2	1577-1586	praticam~	_	praticam~	_	57-1	linguistic	none	_	_	_	_	_
+
+#Text=il primo giorno che so' arrivata
+59-1	1587-1589	il	_	il	TO095	58-0	linguistic	none	_	_	_	_	_
+59-2	1590-1595	primo	_	primo	_	58-1	linguistic	none	_	_	_	_	_
+59-3	1596-1602	giorno	_	giorno	_	58-2	linguistic	none	_	_	_	_	_
+59-4	1603-1606	che	_	che	_	58-3	linguistic	none	_	_	_	_	_
+59-5	1607-1610	so'	_	so'	_	58-4	linguistic	none	_	_	_	_	_
+59-6	1611-1619	arrivata	WeaklyRising	arrivata,	_	58-5	linguistic	none	_	_	_	_	_
+
+#Text=poi so' uscita in centro
+60-1	1620-1623	poi	_	poi	TO095	59-0	linguistic	none	_	_	_	_	_
+60-2	1624-1627	so'	_	so'	_	59-1	linguistic	none	_	_	_	_	_
+60-3	1628-1634	uscita	_	uscita	_	59-2	linguistic	none	_	_	_	_	_
+60-4	1635-1637	in	_	in	_	59-3	linguistic	none	_	_	_	_	_
+60-5	1638-1644	centro	WeaklyRising	centro,	_	59-4	linguistic	none	_	_	_	_	_
+
+#Text=e ho visto questa che esce col gruppo nostro e non sapevo chi cazzo fosse
+61-1	1645-1646	e	_	e	TO095	60-0	linguistic	none	_	_	_	_	_
+61-2	1647-1649	ho	_	ho	_	60-1	linguistic	none	_	_	_	_	_
+61-3	1650-1655	visto	_	visto	_	60-2	linguistic	none	_	_	_	_	_
+61-4	1656-1662	questa	_	questa	_	60-3	linguistic	none	_	_	_	_	_
+61-5	1663-1666	che	_	che	_	60-4	linguistic	none	_	_	_	_	_
+61-6	1667-1671	esce	_	esce	_	60-5	linguistic	none	_	_	_	_	_
+61-7	1672-1675	col	_	col	_	60-6	linguistic	none	_	_	_	_	_
+61-8	1676-1682	gruppo	_	gruppo	_	60-7	linguistic	none	_	_	_	_	_
+61-9	1683-1689	nostro	WeaklyRising	nostro,	_	60-8	linguistic	none	_	_	_	_	_
+61-10	1690-1691	e	_	e	_	60-9	linguistic	none	_	_	_	_	_
+61-11	1692-1695	non	_	non	_	60-10	linguistic	none	_	_	_	_	_
+61-12	1696-1702	sapevo	_	sapevo	_	60-11	linguistic	none	_	_	_	_	_
+61-13	1703-1706	chi	_	chi	_	60-12	linguistic	none	_	_	_	_	_
+61-14	1707-1712	cazzo	_	cazzo	_	60-13	linguistic	none	_	_	_	_	_
+61-15	1713-1718	fosse	_	fosse	_	60-14	linguistic	none	_	_	_	_	_
+
+#Text=dopo ho fatto due più due mh
+62-1	1719-1723	dopo	WeaklyRising	dopo,	TO095	61-0	linguistic	none	_	_	_	_	_
+62-2	1724-1726	ho	_	ho	_	61-1	linguistic	none	_	_	_	_	_
+62-3	1727-1732	fatto	_	fatto	_	61-2	linguistic	none	_	_	_	_	_
+62-4	1733-1736	due	_	due	_	61-3	linguistic	none	_	_	_	_	_
+62-5	1737-1740	più	_	più	_	61-4	linguistic	none	_	_	_	_	_
+62-6	1741-1744	due	WeaklyRising	\[due,	_	61-5	linguistic	none	_	_	_	*->13-1	*[13]
+62-7	1745-1747	mh	_	mh\]	_	61-6	linguistic	none	_	_	_	*->13-2	*[13]
+
+#Text=certo
+63-1	1748-1753	certo	_	\[certo\]	TO091	62-0	linguistic	none	_	_	_	*->13-3	*[13]
+
+#Text=e ho capito
+64-1	1754-1755	e	_	e	TO095	63-0	linguistic	none	_	_	_	_	_
+64-2	1756-1758	ho	_	ho	_	63-1	linguistic	none	_	_	_	_	_
+64-3	1759-1765	capito	Falling	capito.	_	63-2	linguistic	none	_	_	_	_	_
+
+#Text=perché lui ce tiene subi~ cioè
+65-1	1766-1772	perché	_	perché	TO095	64-0	linguistic	none	_	_	_	_	_
+65-2	1773-1776	lui	_	lui	_	64-1	linguistic	none	_	_	_	_	_
+65-3	1777-1779	ce	_	ce	_	64-2	linguistic	none	_	_	_	_	_
+65-4	1780-1785	tiene	_	tiene	_	64-3	linguistic	none	_	_	_	_	_
+65-5	1786-1791	subi~	WeaklyRising	subi~,	_	64-4	linguistic	none	_	_	_	_	_
+65-6	1792-1796	cioè	WeaklyRising	c(io)è,	_	64-5	linguistic	none	_	_	_	_	_
+
+#Text=quando m' ha rivisto c' ha tenuto subito a dirmi quanta gente s' è fatto e tutte ste cose vabbè
+66-1	1797-1803	quando	_	quando	TO095	65-0	linguistic	none	_	_	_	_	_
+66-2	1804-1806	m'	_	m'	_	65-1	linguistic	none	_	_	_	_	_
+66-3	1807-1809	ha	_	(ha	_	65-2	linguistic	none	_	_	_	_	_
+66-4	1810-1817	rivisto	_	rivisto	_	65-3	linguistic	none	_	_	_	_	_
+66-5	1818-1820	c'	_	c'	_	65-4	linguistic	none	_	_	_	_	_
+66-6	1821-1823	ha	_	ha	_	65-5	linguistic	none	_	_	_	_	_
+66-7	1824-1830	tenuto	_	tenuto	_	65-6	linguistic	none	_	_	_	_	_
+66-8	1831-1837	subito	_	subito	_	65-7	linguistic	none	_	_	_	_	_
+66-9	1838-1839	a	_	a	_	65-8	linguistic	none	_	_	_	_	_
+66-10	1840-1845	dirmi	_	dirmi	_	65-9	linguistic	none	_	_	_	_	_
+66-11	1846-1852	quanta	_	quanta	_	65-10	linguistic	none	_	_	_	_	_
+66-12	1853-1858	gente	_	gente	_	65-11	linguistic	none	_	_	_	_	_
+66-13	1859-1861	s'	_	s'	_	65-12	linguistic	none	_	_	_	_	_
+66-14	1862-1863	è	_	(è	_	65-13	linguistic	none	_	_	_	_	_
+66-15	1864-1869	fatto	WeaklyRising	\[fatto,	_	65-14	linguistic	none	_	_	_	*->14-1	*[14]
+66-16	1870-1871	e	_	e	_	65-15	linguistic	none	_	_	_	*->14-2	*[14]
+66-17	1872-1877	tutte	_	tutte	_	65-16	linguistic	none	_	_	_	*->14-3	*[14]
+66-18	1878-1881	ste	_	ste	_	65-17	linguistic	none	_	_	_	*->14-4	*[14]
+66-19	1882-1886	cose	WeaklyRising	cose\],	_	65-18	linguistic	none	_	_	_	*->14-5	*[14]
+66-20	1887-1892	vabbè	_	vabbè	_	65-19	linguistic	none	_	_	_	_	_
+
+#Text=u ti amo
+67-1	1893-1894	u	_	\[u::	TO091	66-0	linguistic	none	0x2	_	_	*->14-6	*[14]
+67-2	1895-1897	ti	_	ti	_	66-1	linguistic	none	_	_	_	*->14-7	*[14]
+67-3	1898-1901	amo	_	amo\]	_	66-2	linguistic	none	_	_	_	*->14-8	*[14]
+
+#Text=vabbè perch' è 'n cojone
+68-1	1902-1907	vabbè	_	vabbè	TO091	67-0	linguistic	none	_	_	_	_	_
+68-2	1908-1914	perch'	_	\[perch'	_	67-1	linguistic	none	_	_	_	*->15-1	*[15]
+68-3	1915-1916	è	_	è	_	67-2	linguistic	none	_	_	_	*->15-2	*[15]
+68-4	1917-1919	'n	_	'n	_	67-3	linguistic	none	_	_	_	*->15-3	*[15]
+68-5	1920-1926	cojone	_	cojone\]	_	67-4	linguistic	none	_	_	_	*->15-4	*[15]
+
+#Text=c~ pensando che me ne fregasse qualcosa
+69-1	1927-1929	c~	_	\[c~	TO095	68-0	linguistic	none	_	_	_	*->15-5	*[15]
+69-2	1930-1938	pensando	_	pensando\]	_	68-1	linguistic	none	_	_	_	*->15-6	*[15]
+69-3	1939-1942	che	_	che	_	68-2	linguistic	none	_	_	_	_	_
+69-4	1943-1945	me	_	me	_	68-3	linguistic	none	_	_	_	_	_
+69-5	1946-1948	ne	_	ne	_	68-4	linguistic	none	_	_	_	_	_
+69-6	1949-1957	fregasse	_	fregasse	_	68-5	linguistic	none	_	_	_	_	_
+69-7	1958-1966	qualcosa	_	qualcosa	_	68-6	linguistic	none	_	_	_	_	_
+
+#Text=fatto sta che
+70-1	1967-1972	fatto	_	fatto	TO095	69-0	linguistic	none	_	_	_	_	_
+70-2	1973-1976	sta	_	sta	_	69-1	linguistic	none	_	_	_	_	_
+70-3	1977-1980	che	WeaklyRising	che,	_	69-2	linguistic	none	_	_	_	_	_
+
+#Text=eh
+71-1	1981-1983	eh	_	e:::h	TO095	70-0	linguistic	none	0x3	_	_	_	_
+
+#Text=va bene quindi ho collegato subito che fosse lei ho capito
+72-1	1984-1986	va	_	va	TO095	71-0	linguistic	none	_	_	_	_	_
+72-2	1987-1991	bene	WeaklyRising	bene,	_	71-1	linguistic	none	_	_	_	_	_
+72-3	1992-1998	quindi	_	quindi	_	71-2	linguistic	none	_	_	_	_	_
+72-4	1999-2001	ho	_	ho	_	71-3	linguistic	none	_	_	_	_	_
+72-5	2002-2011	collegato	_	collegato	_	71-4	linguistic	none	_	_	_	_	_
+72-6	2012-2018	subito	_	subito	_	71-5	linguistic	none	_	_	_	_	_
+72-7	2019-2022	che	_	che	_	71-6	linguistic	none	_	_	_	_	_
+72-8	2023-2028	fosse	_	fosse	_	71-7	linguistic	none	_	_	_	_	_
+72-9	2029-2032	lei	WeaklyRising	lei,	_	71-8	linguistic	none	_	_	_	_	_
+72-10	2033-2035	ho	_	ho	_	71-9	linguistic	none	_	_	_	_	_
+72-11	2036-2042	capito	Falling	capito.	_	71-10	linguistic	none	_	_	_	_	_
+
+#Text=e lei penso che
+73-1	2043-2044	e	_	e	TO095	72-0	linguistic	none	_	_	_	_	_
+73-2	2045-2048	lei	_	lei	_	72-1	linguistic	none	_	_	_	_	_
+73-3	2049-2054	penso	_	penso	_	72-2	linguistic	none	_	_	_	_	_
+73-4	2055-2058	che	WeaklyRising	che,	_	72-3	linguistic	none	_	_	_	_	_
+
+#Text=abbia capito
+74-1	2059-2064	abbia	_	abbia	TO095	73-0	linguistic	none	_	_	_	_	_
+74-2	2065-2071	capito	WeaklyRising	capito,	_	73-1	linguistic	none	_	_	_	_	_
+
+#Text=penso che lei abbia capito che cazzo ci facevo io
+75-1	2072-2077	penso	_	penso	TO095	74-0	linguistic	none	_	_	_	_	_
+75-2	2078-2081	che	_	che	_	74-1	linguistic	none	_	_	_	_	_
+75-3	2082-2085	lei	_	lei	_	74-2	linguistic	none	_	_	_	_	_
+75-4	2086-2091	abbia	_	abbia	_	74-3	linguistic	none	_	_	_	_	_
+75-5	2092-2098	capito	_	capito	_	74-4	linguistic	none	_	_	_	_	_
+75-6	2099-2102	che	_	che	_	74-5	linguistic	none	_	_	_	_	_
+75-7	2103-2108	cazzo	_	cazzo	_	74-6	linguistic	none	_	_	_	_	_
+75-8	2109-2111	ci	_	ci	_	74-7	linguistic	none	_	_	_	_	_
+75-9	2112-2118	facevo	_	facevo	_	74-8	linguistic	none	_	_	_	_	_
+75-10	2119-2121	io	WeaklyRising	io,	_	74-9	linguistic	none	_	_	_	_	_
+
+#Text=cioè perché arrivavo in macchina con carlo e tornavo
+76-1	2122-2126	cioè	_	c(io)è	TO095	75-0	linguistic	none	_	_	_	_	_
+76-2	2127-2133	perché	_	perché	_	75-1	linguistic	none	_	_	_	_	_
+76-3	2134-2142	arrivavo	_	arrivavo	_	75-2	linguistic	none	_	_	_	_	_
+76-4	2143-2145	in	_	in	_	75-3	linguistic	none	_	_	_	_	_
+76-5	2146-2154	macchina	_	macchina	_	75-4	linguistic	none	_	_	_	_	_
+76-6	2155-2158	con	_	con	_	75-5	linguistic	none	_	_	_	_	_
+76-7	2159-2164	carlo	WeaklyRising	carlo,	_	75-6	linguistic	none	_	_	_	_	_
+76-8	2165-2166	e	_	e	_	75-7	linguistic	none	_	_	_	_	_
+76-9	2167-2174	tornavo	WeaklyRising	tornavo:,	_	75-8	linguistic	none	6x1	_	_	_	_
+
+#Text=ah m' adoro tutto questo proprio davanti (.) adoro
+77-1	2175-2177	ah	_	a::h	TO091	76-0	linguistic	none	0x2	_	_	_	_
+77-2	2178-2180	m'	_	m'	_	76-1	linguistic	none	_	_	_	_	_
+77-3	2181-2186	adoro	WeaklyRising	(adoro::,	_	76-2	linguistic	none	4x2	_	_	_	_
+77-4	2187-2192	tutto	_	tutto	_	76-3	linguistic	none	_	_	_	_	_
+77-5	2193-2199	questo	_	questo	_	76-4	linguistic	none	_	_	_	_	_
+77-6	2200-2207	proprio	_	proprio	_	76-5	linguistic	none	_	_	_	_	_
+77-7	2208-2215	davanti	WeaklyRising	davanti,	_	76-6	linguistic	none	_	_	_	_	_
+77-8	2216-2219	(.)	_	(.)	_	76-7	shortpause	none	_	_	_	_	_
+77-9	2220-2225	adoro	Falling	adoro.	_	76-8	linguistic	none	_	_	_	_	_
+
+#Text=no io io arrivavo in macchina con carlo
+78-1	2226-2228	no	_	no	TO095	77-0	linguistic	none	_	_	_	_	_
+78-2	2229-2231	io	WeaklyRising	IO,	_	77-1	linguistic	none	_	_	_	_	_
+78-3	2232-2234	io	WeaklyRising	IO,	_	77-2	linguistic	none	_	_	_	_	_
+78-4	2235-2243	arrivavo	_	arrivavo	_	77-3	linguistic	none	_	_	_	_	_
+78-5	2244-2246	in	_	in	_	77-4	linguistic	none	_	_	_	_	_
+78-6	2247-2255	macchina	_	macchina	_	77-5	linguistic	none	_	_	_	_	_
+78-7	2256-2259	con	_	con	_	77-6	linguistic	none	_	_	_	_	_
+78-8	2260-2265	carlo	_	car\[lo\]	_	77-7	linguistic	none	_	_	_	_	_
+78-8.1	2263-2265	lo	_	_	_	_	_	_	_	_	_	*->16-1	*[16]
+
+#Text=eh ma appunto ma n' se sente con que~ cioè no non ce se sente
+79-1	2266-2268	eh	_	\[eh\]	TO091	78-0	linguistic	none	_	_	_	*->16-2	*[16]
+79-2	2269-2271	ma	_	ma	_	78-1	linguistic	none	_	_	_	_	_
+79-3	2272-2279	appunto	WeaklyRising	appunto,	_	78-2	linguistic	none	_	_	_	_	_
+79-4	2280-2282	ma	_	ma	_	78-3	linguistic	none	_	_	_	_	_
+79-5	2283-2285	n'	_	n'	_	78-4	linguistic	none	_	_	_	_	_
+79-6	2286-2288	se	_	se	_	78-5	linguistic	none	_	_	_	_	_
+79-7	2289-2294	sente	_	sente	_	78-6	linguistic	none	_	_	_	_	_
+79-8	2295-2298	con	_	con	_	78-7	linguistic	none	_	_	_	_	_
+79-9	2299-2303	que~	WeaklyRising	que~,	_	78-8	linguistic	none	_	_	_	_	_
+79-10	2304-2308	cioè	_	c(io)è	_	78-9	linguistic	none	_	_	_	_	_
+79-11	2309-2311	no	WeaklyRising	no,	_	78-10	linguistic	none	_	_	_	_	_
+79-12	2312-2315	non	_	\[non	_	78-11	linguistic	none	_	_	_	*->17-1	*[17]
+79-13	2316-2318	ce	_	ce	_	78-12	linguistic	none	_	_	_	*->17-2	*[17]
+79-14	2319-2321	se	_	se	_	78-13	linguistic	none	_	_	_	*->17-3	*[17]
+79-15	2322-2327	sente	_	sente\]	_	78-14	linguistic	none	_	_	_	*->17-4	*[17]
+
+#Text=no lei non ce se sente no
+80-1	2328-2330	no	_	\[no	TO095	79-0	linguistic	none	_	_	_	*->17-5	*[17]
+80-2	2331-2334	lei	_	lei	_	79-1	linguistic	none	_	_	_	*->17-6	*[17]
+80-3	2335-2338	non	_	non	_	79-2	linguistic	none	_	_	_	*->17-7	*[17]
+80-4	2339-2341	ce	_	ce	_	79-3	linguistic	none	_	_	_	*->17-8	*[17]
+80-5	2342-2344	se	_	se\]	_	79-4	linguistic	none	_	_	_	*->17-9	*[17]
+80-6	2345-2350	sente	WeaklyRising	sente,	_	79-5	linguistic	none	_	_	_	_	_
+80-7	2351-2353	no	_	\[no\]	_	79-6	linguistic	none	_	_	_	*->18-1	*[18]
+
+#Text=ma tu eri ubriaca
+81-1	2354-2356	ma	_	\[ma\]	TO085	80-0	linguistic	none	_	_	_	*->18-2	*[18]
+81-2	2357-2359	tu	_	tu	_	80-1	linguistic	none	_	_	_	_	_
+81-3	2360-2363	eri	_	eri	_	80-2	linguistic	none	_	_	_	_	_
+81-4	2364-2371	ubriaca	Rising	ubriaca?	_	80-3	linguistic	none	_	_	_	_	_
+
+#Text=sì sì quando andavo da lei a dirle
+82-1	2372-2374	sì	_	sì	TO095	81-0	linguistic	none	_	_	_	_	_
+82-2	2375-2377	sì	_	sì	_	81-1	linguistic	none	_	_	_	_	_
+82-3	2378-2384	quando	_	quando	_	81-2	linguistic	none	_	_	_	_	_
+82-4	2385-2391	andavo	_	andavo	_	81-3	linguistic	none	_	_	_	_	_
+82-5	2392-2394	da	_	da	_	81-4	linguistic	none	_	_	_	_	_
+82-6	2395-2398	lei	_	lei	_	81-5	linguistic	none	_	_	_	_	_
+82-7	2399-2400	a	_	\[a	_	81-6	linguistic	none	_	_	_	*->19-1	*[19]
+82-8	2401-2406	dirle	WeaklyRising	dirle:\],	_	81-7	linguistic	none	4x1	_	_	*->19-2	*[19]
+
+#Text=e allora minchia certo
+83-1	2407-2408	e	_	\[e	TO085	82-0	linguistic	none	_	_	_	*->19-3	*[19]
+83-2	2409-2415	allora	_	allora\]	_	82-1	linguistic	none	_	_	_	*->19-4	*[19]
+83-3	2416-2423	minchia	_	minchia	_	82-2	linguistic	none	_	_	_	_	_
+83-4	2424-2429	certo	_	\[certo\]	_	82-3	linguistic	none	_	_	_	*->20-1	*[20]
+
+#Text=ma che gl' hai detto tu xxx
+84-1	2430-2432	ma	_	\[ma	TO091	83-0	linguistic	none	_	_	_	*->20-2	*[20]
+84-2	2433-2436	che	_	che	_	83-1	linguistic	none	_	_	_	*->20-3	*[20]
+84-3	2437-2440	gl'	_	gl'	_	83-2	linguistic	none	_	_	_	*->20-4	*[20]
+84-4	2441-2444	hai	_	hai	_	83-3	linguistic	none	_	_	_	*->20-5	*[20]
+84-5	2445-2450	detto	_	detto\]	_	83-4	linguistic	none	_	_	_	*->20-6	*[20]
+84-6	2451-2453	tu	_	tu	_	83-5	linguistic	none	_	_	_	_	_
+84-7	2454-2457	xxx	Rising	xxx?	_	83-6	linguistic	none	_	_	_	_	_
+
+#Text=niente lei m' ha placcato nel bagno del bangla
+85-1	2458-2464	niente	_	niente	TO095	84-0	linguistic	none	_	_	_	_	_
+85-2	2465-2468	lei	_	lei	_	84-1	linguistic	none	_	_	_	_	_
+85-3	2469-2471	m'	_	m'	_	84-2	linguistic	none	_	_	_	_	_
+85-4	2472-2474	ha	_	(ha	_	84-3	linguistic	none	_	_	_	_	_
+85-5	2475-2483	placcato	_	placcato	_	84-4	linguistic	none	_	_	_	_	_
+85-6	2484-2487	nel	_	nel	_	84-5	linguistic	none	_	_	_	_	_
+85-7	2488-2493	bagno	_	bagno	_	84-6	linguistic	none	_	_	_	_	_
+85-8	2494-2497	del	_	del	_	84-7	linguistic	none	_	_	_	_	_
+85-9	2498-2504	bangla	WeaklyRising	bangla,	_	84-8	linguistic	none	_	_	_	_	_
+
+#Text=mi fa ma quindi carlo stasera ti riporta a casa
+86-1	2505-2507	mi	_	mi	TO095	85-0	linguistic	none	_	_	_	_	_
+86-2	2508-2510	fa	WeaklyRising	fa,	_	85-1	linguistic	none	_	_	_	_	_
+86-3	2511-2513	ma	_	ma	_	85-2	linguistic	none	_	_	_	_	_
+86-4	2514-2520	quindi	_	quindi	_	85-3	linguistic	none	_	_	_	_	_
+86-5	2521-2526	carlo	_	carlo	_	85-4	linguistic	none	_	_	_	_	_
+86-6	2527-2534	stasera	_	stasera	_	85-5	linguistic	none	_	_	_	_	_
+86-7	2535-2537	ti	_	ti	_	85-6	linguistic	none	_	_	_	_	_
+86-8	2538-2545	riporta	_	riporta:	_	85-7	linguistic	none	6x1	_	_	_	_
+86-9	2546-2547	a	_	a	_	85-8	linguistic	none	_	_	_	_	_
+86-10	2548-2552	casa	Rising	casa?	_	85-9	linguistic	none	_	_	_	_	_
+
+#Text=ho detto no
+87-1	2553-2555	ho	_	ho	TO095	86-0	linguistic	none	_	_	_	_	_
+87-2	2556-2561	detto	_	detto	_	86-1	linguistic	none	_	_	_	_	_
+87-3	2562-2564	no	WeaklyRising	no,	_	86-2	linguistic	none	_	_	_	_	_
+
+#Text=perché carlo c' ha quella casa al lago no
+88-1	2565-2571	perché	_	perché	TO095	87-0	linguistic	none	_	_	_	_	_
+88-2	2572-2577	carlo	_	carlo	_	87-1	linguistic	none	_	_	_	_	_
+88-3	2578-2580	c'	_	c'	_	87-2	linguistic	none	_	_	_	_	_
+88-4	2581-2583	ha	_	ha	_	87-3	linguistic	none	_	_	_	_	_
+88-5	2584-2590	quella	_	quella	_	87-4	linguistic	none	_	_	_	_	_
+88-6	2591-2595	casa	_	casa	_	87-5	linguistic	none	_	_	_	_	_
+88-7	2596-2598	al	_	al	_	87-6	linguistic	none	_	_	_	_	_
+88-8	2599-2603	lago	_	lago	_	87-7	linguistic	none	_	_	_	_	_
+88-9	2604-2606	no	Rising	no?	_	87-8	linguistic	none	_	_	_	_	_
+
+#Text=vicino al cioè perugia mh piuttosto che anda' a assisi
+89-1	2607-2613	vicino	_	vicino	TO095	88-0	linguistic	none	_	_	_	_	_
+89-2	2614-2616	al	WeaklyRising	al,	_	88-1	linguistic	none	_	_	_	_	_
+89-3	2617-2621	cioè	_	cioè	_	88-2	linguistic	none	_	_	_	_	_
+89-4	2622-2629	perugia	WeaklyRising	perugia:,	_	88-3	linguistic	none	6x1	_	_	_	_
+89-5	2630-2632	mh	_	mh	_	88-4	linguistic	none	_	_	_	_	_
+89-6	2633-2642	piuttosto	_	piuttosto	_	88-5	linguistic	none	_	_	_	_	_
+89-7	2643-2646	che	_	che	_	88-6	linguistic	none	_	_	_	_	_
+89-8	2647-2652	anda'	_	anda'	_	88-7	linguistic	none	_	_	_	_	_
+89-9	2653-2654	a	_	a	_	88-8	linguistic	none	_	_	_	_	_
+89-10	2655-2661	assisi	WeaklyRising	assisi,	_	88-9	linguistic	none	_	_	_	_	_
+
+#Text=ehm
+90-1	2662-2665	ehm	_	e:::hm::	TO095	89-0	linguistic	none	0x3,2x2	_	_	_	_
+
+#Text=gli ho fatto no andiamo al lago penso perché più comodo ma mica
+91-1	2666-2669	gli	_	gli	TO095	90-0	linguistic	none	_	_	_	_	_
+91-2	2670-2672	ho	_	ho	_	90-1	linguistic	none	_	_	_	_	_
+91-3	2673-2678	fatto	WeaklyRising	fatto,	_	90-2	linguistic	none	_	_	_	_	_
+91-4	2679-2681	no	_	no	_	90-3	linguistic	none	_	_	_	_	_
+91-5	2682-2689	andiamo	_	andiamo	_	90-4	linguistic	none	_	_	_	_	_
+91-6	2690-2692	al	_	al	_	90-5	linguistic	none	_	_	_	_	_
+91-7	2693-2697	lago	_	lago	_	90-6	linguistic	none	_	_	_	_	_
+91-8	2698-2703	penso	_	penso	_	90-7	linguistic	none	_	_	_	_	_
+91-9	2704-2710	perché	_	perché	_	90-8	linguistic	none	_	_	_	_	_
+91-10	2711-2714	più	_	più	_	90-9	linguistic	none	_	_	_	_	_
+91-11	2715-2721	comodo	Falling	comodo.	_	90-10	linguistic	none	_	_	_	_	_
+91-12	2722-2724	ma	_	ma	_	90-11	linguistic	none	_	_	_	_	_
+91-13	2725-2729	mica	_	mica	_	90-12	linguistic	none	_	_	_	_	_
+
+#Text=cioè io proprio con tutta la spontaneità del mondo questa prende esce chiude la porta del bagno
+92-1	2730-2734	cioè	_	cioè	TO095	91-0	linguistic	none	_	_	_	_	_
+92-2	2735-2737	io	_	io	_	91-1	linguistic	none	_	_	_	_	_
+92-3	2738-2745	proprio	_	proprio	_	91-2	linguistic	none	_	_	_	_	_
+92-4	2746-2749	con	_	con	_	91-3	linguistic	none	_	_	_	_	_
+92-5	2750-2755	tutta	_	tutta	_	91-4	linguistic	none	_	_	_	_	_
+92-6	2756-2758	la	_	la	_	91-5	linguistic	none	_	_	_	_	_
+92-7	2759-2770	spontaneità	_	spontaneità	_	91-6	linguistic	none	_	_	_	_	_
+92-8	2771-2774	del	_	del	_	91-7	linguistic	none	_	_	_	_	_
+92-9	2775-2780	mondo	WeaklyRising	mondo,	_	91-8	linguistic	none	_	_	_	_	_
+92-10	2781-2787	questa	_	questa	_	91-9	linguistic	none	_	_	_	_	_
+92-11	2788-2794	prende	WeaklyRising	prende,	_	91-10	linguistic	none	_	_	_	_	_
+92-12	2795-2799	esce	WeaklyRising	esce,	_	91-11	linguistic	none	_	_	_	_	_
+92-13	2800-2806	chiude	_	chiude	_	91-12	linguistic	none	_	_	_	_	_
+92-14	2807-2809	la	_	la	_	91-13	linguistic	none	_	_	_	_	_
+92-15	2810-2815	porta	_	porta	_	91-14	linguistic	none	_	_	_	_	_
+92-16	2816-2819	del	_	del	_	91-15	linguistic	none	_	_	_	_	_
+92-17	2820-2825	bagno	Falling	bagno.	_	91-16	linguistic	none	_	_	_	_	_
+
+#Text=cioè è entrata per chiedermi sta cosa e poi è uscita
+93-1	2826-2830	cioè	_	c(io)è	TO095	92-0	linguistic	none	_	_	_	_	_
+93-2	2831-2832	è	_	è	_	92-1	linguistic	none	_	_	_	_	_
+93-3	2833-2840	entrata	_	entrata	_	92-2	linguistic	none	_	_	_	_	_
+93-4	2841-2844	per	_	per	_	92-3	linguistic	none	_	_	_	_	_
+93-5	2845-2854	chiedermi	_	chiedermi	_	92-4	linguistic	none	_	_	_	_	_
+93-6	2855-2858	sta	_	sta	_	92-5	linguistic	none	_	_	_	_	_
+93-7	2859-2863	cosa	_	cosa	_	92-6	linguistic	none	_	_	_	_	_
+93-8	2864-2865	e	_	e	_	92-7	linguistic	none	_	_	_	_	_
+93-9	2866-2869	poi	_	poi	_	92-8	linguistic	none	_	_	_	_	_
+93-10	2870-2871	è	_	è	_	92-9	linguistic	none	_	_	_	_	_
+93-11	2872-2878	uscita	Falling	uscita.	_	92-10	linguistic	none	_	_	_	_	_
+
+#Text=cioè io potevo esse' nuda pisciare cose no lei è entrata
+94-1	2879-2883	cioè	_	cioè	TO095	93-0	linguistic	none	_	_	_	_	_
+94-2	2884-2886	io	_	io	_	93-1	linguistic	none	_	_	_	_	_
+94-3	2887-2893	potevo	_	potevo	_	93-2	linguistic	none	_	_	_	_	_
+94-4	2894-2899	esse'	_	esse'	_	93-3	linguistic	none	_	_	_	_	_
+94-5	2900-2904	nuda	WeaklyRising	nuda,	_	93-4	linguistic	none	_	_	_	_	_
+94-6	2905-2913	pisciare	WeaklyRising	\[pisciare\],	_	93-5	linguistic	none	_	_	_	*->21-1	*[21]
+94-7	2914-2918	cose	WeaklyRising	cose,	_	93-6	linguistic	none	_	_	_	_	_
+94-8	2919-2921	no	WeaklyRising	no,	_	93-7	linguistic	none	_	_	_	_	_
+94-9	2922-2925	lei	_	\[lei	_	93-8	linguistic	none	_	_	_	*->22-1	*[22]
+94-10	2926-2927	è	_	è	_	93-9	linguistic	none	_	_	_	*->22-2	*[22]
+94-11	2928-2935	entrata	WeaklyRising	entrata\],	_	93-10	linguistic	none	_	_	_	*->22-3	*[22]
+
+#Text=sì certo
+95-1	2936-2938	sì	_	\[sì	TO091	94-0	linguistic	none	_	_	_	*->21-2	*[21]
+95-2	2939-2944	certo	_	certo\]	_	94-1	linguistic	none	_	_	_	*->21-3	*[21]
+
+#Text=vabbè è esaurita okay
+96-1	2945-2950	vabbè	_	\[vabbè\]	TO091	95-0	linguistic	none	_	_	_	*->22-4	*[22]
+96-2	2951-2952	è	_	è	_	95-1	linguistic	none	_	_	_	_	_
+96-3	2953-2961	esaurita	_	esaurita	_	95-2	linguistic	none	_	_	_	_	_
+96-4	2962-2966	okay	_	okay	_	95-3	linguistic	none	_	_	_	_	_
+
+#Text=così
+97-1	2967-2971	così	Falling	così.	TO095	96-0	linguistic	none	_	_	_	_	_
+
+#Text=apparte queste scene di lei però lui ci faceva il cojone capito
+98-1	2972-2979	apparte	_	apparte	TO095	97-0	linguistic	none	_	_	_	_	_
+98-2	2980-2986	queste	_	queste	_	97-1	linguistic	none	_	_	_	_	_
+98-3	2987-2992	scene	_	scene	_	97-2	linguistic	none	_	_	_	_	_
+98-4	2993-2995	di	_	di	_	97-3	linguistic	none	_	_	_	_	_
+98-5	2996-2999	lei	WeaklyRising	lei,	_	97-4	linguistic	none	_	_	_	_	_
+98-6	3000-3004	però	_	però	_	97-5	linguistic	none	_	_	_	_	_
+98-7	3005-3008	lui	_	lui	_	97-6	linguistic	none	_	_	_	_	_
+98-8	3009-3011	ci	_	ci	_	97-7	linguistic	none	_	_	_	_	_
+98-9	3012-3018	faceva	_	faceva	_	97-8	linguistic	none	_	_	_	_	_
+98-10	3019-3021	il	_	il	_	97-9	linguistic	none	_	_	_	_	_
+98-11	3022-3028	cojone	WeaklyRising	cojone,	_	97-10	linguistic	none	_	_	_	_	_
+98-12	3029-3035	capito	Rising	capito?	_	97-11	linguistic	none	_	_	_	_	_
+
+#Text=s' abbraccivano poi gli manda~ poi loro si scrive~ cioè tutto il tempo che stava con me parlava al telefono con lei
+99-1	3036-3038	s'	_	s'	TO095	98-0	linguistic	none	_	_	_	_	_
+99-2	3039-3051	abbraccivano	WeaklyRising	(abbraccivano,	_	98-1	linguistic	none	_	_	_	_	_
+99-3	3052-3055	poi	_	poi	_	98-2	linguistic	none	_	_	_	_	_
+99-4	3056-3059	gli	_	gli	_	98-3	linguistic	none	_	_	_	_	_
+99-5	3060-3066	manda~	WeaklyRising	manda~,	_	98-4	linguistic	none	_	_	_	_	_
+99-6	3067-3070	poi	_	poi	_	98-5	linguistic	none	_	_	_	_	_
+99-7	3071-3075	loro	_	loro	_	98-6	linguistic	none	_	_	_	_	_
+99-8	3076-3078	si	_	si	_	98-7	linguistic	none	_	_	_	_	_
+99-9	3079-3086	scrive~	WeaklyRising	scrive~,	_	98-8	linguistic	none	_	_	_	_	_
+99-10	3087-3091	cioè	_	cioè	_	98-9	linguistic	none	_	_	_	_	_
+99-11	3092-3097	tutto	_	tutto	_	98-10	linguistic	none	_	_	_	_	_
+99-12	3098-3100	il	_	il	_	98-11	linguistic	none	_	_	_	_	_
+99-13	3101-3106	tempo	_	tempo	_	98-12	linguistic	none	_	_	_	_	_
+99-14	3107-3110	che	_	che	_	98-13	linguistic	none	_	_	_	_	_
+99-15	3111-3116	stava	_	stava	_	98-14	linguistic	none	_	_	_	_	_
+99-16	3117-3120	con	_	con	_	98-15	linguistic	none	_	_	_	_	_
+99-17	3121-3123	me	WeaklyRising	me,	_	98-16	linguistic	none	_	_	_	_	_
+99-18	3124-3131	parlava	_	parlava	_	98-17	linguistic	none	_	_	_	_	_
+99-19	3132-3134	al	_	al	_	98-18	linguistic	none	_	_	_	_	_
+99-20	3135-3143	telefono	_	telefono	_	98-19	linguistic	none	_	_	_	_	_
+99-21	3144-3147	con	_	con	_	98-20	linguistic	none	_	_	_	_	_
+99-22	3148-3151	lei	Falling	lei.	_	98-21	linguistic	none	_	_	_	_	_
+
+#Text=e parlava al telefono tipo
+100-1	3152-3153	e	WeaklyRising	e,	TO095	99-0	linguistic	none	_	_	_	_	_
+100-2	3154-3161	parlava	_	parlava	_	99-1	linguistic	none	_	_	_	_	_
+100-3	3162-3164	al	_	al	_	99-2	linguistic	none	_	_	_	_	_
+100-4	3165-3173	telefono	_	telefono	_	99-3	linguistic	none	_	_	_	_	_
+100-5	3174-3178	tipo	WeaklyRising	tipo,	_	99-4	linguistic	none	_	_	_	_	_
+
+#Text=tornamo dal centro alle due di notte lei gli scriveva ci vediamo
+101-1	3179-3186	tornamo	_	tornamo	TO095	100-0	linguistic	none	_	_	_	_	_
+101-2	3187-3190	dal	_	dal	_	100-1	linguistic	none	_	_	_	_	_
+101-3	3191-3197	centro	_	centro	_	100-2	linguistic	none	_	_	_	_	_
+101-4	3198-3202	alle	_	alle	_	100-3	linguistic	none	_	_	_	_	_
+101-5	3203-3206	due	_	due	_	100-4	linguistic	none	_	_	_	_	_
+101-6	3207-3209	di	_	di	_	100-5	linguistic	none	_	_	_	_	_
+101-7	3210-3215	notte	WeaklyRising	notte,	_	100-6	linguistic	none	_	_	_	_	_
+101-8	3216-3219	lei	_	lei	_	100-7	linguistic	none	_	_	_	_	_
+101-9	3220-3223	gli	_	gli	_	100-8	linguistic	none	_	_	_	_	_
+101-10	3224-3232	scriveva	WeaklyRising	scriveva,	_	100-9	linguistic	none	_	_	_	_	_
+101-11	3233-3235	ci	_	ci	_	100-10	linguistic	none	_	_	_	_	_
+101-12	3236-3243	vediamo	WeaklyRising	vediamo,	_	100-11	linguistic	none	_	_	_	_	_
+
+#Text=e lei vedeva che tornava con me
+102-1	3244-3245	e	_	e	TO095	101-0	linguistic	none	_	_	_	_	_
+102-2	3246-3249	lei	_	lei	_	101-1	linguistic	none	_	_	_	_	_
+102-3	3250-3256	vedeva	_	vedeva	_	101-2	linguistic	none	_	_	_	_	_
+102-4	3257-3260	che	_	\[che	_	101-3	linguistic	none	_	_	_	*->23-1	*[23]
+102-5	3261-3268	tornava	_	tornava	_	101-4	linguistic	none	_	_	_	*->23-2	*[23]
+102-6	3269-3272	con	_	con	_	101-5	linguistic	none	_	_	_	*->23-3	*[23]
+102-7	3273-3275	me	_	me\]	_	101-6	linguistic	none	_	_	_	*->23-4	*[23]
+
+#Text=si vabbè ma dai
+103-1	3276-3278	si	_	\[si	TO085	102-0	linguistic	none	_	_	_	*->23-5	*[23]
+103-2	3279-3284	vabbè	_	vabbè	_	102-1	linguistic	none	_	_	_	*->23-6	*[23]
+103-3	3285-3287	ma	_	ma	_	102-2	linguistic	none	_	_	_	*->23-7	*[23]
+103-4	3288-3291	dai	_	dai::\]	_	102-3	linguistic	none	2x2	_	_	*->23-8	*[23]
+
+#Text=madonna
+104-1	3292-3299	madonna	_	madonna	TO091	103-0	linguistic	none	_	_	_	_	_
+
+#Text=oppure gli scriveva c' ho casa libera oppure gli scriveva a 'na certa ha iniziato a dije tipo
+105-1	3300-3306	oppure	_	oppure	TO095	104-0	linguistic	none	_	_	_	_	_
+105-2	3307-3310	gli	_	gli	_	104-1	linguistic	none	_	_	_	_	_
+105-3	3311-3319	scriveva	WeaklyRising	scriveva,	_	104-2	linguistic	none	_	_	_	_	_
+105-4	3320-3322	c'	_	c'	_	104-3	linguistic	none	_	_	_	_	_
+105-5	3323-3325	ho	_	ho	_	104-4	linguistic	none	_	_	_	_	_
+105-6	3326-3330	casa	_	casa	_	104-5	linguistic	none	_	_	_	_	_
+105-7	3331-3337	libera	WeaklyRising	libera,	_	104-6	linguistic	none	_	_	_	_	_
+105-8	3338-3344	oppure	_	oppure	_	104-7	linguistic	none	_	_	_	_	_
+105-9	3345-3348	gli	_	gli	_	104-8	linguistic	none	_	_	_	_	_
+105-10	3349-3357	scriveva	WeaklyRising	scriveva,	_	104-9	linguistic	none	_	_	_	_	_
+105-11	3358-3359	a	_	a	_	104-10	linguistic	none	_	_	_	_	_
+105-12	3360-3363	'na	_	'na	_	104-11	linguistic	none	_	_	_	_	_
+105-13	3364-3369	certa	_	certa	_	104-12	linguistic	none	_	_	_	_	_
+105-14	3370-3372	ha	_	ha	_	104-13	linguistic	none	_	_	_	_	_
+105-15	3373-3381	iniziato	_	iniziato	_	104-14	linguistic	none	_	_	_	_	_
+105-16	3382-3383	a	_	a	_	104-15	linguistic	none	_	_	_	_	_
+105-17	3384-3388	dije	_	dije	_	104-16	linguistic	none	_	_	_	_	_
+105-18	3389-3393	tipo	WeaklyRising	tipo,	_	104-17	linguistic	none	_	_	_	_	_
+
+#Text=cose andiamo a mangia' un panino che sto in chimica
+106-1	3394-3398	cose	WeaklyRising	cose,	TO095	105-0	linguistic	none	_	_	_	_	_
+106-2	3399-3406	andiamo	_	andiamo	_	105-1	linguistic	none	_	_	_	_	_
+106-3	3407-3408	a	_	a	_	105-2	linguistic	none	_	_	_	_	_
+106-4	3409-3416	mangia'	_	mangia'	_	105-3	linguistic	none	_	_	_	_	_
+106-5	3417-3419	un	_	un	_	105-4	linguistic	none	_	_	_	_	_
+106-6	3420-3426	panino	_	panino	_	105-5	linguistic	none	_	_	_	_	_
+106-7	3427-3430	che	_	che	_	105-6	linguistic	none	_	_	_	_	_
+106-8	3431-3434	sto	_	\[sto	_	105-7	linguistic	none	_	_	_	*->24-1	*[24]
+106-9	3435-3437	in	_	in	_	105-8	linguistic	none	_	_	_	*->24-2	*[24]
+106-10	3438-3445	chimica	WeaklyRising	chimica\],	_	105-9	linguistic	none	_	_	_	*->24-3	*[24]
+
+#Text=si ma lui rispondeva
+107-1	3446-3448	si	_	\[si	TO085	106-0	linguistic	none	_	_	_	*->24-4	*[24]
+107-2	3449-3451	ma	WeaklyRising	ma\],	_	106-1	linguistic	none	_	_	_	*->24-5	*[24]
+107-3	3452-3455	lui	_	lui	_	106-2	linguistic	none	_	_	_	_	_
+107-4	3456-3466	rispondeva	Rising	rispondeva?	_	106-3	linguistic	none	_	_	_	_	_
+
+#Text=io so' curiosa xxx davanti a me no
+108-1	3467-3469	io	_	io	TO095	107-0	linguistic	none	_	_	_	_	_
+108-2	3470-3473	so'	_	so'	_	107-1	linguistic	none	_	_	_	_	_
+108-3	3474-3481	curiosa	WeaklyRising	curiosa,	_	107-2	linguistic	none	_	_	_	_	_
+108-4	3482-3485	xxx	WeaklyRising	xxx,	_	107-3	linguistic	none	_	_	_	_	_
+108-5	3486-3493	davanti	_	davanti	_	107-4	linguistic	none	_	_	_	_	_
+108-6	3494-3495	a	_	a	_	107-5	linguistic	none	_	_	_	_	_
+108-7	3496-3498	me	_	me	_	107-6	linguistic	none	_	_	_	_	_
+108-8	3499-3501	no	_	no	_	107-7	linguistic	none	_	_	_	_	_
+
+#Text=perché ovviamente no
+109-1	3502-3508	perché	_	perché	TO095	108-0	linguistic	none	_	_	_	_	_
+109-2	3509-3519	ovviamente	_	ovviamente	_	108-1	linguistic	none	_	_	_	_	_
+109-3	3520-3522	no	_	no	_	108-2	linguistic	none	_	_	_	_	_
+
+#Text=vabbè un po' de pudore almeno
+110-1	3523-3528	vabbè	_	vabbè	TO091	109-0	linguistic	none	_	_	_	_	_
+110-2	3529-3531	un	_	un	_	109-1	linguistic	none	_	_	_	_	_
+110-3	3532-3535	po'	_	po'	_	109-2	linguistic	none	_	_	_	_	_
+110-4	3536-3538	de	_	de	_	109-3	linguistic	none	_	_	_	_	_
+110-5	3539-3545	pudore	_	pudore	_	109-4	linguistic	none	_	_	_	_	_
+110-6	3546-3552	almeno	_	almeno	_	109-5	linguistic	none	_	_	_	_	_
+
+#Text=però so' curiosa de sape' che cazzo gli rispondeva e quindi in quei momenti me girava il cazzo
+111-1	3553-3557	però	_	però	TO095	110-0	linguistic	none	_	_	_	_	_
+111-2	3558-3561	so'	_	so'	_	110-1	linguistic	none	_	_	_	_	_
+111-3	3562-3569	curiosa	_	curiosa	_	110-2	linguistic	none	_	_	_	_	_
+111-4	3570-3572	de	_	de	_	110-3	linguistic	none	_	_	_	_	_
+111-5	3573-3578	sape'	_	sape'	_	110-4	linguistic	none	_	_	_	_	_
+111-6	3579-3582	che	_	che	_	110-5	linguistic	none	_	_	_	_	_
+111-7	3583-3588	cazzo	_	cazzo	_	110-6	linguistic	none	_	_	_	_	_
+111-8	3589-3592	gli	_	gli	_	110-7	linguistic	none	_	_	_	_	_
+111-9	3593-3603	rispondeva	WeaklyRising	rispondeva,	_	110-8	linguistic	none	_	_	_	_	_
+111-10	3604-3605	e	_	e	_	110-9	linguistic	none	_	_	_	_	_
+111-11	3606-3612	quindi	_	quindi	_	110-10	linguistic	none	_	_	_	_	_
+111-12	3613-3615	in	_	in	_	110-11	linguistic	none	_	_	_	_	_
+111-13	3616-3620	quei	_	quei	_	110-12	linguistic	none	_	_	_	_	_
+111-14	3621-3628	momenti	_	momenti	_	110-13	linguistic	none	_	_	_	_	_
+111-15	3629-3631	me	_	me	_	110-14	linguistic	none	_	_	_	_	_
+111-16	3632-3638	girava	_	girava	_	110-15	linguistic	none	_	_	_	_	_
+111-17	3639-3641	il	_	il	_	110-16	linguistic	none	_	_	_	_	_
+111-18	3642-3647	cazzo	_	cazzo	_	110-17	linguistic	none	_	_	_	_	_
+
+#Text=pure in centro quando ho visto te
+112-1	3648-3652	pure	_	\[pure	TO095	111-0	linguistic	none	_	_	_	*->25-1	*[25]
+112-2	3653-3655	in	_	in	_	111-1	linguistic	none	_	_	_	*->25-2	*[25]
+112-3	3656-3662	centro	_	centro	_	111-2	linguistic	none	_	_	_	*->25-3	*[25]
+112-4	3663-3669	quando	_	quando\]	_	111-3	linguistic	none	_	_	_	*->25-4	*[25]
+112-5	3670-3672	ho	_	ho	_	111-4	linguistic	none	_	_	_	_	_
+112-6	3673-3678	visto	_	visto	_	111-5	linguistic	none	_	_	_	_	_
+112-7	3679-3681	te	WeaklyRising	te,	_	111-6	linguistic	none	_	_	_	_	_
+
+#Text=beh ma certo
+113-1	3682-3685	beh	_	\[beh	TO085	112-0	linguistic	none	_	_	_	*->25-5	*[25]
+113-2	3686-3688	ma	_	ma	_	112-1	linguistic	none	_	_	_	*->25-6	*[25]
+113-3	3689-3694	certo	_	certo\]	_	112-2	linguistic	none	_	_	_	*->25-7	*[25]
+
+#Text=lì per lì (.) eran loro due
+114-1	3695-3697	lì	_	lì	TO095	113-0	linguistic	none	_	_	_	_	_
+114-2	3698-3701	per	_	per	_	113-1	linguistic	none	_	_	_	_	_
+114-3	3702-3704	lì	WeaklyRising	lì,	_	113-2	linguistic	none	_	_	_	_	_
+114-4	3705-3708	(.)	_	(.)	_	113-3	shortpause	none	_	_	_	_	_
+114-5	3709-3713	eran	_	eran	_	113-4	linguistic	none	_	_	_	_	_
+114-6	3714-3718	loro	_	loro	_	113-5	linguistic	none	_	_	_	_	_
+114-7	3719-3722	due	WeaklyRising	due,	_	113-6	linguistic	none	_	_	_	_	_
+
+#Text=appartati a dirsi le cose non so cosa
+115-1	3723-3732	appartati	_	appartati	TO095	114-0	linguistic	none	_	_	_	_	_
+115-2	3733-3734	a	_	a	_	114-1	linguistic	none	_	_	_	_	_
+115-3	3735-3740	dirsi	_	dirsi	_	114-2	linguistic	none	_	_	_	_	_
+115-4	3741-3743	le	_	le	_	114-3	linguistic	none	_	_	_	_	_
+115-5	3744-3748	cose	WeaklyRising	cose,	_	114-4	linguistic	none	_	_	_	_	_
+115-6	3749-3752	non	_	non	_	114-5	linguistic	none	_	_	_	_	_
+115-7	3753-3755	so	_	so	_	114-6	linguistic	none	_	_	_	_	_
+115-8	3756-3760	cosa	WeaklyRising	cosa,	_	114-7	linguistic	none	_	_	_	_	_
+
+#Text=si però pensa un attimo anche a lei
+116-1	3761-3763	si	_	si	TO091	115-0	linguistic	none	_	_	_	_	_
+116-2	3764-3768	però	_	però	_	115-1	linguistic	none	_	_	_	_	_
+116-3	3769-3774	pensa	_	pensa	_	115-2	linguistic	none	_	_	_	_	_
+116-4	3775-3777	un	_	(u)n	_	115-3	linguistic	none	_	_	0-1(0)	_	_
+116-5	3778-3784	attimo	_	attimo	_	115-4	linguistic	none	_	_	_	_	_
+116-6	3785-3790	anche	_	anche	_	115-5	linguistic	none	_	_	_	_	_
+116-7	3791-3792	a	_	a	_	115-6	linguistic	none	_	_	_	_	_
+116-8	3793-3796	lei	_	lei	_	115-7	linguistic	none	_	_	_	_	_
+
+#Text=cioè io n' ho capito che cazzo de rapporto c' hanno
+117-1	3797-3801	cioè	_	c(io)è	TO091	116-0	linguistic	none	_	_	_	_	_
+117-2	3802-3804	io	_	io	_	116-1	linguistic	none	_	_	_	_	_
+117-3	3805-3807	n'	_	n'	_	116-2	linguistic	none	_	_	_	_	_
+117-4	3808-3810	ho	_	ho	_	116-3	linguistic	none	_	_	_	_	_
+117-5	3811-3817	capito	_	capito	_	116-4	linguistic	none	_	_	_	_	_
+117-6	3818-3821	che	_	\[che	_	116-5	linguistic	none	_	_	_	*->26-1	*[26]
+117-7	3822-3827	cazzo	_	cazzo	_	116-6	linguistic	none	_	_	_	*->26-2	*[26]
+117-8	3828-3830	de	_	de	_	116-7	linguistic	none	_	_	_	*->26-3	*[26]
+117-9	3831-3839	rapporto	_	rapporto	_	116-8	linguistic	none	_	_	_	*->26-4	*[26]
+117-10	3840-3842	c'	_	c'	_	116-9	linguistic	none	_	_	_	*->26-5	*[26]
+117-11	3843-3848	hanno	_	hanno\]	_	116-10	linguistic	none	_	_	_	*->26-6	*[26]
+
+#Text=lei io non lo so
+118-1	3849-3852	lei	_	\[lei	TO095	117-0	linguistic	none	_	_	_	*->26-7	*[26]
+118-2	3853-3855	io	_	io	_	117-1	linguistic	none	_	_	_	*->26-8	*[26]
+118-3	3856-3859	non	_	non	_	117-2	linguistic	none	_	_	_	*->26-9	*[26]
+118-4	3860-3862	lo	_	lo	_	117-3	linguistic	none	_	_	_	*->26-10	*[26]
+118-5	3863-3865	so	WeaklyRising	so\],	_	117-4	linguistic	none	_	_	_	*->26-11	*[26]
+
+#Text=ma capisci che io so' arrivata che non sapevo manco l' esistenza di questa quindi n' è che metto a fa' poi a me che me frega di lei
+119-1	3866-3868	ma	_	ma	TO095	118-0	linguistic	none	_	_	_	_	_
+119-2	3869-3876	capisci	_	capisci	_	118-1	linguistic	none	_	_	_	_	_
+119-3	3877-3880	che	_	che	_	118-2	linguistic	none	_	_	_	_	_
+119-4	3881-3883	io	_	io	_	118-3	linguistic	none	_	_	_	_	_
+119-5	3884-3887	so'	_	so'	_	118-4	linguistic	none	_	_	_	_	_
+119-6	3888-3896	arrivata	_	arrivata	_	118-5	linguistic	none	_	_	_	_	_
+119-7	3897-3900	che	_	che	_	118-6	linguistic	none	_	_	_	_	_
+119-8	3901-3904	non	_	non	_	118-7	linguistic	none	_	_	_	_	_
+119-9	3905-3911	sapevo	_	sapevo	_	118-8	linguistic	none	_	_	_	_	_
+119-10	3912-3917	manco	_	manco	_	118-9	linguistic	none	_	_	_	_	_
+119-11	3918-3920	l'	_	l'	_	118-10	linguistic	none	_	_	_	_	_
+119-12	3921-3930	esistenza	_	esistenza	_	118-11	linguistic	none	_	_	_	_	_
+119-13	3931-3933	di	_	di	_	118-12	linguistic	none	_	_	_	_	_
+119-14	3934-3940	questa	WeaklyRising	questa,	_	118-13	linguistic	none	_	_	_	_	_
+119-15	3941-3947	quindi	_	quindi	_	118-14	linguistic	none	_	_	_	_	_
+119-16	3948-3950	n'	_	n'	_	118-15	linguistic	none	_	_	_	_	_
+119-17	3951-3952	è	_	è	_	118-16	linguistic	none	_	_	_	_	_
+119-18	3953-3956	che	_	che	_	118-17	linguistic	none	_	_	_	_	_
+119-19	3957-3962	metto	_	metto	_	118-18	linguistic	none	_	_	_	_	_
+119-20	3963-3964	a	_	a	_	118-19	linguistic	none	_	_	_	_	_
+119-21	3965-3968	fa'	WeaklyRising	fa',	_	118-20	linguistic	none	_	_	_	_	_
+119-22	3969-3972	poi	_	poi	_	118-21	linguistic	none	_	_	_	_	_
+119-23	3973-3974	a	_	a	_	118-22	linguistic	none	_	_	_	_	_
+119-24	3975-3977	me	_	me	_	118-23	linguistic	none	_	_	_	_	_
+119-25	3978-3981	che	_	che	_	118-24	linguistic	none	_	_	_	_	_
+119-26	3982-3984	me	_	me	_	118-25	linguistic	none	_	_	_	_	_
+119-27	3985-3990	frega	_	frega	_	118-26	linguistic	none	_	_	_	_	_
+119-28	3991-3993	di	_	\[di	_	118-27	linguistic	none	_	_	_	*->27-1	*[27]
+119-29	3994-3997	lei	_	lei\]	_	118-28	linguistic	none	_	_	_	*->27-2	*[27]
+
+#Text=no ma un cazzo però ti dico allo stesso modo lei ce può avè le scenate di gelosia che fai tu
+120-1	3998-4000	no	_	\[no::\]	TO091	119-0	linguistic	none	1x2	_	_	*->27-3	*[27]
+120-2	4001-4003	ma	_	ma	_	119-1	linguistic	none	_	_	_	_	_
+120-3	4004-4006	un	_	un	_	119-2	linguistic	none	_	_	_	_	_
+120-4	4007-4012	cazzo	WeaklyRising	cazzo,	_	119-3	linguistic	none	_	_	_	_	_
+120-5	4013-4017	però	_	però	_	119-4	linguistic	none	_	_	_	_	_
+120-6	4018-4020	ti	_	ti	_	119-5	linguistic	none	_	_	_	_	_
+120-7	4021-4025	dico	WeaklyRising	dico,	_	119-6	linguistic	none	_	_	_	_	_
+120-8	4026-4030	allo	_	\[allo	_	119-7	linguistic	none	_	_	_	*->93-1	*[93]
+120-9	4031-4037	stesso	_	stesso	_	119-8	linguistic	none	_	_	_	*->93-2	*[93]
+120-10	4038-4042	modo	_	modo	_	119-9	linguistic	none	_	_	_	*->93-3	*[93]
+120-11	4043-4046	lei	_	lei	_	119-10	linguistic	none	_	_	_	*->93-4	*[93]
+120-12	4047-4049	ce	_	ce	_	119-11	linguistic	none	_	_	_	*->93-5	*[93]
+120-13	4050-4053	può	_	può	_	119-12	linguistic	none	_	_	_	*->93-6	*[93]
+120-14	4054-4057	avè	_	avè	_	119-13	linguistic	none	_	_	_	*->93-7	*[93]
+120-15	4058-4060	le	_	le	_	119-14	linguistic	none	_	_	_	*->93-8	*[93]
+120-16	4061-4068	scenate	_	scenate	_	119-15	linguistic	none	_	_	_	*->93-9	*[93]
+120-17	4069-4071	di	_	di	_	119-16	linguistic	none	_	_	_	*->93-10	*[93]
+120-18	4072-4079	gelosia	_	gelosia	_	119-17	linguistic	none	_	_	_	*->93-11	*[93]
+120-19	4080-4083	che	_	che	_	119-18	linguistic	none	_	_	_	*->93-12	*[93]
+120-20	4084-4087	fai	_	fai\]	_	119-19	linguistic	none	_	_	_	*->93-13	*[93]
+120-21	4088-4090	tu	_	tu	_	119-20	linguistic	none	_	_	_	_	_
+
+#Text=xxxx
+121-1	4091-4095	xxxx	_	\[xxxx\]	TO095	120-0	unknown	none	_	_	_	*->93-14	*[93]
+
+#Text=sì esatto
+122-1	4096-4098	sì	_	\[sì	TO085	121-0	linguistic	none	_	_	_	*->93-15	*[93]
+122-2	4099-4105	esatto	_	esatto\]	_	121-1	linguistic	none	_	_	_	*->93-16	*[93]
+
+#Text=cioè nel senso capito
+123-1	4106-4110	cioè	_	c(io)è	TO091	122-0	linguistic	none	_	_	_	_	_
+123-2	4111-4114	nel	_	\[nel	_	122-1	linguistic	none	_	_	_	*->28-1	*[28]
+123-3	4115-4120	senso	_	senso	_	122-2	linguistic	none	_	_	_	*->28-2	*[28]
+123-4	4121-4127	capito	WeaklyRising	capito\],	_	122-3	linguistic	none	_	_	_	*->28-3	*[28]
+
+#Text=ma io non ce l' ho con lei infatti
+124-1	4128-4130	ma	_	\[ma	TO095	123-0	linguistic	none	_	_	_	*->28-4	*[28]
+124-2	4131-4133	io	_	io	_	123-1	linguistic	none	_	_	_	*->28-5	*[28]
+124-3	4134-4137	non	_	non	_	123-2	linguistic	none	_	_	_	*->28-6	*[28]
+124-4	4138-4140	ce	_	ce	_	123-3	linguistic	none	_	_	_	*->28-7	*[28]
+124-5	4141-4143	l'	_	l'	_	123-4	linguistic	none	_	_	_	*->28-8	*[28]
+124-6	4144-4146	ho	_	ho\]	_	123-5	linguistic	none	_	_	_	*->28-9	*[28]
+124-7	4147-4150	con	_	con	_	123-6	linguistic	none	_	_	_	_	_
+124-8	4151-4154	lei	WeaklyRising	lei,	_	123-7	linguistic	none	_	_	_	_	_
+124-9	4155-4162	infatti	_	infatti	_	123-8	linguistic	none	_	_	_	_	_
+
+#Text=cioè io da lei
+125-1	4163-4167	cioè	_	\[cioè	TO095	124-0	linguistic	none	_	_	_	*->29-1	*[29]
+125-2	4168-4170	io	_	io	_	124-1	linguistic	none	_	_	_	*->29-2	*[29]
+125-3	4171-4173	da	_	da	_	124-2	linguistic	none	_	_	_	*->29-3	*[29]
+125-4	4174-4177	lei	WeaklyRising	lei\],	_	124-3	linguistic	none	_	_	_	*->29-4	*[29]
+
+#Text=ma infatti manco lei 'n ce l' avrà con te
+126-1	4178-4180	ma	_	\[ma	TO091	125-0	linguistic	none	_	_	_	*->29-5	*[29]
+126-2	4181-4188	infatti	_	infatti	_	125-1	linguistic	none	_	_	_	*->29-6	*[29]
+126-3	4189-4194	manco	_	manco\]	_	125-2	linguistic	none	_	_	_	*->29-7	*[29]
+126-4	4195-4198	lei	_	lei	_	125-3	linguistic	none	_	_	_	_	_
+126-5	4199-4201	'n	_	'n	_	125-4	linguistic	none	_	_	_	_	_
+126-6	4202-4204	ce	_	ce	_	125-5	linguistic	none	_	_	_	_	_
+126-7	4205-4207	l'	_	l'	_	125-6	linguistic	none	_	_	_	_	_
+126-8	4208-4212	avrà	_	avrà	_	125-7	linguistic	none	_	_	_	_	_
+126-9	4213-4216	con	_	\[con	_	125-8	linguistic	none	_	_	_	*->30-1	*[30]
+126-10	4217-4219	te	_	te\]	_	125-9	linguistic	none	_	_	_	*->30-2	*[30]
+
+#Text=solo m' ha fatto ansia che lei è entrata
+127-1	4220-4224	solo	_	\[solo\]	TO095	126-0	linguistic	none	_	_	_	*->30-3	*[30]
+127-2	4225-4227	m'	_	m'	_	126-1	linguistic	none	_	_	_	_	_
+127-3	4228-4230	ha	_	(ha	_	126-2	linguistic	none	_	_	_	_	_
+127-4	4231-4236	fatto	_	fatto	_	126-3	linguistic	none	_	_	_	_	_
+127-5	4237-4242	ansia	_	ansia	_	126-4	linguistic	none	_	_	_	_	_
+127-6	4243-4246	che	_	che	_	126-5	linguistic	none	_	_	_	_	_
+127-7	4247-4250	lei	_	lei	_	126-6	linguistic	none	_	_	_	_	_
+127-8	4251-4252	è	_	è	_	126-7	linguistic	none	_	_	_	_	_
+127-9	4253-4260	entrata	WeaklyRising	entrata,	_	126-8	linguistic	none	_	_	_	_	_
+
+#Text=no ma che
+128-1	4261-4263	no	_	no	TO095	127-0	linguistic	none	_	_	_	_	_
+128-2	4264-4266	ma	_	ma	_	127-1	linguistic	none	_	_	_	_	_
+128-3	4267-4270	che	WeaklyRising	che,	_	127-2	linguistic	none	_	_	_	_	_
+
+#Text=che è entrata e m' ha detto sta cosa che m' ha non sa manco il mi nome non sa niente e m' ha detto quindi carlo ti riporta
+129-1	4271-4274	che	_	che	TO095	128-0	linguistic	none	_	_	_	_	_
+129-2	4275-4276	è	_	è	_	128-1	linguistic	none	_	_	_	_	_
+129-3	4277-4284	entrata	WeaklyRising	entrata,	_	128-2	linguistic	none	_	_	_	_	_
+129-4	4285-4286	e	_	e	_	128-3	linguistic	none	_	_	_	_	_
+129-5	4287-4289	m'	_	m'	_	128-4	linguistic	none	_	_	_	_	_
+129-6	4290-4292	ha	_	(ha	_	128-5	linguistic	none	_	_	_	_	_
+129-7	4293-4298	detto	_	detto	_	128-6	linguistic	none	_	_	_	_	_
+129-8	4299-4302	sta	_	sta	_	128-7	linguistic	none	_	_	_	_	_
+129-9	4303-4307	cosa	WeaklyRising	cosa,	_	128-8	linguistic	none	_	_	_	_	_
+129-10	4308-4311	che	_	che	_	128-9	linguistic	none	_	_	_	_	_
+129-11	4312-4314	m'	_	m'	_	128-10	linguistic	none	_	_	_	_	_
+129-12	4315-4317	ha	WeaklyRising	(ha::,	_	128-11	linguistic	none	1x2	_	_	_	_
+129-13	4318-4321	non	_	non	_	128-12	linguistic	none	_	_	_	_	_
+129-14	4322-4324	sa	_	sa	_	128-13	linguistic	none	_	_	_	_	_
+129-15	4325-4330	manco	_	manco	_	128-14	linguistic	none	_	_	_	_	_
+129-16	4331-4333	il	_	il	_	128-15	linguistic	none	_	_	_	_	_
+129-17	4334-4336	mi	_	mi	_	128-16	linguistic	none	_	_	_	_	_
+129-18	4337-4341	nome	WeaklyRising	nome,	_	128-17	linguistic	none	_	_	_	_	_
+129-19	4342-4345	non	_	non	_	128-18	linguistic	none	_	_	_	_	_
+129-20	4346-4348	sa	_	sa	_	128-19	linguistic	none	_	_	_	_	_
+129-21	4349-4355	niente	WeaklyRising	niente,	_	128-20	linguistic	none	_	_	_	_	_
+129-22	4356-4357	e	_	e	_	128-21	linguistic	none	_	_	_	_	_
+129-23	4358-4360	m'	_	m'	_	128-22	linguistic	none	_	_	_	_	_
+129-24	4361-4363	ha	_	(ha	_	128-23	linguistic	none	_	_	_	_	_
+129-25	4364-4369	detto	WeaklyRising	detto,	_	128-24	linguistic	none	_	_	_	_	_
+129-26	4370-4376	quindi	_	quindi	_	128-25	linguistic	none	_	_	_	_	_
+129-27	4377-4382	carlo	_	carlo	_	128-26	linguistic	none	_	_	_	_	_
+129-28	4383-4385	ti	_	ti	_	128-27	linguistic	none	_	_	_	_	_
+129-29	4386-4393	riporta	Rising	riporta?	_	128-28	linguistic	none	_	_	_	_	_
+
+#Text=beh bene
+130-1	4394-4397	beh	_	beh	TO085	129-0	linguistic	none	_	_	_	_	_
+130-2	4398-4402	bene	_	bene	_	129-1	linguistic	none	_	_	_	_	_
+
+#Text=e quindi poi è uscita è andata a rompe il cazzo da carlo
+131-1	4403-4404	e	_	e	TO091	130-0	linguistic	none	_	_	_	_	_
+131-2	4405-4411	quindi	_	quindi	_	130-1	linguistic	none	_	_	_	_	_
+131-3	4412-4415	poi	_	poi	_	130-2	linguistic	none	_	_	_	_	_
+131-4	4416-4417	è	_	è	_	130-3	linguistic	none	_	_	_	_	_
+131-5	4418-4424	uscita	_	uscita	_	130-4	linguistic	none	_	_	_	_	_
+131-6	4425-4426	è	_	è	_	130-5	linguistic	none	_	_	_	_	_
+131-7	4427-4433	andata	_	andata	_	130-6	linguistic	none	_	_	_	_	_
+131-8	4434-4435	a	_	a	_	130-7	linguistic	none	_	_	_	_	_
+131-9	4436-4441	rompe	_	rompe	_	130-8	linguistic	none	_	_	_	_	_
+131-10	4442-4444	il	_	il	_	130-9	linguistic	none	_	_	_	_	_
+131-11	4445-4450	cazzo	_	cazzo	_	130-10	linguistic	none	_	_	_	_	_
+131-12	4451-4453	da	_	da	_	130-11	linguistic	none	_	_	_	_	_
+131-13	4454-4459	carlo	WeaklyRising	carlo,	_	130-12	linguistic	none	_	_	_	_	_
+
+#Text=boh sì cioè appunto io ero in bagno poi ho visto te ho visto francesca e ho iniziato a fa'
+132-1	4460-4463	boh	_	boh	TO095	131-0	linguistic	none	_	_	_	_	_
+132-2	4464-4466	sì	WeaklyRising	sì,	_	131-1	linguistic	none	_	_	_	_	_
+132-3	4467-4471	cioè	WeaklyRising	c(io)è,	_	131-2	linguistic	none	_	_	_	_	_
+132-4	4472-4479	appunto	WeaklyRising	appunto,	_	131-3	linguistic	none	_	_	_	_	_
+132-5	4480-4482	io	_	io	_	131-4	linguistic	none	_	_	_	_	_
+132-6	4483-4486	ero	_	ero	_	131-5	linguistic	none	_	_	_	_	_
+132-7	4487-4489	in	_	in	_	131-6	linguistic	none	_	_	_	_	_
+132-8	4490-4495	bagno	WeaklyRising	bagno,	_	131-7	linguistic	none	_	_	_	_	_
+132-9	4496-4499	poi	_	poi	_	131-8	linguistic	none	_	_	_	_	_
+132-10	4500-4502	ho	_	ho	_	131-9	linguistic	none	_	_	_	_	_
+132-11	4503-4508	visto	_	visto	_	131-10	linguistic	none	_	_	_	_	_
+132-12	4509-4511	te	WeaklyRising	te,	_	131-11	linguistic	none	_	_	_	_	_
+132-13	4512-4514	ho	_	ho	_	131-12	linguistic	none	_	_	_	_	_
+132-14	4515-4520	visto	_	visto	_	131-13	linguistic	none	_	_	_	_	_
+132-15	4521-4530	francesca	WeaklyRising	francesca,	_	131-14	linguistic	none	_	_	_	_	_
+132-16	4531-4532	e	_	e	_	131-15	linguistic	none	_	_	_	_	_
+132-17	4533-4535	ho	_	ho	_	131-16	linguistic	none	_	_	_	_	_
+132-18	4536-4544	iniziato	_	iniziato	_	131-17	linguistic	none	_	_	_	_	_
+132-19	4545-4546	a	_	\[a	_	131-18	linguistic	none	_	_	_	*->31-1	*[31]
+132-20	4547-4550	fa'	WeaklyRising	fa::'\],	_	131-19	linguistic	none	1x2	_	_	*->31-2	*[31]
+
+#Text=la scema sì
+133-1	4551-4553	la	_	\[la\]	TO091	132-0	linguistic	none	_	_	_	*->31-3	*[31]
+133-2	4554-4559	scema	_	scema	_	132-1	linguistic	none	_	_	_	_	_
+133-3	4560-4562	sì	Falling	\[sì\].	_	132-2	linguistic	none	_	_	_	*->32-1	*[32]
+
+#Text=la scema
+134-1	4563-4565	la	_	\[la\]	TO095	133-0	linguistic	none	_	_	_	*->32-2	*[32]
+134-2	4566-4571	scema	_	scema	_	133-1	linguistic	none	_	_	_	_	_
+
+#Text=anche questa xxxxx
+135-1	4572-4577	anche	_	anche	TO085	134-0	linguistic	none	_	_	_	_	_
+135-2	4578-4584	questa	_	questa	_	134-1	linguistic	none	_	_	_	_	_
+135-3	4585-4590	xxxxx	_	xxxxx	_	134-2	unknown	none	_	_	_	_	_
+
+#Text=mi piacciono le rosse mi sa
+136-1	4591-4593	mi	_	mi	TO085	135-0	linguistic	none	_	_	_	_	_
+136-2	4594-4603	piacciono	_	piacciono	_	135-1	linguistic	none	_	_	_	_	_
+136-3	4604-4606	le	_	le	_	135-2	linguistic	none	_	_	_	_	_
+136-4	4607-4612	rosse	_	rosse	_	135-3	linguistic	none	_	_	_	_	_
+136-5	4613-4615	mi	_	mi	_	135-4	linguistic	none	_	_	_	_	_
+136-6	4616-4618	sa	_	sa	_	135-5	linguistic	none	_	_	_	_	_
+
+#Text=però naturali
+137-1	4619-4623	però	_	però	TO095	136-0	linguistic	none	_	_	_	_	_
+137-2	4624-4632	naturali	_	naturali	_	136-1	linguistic	none	_	_	_	_	_
+
+#Text=sì è vero
+138-1	4633-4635	sì	_	sì	TO085	137-0	linguistic	none	_	_	_	_	_
+138-2	4636-4637	è	_	è	_	137-1	linguistic	none	_	_	_	_	_
+138-3	4638-4642	vero	_	\[vero\]	_	137-2	linguistic	none	_	_	_	*->33-1	*[33]
+
+#Text=no quel rosso
+139-1	4643-4645	no	_	\[no	TO095	138-0	linguistic	none	_	_	_	*->33-2	*[33]
+139-2	4646-4650	quel	_	quel\]	_	138-1	linguistic	none	_	_	_	*->33-3	*[33]
+139-3	4651-4656	rosso	WeaklyRising	rosso,	_	138-2	linguistic	none	_	_	_	_	_
+
+#Text=tipo da vecchia
+140-1	4657-4661	tipo	_	tipo	TO095	139-0	linguistic	none	_	_	_	_	_
+140-2	4662-4664	da	_	da	_	139-1	linguistic	none	_	_	_	_	_
+140-3	4665-4672	vecchia	_	vecchia	_	139-2	linguistic	none	_	_	_	_	_
+
+#Text=sì no non quel rosso da vecchia però
+141-1	4673-4675	sì	_	sì	TO085	140-0	linguistic	none	_	_	_	_	_
+141-2	4676-4678	no	WeaklyRising	no,	_	140-1	linguistic	none	_	_	_	_	_
+141-3	4679-4682	non	_	non	_	140-2	linguistic	none	_	_	_	_	_
+141-4	4683-4687	quel	_	quel	_	140-3	linguistic	none	_	_	_	_	_
+141-5	4688-4693	rosso	_	rosso	_	140-4	linguistic	none	_	_	_	_	_
+141-6	4694-4696	da	_	da	_	140-5	linguistic	none	_	_	_	_	_
+141-7	4697-4704	vecchia	WeaklyRising	vecchia,	_	140-6	linguistic	none	_	_	_	_	_
+141-8	4705-4709	però	WeaklyRising	però,	_	140-7	linguistic	none	_	_	_	_	_
+
+#Text=però anche il rosso da vecchia c' ha il suo perché
+142-1	4710-4714	però	_	però	TO091	141-0	linguistic	none	_	_	_	_	_
+142-2	4715-4720	anche	_	anche	_	141-1	linguistic	none	_	_	_	_	_
+142-3	4721-4723	il	_	il	_	141-2	linguistic	none	_	_	_	_	_
+142-4	4724-4729	rosso	_	rosso	_	141-3	linguistic	none	_	_	_	_	_
+142-5	4730-4732	da	_	\[da	_	141-4	linguistic	none	_	_	_	*->34-1	*[34]
+142-6	4733-4740	vecchia	_	vecchia\]	_	141-5	linguistic	none	_	_	_	*->34-2	*[34]
+142-7	4741-4743	c'	_	c'	_	141-6	linguistic	none	_	_	_	_	_
+142-8	4744-4746	ha	_	ha	_	141-7	linguistic	none	_	_	_	_	_
+142-9	4747-4749	il	_	il	_	141-8	linguistic	none	_	_	_	_	_
+142-10	4750-4753	suo	_	suo	_	141-9	linguistic	none	_	_	_	_	_
+142-11	4754-4760	perché	_	perché	_	141-10	linguistic	none	_	_	_	_	_
+
+#Text=però
+143-1	4761-4765	però	_	\[però:\]	TO085	142-0	linguistic	none	3x1	_	_	*->34-3	*[34]
+
+#Text=il rosso fuoco non me pia~ questa qua è già da un pezzo che dici che è figa comunque
+144-1	4766-4768	il	_	il	TO095	143-0	linguistic	none	_	_	_	_	_
+144-2	4769-4774	rosso	_	rosso	_	143-1	linguistic	none	_	_	_	_	_
+144-3	4775-4780	fuoco	_	fuoco	_	143-2	linguistic	none	_	_	_	_	_
+144-4	4781-4784	non	_	non	_	143-3	linguistic	none	_	_	_	_	_
+144-5	4785-4787	me	_	me	_	143-4	linguistic	none	_	_	_	_	_
+144-6	4788-4792	pia~	WeaklyRising	pia~,	_	143-5	linguistic	none	_	_	_	_	_
+144-7	4793-4799	questa	_	questa	_	143-6	linguistic	none	_	_	_	_	_
+144-8	4800-4803	qua	_	qua	_	143-7	linguistic	none	_	_	_	_	_
+144-9	4804-4805	è	_	è	_	143-8	linguistic	none	_	_	_	_	_
+144-10	4806-4809	già	_	già	_	143-9	linguistic	none	_	_	_	_	_
+144-11	4810-4812	da	_	da	_	143-10	linguistic	none	_	_	_	_	_
+144-12	4813-4815	un	_	un	_	143-11	linguistic	none	_	_	_	_	_
+144-13	4816-4821	pezzo	_	pezzo	_	143-12	linguistic	none	_	_	_	_	_
+144-14	4822-4825	che	_	che	_	143-13	linguistic	none	_	_	_	_	_
+144-15	4826-4830	dici	_	dici	_	143-14	linguistic	none	_	_	_	_	_
+144-16	4831-4834	che	_	\[che	_	143-15	linguistic	none	_	_	_	*->35-1	*[35]
+144-17	4835-4836	è	_	è	_	143-16	linguistic	none	_	_	_	*->35-2	*[35]
+144-18	4837-4841	figa	WeaklyRising	figa,	_	143-17	linguistic	none	_	_	_	*->35-3	*[35]
+144-19	4842-4850	comunque	_	comunque\]	_	143-18	linguistic	none	_	_	_	*->35-4	*[35]
+
+#Text=sì lo so lo so
+145-1	4851-4853	sì	_	\[sì::\]	TO085	144-0	linguistic	none	1x2	_	_	*->35-5	*[35]
+145-2	4854-4856	lo	_	lo	_	144-1	linguistic	none	_	_	_	_	_
+145-3	4857-4859	so	WeaklyRising	so,	_	144-2	linguistic	none	_	_	_	_	_
+145-4	4860-4862	lo	_	lo	_	144-3	linguistic	none	_	_	_	_	_
+145-5	4863-4865	so	WeaklyRising	so,	_	144-4	linguistic	none	_	_	_	_	_
+
+#Text=sono innamorata
+146-1	4866-4870	sono	_	sono	TO085	145-0	linguistic	none	_	_	_	_	_
+146-2	4871-4881	innamorata	_	innamorata	_	145-1	linguistic	none	_	_	_	_	_
+
+#Text=ma quindi stai registrando registrando
+147-1	4882-4884	ma	_	ma	TO091	146-0	linguistic	none	_	_	_	_	_
+147-2	4885-4891	quindi	_	quindi	_	146-1	linguistic	none	_	_	_	_	_
+147-3	4892-4896	stai	_	stai	_	146-2	linguistic	none	_	_	_	_	_
+147-4	4897-4908	registrando	_	registrando	_	146-3	linguistic	none	_	_	_	_	_
+147-5	4909-4920	registrando	Rising	registrando?	_	146-4	linguistic	none	_	_	_	_	_
+
+#Text=mh
+148-1	4921-4923	mh	_	m:h	TO085	147-0	linguistic	none	0x1	_	_	_	_
+
+#Text=vuoi fa' un saluto
+149-1	4924-4928	vuoi	_	\[vuoi	TO095	148-0	linguistic	none	_	_	_	*->36-1	*[36]
+149-2	4929-4932	fa'	_	fa'	_	148-1	linguistic	none	_	_	_	*->36-2	*[36]
+149-3	4933-4935	un	_	un	_	148-2	linguistic	none	_	_	_	*->36-3	*[36]
+149-4	4936-4942	saluto	Rising	saluto\]?	_	148-3	linguistic	none	_	_	_	*->36-4	*[36]
+
+#Text=ah dai ho già pre~ eh sì prenotato ((ride))
+150-1	4943-4945	ah	_	\[a:::h	??	149-0	linguistic	none	0x3	_	_	*->36-5	*[36]
+150-2	4946-4949	dai	_	dai\]	_	149-1	linguistic	none	_	_	_	*->36-6	*[36]
+150-3	4950-4952	ho	_	ho	_	149-2	linguistic	none	_	_	_	_	_
+150-4	4953-4956	già	_	già	_	149-3	linguistic	none	_	_	_	_	_
+150-5	4957-4961	pre~	WeaklyRising	pre~,	_	149-4	linguistic	none	_	_	_	_	_
+150-6	4962-4964	eh	_	eh	_	149-5	linguistic	none	_	_	_	_	_
+150-7	4965-4967	sì	_	sì	_	149-6	linguistic	none	_	_	_	_	_
+150-8	4968-4977	prenotato	_	prenotato	_	149-7	linguistic	none	_	_	_	_	_
+150-9	4978-4986	((ride))	_	((ride))	_	149-8	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=hai già prenotato ((ride))
+151-1	4987-4990	hai	_	\[hai	TO091	150-0	linguistic	none	_	_	_	*->38-1	*[38]
+151-2	4991-4994	già	_	già	_	150-1	linguistic	none	_	_	_	*->38-2	*[38]
+151-3	4995-5004	prenotato	_	prenotato\]	_	150-2	linguistic	none	_	_	_	*->38-3	*[38]
+151-4	5005-5013	((ride))	_	((ride))	_	150-3	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=ho già ho già firmato l' opuscolo quindi posso parlare
+152-1	5014-5016	ho	_	\[ho	??	151-0	linguistic	none	_	_	_	*->94-1	*[94]
+152-2	5017-5020	già	WeaklyRising	già:,	_	151-1	linguistic	none	2x1	_	_	*->94-2	*[94]
+152-3	5021-5023	ho	_	ho	_	151-2	linguistic	none	_	_	_	*->94-3	*[94]
+152-4	5024-5027	già	_	già	_	151-3	linguistic	none	_	_	_	*->94-4	*[94]
+152-5	5028-5035	firmato	_	firmato	_	151-4	linguistic	none	_	_	_	*->94-5	*[94]
+152-6	5036-5038	l'	_	l'	_	151-5	linguistic	none	_	_	_	*->94-6	*[94]
+152-7	5039-5047	opuscolo	WeaklyRising	opuscolo,	_	151-6	linguistic	none	_	_	_	*->94-7	*[94]
+152-8	5048-5054	quindi	_	quindi	_	151-7	linguistic	none	_	_	_	*->94-8	*[94]
+152-9	5055-5060	posso	_	posso	_	151-8	linguistic	none	_	_	_	*->94-9	*[94]
+152-10	5061-5068	parlare	_	parlare\]	_	151-9	linguistic	none	_	_	_	*->94-10	*[94]
+
+#Text=hai già firmato esatto
+153-1	5069-5072	hai	_	\[hai	TO085	152-0	linguistic	none	_	_	_	*->94-11	*[94]
+153-2	5073-5076	già	_	già	_	152-1	linguistic	none	_	_	_	*->94-12	*[94]
+153-3	5077-5084	firmato	WeaklyRising	firmato,	_	152-2	linguistic	none	_	_	_	*->94-13	*[94]
+153-4	5085-5091	esatto	_	esatto\]	_	152-3	linguistic	none	_	_	_	*->94-14	*[94]
+
+#Text=io non ho firmato
+154-1	5092-5094	io	_	\[io	TO091	153-0	linguistic	none	_	_	_	*->94-15	*[94]
+154-2	5095-5098	non	_	non	_	153-1	linguistic	none	_	_	_	*->94-16	*[94]
+154-3	5099-5101	ho	_	ho	_	153-2	linguistic	none	_	_	_	*->94-17	*[94]
+154-4	5102-5109	firmato	_	firmato\]	_	153-3	linguistic	none	_	_	_	*->94-18	*[94]
+
+#Text=no dopo ti faccio firmare
+155-1	5110-5112	no	_	no	TO085	154-0	linguistic	none	_	_	_	_	_
+155-2	5113-5117	dopo	_	dopo	_	154-1	linguistic	none	_	_	_	_	_
+155-3	5118-5120	ti	_	ti	_	154-2	linguistic	none	_	_	_	_	_
+155-4	5121-5127	faccio	_	faccio	_	154-3	linguistic	none	_	_	_	_	_
+155-5	5128-5135	firmare	_	firmare	_	154-4	linguistic	none	_	_	_	_	_
+
+#Text=noi ormai siamo schedate
+156-1	5136-5139	noi	_	\[noi	TO095	155-0	linguistic	none	_	_	_	*->39-1	*[39]
+156-2	5140-5145	ormai	_	ormai	_	155-1	linguistic	none	_	_	_	*->39-2	*[39]
+156-3	5146-5151	siamo	_	siamo	_	155-2	linguistic	none	_	_	_	*->39-3	*[39]
+156-4	5152-5160	schedate	_	schedate\]	_	155-3	linguistic	none	_	_	_	*->39-4	*[39]
+
+#Text=devi mettere nome cognome scrivere istituto
+157-1	5161-5165	devi	_	\[devi	??	156-0	linguistic	none	_	_	_	_	_
+157-2	5166-5173	mettere	_	mettere	_	156-1	linguistic	none	_	_	_	_	_
+157-3	5174-5178	nome	WeaklyRising	nome,	_	156-2	linguistic	none	_	_	_	_	_
+157-4	5179-5186	cognome	WeaklyRising	cognome::\],	_	156-3	linguistic	none	6x2	_	_	_	_
+157-5	5187-5195	scrivere	_	scrivere	_	156-4	linguistic	none	_	_	_	_	_
+157-6	5196-5204	istituto	WeaklyRising	istituto::,	_	156-5	linguistic	none	7x2	_	_	_	_
+
+#Text=esatto
+158-1	5205-5211	esatto	_	\[esatto\]	TO085	157-0	linguistic	none	_	_	_	*->40-1	*[40]
+
+#Text=voi praticamente posso anche mettervi i microfoni nascosti xxx
+159-1	5212-5215	voi	_	voi	TO085	158-0	linguistic	none	_	_	_	_	_
+159-2	5216-5228	praticamente	_	praticamente	_	158-1	linguistic	none	_	_	_	_	_
+159-3	5229-5234	posso	_	posso	_	158-2	linguistic	none	_	_	_	_	_
+159-4	5235-5240	anche	_	anche	_	158-3	linguistic	none	_	_	_	_	_
+159-5	5241-5249	mettervi	_	mettervi	_	158-4	linguistic	none	_	_	_	_	_
+159-6	5250-5251	i	_	i	_	158-5	linguistic	none	_	_	_	_	_
+159-7	5252-5261	microfoni	_	microfoni	_	158-6	linguistic	none	_	_	_	_	_
+159-8	5262-5270	nascosti	WeaklyRising	\[nascosti\],	_	158-7	linguistic	none	_	_	_	*->42-1	*[42]
+159-9	5271-5274	xxx	_	xxx	_	158-8	unknown	none	_	_	_	_	_
+
+#Text=esatto
+160-1	5275-5281	esatto	_	\[esatto\]	TO091	159-0	linguistic	none	_	_	_	*->42-2	*[42]
+
+#Text=mi stai profanando
+161-1	5282-5284	mi	_	mi	??	160-0	linguistic	none	_	_	_	_	_
+161-2	5285-5289	stai	_	stai	_	160-1	linguistic	none	_	_	_	_	_
+161-3	5290-5300	profanando	Rising	profanando?	_	160-2	linguistic	none	_	_	_	_	_
+
+#Text=non ti profano tesoro no
+162-1	5301-5304	non	_	non	TO085	161-0	linguistic	none	_	_	_	_	_
+162-2	5305-5307	ti	_	ti	_	161-1	linguistic	none	_	_	_	_	_
+162-3	5308-5315	profano	_	profano	_	161-2	linguistic	none	_	_	_	_	_
+162-4	5316-5322	tesoro	WeaklyRising	tesoro,	_	161-3	linguistic	none	_	_	_	_	_
+162-5	5323-5325	no	_	no	_	161-4	linguistic	none	_	_	_	_	_
+
+#Text=ma quand' è che devi consegnarlo
+163-1	5326-5328	ma	_	ma	??	162-0	linguistic	none	_	_	_	_	_
+163-2	5329-5335	quand'	_	quand'	_	162-1	linguistic	none	_	_	_	_	_
+163-3	5336-5337	è	_	è	_	162-2	linguistic	none	_	_	_	_	_
+163-4	5338-5341	che	_	che	_	162-3	linguistic	none	_	_	_	_	_
+163-5	5342-5346	devi	_	devi	_	162-4	linguistic	none	_	_	_	_	_
+163-6	5347-5358	consegnarlo	Rising	consegnarlo?	_	162-5	linguistic	none	_	_	_	_	_
+
+#Text=già consegnata la vostra
+164-1	5359-5362	già	_	già	TO085	163-0	linguistic	none	_	_	_	_	_
+164-2	5363-5373	consegnata	_	consegnata	_	163-1	linguistic	none	_	_	_	_	_
+164-3	5374-5376	la	_	la	_	163-2	linguistic	none	_	_	_	_	_
+164-4	5377-5383	vostra	_	vostra	_	163-3	linguistic	none	_	_	_	_	_
+
+#Text=è piaciuta
+165-1	5384-5385	è	_	è	TO095	164-0	linguistic	none	_	_	_	_	_
+165-2	5386-5394	piaciuta	Rising	piaciuta?	_	164-1	linguistic	none	_	_	_	_	_
+
+#Text=abbiam fatto successo
+166-1	5395-5401	abbiam	_	\[abbiam	TO095	165-0	linguistic	none	_	_	_	*->95-1	*[95]
+166-2	5402-5407	fatto	_	fatto	_	165-1	linguistic	none	_	_	_	*->95-2	*[95]
+166-3	5408-5416	successo	WeaklyRising	successo\],	_	165-2	linguistic	none	_	_	_	*->95-3	*[95]
+
+#Text=è piaciuta c' è stato un po' di vento
+167-1	5417-5418	è	_	\[è	TO085	166-0	linguistic	none	_	_	_	*->95-4	*[95]
+167-2	5419-5427	piaciuta	WeaklyRising	piaciuta,	_	166-1	linguistic	none	_	_	_	*->95-5	*[95]
+167-3	5428-5430	c'	_	c'	_	166-2	linguistic	none	_	_	_	*->95-6	*[95]
+167-4	5431-5432	è	_	è	_	166-3	linguistic	none	_	_	_	*->95-7	*[95]
+167-5	5433-5438	stato	_	stato	_	166-4	linguistic	none	_	_	_	*->95-8	*[95]
+167-6	5439-5441	un	_	un	_	166-5	linguistic	none	_	_	_	*->95-9	*[95]
+167-7	5442-5445	po'	_	po'	_	166-6	linguistic	none	_	_	_	*->95-10	*[95]
+167-8	5446-5448	di	_	di\]	_	166-7	linguistic	none	_	_	_	*->95-11	*[95]
+167-9	5449-5454	vento	WeaklyRising	vento,	_	166-8	linguistic	none	_	_	_	_	_
+
+#Text=tanti bip ((ride))
+168-1	5455-5460	tanti	_	\[tanti	??	167-0	linguistic	none	_	_	_	*->95-12	*[95]
+168-2	5461-5464	bip	_	bip\]	_	167-1	linguistic	none	_	_	_	*->95-13	*[95]
+168-3	5465-5473	((ride))	_	((ride))	_	167-2	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=sì vabbè ma
+169-1	5474-5476	sì	_	sì	TO085	168-0	linguistic	none	_	_	_	_	_
+169-2	5477-5482	vabbè	_	vabbè	_	168-1	linguistic	none	_	_	_	_	_
+169-3	5483-5485	ma	WeaklyRising	ma,	_	168-2	linguistic	none	_	_	_	_	_
+
+#Text=tanto c' era luciana che faceva i bip da sola quindi
+170-1	5486-5491	tanto	_	\[tanto	TO085	169-0	linguistic	none	_	_	_	_	_
+170-2	5492-5494	c'	_	c'	_	169-1	linguistic	none	_	_	_	_	_
+170-3	5495-5498	era	_	era	_	169-2	linguistic	none	_	_	_	_	_
+170-4	5499-5506	luciana	_	luciana	_	169-3	linguistic	none	_	_	_	_	_
+170-5	5507-5510	che	_	che\]	_	169-4	linguistic	none	_	_	_	_	_
+170-6	5511-5517	faceva	_	faceva	_	169-5	linguistic	none	_	_	_	_	_
+170-7	5518-5519	i	_	i	_	169-6	linguistic	none	_	_	_	_	_
+170-8	5520-5523	bip	_	bip	_	169-7	linguistic	none	_	_	_	_	_
+170-9	5524-5526	da	_	da	_	169-8	linguistic	none	_	_	_	_	_
+170-10	5527-5531	sola	WeaklyRising	sola,	_	169-9	linguistic	none	_	_	_	_	_
+170-11	5532-5538	quindi	WeaklyRising	quindi,	_	169-10	linguistic	none	_	_	_	_	_
+
+#Text=ah è vero luciana se l' è presa un po' troppo si no perché lei deve fare questo progetto
+171-1	5539-5541	ah	_	ah	??	170-0	linguistic	none	_	_	_	_	_
+171-2	5542-5543	è	_	è	_	170-1	linguistic	none	_	_	_	_	_
+171-3	5544-5548	vero	WeaklyRising	vero,	_	170-2	linguistic	none	_	_	_	_	_
+171-4	5549-5556	luciana	_	luciana	_	170-3	linguistic	none	_	_	_	_	_
+171-5	5557-5559	se	_	se	_	170-4	linguistic	none	_	_	_	_	_
+171-6	5560-5562	l'	_	l'	_	170-5	linguistic	none	_	_	_	_	_
+171-7	5563-5564	è	_	è	_	170-6	linguistic	none	_	_	_	_	_
+171-8	5565-5570	presa	_	presa	_	170-7	linguistic	none	_	_	_	_	_
+171-9	5571-5573	un	_	un	_	170-8	linguistic	none	_	_	_	_	_
+171-10	5574-5577	po'	_	po'	_	170-9	linguistic	none	_	_	_	_	_
+171-11	5578-5584	troppo	WeaklyRising	troppo,	_	170-10	linguistic	none	_	_	_	_	_
+171-12	5585-5587	si	_	si	_	170-11	linguistic	none	_	_	_	_	_
+171-13	5588-5590	no	_	no	_	170-12	linguistic	none	_	_	_	_	_
+171-14	5591-5597	perché	_	perché	_	170-13	linguistic	none	_	_	_	_	_
+171-15	5598-5601	lei	_	lei	_	170-14	linguistic	none	_	_	_	_	_
+171-16	5602-5606	deve	_	deve	_	170-15	linguistic	none	_	_	_	_	_
+171-17	5607-5611	fare	_	fare	_	170-16	linguistic	none	_	_	_	_	_
+171-18	5612-5618	questo	_	questo	_	170-17	linguistic	none	_	_	_	_	_
+171-19	5619-5627	progetto	_	progetto	_	170-18	linguistic	none	_	_	_	_	_
+
+#Text=boh racconta te io non so ((ride))
+172-1	5628-5631	boh	_	boh	??	171-0	linguistic	none	_	_	_	_	_
+172-2	5632-5640	racconta	_	racconta	_	171-1	linguistic	none	_	_	_	_	_
+172-3	5641-5643	te	WeaklyRising	te,	_	171-2	linguistic	none	_	_	_	_	_
+172-4	5644-5646	io	_	io	_	171-3	linguistic	none	_	_	_	_	_
+172-5	5647-5650	non	_	non	_	171-4	linguistic	none	_	_	_	_	_
+172-6	5651-5653	so	_	so	_	171-5	linguistic	none	_	_	_	_	_
+172-7	5654-5662	((ride))	_	((ride))	_	171-6	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=raccogliere dati
+173-1	5663-5674	raccogliere	_	raccogliere	TO085	172-0	linguistic	none	_	_	_	_	_
+173-2	5675-5679	dati	_	dati	_	172-1	linguistic	none	_	_	_	_	_
+
+#Text=okay
+174-1	5680-5684	okay	_	okay	TO091	173-0	linguistic	none	_	_	_	_	_
+
+#Text=del gergo giovanile
+175-1	5685-5688	del	_	del	??	174-0	linguistic	none	_	_	_	_	_
+175-2	5689-5694	gergo	_	gergo	_	174-1	linguistic	none	_	_	_	_	_
+175-3	5695-5704	giovanile	_	giovanile	_	174-2	linguistic	none	_	_	_	_	_
+
+#Text=ma non per forza qualsiasi cosa viene fuori è bello
+176-1	5705-5707	ma	_	ma	TO085	175-0	linguistic	none	_	_	_	_	_
+176-2	5708-5711	non	_	non	_	175-1	linguistic	none	_	_	_	_	_
+176-3	5712-5715	per	_	per	_	175-2	linguistic	none	_	_	_	_	_
+176-4	5716-5721	forza	WeaklyRising	forza,	_	175-3	linguistic	none	_	_	_	_	_
+176-5	5722-5731	qualsiasi	_	qualsiasi	_	175-4	linguistic	none	_	_	_	_	_
+176-6	5732-5736	cosa	_	cosa	_	175-5	linguistic	none	_	_	_	_	_
+176-7	5737-5742	viene	_	viene	_	175-6	linguistic	none	_	_	_	_	_
+176-8	5743-5748	fuori	WeaklyRising	\[fuori,	_	175-7	linguistic	none	_	_	_	*->43-1	*[43]
+176-9	5749-5750	è	_	è	_	175-8	linguistic	none	_	_	_	*->43-2	*[43]
+176-10	5751-5756	bello	_	bello\]::	_	175-9	linguistic	none	4x2	_	_	*->43-3	*[43]
+
+#Text=parlata spontanea
+177-1	5757-5764	parlata	_	\[parlata	??	176-0	linguistic	none	_	_	_	*->43-4	*[43]
+177-2	5765-5774	spontanea	_	spontanea\]	_	176-1	linguistic	none	_	_	_	*->43-5	*[43]
+
+#Text=è bello poi studiarlo
+178-1	5775-5776	è	_	è	TO085	177-0	linguistic	none	_	_	_	_	_
+178-2	5777-5782	bello	_	bello	_	177-1	linguistic	none	_	_	_	_	_
+178-3	5783-5786	poi	_	poi	_	177-2	linguistic	none	_	_	_	_	_
+178-4	5787-5796	studiarlo	Falling	studiarlo.	_	177-3	linguistic	none	_	_	_	_	_
+
+#Text=anche la nonna puoi registrare
+179-1	5797-5802	anche	_	anche	TO091	178-0	linguistic	none	_	_	_	_	_
+179-2	5803-5805	la	_	la	_	178-1	linguistic	none	_	_	_	_	_
+179-3	5806-5811	nonna	_	nonna	_	178-2	linguistic	none	_	_	_	_	_
+179-4	5812-5816	puoi	_	puoi	_	178-3	linguistic	none	_	_	_	_	_
+179-5	5817-5827	registrare	_	registrare	_	178-4	linguistic	none	_	_	_	_	_
+
+#Text=devo registrare delle nonne
+180-1	5828-5832	devo	_	devo	TO085	179-0	linguistic	none	_	_	_	_	_
+180-2	5833-5843	registrare	_	registrare	_	179-1	linguistic	none	_	_	_	_	_
+180-3	5844-5849	delle	_	delle	_	179-2	linguistic	none	_	_	_	_	_
+180-4	5850-5855	nonne	WeaklyRising	nonne,	_	179-3	linguistic	none	_	_	_	_	_
+
+#Text=comunque so stata da verdi
+181-1	5856-5864	comunque	_	comunque	TO085	180-0	linguistic	none	_	_	_	_	_
+181-2	5865-5867	so	_	so	_	180-1	linguistic	none	_	_	_	_	_
+181-3	5868-5873	stata	_	stata	_	180-2	linguistic	none	_	_	_	_	_
+181-4	5874-5876	da	_	da	_	180-3	linguistic	none	_	_	_	_	_
+181-5	5877-5882	verdi	WeaklyRising	verdi,	_	180-4	linguistic	none	_	_	_	_	_
+
+#Text=dov' è verdi
+182-1	5883-5887	dov'	_	dov'	TO091	181-0	linguistic	none	_	_	_	_	_
+182-2	5888-5889	è	_	è	_	181-1	linguistic	none	_	_	_	_	_
+182-3	5890-5895	verdi	Rising	\[verdi\]?	_	181-2	linguistic	none	_	_	_	*->44-1	*[44]
+
+#Text=a casa sua adesso è andato a studiare
+183-1	5896-5897	a	_	\[a	TO085	182-0	linguistic	none	_	_	_	*->44-2	*[44]
+183-2	5898-5902	casa	_	casa\]	_	182-1	linguistic	none	_	_	_	*->44-3	*[44]
+183-3	5903-5906	sua	WeaklyRising	sua,	_	182-2	linguistic	none	_	_	_	_	_
+183-4	5907-5913	adesso	_	adesso	_	182-3	linguistic	none	_	_	_	_	_
+183-5	5914-5915	è	_	è	_	182-4	linguistic	none	_	_	_	_	_
+183-6	5916-5922	andato	_	andato	_	182-5	linguistic	none	_	_	_	_	_
+183-7	5923-5924	a	_	a	_	182-6	linguistic	none	_	_	_	_	_
+183-8	5925-5933	studiare	_	studiare	_	182-7	linguistic	none	_	_	_	_	_
+
+#Text=a parlare un po' quindi tu xxx
+184-1	5934-5935	a	_	a	TO085	183-0	linguistic	none	_	_	_	_	_
+184-2	5936-5943	parlare	_	parlare	_	183-1	linguistic	none	_	_	_	_	_
+184-3	5944-5946	un	_	un	_	183-2	linguistic	none	_	_	_	_	_
+184-4	5947-5950	po'	WeaklyRising	po',	_	183-3	linguistic	none	_	_	_	_	_
+184-5	5951-5957	quindi	_	quindi	_	183-4	linguistic	none	_	_	_	_	_
+184-6	5958-5960	tu	_	\[tu	_	183-5	linguistic	none	_	_	_	*->45-1	*[45]
+184-7	5961-5964	xxx	_	xxx\]	_	183-6	unknown	none	_	_	_	*->45-2	*[45]
+
+#Text=ah sei stata da verdi
+185-1	5965-5967	ah	_	\[ah	TO091	184-0	linguistic	none	_	_	_	*->45-3	*[45]
+185-2	5968-5971	sei	_	sei	_	184-1	linguistic	none	_	_	_	*->45-4	*[45]
+185-3	5972-5977	stata	_	stata	_	184-2	linguistic	none	_	_	_	*->45-5	*[45]
+185-4	5978-5980	da	_	da\]	_	184-3	linguistic	none	_	_	_	*->45-6	*[45]
+185-5	5981-5986	verdi	_	verdi	_	184-4	linguistic	none	_	_	_	_	_
+
+#Text=ma pranzo avete pranzato insieme
+186-1	5987-5989	ma	_	ma	TO091	185-0	linguistic	none	_	_	_	_	_
+186-2	5990-5996	pranzo	Rising	pranzo?	_	185-1	linguistic	none	_	_	_	_	_
+186-3	5997-6002	avete	_	avete	_	185-2	linguistic	none	_	_	_	_	_
+186-4	6003-6011	pranzato	_	pranzato	_	185-3	linguistic	none	_	_	_	_	_
+186-5	6012-6019	insieme	Rising	insieme?	_	185-4	linguistic	none	_	_	_	_	_
+
+#Text=io ho pranzato lui aveva già pranzato
+187-1	6020-6022	io	_	io	TO085	186-0	linguistic	none	_	_	_	_	_
+187-2	6023-6025	ho	_	ho	_	186-1	linguistic	none	_	_	_	_	_
+187-3	6026-6034	pranzato	WeaklyRising	pranzato,	_	186-2	linguistic	none	_	_	_	_	_
+187-4	6035-6038	lui	_	lui	_	186-3	linguistic	none	_	_	_	_	_
+187-5	6039-6044	aveva	_	aveva	_	186-4	linguistic	none	_	_	_	_	_
+187-6	6045-6048	già	_	già	_	186-5	linguistic	none	_	_	_	_	_
+187-7	6049-6057	pranzato	_	pranzato	_	186-6	linguistic	none	_	_	_	_	_
+
+#Text=io mi sa che farò comitato sociale
+188-1	6058-6060	io	_	io	TO085	187-0	linguistic	none	_	_	_	_	_
+188-2	6061-6063	mi	_	mi	_	187-1	linguistic	none	_	_	_	_	_
+188-3	6064-6066	sa	_	sa	_	187-2	linguistic	none	_	_	_	_	_
+188-4	6067-6070	che	_	che	_	187-3	linguistic	none	_	_	_	_	_
+188-5	6071-6075	farò	_	farò	_	187-4	linguistic	none	_	_	_	_	_
+188-6	6076-6084	comitato	_	comitato	_	187-5	linguistic	none	_	_	_	_	_
+188-7	6085-6092	sociale	_	sociale	_	187-6	linguistic	none	_	_	_	_	_
+
+#Text=io organizzativo ma perché in realtà ho balzatol' esecutivo
+189-1	6093-6095	io	_	io	TO091	188-0	linguistic	none	_	_	_	_	_
+189-2	6096-6109	organizzativo	WeaklyRising	organizzativo,	_	188-1	linguistic	none	_	_	_	_	_
+189-3	6110-6112	ma	_	ma	_	188-2	linguistic	none	_	_	_	_	_
+189-4	6113-6119	perché	_	perché	_	188-3	linguistic	none	_	_	_	_	_
+189-5	6120-6122	in	_	in	_	188-4	linguistic	none	_	_	_	_	_
+189-6	6123-6129	realtà	_	realtà	_	188-5	linguistic	none	_	_	_	_	_
+189-7	6130-6132	ho	_	\[ho	_	188-6	linguistic	none	_	_	_	*->46-1	*[46]
+189-8	6133-6142	balzatol'	_	balzatol'	_	188-7	linguistic	none	_	_	_	*->46-2	*[46]
+189-9	6143-6152	esecutivo	Falling	esecutivo\].	_	188-8	linguistic	none	_	_	_	*->46-3	*[46]
+
+#Text=l' hai già fatto poi
+190-1	6153-6155	l'	_	\[l'	TO085	189-0	linguistic	none	_	_	_	*->46-4	*[46]
+190-2	6156-6159	hai	_	hai	_	189-1	linguistic	none	_	_	_	*->46-5	*[46]
+190-3	6160-6163	già	_	già	_	189-2	linguistic	none	_	_	_	*->46-6	*[46]
+190-4	6164-6169	fatto	_	fatto	_	189-3	linguistic	none	_	_	_	*->46-7	*[46]
+190-5	6170-6173	poi	_	poi\]	_	189-4	linguistic	none	_	_	_	*->46-8	*[46]
+
+#Text=ah eh
+191-1	6174-6176	ah	_	ah	TO085	190-0	linguistic	none	_	_	_	_	_
+191-2	6177-6179	eh	_	eh	_	190-1	linguistic	none	_	_	_	_	_
+
+#Text=però
+192-1	6180-6184	però	WeaklyRising	\[però\],	TO091	191-0	linguistic	none	_	_	_	*->47-1	*[47]
+
+#Text=però
+193-1	6185-6189	però	WeaklyRising	\[però\],	TO085	192-0	linguistic	none	_	_	_	*->47-2	*[47]
+
+#Text=fai riferimento fai da punto di riferimento
+194-1	6190-6193	fai	_	fai	TO085	193-0	linguistic	none	_	_	_	_	_
+194-2	6194-6205	riferimento	WeaklyRising	riferimento,	_	193-1	linguistic	none	_	_	_	_	_
+194-3	6206-6209	fai	_	fai	_	193-2	linguistic	none	_	_	_	_	_
+194-4	6210-6212	da	_	da	_	193-3	linguistic	none	_	_	_	_	_
+194-5	6213-6218	punto	_	punto	_	193-4	linguistic	none	_	_	_	_	_
+194-6	6219-6221	di	_	di	_	193-5	linguistic	none	_	_	_	_	_
+194-7	6222-6233	riferimento	WeaklyRising	\[riferimento\],	_	193-6	linguistic	none	_	_	_	*->48-1	*[48]
+
+#Text=sì nel senso che non faccio l' esecutivo
+195-1	6234-6236	sì	_	\[sì	TO091	194-0	linguistic	none	_	_	_	*->48-2	*[48]
+195-2	6237-6240	nel	_	nel	_	194-1	linguistic	none	_	_	_	*->48-3	*[48]
+195-3	6241-6246	senso	_	senso\]	_	194-2	linguistic	none	_	_	_	*->48-4	*[48]
+195-4	6247-6250	che	WeaklyRising	che,	_	194-3	linguistic	none	_	_	_	_	_
+195-5	6251-6254	non	_	non	_	194-4	linguistic	none	_	_	_	_	_
+195-6	6255-6261	faccio	_	faccio	_	194-5	linguistic	none	_	_	_	_	_
+195-7	6262-6264	l'	_	l'	_	194-6	linguistic	none	_	_	_	_	_
+195-8	6265-6274	esecutivo	WeaklyRising	esecutivo,	_	194-7	linguistic	none	_	_	_	_	_
+
+#Text=però loro già m' avevano messo come
+196-1	6275-6279	però	_	però	TO091	195-0	linguistic	none	_	_	_	_	_
+196-2	6280-6284	loro	_	loro	_	195-1	linguistic	none	_	_	_	_	_
+196-3	6285-6288	già	_	già	_	195-2	linguistic	none	_	_	_	_	_
+196-4	6289-6291	m'	_	m'	_	195-3	linguistic	none	_	_	_	_	_
+196-5	6292-6299	avevano	_	(avevano	_	195-4	linguistic	none	_	_	_	_	_
+196-6	6300-6305	messo	_	messo	_	195-5	linguistic	none	_	_	_	_	_
+196-7	6306-6310	come	WeaklyRising	come,	_	195-6	linguistic	none	_	_	_	_	_
+
+#Text=responsabile organizzazione in esecutivo quindi ho detto vado
+197-1	6311-6323	responsabile	_	responsabile	TO091	196-0	linguistic	none	_	_	_	_	_
+197-2	6324-6338	organizzazione	_	\[organizzazione\]	_	196-1	linguistic	none	_	_	_	*->49-1	*[49]
+197-3	6339-6341	in	_	in	_	196-2	linguistic	none	_	_	_	_	_
+197-4	6342-6351	esecutivo	WeaklyRising	esecutivo,	_	196-3	linguistic	none	_	_	_	_	_
+197-5	6352-6358	quindi	_	quindi	_	196-4	linguistic	none	_	_	_	_	_
+197-6	6359-6361	ho	_	ho	_	196-5	linguistic	none	_	_	_	_	_
+197-7	6362-6367	detto	_	detto	_	196-6	linguistic	none	_	_	_	_	_
+197-8	6368-6372	vado	_	\[vado::\]	_	196-7	linguistic	none	3x2	_	_	*->50-1	*[50]
+
+#Text=sì
+198-1	6373-6375	sì	_	\[sì\]	TO085	197-0	linguistic	none	_	_	_	*->49-2	*[49]
+
+#Text=sì sì
+199-1	6376-6378	sì	WeaklyRising	\[sì,	TO085	198-0	linguistic	none	_	_	_	*->50-2	*[50]
+199-2	6379-6381	sì	_	sì\]	_	198-1	linguistic	none	_	_	_	*->50-3	*[50]
+
+#Text=ma va benissimo
+200-1	6382-6384	ma	_	ma	TO085	199-0	linguistic	none	_	_	_	_	_
+200-2	6385-6387	va	_	\[va	_	199-1	linguistic	none	_	_	_	*->51-1	*[51]
+200-3	6388-6397	benissimo	WeaklyRising	benissimo\],	_	199-2	linguistic	none	_	_	_	*->51-2	*[51]
+
+#Text=nel comitato organizzativo e aiuto antonio perché non mi fido tanto ((ride)) di antonio semplicemente
+201-1	6398-6401	nel	_	\[nel	TO091	200-0	linguistic	none	_	_	_	*->51-3	*[51]
+201-2	6402-6410	comitato	_	comitato\]	_	200-1	linguistic	none	_	_	_	*->51-4	*[51]
+201-3	6411-6424	organizzativo	WeaklyRising	organizzativo,	_	200-2	linguistic	none	_	_	_	_	_
+201-4	6425-6426	e	_	e	_	200-3	linguistic	none	_	_	_	_	_
+201-5	6427-6432	aiuto	_	aiuto	_	200-4	linguistic	none	_	_	_	_	_
+201-6	6433-6440	antonio	_	antonio	_	200-5	linguistic	none	_	_	_	_	_
+201-7	6441-6447	perché	_	perché	_	200-6	linguistic	none	_	_	_	_	_
+201-8	6448-6451	non	_	non	_	200-7	linguistic	none	_	_	_	_	_
+201-9	6452-6454	mi	_	mi	_	200-8	linguistic	none	_	_	_	_	_
+201-10	6455-6459	fido	_	fido	_	200-9	linguistic	none	_	_	_	_	_
+201-11	6460-6465	tanto	_	tanto	_	200-10	linguistic	none	_	_	_	_	_
+201-12	6466-6474	((ride))	_	((ride))	_	200-11	nonverbalbehavior	none	_	_	_	_	_
+201-13	6475-6477	di	_	di	_	200-12	linguistic	none	_	_	_	_	_
+201-14	6478-6485	antonio	_	antonio	_	200-13	linguistic	none	_	_	_	_	_
+201-15	6486-6499	semplicemente	Falling	semplicemente.	_	200-14	linguistic	none	_	_	_	_	_
+
+#Text=c' ha troppe cose da fa' e l' hanno messo nel comitato organizzativo
+202-1	6500-6502	c'	_	c'	TO091	201-0	linguistic	none	_	_	_	_	_
+202-2	6503-6505	ha	_	ha	_	201-1	linguistic	none	_	_	_	_	_
+202-3	6506-6512	troppe	_	troppe	_	201-2	linguistic	none	_	_	_	_	_
+202-4	6513-6517	cose	_	cose	_	201-3	linguistic	none	_	_	_	_	_
+202-5	6518-6520	da	_	da	_	201-4	linguistic	none	_	_	_	_	_
+202-6	6521-6524	fa'	_	fa'	_	201-5	linguistic	none	_	_	_	_	_
+202-7	6525-6526	e	_	e	_	201-6	linguistic	none	_	_	_	_	_
+202-8	6527-6529	l'	_	l'	_	201-7	linguistic	none	_	_	_	_	_
+202-9	6530-6535	hanno	_	hanno	_	201-8	linguistic	none	_	_	_	_	_
+202-10	6536-6541	messo	_	messo	_	201-9	linguistic	none	_	_	_	_	_
+202-11	6542-6545	nel	_	nel	_	201-10	linguistic	none	_	_	_	_	_
+202-12	6546-6554	comitato	_	comitato	_	201-11	linguistic	none	_	_	_	_	_
+202-13	6555-6568	organizzativo	WeaklyRising	organizzativo,	_	201-12	linguistic	none	_	_	_	_	_
+
+#Text=ah lui è comitato organizzativo
+203-1	6569-6571	ah	_	ah	TO085	202-0	linguistic	none	_	_	_	_	_
+203-2	6572-6575	lui	_	lui	_	202-1	linguistic	none	_	_	_	_	_
+203-3	6576-6577	è	_	è	_	202-2	linguistic	none	_	_	_	_	_
+203-4	6578-6586	comitato	_	comitato	_	202-3	linguistic	none	_	_	_	_	_
+203-5	6587-6600	organizzativo	Rising	\[organizzativo\]?	_	202-4	linguistic	none	_	_	_	*->52-1	*[52]
+
+#Text=perché non politico io dico almeno
+204-1	6601-6607	perché	_	\[perché	TO091	203-0	linguistic	none	_	_	_	*->52-2	*[52]
+204-2	6608-6611	non	_	non\]	_	203-1	linguistic	none	_	_	_	*->52-3	*[52]
+204-3	6612-6620	politico	WeaklyRising	politico,	_	203-2	linguistic	none	_	_	_	_	_
+204-4	6621-6623	io	_	io	_	203-3	linguistic	none	_	_	_	_	_
+204-5	6624-6628	dico	WeaklyRising	\[dico,	_	203-4	linguistic	none	_	_	_	*->53-1	*[53]
+204-6	6629-6635	almeno	WeaklyRising	almeno\],	_	203-5	linguistic	none	_	_	_	*->53-2	*[53]
+
+#Text=eh infatti
+205-1	6636-6638	eh	_	\[eh	TO085	204-0	linguistic	none	_	_	_	*->53-3	*[53]
+205-2	6639-6646	infatti	_	infatti\]	_	204-1	linguistic	none	_	_	_	*->53-4	*[53]
+
+#Text=cioè in realtà ci s' è messo lui capito
+206-1	6647-6651	cioè	_	c(io)è	TO091	205-0	linguistic	none	_	_	_	_	_
+206-2	6652-6654	in	_	in	_	205-1	linguistic	none	_	_	_	_	_
+206-3	6655-6661	realtà	_	realtà	_	205-2	linguistic	none	_	_	_	_	_
+206-4	6662-6664	ci	_	ci	_	205-3	linguistic	none	_	_	_	_	_
+206-5	6665-6667	s'	_	s'	_	205-4	linguistic	none	_	_	_	_	_
+206-6	6668-6669	è	_	(è	_	205-5	linguistic	none	_	_	_	_	_
+206-7	6670-6675	messo	_	messo	_	205-6	linguistic	none	_	_	_	_	_
+206-8	6676-6679	lui	_	lui	_	205-7	linguistic	none	_	_	_	_	_
+206-9	6680-6686	capito	WeaklyRising	capito,	_	205-8	linguistic	none	_	_	_	_	_
+
+#Text=mh
+207-1	6687-6689	mh	_	mh	TO085	206-0	linguistic	none	_	_	_	_	_
+
+#Text=s' è proposto lui e quindi che je vai a dì
+208-1	6690-6692	s'	_	s'	TO091	207-0	linguistic	none	_	_	_	_	_
+208-2	6693-6694	è	_	(è	_	207-1	linguistic	none	_	_	_	_	_
+208-3	6695-6703	proposto	_	proposto	_	207-2	linguistic	none	_	_	_	_	_
+208-4	6704-6707	lui	_	lui	_	207-3	linguistic	none	_	_	_	_	_
+208-5	6708-6709	e	_	e	_	207-4	linguistic	none	_	_	_	_	_
+208-6	6710-6716	quindi	_	quindi	_	207-5	linguistic	none	_	_	_	_	_
+208-7	6717-6720	che	_	che	_	207-6	linguistic	none	_	_	_	_	_
+208-8	6721-6723	je	_	je	_	207-7	linguistic	none	_	_	_	_	_
+208-9	6724-6727	vai	_	vai	_	207-8	linguistic	none	_	_	_	_	_
+208-10	6728-6729	a	_	a	_	207-9	linguistic	none	_	_	_	_	_
+208-11	6730-6732	dì	Falling	dì.	_	207-10	linguistic	none	_	_	_	_	_
+
+#Text=cioè non gli puoi neanche dire no secondo me non sei adatto cioè 'na persona sta brutto
+209-1	6733-6737	cioè	_	c(io)è	TO091	208-0	linguistic	none	_	_	_	_	_
+209-2	6738-6741	non	_	non	_	208-1	linguistic	none	_	_	_	_	_
+209-3	6742-6745	gli	_	gli	_	208-2	linguistic	none	_	_	_	_	_
+209-4	6746-6750	puoi	_	puoi	_	208-3	linguistic	none	_	_	_	_	_
+209-5	6751-6758	neanche	_	neanche	_	208-4	linguistic	none	_	_	_	_	_
+209-6	6759-6763	dire	_	dire	_	208-5	linguistic	none	_	_	_	_	_
+209-7	6764-6766	no	_	no	_	208-6	linguistic	none	_	_	_	_	_
+209-8	6767-6774	secondo	_	secondo	_	208-7	linguistic	none	_	_	_	_	_
+209-9	6775-6777	me	_	me	_	208-8	linguistic	none	_	_	_	_	_
+209-10	6778-6781	non	_	non	_	208-9	linguistic	none	_	_	_	_	_
+209-11	6782-6785	sei	_	sei	_	208-10	linguistic	none	_	_	_	_	_
+209-12	6786-6792	adatto	Falling	adatto.	_	208-11	linguistic	none	_	_	_	_	_
+209-13	6793-6797	cioè	_	c(io)è	_	208-12	linguistic	none	_	_	_	_	_
+209-14	6798-6801	'na	_	'na	_	208-13	linguistic	none	_	_	_	_	_
+209-15	6802-6809	persona	_	persona	_	208-14	linguistic	none	_	_	_	_	_
+209-16	6810-6813	sta	_	sta	_	208-15	linguistic	none	_	_	_	_	_
+209-17	6814-6820	brutto	_	brutto	_	208-16	linguistic	none	_	_	_	_	_
+
+#Text=no no assolutamente
+210-1	6821-6823	no	_	no	TO085	209-0	linguistic	none	_	_	_	_	_
+210-2	6824-6826	no	_	no	_	209-1	linguistic	none	_	_	_	_	_
+210-3	6827-6840	assolutamente	Falling	assolutamente.	_	209-2	linguistic	none	_	_	_	_	_
+
+#Text=poi tanto
+211-1	6841-6844	poi	_	poi	TO091	210-0	linguistic	none	_	_	_	_	_
+211-2	6845-6850	tanto	WeaklyRising	tanto::,	_	210-1	linguistic	none	4x2	_	_	_	_
+
+#Text=politico diritto allo studio se lo pija cristiano che si crede sto cazzo
+212-1	6851-6859	politico	WeaklyRising	politico:::,	TO091	211-0	linguistic	none	7x3	_	_	_	_
+212-2	6860-6867	diritto	_	diritto	_	211-1	linguistic	none	_	_	_	_	_
+212-3	6868-6872	allo	_	allo	_	211-2	linguistic	none	_	_	_	_	_
+212-4	6873-6879	studio	_	studio	_	211-3	linguistic	none	_	_	_	_	_
+212-5	6880-6882	se	_	se	_	211-4	linguistic	none	_	_	_	_	_
+212-6	6883-6885	lo	_	lo	_	211-5	linguistic	none	_	_	_	_	_
+212-7	6886-6890	pija	_	pija	_	211-6	linguistic	none	_	_	_	_	_
+212-8	6891-6900	cristiano	WeaklyRising	cristiano,	_	211-7	linguistic	none	_	_	_	_	_
+212-9	6901-6904	che	_	che	_	211-8	linguistic	none	_	_	_	_	_
+212-10	6905-6907	si	_	si	_	211-9	linguistic	none	_	_	_	_	_
+212-11	6908-6913	crede	WeaklyRising	crede::,	_	211-10	linguistic	none	4x2	_	_	_	_
+212-12	6914-6917	sto	_	sto	_	211-11	linguistic	none	_	_	_	_	_
+212-13	6918-6923	cazzo	Falling	cazzo.	_	211-12	linguistic	none	_	_	_	_	_
+
+#Text=ah okay
+213-1	6924-6926	ah	_	ah	TO085	212-0	linguistic	none	_	_	_	_	_
+213-2	6927-6931	okay	Falling	okay.	_	212-1	linguistic	none	_	_	_	_	_
+
+#Text=presente chi è
+214-1	6932-6940	presente	_	presente	TO091	213-0	linguistic	none	_	_	_	_	_
+214-2	6941-6944	chi	_	chi	_	213-1	linguistic	none	_	_	_	_	_
+214-3	6945-6946	è	WeaklyRising	è,	_	213-2	linguistic	none	_	_	_	_	_
+
+#Text=sì sì sì ho capito
+215-1	6947-6949	sì	WeaklyRising	sì,	TO085	214-0	linguistic	none	_	_	_	_	_
+215-2	6950-6952	sì	_	sì	_	214-1	linguistic	none	_	_	_	_	_
+215-3	6953-6955	sì	_	sì	_	214-2	linguistic	none	_	_	_	_	_
+215-4	6956-6958	ho	_	ho	_	214-3	linguistic	none	_	_	_	_	_
+215-5	6959-6965	capito	Falling	capito.	_	214-4	linguistic	none	_	_	_	_	_
+
+#Text=beh comunque anche ieri eravate
+216-1	6966-6969	beh	_	beh	TO085	215-0	linguistic	none	_	_	_	_	_
+216-2	6970-6978	comunque	_	comunque	_	215-1	linguistic	none	_	_	_	_	_
+216-3	6979-6984	anche	_	anche	_	215-2	linguistic	none	_	_	_	_	_
+216-4	6985-6989	ieri	_	ieri	_	215-3	linguistic	none	_	_	_	_	_
+216-5	6990-6997	eravate	WeaklyRising	eravate,	_	215-4	linguistic	none	_	_	_	_	_
+
+#Text=cioè eravamo pochissimi
+217-1	6998-7002	cioè	_	c(io)è	TO085	216-0	linguistic	none	_	_	_	_	_
+217-2	7003-7010	eravamo	WeaklyRising	eravamo,	_	216-1	linguistic	none	_	_	_	_	_
+217-3	7011-7021	pochissimi	Falling	pochissimi.	_	216-2	linguistic	none	_	_	_	_	_
+
+#Text=sì pochi
+218-1	7022-7024	sì	_	sì	TO091	217-0	linguistic	none	_	_	_	_	_
+218-2	7025-7030	pochi	Falling	pochi.	_	217-1	linguistic	none	_	_	_	_	_
+
+#Text=è venuto jack a riunione
+219-1	7031-7032	è	_	è	TO095	218-0	linguistic	none	_	_	_	_	_
+219-2	7033-7039	venuto	_	venuto	_	218-1	linguistic	none	_	_	_	_	_
+219-3	7040-7044	jack	_	jack	_	218-2	linguistic	none	_	_	_	_	_
+219-4	7045-7046	a	_	a	_	218-3	linguistic	none	_	_	_	_	_
+219-5	7047-7055	riunione	_	riunione	_	218-4	linguistic	none	_	_	_	_	_
+
+#Text=ma va
+220-1	7056-7058	ma	_	ma	TO085	219-0	linguistic	none	_	_	_	_	_
+220-2	7059-7061	va	WeaklyRising	va::,	_	219-1	linguistic	none	1x2	_	_	_	_
+
+#Text=alle sette
+221-1	7062-7066	alle	_	alle	TO091	220-0	linguistic	none	_	_	_	_	_
+221-2	7067-7072	sette	_	\[sette\]	_	220-1	linguistic	none	_	_	_	*->96-1	*[96]
+
+#Text=a vedere
+222-1	7073-7074	a	_	\[a	TO095	221-0	linguistic	none	_	_	_	*->96-2	*[96]
+222-2	7075-7081	vedere	_	vedere\]	_	221-1	linguistic	none	_	_	_	*->96-3	*[96]
+
+#Text=grande
+223-1	7082-7088	grande	WeaklyRising	\[grande\],	TO085	222-0	linguistic	none	_	_	_	*->96-4	*[96]
+
+#Text=è piaciuto
+224-1	7089-7090	è	_	\[è	TO085	223-0	linguistic	none	_	_	_	*->54-1	*[54]
+224-2	7091-7099	piaciuto	Rising	piaciuto\]?	_	223-1	linguistic	none	_	_	_	*->54-2	*[54]
+
+#Text=non s' è beccato una riunione delle migliori c' era marco che faceva il moderatore era da prenderlo a pizze
+225-1	7100-7103	non	_	\[non	TO095	224-0	linguistic	none	_	_	_	*->54-3	*[54]
+225-2	7104-7106	s'	_	s'	_	224-1	linguistic	none	_	_	_	*->54-4	*[54]
+225-3	7107-7108	è	_	(è\]	_	224-2	linguistic	none	_	_	_	*->54-5	*[54]
+225-4	7109-7116	beccato	_	beccato	_	224-3	linguistic	none	_	_	_	_	_
+225-5	7117-7120	una	_	una	_	224-4	linguistic	none	_	_	_	_	_
+225-6	7121-7129	riunione	_	riunione	_	224-5	linguistic	none	_	_	_	_	_
+225-7	7130-7135	delle	_	delle	_	224-6	linguistic	none	_	_	_	_	_
+225-8	7136-7144	migliori	WeaklyRising	migliori,	_	224-7	linguistic	none	_	_	_	_	_
+225-9	7145-7147	c'	_	c'	_	224-8	linguistic	none	_	_	_	_	_
+225-10	7148-7151	era	_	era	_	224-9	linguistic	none	_	_	_	_	_
+225-11	7152-7157	marco	_	marco	_	224-10	linguistic	none	_	_	_	_	_
+225-12	7158-7161	che	_	che	_	224-11	linguistic	none	_	_	_	_	_
+225-13	7162-7168	faceva	_	faceva	_	224-12	linguistic	none	_	_	_	_	_
+225-14	7169-7171	il	_	il	_	224-13	linguistic	none	_	_	_	_	_
+225-15	7172-7182	moderatore	WeaklyRising	moderatore,	_	224-14	linguistic	none	_	_	_	_	_
+225-16	7183-7186	era	_	era	_	224-15	linguistic	none	_	_	_	_	_
+225-17	7187-7189	da	_	da	_	224-16	linguistic	none	_	_	_	_	_
+225-18	7190-7199	prenderlo	_	prenderlo	_	224-17	linguistic	none	_	_	_	_	_
+225-19	7200-7201	a	_	a	_	224-18	linguistic	none	_	_	_	_	_
+225-20	7202-7207	pizze	Falling	pizze.	_	224-19	linguistic	none	_	_	_	_	_
+
+#Text=sì un po' (.) po' troppe regole
+226-1	7208-7210	sì	_	sì	TO085	225-0	linguistic	none	_	_	_	_	_
+226-2	7211-7213	un	_	un	_	225-1	linguistic	none	_	_	_	_	_
+226-3	7214-7217	po'	_	po'	_	225-2	linguistic	none	_	_	_	_	_
+226-4	7218-7221	(.)	_	(.)	_	225-3	shortpause	none	_	_	_	_	_
+226-5	7222-7225	po'	_	po'	_	225-4	linguistic	none	_	_	_	_	_
+226-6	7226-7232	troppe	_	troppe	_	225-5	linguistic	none	_	_	_	_	_
+226-7	7233-7239	regole	_	regole	_	225-6	linguistic	none	_	_	_	_	_
+
+#Text=che poi ieri non serviva neanche perché eravamo pochi quando tipo
+227-1	7240-7243	che	_	che	TO095	226-0	linguistic	none	_	_	_	_	_
+227-2	7244-7247	poi	_	poi	_	226-1	linguistic	none	_	_	_	_	_
+227-3	7248-7252	ieri	_	ieri	_	226-2	linguistic	none	_	_	_	_	_
+227-4	7253-7256	non	_	non	_	226-3	linguistic	none	_	_	_	_	_
+227-5	7257-7264	serviva	_	serviva	_	226-4	linguistic	none	_	_	_	_	_
+227-6	7265-7272	neanche	_	neanche	_	226-5	linguistic	none	_	_	_	_	_
+227-7	7273-7279	perché	_	perché	_	226-6	linguistic	none	_	_	_	_	_
+227-8	7280-7287	eravamo	_	eravamo	_	226-7	linguistic	none	_	_	_	_	_
+227-9	7288-7293	pochi	Falling	pochi.	_	226-8	linguistic	none	_	_	_	_	_
+227-10	7294-7300	quando	WeaklyRising	quando,	_	226-9	linguistic	none	_	_	_	_	_
+227-11	7301-7305	tipo	WeaklyRising	tipo,	_	226-10	linguistic	none	_	_	_	_	_
+
+#Text=siamo stati fino alle dieci di sera santo dio
+228-1	7306-7311	siamo	_	siamo	TO095	227-0	linguistic	none	_	_	_	_	_
+228-2	7312-7317	stati	_	stati	_	227-1	linguistic	none	_	_	_	_	_
+228-3	7318-7322	fino	_	fino	_	227-2	linguistic	none	_	_	_	_	_
+228-4	7323-7327	alle	_	alle	_	227-3	linguistic	none	_	_	_	_	_
+228-5	7328-7333	dieci	_	dieci	_	227-4	linguistic	none	_	_	_	_	_
+228-6	7334-7336	di	_	di	_	227-5	linguistic	none	_	_	_	_	_
+228-7	7337-7341	sera	WeaklyRising	sera,	_	227-6	linguistic	none	_	_	_	_	_
+228-8	7342-7347	santo	_	santo	_	227-7	linguistic	none	_	_	_	_	_
+228-9	7348-7351	dio	_	d:io	_	227-8	linguistic	none	0x1	_	_	_	_
+
+#Text=con l' elezio~ no sì quand' era
+229-1	7352-7355	con	_	con	TO095	228-0	linguistic	none	_	_	_	_	_
+229-2	7356-7358	l'	_	l'	_	228-1	linguistic	none	_	_	_	_	_
+229-3	7359-7366	elezio~	WeaklyRising	elezio~,	_	228-2	linguistic	none	_	_	_	_	_
+229-4	7367-7369	no	_	no	_	228-3	linguistic	none	_	_	_	_	_
+229-5	7370-7372	sì	_	sì	_	228-4	linguistic	none	_	_	_	_	_
+229-6	7373-7379	quand'	_	quand'	_	228-5	linguistic	none	_	_	_	_	_
+229-7	7380-7383	era	WeaklyRising	era,	_	228-6	linguistic	none	_	_	_	_	_
+
+#Text=perché avete continuato a parlare no
+230-1	7384-7390	perché	_	perché	TO085	229-0	linguistic	none	_	_	_	_	_
+230-2	7391-7396	avete	_	avete	_	229-1	linguistic	none	_	_	_	_	_
+230-3	7397-7407	continuato	_	continuato	_	229-2	linguistic	none	_	_	_	_	_
+230-4	7408-7409	a	_	a	_	229-3	linguistic	none	_	_	_	_	_
+230-5	7410-7417	parlare	_	parlare	_	229-4	linguistic	none	_	_	_	_	_
+230-6	7418-7420	no	WeaklyRising	no,	_	229-5	linguistic	none	_	_	_	_	_
+
+#Text=no ieri no
+231-1	7421-7423	no	_	no	TO095	230-0	linguistic	none	_	_	_	_	_
+231-2	7424-7428	ieri	_	ieri	_	230-1	linguistic	none	_	_	_	_	_
+231-3	7429-7431	no	Falling	\[no\].	_	230-2	linguistic	none	_	_	_	*->55-1	*[55]
+
+#Text=tu no sei andata via
+232-1	7432-7434	tu	_	\[tu\]	TO085	231-0	linguistic	none	_	_	_	*->55-2	*[55]
+232-2	7435-7437	no	WeaklyRising	no,	_	231-1	linguistic	none	_	_	_	_	_
+232-3	7438-7441	sei	_	sei	_	231-2	linguistic	none	_	_	_	_	_
+232-4	7442-7448	andata	_	andata	_	231-3	linguistic	none	_	_	_	_	_
+232-5	7449-7452	via	Rising	via?	_	231-4	linguistic	none	_	_	_	_	_
+
+#Text=però c' è stata una riunione dov abbiamo fatto un bordello allucinante forse tu non c' eri
+233-1	7453-7457	però	_	però	TO095	232-0	linguistic	none	_	_	_	_	_
+233-2	7458-7460	c'	_	c'	_	232-1	linguistic	none	_	_	_	_	_
+233-3	7461-7462	è	_	è	_	232-2	linguistic	none	_	_	_	_	_
+233-4	7463-7468	stata	_	stata	_	232-3	linguistic	none	_	_	_	_	_
+233-5	7469-7472	una	_	una	_	232-4	linguistic	none	_	_	_	_	_
+233-6	7473-7481	riunione	_	riunione	_	232-5	linguistic	none	_	_	_	_	_
+233-7	7482-7485	dov	_	dov	_	232-6	linguistic	none	_	_	_	_	_
+233-8	7486-7493	abbiamo	_	(abbiamo)	_	232-7	linguistic	none	_	_	0-7(0)	_	_
+233-9	7494-7499	fatto	_	fatto	_	232-8	linguistic	none	_	_	_	_	_
+233-10	7500-7502	un	_	un	_	232-9	linguistic	none	_	_	_	_	_
+233-11	7503-7511	bordello	_	bordello	_	232-10	linguistic	none	_	_	_	_	_
+233-12	7512-7523	allucinante	WeaklyRising	allucinante,	_	232-11	linguistic	none	_	_	_	_	_
+233-13	7524-7529	forse	_	forse	_	232-12	linguistic	none	_	_	_	_	_
+233-14	7530-7532	tu	_	tu	_	232-13	linguistic	none	_	_	_	_	_
+233-15	7533-7536	non	_	non	_	232-14	linguistic	none	_	_	_	_	_
+233-16	7537-7539	c'	_	\[c'	_	232-15	linguistic	none	_	_	_	*->56-1	*[56]
+233-17	7540-7543	eri	Falling	eri\].	_	232-16	linguistic	none	_	_	_	*->56-2	*[56]
+
+#Text=no non c' ero
+234-1	7544-7546	no	_	\[no\]	TO085	233-0	linguistic	none	_	_	_	*->56-3	*[56]
+234-2	7547-7550	non	_	non	_	233-1	linguistic	none	_	_	_	_	_
+234-3	7551-7553	c'	_	c'	_	233-2	linguistic	none	_	_	_	_	_
+234-4	7554-7557	ero	Falling	ero.	_	233-3	linguistic	none	_	_	_	_	_
+
+#Text=quello al però c' eri alla
+235-1	7558-7564	quello	_	quello	TO095	234-0	linguistic	none	_	_	_	_	_
+235-2	7565-7567	al	WeaklyRising	al:::,	_	234-1	linguistic	none	1x3	_	_	_	_
+235-3	7568-7572	però	_	però	_	234-2	linguistic	none	_	_	_	_	_
+235-4	7573-7575	c'	_	c'	_	234-3	linguistic	none	_	_	_	_	_
+235-5	7576-7579	eri	_	eri	_	234-4	linguistic	none	_	_	_	_	_
+235-6	7580-7584	alla	WeaklyRising	alla,	_	234-5	linguistic	none	_	_	_	_	_
+
+#Text=quella lì a a casa del quartiere in san salvario
+236-1	7585-7591	quella	_	quella	TO095	235-0	linguistic	none	_	_	_	_	_
+236-2	7592-7594	lì	_	lì	_	235-1	linguistic	none	_	_	_	_	_
+236-3	7595-7596	a	WeaklyRising	a::,	_	235-2	linguistic	none	0x2	_	_	_	_
+236-4	7597-7598	a	_	a	_	235-3	linguistic	none	_	_	_	_	_
+236-5	7599-7603	casa	_	casa	_	235-4	linguistic	none	_	_	_	_	_
+236-6	7604-7607	del	_	del	_	235-5	linguistic	none	_	_	_	_	_
+236-7	7608-7617	quartiere	_	quartiere	_	235-6	linguistic	none	_	_	_	_	_
+236-8	7618-7620	in	_	in	_	235-7	linguistic	none	_	_	_	_	_
+236-9	7621-7624	san	_	san	_	235-8	linguistic	none	_	_	_	_	_
+236-10	7625-7633	salvario	_	salvario	_	235-9	linguistic	none	_	_	_	_	_
+
+#Text=sì sì sì
+237-1	7634-7636	sì	Falling	\[sì.	TO085	236-0	linguistic	none	_	_	_	*->58-1	*[58]
+237-2	7637-7639	sì	_	sì	_	236-1	linguistic	none	_	_	_	*->58-2	*[58]
+237-3	7640-7642	sì	_	sì\]	_	236-2	linguistic	none	_	_	_	*->58-3	*[58]
+
+#Text=ah sì sei venuta con me
+238-1	7643-7645	ah	_	\[ah	TO095	237-0	linguistic	none	_	_	_	*->58-4	*[58]
+238-2	7646-7648	sì	_	sì	_	237-1	linguistic	none	_	_	_	*->58-5	*[58]
+238-3	7649-7652	sei	_	sei	_	237-2	linguistic	none	_	_	_	*->58-6	*[58]
+238-4	7653-7659	venuta	_	venuta	_	237-3	linguistic	none	_	_	_	*->58-7	*[58]
+238-5	7660-7663	con	_	con	_	237-4	linguistic	none	_	_	_	*->58-8	*[58]
+238-6	7664-7666	me	Falling	me\].	_	237-5	linguistic	none	_	_	_	*->58-9	*[58]
+
+#Text=quella non so
+239-1	7667-7673	quella	_	\[quella	TO095	238-0	linguistic	none	_	_	_	*->59-1	*[59]
+239-2	7674-7677	non	_	non	_	238-1	linguistic	none	_	_	_	*->59-2	*[59]
+239-3	7678-7680	so	_	so\]	_	238-2	linguistic	none	_	_	_	*->59-3	*[59]
+
+#Text=vabbè quella è 'na merda
+240-1	7681-7686	vabbè	_	\[vabbè	TO085	239-0	linguistic	none	_	_	_	*->59-4	*[59]
+240-2	7687-7693	quella	_	quella\]	_	239-1	linguistic	none	_	_	_	*->59-5	*[59]
+240-3	7694-7695	è	_	è	_	239-2	linguistic	none	_	_	_	_	_
+240-4	7696-7699	'na	_	'na	_	239-3	linguistic	none	_	_	_	_	_
+240-5	7700-7705	merda	Falling	merda.	_	239-4	linguistic	none	_	_	_	_	_
+
+#Text=sì
+241-1	7706-7708	sì	Rising	sì?	TO095	240-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+242-1	7709-7711	sì	Falling	sì.	TO085	241-0	linguistic	none	_	_	_	_	_
+
+#Text=cioè è durata poco
+243-1	7712-7716	cioè	_	c(io)è	TO095	242-0	linguistic	none	_	_	_	_	_
+243-2	7717-7718	è	_	è	_	242-1	linguistic	none	_	_	_	_	_
+243-3	7719-7725	durata	_	durata	_	242-2	linguistic	none	_	_	_	_	_
+243-4	7726-7730	poco	Rising	poco?	_	242-3	linguistic	none	_	_	_	_	_
+
+#Text=sì non abbia~ ah no però io ero andata via prima
+244-1	7731-7733	sì	WeaklyRising	sì,	TO085	243-0	linguistic	none	_	_	_	_	_
+244-2	7734-7737	non	_	non	_	243-1	linguistic	none	_	_	_	_	_
+244-3	7738-7744	abbia~	WeaklyRising	abbia~,	_	243-2	linguistic	none	_	_	_	_	_
+244-4	7745-7747	ah	_	a:h	_	243-3	linguistic	none	0x1	_	_	_	_
+244-5	7748-7750	no	_	no	_	243-4	linguistic	none	_	_	_	_	_
+244-6	7751-7755	però	_	però	_	243-5	linguistic	none	_	_	_	_	_
+244-7	7756-7758	io	_	io	_	243-6	linguistic	none	_	_	_	_	_
+244-8	7759-7762	ero	_	ero	_	243-7	linguistic	none	_	_	_	_	_
+244-9	7763-7769	andata	_	andata	_	243-8	linguistic	none	_	_	_	_	_
+244-10	7770-7773	via	_	via	_	243-9	linguistic	none	_	_	_	_	_
+244-11	7774-7779	prima	Falling	prima.	_	243-10	linguistic	none	_	_	_	_	_
+
+#Text=ah già tu c' avevi la cena
+245-1	7780-7782	ah	_	ah	TO095	244-0	linguistic	none	_	_	_	_	_
+245-2	7783-7786	già	_	già	_	244-1	linguistic	none	_	_	_	_	_
+245-3	7787-7789	tu	_	tu	_	244-2	linguistic	none	_	_	_	_	_
+245-4	7790-7792	c'	_	c'	_	244-3	linguistic	none	_	_	_	_	_
+245-5	7793-7798	avevi	_	avevi	_	244-4	linguistic	none	_	_	_	_	_
+245-6	7799-7801	la	_	la	_	244-5	linguistic	none	_	_	_	_	_
+245-7	7802-7806	cena	_	cena	_	244-6	linguistic	none	_	_	_	_	_
+
+#Text=avevo (.) il concerto
+246-1	7807-7812	avevo	_	avevo	TO085	245-0	linguistic	none	_	_	_	_	_
+246-2	7813-7816	(.)	_	(.)	_	245-1	shortpause	none	_	_	_	_	_
+246-3	7817-7819	il	_	il	_	245-2	linguistic	none	_	_	_	_	_
+246-4	7820-7828	concerto	Falling	concerto.	_	245-3	linguistic	none	_	_	_	_	_
+
+#Text=ah è vero
+247-1	7829-7831	ah	_	ah	TO095	246-0	linguistic	none	_	_	_	_	_
+247-2	7832-7833	è	_	\[è	_	246-1	linguistic	none	_	_	_	*->60-1	*[60]
+247-3	7834-7838	vero	_	vero\]	_	246-2	linguistic	none	_	_	_	*->60-2	*[60]
+
+#Text=ah stasera ci sono i gomma
+248-1	7839-7841	ah	_	\[a:h	TO085	247-0	linguistic	none	0x1	_	_	*->60-3	*[60]
+248-2	7842-7849	stasera	_	stasera\]	_	247-1	linguistic	none	_	_	_	*->60-4	*[60]
+248-3	7850-7852	ci	_	ci	_	247-2	linguistic	none	_	_	_	_	_
+248-4	7853-7857	sono	_	sono	_	247-3	linguistic	none	_	_	_	_	_
+248-5	7858-7859	i	_	i	_	247-4	linguistic	none	_	_	_	_	_
+248-6	7860-7865	gomma	Falling	gomma.	_	247-5	linguistic	none	_	_	_	_	_
+
+#Text=è ho visto
+249-1	7866-7867	è	_	è	TO095	248-0	linguistic	none	_	_	_	_	_
+249-2	7868-7870	ho	_	ho	_	248-1	linguistic	none	_	_	_	_	_
+249-3	7871-7876	visto	_	\[visto\]	_	248-2	linguistic	none	_	_	_	*->61-1	*[61]
+
+#Text=io vado a sentirli
+250-1	7877-7879	io	_	\[io	TO085	249-0	linguistic	none	_	_	_	*->61-2	*[61]
+250-2	7880-7884	vado	_	vado\]	_	249-1	linguistic	none	_	_	_	*->61-3	*[61]
+250-3	7885-7886	a	_	a	_	249-2	linguistic	none	_	_	_	_	_
+250-4	7887-7895	sentirli	Falling	sentirli.	_	249-3	linguistic	none	_	_	_	_	_
+
+#Text=allo spazio xxx
+251-1	7896-7900	allo	_	allo	TO095	250-0	linguistic	none	_	_	_	_	_
+251-2	7901-7907	spazio	_	spazio:::	_	250-1	linguistic	none	5x3	_	_	_	_
+251-3	7908-7911	xxx	_	\[xxx\]	_	250-2	unknown	none	_	_	_	*->62-1	*[62]
+
+#Text=ventuno
+252-1	7912-7919	ventuno	_	\[ventuno\]	TO085	251-0	linguistic	none	_	_	_	*->62-2	*[62]
+
+#Text=ventuno duecentoundici
+253-1	7920-7927	ventuno	WeaklyRising	ventuno,	TO085	252-0	linguistic	none	_	_	_	_	_
+253-2	7928-7942	duecentoundici	_	duecentoundici	_	252-1	linguistic	none	_	_	_	_	_
+
+#Text=io vado venite
+254-1	7943-7945	io	_	io	TO085	253-0	linguistic	none	_	_	_	_	_
+254-2	7946-7950	vado	WeaklyRising	vado,	_	253-1	linguistic	none	_	_	_	_	_
+254-3	7951-7957	venite	Rising	venite?	_	253-2	linguistic	none	_	_	_	_	_
+
+#Text=dai minchia venite
+255-1	7958-7961	dai	_	dai	TO085	254-0	linguistic	none	_	_	_	_	_
+255-2	7962-7969	minchia	WeaklyRising	minchia,	_	254-1	linguistic	none	_	_	_	_	_
+255-3	7970-7976	venite	WeaklyRising	ven\[ite\],	_	254-2	linguistic	none	_	_	_	_	_
+255-3.1	7973-7976	ite	_	_	_	_	_	_	_	_	_	*->63-1	*[63]
+
+#Text=a che ore sono
+256-1	7977-7978	a	_	\[a	??	255-0	linguistic	none	_	_	_	_	_
+256-2	7979-7982	che	_	che\]	_	255-1	linguistic	none	_	_	_	_	_
+256-3	7983-7986	ore	_	ore	_	255-2	linguistic	none	_	_	_	_	_
+256-4	7987-7991	sono	Rising	sono?	_	255-3	linguistic	none	_	_	_	_	_
+
+#Text=io non li ho mai sentiti non
+257-1	7992-7994	io	_	\[io	TO095	256-0	linguistic	none	_	_	_	_	_
+257-2	7995-7998	non	_	non	_	256-1	linguistic	none	_	_	_	_	_
+257-3	7999-8001	li	_	li\]	_	256-2	linguistic	none	_	_	_	_	_
+257-4	8002-8004	ho	_	ho	_	256-3	linguistic	none	_	_	_	_	_
+257-5	8005-8008	mai	_	mai	_	256-4	linguistic	none	_	_	_	_	_
+257-6	8009-8016	sentiti	_	sentiti	_	256-5	linguistic	none	_	_	_	_	_
+257-7	8017-8020	non	_	non:::	_	256-6	linguistic	none	2x3	_	_	_	_
+
+#Text=son bravi
+258-1	8021-8024	son	_	\[son	TO085	257-0	linguistic	none	_	_	_	*->65-1	*[65]
+258-2	8025-8030	bravi	Falling	bravi\].	_	257-1	linguistic	none	_	_	_	*->65-2	*[65]
+
+#Text=io li ho sentiti due volte son molto bravi
+259-1	8031-8033	io	_	io	TO091	258-0	linguistic	none	_	_	_	_	_
+259-2	8034-8036	li	_	li	_	258-1	linguistic	none	_	_	_	_	_
+259-3	8037-8039	ho	_	ho	_	258-2	linguistic	none	_	_	_	_	_
+259-4	8040-8047	sentiti	_	\[sentiti	_	258-3	linguistic	none	_	_	_	*->66-1	*[66]
+259-5	8048-8051	due	_	due	_	258-4	linguistic	none	_	_	_	*->66-2	*[66]
+259-6	8052-8057	volte	WeaklyRising	volte\],	_	258-5	linguistic	none	_	_	_	*->66-3	*[66]
+259-7	8058-8061	son	_	son	_	258-6	linguistic	none	_	_	_	_	_
+259-8	8062-8067	molto	_	molto	_	258-7	linguistic	none	_	_	_	_	_
+259-9	8068-8073	bravi	_	bravi	_	258-8	linguistic	none	_	_	_	_	_
+
+#Text=son bravi
+260-1	8074-8077	son	_	\[son	TO085	259-0	linguistic	none	_	_	_	*->66-4	*[66]
+260-2	8078-8083	bravi	_	bravi\]	_	259-1	linguistic	none	_	_	_	*->66-5	*[66]
+
+#Text=dieci euro
+261-1	8084-8089	dieci	_	dieci	TO085	260-0	linguistic	none	_	_	_	_	_
+261-2	8090-8094	euro	WeaklyRising	euro,	_	260-1	linguistic	none	_	_	_	_	_
+
+#Text=che ore sono
+262-1	8095-8098	che	_	che	TO085	261-0	linguistic	none	_	_	_	_	_
+262-2	8099-8102	ore	_	ore	_	261-1	linguistic	none	_	_	_	_	_
+262-3	8103-8107	sono	Rising	sono?	_	261-2	linguistic	none	_	_	_	_	_
+
+#Text=meno un quarto
+263-1	8108-8112	meno	_	meno	??	262-0	linguistic	none	_	_	_	_	_
+263-2	8113-8115	un	_	un	_	262-1	linguistic	none	_	_	_	_	_
+263-3	8116-8122	quarto	_	quarto	_	262-2	linguistic	none	_	_	_	_	_
+
+#Text=tu vai a lezione
+264-1	8123-8125	tu	_	tu	TO095	263-0	linguistic	none	_	_	_	_	_
+264-2	8126-8129	vai	_	vai	_	263-1	linguistic	none	_	_	_	_	_
+264-3	8130-8131	a	_	a	_	263-2	linguistic	none	_	_	_	_	_
+264-4	8132-8139	lezione	Rising	lezione?	_	263-3	linguistic	none	_	_	_	_	_
+
+#Text=sì
+265-1	8140-8142	sì	Falling	sì.	TO085	264-0	linguistic	none	_	_	_	_	_
+
+#Text=devo presentare a antonio
+266-1	8143-8147	devo	_	devo	TO085	265-0	linguistic	none	_	_	_	_	_
+266-2	8148-8158	presentare	_	presentare	_	265-1	linguistic	none	_	_	_	_	_
+266-3	8159-8160	a	_	a	_	265-2	linguistic	none	_	_	_	_	_
+266-4	8161-8168	antonio	_	antonio	_	265-3	linguistic	none	_	_	_	_	_
+
+#Text=non so bene cosa dire
+267-1	8169-8172	non	_	non	TO085	266-0	linguistic	none	_	_	_	_	_
+267-2	8173-8175	so	_	so	_	266-1	linguistic	none	_	_	_	_	_
+267-3	8176-8180	bene	_	bene	_	266-2	linguistic	none	_	_	_	_	_
+267-4	8181-8185	cosa	_	cosa	_	266-3	linguistic	none	_	_	_	_	_
+267-5	8186-8190	dire	Falling	dire.	_	266-4	linguistic	none	_	_	_	_	_
+
+#Text=viene con te però
+268-1	8191-8196	viene	_	viene	TO095	267-0	linguistic	none	_	_	_	_	_
+268-2	8197-8200	con	_	con	_	267-1	linguistic	none	_	_	_	_	_
+268-3	8201-8203	te	_	te	_	267-2	linguistic	none	_	_	_	_	_
+268-4	8204-8208	però	WeaklyRising	però,	_	267-3	linguistic	none	_	_	_	_	_
+
+#Text=sì sì è lì
+269-1	8209-8211	sì	_	sì	TO085	268-0	linguistic	none	_	_	_	_	_
+269-2	8212-8214	sì	_	sì	_	268-1	linguistic	none	_	_	_	_	_
+269-3	8215-8216	è	_	è	_	268-2	linguistic	none	_	_	_	_	_
+269-4	8217-8219	lì	Falling	lì.	_	268-3	linguistic	none	_	_	_	_	_
+
+#Text=cioè non lo presenti tu e basta
+270-1	8220-8224	cioè	_	c(io)è	TO095	269-0	linguistic	none	_	_	_	_	_
+270-2	8225-8228	non	_	non	_	269-1	linguistic	none	_	_	_	_	_
+270-3	8229-8231	lo	_	lo	_	269-2	linguistic	none	_	_	_	_	_
+270-4	8232-8240	presenti	_	presenti	_	269-3	linguistic	none	_	_	_	_	_
+270-5	8241-8243	tu	_	tu	_	269-4	linguistic	none	_	_	_	_	_
+270-6	8244-8245	e	_	e	_	269-5	linguistic	none	_	_	_	_	_
+270-7	8246-8251	basta	_	basta	_	269-6	linguistic	none	_	_	_	_	_
+
+#Text=io e marco presentiamo
+271-1	8252-8254	io	_	io	TO085	270-0	linguistic	none	_	_	_	_	_
+271-2	8255-8256	e	_	e	_	270-1	linguistic	none	_	_	_	_	_
+271-3	8257-8262	marco	_	marco	_	270-2	linguistic	none	_	_	_	_	_
+271-4	8263-8274	presentiamo	WeaklyRising	presentiamo,	_	270-3	linguistic	none	_	_	_	_	_
+
+#Text=poi lui c' è e parla
+272-1	8275-8278	poi	_	poi	TO085	271-0	linguistic	none	_	_	_	_	_
+272-2	8279-8282	lui	_	lui	_	271-1	linguistic	none	_	_	_	_	_
+272-3	8283-8285	c'	_	c'	_	271-2	linguistic	none	_	_	_	_	_
+272-4	8286-8287	è	WeaklyRising	è::,	_	271-3	linguistic	none	0x2	_	_	_	_
+272-5	8288-8289	e	_	e	_	271-4	linguistic	none	_	_	_	_	_
+272-6	8290-8295	parla	Falling	parla.	_	271-5	linguistic	none	_	_	_	_	_
+
+#Text=sì io dirò due cose sull' udu
+273-1	8296-8298	sì	_	sì	TO085	272-0	linguistic	none	_	_	_	_	_
+273-2	8299-8301	io	_	io	_	272-1	linguistic	none	_	_	_	_	_
+273-3	8302-8306	dirò	_	dirò	_	272-2	linguistic	none	_	_	_	_	_
+273-4	8307-8310	due	_	due	_	272-3	linguistic	none	_	_	_	_	_
+273-5	8311-8315	cose	_	cose	_	272-4	linguistic	none	_	_	_	_	_
+273-6	8316-8321	sull'	_	sull'	_	272-5	linguistic	none	_	_	_	_	_
+273-7	8322-8325	udu	_	udu	_	272-6	linguistic	none	_	_	_	_	_
+
+#Text=quello che abbiamo fatto in questi tre anni ma cioè semplicemente
+274-1	8326-8332	quello	_	quello	TO085	273-0	linguistic	none	_	_	_	_	_
+274-2	8333-8336	che	_	che	_	273-1	linguistic	none	_	_	_	_	_
+274-3	8337-8344	abbiamo	_	abbiamo	_	273-2	linguistic	none	_	_	_	_	_
+274-4	8345-8350	fatto	_	fatto	_	273-3	linguistic	none	_	_	_	_	_
+274-5	8351-8353	in	_	in	_	273-4	linguistic	none	_	_	_	_	_
+274-6	8354-8360	questi	_	questi	_	273-5	linguistic	none	_	_	_	_	_
+274-7	8361-8364	tre	_	tre	_	273-6	linguistic	none	_	_	_	_	_
+274-8	8365-8369	anni	WeaklyRising	anni,	_	273-7	linguistic	none	_	_	_	_	_
+274-9	8370-8372	ma	_	ma	_	273-8	linguistic	none	_	_	_	_	_
+274-10	8373-8377	cioè	_	c(io)è	_	273-9	linguistic	none	_	_	_	_	_
+274-11	8378-8391	semplicemente	WeaklyRising	semplicemente::,	_	273-10	linguistic	none	12x2	_	_	_	_
+
+#Text=io a lezione mia vorrei ma sono finite
+275-1	8392-8394	io	_	io	TO095	274-0	linguistic	none	_	_	_	_	_
+275-2	8395-8396	a	_	a	_	274-1	linguistic	none	_	_	_	_	_
+275-3	8397-8404	lezione	_	lezione	_	274-2	linguistic	none	_	_	_	_	_
+275-4	8405-8408	mia	_	mia	_	274-3	linguistic	none	_	_	_	_	_
+275-5	8409-8415	vorrei	WeaklyRising	vorrei,	_	274-4	linguistic	none	_	_	_	_	_
+275-6	8416-8418	ma	WeaklyRising	ma::,	_	274-5	linguistic	none	1x2	_	_	_	_
+275-7	8419-8423	sono	_	sono	_	274-6	linguistic	none	_	_	_	_	_
+275-8	8424-8430	finite	_	finite	_	274-7	linguistic	none	_	_	_	_	_
+
+#Text=eh
+276-1	8431-8433	eh	_	eh	TO085	275-0	linguistic	none	_	_	_	_	_
+
+#Text=e non riprendono più
+277-1	8434-8435	e	_	e	TO085	276-0	linguistic	none	_	_	_	_	_
+277-2	8436-8439	non	_	non	_	276-1	linguistic	none	_	_	_	_	_
+277-3	8440-8450	riprendono	_	riprendono	_	276-2	linguistic	none	_	_	_	_	_
+277-4	8451-8454	più	Rising	più?	_	276-3	linguistic	none	_	_	_	_	_
+
+#Text=cavolo
+278-1	8455-8461	cavolo	WeaklyRising	cavolo,	TO085	277-0	linguistic	none	_	_	_	_	_
+
+#Text=no perché iniziamo sessione a maggio
+279-1	8462-8464	no	_	no	TO095	278-0	linguistic	none	_	_	_	_	_
+279-2	8465-8471	perché	_	perché	_	278-1	linguistic	none	_	_	_	_	_
+279-3	8472-8480	iniziamo	_	iniziamo	_	278-2	linguistic	none	_	_	_	_	_
+279-4	8481-8489	sessione	_	sessione	_	278-3	linguistic	none	_	_	_	_	_
+279-5	8490-8491	a	_	a	_	278-4	linguistic	none	_	_	_	_	_
+279-6	8492-8498	maggio	WeaklyRising	maggio,	_	278-5	linguistic	none	_	_	_	_	_
+
+#Text=fine maggio
+280-1	8499-8503	fine	_	fine	TO095	279-0	linguistic	none	_	_	_	_	_
+280-2	8504-8510	maggio	_	maggio	_	279-1	linguistic	none	_	_	_	_	_
+
+#Text=io ne ho iniziata una ieri
+281-1	8511-8513	io	_	io	TO085	280-0	linguistic	none	_	_	_	_	_
+281-2	8514-8516	ne	_	ne	_	280-1	linguistic	none	_	_	_	_	_
+281-3	8517-8519	ho	_	ho	_	280-2	linguistic	none	_	_	_	_	_
+281-4	8520-8528	iniziata	_	iniziata	_	280-3	linguistic	none	_	_	_	_	_
+281-5	8529-8532	una	_	una	_	280-4	linguistic	none	_	_	_	_	_
+281-6	8533-8537	ieri	_	ieri	_	280-5	linguistic	none	_	_	_	_	_
+
+#Text=vabbè
+282-1	8538-8543	vabbè	WeaklyRising	vabbè,	TO085	281-0	linguistic	none	_	_	_	_	_
+
+#Text=com' è andata
+283-1	8544-8548	com'	_	com'	TO095	282-0	linguistic	none	_	_	_	_	_
+283-2	8549-8550	è	_	è	_	282-1	linguistic	none	_	_	_	_	_
+283-3	8551-8557	andata	Rising	andata?	_	282-2	linguistic	none	_	_	_	_	_
+
+#Text=cosa
+284-1	8558-8562	cosa	Rising	cosa?	TO085	283-0	linguistic	none	_	_	_	_	_
+
+#Text=tua sorella
+285-1	8563-8566	tua	_	tua	TO095	284-0	linguistic	none	_	_	_	_	_
+285-2	8567-8574	sorella	WeaklyRising	sorella,	_	284-1	linguistic	none	_	_	_	_	_
+
+#Text=bene
+286-1	8575-8579	bene	WeaklyRising	bene,	TO085	285-0	linguistic	none	_	_	_	_	_
+
+#Text=le mie sorelle
+287-1	8580-8582	le	_	le	TO085	286-0	linguistic	none	_	_	_	_	_
+287-2	8583-8586	mie	_	MIE	_	286-1	linguistic	none	_	_	_	_	_
+287-3	8587-8594	sorelle	WeaklyRising	sorelle,	_	286-2	linguistic	none	_	_	_	_	_
+
+#Text=le tue sorelle vero
+288-1	8595-8597	le	_	le	TO095	287-0	linguistic	none	_	_	_	_	_
+288-2	8598-8601	tue	_	TUE	_	287-1	linguistic	none	_	_	_	_	_
+288-3	8602-8609	sorelle	_	sorelle	_	287-2	linguistic	none	_	_	_	_	_
+288-4	8610-8614	vero	Falling	vero.	_	287-3	linguistic	none	_	_	_	_	_
+
+#Text=bene bene sono un po' abbronzata
+289-1	8615-8619	bene	_	bene	TO085	288-0	linguistic	none	_	_	_	_	_
+289-2	8620-8624	bene	WeaklyRising	bene,	_	288-1	linguistic	none	_	_	_	_	_
+289-3	8625-8629	sono	_	sono	_	288-2	linguistic	none	_	_	_	_	_
+289-4	8630-8632	un	_	un	_	288-3	linguistic	none	_	_	_	_	_
+289-5	8633-8636	po'	_	po'	_	288-4	linguistic	none	_	_	_	_	_
+289-6	8637-8647	abbronzata	WeaklyRising	abbronzata,	_	288-5	linguistic	none	_	_	_	_	_
+
+#Text=no
+290-1	8648-8650	no	Falling	no.	TO095	289-0	linguistic	none	_	_	_	_	_
+
+#Text=ma mi hanno detto tutti
+291-1	8651-8653	ma	_	ma	TO085	290-0	linguistic	none	_	_	_	_	_
+291-2	8654-8656	mi	_	mi	_	290-1	linguistic	none	_	_	_	_	_
+291-3	8657-8662	hanno	_	hanno	_	290-2	linguistic	none	_	_	_	_	_
+291-4	8663-8668	detto	_	detto	_	290-3	linguistic	none	_	_	_	_	_
+291-5	8669-8674	tutti	WeaklyRising	\[tutti\],	_	290-4	linguistic	none	_	_	_	*->67-1	*[67]
+
+#Text=no
+292-1	8675-8677	no	Falling	\[no\].	TO095	291-0	linguistic	none	_	_	_	*->67-2	*[67]
+
+#Text=sì
+293-1	8678-8680	sì	Rising	sì?	TO095	292-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+294-1	8681-8683	sì	_	sì	TO085	293-0	linguistic	none	_	_	_	_	_
+
+#Text=a me hanno detto che so' abbronzata ma non
+295-1	8684-8685	a	_	a	TO095	294-0	linguistic	none	_	_	_	_	_
+295-2	8686-8688	me	_	me	_	294-1	linguistic	none	_	_	_	_	_
+295-3	8689-8694	hanno	_	hanno	_	294-2	linguistic	none	_	_	_	_	_
+295-4	8695-8700	detto	_	detto	_	294-3	linguistic	none	_	_	_	_	_
+295-5	8701-8704	che	_	che	_	294-4	linguistic	none	_	_	_	_	_
+295-6	8705-8708	so'	_	so'	_	294-5	linguistic	none	_	_	_	_	_
+295-7	8709-8719	abbronzata	_	abbronzata	_	294-6	linguistic	none	_	_	_	_	_
+295-8	8720-8722	ma	_	\[ma	_	294-7	linguistic	none	_	_	_	*->68-1	*[68]
+295-9	8723-8726	non	_	non::\]	_	294-8	linguistic	none	2x2	_	_	*->68-2	*[68]
+
+#Text=tu sei sempre abbronzata
+296-1	8727-8729	tu	_	\[tu	TO085	295-0	linguistic	none	_	_	_	*->68-3	*[68]
+296-2	8730-8733	sei	_	sei\]	_	295-1	linguistic	none	_	_	_	*->68-4	*[68]
+296-3	8734-8740	sempre	_	sempre	_	295-2	linguistic	none	_	_	_	_	_
+296-4	8741-8751	abbronzata	Falling	abbron\[zata\].	_	295-3	linguistic	none	_	_	_	_	_
+296-4.1	8747-8751	zata	_	_	_	_	_	_	_	_	_	*->69-1	*[69]
+
+#Text=sì perché so' un po' scuretta de mio ma
+297-1	8752-8754	sì	_	\[sì\]	TO095	296-0	linguistic	none	_	_	_	*->69-2	*[69]
+297-2	8755-8761	perché	_	perché	_	296-1	linguistic	none	_	_	_	_	_
+297-3	8762-8765	so'	_	so'	_	296-2	linguistic	none	_	_	_	_	_
+297-4	8766-8768	un	_	un	_	296-3	linguistic	none	_	_	_	_	_
+297-5	8769-8772	po'	_	po'	_	296-4	linguistic	none	_	_	_	_	_
+297-6	8773-8781	scuretta	_	scuretta	_	296-5	linguistic	none	_	_	_	_	_
+297-7	8782-8784	de	_	de	_	296-6	linguistic	none	_	_	_	_	_
+297-8	8785-8788	mio	_	mio	_	296-7	linguistic	none	_	_	_	_	_
+297-9	8789-8791	ma	WeaklyRising	ma,	_	296-8	linguistic	none	_	_	_	_	_
+
+#Text=a perugia era brutto tempo
+298-1	8792-8793	a	_	a	TO095	297-0	linguistic	none	_	_	_	_	_
+298-2	8794-8801	perugia	_	perugia	_	297-1	linguistic	none	_	_	_	_	_
+298-3	8802-8805	era	_	era	_	297-2	linguistic	none	_	_	_	_	_
+298-4	8806-8812	brutto	_	brutto	_	297-3	linguistic	none	_	_	_	_	_
+298-5	8813-8818	tempo	Falling	tempo.	_	297-4	linguistic	none	_	_	_	_	_
+
+#Text=quan~ era caldo
+299-1	8819-8824	quan~	WeaklyRising	quan~,	TO095	298-0	linguistic	none	_	_	_	_	_
+299-2	8825-8828	era	_	era	_	298-1	linguistic	none	_	_	_	_	_
+299-3	8829-8834	caldo	Rising	caldo?	_	298-2	linguistic	none	_	_	_	_	_
+
+#Text=per niente
+300-1	8835-8838	per	_	per	TO085	299-0	linguistic	none	_	_	_	_	_
+300-2	8839-8845	niente	Falling	niente.	_	299-1	linguistic	none	_	_	_	_	_
+
+#Text=no
+301-1	8846-8848	no	Rising	no?	TO095	300-0	linguistic	none	_	_	_	_	_
+
+#Text=non c' era quasi mai il sole
+302-1	8849-8852	non	_	non	TO085	301-0	linguistic	none	_	_	_	_	_
+302-2	8853-8855	c'	_	c'	_	301-1	linguistic	none	_	_	_	_	_
+302-3	8856-8859	era	_	era	_	301-2	linguistic	none	_	_	_	_	_
+302-4	8860-8865	quasi	_	quasi	_	301-3	linguistic	none	_	_	_	_	_
+302-5	8866-8869	mai	_	mai	_	301-4	linguistic	none	_	_	_	_	_
+302-6	8870-8872	il	_	il	_	301-5	linguistic	none	_	_	_	_	_
+302-7	8873-8877	sole	Falling	sole.	_	301-6	linguistic	none	_	_	_	_	_
+
+#Text=xxx che cazzo te sei abbronzata
+303-1	8878-8881	xxx	_	xxx	TO095	302-0	unknown	none	_	_	_	_	_
+303-2	8882-8885	che	_	che	_	302-1	linguistic	none	_	_	_	_	_
+303-3	8886-8891	cazzo	_	cazzo	_	302-2	linguistic	none	_	_	_	_	_
+303-4	8892-8894	te	_	te	_	302-3	linguistic	none	_	_	_	_	_
+303-5	8895-8898	sei	_	sei	_	302-4	linguistic	none	_	_	_	_	_
+303-6	8899-8909	abbronzata	_	abbron\[zata\]	_	302-5	linguistic	none	_	_	_	_	_
+303-6.1	8905-8909	zata	_	_	_	_	_	_	_	_	_	*->70-1	*[70]
+
+#Text=però io mi vedo abbronzata in realtà però vabbè
+304-1	8910-8914	però	_	\[però\]	TO085	303-0	linguistic	none	_	_	_	*->70-2	*[70]
+304-2	8915-8917	io	_	io	_	303-1	linguistic	none	_	_	_	_	_
+304-3	8918-8920	mi	_	mi	_	303-2	linguistic	none	_	_	_	_	_
+304-4	8921-8925	vedo	_	vedo	_	303-3	linguistic	none	_	_	_	_	_
+304-5	8926-8936	abbronzata	_	abbronzata	_	303-4	linguistic	none	_	_	_	_	_
+304-6	8937-8939	in	_	in	_	303-5	linguistic	none	_	_	_	_	_
+304-7	8940-8946	realtà	WeaklyRising	realtà,	_	303-6	linguistic	none	_	_	_	_	_
+304-8	8947-8951	però	_	però	_	303-7	linguistic	none	_	_	_	_	_
+304-9	8952-8957	vabbè	_	vabbè	_	303-8	linguistic	none	_	_	_	_	_
+
+#Text=no belle belle le azzorre
+305-1	8958-8960	no	_	no	TO085	304-0	linguistic	none	_	_	_	_	_
+305-2	8961-8966	belle	WeaklyRising	belle,	_	304-1	linguistic	none	_	_	_	_	_
+305-3	8967-8972	belle	_	belle	_	304-2	linguistic	none	_	_	_	_	_
+305-4	8973-8975	le	_	le	_	304-3	linguistic	none	_	_	_	_	_
+305-5	8976-8983	azzorre	_	azzorre	_	304-4	linguistic	none	_	_	_	_	_
+
+#Text=belle isole
+306-1	8984-8989	belle	_	belle	TO085	305-0	linguistic	none	_	_	_	_	_
+306-2	8990-8995	isole	_	isole	_	305-1	linguistic	none	_	_	_	_	_
+
+#Text=che figo sto coso me piacciono xxxx
+307-1	8996-8999	che	_	che	TO095	306-0	linguistic	none	_	_	_	_	_
+307-2	9000-9004	figo	_	figo	_	306-1	linguistic	none	_	_	_	_	_
+307-3	9005-9008	sto	_	sto	_	306-2	linguistic	none	_	_	_	_	_
+307-4	9009-9013	coso	_	coso	_	306-3	linguistic	none	_	_	_	_	_
+307-5	9014-9016	me	_	me	_	306-4	linguistic	none	_	_	_	_	_
+307-6	9017-9026	piacciono	_	piac(ciono)	_	306-5	linguistic	none	_	_	4-9(0)	_	_
+307-7	9027-9031	xxxx	_	xxxx	_	306-6	unknown	none	_	_	_	_	_
+
+#Text=ma è tuo
+308-1	9032-9034	ma	_	ma	TO095	307-0	linguistic	none	_	_	_	_	_
+308-2	9035-9036	è	_	è	_	307-1	linguistic	none	_	_	_	_	_
+308-3	9037-9040	tuo	Rising	tuo?	_	307-2	linguistic	none	_	_	_	_	_
+
+#Text=sì
+309-1	9041-9043	sì	Falling	sì.	TO085	308-0	linguistic	none	_	_	_	_	_
+
+#Text=è quello che t' hanno regalato
+310-1	9044-9045	è	_	è	TO095	309-0	linguistic	none	_	_	_	_	_
+310-2	9046-9052	quello	_	quello	_	309-1	linguistic	none	_	_	_	_	_
+310-3	9053-9056	che	_	che	_	309-2	linguistic	none	_	_	_	_	_
+310-4	9057-9059	t'	_	t'	_	309-3	linguistic	none	_	_	_	_	_
+310-5	9060-9065	hanno	_	(hanno	_	309-4	linguistic	none	_	_	_	_	_
+310-6	9066-9074	regalato	Rising	regalato?	_	309-5	linguistic	none	_	_	_	_	_
+
+#Text=no
+311-1	9075-9077	no	Falling	no.	TO085	310-0	linguistic	none	_	_	_	_	_
+
+#Text=ce l' aveva il compagno di mia mamma
+312-1	9078-9080	ce	_	ce	TO085	311-0	linguistic	none	_	_	_	_	_
+312-2	9081-9083	l'	_	l'	_	311-1	linguistic	none	_	_	_	_	_
+312-3	9084-9089	aveva	_	aveva	_	311-2	linguistic	none	_	_	_	_	_
+312-4	9090-9092	il	_	il	_	311-3	linguistic	none	_	_	_	_	_
+312-5	9093-9101	compagno	_	compagno	_	311-4	linguistic	none	_	_	_	_	_
+312-6	9102-9104	di	_	di	_	311-5	linguistic	none	_	_	_	_	_
+312-7	9105-9108	mia	_	mia	_	311-6	linguistic	none	_	_	_	_	_
+312-8	9109-9114	mamma	Falling	mamma.	_	311-7	linguistic	none	_	_	_	_	_
+
+#Text=e quindi adesso
+313-1	9115-9116	e	_	e	TO085	312-0	linguistic	none	_	_	_	_	_
+313-2	9117-9123	quindi	_	quindi	_	312-1	linguistic	none	_	_	_	_	_
+313-3	9124-9130	adesso	Rising	adesso?	_	312-2	linguistic	none	_	_	_	_	_
+
+#Text=niente studi per gli esami e basta
+314-1	9131-9137	niente	WeaklyRising	niente,	TO085	313-0	linguistic	none	_	_	_	_	_
+314-2	9138-9143	studi	_	studi	_	313-1	linguistic	none	_	_	_	_	_
+314-3	9144-9147	per	_	per	_	313-2	linguistic	none	_	_	_	_	_
+314-4	9148-9151	gli	_	gli	_	313-3	linguistic	none	_	_	_	_	_
+314-5	9152-9157	esami	_	esami	_	313-4	linguistic	none	_	_	_	_	_
+314-6	9158-9159	e	_	e	_	313-5	linguistic	none	_	_	_	_	_
+314-7	9160-9165	basta	Rising	basta?	_	313-6	linguistic	none	_	_	_	_	_
+
+#Text=potevo anche rimane' a casa di più ma
+315-1	9166-9172	potevo	_	potevo	TO095	314-0	linguistic	none	_	_	_	_	_
+315-2	9173-9178	anche	_	anche	_	314-1	linguistic	none	_	_	_	_	_
+315-3	9179-9186	rimane'	_	rimane'	_	314-2	linguistic	none	_	_	_	_	_
+315-4	9187-9188	a	_	a	_	314-3	linguistic	none	_	_	_	_	_
+315-5	9189-9193	casa	_	casa	_	314-4	linguistic	none	_	_	_	_	_
+315-6	9194-9196	di	_	di	_	314-5	linguistic	none	_	_	_	_	_
+315-7	9197-9200	più	WeaklyRising	più,	_	314-6	linguistic	none	_	_	_	_	_
+315-8	9201-9203	ma	WeaklyRising	ma::,	_	314-7	linguistic	none	1x2	_	_	_	_
+
+#Text=piuttosto mi sparavo guarda
+316-1	9204-9213	piuttosto	_	piuttosto	TO095	315-0	linguistic	none	_	_	_	_	_
+316-2	9214-9216	mi	_	mi	_	315-1	linguistic	none	_	_	_	_	_
+316-3	9217-9224	sparavo	_	sparavo	_	315-2	linguistic	none	_	_	_	_	_
+316-4	9225-9231	guarda	_	\[guarda\]	_	315-3	linguistic	none	_	_	_	*->71-1	*[71]
+
+#Text=sì no infatti
+317-1	9232-9234	sì	_	\[sì	TO085	316-0	linguistic	none	_	_	_	*->71-2	*[71]
+317-2	9235-9237	no	_	no\]	_	316-1	linguistic	none	_	_	_	*->71-3	*[71]
+317-3	9238-9245	infatti	Falling	infatti.	_	316-2	linguistic	none	_	_	_	_	_
+
+#Text=anch' io sai che
+318-1	9246-9251	anch'	_	anch'	TO085	317-0	linguistic	none	_	_	_	_	_
+318-2	9252-9254	io	_	io	_	317-1	linguistic	none	_	_	_	_	_
+318-3	9255-9258	sai	_	sai	_	317-2	linguistic	none	_	_	_	_	_
+318-4	9259-9262	che	WeaklyRising	che,	_	317-3	linguistic	none	_	_	_	_	_
+
+#Text=stamattina son tornata a torino
+319-1	9263-9273	stamattina	_	stamattina	TO085	318-0	linguistic	none	_	_	_	_	_
+319-2	9274-9277	son	_	son	_	318-1	linguistic	none	_	_	_	_	_
+319-3	9278-9285	tornata	_	tornata	_	318-2	linguistic	none	_	_	_	_	_
+319-4	9286-9287	a	_	a	_	318-3	linguistic	none	_	_	_	_	_
+319-5	9288-9294	torino	WeaklyRising	torino,	_	318-4	linguistic	none	_	_	_	_	_
+
+#Text=che mi veniva da piangere
+320-1	9295-9298	che	_	che	TO085	319-0	linguistic	none	_	_	_	_	_
+320-2	9299-9301	mi	_	mi	_	319-1	linguistic	none	_	_	_	_	_
+320-3	9302-9308	veniva	_	veniva	_	319-2	linguistic	none	_	_	_	_	_
+320-4	9309-9311	da	_	da	_	319-3	linguistic	none	_	_	_	_	_
+320-5	9312-9320	piangere	_	piangere	_	319-4	linguistic	none	_	_	_	_	_
+
+#Text=sei felice
+321-1	9321-9324	sei	_	sei	TO095	320-0	linguistic	none	_	_	_	_	_
+321-2	9325-9331	felice	Rising	felice?	_	320-1	linguistic	none	_	_	_	_	_
+
+#Text=sì
+322-1	9332-9334	sì	_	sì	TO085	321-0	linguistic	none	_	_	_	_	_
+
+#Text=mi mancava
+323-1	9335-9337	mi	_	mi	TO085	322-0	linguistic	none	_	_	_	_	_
+323-2	9338-9345	mancava	_	mancava	_	322-1	linguistic	none	_	_	_	_	_
+
+#Text=anche a me anche a me
+324-1	9346-9351	anche	_	anche	TO095	323-0	linguistic	none	_	_	_	_	_
+324-2	9352-9353	a	_	a	_	323-1	linguistic	none	_	_	_	_	_
+324-3	9354-9356	me	WeaklyRising	me,	_	323-2	linguistic	none	_	_	_	_	_
+324-4	9357-9362	anche	_	anche	_	323-3	linguistic	none	_	_	_	_	_
+324-5	9363-9364	a	_	a	_	323-4	linguistic	none	_	_	_	_	_
+324-6	9365-9367	me	_	me	_	323-5	linguistic	none	_	_	_	_	_
+
+#Text=infatti
+325-1	9368-9375	infatti	WeaklyRising	infatti:::,	TO095	324-0	linguistic	none	6x3	_	_	_	_
+
+#Text=mi sono presa bene sti giorni
+326-1	9376-9378	mi	_	mi	TO095	325-0	linguistic	none	_	_	_	_	_
+326-2	9379-9383	sono	_	sono	_	325-1	linguistic	none	_	_	_	_	_
+326-3	9384-9389	presa	_	presa	_	325-2	linguistic	none	_	_	_	_	_
+326-4	9390-9394	bene	_	bene	_	325-3	linguistic	none	_	_	_	_	_
+326-5	9395-9398	sti	_	sti	_	325-4	linguistic	none	_	_	_	_	_
+326-6	9399-9405	giorni	Falling	giorni.	_	325-5	linguistic	none	_	_	_	_	_
+
+#Text=fammi sapere se domani vuoi veni'
+327-1	9406-9411	fammi	_	fammi	TO095	326-0	linguistic	none	_	_	_	_	_
+327-2	9412-9418	sapere	_	sapere	_	326-1	linguistic	none	_	_	_	_	_
+327-3	9419-9421	se	_	se	_	326-2	linguistic	none	_	_	_	_	_
+327-4	9422-9428	domani	_	domani	_	326-3	linguistic	none	_	_	_	_	_
+327-5	9429-9433	vuoi	_	vuoi	_	326-4	linguistic	none	_	_	_	_	_
+327-6	9434-9439	veni'	_	veni'	_	326-5	linguistic	none	_	_	_	_	_
+
+#Text=eh infatti allora
+328-1	9440-9442	eh	_	eh	TO085	327-0	linguistic	none	_	_	_	_	_
+328-2	9443-9450	infatti	WeaklyRising	infa\[tti:::,	_	327-1	linguistic	none	6x3	_	_	_	_
+328-2.1	9447-9450	tti	_	_	_	_	_	_	_	_	_	*->72-1	*[72]
+328-3	9451-9457	allora	WeaklyRising	allora\],	_	327-2	linguistic	none	_	_	_	*->72-2	*[72]
+
+#Text=dillo ai tuoi coinquilini
+329-1	9458-9463	dillo	_	\[dillo	TO095	328-0	linguistic	none	_	_	_	*->72-3	*[72]
+329-2	9464-9466	ai	_	ai	_	328-1	linguistic	none	_	_	_	*->72-4	*[72]
+329-3	9467-9471	tuoi	_	tuoi	_	328-2	linguistic	none	_	_	_	*->72-5	*[72]
+329-4	9472-9483	coinquilini	Falling	coinquilini\].	_	328-3	linguistic	none	_	_	_	*->72-6	*[72]
+
+#Text=allora i miei coinquilini vanno al valentino con degli amici
+330-1	9484-9490	allora	_	allora	TO085	329-0	linguistic	none	_	_	_	_	_
+330-2	9491-9492	i	_	i	_	329-1	linguistic	none	_	_	_	_	_
+330-3	9493-9497	miei	_	miei	_	329-2	linguistic	none	_	_	_	_	_
+330-4	9498-9509	coinquilini	_	coinquilini	_	329-3	linguistic	none	_	_	_	_	_
+330-5	9510-9515	vanno	_	vanno	_	329-4	linguistic	none	_	_	_	_	_
+330-6	9516-9518	al	_	al	_	329-5	linguistic	none	_	_	_	_	_
+330-7	9519-9528	valentino	WeaklyRising	valentino,	_	329-6	linguistic	none	_	_	_	_	_
+330-8	9529-9532	con	_	con	_	329-7	linguistic	none	_	_	_	_	_
+330-9	9533-9538	degli	_	degli	_	329-8	linguistic	none	_	_	_	_	_
+330-10	9539-9544	amici	WeaklyRising	amici,	_	329-9	linguistic	none	_	_	_	_	_
+
+#Text=a ma cosa loro fanno
+331-1	9545-9546	a	_	a	TO095	330-0	linguistic	none	_	_	_	_	_
+331-2	9547-9549	ma	_	ma	_	330-1	linguistic	none	_	_	_	_	_
+331-3	9550-9554	cosa	_	(cosa)	_	330-2	linguistic	none	_	_	0-4(0)	_	_
+331-4	9555-9559	loro	_	loro	_	330-3	linguistic	none	_	_	_	_	_
+331-5	9560-9565	fanno	WeaklyRising	fanno,	_	330-4	linguistic	none	_	_	_	_	_
+
+#Text=no c' è un evento in realtà
+332-1	9566-9568	no	_	no	TO085	331-0	linguistic	none	_	_	_	_	_
+332-2	9569-9571	c'	_	c'	_	331-1	linguistic	none	_	_	_	_	_
+332-3	9572-9573	è	WeaklyRising	è::,	_	331-2	linguistic	none	0x2	_	_	_	_
+332-4	9574-9576	un	_	un	_	331-3	linguistic	none	_	_	_	_	_
+332-5	9577-9583	evento	_	evento	_	331-4	linguistic	none	_	_	_	_	_
+332-6	9584-9586	in	_	in	_	331-5	linguistic	none	_	_	_	_	_
+332-7	9587-9593	realtà	_	realtà	_	331-6	linguistic	none	_	_	_	_	_
+
+#Text=ah okay
+333-1	9594-9596	ah	_	ah	TO095	332-0	linguistic	none	_	_	_	_	_
+333-2	9597-9601	okay	_	okay	_	332-1	linguistic	none	_	_	_	_	_
+
+#Text=però boh
+334-1	9602-9606	però	WeaklyRising	però::,	TO085	333-0	linguistic	none	3x2	_	_	_	_
+334-2	9607-9610	boh	_	boh	_	333-1	linguistic	none	_	_	_	_	_
+
+#Text=piuttosto passo a salutare
+335-1	9611-9620	piuttosto	WeaklyRising	piuttosto,	TO085	334-0	linguistic	none	_	_	_	_	_
+335-2	9621-9626	passo	_	passo	_	334-1	linguistic	none	_	_	_	_	_
+335-3	9627-9628	a	_	a	_	334-2	linguistic	none	_	_	_	_	_
+335-4	9629-9637	salutare	WeaklyRising	salutare,	_	334-3	linguistic	none	_	_	_	_	_
+
+#Text=non lo so
+336-1	9638-9641	non	_	non	TO085	335-0	linguistic	none	_	_	_	_	_
+336-2	9642-9644	lo	_	lo	_	335-1	linguistic	none	_	_	_	_	_
+336-3	9645-9647	so	WeaklyRising	so,	_	335-2	linguistic	none	_	_	_	_	_
+
+#Text=eh vedi
+337-1	9648-9650	eh	_	eh	TO095	336-0	linguistic	none	_	_	_	_	_
+337-2	9651-9655	vedi	_	vedi	_	336-1	linguistic	none	_	_	_	_	_
+
+#Text=se vuoi far pranzo e poi vai da loro al vale
+338-1	9656-9658	se	_	se	TO095	337-0	linguistic	none	_	_	_	_	_
+338-2	9659-9663	vuoi	_	vuoi	_	337-1	linguistic	none	_	_	_	_	_
+338-3	9664-9667	far	_	far	_	337-2	linguistic	none	_	_	_	_	_
+338-4	9668-9674	pranzo	WeaklyRising	pranzo,	_	337-3	linguistic	none	_	_	_	_	_
+338-5	9675-9676	e	_	e	_	337-4	linguistic	none	_	_	_	_	_
+338-6	9677-9680	poi	_	poi	_	337-5	linguistic	none	_	_	_	_	_
+338-7	9681-9684	vai	_	vai	_	337-6	linguistic	none	_	_	_	_	_
+338-8	9685-9687	da	_	da	_	337-7	linguistic	none	_	_	_	_	_
+338-9	9688-9692	loro	_	loro	_	337-8	linguistic	none	_	_	_	_	_
+338-10	9693-9695	al	_	al	_	337-9	linguistic	none	_	_	_	_	_
+338-11	9696-9700	vale	WeaklyRising	vale,	_	337-10	linguistic	none	_	_	_	_	_
+
+#Text=che ne so
+339-1	9701-9704	che	_	che	TO095	338-0	linguistic	none	_	_	_	_	_
+339-2	9705-9707	ne	_	ne	_	338-1	linguistic	none	_	_	_	_	_
+339-3	9708-9710	so	WeaklyRising	so,	_	338-2	linguistic	none	_	_	_	_	_
+
+#Text=perché loro fanno c' è noi faccia~
+340-1	9711-9717	perché	_	perché	TO085	339-0	linguistic	none	_	_	_	_	_
+340-2	9718-9722	loro	_	loro	_	339-1	linguistic	none	_	_	_	_	_
+340-3	9723-9728	fanno	WeaklyRising	fann\[o::,	_	339-2	linguistic	none	4x2	_	_	_	_
+340-3.1	9727-9728	o	_	_	_	_	_	_	_	_	_	*->73-1	*[73]
+340-4	9729-9731	c'	_	c'	_	339-3	linguistic	none	_	_	_	*->73-2	*[73]
+340-5	9732-9733	è	_	è	_	339-4	linguistic	none	_	_	_	*->73-3	*[73]
+340-6	9734-9737	noi	_	noi	_	339-5	linguistic	none	_	_	_	*->73-4	*[73]
+340-7	9738-9745	faccia~	WeaklyRising	faccia~\],	_	339-6	linguistic	none	_	_	_	*->73-5	*[73]
+
+#Text=ché noi facciamo corteo pranzo tipo siamo là
+341-1	9746-9749	ché	_	\[ché	TO095	340-0	linguistic	none	_	_	_	*->73-6	*[73]
+341-2	9750-9753	noi	_	noi	_	340-1	linguistic	none	_	_	_	*->73-7	*[73]
+341-3	9754-9762	facciamo	_	facciamo	_	340-2	linguistic	none	_	_	_	*->73-8	*[73]
+341-4	9763-9769	corteo	WeaklyRising	corteo\],	_	340-3	linguistic	none	_	_	_	*->73-9	*[73]
+341-5	9770-9776	pranzo	_	pranzo	_	340-4	linguistic	none	_	_	_	_	_
+341-6	9777-9781	tipo	_	\[tipo	_	340-5	linguistic	none	_	_	_	*->74-1	*[74]
+341-7	9782-9787	siamo	_	siamo	_	340-6	linguistic	none	_	_	_	*->74-2	*[74]
+341-8	9788-9790	là	Falling	là\].	_	340-7	linguistic	none	_	_	_	*->74-3	*[74]
+
+#Text=eh sì sì
+342-1	9791-9793	eh	_	\[eh	TO085	341-0	linguistic	none	_	_	_	*->74-4	*[74]
+342-2	9794-9796	sì	_	sì	_	341-1	linguistic	none	_	_	_	*->74-5	*[74]
+342-3	9797-9799	sì	_	sì\]	_	341-2	linguistic	none	_	_	_	*->74-6	*[74]
+
+#Text=quindi se vuoi fà corteo pranzo e poi vai al vale
+343-1	9800-9806	quindi	_	quindi	TO095	342-0	linguistic	none	_	_	_	_	_
+343-2	9807-9809	se	_	se	_	342-1	linguistic	none	_	_	_	_	_
+343-3	9810-9814	vuoi	_	vuoi	_	342-2	linguistic	none	_	_	_	_	_
+343-4	9815-9817	fà	_	fà	_	342-3	linguistic	none	_	_	_	_	_
+343-5	9818-9824	corteo	_	corteo	_	342-4	linguistic	none	_	_	_	_	_
+343-6	9825-9831	pranzo	_	pranzo	_	342-5	linguistic	none	_	_	_	_	_
+343-7	9832-9833	e	_	e	_	342-6	linguistic	none	_	_	_	_	_
+343-8	9834-9837	poi	_	poi	_	342-7	linguistic	none	_	_	_	_	_
+343-9	9838-9841	vai	_	vai	_	342-8	linguistic	none	_	_	_	_	_
+343-10	9842-9844	al	_	al	_	342-9	linguistic	none	_	_	_	_	_
+343-11	9845-9849	vale	WeaklyRising	vale,	_	342-10	linguistic	none	_	_	_	_	_
+
+#Text=ce sta
+344-1	9850-9852	ce	_	ce	TO095	343-0	linguistic	none	_	_	_	_	_
+344-2	9853-9856	sta	_	sta	_	343-1	linguistic	none	_	_	_	_	_
+
+#Text=ma sei sicur~ c' è danno loro la carne
+345-1	9857-9859	ma	_	ma	TO085	344-0	linguistic	none	_	_	_	_	_
+345-2	9860-9863	sei	_	sei	_	344-1	linguistic	none	_	_	_	_	_
+345-3	9864-9870	sicur~	Rising	sicur~?	_	344-2	linguistic	none	_	_	_	_	_
+345-4	9871-9873	c'	_	c'	_	344-3	linguistic	none	_	_	_	_	_
+345-5	9874-9875	è	_	è	_	344-4	linguistic	none	_	_	_	_	_
+345-6	9876-9881	danno	_	danno	_	344-5	linguistic	none	_	_	_	_	_
+345-7	9882-9886	loro	_	loro	_	344-6	linguistic	none	_	_	_	_	_
+345-8	9887-9889	la	_	la	_	344-7	linguistic	none	_	_	_	_	_
+345-9	9890-9895	carne	Rising	carne?	_	344-8	linguistic	none	_	_	_	_	_
+
+#Text=ma io probabile che mi porti qualcosa adesso ci organizziamo vediamo un po'
+346-1	9896-9898	ma	_	ma	TO095	345-0	linguistic	none	_	_	_	_	_
+346-2	9899-9901	io	_	io	_	345-1	linguistic	none	_	_	_	_	_
+346-3	9902-9911	probabile	_	probabile	_	345-2	linguistic	none	_	_	_	_	_
+346-4	9912-9915	che	_	che	_	345-3	linguistic	none	_	_	_	_	_
+346-5	9916-9918	mi	_	mi	_	345-4	linguistic	none	_	_	_	_	_
+346-6	9919-9924	porti	_	porti	_	345-5	linguistic	none	_	_	_	_	_
+346-7	9925-9933	qualcosa	WeaklyRising	qualcosa,	_	345-6	linguistic	none	_	_	_	_	_
+346-8	9934-9940	adesso	_	adesso	_	345-7	linguistic	none	_	_	_	_	_
+346-9	9941-9943	ci	_	ci	_	345-8	linguistic	none	_	_	_	_	_
+346-10	9944-9956	organizziamo	WeaklyRising	organizziamo,	_	345-9	linguistic	none	_	_	_	_	_
+346-11	9957-9964	vediamo	_	\[vediamo	_	345-10	linguistic	none	_	_	_	*->75-1	*[75]
+346-12	9965-9967	un	_	un	_	345-11	linguistic	none	_	_	_	*->75-2	*[75]
+346-13	9968-9971	po'	_	po'\]	_	345-12	linguistic	none	_	_	_	*->75-3	*[75]
+
+#Text=mi sembra strano che xxx
+347-1	9972-9974	mi	_	\[mi	TO085	346-0	linguistic	none	_	_	_	*->75-4	*[75]
+347-2	9975-9981	sembra	_	sembra\]	_	346-1	linguistic	none	_	_	_	*->75-5	*[75]
+347-3	9982-9988	strano	_	strano	_	346-2	linguistic	none	_	_	_	_	_
+347-4	9989-9992	che	_	che	_	346-3	linguistic	none	_	_	_	_	_
+347-5	9993-9996	xxx	_	\[xxx\]	_	346-4	unknown	none	_	_	_	*->76-1	*[76]
+
+#Text=no la danno loro
+348-1	9997-9999	no	_	\[no	TO095	347-0	linguistic	none	_	_	_	*->76-2	*[76]
+348-2	10000-10002	la	_	la	_	347-1	linguistic	none	_	_	_	*->76-3	*[76]
+348-3	10003-10008	danno	_	danno\]	_	347-2	linguistic	none	_	_	_	*->76-4	*[76]
+348-4	10009-10013	loro	Falling	loro.	_	347-3	linguistic	none	_	_	_	_	_
+
+#Text=gratis
+349-1	10014-10020	gratis	Rising	gratis?	TO091	348-0	linguistic	none	_	_	_	_	_
+
+#Text=magari non gratis ((ride))
+350-1	10021-10027	magari	_	magari	TO085	349-0	linguistic	none	_	_	_	_	_
+350-2	10028-10031	non	_	non	_	349-1	linguistic	none	_	_	_	_	_
+350-3	10032-10038	gratis	_	gratis	_	349-2	linguistic	none	_	_	_	_	_
+350-4	10039-10047	((ride))	_	((ride))	_	349-3	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=non gratis
+351-1	10048-10051	non	_	non	TO085	350-0	linguistic	none	_	_	_	_	_
+351-2	10052-10058	gratis	Falling	gratis.	_	350-1	linguistic	none	_	_	_	_	_
+
+#Text=ma non credo
+352-1	10059-10061	ma	_	ma	TO095	351-0	linguistic	none	_	_	_	_	_
+352-2	10062-10065	non	_	non	_	351-1	linguistic	none	_	_	_	_	_
+352-3	10066-10071	credo	WeaklyRising	credo,	_	351-2	linguistic	none	_	_	_	_	_
+
+#Text=non ho guardato l' evento ma
+353-1	10072-10075	non	_	non	TO095	352-0	linguistic	none	_	_	_	_	_
+353-2	10076-10078	ho	_	ho	_	352-1	linguistic	none	_	_	_	_	_
+353-3	10079-10087	guardato	_	guardato	_	352-2	linguistic	none	_	_	_	_	_
+353-4	10088-10090	l'	_	\[l'	_	352-3	linguistic	none	_	_	_	*->77-1	*[77]
+353-5	10091-10097	evento	_	evento	_	352-4	linguistic	none	_	_	_	*->77-2	*[77]
+353-6	10098-10100	ma	_	ma\]	_	352-5	linguistic	none	_	_	_	*->77-3	*[77]
+
+#Text=però ah allora sì ho letto c' è scritto che se vuoi puoi comprarla lì la carne
+354-1	10101-10105	però	_	\[però	TO085	353-0	linguistic	none	_	_	_	*->77-4	*[77]
+354-2	10106-10108	ah	_	a:::h\]	_	353-1	linguistic	none	0x3	_	_	*->77-5	*[77]
+354-3	10109-10115	allora	_	allora	_	353-2	linguistic	none	_	_	_	_	_
+354-4	10116-10118	sì	_	sì	_	353-3	linguistic	none	_	_	_	_	_
+354-5	10119-10121	ho	_	ho	_	353-4	linguistic	none	_	_	_	_	_
+354-6	10122-10127	letto	WeaklyRising	letto,	_	353-5	linguistic	none	_	_	_	_	_
+354-7	10128-10130	c'	_	c'	_	353-6	linguistic	none	_	_	_	_	_
+354-8	10131-10132	è	_	è	_	353-7	linguistic	none	_	_	_	_	_
+354-9	10133-10140	scritto	_	scritto	_	353-8	linguistic	none	_	_	_	_	_
+354-10	10141-10144	che	_	che	_	353-9	linguistic	none	_	_	_	_	_
+354-11	10145-10147	se	_	se	_	353-10	linguistic	none	_	_	_	_	_
+354-12	10148-10152	vuoi	_	vuoi	_	353-11	linguistic	none	_	_	_	_	_
+354-13	10153-10157	puoi	_	puoi	_	353-12	linguistic	none	_	_	_	_	_
+354-14	10158-10167	comprarla	_	comprarla	_	353-13	linguistic	none	_	_	_	_	_
+354-15	10168-10170	lì	_	lì	_	353-14	linguistic	none	_	_	_	_	_
+354-16	10171-10173	la	_	la	_	353-15	linguistic	none	_	_	_	_	_
+354-17	10174-10179	carne	WeaklyRising	carne,	_	353-16	linguistic	none	_	_	_	_	_
+
+#Text=ah
+355-1	10180-10182	ah	_	a::h	TO095	354-0	linguistic	none	0x2	_	_	_	_
+
+#Text=se no puoi portarla
+356-1	10183-10185	se	_	se	TO085	355-0	linguistic	none	_	_	_	_	_
+356-2	10186-10188	no	_	no	_	355-1	linguistic	none	_	_	_	_	_
+356-3	10189-10193	puoi	_	puoi	_	355-2	linguistic	none	_	_	_	_	_
+356-4	10194-10202	portarla	WeaklyRising	\[portarla:::\],	_	355-3	linguistic	none	7x3	_	_	*->78-1	*[78]
+
+#Text=se vuoi te la cuoci ho capito te la cuoci da te
+357-1	10203-10205	se	_	\[se	TO091	356-0	linguistic	none	_	_	_	*->78-2	*[78]
+357-2	10206-10210	vuoi	_	vuoi	_	356-1	linguistic	none	_	_	_	*->78-3	*[78]
+357-3	10211-10213	te	_	te	_	356-2	linguistic	none	_	_	_	*->78-4	*[78]
+357-4	10214-10216	la	_	la	_	356-3	linguistic	none	_	_	_	*->78-5	*[78]
+357-5	10217-10222	cuoci	_	cuoci\]	_	356-4	linguistic	none	_	_	_	*->78-6	*[78]
+357-6	10223-10225	ho	_	ho	_	356-5	linguistic	none	_	_	_	_	_
+357-7	10226-10232	capito	WeaklyRising	capito,	_	356-6	linguistic	none	_	_	_	_	_
+357-8	10233-10235	te	_	te	_	356-7	linguistic	none	_	_	_	_	_
+357-9	10236-10238	la	_	la	_	356-8	linguistic	none	_	_	_	_	_
+357-10	10239-10244	cuoci	_	cuoci	_	356-9	linguistic	none	_	_	_	_	_
+357-11	10245-10247	da	_	da	_	356-10	linguistic	none	_	_	_	_	_
+357-12	10248-10250	te	Falling	te.	_	356-11	linguistic	none	_	_	_	_	_
+
+#Text=sì se no te la porti
+358-1	10251-10253	sì	_	sì	TO085	357-0	linguistic	none	_	_	_	_	_
+358-2	10254-10256	se	_	se	_	357-1	linguistic	none	_	_	_	_	_
+358-3	10257-10259	no	_	no	_	357-2	linguistic	none	_	_	_	_	_
+358-4	10260-10262	te	_	te	_	357-3	linguistic	none	_	_	_	_	_
+358-5	10263-10265	la	_	la	_	357-4	linguistic	none	_	_	_	_	_
+358-6	10266-10271	porti	_	\[porti\]	_	357-5	linguistic	none	_	_	_	*->80-1	*[80]
+
+#Text=però non puoi cuocertela è quello il punto
+359-1	10272-10276	però	_	\[però\]	TO095	358-0	linguistic	none	_	_	_	*->80-2	*[80]
+359-2	10277-10280	non	_	non	_	358-1	linguistic	none	_	_	_	_	_
+359-3	10281-10285	puoi	_	puoi	_	358-2	linguistic	none	_	_	_	_	_
+359-4	10286-10296	cuocertela	WeaklyRising	cuocertela,	_	358-3	linguistic	none	_	_	_	_	_
+359-5	10297-10298	è	_	è	_	358-4	linguistic	none	_	_	_	_	_
+359-6	10299-10305	quello	_	quello	_	358-5	linguistic	none	_	_	_	_	_
+359-7	10306-10308	il	_	il	_	358-6	linguistic	none	_	_	_	_	_
+359-8	10309-10314	punto	Falling	punto.	_	358-7	linguistic	none	_	_	_	_	_
+
+#Text=sì
+360-1	10315-10317	sì	_	\[sì:::\]	TO085	359-0	linguistic	none	1x3	_	_	*->82-1	*[82]
+
+#Text=se gliela dai e te la puoi pre~ c' è non puoi prende un pezzo di griglia usano loro la griglia
+361-1	10318-10320	se	_	\[se	TO095	360-0	linguistic	none	_	_	_	*->82-2	*[82]
+361-2	10321-10327	gliela	_	gliela\]	_	360-1	linguistic	none	_	_	_	*->82-3	*[82]
+361-3	10328-10331	dai	_	dai	_	360-2	linguistic	none	_	_	_	_	_
+361-4	10332-10333	e	_	e	_	360-3	linguistic	none	_	_	_	_	_
+361-5	10334-10336	te	_	te	_	360-4	linguistic	none	_	_	_	_	_
+361-6	10337-10339	la	_	la	_	360-5	linguistic	none	_	_	_	_	_
+361-7	10340-10344	puoi	_	puoi	_	360-6	linguistic	none	_	_	_	_	_
+361-8	10345-10349	pre~	WeaklyRising	pre~,	_	360-7	linguistic	none	_	_	_	_	_
+361-9	10350-10352	c'	_	c'	_	360-8	linguistic	none	_	_	_	_	_
+361-10	10353-10354	è	_	è	_	360-9	linguistic	none	_	_	_	_	_
+361-11	10355-10358	non	_	non	_	360-10	linguistic	none	_	_	_	_	_
+361-12	10359-10363	puoi	_	puoi	_	360-11	linguistic	none	_	_	_	_	_
+361-13	10364-10370	prende	_	prende	_	360-12	linguistic	none	_	_	_	_	_
+361-14	10371-10373	un	_	un	_	360-13	linguistic	none	_	_	_	_	_
+361-15	10374-10379	pezzo	_	pezzo	_	360-14	linguistic	none	_	_	_	_	_
+361-16	10380-10382	di	_	di	_	360-15	linguistic	none	_	_	_	_	_
+361-17	10383-10390	griglia	WeaklyRising	griglia,	_	360-16	linguistic	none	_	_	_	_	_
+361-18	10391-10396	usano	_	usano	_	360-17	linguistic	none	_	_	_	_	_
+361-19	10397-10401	loro	_	loro	_	360-18	linguistic	none	_	_	_	_	_
+361-20	10402-10404	la	_	la	_	360-19	linguistic	none	_	_	_	_	_
+361-21	10405-10412	griglia	Falling	griglia.	_	360-20	linguistic	none	_	_	_	_	_
+
+#Text=ah okay
+362-1	10413-10415	ah	_	a:::h	TO085	361-0	linguistic	none	0x3	_	_	_	_
+362-2	10416-10420	okay	_	okay	_	361-1	linguistic	none	_	_	_	_	_
+
+#Text=però comunque cioè devi avè la tu' ciccia 'nsomma o comprata
+363-1	10421-10425	però	_	\[però	TO091	362-0	linguistic	none	_	_	_	*->83-1	*[83]
+363-2	10426-10434	comunque	_	comunque\]	_	362-1	linguistic	none	_	_	_	*->83-2	*[83]
+363-3	10435-10439	cioè	_	c(io)è	_	362-2	linguistic	none	_	_	_	_	_
+363-4	10440-10444	devi	_	devi	_	362-3	linguistic	none	_	_	_	_	_
+363-5	10445-10448	avè	_	avè	_	362-4	linguistic	none	_	_	_	_	_
+363-6	10449-10451	la	_	la	_	362-5	linguistic	none	_	_	_	_	_
+363-7	10452-10455	tu'	_	\[tu'	_	362-6	linguistic	none	_	_	_	*->84-1	*[84]
+363-8	10456-10462	ciccia	WeaklyRising	ciccia,	_	362-7	linguistic	none	_	_	_	*->84-2	*[84]
+363-9	10463-10470	'nsomma	WeaklyRising	'nsomma,	_	362-8	linguistic	none	_	_	_	*->84-3	*[84]
+363-10	10471-10472	o	_	o	_	362-9	linguistic	none	_	_	_	*->84-4	*[84]
+363-11	10473-10481	comprata	WeaklyRising	comprata\],	_	362-10	linguistic	none	_	_	_	*->84-5	*[84]
+
+#Text=o ti porti
+364-1	10482-10483	o	_	\[o	TO095	363-0	linguistic	none	_	_	_	*->83-3	*[83]
+364-2	10484-10486	ti	_	ti	_	363-1	linguistic	none	_	_	_	*->83-4	*[83]
+364-3	10487-10492	porti	WeaklyRising	porti\],	_	363-2	linguistic	none	_	_	_	*->83-5	*[83]
+
+#Text=o xxx paghi la loro o te la porti ti porti la tua
+365-1	10493-10494	o	_	\[o	TO095	364-0	linguistic	none	_	_	_	*->84-6	*[84]
+365-2	10495-10498	xxx	_	xxx	_	364-1	unknown	none	_	_	_	*->84-7	*[84]
+365-3	10499-10504	paghi	_	paghi\]	_	364-2	linguistic	none	_	_	_	*->84-8	*[84]
+365-4	10505-10507	la	_	la	_	364-3	linguistic	none	_	_	_	_	_
+365-5	10508-10512	loro	WeaklyRising	loro,	_	364-4	linguistic	none	_	_	_	_	_
+365-6	10513-10514	o	_	o	_	364-5	linguistic	none	_	_	_	_	_
+365-7	10515-10517	te	_	te	_	364-6	linguistic	none	_	_	_	_	_
+365-8	10518-10520	la	_	la	_	364-7	linguistic	none	_	_	_	_	_
+365-9	10521-10526	porti	_	porti	_	364-8	linguistic	none	_	_	_	_	_
+365-10	10527-10529	ti	_	ti	_	364-9	linguistic	none	_	_	_	_	_
+365-11	10530-10535	porti	_	porti	_	364-10	linguistic	none	_	_	_	_	_
+365-12	10536-10538	la	_	la	_	364-11	linguistic	none	_	_	_	_	_
+365-13	10539-10542	tua	Falling	tua.	_	364-12	linguistic	none	_	_	_	_	_
+
+#Text=ah eccolo
+366-1	10543-10545	ah	_	ah	TO091	365-0	linguistic	none	_	_	_	_	_
+366-2	10546-10552	eccolo	_	eccolo	_	365-1	linguistic	none	_	_	_	_	_
+
+#Text=sì no è quello di fianco
+367-1	10553-10555	sì	_	sì	TO085	366-0	linguistic	none	_	_	_	_	_
+367-2	10556-10558	no	WeaklyRising	no,	_	366-1	linguistic	none	_	_	_	_	_
+367-3	10559-10560	è	_	è	_	366-2	linguistic	none	_	_	_	_	_
+367-4	10561-10567	quello	_	quello	_	366-3	linguistic	none	_	_	_	_	_
+367-5	10568-10570	di	_	di	_	366-4	linguistic	none	_	_	_	_	_
+367-6	10571-10577	fianco	Falling	fianco.	_	366-5	linguistic	none	_	_	_	_	_
+
+#Text=no il locale sì ci so' stata
+368-1	10578-10580	no	WeaklyRising	no,	TO091	367-0	linguistic	none	_	_	_	_	_
+368-2	10581-10583	il	_	il	_	367-1	linguistic	none	_	_	_	_	_
+368-3	10584-10590	locale	WeaklyRising	locale,	_	367-2	linguistic	none	_	_	_	_	_
+368-4	10591-10593	sì	_	sì	_	367-3	linguistic	none	_	_	_	_	_
+368-5	10594-10596	ci	_	ci	_	367-4	linguistic	none	_	_	_	_	_
+368-6	10597-10600	so'	_	so'	_	367-5	linguistic	none	_	_	_	_	_
+368-7	10601-10606	stata	_	stata	_	367-6	linguistic	none	_	_	_	_	_
+
+#Text=ma è un non è un locale è
+369-1	10607-10609	ma	_	ma	TO095	368-0	linguistic	none	_	_	_	_	_
+369-2	10610-10611	è	_	\[è	_	368-1	linguistic	none	_	_	_	*->85-1	*[85]
+369-3	10612-10614	un	WeaklyRising	un::,	_	368-2	linguistic	none	1x2	_	_	*->85-2	*[85]
+369-4	10615-10618	non	_	non	_	368-3	linguistic	none	_	_	_	*->85-3	*[85]
+369-5	10619-10620	è	_	è	_	368-4	linguistic	none	_	_	_	*->85-4	*[85]
+369-6	10621-10623	un	_	un	_	368-5	linguistic	none	_	_	_	*->85-5	*[85]
+369-7	10624-10630	locale	WeaklyRising	locale,	_	368-6	linguistic	none	_	_	_	*->85-6	*[85]
+369-8	10631-10632	è	WeaklyRising	è::\],	_	368-7	linguistic	none	0x2	_	_	*->85-7	*[85]
+
+#Text=xxx festa del non lavoro primo maggio
+370-1	10633-10636	xxx	_	\[xxx	TO085	369-0	unknown	none	_	_	_	*->85-8	*[85]
+370-2	10637-10642	festa	_	festa	_	369-1	linguistic	none	_	_	_	*->85-9	*[85]
+370-3	10643-10646	del	_	del	_	369-2	linguistic	none	_	_	_	*->85-10	*[85]
+370-4	10647-10650	non	_	(non)	_	369-3	linguistic	none	_	_	0-3(0)	*->85-11	*[85]
+370-5	10651-10657	lavoro	WeaklyRising	lavoro\],	_	369-4	linguistic	none	_	_	_	*->85-12	*[85]
+370-6	10658-10663	primo	_	primo	_	369-5	linguistic	none	_	_	_	_	_
+370-7	10664-10670	maggio	WeaklyRising	maggio,	_	369-6	linguistic	none	_	_	_	_	_
+
+#Text=un collettivo
+371-1	10671-10673	un	_	\[un	TO095	370-0	linguistic	none	_	_	_	*->86-1	*[86]
+371-2	10674-10684	collettivo	_	collettivo\]	_	370-1	linguistic	none	_	_	_	*->86-2	*[86]
+
+#Text=lo fanno lì l' evento
+372-1	10685-10687	lo	_	\[lo	TO085	371-0	linguistic	none	_	_	_	*->86-3	*[86]
+372-2	10688-10693	fanno	_	fanno	_	371-1	linguistic	none	_	_	_	*->86-4	*[86]
+372-3	10694-10696	lì	_	lì	_	371-2	linguistic	none	_	_	_	*->86-5	*[86]
+372-4	10697-10699	l'	_	l'	_	371-3	linguistic	none	_	_	_	*->86-6	*[86]
+372-5	10700-10706	evento	_	evento\]	_	371-4	linguistic	none	_	_	_	*->86-7	*[86]
+
+#Text=un collettivo
+373-1	10707-10709	un	_	\[un	TO095	372-0	linguistic	none	_	_	_	*->87-1	*[87]
+373-2	10710-10720	collettivo	_	collettivo\]	_	372-1	linguistic	none	_	_	_	*->87-2	*[87]
+
+#Text=sì lo so però so' andata
+374-1	10721-10723	sì	_	\[sì	TO091	373-0	linguistic	none	_	_	_	*->87-3	*[87]
+374-2	10724-10726	lo	_	lo	_	373-1	linguistic	none	_	_	_	*->87-4	*[87]
+374-3	10727-10729	so	WeaklyRising	so\],	_	373-2	linguistic	none	_	_	_	*->87-5	*[87]
+374-4	10730-10734	però	_	però	_	373-3	linguistic	none	_	_	_	_	_
+374-5	10735-10738	so'	_	so'	_	373-4	linguistic	none	_	_	_	_	_
+374-6	10739-10745	andata	WeaklyRising	andata::,	_	373-5	linguistic	none	5x2	_	_	_	_
+
+#Text='nsomma so' andata a 'na serata
+375-1	10746-10753	'nsomma	_	'nsomma	TO091	374-0	linguistic	none	_	_	_	_	_
+375-2	10754-10757	so'	_	so'	_	374-1	linguistic	none	_	_	_	_	_
+375-3	10758-10764	andata	_	andata	_	374-2	linguistic	none	_	_	_	_	_
+375-4	10765-10766	a	_	a	_	374-3	linguistic	none	_	_	_	_	_
+375-5	10767-10770	'na	_	'na	_	374-4	linguistic	none	_	_	_	_	_
+375-6	10771-10777	serata	_	serata	_	374-5	linguistic	none	_	_	_	_	_
+
+#Text=ah sì
+376-1	10778-10780	ah	_	ah	TO095	375-0	linguistic	none	_	_	_	_	_
+376-2	10781-10783	sì	Rising	sì?	_	375-1	linguistic	none	_	_	_	_	_
+
+#Text=a manituana
+377-1	10784-10785	a	_	\[a	TO095	376-0	linguistic	none	_	_	_	*->88-1	*[88]
+377-2	10786-10795	manituana	Rising	manituana\]?	_	376-1	linguistic	none	_	_	_	*->88-2	*[88]
+
+#Text='nsomma
+378-1	10796-10803	'nsomma	_	\['nsomma\]	??	377-0	linguistic	none	_	_	_	*->88-3	*[88]
+
+#Text=al manituana
+379-1	10804-10806	al	_	al	TO091	378-0	linguistic	none	_	_	_	_	_
+379-2	10807-10816	manituana	_	manituana	_	378-1	linguistic	none	_	_	_	_	_
+
+#Text=con leo
+380-1	10817-10820	con	_	con	TO091	379-0	linguistic	none	_	_	_	_	_
+380-2	10821-10824	leo	Falling	leo.	_	379-1	linguistic	none	_	_	_	_	_
+
+#Text=con leo
+381-1	10825-10828	con	_	con	TO095	380-0	linguistic	none	_	_	_	_	_
+381-2	10829-10832	leo	Rising	leo?	_	380-1	linguistic	none	_	_	_	_	_
+
+#Text=era carina
+382-1	10833-10836	era	_	era	TO095	381-0	linguistic	none	_	_	_	_	_
+382-2	10837-10843	carina	Rising	carina?	_	381-1	linguistic	none	_	_	_	_	_
+
+#Text=c' era stasis quella che fanno xxx coso
+383-1	10844-10846	c'	_	c'	TO091	382-0	linguistic	none	_	_	_	_	_
+383-2	10847-10850	era	_	era	_	382-1	linguistic	none	_	_	_	_	_
+383-3	10851-10857	stasis	WeaklyRising	(stasis),	_	382-2	linguistic	none	_	_	0-6(0)	_	_
+383-4	10858-10864	quella	_	quella	_	382-3	linguistic	none	_	_	_	_	_
+383-5	10865-10868	che	_	che	_	382-4	linguistic	none	_	_	_	_	_
+383-6	10869-10874	fanno	WeaklyRising	\[fanno:::,	_	382-5	linguistic	none	4x3	_	_	*->97-1	*[97]
+383-7	10875-10878	xxx	_	xxx	_	382-6	unknown	none	_	_	_	*->97-2	*[97]
+383-8	10879-10883	coso	_	coso\]	_	382-7	linguistic	none	_	_	_	*->97-3	*[97]
+
+#Text=ah
+384-1	10884-10886	ah	_	\[ah\]	TO095	383-0	linguistic	none	_	_	_	*->97-4	*[97]
+
+#Text=ah
+385-1	10887-10889	ah	WeaklyRising	\[a:::h\],	TO085	384-0	linguistic	none	0x3	_	_	*->97-5	*[97]
+
+#Text=ma quand' era
+386-1	10890-10892	ma	_	ma	TO095	385-0	linguistic	none	_	_	_	_	_
+386-2	10893-10899	quand'	_	quand'	_	385-1	linguistic	none	_	_	_	_	_
+386-3	10900-10903	era	Rising	era?	_	385-2	linguistic	none	_	_	_	_	_
+
+#Text=non me ricordo
+387-1	10904-10907	non	_	non	TO091	386-0	linguistic	none	_	_	_	_	_
+387-2	10908-10910	me	_	me	_	386-1	linguistic	none	_	_	_	_	_
+387-3	10911-10918	ricordo	_	ricordo	_	386-2	linguistic	none	_	_	_	_	_
+
+#Text=fine marzo comunque perché prima noi eravamo al bunker
+388-1	10919-10923	fine	_	fine	TO091	387-0	linguistic	none	_	_	_	_	_
+388-2	10924-10929	marzo	_	marzo	_	387-1	linguistic	none	_	_	_	_	_
+388-3	10930-10938	comunque	_	comunque	_	387-2	linguistic	none	_	_	_	_	_
+388-4	10939-10945	perché	_	perché	_	387-3	linguistic	none	_	_	_	_	_
+388-5	10946-10951	prima	_	prima	_	387-4	linguistic	none	_	_	_	_	_
+388-6	10952-10955	noi	_	noi	_	387-5	linguistic	none	_	_	_	_	_
+388-7	10956-10963	eravamo	_	eravamo	_	387-6	linguistic	none	_	_	_	_	_
+388-8	10964-10966	al	_	al	_	387-7	linguistic	none	_	_	_	_	_
+388-9	10967-10973	bunker	_	(bunker)	_	387-8	linguistic	none	_	_	0-6(0)	_	_
+
+#Text=solo che la serata tipo alle tre è finita
+389-1	10974-10978	solo	_	solo	TO091	388-0	linguistic	none	_	_	_	_	_
+389-2	10979-10982	che	_	che	_	388-1	linguistic	none	_	_	_	_	_
+389-3	10983-10985	la	_	la	_	388-2	linguistic	none	_	_	_	_	_
+389-4	10986-10992	serata	_	serata	_	388-3	linguistic	none	_	_	_	_	_
+389-5	10993-10997	tipo	_	tipo	_	388-4	linguistic	none	_	_	_	_	_
+389-6	10998-11002	alle	_	alle	_	388-5	linguistic	none	_	_	_	_	_
+389-7	11003-11006	tre	_	tre	_	388-6	linguistic	none	_	_	_	_	_
+389-8	11007-11008	è	_	è	_	388-7	linguistic	none	_	_	_	_	_
+389-9	11009-11015	finita	WeaklyRising	finita,	_	388-8	linguistic	none	_	_	_	_	_
+
+#Text=perch' era gratis 'na cacata
+390-1	11016-11022	perch'	_	perch'	TO091	389-0	linguistic	none	_	_	_	_	_
+390-2	11023-11026	era	_	era	_	389-1	linguistic	none	_	_	_	_	_
+390-3	11027-11033	gratis	WeaklyRising	gratis,	_	389-2	linguistic	none	_	_	_	_	_
+390-4	11034-11037	'na	_	'na	_	389-3	linguistic	none	_	_	_	_	_
+390-5	11038-11044	cacata	WeaklyRising	cacata,	_	389-4	linguistic	none	_	_	_	_	_
+
+#Text=quindi pensavamo cazzo fa' leo xxx 'n sapevo manco che cosa fosse
+391-1	11045-11051	quindi	_	quindi	TO091	390-0	linguistic	none	_	_	_	_	_
+391-2	11052-11061	pensavamo	_	pensavamo	_	390-1	linguistic	none	_	_	_	_	_
+391-3	11062-11067	cazzo	_	cazzo	_	390-2	linguistic	none	_	_	_	_	_
+391-4	11068-11071	fa'	WeaklyRising	fa',	_	390-3	linguistic	none	_	_	_	_	_
+391-5	11072-11075	leo	_	leo	_	390-4	linguistic	none	_	_	_	_	_
+391-6	11076-11079	xxx	WeaklyRising	xxx,	_	390-5	linguistic	none	_	_	_	_	_
+391-7	11080-11082	'n	_	'n	_	390-6	linguistic	none	_	_	_	_	_
+391-8	11083-11089	sapevo	_	sapevo	_	390-7	linguistic	none	_	_	_	_	_
+391-9	11090-11095	manco	_	manco	_	390-8	linguistic	none	_	_	_	_	_
+391-10	11096-11099	che	_	che	_	390-9	linguistic	none	_	_	_	_	_
+391-11	11100-11104	cosa	_	cosa	_	390-10	linguistic	none	_	_	_	_	_
+391-12	11105-11110	fosse	WeaklyRising	fosse,	_	390-11	linguistic	none	_	_	_	_	_
+
+#Text=per ritrovalla 'n ora
+392-1	11111-11114	per	_	per	TO091	391-0	linguistic	none	_	_	_	_	_
+392-2	11115-11125	ritrovalla	_	ritrovalla	_	391-1	linguistic	none	_	_	_	_	_
+392-3	11126-11128	'n	_	'n	_	391-2	linguistic	none	_	_	_	_	_
+392-4	11129-11132	ora	_	ora	_	391-3	linguistic	none	_	_	_	_	_
+
+#Text=ma do' sta che zona sta
+393-1	11133-11135	ma	_	ma	TO095	392-0	linguistic	none	_	_	_	_	_
+393-2	11136-11139	do'	_	do'	_	392-1	linguistic	none	_	_	_	_	_
+393-3	11140-11143	sta	Rising	sta?	_	392-2	linguistic	none	_	_	_	_	_
+393-4	11144-11147	che	_	che	_	392-3	linguistic	none	_	_	_	_	_
+393-5	11148-11152	zona	_	zona	_	392-4	linguistic	none	_	_	_	_	_
+393-6	11153-11156	sta	Rising	sta?	_	392-5	linguistic	none	_	_	_	_	_
+
+#Text=sta 'n barriera praticamente dopo il cimitero
+394-1	11157-11160	sta	_	sta	TO091	393-0	linguistic	none	_	_	_	_	_
+394-2	11161-11163	'n	_	'n	_	393-1	linguistic	none	_	_	_	_	_
+394-3	11164-11172	barriera	_	barriera	_	393-2	linguistic	none	_	_	_	_	_
+394-4	11173-11185	praticamente	WeaklyRising	praticamente,	_	393-3	linguistic	none	_	_	_	_	_
+394-5	11186-11190	dopo	_	dopo	_	393-4	linguistic	none	_	_	_	_	_
+394-6	11191-11193	il	_	il	_	393-5	linguistic	none	_	_	_	_	_
+394-7	11194-11202	cimitero	Falling	cimitero.	_	393-6	linguistic	none	_	_	_	_	_
+
+#Text=manituana
+395-1	11203-11212	manituana	Rising	manituana?	TO085	394-0	linguistic	none	_	_	_	_	_
+
+#Text=xxx verso di là
+396-1	11213-11216	xxx	_	xxx	TO095	395-0	unknown	none	_	_	_	_	_
+396-2	11217-11222	verso	_	verso	_	395-1	linguistic	none	_	_	_	_	_
+396-3	11223-11225	di	_	di	_	395-2	linguistic	none	_	_	_	_	_
+396-4	11226-11228	là	WeaklyRising	là,	_	395-3	linguistic	none	_	_	_	_	_
+
+#Text=no sta di fronte al cimitero
+397-1	11229-11231	no	_	no	??	396-0	linguistic	none	_	_	_	_	_
+397-2	11232-11235	sta	WeaklyRising	sta::,	_	396-1	linguistic	none	2x2	_	_	_	_
+397-3	11236-11238	di	_	di	_	396-2	linguistic	none	_	_	_	_	_
+397-4	11239-11245	fronte	_	fronte	_	396-3	linguistic	none	_	_	_	_	_
+397-5	11246-11248	al	_	al	_	396-4	linguistic	none	_	_	_	_	_
+397-6	11249-11257	cimitero	Falling	cimitero.	_	396-5	linguistic	none	_	_	_	_	_
+
+#Text=eh di qua
+398-1	11258-11260	eh	_	eh	TO095	397-0	linguistic	none	_	_	_	_	_
+398-2	11261-11263	di	_	di	_	397-1	linguistic	none	_	_	_	_	_
+398-3	11264-11267	qua	WeaklyRising	qua,	_	397-2	linguistic	none	_	_	_	_	_
+
+#Text=sì è barriera vicino a corso novara
+399-1	11268-11270	sì	_	sì	??	398-0	linguistic	none	_	_	_	_	_
+399-2	11271-11272	è	_	è	_	398-1	linguistic	none	_	_	_	_	_
+399-3	11273-11281	barriera	WeaklyRising	barriera,	_	398-2	linguistic	none	_	_	_	_	_
+399-4	11282-11288	vicino	_	vicino	_	398-3	linguistic	none	_	_	_	_	_
+399-5	11289-11290	a	_	a	_	398-4	linguistic	none	_	_	_	_	_
+399-6	11291-11296	corso	_	corso	_	398-5	linguistic	none	_	_	_	_	_
+399-7	11297-11303	novara	_	novara	_	398-6	linguistic	none	_	_	_	_	_
+
+#Text=è xxx dall' altro lato (.) non è dal lato mio xxx
+400-1	11304-11305	è	_	\[è	TO091	399-0	linguistic	none	_	_	_	*->89-1	*[89]
+400-2	11306-11309	xxx	_	xxx	_	399-1	unknown	none	_	_	_	*->89-2	*[89]
+400-3	11310-11315	dall'	_	dall'	_	399-2	linguistic	none	_	_	_	*->89-3	*[89]
+400-4	11316-11321	altro	_	altro	_	399-3	linguistic	none	_	_	_	*->89-4	*[89]
+400-5	11322-11326	lato	WeaklyRising	lato,	_	399-4	linguistic	none	_	_	_	*->89-5	*[89]
+400-6	11327-11330	(.)	_	(.)	_	399-5	shortpause	none	_	_	_	*->89-6	*[89]
+400-7	11331-11334	non	_	non	_	399-6	linguistic	none	_	_	_	*->89-7	*[89]
+400-8	11335-11336	è	_	è	_	399-7	linguistic	none	_	_	_	*->89-8	*[89]
+400-9	11337-11340	dal	_	dal	_	399-8	linguistic	none	_	_	_	*->89-9	*[89]
+400-10	11341-11345	lato	_	lato	_	399-9	linguistic	none	_	_	_	*->89-10	*[89]
+400-11	11346-11349	mio	_	mio	_	399-10	linguistic	none	_	_	_	*->89-11	*[89]
+400-12	11350-11353	xxx	_	xxx\]	_	399-11	unknown	none	_	_	_	*->89-12	*[89]
+
+#Text=no è aurora
+401-1	11354-11356	no	_	\[no	??	400-0	linguistic	none	_	_	_	*->89-13	*[89]
+401-2	11357-11358	è	_	è	_	400-1	linguistic	none	_	_	_	*->89-14	*[89]
+401-3	11359-11365	aurora	_	aurora\]	_	400-2	linguistic	none	_	_	_	*->89-15	*[89]
+
+#Text=no è aurora rega
+402-1	11366-11368	no	_	\[no	??	401-0	linguistic	none	_	_	_	*->90-1	*[90]
+402-2	11369-11370	è	_	è\]	_	401-1	linguistic	none	_	_	_	*->90-2	*[90]
+402-3	11371-11377	aurora	_	aurora	_	401-2	linguistic	none	_	_	_	_	_
+402-4	11378-11382	rega	_	rega	_	401-3	linguistic	none	_	_	_	_	_
+
+#Text=l' entrata però è dalla parte opposta di corso novara
+403-1	11383-11385	l'	_	l'	??	402-0	linguistic	none	_	_	_	_	_
+403-2	11386-11393	entrata	_	entrata	_	402-1	linguistic	none	_	_	_	_	_
+403-3	11394-11398	però	_	però	_	402-2	linguistic	none	_	_	_	_	_
+403-4	11399-11400	è	_	è	_	402-3	linguistic	none	_	_	_	_	_
+403-5	11401-11406	dalla	_	dalla	_	402-4	linguistic	none	_	_	_	_	_
+403-6	11407-11412	parte	_	parte	_	402-5	linguistic	none	_	_	_	_	_
+403-7	11413-11420	opposta	_	opposta	_	402-6	linguistic	none	_	_	_	_	_
+403-8	11421-11423	di	_	di	_	402-7	linguistic	none	_	_	_	_	_
+403-9	11424-11429	corso	_	corso	_	402-8	linguistic	none	_	_	_	_	_
+403-10	11430-11436	novara	Falling	novara.	_	402-9	linguistic	none	_	_	_	_	_
+
+#Text=vabbè noi dal bunker a piedi il bunker è in barriera
+404-1	11437-11442	vabbè	_	vabbè	TO091	403-0	linguistic	none	_	_	_	_	_
+404-2	11443-11446	noi	_	noi	_	403-1	linguistic	none	_	_	_	_	_
+404-3	11447-11450	dal	_	dal	_	403-2	linguistic	none	_	_	_	_	_
+404-4	11451-11457	bunker	_	bunker	_	403-3	linguistic	none	_	_	_	_	_
+404-5	11458-11459	a	_	a	_	403-4	linguistic	none	_	_	_	_	_
+404-6	11460-11465	piedi	WeaklyRising	piedi,	_	403-5	linguistic	none	_	_	_	_	_
+404-7	11466-11468	il	_	il	_	403-6	linguistic	none	_	_	_	_	_
+404-8	11469-11475	bunker	_	bunker	_	403-7	linguistic	none	_	_	_	_	_
+404-9	11476-11477	è	_	è	_	403-8	linguistic	none	_	_	_	_	_
+404-10	11478-11480	in	_	in	_	403-9	linguistic	none	_	_	_	_	_
+404-11	11481-11489	barriera	Falling	barriera.	_	403-10	linguistic	none	_	_	_	_	_
+
+#Text=da lì a piedi c' avem messo dieci minuti
+405-1	11490-11492	da	_	da	TO091	404-0	linguistic	none	_	_	_	_	_
+405-2	11493-11495	lì	_	lì	_	404-1	linguistic	none	_	_	_	_	_
+405-3	11496-11497	a	_	a	_	404-2	linguistic	none	_	_	_	_	_
+405-4	11498-11503	piedi	_	piedi	_	404-3	linguistic	none	_	_	_	_	_
+405-5	11504-11506	c'	_	c'	_	404-4	linguistic	none	_	_	_	_	_
+405-6	11507-11511	avem	_	avem	_	404-5	linguistic	none	_	_	_	_	_
+405-7	11512-11517	messo	_	messo	_	404-6	linguistic	none	_	_	_	_	_
+405-8	11518-11523	dieci	_	dieci	_	404-7	linguistic	none	_	_	_	_	_
+405-9	11524-11530	minuti	Falling	minuti.	_	404-8	linguistic	none	_	_	_	_	_
+
+#Text=va bene
+406-1	11531-11533	va	_	va	TO085	405-0	linguistic	none	_	_	_	_	_
+406-2	11534-11538	bene	Falling	bene.	_	405-1	linguistic	none	_	_	_	_	_
+
+#Text=io mi sa che devo andare
+407-1	11539-11541	io	_	io	TO085	406-0	linguistic	none	_	_	_	_	_
+407-2	11542-11544	mi	_	mi	_	406-1	linguistic	none	_	_	_	_	_
+407-3	11545-11547	sa	_	sa	_	406-2	linguistic	none	_	_	_	_	_
+407-4	11548-11551	che	_	che	_	406-3	linguistic	none	_	_	_	_	_
+407-5	11552-11556	devo	_	devo	_	406-4	linguistic	none	_	_	_	_	_
+407-6	11557-11563	andare	_	andare	_	406-5	linguistic	none	_	_	_	_	_
+
+#Text=grazie eh
+408-1	11564-11570	grazie	_	grazie	TO085	407-0	linguistic	none	_	_	_	_	_
+408-2	11571-11573	eh	WeaklyRising	eh,	_	407-1	linguistic	none	_	_	_	_	_
+
+#Text=oh no mi è caduta la siga
+409-1	11574-11576	oh	_	oh	TO085	408-0	linguistic	none	_	_	_	_	_
+409-2	11577-11579	no	WeaklyRising	no,	_	408-1	linguistic	none	_	_	_	_	_
+409-3	11580-11582	mi	_	mi	_	408-2	linguistic	none	_	_	_	_	_
+409-4	11583-11584	è	_	è	_	408-3	linguistic	none	_	_	_	_	_
+409-5	11585-11591	caduta	_	caduta	_	408-4	linguistic	none	_	_	_	_	_
+409-6	11592-11594	la	_	la	_	408-5	linguistic	none	_	_	_	_	_
+409-7	11595-11599	siga	_	siga	_	408-6	linguistic	none	_	_	_	_	_
+
+#Text=cioè era spenta eh però era finita
+410-1	11600-11604	cioè	_	c(io)è	TO085	409-0	linguistic	none	_	_	_	_	_
+410-2	11605-11608	era	_	era	_	409-1	linguistic	none	_	_	_	_	_
+410-3	11609-11615	spenta	_	spenta	_	409-2	linguistic	none	_	_	_	_	_
+410-4	11616-11618	eh	WeaklyRising	eh,	_	409-3	linguistic	none	_	_	_	_	_
+410-5	11619-11623	però	WeaklyRising	però,	_	409-4	linguistic	none	_	_	_	_	_
+410-6	11624-11627	era	_	era	_	409-5	linguistic	none	_	_	_	_	_
+410-7	11628-11634	finita	Falling	finita.	_	409-6	linguistic	none	_	_	_	_	_

@@ -1,0 +1,449 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_SP=webanno.custom.Type|Type_values
+#T_SP=webanno.custom.code_variation|code_variation_values
+#T_SP=webanno.custom.Prolongation|Prolongation_values
+#T_SP=webanno.custom.Pace|Pace_values
+#T_SP=webanno.custom.Guesses|Guesses_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=vai puoi cominciare
+1-1	0-3	vai	_	vai	TOR004	0-0	linguistic	none	_	_	_	_	_
+1-2	4-8	puoi	_	puoi	_	0-1	linguistic	none	_	_	_	_	_
+1-3	9-19	cominciare	_	cominciare	_	0-2	linguistic	none	_	_	_	_	_
+
+#Text=da dove comincio dall' inizio
+2-1	20-22	da	_	da	TOI019	1-0	linguistic	none	_	_	_	_	_
+2-2	23-27	dove	_	dove	_	1-1	linguistic	none	_	_	_	_	_
+2-3	28-36	comincio	WeaklyRising	comincio,	_	1-2	linguistic	none	_	_	_	_	_
+2-4	37-42	dall'	_	dall'	_	1-3	linguistic	none	_	_	_	_	_
+2-5	43-49	inizio	Rising	inizio?	_	1-4	linguistic	none	_	_	_	_	_
+
+#Text=sì
+3-1	50-52	sì	Falling	sì.	TOR004	2-0	linguistic	none	_	_	_	_	_
+
+#Text=ecco
+4-1	53-57	ecco	Falling	ecco.	TOI019	3-0	linguistic	none	_	_	_	_	_
+
+#Text=mio cugino che m' accompagna perché non ci sono taxi
+5-1	58-61	mio	_	mio	TOI019	4-0	linguistic	none	_	_	_	_	_
+5-2	62-68	cugino	_	cugino	_	4-1	linguistic	none	_	_	_	_	_
+5-3	69-72	che	_	che	_	4-2	linguistic	none	_	_	_	_	_
+5-4	73-75	m'	_	m'	_	4-3	linguistic	none	_	_	_	_	_
+5-5	76-86	accompagna	_	accompagna	_	4-4	linguistic	none	_	_	_	_	_
+5-6	87-93	perché	_	perché	_	4-5	linguistic	none	_	_	_	_	_
+5-7	94-97	non	_	non	_	4-6	linguistic	none	_	_	_	_	_
+5-8	98-100	ci	_	ci	_	4-7	linguistic	none	_	_	_	_	_
+5-9	101-105	sono	_	sono	_	4-8	linguistic	none	_	_	_	_	_
+5-10	106-110	taxi	_	tax(i)	_	4-9	linguistic	none	_	_	3-4(0)	_	_
+
+#Text=mh e questo era un viaggio che facevi
+6-1	111-113	mh	Falling	mh.	TOR004	5-0	linguistic	none	_	_	_	_	_
+6-2	114-115	e	_	e	_	5-1	linguistic	none	_	_	_	_	_
+6-3	116-122	questo	_	questo	_	5-2	linguistic	none	_	_	_	_	_
+6-4	123-126	era	_	era	_	5-3	linguistic	none	_	_	_	_	_
+6-5	127-129	un	_	un	_	5-4	linguistic	none	_	_	_	_	_
+6-6	130-137	viaggio	_	viaggio	_	5-5	linguistic	none	_	_	_	_	_
+6-7	138-141	che	_	che	_	5-6	linguistic	none	_	_	_	_	_
+6-8	142-148	facevi	WeaklyRising	facevi,	_	5-7	linguistic	none	_	_	_	_	_
+
+#Text=di ritorno da da avigliano a torino
+7-1	149-151	di	_	di	TOI019	6-0	linguistic	none	_	_	_	_	_
+7-2	152-159	ritorno	_	ritorno	_	6-1	linguistic	none	_	_	_	_	_
+7-3	160-162	da	_	da::	_	6-2	linguistic	none	1x2	_	_	_	_
+7-4	163-165	da	_	da	_	6-3	linguistic	none	_	_	_	_	_
+7-5	166-175	avigliano	_	avigliano	_	6-4	linguistic	none	_	_	_	_	_
+7-6	176-177	a	_	a	_	6-5	linguistic	none	_	_	_	_	_
+7-7	178-184	torino	_	torino	_	6-6	linguistic	none	_	_	_	_	_
+
+#Text=adesso che ho viaggiato comoda gli ultimi anni
+8-1	185-191	adesso	_	adesso	TOI019	7-0	linguistic	none	_	_	_	_	_
+8-2	192-195	che	_	che	_	7-1	linguistic	none	_	_	_	_	_
+8-3	196-198	ho	_	ho	_	7-2	linguistic	none	_	_	_	_	_
+8-4	199-208	viaggiato	_	viaggiato	_	7-3	linguistic	none	_	_	_	_	_
+8-5	209-215	comoda	_	comoda	_	7-4	linguistic	none	_	_	_	_	_
+8-6	216-219	gli	_	gli	_	7-5	linguistic	none	_	_	_	_	_
+8-7	220-226	ultimi	_	ultimi	_	7-6	linguistic	none	_	_	_	_	_
+8-8	227-231	anni	_	an\[ni\]	_	7-7	linguistic	none	_	_	_	_	_
+8-8.1	229-231	ni	_	_	_	_	_	_	_	_	_	*->3-1	*[3]
+
+#Text=ecco
+9-1	232-236	ecco	Falling	\[ec\]co.	TOR004	8-0	linguistic	none	_	_	_	_	_
+9-1.1	232-234	ec	_	_	_	_	_	_	_	_	_	*->3-2	*[3]
+
+#Text=prendendo l' euto~ l' eurostar
+10-1	237-246	prendendo	_	prendendo	TOI019	9-0	linguistic	none	_	_	_	_	_
+10-2	247-249	l'	_	l'	_	9-1	linguistic	none	_	_	_	_	_
+10-3	250-255	euto~	_	euto~	_	9-2	linguistic	none	_	_	_	_	_
+10-4	256-258	l'	_	l'	_	9-3	linguistic	none	_	_	_	_	_
+10-5	259-267	eurostar	_	eurostar	_	9-4	linguistic	none	_	_	_	_	_
+
+#Text=a foggia però
+11-1	268-269	a	_	a	TOI019	10-0	linguistic	none	_	_	_	_	_
+11-2	270-276	foggia	_	foggia	_	10-1	linguistic	none	_	_	_	_	_
+11-3	277-281	però	Falling	però.	_	10-2	linguistic	none	_	_	_	_	_
+
+#Text=a parte che si viaggia di giorno e non di notte
+12-1	282-283	a	_	a	TOI019	11-0	linguistic	none	_	_	_	_	_
+12-2	284-289	parte	_	parte	_	11-1	linguistic	none	_	_	_	_	_
+12-3	290-293	che	_	che	_	11-2	linguistic	none	_	_	_	_	_
+12-4	294-296	si	_	si	_	11-3	linguistic	none	_	_	_	_	_
+12-5	297-304	viaggia	_	viaggia	_	11-4	linguistic	none	_	_	_	_	_
+12-6	305-307	di	_	di	_	11-5	linguistic	none	_	_	_	_	_
+12-7	308-314	giorno	_	giorno	_	11-6	linguistic	none	_	_	_	_	_
+12-8	315-316	e	_	e	_	11-7	linguistic	none	_	_	_	_	_
+12-9	317-320	non	_	non	_	11-8	linguistic	none	_	_	_	_	_
+12-10	321-323	di	_	di	_	11-9	linguistic	none	_	_	_	_	_
+12-11	324-329	notte	_	not\[te\]	_	11-10	linguistic	none	_	_	_	_	_
+12-11.1	327-329	te	_	_	_	_	_	_	_	_	_	*->5-1	*[5]
+
+#Text=eh certo
+13-1	330-332	eh	_	\[eh\]	TOR004	12-0	linguistic	none	_	_	_	*->5-2	*[5]
+13-2	333-338	certo	_	certo	_	12-1	linguistic	none	_	_	_	_	_
+
+#Text=allora
+14-1	339-345	allora	_	allora:	TOI019	13-0	linguistic	none	5x1	_	_	_	_
+
+#Text=mio cugino mi mette in macchina
+15-1	346-349	mio	_	mio	TOI019	14-0	linguistic	none	_	_	_	_	_
+15-2	350-356	cugino	_	cugino	_	14-1	linguistic	none	_	_	_	_	_
+15-3	357-359	mi	_	mi	_	14-2	linguistic	none	_	_	_	_	_
+15-4	360-365	mette	_	mette	_	14-3	linguistic	none	_	_	_	_	_
+15-5	366-368	in	_	in	_	14-4	linguistic	none	_	_	_	_	_
+15-6	369-377	macchina	_	macchina	_	14-5	linguistic	none	_	_	_	_	_
+
+#Text=e mi dice che mi lascia
+16-1	378-379	e	_	e	TOI019	15-0	linguistic	none	_	_	_	_	_
+16-2	380-382	mi	_	mi	_	15-1	linguistic	none	_	_	_	_	_
+16-3	383-387	dice	_	dice	_	15-2	linguistic	none	_	_	_	_	_
+16-4	388-391	che	_	che	_	15-3	linguistic	none	_	_	_	_	_
+16-5	392-394	mi	_	mi	_	15-4	linguistic	none	_	_	_	_	_
+16-6	395-401	lascia	_	lascia	_	15-5	linguistic	none	_	_	_	_	_
+
+#Text=dopo otto chilometri
+17-1	402-406	dopo	_	dopo	TOI019	16-0	linguistic	none	_	_	_	_	_
+17-2	407-411	otto	_	otto	_	16-1	linguistic	none	_	_	_	_	_
+17-3	412-422	chilometri	_	chilometri	_	16-2	linguistic	none	_	_	_	_	_
+
+#Text=poi io dico
+18-1	423-426	poi	_	poi::	TOI019	17-0	linguistic	none	2x2	_	_	_	_
+18-2	427-429	io	_	io	_	17-1	linguistic	none	_	_	_	_	_
+18-3	430-434	dico	_	dico	_	17-2	linguistic	none	_	_	_	_	_
+
+#Text=ma edoardo
+19-1	435-437	ma	_	ma	TOI019	18-0	linguistic	none	_	_	_	_	_
+19-2	438-445	edoardo	_	edoardo	_	18-1	linguistic	none	_	_	_	_	_
+
+#Text=siamo già arrivati
+20-1	446-451	siamo	_	siamo	TOI019	19-0	linguistic	none	_	_	_	_	_
+20-2	452-455	già	_	già	_	19-1	linguistic	none	_	_	_	_	_
+20-3	456-464	arrivati	Rising	arrivati?	_	19-2	linguistic	none	_	_	_	_	_
+
+#Text=e lui ma no zia pia non te ne ncarcà
+21-1	465-466	e	_	# e	TOI019	20-0	linguistic	underspecified	_	_	_	_	_
+21-2	467-470	lui	_	lui	_	20-1	linguistic	underspecified	_	_	_	_	_
+21-3	471-473	ma	_	ma	_	20-2	linguistic	underspecified	_	_	_	_	_
+21-4	474-476	no	_	no	_	20-3	linguistic	underspecified	_	_	_	_	_
+21-5	477-480	zia	_	zia	_	20-4	linguistic	underspecified	_	_	_	_	_
+21-6	481-484	pia	_	pia	_	20-5	linguistic	underspecified	_	_	_	_	_
+21-7	485-488	non	_	non	_	20-6	linguistic	underspecified	_	_	_	_	_
+21-8	489-491	te	_	te	_	20-7	linguistic	underspecified	_	_	_	_	_
+21-9	492-494	ne	_	ne	_	20-8	linguistic	underspecified	_	_	_	_	_
+21-10	495-501	ncarcà	_	ncarcà	_	20-9	linguistic	underspecified	_	_	_	_	_
+
+#Text=tu non te ne ncarcà e allora ((ride))
+22-1	502-504	tu	_	# tu	TOI019	21-0	linguistic	underspecified	_	_	_	_	_
+22-2	505-508	non	_	non	_	21-1	linguistic	underspecified	_	_	_	_	_
+22-3	509-511	te	_	te	_	21-2	linguistic	underspecified	_	_	_	_	_
+22-4	512-514	ne	_	ne	_	21-3	linguistic	underspecified	_	_	_	_	_
+22-5	515-521	ncarcà	_	ncarcà	_	21-4	linguistic	underspecified	_	_	_	_	_
+22-6	522-523	e	_	e	_	21-5	linguistic	underspecified	_	_	_	_	_
+22-7	524-530	allora	_	allora	_	21-6	linguistic	underspecified	_	_	_	_	_
+22-8	531-539	((ride))	_	((ride))	_	21-7	nonverbalbehavior	yes	_	_	_	_	_
+
+#Text=((ride)) io non sto l~
+23-1	540-548	((ride))	_	((ride))	TOI019	22-0	nonverbalbehavior	none	_	_	_	_	_
+23-2	549-551	io	_	(io	_	22-1	linguistic	none	_	_	0-2(0)	_	_
+23-3	552-555	non	_	non	_	22-2	linguistic	none	_	_	0-3(0)	_	_
+23-4	556-559	sto	_	sto	_	22-3	linguistic	none	_	_	0-3(0)	_	_
+23-5	560-562	l~	_	l~)	_	22-4	linguistic	none	_	_	0-2(0)	_	_
+
+#Text=guardo lì ma
+24-1	563-569	guardo	_	GUARDO	TOI019	23-0	linguistic	none	_	_	_	_	_
+24-2	570-572	lì	_	lì	_	23-1	linguistic	none	_	_	_	_	_
+24-3	573-575	ma	_	ma	_	23-2	linguistic	none	_	_	_	_	_
+
+#Text=ma edoardo ma siamo già arriv~ seme già arruate a rionero
+25-1	576-578	ma	_	# ma	TOI019	24-0	linguistic	underspecified	_	_	_	_	_
+25-2	579-586	edoardo	_	edoardo	_	24-1	linguistic	underspecified	_	_	_	_	_
+25-3	587-589	ma	_	ma	_	24-2	linguistic	underspecified	_	_	_	_	_
+25-4	590-595	siamo	_	siamo	_	24-3	linguistic	underspecified	_	_	_	_	_
+25-5	596-599	già	_	già	_	24-4	linguistic	underspecified	_	_	_	_	_
+25-6	600-606	arriv~	_	arriv~	_	24-5	linguistic	underspecified	_	_	_	_	_
+25-7	607-611	seme	_	seme	_	24-6	linguistic	underspecified	_	_	_	_	_
+25-8	612-615	già	_	già	_	24-7	linguistic	underspecified	_	_	_	_	_
+25-9	616-623	arruate	_	arruate	_	24-8	linguistic	underspecified	_	_	_	_	_
+25-10	624-625	a	_	a	_	24-9	linguistic	underspecified	_	_	_	_	_
+25-11	626-633	rionero	_	rionero	_	24-10	linguistic	underspecified	_	_	_	_	_
+
+#Text=ma sì ma tu non te ne ncarcà
+26-1	634-636	ma	_	# ma	TOI019	25-0	linguistic	underspecified	_	_	_	_	_
+26-2	637-639	sì	_	sì	_	25-1	linguistic	underspecified	_	_	_	_	_
+26-3	640-642	ma	_	ma	_	25-2	linguistic	underspecified	_	_	_	_	_
+26-4	643-645	tu	_	tu	_	25-3	linguistic	underspecified	_	_	_	_	_
+26-5	646-649	non	_	non	_	25-4	linguistic	underspecified	_	_	_	_	_
+26-6	650-652	te	_	te	_	25-5	linguistic	underspecified	_	_	_	_	_
+26-7	653-655	ne	_	ne	_	25-6	linguistic	underspecified	_	_	_	_	_
+26-8	656-662	ncarcà	_	ncarcà	_	25-7	linguistic	underspecified	_	_	_	_	_
+
+#Text=((ride))
+27-1	663-671	((ride))	_	((ride))	TOR004	26-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=((ride))
+28-1	672-680	((ride))	_	((ride))	TOI019	27-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=e allora mi porta fino a foggia
+29-1	681-682	e	_	e	TOI019	28-0	linguistic	none	_	_	_	_	_
+29-2	683-689	allora	_	allora	_	28-1	linguistic	none	_	_	_	_	_
+29-3	690-692	mi	_	mi	_	28-2	linguistic	none	_	_	_	_	_
+29-4	693-698	porta	_	porta	_	28-3	linguistic	none	_	_	_	_	_
+29-5	699-703	fino	_	fino	_	28-4	linguistic	none	_	_	_	_	_
+29-6	704-705	a	_	a	_	28-5	linguistic	none	_	_	_	_	_
+29-7	706-712	foggia	_	foggia	_	28-6	linguistic	none	_	_	_	_	_
+
+#Text=ci porta fino a foggia
+30-1	713-715	ci	_	ci	TOI019	29-0	linguistic	none	_	_	_	_	_
+30-2	716-721	porta	_	porta	_	29-1	linguistic	none	_	_	_	_	_
+30-3	722-726	fino	_	fino	_	29-2	linguistic	none	_	_	_	_	_
+30-4	727-728	a	_	a	_	29-3	linguistic	none	_	_	_	_	_
+30-5	729-735	foggia	Falling	foggia.	_	29-4	linguistic	none	_	_	_	_	_
+
+#Text=xxx belle
+31-1	736-739	xxx	_	# xxx	TOI019	30-0	unknown	yes	_	_	_	_	_
+31-2	740-745	belle	_	bell::e	_	30-1	linguistic	underspecified	3x2	_	_	_	_
+
+#Text=a passare il sottopassaggio perché quello
+32-1	746-747	a	_	a	TOI019	31-0	linguistic	none	_	_	_	_	_
+32-2	748-755	passare	_	passare	_	31-1	linguistic	none	_	_	_	_	_
+32-3	756-758	il	_	il	_	31-2	linguistic	none	_	_	_	_	_
+32-4	759-773	sottopassaggio	_	sottopassaggio	_	31-3	linguistic	none	_	_	_	_	_
+32-5	774-780	perché	_	perché	_	31-4	linguistic	none	_	_	_	_	_
+32-6	781-787	quello	_	quello	_	31-5	linguistic	none	_	_	_	_	_
+
+#Text=con le valigie
+33-1	788-791	con	_	con	TOI019	32-0	linguistic	none	_	_	_	_	_
+33-2	792-794	le	_	le	_	32-1	linguistic	none	_	_	_	_	_
+33-3	795-802	valigie	_	valigie	_	32-2	linguistic	none	_	_	_	_	_
+
+#Text=solo io e mio marito
+34-1	803-807	solo	_	solo	TOI019	33-0	linguistic	none	_	_	_	_	_
+34-2	808-810	io	_	io	_	33-1	linguistic	none	_	_	_	_	_
+34-3	811-812	e	_	e	_	33-2	linguistic	none	_	_	_	_	_
+34-4	813-816	mio	_	mio	_	33-3	linguistic	none	_	_	_	_	_
+34-5	817-823	marito	_	marito	_	33-4	linguistic	none	_	_	_	_	_
+
+#Text=eh quindi
+35-1	824-826	eh	_	eh	TOI019	34-0	linguistic	none	_	_	_	_	_
+35-2	827-833	quindi	_	quindi:	_	34-1	linguistic	none	5x1	_	_	_	_
+
+#Text=e poi e po~ aspetta che parte il treno però non sa~ non
+36-1	834-835	e	_	e	TOI019	35-0	linguistic	none	_	_	_	_	_
+36-2	836-839	poi	_	poi	_	35-1	linguistic	none	_	_	_	_	_
+36-3	840-841	e	_	e	_	35-2	linguistic	none	_	_	_	_	_
+36-4	842-845	po~	_	po~	_	35-3	linguistic	none	_	_	_	_	_
+36-5	846-853	aspetta	_	aspett(a)	_	35-4	linguistic	none	_	_	6-7(0)	_	_
+36-6	854-857	che	_	che	_	35-5	linguistic	none	_	_	_	_	_
+36-7	858-863	parte	_	parte	_	35-6	linguistic	none	_	_	_	_	_
+36-8	864-866	il	_	il	_	35-7	linguistic	none	_	_	_	_	_
+36-9	867-872	treno	Falling	treno.	_	35-8	linguistic	none	_	_	_	_	_
+36-10	873-877	però	_	però	_	35-9	linguistic	none	_	_	_	_	_
+36-11	878-881	non	_	non	_	35-10	linguistic	none	_	_	_	_	_
+36-12	882-885	sa~	_	sa~	_	35-11	linguistic	none	_	_	_	_	_
+36-13	886-889	non	_	non:	_	35-12	linguistic	none	2x1	_	_	_	_
+
+#Text=però non c' acchiannene soupe al treno
+37-1	890-894	però	_	# però	TOI019	36-0	linguistic	underspecified	_	_	_	_	_
+37-2	895-898	non	_	non	_	36-1	linguistic	underspecified	_	_	_	_	_
+37-3	899-901	c'	_	c'	_	36-2	linguistic	underspecified	_	_	_	_	_
+37-4	902-913	acchiannene	_	acchiannene	_	36-3	linguistic	underspecified	_	_	_	_	_
+37-5	914-919	soupe	_	soupe	_	36-4	linguistic	underspecified	_	_	_	_	_
+37-6	920-922	al	_	al	_	36-5	linguistic	underspecified	_	_	_	_	_
+37-7	923-928	treno	_	treno	_	36-6	linguistic	underspecified	_	_	_	_	_
+
+#Text=p~ c~ paura che il treno se parte
+38-1	929-931	p~	_	# p~	TOI019	37-0	linguistic	underspecified	_	_	_	_	_
+38-2	932-934	c~	_	c~	_	37-1	linguistic	underspecified	_	_	_	_	_
+38-3	935-940	paura	_	paura	_	37-2	linguistic	underspecified	_	_	_	_	_
+38-4	941-944	che	_	che	_	37-3	linguistic	underspecified	_	_	_	_	_
+38-5	945-947	il	_	il	_	37-4	linguistic	underspecified	_	_	_	_	_
+38-6	948-953	treno	_	tren(o)	_	37-5	linguistic	underspecified	_	_	4-5(0)	_	_
+38-7	954-956	se	_	se	_	37-6	linguistic	underspecified	_	_	_	_	_
+38-8	957-962	parte	_	parte	_	37-7	linguistic	underspecified	_	_	_	_	_
+
+#Text=non si non se ferma chiù
+39-1	963-966	non	_	# non	TOI019	38-0	linguistic	underspecified	_	_	_	_	_
+39-2	967-969	si	_	si	_	38-1	linguistic	underspecified	_	_	_	_	_
+39-3	970-973	non	_	non	_	38-2	linguistic	underspecified	_	_	_	_	_
+39-4	974-976	se	_	se	_	38-3	linguistic	underspecified	_	_	_	_	_
+39-5	977-982	ferma	_	ferm(a)	_	38-4	linguistic	underspecified	_	_	4-5(0)	_	_
+39-6	983-987	chiù	_	chiù	_	38-5	linguistic	underspecified	_	_	_	_	_
+
+#Text=e allora
+40-1	988-989	e	_	e	TOI019	39-0	linguistic	none	_	_	_	_	_
+40-2	990-996	allora	_	allor(a)	_	39-1	linguistic	none	_	_	5-6(0)	_	_
+
+#Text=s' andava fino a termoli
+41-1	997-999	s'	_	(s'	TOI019	40-0	linguistic	none	_	_	0-2(0)	_	_
+41-2	1000-1006	andava	_	andava)	_	40-1	linguistic	none	_	_	0-6(0)	_	_
+41-3	1007-1011	fino	_	fino	_	40-2	linguistic	none	_	_	_	_	_
+41-4	1012-1013	a	_	a	_	40-3	linguistic	none	_	_	_	_	_
+41-5	1014-1021	termoli	_	termoli	_	40-4	linguistic	none	_	_	_	_	_
+
+#Text=termoli c' è la prima fermata
+42-1	1022-1029	termoli	_	termoli	TOI019	41-0	linguistic	none	_	_	_	_	_
+42-2	1030-1032	c'	_	c'	_	41-1	linguistic	none	_	_	_	_	_
+42-3	1033-1034	è	_	è	_	41-2	linguistic	none	_	_	_	_	_
+42-4	1035-1037	la	_	la	_	41-3	linguistic	none	_	_	_	_	_
+42-5	1038-1043	prima	_	prima	_	41-4	linguistic	none	_	_	_	_	_
+42-6	1044-1051	fermata	_	fermata	_	41-5	linguistic	none	_	_	_	_	_
+
+#Text=mh
+43-1	1052-1054	mh	_	mh	TOR004	42-0	linguistic	none	_	_	_	_	_
+
+#Text=ecco
+44-1	1055-1059	ecco	Falling	ecco.	TOI019	43-0	linguistic	none	_	_	_	_	_
+
+#Text=e così (.) ci aiutano a salire a foggia sul treno
+45-1	1060-1061	e	_	e	TOI019	44-0	linguistic	none	_	_	_	_	_
+45-2	1062-1066	così	_	così	_	44-1	linguistic	none	_	_	_	_	_
+45-3	1067-1070	(.)	_	(.)	_	44-2	shortpause	none	_	_	_	_	_
+45-4	1071-1073	ci	_	ci:	_	44-3	linguistic	none	1x1	_	_	_	_
+45-5	1074-1081	aiutano	_	aiutano	_	44-4	linguistic	none	_	_	_	_	_
+45-6	1082-1083	a	_	a	_	44-5	linguistic	none	_	_	_	_	_
+45-7	1084-1090	salire	_	salire	_	44-6	linguistic	none	_	_	_	_	_
+45-8	1091-1092	a	_	a	_	44-7	linguistic	none	_	_	_	_	_
+45-9	1093-1099	foggia	_	foggia	_	44-8	linguistic	none	_	_	_	_	_
+45-10	1100-1103	sul	_	sul	_	44-9	linguistic	none	_	_	_	_	_
+45-11	1104-1109	treno	WeaklyRising	treno,	_	44-10	linguistic	none	_	_	_	_	_
+
+#Text=e poi loro tornano indietro ((ride))
+46-1	1110-1111	e	_	e	TOI019	45-0	linguistic	none	_	_	_	_	_
+46-2	1112-1115	poi	_	poi	_	45-1	linguistic	none	_	_	_	_	_
+46-3	1116-1120	loro	_	loro	_	45-2	linguistic	none	_	_	_	_	_
+46-4	1121-1128	tornano	_	tornano	_	45-3	linguistic	none	_	_	_	_	_
+46-5	1129-1137	indietro	Falling	indietro.	_	45-4	linguistic	none	_	_	_	_	_
+46-6	1138-1146	((ride))	_	((ride))	_	45-5	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=((ride))
+47-1	1147-1155	((ride))	_	((ride))	TOR004	46-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=e noi arriviamo a torino
+48-1	1156-1157	e	_	e	TOI019	47-0	linguistic	none	_	_	_	_	_
+48-2	1158-1161	noi	_	noi	_	47-1	linguistic	none	_	_	_	_	_
+48-3	1162-1171	arriviamo	_	arriviamo	_	47-2	linguistic	none	_	_	_	_	_
+48-4	1172-1173	a	_	a	_	47-3	linguistic	none	_	_	_	_	_
+48-5	1174-1180	torino	Falling	torino.	_	47-4	linguistic	none	_	_	_	_	_
+
+#Text=e questo viaggio però è andato meglio degli altri
+49-1	1181-1182	e	_	e	TOR004	48-0	linguistic	none	_	_	_	_	_
+49-2	1183-1189	questo	_	questo	_	48-1	linguistic	none	_	_	_	_	_
+49-3	1190-1197	viaggio	_	viaggio	_	48-2	linguistic	none	_	_	_	_	_
+49-4	1198-1202	però	_	però	_	48-3	linguistic	none	_	_	_	_	_
+49-5	1203-1204	è	_	è	_	48-4	linguistic	none	_	_	_	_	_
+49-6	1205-1211	andato	_	andato	_	48-5	linguistic	none	_	_	_	_	_
+49-7	1212-1218	meglio	_	meglio	_	48-6	linguistic	none	_	_	_	_	_
+49-8	1219-1224	degli	_	degli	_	48-7	linguistic	none	_	_	_	_	_
+49-9	1225-1230	altri	_	al\[tri\]	_	48-8	linguistic	none	_	_	_	_	_
+49-9.1	1227-1230	tri	_	_	_	_	_	_	_	_	_	*->7-1	*[7]
+
+#Text=no questi sì questi gli ultimi anni abbiamo viaggiato comodissimo
+50-1	1231-1233	no	_	\[no\]:	TOI019	49-0	linguistic	none	1x1	_	_	*->7-2	*[7]
+50-2	1234-1240	questi	_	questi	_	49-1	linguistic	none	_	_	_	_	_
+50-3	1241-1243	sì	Falling	sì.	_	49-2	linguistic	none	_	_	_	_	_
+50-4	1244-1250	questi	_	questi	_	49-3	linguistic	none	_	_	_	_	_
+50-5	1251-1254	gli	_	gli	_	49-4	linguistic	none	_	_	_	_	_
+50-6	1255-1261	ultimi	_	ultimi	_	49-5	linguistic	none	_	_	_	_	_
+50-7	1262-1266	anni	_	anni	_	49-6	linguistic	none	_	_	_	_	_
+50-8	1267-1274	abbiamo	_	abbiamo	_	49-7	linguistic	none	_	_	_	_	_
+50-9	1275-1284	viaggiato	_	viaggiato	_	49-8	linguistic	none	_	_	_	_	_
+50-10	1285-1296	comodissimo	Falling	comodissimo.	_	49-9	linguistic	none	_	_	_	_	_
+
+#Text=di qua facendo le prenotazioni ma di qua si potevano fare anche prima
+51-1	1297-1299	di	_	di	TOI019	50-0	linguistic	none	_	_	_	_	_
+51-2	1300-1303	qua	_	qua	_	50-1	linguistic	none	_	_	_	_	_
+51-3	1304-1311	facendo	_	facendo	_	50-2	linguistic	none	_	_	_	_	_
+51-4	1312-1314	le	_	le	_	50-3	linguistic	none	_	_	_	_	_
+51-5	1315-1327	prenotazioni	Falling	prenotazioni.	_	50-4	linguistic	none	_	_	_	_	_
+51-6	1328-1330	ma	_	ma	_	50-5	linguistic	none	_	_	_	_	_
+51-7	1331-1333	di	_	di	_	50-6	linguistic	none	_	_	_	_	_
+51-8	1334-1337	qua	_	qua	_	50-7	linguistic	none	_	_	_	_	_
+51-9	1338-1340	si	_	si	_	50-8	linguistic	none	_	_	_	_	_
+51-10	1341-1349	potevano	_	potevano	_	50-9	linguistic	none	_	_	_	_	_
+51-11	1350-1354	fare	_	fare	_	50-10	linguistic	none	_	_	_	_	_
+51-12	1355-1360	anche	_	anche	_	50-11	linguistic	none	_	_	_	_	_
+51-13	1361-1366	prima	_	prima	_	50-12	linguistic	none	_	_	_	_	_
+
+#Text=mh
+52-1	1367-1369	mh	_	mh	TOR004	51-0	linguistic	none	_	_	_	_	_
+
+#Text=era da giù che è più difficile prenotare ((ride))
+53-1	1370-1373	era	_	era	TOI019	52-0	linguistic	none	_	_	_	_	_
+53-2	1374-1376	da	_	da	_	52-1	linguistic	none	_	_	_	_	_
+53-3	1377-1380	giù	_	giù	_	52-2	linguistic	none	_	_	_	_	_
+53-4	1381-1384	che	_	che	_	52-3	linguistic	none	_	_	_	_	_
+53-5	1385-1386	è	_	è	_	52-4	linguistic	none	_	_	_	_	_
+53-6	1387-1390	più	_	più	_	52-5	linguistic	none	_	_	_	_	_
+53-7	1391-1400	difficile	_	difficile	_	52-6	linguistic	none	_	_	_	_	_
+53-8	1401-1410	prenotare	_	prenotare	_	52-7	linguistic	none	_	_	_	_	_
+53-9	1411-1419	((ride))	_	((ride))	_	52-8	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=eh beh certo
+54-1	1420-1422	eh	_	eh	TOR004	53-0	linguistic	none	_	_	_	_	_
+54-2	1423-1426	beh	_	beh	_	53-1	linguistic	none	_	_	_	_	_
+54-3	1427-1432	certo	Falling	certo.	_	53-2	linguistic	none	_	_	_	_	_
+
+#Text=va bene
+55-1	1433-1435	va	_	va	TOR004	54-0	linguistic	none	_	_	_	_	_
+55-2	1436-1440	bene	WeaklyRising	bene,	_	54-1	linguistic	none	_	_	_	_	_
+
+#Text=va bene
+56-1	1441-1443	va	_	va	TOI019	55-0	linguistic	none	_	_	_	_	_
+56-2	1444-1448	bene	_	bene	_	55-1	linguistic	none	_	_	_	_	_
+
+#Text=ci fermiamo qui
+57-1	1449-1451	ci	_	ci	TOI019	56-0	linguistic	none	_	_	_	_	_
+57-2	1452-1460	fermiamo	_	fermiamo	_	56-1	linguistic	none	_	_	_	_	_
+57-3	1461-1464	qui	Rising	qui?	_	56-2	linguistic	none	_	_	_	_	_
+
+#Text=sì
+58-1	1465-1467	sì	Falling	s:ì.	TOR004	57-0	linguistic	none	0x1	_	_	_	_
+
+#Text=vuoi sapere ancora qualcos' altro ((ride))
+59-1	1468-1472	vuoi	_	vuoi	TOI019	58-0	linguistic	none	_	_	_	_	_
+59-2	1473-1479	sapere	_	sapere	_	58-1	linguistic	none	_	_	_	_	_
+59-3	1480-1486	ancora	_	ancora	_	58-2	linguistic	none	_	_	_	_	_
+59-4	1487-1495	qualcos'	_	qualcos'	_	58-3	linguistic	none	_	_	_	_	_
+59-5	1496-1501	altro	Rising	al\[tro\]?	_	58-4	linguistic	none	_	_	_	_	_
+59-5.1	1498-1501	tro	_	_	_	_	_	_	_	_	_	*->1-1	*[1]
+59-6	1502-1510	((ride))	_	((ride))	_	58-5	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=no grazie ((ride))
+60-1	1511-1513	no	_	\[no\]	TOR004	59-0	linguistic	none	_	_	_	*->1-2	*[1]
+60-2	1514-1520	grazie	_	grazi\[e\]	_	59-1	linguistic	none	_	_	_	_	_
+60-2.1	1519-1520	e	_	_	_	_	_	_	_	_	_	*->4-1	*[4]
+60-3	1521-1529	((ride))	_	((ride))	_	59-2	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=basta così
+61-1	1530-1535	basta	_	\[ba\]sta	TOI019	60-0	linguistic	none	_	_	_	_	_
+61-1.1	1530-1532	ba	_	_	_	_	_	_	_	_	_	*->4-2	*[4]
+61-2	1536-1540	così	WeaklyRising	così,	_	60-1	linguistic	none	_	_	_	_	_
+
+#Text=grazie per l' intervista
+62-1	1541-1547	grazie	_	grazie	TOR004	61-0	linguistic	none	_	_	_	_	_
+62-2	1548-1551	per	_	per	_	61-1	linguistic	none	_	_	_	_	_
+62-3	1552-1554	l'	_	l'	_	61-2	linguistic	none	_	_	_	_	_
+62-4	1555-1565	intervista	Falling	intervista.	_	61-3	linguistic	none	_	_	_	_	_

@@ -1,0 +1,4070 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_SP=webanno.custom.Type|Type_values
+#T_SP=webanno.custom.code_variation|code_variation_values
+#T_SP=webanno.custom.Prolongation|Prolongation_values
+#T_SP=webanno.custom.Pace|Pace_values
+#T_SP=webanno.custom.Guesses|Guesses_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=sì fa freddo ((ride))
+1-1	0-2	sì	_	°sì	PSB014	0-0	linguistic	none	_	_	_	_	_
+1-2	3-5	fa	_	fa	_	0-1	linguistic	none	_	_	_	_	_
+1-3	6-12	freddo	_	freddo°	_	0-2	linguistic	none	_	_	_	_	_
+1-4	13-21	((ride))	_	((ride))	_	0-3	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=okay (.) eccoci
+2-1	22-26	okay	_	okay	PSB033	1-0	linguistic	none	_	_	_	_	_
+2-2	27-30	(.)	_	(.)	_	1-1	shortpause	none	_	_	_	_	_
+2-3	31-37	eccoci	_	eccoci	_	1-2	linguistic	none	_	_	_	_	_
+
+#Text=ehm
+3-1	38-41	ehm	_	ehm::	PSB033	2-0	linguistic	none	2x2	_	_	_	_
+
+#Text=okay scusa
+4-1	42-46	okay	WeaklyRising	okay,	PSB014	3-0	linguistic	none	_	_	_	_	_
+4-2	47-52	scusa	_	scusa	_	3-1	linguistic	none	_	_	_	_	_
+
+#Text=ehm ti piace bologna cioè viv~ vivi qua a bologna
+5-1	53-56	ehm	_	ehm:	PSB033	4-0	linguistic	none	2x1	_	_	_	_
+5-2	57-59	ti	_	ti	_	4-1	linguistic	none	_	_	_	_	_
+5-3	60-65	piace	_	piace	_	4-2	linguistic	none	_	_	_	_	_
+5-4	66-73	bologna	Rising	bologna?	_	4-3	linguistic	none	_	_	_	_	_
+5-5	74-78	cioè	_	c(io)è	_	4-4	linguistic	none	_	_	_	_	_
+5-6	79-83	viv~	_	viv~	_	4-5	linguistic	none	_	_	_	_	_
+5-7	84-88	vivi	_	vivi	_	4-6	linguistic	none	_	_	_	_	_
+5-8	89-92	qua	_	qua	_	4-7	linguistic	none	_	_	_	_	_
+5-9	93-94	a	_	a	_	4-8	linguistic	none	_	_	_	_	_
+5-10	95-102	bologna	Rising	bologna?	_	4-9	linguistic	none	_	_	_	_	_
+
+#Text=sì mi piace bologna
+6-1	103-105	sì	WeaklyRising	sì,	PSB034	5-0	linguistic	none	_	_	_	_	_
+6-2	106-108	mi	_	°mi°	_	5-1	linguistic	none	_	_	_	_	_
+6-3	109-114	piace	_	piace	_	5-2	linguistic	none	_	_	_	_	_
+6-4	115-122	bologna	_	bologna	_	5-3	linguistic	none	_	_	_	_	_
+
+#Text=e vivi qua
+7-1	123-124	e	_	e	PSB033	6-0	linguistic	none	_	_	_	_	_
+7-2	125-129	vivi	_	vivi	_	6-1	linguistic	none	_	_	_	_	_
+7-3	130-133	qua	Rising	qua?	_	6-2	linguistic	none	_	_	_	_	_
+
+#Text=vivo qua sì
+8-1	134-138	vivo	_	°vivo	PSB034	7-0	linguistic	none	_	_	_	_	_
+8-2	139-142	qua	WeaklyRising	qua,	_	7-1	linguistic	none	_	_	_	_	_
+8-3	143-145	sì	_	sì°	_	7-2	linguistic	none	_	_	_	_	_
+
+#Text=no qua vivi in bo~
+9-1	146-148	no	_	no	PSB033	8-0	linguistic	none	_	_	_	_	_
+9-2	149-152	qua	WeaklyRising	qua,	_	8-1	linguistic	none	_	_	_	_	_
+9-3	153-157	vivi	_	\[vivi	_	8-2	linguistic	none	_	_	_	*->1-1	*[1]
+9-4	158-160	in	_	in	_	8-3	linguistic	none	_	_	_	*->1-2	*[1]
+9-5	161-164	bo~	_	bo~\]	_	8-4	linguistic	none	_	_	_	*->1-3	*[1]
+
+#Text=in via @nomeluogo
+10-1	165-167	in	_	\[in	PSB034	9-0	linguistic	none	_	_	_	*->1-4	*[1]
+10-2	168-171	via	_	via\]	_	9-1	linguistic	none	_	_	_	*->1-5	*[1]
+10-3	172-182	@nomeluogo	_	@nomeluogo	_	9-2	anonymized	none	_	_	_	_	_
+
+#Text=ma vivi qua da solo con qualcuno
+11-1	183-185	ma	_	ma	PSB033	10-0	linguistic	none	_	_	_	_	_
+11-2	186-190	vivi	_	vivi	_	10-1	linguistic	none	_	_	_	_	_
+11-3	191-194	qua	_	qua:	_	10-2	linguistic	none	2x1	_	_	_	_
+11-4	195-197	da	_	da	_	10-3	linguistic	none	_	_	_	_	_
+11-5	198-202	solo	WeaklyRising	solo:,	_	10-4	linguistic	none	3x1	_	_	_	_
+11-6	203-206	con	_	con:	_	10-5	linguistic	none	2x1	_	_	_	_
+11-7	207-215	qualcuno	_	\[qualcuno\]	_	10-6	linguistic	none	_	_	_	*->185-1	*[185]
+
+#Text=altra gente
+12-1	216-221	altra	_	\[altra	PSB014	11-0	linguistic	none	_	_	_	_	_
+12-2	222-227	gente	Rising	gente\]\]?	_	11-1	linguistic	none	_	_	_	_	_
+
+#Text=con il mio fratello
+13-1	228-231	con	_	\[con\]	PSB034	12-0	linguistic	none	_	_	_	*->185-2	*[185]
+13-2	232-234	il	_	il	_	12-1	linguistic	none	_	_	_	_	_
+13-3	235-238	mio	_	mio	_	12-2	linguistic	none	_	_	_	_	_
+13-4	239-247	fratello	_	fratello	_	12-3	linguistic	none	_	_	_	_	_
+
+#Text=ah okay
+14-1	248-250	ah	_	ah	PSB033	13-0	linguistic	none	_	_	_	_	_
+14-2	251-255	okay	_	okay	_	13-1	linguistic	none	_	_	_	_	_
+
+#Text=okay
+15-1	256-260	okay	_	°okay°	PSB014	14-0	linguistic	none	_	_	_	_	_
+
+#Text=e da quanto tempo sei qua a bologna
+16-1	261-262	e	_	e	PSB033	15-0	linguistic	none	_	_	_	_	_
+16-2	263-265	da	_	da	_	15-1	linguistic	none	_	_	_	_	_
+16-3	266-272	quanto	_	quanto	_	15-2	linguistic	none	_	_	_	_	_
+16-4	273-278	tempo	_	tempo	_	15-3	linguistic	none	_	_	_	_	_
+16-5	279-282	sei	_	sei	_	15-4	linguistic	none	_	_	_	_	_
+16-6	283-286	qua	_	qua	_	15-5	linguistic	none	_	_	_	_	_
+16-7	287-288	a	_	a	_	15-6	linguistic	none	_	_	_	_	_
+16-8	289-296	bologna	Rising	bologna?	_	15-7	linguistic	none	_	_	_	_	_
+
+#Text=eh tre mesi
+17-1	297-299	eh	WeaklyRising	e::h,	PSB034	16-0	linguistic	none	0x2	_	_	_	_
+17-2	300-303	tre	_	tre	_	16-1	linguistic	none	_	_	_	_	_
+17-3	304-308	mesi	_	mesi	_	16-2	linguistic	none	_	_	_	_	_
+
+#Text=mh
+18-1	309-311	mh	_	mh	PSB014	17-0	linguistic	none	_	_	_	_	_
+
+#Text=e
+19-1	312-313	e	_	e	PSB033	18-0	linguistic	none	_	_	_	_	_
+
+#Text=e parli così italiano
+20-1	314-315	e	_	e	PSB014	19-0	linguistic	none	_	_	_	_	_
+20-2	316-321	parli	_	parli	_	19-1	linguistic	none	_	_	_	_	_
+20-3	322-326	così	_	così	_	19-2	linguistic	none	_	_	_	_	_
+20-4	327-335	italiano	Rising	italiano?	_	19-3	linguistic	none	_	_	_	_	_
+
+#Text=sì ((ride))
+21-1	336-338	sì	_	sì	PSB034	20-0	linguistic	none	_	_	_	_	_
+21-2	339-347	((ride))	_	((ride))	_	20-1	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=oh
+22-1	348-350	oh	_	o::h	PSB014	21-0	linguistic	none	0x2	_	_	_	_
+
+#Text=ma prima era da qualche altra parte o vivi da tre mesi dal marocco
+23-1	351-353	ma	_	ma	PSB033	22-0	linguistic	none	_	_	_	_	_
+23-2	354-359	prima	_	prima	_	22-1	linguistic	none	_	_	_	_	_
+23-3	360-363	era	_	era	_	22-2	linguistic	none	_	_	_	_	_
+23-4	364-366	da	_	da	_	22-3	linguistic	none	_	_	_	_	_
+23-5	367-374	qualche	_	qualche	_	22-4	linguistic	none	_	_	_	_	_
+23-6	375-380	altra	_	altra	_	22-5	linguistic	none	_	_	_	_	_
+23-7	381-386	parte	_	parte	_	22-6	linguistic	none	_	_	_	_	_
+23-8	387-388	o	_	o	_	22-7	linguistic	none	_	_	_	_	_
+23-9	389-393	vivi	_	vivi	_	22-8	linguistic	none	_	_	_	_	_
+23-10	394-396	da	_	da	_	22-9	linguistic	none	_	_	_	_	_
+23-11	397-400	tre	_	tre	_	22-10	linguistic	none	_	_	_	_	_
+23-12	401-405	mesi	_	mesi	_	22-11	linguistic	none	_	_	_	_	_
+23-13	406-409	dal	_	dal	_	22-12	linguistic	none	_	_	_	_	_
+23-14	410-417	marocco	Rising	marocco?	_	22-13	linguistic	none	_	_	_	_	_
+
+#Text=vieni tre mesi dal marocco
+24-1	418-423	vieni	_	vieni	PSB034	23-0	linguistic	none	_	_	_	_	_
+24-2	424-427	tre	_	tre	_	23-1	linguistic	none	_	_	_	_	_
+24-3	428-432	mesi	WeaklyRising	mesi,	_	23-2	linguistic	none	_	_	_	_	_
+24-4	433-436	dal	_	dal	_	23-3	linguistic	none	_	_	_	_	_
+24-5	437-444	marocco	_	maroc\[co\]	_	23-4	linguistic	none	_	_	_	_	_
+24-5.1	442-444	co	_	_	_	_	_	_	_	_	_	*->2-1	*[2]
+
+#Text=ah parli benissimo italiano
+25-1	445-447	ah	WeaklyRising	\[ah\],	PSB033	24-0	linguistic	none	_	_	_	*->2-2	*[2]
+25-2	448-453	parli	_	parli	_	24-1	linguistic	none	_	_	_	_	_
+25-3	454-463	benissimo	_	benissimo	_	24-2	linguistic	none	_	_	_	_	_
+25-4	464-472	italiano	_	italiano	_	24-3	linguistic	none	_	_	_	_	_
+
+#Text=poco
+26-1	473-477	poco	_	poco	PSB034	25-0	linguistic	none	_	_	_	_	_
+
+#Text=((ride))
+27-1	478-486	((ride))	_	((ride))	PSB033	26-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=l' hai imparato là
+28-1	487-489	l'	_	l'	PSB014	27-0	linguistic	none	_	_	_	_	_
+28-2	490-493	hai	_	hai	_	27-1	linguistic	none	_	_	_	_	_
+28-3	494-502	imparato	_	imparato	_	27-2	linguistic	none	_	_	_	_	_
+28-4	503-505	là	Rising	là?	_	27-3	linguistic	none	_	_	_	_	_
+
+#Text=l' hai imparato in marocco oppure sei venuto qua e hai imparato italiano
+29-1	506-508	l'	_	l'	PSB014	28-0	linguistic	none	_	_	_	_	_
+29-2	509-512	hai	_	hai	_	28-1	linguistic	none	_	_	_	_	_
+29-3	513-521	imparato	_	imparato	_	28-2	linguistic	none	_	_	_	_	_
+29-4	522-524	in	_	in	_	28-3	linguistic	none	_	_	_	_	_
+29-5	525-532	marocco	Rising	marocco?	_	28-4	linguistic	none	_	_	_	_	_
+29-6	533-539	oppure	_	oppu\[re\]	_	28-5	linguistic	none	_	_	_	_	_
+29-6.1	537-539	re	_	_	_	_	_	_	_	_	_	*->4-1	*[4]
+29-7	540-543	sei	_	sei	_	28-6	linguistic	none	_	_	_	_	_
+29-8	544-550	venuto	_	venuto	_	28-7	linguistic	none	_	_	_	_	_
+29-9	551-554	qua	_	qua	_	28-8	linguistic	none	_	_	_	_	_
+29-10	555-556	e	_	e	_	28-9	linguistic	none	_	_	_	_	_
+29-11	557-560	hai	_	hai	_	28-10	linguistic	none	_	_	_	_	_
+29-12	561-569	imparato	_	imparato	_	28-11	linguistic	none	_	_	_	_	_
+29-13	570-578	italiano	Rising	ita\[liano\]?	_	28-12	linguistic	none	_	_	_	_	_
+29-13.1	573-578	liano	_	_	_	_	_	_	_	_	_	*->5-1	*[5]
+
+#Text=sì
+30-1	579-581	sì	_	°sì°	PSB034	29-0	linguistic	none	_	_	_	_	_
+
+#Text=sì sì parlato in in italiano
+31-1	582-584	sì	_	\[sì	PSB034	30-0	linguistic	none	_	_	_	*->5-2	*[5]
+31-2	585-587	sì	_	sì\]	_	30-1	linguistic	none	_	_	_	*->5-3	*[5]
+31-3	588-595	parlato	_	parlato	_	30-2	linguistic	none	_	_	_	_	_
+31-4	596-598	in	WeaklyRising	in:,	_	30-3	linguistic	none	1x1	_	_	_	_
+31-5	599-601	in	_	in	_	30-4	linguistic	none	_	_	_	_	_
+31-6	602-610	italiano	_	italiano	_	30-5	linguistic	none	_	_	_	_	_
+
+#Text=ah
+32-1	611-613	ah	_	a:\[:h\]	PSB014	31-0	linguistic	none	0x2	_	_	_	_
+32-1.1	612-613	h	_	_	_	_	_	_	_	_	_	*->6-1	*[6]
+
+#Text=ah
+33-1	614-616	ah	_	\[ah\]	PSB033	32-0	linguistic	none	_	_	_	*->6-2	*[6]
+
+#Text=ehm e ti piace bologna
+34-1	617-620	ehm	WeaklyRising	ehm:,	PSB033	33-0	linguistic	none	2x1	_	_	_	_
+34-2	621-622	e	_	e	_	33-1	linguistic	none	_	_	_	_	_
+34-3	623-625	ti	_	ti	_	33-2	linguistic	none	_	_	_	_	_
+34-4	626-631	piace	_	piace	_	33-3	linguistic	none	_	_	_	_	_
+34-5	632-639	bologna	Rising	bologna?	_	33-4	linguistic	none	_	_	_	_	_
+
+#Text=mi piace bologna sì
+35-1	640-642	mi	_	mi	PSB034	34-0	linguistic	none	_	_	_	_	_
+35-2	643-648	piace	_	piace	_	34-1	linguistic	none	_	_	_	_	_
+35-3	649-656	bologna	WeaklyRising	bologna,	_	34-2	linguistic	none	_	_	_	_	_
+35-4	657-659	sì	_	sì	_	34-3	linguistic	none	_	_	_	_	_
+
+#Text=perché ti piace
+36-1	660-666	perché	_	per\[ché	PSB014	35-0	linguistic	none	_	_	_	_	_
+36-1.1	663-666	ché	_	_	_	_	_	_	_	_	_	*->7-1	*[7]
+36-2	667-669	ti	_	ti	_	35-1	linguistic	none	_	_	_	*->7-2	*[7]
+36-3	670-675	piace	Rising	piace\]?	_	35-2	linguistic	none	_	_	_	*->7-3	*[7]
+
+#Text=xx
+37-1	676-678	xx	_	\[xx\]	PSB034	36-0	unknown	none	_	_	_	*->7-4	*[7]
+
+#Text=sì
+38-1	679-681	sì	_	°sì°	PSB034	37-0	linguistic	none	_	_	_	_	_
+
+#Text=perché
+39-1	682-688	perché	Rising	perché?	PSB014	38-0	linguistic	none	_	_	_	_	_
+
+#Text=perché mi piace e basta
+40-1	689-695	perché	_	perché:	PSB034	39-0	linguistic	none	5x1	_	_	_	_
+40-2	696-698	mi	_	mi	_	39-1	linguistic	none	_	_	_	_	_
+40-3	699-704	piace	_	piace	_	39-2	linguistic	none	_	_	_	_	_
+40-4	705-706	e	_	°e	_	39-3	linguistic	none	_	_	_	_	_
+40-5	707-712	basta	_	basta°	_	39-4	linguistic	none	_	_	_	_	_
+
+#Text=cos~ cosa c' è che ti piace la gente
+41-1	713-717	cos~	_	cos~	PSB014	40-0	linguistic	none	_	_	_	_	_
+41-2	718-722	cosa	_	cosa	_	40-1	linguistic	none	_	_	_	_	_
+41-3	723-725	c'	_	c'	_	40-2	linguistic	none	_	_	_	_	_
+41-4	726-727	è	_	è	_	40-3	linguistic	none	_	_	_	_	_
+41-5	728-731	che	_	che	_	40-4	linguistic	none	_	_	_	_	_
+41-6	732-734	ti	_	ti	_	40-5	linguistic	none	_	_	_	_	_
+41-7	735-740	piace	Rising	piace?	_	40-6	linguistic	none	_	_	_	_	_
+41-8	741-743	la	_	la	_	40-7	linguistic	none	_	_	_	_	_
+41-9	744-749	gente	Rising	\[gente\]:?	_	40-8	linguistic	none	4x1	_	_	*->8-1	*[8]
+
+#Text=tutti
+42-1	750-755	tutti	_	\[tutti\]	PSB034	41-0	linguistic	none	_	_	_	*->8-2	*[8]
+
+#Text=tutti tutti
+43-1	756-761	tutti	WeaklyRising	tutti,	PSB034	42-0	linguistic	none	_	_	_	_	_
+43-2	762-767	tutti	_	\[tutti\]	_	42-1	linguistic	none	_	_	_	*->9-1	*[9]
+
+#Text=mh
+44-1	768-770	mh	_	\[mh\]	PSB033	43-0	linguistic	none	_	_	_	*->9-2	*[9]
+
+#Text=e hai hai fatto tanto amici qua a bologna
+45-1	771-772	e	_	e:	PSB033	44-0	linguistic	none	0x1	_	_	_	_
+45-2	773-776	hai	WeaklyRising	hai:,	_	44-1	linguistic	none	2x1	_	_	_	_
+45-3	777-780	hai	_	hai	_	44-2	linguistic	none	_	_	_	_	_
+45-4	781-786	fatto	_	fatto	_	44-3	linguistic	none	_	_	_	_	_
+45-5	787-792	tanto	_	tanto	_	44-4	linguistic	none	_	_	_	_	_
+45-6	793-798	amici	_	amici	_	44-5	linguistic	none	_	_	_	_	_
+45-7	799-802	qua	_	qua	_	44-6	linguistic	none	_	_	_	_	_
+45-8	803-804	a	_	a	_	44-7	linguistic	none	_	_	_	_	_
+45-9	805-812	bologna	Rising	bologna?	_	44-8	linguistic	none	_	_	_	_	_
+
+#Text=hai degli amici
+46-1	813-816	hai	_	hai	PSB033	45-0	linguistic	none	_	_	_	_	_
+46-2	817-822	degli	_	degli	_	45-1	linguistic	none	_	_	_	_	_
+46-3	823-828	amici	Rising	amici?	_	45-2	linguistic	none	_	_	_	_	_
+
+#Text=mh sì
+47-1	829-831	mh	_	m:h	PSB034	46-0	linguistic	none	0x1	_	_	_	_
+47-2	832-834	sì	_	>sì<	_	46-1	linguistic	none	_	Fast=0-2(0)	_	_	_
+
+#Text=e sia m~ italiani marocchini
+48-1	835-836	e	_	e:	PSB033	47-0	linguistic	none	0x1	_	_	_	_
+48-2	837-840	sia	_	\[sia\]	_	47-1	linguistic	none	_	_	_	*->10-1	*[10]
+48-3	841-843	m~	_	m~	_	47-2	linguistic	none	_	_	_	_	_
+48-4	844-852	italiani	WeaklyRising	italiani,	_	47-3	linguistic	none	_	_	_	_	_
+48-5	853-863	marocchini	Rising	marocchini:?	_	47-4	linguistic	none	9x1	_	_	_	_
+
+#Text=poco
+49-1	864-868	poco	_	\[poco\]	PSB034	48-0	linguistic	none	_	_	_	*->10-2	*[10]
+
+#Text=marocchini
+50-1	869-879	marocchini	_	marocchini	PSB034	49-0	linguistic	none	_	_	_	_	_
+
+#Text=marocchini
+51-1	880-890	marocchini	Rising	marocchini?	PSB033	50-0	linguistic	none	_	_	_	_	_
+
+#Text=mhmh
+52-1	891-895	mhmh	_	\[mhmh\]	PSB014	51-0	linguistic	none	_	_	_	*->11-1	*[11]
+
+#Text=marocchini tunisini
+53-1	896-906	marocchini	WeaklyRising	\[marocchini\]:,	PSB034	52-0	linguistic	none	9x1	_	_	*->11-2	*[11]
+53-2	907-915	tunisini	_	tunisini	_	52-1	linguistic	none	_	_	_	_	_
+
+#Text=ah okay
+54-1	916-918	ah	WeaklyRising	a:h,	PSB033	53-0	linguistic	none	0x1	_	_	_	_
+54-2	919-923	okay	_	okay	_	53-1	linguistic	none	_	_	_	_	_
+
+#Text=mh
+55-1	924-926	mh	_	m\[:h\]	PSB014	54-0	linguistic	none	0x1	_	_	_	_
+55-1.1	925-926	h	_	_	_	_	_	_	_	_	_	*->12-1	*[12]
+
+#Text=e con loro parli in arabo
+56-1	927-928	e	_	\[e\]	PSB033	55-0	linguistic	none	_	_	_	*->12-2	*[12]
+56-2	929-932	con	_	con	_	55-1	linguistic	none	_	_	_	_	_
+56-3	933-937	loro	_	loro	_	55-2	linguistic	none	_	_	_	_	_
+56-4	938-943	parli	_	parli	_	55-3	linguistic	none	_	_	_	_	_
+56-5	944-946	in	_	in:	_	55-4	linguistic	none	1x1	_	_	_	_
+56-6	947-952	arabo	Rising	arabo?	_	55-5	linguistic	none	_	_	_	_	_
+
+#Text=in arabo sì
+57-1	953-955	in	_	in	PSB034	56-0	linguistic	none	_	_	_	_	_
+57-2	956-961	arabo	WeaklyRising	arabo,	_	56-1	linguistic	none	_	_	_	_	_
+57-3	962-964	sì	_	\[sì\]	_	56-2	linguistic	none	_	_	_	*->13-1	*[13]
+
+#Text=in arabo
+58-1	965-967	in	_	\[°in	PSB014	57-0	linguistic	none	_	_	_	*->13-2	*[13]
+58-2	968-973	arabo	_	arabo°\]	_	57-1	linguistic	none	_	_	_	*->13-3	*[13]
+
+#Text=in dialetto in dialetto immagino
+59-1	974-976	in	_	in	PSB033	58-0	linguistic	none	_	_	_	_	_
+59-2	977-985	dialetto	WeaklyRising	dialetto:,	_	58-1	linguistic	none	7x1	_	_	_	_
+59-3	986-988	in	_	in	_	58-2	linguistic	none	_	_	_	_	_
+59-4	989-997	dialetto	_	dialetto	_	58-3	linguistic	none	_	_	_	_	_
+59-5	998-1006	immagino	_	immagino	_	58-4	linguistic	none	_	_	_	_	_
+
+#Text=no
+60-1	1007-1009	no	_	no	PSB034	59-0	linguistic	none	_	_	_	_	_
+
+#Text=ah
+61-1	1010-1012	ah	_	°ah°	PSB033	60-0	linguistic	none	_	_	_	_	_
+
+#Text=no
+62-1	1013-1015	no	Rising	no?	PSB014	61-0	linguistic	none	_	_	_	_	_
+
+#Text=no
+63-1	1016-1018	no	_	no	PSB034	62-0	linguistic	none	_	_	_	_	_
+
+#Text=ah
+64-1	1019-1021	ah	_	ah	PSB033	63-0	linguistic	none	_	_	_	_	_
+
+#Text=ah
+65-1	1022-1024	ah	_	ah	PSB014	64-0	linguistic	none	_	_	_	_	_
+
+#Text=quindi parlate proprio in arabo arabo
+66-1	1025-1031	quindi	_	quindi	PSB033	65-0	linguistic	none	_	_	_	_	_
+66-2	1032-1039	parlate	_	parlate:	_	65-1	linguistic	none	6x1	_	_	_	_
+66-3	1040-1047	proprio	_	proprio	_	65-2	linguistic	none	_	_	_	_	_
+66-4	1048-1050	in	_	in	_	65-3	linguistic	none	_	_	_	_	_
+66-5	1051-1056	arabo	_	arabo	_	65-4	linguistic	none	_	_	_	_	_
+66-6	1057-1062	arabo	Rising	arabo?	_	65-5	linguistic	none	_	_	_	_	_
+
+#Text=arabo sì
+67-1	1063-1068	arabo	_	arabo	PSB034	66-0	linguistic	none	_	_	_	_	_
+67-2	1069-1071	sì	_	\[sì\]	_	66-1	linguistic	none	_	_	_	*->15-1	*[15]
+
+#Text=ah
+68-1	1072-1074	ah	_	\[ah\]	PSB033	67-0	linguistic	none	_	_	_	*->15-2	*[15]
+
+#Text=ah okay
+69-1	1075-1077	ah	_	a::h	PSB014	68-0	linguistic	none	0x2	_	_	_	_
+69-2	1078-1082	okay	_	\[okay\]	_	68-1	linguistic	none	_	_	_	*->16-1	*[16]
+
+#Text=okay
+70-1	1083-1087	okay	_	\[okay\]	PSB033	69-0	linguistic	none	_	_	_	*->16-2	*[16]
+
+#Text=noi studiamo arabo però (.) sappiamo poco ((ride))
+71-1	1088-1091	noi	_	noi	PSB033	70-0	linguistic	none	_	_	_	_	_
+71-2	1092-1100	studiamo	_	studiamo	_	70-1	linguistic	none	_	_	_	_	_
+71-3	1101-1106	arabo	WeaklyRising	arabo,	_	70-2	linguistic	none	_	_	_	_	_
+71-4	1107-1111	però	WeaklyRising	però,	_	70-3	linguistic	none	_	_	_	_	_
+71-5	1112-1115	(.)	_	(.)	_	70-4	shortpause	none	_	_	_	_	_
+71-6	1116-1124	sappiamo	_	sappiamo	_	70-5	linguistic	none	_	_	_	_	_
+71-7	1125-1129	poco	_	poco	_	70-6	linguistic	none	_	_	_	_	_
+71-8	1130-1138	((ride))	_	((ride))	_	70-7	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=io so poco
+72-1	1139-1141	io	_	io	PSB033	71-0	linguistic	none	_	_	_	_	_
+72-2	1142-1144	so	_	\[so	_	71-1	linguistic	none	_	_	_	*->17-1	*[17]
+72-3	1145-1149	poco	_	poco\]	_	71-2	linguistic	none	_	_	_	*->17-2	*[17]
+
+#Text=studiamo arabo
+73-1	1150-1158	studiamo	_	\[studiamo	PSB034	72-0	linguistic	none	_	_	_	*->17-3	*[17]
+73-2	1159-1164	arabo	Rising	arabo\]?	_	72-1	linguistic	none	_	_	_	*->17-4	*[17]
+
+#Text=all' università
+74-1	1165-1169	all'	_	\[all'	PSB014	73-0	linguistic	none	_	_	_	*->18-1	*[18]
+74-2	1170-1180	università	_	università\]	_	73-1	linguistic	none	_	_	_	*->18-2	*[18]
+
+#Text=io studio arabo arabo però so poco lei invece st~ marocchina
+75-1	1181-1183	io	_	\[io	PSB033	74-0	linguistic	none	_	_	_	*->18-3	*[18]
+75-2	1184-1190	studio	_	studio	_	74-1	linguistic	none	_	_	_	*->18-4	*[18]
+75-3	1191-1196	arabo	_	arabo\]	_	74-2	linguistic	none	_	_	_	*->18-5	*[18]
+75-4	1197-1202	arabo	_	arabo	_	74-3	linguistic	none	_	_	_	_	_
+75-5	1203-1207	però	_	però	_	74-4	linguistic	none	_	_	_	_	_
+75-6	1208-1210	so	_	\[so	_	74-5	linguistic	none	_	_	_	*->19-1	*[19]
+75-7	1211-1215	poco	WeaklyRising	poco\],	_	74-6	linguistic	none	_	_	_	*->19-2	*[19]
+75-8	1216-1219	lei	_	lei	_	74-7	linguistic	none	_	_	_	_	_
+75-9	1220-1226	invece	_	invece	_	74-8	linguistic	none	_	_	_	_	_
+75-10	1227-1230	st~	_	st~	_	74-9	linguistic	none	_	_	_	_	_
+75-11	1231-1241	marocchina	_	marocch\[ina\]	_	74-10	linguistic	none	_	_	_	_	_
+75-11.1	1238-1241	ina	_	_	_	_	_	_	_	_	_	*->20-1	*[20]
+
+#Text=sì
+76-1	1242-1244	sì	_	\[sì:\]	PSB014	75-0	linguistic	none	1x1	_	_	*->19-3	*[19]
+
+#Text=tu non parli arabo
+77-1	1245-1247	tu	_	\[tu\]	PSB034	76-0	linguistic	none	_	_	_	*->20-2	*[20]
+77-2	1248-1251	non	_	non	_	76-1	linguistic	none	_	_	_	_	_
+77-3	1252-1257	parli	_	parli	_	76-2	linguistic	none	_	_	_	_	_
+77-4	1258-1263	arabo	Rising	arabo?	_	76-3	linguistic	none	_	_	_	_	_
+
+#Text=no allora io parlo il dialetto però n c~ non arabo tradizonale fuṣḥā capito
+78-1	1264-1266	no	_	no	PSB014	77-0	linguistic	yes	_	_	_	_	_
+78-2	1267-1273	allora	_	allora	_	77-1	linguistic	yes	_	_	_	_	_
+78-3	1274-1276	io	_	io	_	77-2	linguistic	yes	_	_	_	_	_
+78-4	1277-1282	parlo	_	parlo	_	77-3	linguistic	yes	_	_	_	_	_
+78-5	1283-1285	il	_	il	_	77-4	linguistic	yes	_	_	_	_	_
+78-6	1286-1294	dialetto	WeaklyRising	dialetto,	_	77-5	linguistic	yes	_	_	_	_	_
+78-7	1295-1299	però	_	però	_	77-6	linguistic	yes	_	_	_	_	_
+78-8	1300-1301	n	_	n	_	77-7	linguistic	yes	_	_	_	_	_
+78-9	1302-1304	c~	_	c~	_	77-8	linguistic	yes	_	_	_	_	_
+78-10	1305-1308	non	_	non	_	77-9	linguistic	yes	_	_	_	_	_
+78-11	1309-1314	arabo	_	arabo	_	77-10	linguistic	yes	_	_	_	_	_
+78-12	1315-1326	tradizonale	_	tradizonale	_	77-11	linguistic	yes	_	_	_	_	_
+78-13	1327-1332	fuṣḥā	_	#fuṣḥā	_	77-12	linguistic	other	_	_	_	_	_
+78-14	1333-1339	capito	Rising	capito?	_	77-13	linguistic	yes	_	_	_	_	_
+
+#Text=sì
+79-1	1340-1342	sì	_	°sì°	PSB034	78-0	linguistic	none	_	_	_	_	_
+
+#Text=no
+80-1	1343-1345	no	_	no	PSB014	79-0	linguistic	none	_	_	_	_	_
+
+#Text=dārija ((ride))
+81-1	1346-1352	dārija	_	#_ dārija	PSB034	80-0	linguistic	other	_	_	_	_	_
+81-2	1353-1361	((ride))	_	((ride))	_	80-1	nonverbalbehavior	yes	_	_	_	_	_
+
+#Text=dārija bravo ((ride))
+82-1	1362-1368	dārija	_	#dārija	PSB014	82-0	linguistic	other	_	_	_	_	_
+82-2	1369-1374	bravo	_	bravo	_	82-1	linguistic	yes	_	_	_	_	_
+82-3	1375-1383	((ride))	_	((ride))	_	82-2	nonverbalbehavior	yes	_	_	_	_	_
+
+#Text=dārija xx dārija ((ride))
+83-1	1384-1390	dārija	_	#_ dārija	PSB034	83-0	linguistic	other	_	_	_	_	_
+83-2	1391-1393	xx	_	xx	_	83-1	unknown	yes	_	_	_	_	_
+83-3	1394-1400	dārija	_	dārija	_	83-2	linguistic	other	_	_	_	_	_
+83-4	1401-1409	((ride))	_	((ride))	_	83-3	nonverbalbehavior	yes	_	_	_	_	_
+
+#Text=ehm (.) e perché sei venuto qua se posso chiedere perché sei venuto qua a bologna
+84-1	1410-1413	ehm	_	ehm::	PSB033	84-0	linguistic	none	2x2	_	_	_	_
+84-2	1414-1417	(.)	_	(.)	_	84-1	shortpause	none	_	_	_	_	_
+84-3	1418-1419	e	_	e	_	84-2	linguistic	none	_	_	_	_	_
+84-4	1420-1426	perché	_	perché	_	84-3	linguistic	none	_	_	_	_	_
+84-5	1427-1430	sei	_	sei	_	84-4	linguistic	none	_	_	_	_	_
+84-6	1431-1437	venuto	_	venuto	_	84-5	linguistic	none	_	_	_	_	_
+84-7	1438-1441	qua	WeaklyRising	qua,	_	84-6	linguistic	none	_	_	_	_	_
+84-8	1442-1444	se	_	se	_	84-7	linguistic	none	_	_	_	_	_
+84-9	1445-1450	posso	_	posso	_	84-8	linguistic	none	_	_	_	_	_
+84-10	1451-1459	chiedere	WeaklyRising	chiedere,	_	84-9	linguistic	none	_	_	_	_	_
+84-11	1460-1466	perché	_	perché	_	84-10	linguistic	none	_	_	_	_	_
+84-12	1467-1470	sei	_	sei	_	84-11	linguistic	none	_	_	_	_	_
+84-13	1471-1477	venuto	_	venuto	_	84-12	linguistic	none	_	_	_	_	_
+84-14	1478-1481	qua	_	qua	_	84-13	linguistic	none	_	_	_	_	_
+84-15	1482-1483	a	_	a	_	84-14	linguistic	none	_	_	_	_	_
+84-16	1484-1491	bologna	Rising	bologna?	_	84-15	linguistic	none	_	_	_	_	_
+
+#Text=mh
+85-1	1492-1494	mh	_	m::h	PSB034	85-0	linguistic	none	0x2	_	_	_	_
+
+#Text=per lavoro studio
+86-1	1495-1498	per	_	per	PSB014	86-0	linguistic	none	_	_	_	_	_
+86-2	1499-1505	lavoro	WeaklyRising	lavoro:,	_	86-1	linguistic	none	5x1	_	_	_	_
+86-3	1506-1512	studio	Rising	studio:?	_	86-2	linguistic	none	5x1	_	_	_	_
+
+#Text=per lavoro e studio
+87-1	1513-1516	per	_	per	PSB034	87-0	linguistic	none	_	_	_	_	_
+87-2	1517-1523	lavoro	_	lavoro	_	87-1	linguistic	none	_	_	_	_	_
+87-3	1524-1525	e	_	\[°e	_	87-2	linguistic	none	_	_	_	*->23-1	*[23]
+87-4	1526-1532	studio	_	studio°\]	_	87-3	linguistic	none	_	_	_	*->23-2	*[23]
+
+#Text=lavoro
+88-1	1533-1539	lavoro	_	\[lavoro\]	PSB033	88-0	linguistic	none	_	_	_	*->23-3	*[23]
+
+#Text=sì
+89-1	1540-1542	sì	_	°sì°	PSB034	89-0	linguistic	none	_	_	_	_	_
+
+#Text=lavori
+90-1	1543-1549	lavori	Rising	lavori?	PSB033	90-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+91-1	1550-1552	sì	_	°sì°	PSB034	91-0	linguistic	none	_	_	_	_	_
+
+#Text=cosa fai
+92-1	1553-1557	cosa	_	cosa	PSB033	92-0	linguistic	none	_	_	_	_	_
+92-2	1558-1561	fai	Rising	\[fai\]?	_	92-1	linguistic	none	_	_	_	*->24-1	*[24]
+
+#Text=lavoro in un (.) ristorante
+93-1	1562-1568	lavoro	_	\[lavoro\]	PSB034	93-0	linguistic	none	_	_	_	*->24-2	*[24]
+93-2	1569-1571	in	_	in	_	93-1	linguistic	none	_	_	_	_	_
+93-3	1572-1574	un	_	un:	_	93-2	linguistic	none	1x1	_	_	_	_
+93-4	1575-1578	(.)	_	(.)	_	93-3	shortpause	none	_	_	_	_	_
+93-5	1579-1589	ristorante	_	ristorante	_	93-4	linguistic	none	_	_	_	_	_
+
+#Text=ah
+94-1	1590-1592	ah	_	ah	PSB033	94-0	linguistic	none	_	_	_	_	_
+
+#Text=ah (.) come
+95-1	1593-1595	ah	_	a::h	PSB014	95-0	linguistic	none	0x2	_	_	_	_
+95-2	1596-1599	(.)	_	(.)	_	95-1	shortpause	none	_	_	_	_	_
+95-3	1600-1604	come	_	\[come\]	_	95-2	linguistic	none	_	_	_	*->25-1	*[25]
+
+#Text=fai il cameriere
+96-1	1605-1608	fai	_	\[fai\]	PSB033	96-0	linguistic	none	_	_	_	*->25-2	*[25]
+96-2	1609-1611	il	_	il	_	96-1	linguistic	none	_	_	_	_	_
+96-3	1612-1621	cameriere	Rising	cameriere?	_	96-2	linguistic	none	_	_	_	_	_
+
+#Text=fai il camerire cuoco lavapiatti cosa fai
+97-1	1622-1625	fai	_	fai	PSB033	97-0	linguistic	none	_	_	_	_	_
+97-2	1626-1628	il	_	il	_	97-1	linguistic	none	_	_	_	_	_
+97-3	1629-1637	camerire	Rising	camerire?	_	97-2	linguistic	none	_	_	_	_	_
+97-4	1638-1643	cuoco	WeaklyRising	cuoco,	_	97-3	linguistic	none	_	_	_	_	_
+97-5	1644-1654	lavapiatti	WeaklyRising	lavapiatti,	_	97-4	linguistic	none	_	_	_	_	_
+97-6	1655-1659	cosa	_	cosa	_	97-5	linguistic	none	_	_	_	_	_
+97-7	1660-1663	fai	Rising	\[fai\]?	_	97-6	linguistic	none	_	_	_	*->26-1	*[26]
+
+#Text=aiutare il cuoco
+98-1	1664-1671	aiutare	_	\[aiu\]tare	PSB034	98-0	linguistic	none	_	_	_	_	_
+98-1.1	1664-1667	aiu	_	_	_	_	_	_	_	_	_	*->26-2	*[26]
+98-2	1672-1674	il	_	il	_	98-1	linguistic	none	_	_	_	_	_
+98-3	1675-1680	cuoco	_	cuoco	_	98-2	linguistic	none	_	_	_	_	_
+
+#Text=ah aiuti il cuoco
+99-1	1681-1683	ah	_	a:h	PSB033	99-0	linguistic	none	0x1	_	_	_	_
+99-2	1684-1689	aiuti	_	aiuti	_	99-1	linguistic	none	_	_	_	_	_
+99-3	1690-1692	il	_	il	_	99-2	linguistic	none	_	_	_	_	_
+99-4	1693-1698	cuoco	Rising	cuoco?	_	99-3	linguistic	none	_	_	_	_	_
+
+#Text=ah
+100-1	1699-1701	ah	_	\[a:h\]	PSB033	100-0	linguistic	none	0x1	_	_	*->27-1	*[27]
+
+#Text=sì
+101-1	1702-1704	sì	_	\[°sì°\]	PSB034	101-0	linguistic	none	_	_	_	*->27-2	*[27]
+
+#Text=ah
+102-1	1705-1707	ah	_	a::h	PSB014	102-0	linguistic	none	0x2	_	_	_	_
+
+#Text=ti piace
+103-1	1708-1710	ti	_	ti	PSB033	103-0	linguistic	none	_	_	_	_	_
+103-2	1711-1716	piace	Rising	piace?	_	103-1	linguistic	none	_	_	_	_	_
+
+#Text=((ride))
+104-1	1717-1725	((ride))	_	((ride))	PSB033	104-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=poco
+105-1	1726-1730	poco	_	poco	PSB034	105-0	linguistic	none	_	_	_	_	_
+
+#Text=((ride)) poco
+106-1	1731-1739	((ride))	_	((ride))	PSB033	106-0	nonverbalbehavior	none	_	_	_	_	_
+106-2	1740-1744	poco	_	poco	_	106-1	linguistic	none	_	_	_	_	_
+
+#Text=ah come mai
+107-1	1745-1747	ah	WeaklyRising	a::h,	PSB014	107-0	linguistic	none	0x2	_	_	_	_
+107-2	1748-1752	come	_	come	_	107-1	linguistic	none	_	_	_	_	_
+107-3	1753-1756	mai	Rising	mai?	_	107-2	linguistic	none	_	_	_	_	_
+
+#Text=ti piace stare in cucina
+108-1	1757-1759	ti	_	ti	PSB033	108-0	linguistic	none	_	_	_	_	_
+108-2	1760-1765	piace	_	piace:	_	108-1	linguistic	none	4x1	_	_	_	_
+108-3	1766-1771	stare	_	stare	_	108-2	linguistic	none	_	_	_	_	_
+108-4	1772-1774	in	_	in	_	108-3	linguistic	none	_	_	_	_	_
+108-5	1775-1781	cucina	Rising	cucina:?	_	108-4	linguistic	none	5x1	_	_	_	_
+
+#Text=sì
+109-1	1782-1784	sì	_	sì	PSB034	109-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+110-1	1785-1787	sì	Rising	sì?	PSB033	110-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+111-1	1788-1790	sì	_	sì	PSB034	111-0	linguistic	none	_	_	_	_	_
+
+#Text=ehm (.) e invece nel tempo libero che cosa fai cosa ti piace fare fai sport fai
+112-1	1791-1794	ehm	_	e:hm::	PSB033	112-0	linguistic	none	0x1,2x2	_	_	_	_
+112-2	1795-1798	(.)	_	(.)	_	112-1	shortpause	none	_	_	_	_	_
+112-3	1799-1800	e	_	e	_	112-2	linguistic	none	_	_	_	_	_
+112-4	1801-1807	invece	_	invece	_	112-3	linguistic	none	_	_	_	_	_
+112-5	1808-1811	nel	_	nel	_	112-4	linguistic	none	_	_	_	_	_
+112-6	1812-1817	tempo	_	tempo	_	112-5	linguistic	none	_	_	_	_	_
+112-7	1818-1824	libero	_	libero	_	112-6	linguistic	none	_	_	_	_	_
+112-8	1825-1828	che	_	che	_	112-7	linguistic	none	_	_	_	_	_
+112-9	1829-1833	cosa	_	cosa	_	112-8	linguistic	none	_	_	_	_	_
+112-10	1834-1837	fai	Rising	fai?	_	112-9	linguistic	none	_	_	_	_	_
+112-11	1838-1842	cosa	_	cosa	_	112-10	linguistic	none	_	_	_	_	_
+112-12	1843-1845	ti	_	ti	_	112-11	linguistic	none	_	_	_	_	_
+112-13	1846-1851	piace	_	piace	_	112-12	linguistic	none	_	_	_	_	_
+112-14	1852-1856	fare	Rising	fare?	_	112-13	linguistic	none	_	_	_	_	_
+112-15	1857-1860	fai	_	fai	_	112-14	linguistic	none	_	_	_	_	_
+112-16	1861-1866	sport	Rising	sport?	_	112-15	linguistic	none	_	_	_	_	_
+112-17	1867-1870	fai	_	fai::	_	112-16	linguistic	none	2x2	_	_	_	_
+
+#Text=c' è qualcosa che ti piace fare no non fai sport
+113-1	1871-1873	c'	_	c'	PSB033	113-0	linguistic	none	_	_	_	_	_
+113-2	1874-1875	è	_	è	_	113-1	linguistic	none	_	_	_	_	_
+113-3	1876-1884	qualcosa	_	qual\[cos\]a	_	113-2	linguistic	none	_	_	_	_	_
+113-3.1	1880-1883	cos	_	_	_	_	_	_	_	_	_	*->28-1	*[28]
+113-4	1885-1888	che	_	che	_	113-3	linguistic	none	_	_	_	_	_
+113-5	1889-1891	ti	_	ti	_	113-4	linguistic	none	_	_	_	_	_
+113-6	1892-1897	piace	_	piace	_	113-5	linguistic	none	_	_	_	_	_
+113-7	1898-1902	fare	Rising	fare?	_	113-6	linguistic	none	_	_	_	_	_
+113-8	1903-1905	no	WeaklyRising	no,	_	113-7	linguistic	none	_	_	_	_	_
+113-9	1906-1909	non	_	non	_	113-8	linguistic	none	_	_	_	_	_
+113-10	1910-1913	fai	_	fai	_	113-9	linguistic	none	_	_	_	_	_
+113-11	1914-1919	sport	Rising	sport?	_	113-10	linguistic	none	_	_	_	_	_
+
+#Text=no
+114-1	1920-1922	no	_	\[no\]	PSB034	114-0	linguistic	none	_	_	_	*->28-2	*[28]
+
+#Text=calcio
+115-1	1923-1929	calcio	Rising	cal\[cio\]?	PSB033	115-0	linguistic	none	_	_	_	_	_
+115-1.1	1926-1929	cio	_	_	_	_	_	_	_	_	_	*->29-1	*[29]
+
+#Text=poco poco
+116-1	1930-1934	poco	WeaklyRising	\[poco\],	PSB034	116-0	linguistic	none	_	_	_	*->29-2	*[29]
+116-2	1935-1939	poco	_	poco	_	116-1	linguistic	none	_	_	_	_	_
+
+#Text=poco
+117-1	1940-1944	poco	Rising	poco?	PSB033	117-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+118-1	1945-1947	sì	_	>sì<	PSB034	118-0	linguistic	none	_	Fast=0-2(0)	_	_	_
+
+#Text=e invece ehm guardi guardi il calcio guardi le partite non lo so tifi qual~ tifi squadre
+119-1	1948-1949	e	_	e::	PSB033	119-0	linguistic	none	0x2	_	_	_	_
+119-2	1950-1956	invece	_	invece::	_	119-1	linguistic	none	5x2	_	_	_	_
+119-3	1957-1960	ehm	_	ehm::	_	119-2	linguistic	none	2x2	_	_	_	_
+119-4	1961-1967	guardi	Rising	GUARDI?	_	119-3	linguistic	none	_	_	_	_	_
+119-5	1968-1974	guardi	_	guardi	_	119-4	linguistic	none	_	_	_	_	_
+119-6	1975-1977	il	_	il	_	119-5	linguistic	none	_	_	_	_	_
+119-7	1978-1984	calcio	WeaklyRising	calcio,	_	119-6	linguistic	none	_	_	_	_	_
+119-8	1985-1991	guardi	_	guardi	_	119-7	linguistic	none	_	_	_	_	_
+119-9	1992-1994	le	_	le	_	119-8	linguistic	none	_	_	_	_	_
+119-10	1995-2002	partite	WeaklyRising	par\[tite\],	_	119-9	linguistic	none	_	_	_	_	_
+119-10.1	1998-2002	tite	_	_	_	_	_	_	_	_	_	*->30-1	*[30]
+119-11	2003-2006	non	_	non	_	119-10	linguistic	none	_	_	_	_	_
+119-12	2007-2009	lo	_	lo	_	119-11	linguistic	none	_	_	_	_	_
+119-13	2010-2012	so	_	so	_	119-12	linguistic	none	_	_	_	_	_
+119-14	2013-2017	tifi	_	ti\[fi	_	119-13	linguistic	none	_	_	_	_	_
+119-14.1	2015-2017	fi	_	_	_	_	_	_	_	_	_	*->31-1	*[31]
+119-15	2018-2023	qual~	_	qual~\]	_	119-14	linguistic	none	_	_	_	*->31-2	*[31]
+119-16	2024-2028	tifi	_	tifi	_	119-15	linguistic	none	_	_	_	_	_
+119-17	2029-2036	squadre	Rising	s\[quadre\]?	_	119-16	linguistic	none	_	_	_	_	_
+119-17.1	2030-2036	quadre	_	_	_	_	_	_	_	_	_	*->32-1	*[32]
+
+#Text=tifi
+120-1	2037-2041	tifi	Rising	\[tifi\]?	PSB014	120-0	linguistic	none	_	_	_	*->30-2	*[30]
+
+#Text=sì
+121-1	2042-2044	sì	_	sì:	PSB034	121-0	linguistic	none	1x1	_	_	_	_
+
+#Text=mi piace xxx
+122-1	2045-2047	mi	_	\[mi	PSB034	122-0	linguistic	none	_	_	_	*->32-2	*[32]
+122-2	2048-2053	piace	_	piace\]	_	122-1	linguistic	none	_	_	_	*->32-3	*[32]
+122-3	2054-2057	xxx	_	xxx	_	122-2	unknown	none	_	_	_	_	_
+
+#Text=che che squadre tifi
+123-1	2058-2061	che	WeaklyRising	che,	PSB014	123-0	linguistic	none	_	_	_	_	_
+123-2	2062-2065	che	_	che	_	123-1	linguistic	none	_	_	_	_	_
+123-3	2066-2073	squadre	_	squadre	_	123-2	linguistic	none	_	_	_	_	_
+123-4	2074-2078	tifi	Rising	tifi?	_	123-3	linguistic	none	_	_	_	_	_
+
+#Text=che squadre tifi (.) di calcio
+124-1	2079-2082	che	_	che	PSB014	124-0	linguistic	none	_	_	_	_	_
+124-2	2083-2090	squadre	WeaklyRising	squadre,	_	124-1	linguistic	none	_	_	_	_	_
+124-3	2091-2095	tifi	Rising	tifi?	_	124-2	linguistic	none	_	_	_	_	_
+124-4	2096-2099	(.)	_	(.)	_	124-3	shortpause	none	_	_	_	_	_
+124-5	2100-2102	di	_	di	_	124-4	linguistic	none	_	_	_	_	_
+124-6	2103-2109	calcio	_	calcio	_	124-5	linguistic	none	_	_	_	_	_
+
+#Text=cosa tifi non lo so
+125-1	2110-2114	cosa	_	cosa	PSB034	125-0	linguistic	none	_	_	_	_	_
+125-2	2115-2119	tifi	Rising	tifi?	_	125-1	linguistic	none	_	_	_	_	_
+125-3	2120-2123	non	_	\[non	_	125-2	linguistic	none	_	_	_	*->33-1	*[33]
+125-4	2124-2126	lo	_	lo	_	125-3	linguistic	none	_	_	_	*->33-2	*[33]
+125-5	2127-2129	so	_	so\]	_	125-4	linguistic	none	_	_	_	*->33-3	*[33]
+
+#Text=ehm
+126-1	2130-2133	ehm	_	\[E:H\]M::	PSB014	126-0	linguistic	none	0x1,2x2	_	_	_	_
+126-1.1	2130-2132	eh	_	_	_	_	_	_	_	_	_	*->33-4	*[33]
+
+#Text=mh
+127-1	2134-2136	mh	_	m::h	PSB033	127-0	linguistic	none	0x2	_	_	_	_
+
+#Text=tipo se vince una squdra sei felice
+128-1	2137-2141	tipo	_	tipo	PSB014	128-0	linguistic	none	_	_	_	_	_
+128-2	2142-2144	se	_	se	_	128-1	linguistic	none	_	_	_	_	_
+128-3	2145-2150	vince	_	vince	_	128-2	linguistic	none	_	_	_	_	_
+128-4	2151-2154	una	_	una	_	128-3	linguistic	none	_	_	_	_	_
+128-5	2155-2161	squdra	_	squdra	_	128-4	linguistic	none	_	_	_	_	_
+128-6	2162-2165	sei	_	sei	_	128-5	linguistic	none	_	_	_	_	_
+128-7	2166-2172	felice	_	felice	_	128-6	linguistic	none	_	_	_	_	_
+
+#Text=ah
+129-1	2173-2175	ah	_	\[a::h\]	PSB034	129-0	linguistic	none	0x2	_	_	*->34-1	*[34]
+
+#Text=tipo juventus e
+130-1	2176-2180	tipo	_	\[tipo\]	PSB014	130-0	linguistic	none	_	_	_	*->34-2	*[34]
+130-2	2181-2189	juventus	_	juventus	_	130-1	linguistic	none	_	_	_	_	_
+130-3	2190-2191	e	_	e::	_	130-2	linguistic	none	0x2	_	_	_	_
+
+#Text=no
+131-1	2192-2194	no	_	no:	PSB034	131-0	linguistic	none	1x1	_	_	_	_
+
+#Text=no
+132-1	2195-2197	no	Rising	no:?	PSB014	132-0	linguistic	none	1x1	_	_	_	_
+
+#Text=real madrid
+133-1	2198-2202	real	_	real	PSB034	133-0	linguistic	none	_	_	_	_	_
+133-2	2203-2209	madrid	_	madrid	_	133-1	linguistic	none	_	_	_	_	_
+
+#Text=real madrid
+134-1	2210-2214	real	_	\[real	PSB014	134-0	linguistic	none	_	_	_	*->35-1	*[35]
+134-2	2215-2221	madrid	Rising	ma\]drid?	_	134-1	linguistic	none	_	_	_	_	_
+134-2.1	2215-2217	ma	_	_	_	_	_	_	_	_	_	*->35-2	*[35]
+
+#Text=ah
+135-1	2222-2224	ah	_	\[a:h\]	PSB033	135-0	linguistic	none	0x1	_	_	*->35-3	*[35]
+
+#Text=ah
+136-1	2225-2227	ah	_	a:h	PSB033	136-0	linguistic	none	0x1	_	_	_	_
+
+#Text=e hai hai guardato invece la coppa d' africa
+137-1	2228-2229	e	_	e:	PSB033	137-0	linguistic	none	0x1	_	_	_	_
+137-2	2230-2233	hai	WeaklyRising	hai,	_	137-1	linguistic	none	_	_	_	_	_
+137-3	2234-2237	hai	_	hai	_	137-2	linguistic	none	_	_	_	_	_
+137-4	2238-2246	guardato	_	guardato	_	137-3	linguistic	none	_	_	_	_	_
+137-5	2247-2253	invece	_	invece	_	137-4	linguistic	none	_	_	_	_	_
+137-6	2254-2256	la	_	la	_	137-5	linguistic	none	_	_	_	_	_
+137-7	2257-2262	coppa	_	coppa	_	137-6	linguistic	none	_	_	_	_	_
+137-8	2263-2265	d'	_	d'	_	137-7	linguistic	none	_	_	_	_	_
+137-9	2266-2272	africa	Rising	africa?	_	137-8	linguistic	none	_	_	_	_	_
+
+#Text=il marocco quando e l' hai s~ l' hai guardata
+138-1	2273-2275	il	_	il	PSB033	138-0	linguistic	none	_	_	_	_	_
+138-2	2276-2283	marocco	WeaklyRising	marocco,	_	138-1	linguistic	none	_	_	_	_	_
+138-3	2284-2290	quando	_	\[quando\]	_	138-2	linguistic	none	_	_	_	*->36-1	*[36]
+138-4	2291-2292	e	_	e:	_	138-3	linguistic	none	0x1	_	_	_	_
+138-5	2293-2295	l'	_	l'	_	138-4	linguistic	none	_	_	_	_	_
+138-6	2296-2299	hai	_	hai	_	138-5	linguistic	none	_	_	_	_	_
+138-7	2300-2302	s~	WeaklyRising	s~,	_	138-6	linguistic	none	_	_	_	_	_
+138-8	2303-2305	l'	_	l'	_	138-7	linguistic	none	_	_	_	_	_
+138-9	2306-2309	hai	_	hai	_	138-8	linguistic	none	_	_	_	_	_
+138-10	2310-2318	guardata	Rising	guardata?	_	138-9	linguistic	none	_	_	_	_	_
+
+#Text=sìsìsìsì
+139-1	2319-2327	sìsìsìsì	_	\[sìsìs\]ìsì	PSB034	139-0	linguistic	none	_	_	_	_	_
+139-1.1	2319-2324	sìsìs	_	_	_	_	_	_	_	_	_	*->36-2	*[36]
+
+#Text=tutti
+140-1	2328-2333	tutti	_	tutti	PSB034	140-0	linguistic	none	_	_	_	_	_
+
+#Text=e i mondiali anche l' anno scorso
+141-1	2334-2335	e	_	e	PSB014	141-0	linguistic	none	_	_	_	_	_
+141-2	2336-2337	i	_	i	_	141-1	linguistic	none	_	_	_	_	_
+141-3	2338-2346	mondiali	_	mondiali	_	141-2	linguistic	none	_	_	_	_	_
+141-4	2347-2352	anche	WeaklyRising	anche,	_	141-3	linguistic	none	_	_	_	_	_
+141-5	2353-2355	l'	_	\[l'	_	141-4	linguistic	none	_	_	_	*->186-1	*[186]
+141-6	2356-2360	anno	_	anno	_	141-5	linguistic	none	_	_	_	*->186-2	*[186]
+141-7	2361-2367	scorso	Rising	scorso\]?	_	141-6	linguistic	none	_	_	_	*->186-3	*[186]
+
+#Text=tutti quanti sìsìsì
+142-1	2368-2373	tutti	_	\[tutti	PSB034	142-0	linguistic	none	_	_	_	*->186-4	*[186]
+142-2	2374-2380	quanti	_	quanti	_	142-1	linguistic	none	_	_	_	*->186-5	*[186]
+142-3	2381-2387	sìsìsì	_	>sìsìsì<\]	_	142-2	linguistic	none	_	Fast=0-6(0)	_	*->186-6	*[186]
+
+#Text=eh
+143-1	2388-2390	eh	_	eh	PSB033	143-0	linguistic	none	_	_	_	_	_
+
+#Text=sìsìsì bello bello
+144-1	2391-2397	sìsìsì	_	>sìsìsì<	PSB014	144-0	linguistic	none	_	Fast=0-6(0)	_	_	_
+144-2	2398-2403	bello	_	bello	_	144-1	linguistic	none	_	_	_	_	_
+144-3	2404-2409	bello	_	\[bello\]	_	144-2	linguistic	none	_	_	_	*->37-1	*[37]
+
+#Text=da tutti xxx
+145-1	2410-2412	da	_	(\[da	PSB034	145-0	linguistic	none	_	_	0-2(0)	*->37-2	*[37]
+145-2	2413-2418	tutti	_	tutti\])	_	145-1	linguistic	none	_	_	0-5(0)	*->37-3	*[37]
+145-3	2419-2422	xxx	_	xxx	_	145-2	unknown	none	_	_	_	_	_
+
+#Text=ah ah
+146-1	2423-2425	ah	_	\[ah	PSB014	146-0	linguistic	none	_	_	_	*->38-1	*[38]
+146-2	2426-2428	ah	_	ah\]	_	146-1	linguistic	none	_	_	_	*->38-2	*[38]
+
+#Text=ah ah
+147-1	2429-2431	ah	_	\[ah	PSB033	147-0	linguistic	none	_	_	_	*->38-3	*[38]
+147-2	2432-2434	ah	_	ah\]	_	147-1	linguistic	none	_	_	_	*->38-4	*[38]
+
+#Text=eh invece invece invece invece
+148-1	2435-2437	eh	_	e:h	PSB014	148-0	linguistic	none	0x1	_	_	_	_
+148-2	2438-2444	invece	WeaklyRising	invece,	_	148-1	linguistic	none	_	_	_	_	_
+148-3	2445-2451	invece	WeaklyRising	invece,	_	148-2	linguistic	none	_	_	_	_	_
+148-4	2452-2458	invece	WeaklyRising	invece,	_	148-3	linguistic	none	_	_	_	_	_
+148-5	2459-2465	invece	_	invece	_	148-4	linguistic	none	_	_	_	_	_
+
+#Text=ehm dal marocco dove vieni che città
+149-1	2466-2469	ehm	_	ehm:	PSB014	149-0	linguistic	none	2x1	_	_	_	_
+149-2	2470-2473	dal	_	dal	_	149-1	linguistic	none	_	_	_	_	_
+149-3	2474-2481	marocco	_	marocco	_	149-2	linguistic	none	_	_	_	_	_
+149-4	2482-2486	dove	_	dove	_	149-3	linguistic	none	_	_	_	_	_
+149-5	2487-2492	vieni	Rising	vieni?	_	149-4	linguistic	none	_	_	_	_	_
+149-6	2493-2496	che	_	che	_	149-5	linguistic	none	_	_	_	_	_
+149-7	2497-2502	città	Rising	città?	_	149-6	linguistic	none	_	_	_	_	_
+
+#Text=béni mellal
+150-1	2503-2507	béni	_	béni	PSB034	150-0	linguistic	none	_	_	_	_	_
+150-2	2508-2514	mellal	_	mellal	_	150-1	linguistic	none	_	_	_	_	_
+
+#Text=okay
+151-1	2515-2519	okay	_	okay	PSB014	151-0	linguistic	none	_	_	_	_	_
+
+#Text=eh come sei venuto qua in aereo (.) sei venuto in aereo nave
+152-1	2520-2522	eh	_	e:h	PSB014	152-0	linguistic	none	0x1	_	_	_	_
+152-2	2523-2527	come	_	>come	_	152-1	linguistic	none	_	Fast=0-4(0)	_	_	_
+152-3	2528-2531	sei	_	sei	_	152-2	linguistic	none	_	Fast=0-3(0)	_	_	_
+152-4	2532-2538	venuto	_	venuto	_	152-3	linguistic	none	_	Fast=0-6(0)	_	_	_
+152-5	2539-2542	qua	Rising	qua<?	_	152-4	linguistic	none	_	Fast=0-3(0)	_	_	_
+152-6	2543-2545	in	_	in	_	152-5	linguistic	none	_	_	_	_	_
+152-7	2546-2551	aereo	Rising	aereo:?	_	152-6	linguistic	none	4x1	_	_	_	_
+152-8	2552-2555	(.)	_	(.)	_	152-7	shortpause	none	_	_	_	_	_
+152-9	2556-2559	sei	_	sei	_	152-8	linguistic	none	_	_	_	_	_
+152-10	2560-2566	venuto	_	venuto	_	152-9	linguistic	none	_	_	_	_	_
+152-11	2567-2569	in	_	in	_	152-10	linguistic	none	_	_	_	_	_
+152-12	2570-2575	aereo	Rising	aereo?	_	152-11	linguistic	none	_	_	_	_	_
+152-13	2576-2580	nave	Rising	nave?	_	152-12	linguistic	none	_	_	_	_	_
+
+#Text=no non s~ no capito
+153-1	2581-2583	no	_	no	PSB034	153-0	linguistic	none	_	_	_	_	_
+153-2	2584-2587	non	_	non	_	153-1	linguistic	none	_	_	_	_	_
+153-3	2588-2590	s~	WeaklyRising	s~,	_	153-2	linguistic	none	_	_	_	_	_
+153-4	2591-2593	no	_	no	_	153-3	linguistic	none	_	_	_	_	_
+153-5	2594-2600	capito	_	capito	_	153-4	linguistic	none	_	_	_	_	_
+
+#Text=ehm mh
+154-1	2601-2604	ehm	_	eh\[m:\]	PSB033	154-0	linguistic	none	2x1	_	_	_	_
+154-1.1	2603-2604	m	_	_	_	_	_	_	_	_	_	*->39-1	*[39]
+154-2	2605-2607	mh	_	m::h	_	154-1	linguistic	none	0x2	_	_	_	_
+
+#Text=xx
+155-1	2608-2610	xx	_	\[xx\]	PSB014	155-0	unknown	none	_	_	_	*->39-2	*[39]
+
+#Text=ehm l' italiano stai imparando in questa scuola
+156-1	2611-2614	ehm	WeaklyRising	ehm:,	PSB014	156-0	linguistic	none	2x1	_	_	_	_
+156-2	2615-2617	l'	_	l'	_	156-1	linguistic	none	_	_	_	_	_
+156-3	2618-2626	italiano	_	italiano	_	156-2	linguistic	none	_	_	_	_	_
+156-4	2627-2631	stai	_	stai	_	156-3	linguistic	none	_	_	_	_	_
+156-5	2632-2641	imparando	_	imparando	_	156-4	linguistic	none	_	_	_	_	_
+156-6	2642-2644	in	_	in	_	156-5	linguistic	none	_	_	_	_	_
+156-7	2645-2651	questa	_	questa	_	156-6	linguistic	none	_	_	_	_	_
+156-8	2652-2658	scuola	Rising	scuola?	_	156-7	linguistic	none	_	_	_	_	_
+
+#Text=sì
+157-1	2659-2661	sì	_	sì	PSB034	157-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+158-1	2662-2664	sì	_	sì	PSB033	158-0	linguistic	none	_	_	_	_	_
+
+#Text=ti piace s~ s~ questa scuola
+159-1	2665-2667	ti	_	ti	PSB014	159-0	linguistic	none	_	_	_	_	_
+159-2	2668-2673	piace	_	piace	_	159-1	linguistic	none	_	_	_	_	_
+159-3	2674-2676	s~	_	s~	_	159-2	linguistic	none	_	_	_	_	_
+159-4	2677-2679	s~	_	s~	_	159-3	linguistic	none	_	_	_	_	_
+159-5	2680-2686	questa	_	questa	_	159-4	linguistic	none	_	_	_	_	_
+159-6	2687-2693	scuola	Rising	scuola?	_	159-5	linguistic	none	_	_	_	_	_
+
+#Text=sì
+160-1	2694-2696	sì	_	sì	PSB034	160-0	linguistic	none	_	_	_	_	_
+
+#Text=sì e stai imparando a scrivere a leggere
+161-1	2697-2699	sì	Rising	sì?	PSB014	161-0	linguistic	none	_	_	_	_	_
+161-2	2700-2701	e	_	e	_	161-1	linguistic	none	_	_	_	_	_
+161-3	2702-2706	stai	_	stai	_	161-2	linguistic	none	_	_	_	_	_
+161-4	2707-2716	imparando	_	imparando	_	161-3	linguistic	none	_	_	_	_	_
+161-5	2717-2718	a	_	a	_	161-4	linguistic	none	_	_	_	_	_
+161-6	2719-2727	scrivere	WeaklyRising	scrivere,	_	161-5	linguistic	none	_	_	_	_	_
+161-7	2728-2729	a	_	a	_	161-6	linguistic	none	_	_	_	_	_
+161-8	2730-2737	leggere	Rising	leggere?	_	161-7	linguistic	none	_	_	_	_	_
+
+#Text=sìsì
+162-1	2738-2742	sìsì	_	>sìsì<	PSB034	162-0	linguistic	none	_	Fast=0-4(0)	_	_	_
+
+#Text=leggere buono
+163-1	2743-2750	leggere	_	leggere	PSB034	163-0	linguistic	none	_	_	_	_	_
+163-2	2751-2756	buono	_	b(u)ono	_	163-1	linguistic	none	_	_	_	_	_
+
+#Text=mhmh difficile secondo te l' italiano difficile
+164-1	2757-2761	mhmh	WeaklyRising	mhmh,	PSB033	164-0	linguistic	none	_	_	_	_	_
+164-2	2762-2771	difficile	_	difficile	_	164-1	linguistic	none	_	_	_	_	_
+164-3	2772-2779	secondo	_	secondo	_	164-2	linguistic	none	_	_	_	_	_
+164-4	2780-2782	te	Rising	te?	_	164-3	linguistic	none	_	_	_	_	_
+164-5	2783-2785	l'	_	l'	_	164-4	linguistic	none	_	_	_	_	_
+164-6	2786-2794	italiano	WeaklyRising	italiano,	_	164-5	linguistic	none	_	_	_	_	_
+164-7	2795-2804	difficile	Rising	\[diffici\]le?	_	164-6	linguistic	none	_	_	_	_	_
+164-7.1	2795-2802	diffici	_	_	_	_	_	_	_	_	_	*->41-1	*[41]
+
+#Text=è difficile ma tu sai anche il francese
+165-1	2805-2806	è	_	\[è	PSB014	165-0	linguistic	none	_	_	_	*->41-2	*[41]
+165-2	2807-2816	difficile	Rising	diffici\]le?	_	165-1	linguistic	none	_	_	_	_	_
+165-2.1	2807-2814	diffici	_	_	_	_	_	_	_	_	_	*->41-3	*[41]
+165-3	2817-2819	ma	_	ma	_	165-2	linguistic	none	_	_	_	_	_
+165-4	2820-2822	tu	_	tu	_	165-3	linguistic	none	_	_	_	_	_
+165-5	2823-2826	sai	_	sai	_	165-4	linguistic	none	_	_	_	_	_
+165-6	2827-2832	anche	_	anche	_	165-5	linguistic	none	_	_	_	_	_
+165-7	2833-2835	il	_	il	_	165-6	linguistic	none	_	_	_	_	_
+165-8	2836-2844	francese	Rising	francese?	_	165-7	linguistic	none	_	_	_	_	_
+
+#Text=sai anche il francese
+166-1	2845-2848	sai	_	sai	PSB014	166-0	linguistic	none	_	_	_	_	_
+166-2	2849-2854	anche	_	anche	_	166-1	linguistic	none	_	_	_	_	_
+166-3	2855-2857	il	_	il	_	166-2	linguistic	none	_	_	_	_	_
+166-4	2858-2866	francese	Rising	francese?	_	166-3	linguistic	none	_	_	_	_	_
+
+#Text=poco
+167-1	2867-2871	poco	_	poco	PSB034	167-0	linguistic	none	_	_	_	_	_
+
+#Text=((ride))
+168-1	2872-2880	((ride))	_	((ride))	PSB014	168-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=mh
+169-1	2881-2883	mh	_	\[mh\]	PSB033	169-0	linguistic	none	_	_	_	*->44-1	*[44]
+
+#Text=quindi è simile l' italiano
+170-1	2884-2890	quindi	_	\[quindi\]	PSB014	170-0	linguistic	none	_	_	_	*->44-2	*[44]
+170-2	2891-2892	è	_	è	_	170-1	linguistic	none	_	_	_	_	_
+170-3	2893-2899	simile	_	simile	_	170-2	linguistic	none	_	_	_	_	_
+170-4	2900-2902	l'	_	l'	_	170-3	linguistic	none	_	_	_	_	_
+170-5	2903-2911	italiano	Rising	italiano?	_	170-4	linguistic	none	_	_	_	_	_
+
+#Text=((poco))
+171-1	2912-2920	((poco))	_	((poco))	PSB034	171-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=((ride))
+172-1	2921-2929	((ride))	_	((ride))	PSB014	172-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=poco (.) eh aiuta
+173-1	2930-2934	poco	_	poco	PSB033	173-0	linguistic	none	_	_	_	_	_
+173-2	2935-2938	(.)	_	(.)	_	173-1	shortpause	none	_	_	_	_	_
+173-3	2939-2941	eh	WeaklyRising	eh,	_	173-2	linguistic	none	_	_	_	_	_
+173-4	2942-2947	aiuta	_	aiuta	_	173-3	linguistic	none	_	_	_	_	_
+
+#Text=eh
+174-1	2948-2950	eh	_	e:h	PSB014	174-0	linguistic	none	0x1	_	_	_	_
+
+#Text=mh (.) uguale
+175-1	2951-2953	mh	_	m:h	PSB034	175-0	linguistic	none	0x1	_	_	_	_
+175-2	2954-2957	(.)	_	(.)	_	175-1	shortpause	none	_	_	_	_	_
+175-3	2958-2964	uguale	_	(u)guale	_	175-2	linguistic	none	_	_	0-1(0)	_	_
+
+#Text=uguale
+176-1	2965-2971	uguale	Rising	uguale?	PSB014	176-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+177-1	2972-2974	sì	_	°sì°	PSB034	177-0	linguistic	none	_	_	_	_	_
+
+#Text=okay
+178-1	2975-2979	okay	_	okay	PSB033	178-0	linguistic	none	_	_	_	_	_
+
+#Text=e cosa trovi di difficile (.) nell' italiano
+179-1	2980-2981	e	_	e:	PSB014	179-0	linguistic	none	0x1	_	_	_	_
+179-2	2982-2986	cosa	_	cosa	_	179-1	linguistic	none	_	_	_	_	_
+179-3	2987-2992	trovi	_	trovi	_	179-2	linguistic	none	_	_	_	_	_
+179-4	2993-2995	di	_	di	_	179-3	linguistic	none	_	_	_	_	_
+179-5	2996-3005	difficile	Rising	difficile?	_	179-4	linguistic	none	_	_	_	_	_
+179-6	3006-3009	(.)	_	(.)	_	179-5	shortpause	none	_	_	_	_	_
+179-7	3010-3015	nell'	_	nell'	_	179-6	linguistic	none	_	_	_	_	_
+179-8	3016-3024	italiano	_	italiano	_	179-7	linguistic	none	_	_	_	_	_
+
+#Text=i verbi
+180-1	3025-3026	i	_	\[i	PSB034	180-0	linguistic	none	_	_	_	*->47-1	*[47]
+180-2	3027-3032	verbi	_	ver\]bi	_	180-1	linguistic	none	_	_	_	_	_
+180-2.1	3027-3030	ver	_	_	_	_	_	_	_	_	_	*->47-2	*[47]
+
+#Text=come si
+181-1	3033-3037	come	_	\[come	PSB014	181-0	linguistic	none	_	_	_	*->47-3	*[47]
+181-2	3038-3040	si	_	si\]	_	181-1	linguistic	none	_	_	_	*->47-4	*[47]
+
+#Text=i verbi
+182-1	3041-3042	i	_	I	PSB014	182-0	linguistic	none	_	_	_	_	_
+182-2	3043-3048	verbi	Rising	VERBI?	_	182-1	linguistic	none	_	_	_	_	_
+
+#Text=i verbi
+183-1	3049-3050	i	_	\[°i	PSB033	183-0	linguistic	none	_	_	_	*->187-1	*[187]
+183-2	3051-3056	verbi	_	verbi°\]	_	183-1	linguistic	none	_	_	_	*->187-2	*[187]
+
+#Text=i verbi
+184-1	3057-3058	i	_	\[°i	PSB034	184-0	linguistic	none	_	_	_	*->187-3	*[187]
+184-2	3059-3064	verbi	_	verbi°\]	_	184-1	linguistic	none	_	_	_	*->187-4	*[187]
+
+#Text=eh son tantissimi
+185-1	3065-3067	eh	_	e:h	PSB014	185-0	linguistic	none	0x1	_	_	_	_
+185-2	3068-3071	son	_	son	_	185-1	linguistic	none	_	_	_	_	_
+185-3	3072-3082	tantissimi	_	tantissimi	_	185-2	linguistic	none	_	_	_	_	_
+
+#Text=eh è vero
+186-1	3083-3085	eh	_	\[°eh°\]	PSB033	186-0	linguistic	none	_	_	_	*->48-1	*[48]
+186-2	3086-3087	è	_	è	_	186-1	linguistic	none	_	_	_	_	_
+186-3	3088-3092	vero	_	vero	_	186-2	linguistic	none	_	_	_	_	_
+
+#Text=sì
+187-1	3093-3095	sì	_	\[°sì°\]	PSB034	187-0	linguistic	none	_	_	_	*->48-2	*[48]
+
+#Text=è un problema ((ride))
+188-1	3096-3097	è	_	è	PSB014	188-0	linguistic	none	_	_	_	_	_
+188-2	3098-3100	un	_	un	_	188-1	linguistic	none	_	_	_	_	_
+188-3	3101-3109	problema	_	problema	_	188-2	linguistic	none	_	_	_	_	_
+188-4	3110-3118	((ride))	_	\[((ride))\]	_	188-3	nonverbalbehavior	none	_	_	_	*->50-1	*[50]
+
+#Text=sono difficili anche per noi quindi
+189-1	3119-3123	sono	_	\[sono\]	PSB033	189-0	linguistic	none	_	_	_	*->50-2	*[50]
+189-2	3124-3133	difficili	_	difficili	_	189-1	linguistic	none	_	_	_	_	_
+189-3	3134-3139	anche	_	anche	_	189-2	linguistic	none	_	_	_	_	_
+189-4	3140-3143	per	_	per	_	189-3	linguistic	none	_	_	_	_	_
+189-5	3144-3147	noi	_	noi	_	189-4	linguistic	none	_	_	_	_	_
+189-6	3148-3154	quindi	_	qui\[ndi\]	_	189-5	linguistic	none	_	_	_	_	_
+189-6.1	3151-3154	ndi	_	_	_	_	_	_	_	_	_	*->51-1	*[51]
+
+#Text=sì anche noi li sbagliamo
+190-1	3155-3157	sì	_	\[sì::\]	PSB014	190-0	linguistic	none	1x2	_	_	*->51-2	*[51]
+190-2	3158-3163	anche	_	anche	_	190-1	linguistic	none	_	_	_	_	_
+190-3	3164-3167	noi	_	noi	_	190-2	linguistic	none	_	_	_	_	_
+190-4	3168-3170	li	_	li	_	190-3	linguistic	none	_	_	_	_	_
+190-5	3171-3180	sbagliamo	_	\[sbaglia\]mo	_	190-4	linguistic	none	_	_	_	_	_
+190-5.1	3171-3178	sbaglia	_	_	_	_	_	_	_	_	_	*->52-1	*[52]
+
+#Text=((ride))
+191-1	3181-3189	((ride))	_	\[((ride))\]	PSB033	191-0	nonverbalbehavior	none	_	_	_	*->52-2	*[52]
+
+#Text=((ride))
+192-1	3190-3198	((ride))	_	((ride))	PSB034	192-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=sìsìsìsì
+193-1	3199-3207	sìsìsìsì	_	>sìsì\[sìsì\]<	PSB014	193-0	linguistic	none	_	Fast=0-8(0)	_	_	_
+193-1.1	3203-3207	sìsì	_	_	_	_	_	_	_	_	_	*->53-1	*[53]
+
+#Text=eh sì infatti
+194-1	3208-3210	eh	_	\[eh	PSB033	194-0	linguistic	none	_	_	_	*->53-2	*[53]
+194-2	3211-3213	sì	_	sì\]	_	194-1	linguistic	none	_	_	_	*->53-3	*[53]
+194-3	3214-3221	infatti	_	infatti	_	194-2	linguistic	none	_	_	_	_	_
+
+#Text=((ride)) è un grande problema (.) eh poi ci sono tante parole come si pronuncia magari
+195-1	3222-3230	((ride))	_	((ride))	PSB014	195-0	nonverbalbehavior	none	_	_	_	_	_
+195-2	3231-3232	è	_	è	_	195-1	linguistic	none	_	_	_	_	_
+195-3	3233-3235	un	_	un	_	195-2	linguistic	none	_	_	_	_	_
+195-4	3236-3242	grande	_	grande	_	195-3	linguistic	none	_	_	_	_	_
+195-5	3243-3251	problema	_	problema	_	195-4	linguistic	none	_	_	_	_	_
+195-6	3252-3255	(.)	_	(.)	_	195-5	shortpause	none	_	_	_	_	_
+195-7	3256-3258	eh	WeaklyRising	e::h,	_	195-6	linguistic	none	0x2	_	_	_	_
+195-8	3259-3262	poi	_	poi	_	195-7	linguistic	none	_	_	_	_	_
+195-9	3263-3265	ci	_	ci	_	195-8	linguistic	none	_	_	_	_	_
+195-10	3266-3270	sono	_	sono	_	195-9	linguistic	none	_	_	_	_	_
+195-11	3271-3276	tante	_	tante	_	195-10	linguistic	none	_	_	_	_	_
+195-12	3277-3283	parole	WeaklyRising	parole:,	_	195-11	linguistic	none	5x1	_	_	_	_
+195-13	3284-3288	come	_	come	_	195-12	linguistic	none	_	_	_	_	_
+195-14	3289-3291	si	_	si	_	195-13	linguistic	none	_	_	_	_	_
+195-15	3292-3301	pronuncia	_	pronuncia	_	195-14	linguistic	none	_	_	_	_	_
+195-16	3302-3308	magari	_	magari:	_	195-15	linguistic	none	5x1	_	_	_	_
+
+#Text=sì
+196-1	3309-3311	sì	Rising	sì?	PSB033	196-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+197-1	3312-3314	sì	_	>sì<	PSB034	197-0	linguistic	none	_	Fast=0-2(0)	_	_	_
+
+#Text=mhmh è dif~ è diverso
+198-1	3315-3319	mhmh	_	mhmh	PSB014	198-0	linguistic	none	_	_	_	_	_
+198-2	3320-3321	è	_	è	_	198-1	linguistic	none	_	_	_	_	_
+198-3	3322-3326	dif~	_	dif~	_	198-2	linguistic	none	_	_	_	_	_
+198-4	3327-3328	è	_	è	_	198-3	linguistic	none	_	_	_	_	_
+198-5	3329-3336	diverso	Rising	diverso?	_	198-4	linguistic	none	_	_	_	_	_
+
+#Text=sì
+199-1	3337-3339	sì	_	>sì<	PSB034	199-0	linguistic	none	_	Fast=0-2(0)	_	_	_
+
+#Text=mhmh
+200-1	3340-3344	mhmh	_	mhmh	PSB014	200-0	linguistic	none	_	_	_	_	_
+
+#Text=e invece a casa con tuo fratello quindi pa~ parli dārija in dialetto
+201-1	3345-3346	e	_	e	PSB033	201-0	linguistic	yes	_	_	_	_	_
+201-2	3347-3353	invece	_	invece	_	201-1	linguistic	yes	_	_	_	_	_
+201-3	3354-3355	a	_	a	_	201-2	linguistic	yes	_	_	_	_	_
+201-4	3356-3360	casa	WeaklyRising	casa,	_	201-3	linguistic	yes	_	_	_	_	_
+201-5	3361-3364	con	_	con	_	201-4	linguistic	yes	_	_	_	_	_
+201-6	3365-3368	tuo	_	tuo	_	201-5	linguistic	yes	_	_	_	_	_
+201-7	3369-3377	fratello	_	fratello	_	201-6	linguistic	yes	_	_	_	_	_
+201-8	3378-3384	quindi	_	quindi	_	201-7	linguistic	yes	_	_	_	_	_
+201-9	3385-3388	pa~	_	pa~	_	201-8	linguistic	yes	_	_	_	_	_
+201-10	3389-3394	parli	_	parli	_	201-9	linguistic	yes	_	_	_	_	_
+201-11	3395-3401	dārija	WeaklyRising	#dārija,	_	201-10	linguistic	other	_	_	_	_	_
+201-12	3402-3404	in	_	in	_	201-11	linguistic	yes	_	_	_	_	_
+201-13	3405-3413	dialetto	Rising	dialetto?	_	201-12	linguistic	yes	_	_	_	_	_
+
+#Text=no parlo in dārija con con il mio fratello
+202-1	3414-3416	no	_	no	PSB034	202-0	linguistic	yes	_	_	_	_	_
+202-2	3417-3422	parlo	_	parlo	_	202-1	linguistic	yes	_	_	_	_	_
+202-3	3423-3425	in	_	in	_	202-2	linguistic	yes	_	_	_	_	_
+202-4	3426-3432	dārija	_	#dārija	_	202-3	linguistic	other	_	_	_	_	_
+202-5	3433-3436	con	WeaklyRising	con,	_	202-4	linguistic	yes	_	_	_	_	_
+202-6	3437-3440	con	_	con	_	202-5	linguistic	yes	_	_	_	_	_
+202-7	3441-3443	il	_	il	_	202-6	linguistic	yes	_	_	_	_	_
+202-8	3444-3447	mio	_	mio	_	202-7	linguistic	yes	_	_	_	_	_
+202-9	3448-3456	fratello	_	fratello	_	202-8	linguistic	yes	_	_	_	_	_
+
+#Text=sì (.) mhmh (.) ehm quant~
+203-1	3457-3459	sì	_	sì	PSB033	203-0	linguistic	none	_	_	_	_	_
+203-2	3460-3463	(.)	_	(.)	_	203-1	shortpause	none	_	_	_	_	_
+203-3	3464-3468	mhmh	_	mhmh	_	203-2	linguistic	none	_	_	_	_	_
+203-4	3469-3472	(.)	_	(.)	_	203-3	shortpause	none	_	_	_	_	_
+203-5	3473-3476	ehm	_	ehm::	_	203-4	linguistic	none	2x2	_	_	_	_
+203-6	3477-3483	quant~	_	\[quant~\]	_	203-5	linguistic	none	_	_	_	*->54-1	*[54]
+
+#Text=ah il mio fratello parla poco italiano
+204-1	3484-3486	ah	_	\[ah	PSB034	204-0	linguistic	none	_	_	_	*->54-2	*[54]
+204-2	3487-3489	il	_	il\]	_	204-1	linguistic	none	_	_	_	*->54-3	*[54]
+204-3	3490-3493	mio	_	mio	_	204-2	linguistic	none	_	_	_	_	_
+204-4	3494-3502	fratello	_	fratello	_	204-3	linguistic	none	_	_	_	_	_
+204-5	3503-3508	parla	_	parla	_	204-4	linguistic	none	_	_	_	_	_
+204-6	3509-3513	poco	_	poco	_	204-5	linguistic	none	_	_	_	_	_
+204-7	3514-3522	italiano	_	italiano	_	204-6	linguistic	none	_	_	_	_	_
+
+#Text=ah
+205-1	3523-3525	ah	_	ah	PSB033	205-0	linguistic	none	_	_	_	_	_
+
+#Text=ah sì come
+206-1	3526-3528	ah	_	ah	PSB014	206-0	linguistic	none	_	_	_	_	_
+206-2	3529-3531	sì	_	sì	_	206-1	linguistic	none	_	_	_	_	_
+206-3	3532-3536	come	_	\[come\]	_	206-2	linguistic	none	_	_	_	*->55-1	*[55]
+
+#Text=lui parla tipo (.) qua dieci anni
+207-1	3537-3540	lui	_	lui	PSB033	207-0	linguistic	none	_	_	_	_	_
+207-2	3541-3546	parla	_	parla	_	207-1	linguistic	none	_	_	_	_	_
+207-3	3547-3551	tipo	_	tipo::	_	207-2	linguistic	none	3x2	_	_	_	_
+207-4	3552-3555	(.)	_	(.)	_	207-3	shortpause	none	_	_	_	_	_
+207-5	3556-3559	qua	_	qua	_	207-4	linguistic	none	_	_	_	_	_
+207-6	3560-3565	dieci	_	dieci	_	207-5	linguistic	none	_	_	_	_	_
+207-7	3566-3570	anni	_	anni	_	207-6	linguistic	none	_	_	_	_	_
+
+#Text=ah tanto
+208-1	3571-3573	ah	_	a::h	PSB033	208-0	linguistic	none	0x2	_	_	_	_
+208-2	3574-3579	tanto	_	\[tanto\]	_	208-1	linguistic	none	_	_	_	*->56-1	*[56]
+
+#Text=ah
+209-1	3580-3582	ah	_	\[a::h\]	PSB014	209-0	linguistic	none	0x2	_	_	*->56-2	*[56]
+
+#Text=sì
+210-1	3583-3585	sì	_	>sì<	PSB034	210-0	linguistic	none	_	Fast=0-2(0)	_	_	_
+
+#Text=è più grande
+211-1	3586-3587	è	_	è	PSB033	211-0	linguistic	none	_	_	_	_	_
+211-2	3588-3591	più	_	più	_	211-1	linguistic	none	_	_	_	_	_
+211-3	3592-3598	grande	Rising	grande?	_	211-2	linguistic	none	_	_	_	_	_
+
+#Text=sì
+212-1	3599-3601	sì	_	>sì>	PSB034	212-0	linguistic	none	_	_	_	_	_
+
+#Text=quindi è da
+213-1	3602-3608	quindi	_	\[>quindi	PSB014	213-0	linguistic	none	_	Fast=0-6(0)	_	*->58-1	*[58]
+213-2	3609-3610	è	_	è	_	213-1	linguistic	none	_	Fast=0-1(0)	_	*->58-2	*[58]
+213-3	3611-3613	da	_	da<\]	_	213-2	linguistic	none	_	Fast=0-2(0)	_	*->58-3	*[58]
+
+#Text=tu quant~ (.) tu quanti anni hai scusa
+214-1	3614-3616	tu	_	\[tu	PSB033	214-0	linguistic	none	_	_	_	*->58-4	*[58]
+214-2	3617-3623	quant~	_	quant~\]	_	214-1	linguistic	none	_	_	_	*->58-5	*[58]
+214-3	3624-3627	(.)	_	(.)	_	214-2	shortpause	none	_	_	_	_	_
+214-4	3628-3630	tu	_	tu	_	214-3	linguistic	none	_	_	_	_	_
+214-5	3631-3637	quanti	_	quanti	_	214-4	linguistic	none	_	_	_	_	_
+214-6	3638-3642	anni	_	anni	_	214-5	linguistic	none	_	_	_	_	_
+214-7	3643-3646	hai	_	hai	_	214-6	linguistic	none	_	_	_	_	_
+214-8	3647-3652	scusa	Rising	scusa?	_	214-7	linguistic	none	_	_	_	_	_
+
+#Text=eh (.) settembre (.) prossimo nkəmməl venti
+215-1	3653-3655	eh	_	e::h	PSB034	215-0	linguistic	yes	0x2	_	_	_	_
+215-2	3656-3659	(.)	_	(.)	_	215-1	shortpause	yes	_	_	_	_	_
+215-3	3660-3669	settembre	_	settembre	_	215-2	linguistic	yes	_	_	_	_	_
+215-4	3670-3673	(.)	_	(.)	_	215-3	shortpause	yes	_	_	_	_	_
+215-5	3674-3682	prossimo	_	prossimo	_	215-4	linguistic	yes	_	_	_	_	_
+215-6	3683-3690	nkəmməl	_	(#nkəmməl)	_	215-5	linguistic	other	_	_	0-8(0)	_	_
+215-7	3691-3696	venti	_	venti	_	215-6	linguistic	yes	_	_	_	_	_
+
+#Text=venti ah
+216-1	3697-3702	venti	Rising	venti?	PSB033	217-0	linguistic	none	_	_	_	_	_
+216-2	3703-3705	ah	_	a:h	_	217-1	linguistic	none	0x1	_	_	_	_
+
+#Text=ah okay dai
+217-1	3706-3708	ah	_	a::h	PSB014	218-0	linguistic	none	0x2	_	_	_	_
+217-2	3709-3713	okay	_	okay	_	218-1	linguistic	none	_	_	_	_	_
+217-3	3714-3717	dai	_	dai	_	218-2	linguistic	none	_	_	_	_	_
+
+#Text=e tuo fratello
+218-1	3718-3719	e	_	e	PSB033	219-0	linguistic	none	_	_	_	_	_
+218-2	3720-3723	tuo	_	tuo	_	219-1	linguistic	none	_	_	_	_	_
+218-3	3724-3732	fratello	Rising	fratello?	_	219-2	linguistic	none	_	_	_	_	_
+
+#Text=ventisette
+219-1	3733-3743	ventisette	_	ventisette	PSB034	220-0	linguistic	none	_	_	_	_	_
+
+#Text=ah (.) okay
+220-1	3744-3746	ah	_	ah	PSB033	221-0	linguistic	none	_	_	_	_	_
+220-2	3747-3750	(.)	_	(.)	_	221-1	shortpause	none	_	_	_	_	_
+220-3	3751-3755	okay	_	\[okay\]	_	221-2	linguistic	none	_	_	_	*->60-1	*[60]
+
+#Text=ah dai quindi l' hai raggiunto insomma sei venuito da lui
+221-1	3756-3758	ah	_	\[ah\]	PSB014	222-0	linguistic	none	_	_	_	*->60-2	*[60]
+221-2	3759-3762	dai	WeaklyRising	dai,	_	222-1	linguistic	none	_	_	_	_	_
+221-3	3763-3769	quindi	_	quindi	_	222-2	linguistic	none	_	_	_	_	_
+221-4	3770-3772	l'	_	l'	_	222-3	linguistic	none	_	_	_	_	_
+221-5	3773-3776	hai	_	hai	_	222-4	linguistic	none	_	_	_	_	_
+221-6	3777-3786	raggiunto	_	raggiunto	_	222-5	linguistic	none	_	_	_	_	_
+221-7	3787-3794	insomma	WeaklyRising	insomma,	_	222-6	linguistic	none	_	_	_	_	_
+221-8	3795-3798	sei	_	>sei	_	222-7	linguistic	none	_	Fast=0-3(0)	_	_	_
+221-9	3799-3806	venuito	_	venuito	_	222-8	linguistic	none	_	Fast=0-7(0)	_	_	_
+221-10	3807-3809	da	_	da	_	222-9	linguistic	none	_	Fast=0-2(0)	_	_	_
+221-11	3810-3813	lui	Rising	lui<?	_	222-10	linguistic	none	_	Fast=0-3(0)	_	_	_
+
+#Text=sì
+222-1	3814-3816	sì	_	>sì<	PSB034	223-0	linguistic	none	_	Fast=0-2(0)	_	_	_
+
+#Text=mhmhmh
+223-1	3817-3823	mhmhmh	_	mhmhmh	PSB014	224-0	linguistic	none	_	_	_	_	_
+
+#Text=e quante volte vieni qua a scuola una volta a settimana due
+224-1	3824-3825	e	_	e:	PSB014	225-0	linguistic	none	0x1	_	_	_	_
+224-2	3826-3832	quante	_	quante	_	225-1	linguistic	none	_	_	_	_	_
+224-3	3833-3838	volte	_	volte	_	225-2	linguistic	none	_	_	_	_	_
+224-4	3839-3844	vieni	_	vieni	_	225-3	linguistic	none	_	_	_	_	_
+224-5	3845-3848	qua	_	qua	_	225-4	linguistic	none	_	_	_	_	_
+224-6	3849-3850	a	_	a	_	225-5	linguistic	none	_	_	_	_	_
+224-7	3851-3857	scuola	Rising	scuola?	_	225-6	linguistic	none	_	_	_	_	_
+224-8	3858-3861	una	_	una	_	225-7	linguistic	none	_	_	_	_	_
+224-9	3862-3867	volta	_	volta	_	225-8	linguistic	none	_	_	_	_	_
+224-10	3868-3869	a	_	a	_	225-9	linguistic	none	_	_	_	_	_
+224-11	3870-3879	settimana	Rising	settimana?	_	225-10	linguistic	none	_	_	_	_	_
+224-12	3880-3883	due	Rising	due:?	_	225-11	linguistic	none	2x1	_	_	_	_
+
+#Text=una al mese
+225-1	3884-3887	una	_	una	PSB034	226-0	linguistic	none	_	_	_	_	_
+225-2	3888-3890	al	_	al	_	226-1	linguistic	none	_	_	_	_	_
+225-3	3891-3895	mese	_	mese	_	226-2	linguistic	none	_	_	_	_	_
+
+#Text=oh
+226-1	3896-3898	oh	_	oh	PSB014	227-0	linguistic	none	_	_	_	_	_
+
+#Text=ah ah
+227-1	3899-3901	ah	WeaklyRising	ah,	PSB033	228-0	linguistic	none	_	_	_	_	_
+227-2	3902-3904	ah	_	ah	_	228-1	linguistic	none	_	_	_	_	_
+
+#Text=una al mese
+228-1	3905-3908	una	_	una	PSB014	229-0	linguistic	none	_	_	_	_	_
+228-2	3909-3911	al	_	al	_	229-1	linguistic	none	_	_	_	_	_
+228-3	3912-3916	mese	Rising	mese?	_	229-2	linguistic	none	_	_	_	_	_
+
+#Text=sì
+229-1	3917-3919	sì	_	°sì°	PSB034	230-0	linguistic	none	_	_	_	_	_
+
+#Text=ah okay okay
+230-1	3920-3922	ah	_	a::h	PSB014	231-0	linguistic	none	0x2	_	_	_	_
+230-2	3923-3927	okay	_	>okay	_	231-1	linguistic	none	_	Fast=0-4(0)	_	_	_
+230-3	3928-3932	okay	_	okay<	_	231-2	linguistic	none	_	Fast=0-4(0)	_	_	_
+
+#Text=eh poi
+231-1	3933-3935	eh	_	°e::h	PSB033	232-0	linguistic	none	0x2	_	_	_	_
+231-2	3936-3939	poi	Rising	poi?°	_	232-1	linguistic	none	_	_	_	_	_
+
+#Text=guardi programmi in italiano per caso cinema film (.) in italiano
+232-1	3940-3946	guardi	_	guardi	PSB014	233-0	linguistic	none	_	_	_	_	_
+232-2	3947-3956	programmi	_	programmi	_	233-1	linguistic	none	_	_	_	_	_
+232-3	3957-3959	in	_	in	_	233-2	linguistic	none	_	_	_	_	_
+232-4	3960-3968	italiano	_	italiano	_	233-3	linguistic	none	_	_	_	_	_
+232-5	3969-3972	per	_	per	_	233-4	linguistic	none	_	_	_	_	_
+232-6	3973-3977	caso	Rising	caso?	_	233-5	linguistic	none	_	_	_	_	_
+232-7	3978-3984	cinema	Rising	cinema?	_	233-6	linguistic	none	_	_	_	_	_
+232-8	3985-3989	film	Rising	film?	_	233-7	linguistic	none	_	_	_	_	_
+232-9	3990-3993	(.)	_	(.)	_	233-8	shortpause	none	_	_	_	_	_
+232-10	3994-3996	in	_	in	_	233-9	linguistic	none	_	_	_	_	_
+232-11	3997-4005	italiano	Rising	italiano?	_	233-10	linguistic	none	_	_	_	_	_
+
+#Text=film
+233-1	4006-4010	film	_	film	PSB034	234-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+234-1	4011-4013	sì	Rising	sì?	PSB014	235-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+235-1	4014-4016	sì	_	°sì°	PSB034	236-0	linguistic	none	_	_	_	_	_
+
+#Text=e al cinema vai (.) di solito
+236-1	4017-4018	e	_	e::	PSB014	237-0	linguistic	none	0x2	_	_	_	_
+236-2	4019-4021	al	_	al	_	237-1	linguistic	none	_	_	_	_	_
+236-3	4022-4028	cinema	_	cinema	_	237-2	linguistic	none	_	_	_	_	_
+236-4	4029-4032	vai	Rising	vai?	_	237-3	linguistic	none	_	_	_	_	_
+236-5	4033-4036	(.)	_	(.)	_	237-4	shortpause	none	_	_	_	_	_
+236-6	4037-4039	di	_	di	_	237-5	linguistic	none	_	_	_	_	_
+236-7	4040-4046	solito	_	solito	_	237-6	linguistic	none	_	_	_	_	_
+
+#Text=no
+237-1	4047-4049	no	_	no	PSB034	238-0	linguistic	none	_	_	_	_	_
+
+#Text=no
+238-1	4050-4052	no	_	no	PSB014	239-0	linguistic	none	_	_	_	_	_
+
+#Text=solo casa
+239-1	4053-4057	solo	_	solo	PSB014	240-0	linguistic	none	_	_	_	_	_
+239-2	4058-4062	casa	Rising	casa?	_	240-1	linguistic	none	_	_	_	_	_
+
+#Text=solo a casa
+240-1	4063-4067	solo	_	°so\[lo	PSB034	241-0	linguistic	none	_	_	_	_	_
+240-1.1	4065-4067	lo	_	_	_	_	_	_	_	_	_	*->61-1	*[61]
+240-2	4068-4069	a	_	a	_	241-1	linguistic	none	_	_	_	*->61-2	*[61]
+240-3	4070-4074	casa	_	cas\]a°	_	241-2	linguistic	none	_	_	_	_	_
+240-3.1	4070-4073	cas	_	_	_	_	_	_	_	_	_	*->61-3	*[61]
+
+#Text=mhmh
+241-1	4075-4079	mhmh	_	\[mhmh\]	PSB033	242-0	linguistic	none	_	_	_	*->61-4	*[61]
+
+#Text=((ride)) (.) sul telefono
+242-1	4080-4088	((ride))	_	((ride))	PSB014	243-0	nonverbalbehavior	none	_	_	_	_	_
+242-2	4089-4092	(.)	_	(.)	_	243-1	shortpause	none	_	_	_	_	_
+242-3	4093-4096	sul	_	sul	_	243-2	linguistic	none	_	_	_	_	_
+242-4	4097-4105	telefono	Rising	telefono?	_	243-3	linguistic	none	_	_	_	_	_
+
+#Text=sì telefono
+243-1	4106-4108	sì	WeaklyRising	°sì,	PSB034	244-0	linguistic	none	_	_	_	_	_
+243-2	4109-4117	telefono	_	telefono°	_	244-1	linguistic	none	_	_	_	_	_
+
+#Text=e usi internet in italiano vedi cose in italiano (.) social media
+244-1	4118-4119	e	_	e:	PSB014	245-0	linguistic	none	0x1	_	_	_	_
+244-2	4120-4123	usi	_	usi	_	245-1	linguistic	none	_	_	_	_	_
+244-3	4124-4132	internet	_	internet	_	245-2	linguistic	none	_	_	_	_	_
+244-4	4133-4135	in	_	in	_	245-3	linguistic	none	_	_	_	_	_
+244-5	4136-4144	italiano	Rising	italiano?	_	245-4	linguistic	none	_	_	_	_	_
+244-6	4145-4149	vedi	_	vedi	_	245-5	linguistic	none	_	_	_	_	_
+244-7	4150-4154	cose	_	cose	_	245-6	linguistic	none	_	_	_	_	_
+244-8	4155-4157	in	_	in	_	245-7	linguistic	none	_	_	_	_	_
+244-9	4158-4166	italiano	Rising	italiano:?	_	245-8	linguistic	none	7x1	_	_	_	_
+244-10	4167-4170	(.)	_	(.)	_	245-9	shortpause	none	_	_	_	_	_
+244-11	4171-4177	social	_	social	_	245-10	linguistic	none	_	_	_	_	_
+244-12	4178-4183	media	Rising	me\[dia\]?	_	245-11	linguistic	none	_	_	_	_	_
+244-12.1	4180-4183	dia	_	_	_	_	_	_	_	_	_	*->63-1	*[63]
+
+#Text=poco
+245-1	4184-4188	poco	_	\[poco\]	PSB034	246-0	linguistic	none	_	_	_	*->63-2	*[63]
+
+#Text=poco
+246-1	4189-4193	poco	Rising	poco?	PSB014	247-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+247-1	4194-4196	sì	_	°sì°	PSB034	248-0	linguistic	none	_	_	_	_	_
+
+#Text=eh perché quello aiuta molto secondo me (.) però è difficile giustamente
+248-1	4197-4199	eh	_	eh	PSB014	249-0	linguistic	none	_	_	_	_	_
+248-2	4200-4206	perché	_	perché	_	249-1	linguistic	none	_	_	_	_	_
+248-3	4207-4213	quello	_	quello	_	249-2	linguistic	none	_	_	_	_	_
+248-4	4214-4219	aiuta	_	aiuta	_	249-3	linguistic	none	_	_	_	_	_
+248-5	4220-4225	molto	_	molto	_	249-4	linguistic	none	_	_	_	_	_
+248-6	4226-4233	secondo	_	secondo	_	249-5	linguistic	none	_	_	_	_	_
+248-7	4234-4236	me	_	me	_	249-6	linguistic	none	_	_	_	_	_
+248-8	4237-4240	(.)	_	(.)	_	249-7	shortpause	none	_	_	_	_	_
+248-9	4241-4245	però	_	però	_	249-8	linguistic	none	_	_	_	_	_
+248-10	4246-4247	è	_	è	_	249-9	linguistic	none	_	_	_	_	_
+248-11	4248-4257	difficile	_	difficile	_	249-10	linguistic	none	_	_	_	_	_
+248-12	4258-4269	giustamente	_	giustamente	_	249-11	linguistic	none	_	_	_	_	_
+
+#Text=mh
+249-1	4270-4272	mh	_	mh	PSB033	250-0	linguistic	none	_	_	_	_	_
+
+#Text=eh
+250-1	4273-4275	eh	_	eh	PSB014	251-0	linguistic	none	_	_	_	_	_
+
+#Text=eh sì
+251-1	4276-4278	eh	_	eh	PSB033	252-0	linguistic	none	_	_	_	_	_
+251-2	4279-4281	sì	_	sì	_	252-1	linguistic	none	_	_	_	_	_
+
+#Text=ehm
+252-1	4282-4285	ehm	_	e:hm:	PSB033	253-0	linguistic	none	0x1,2x1	_	_	_	_
+
+#Text=cibo ti piace di più cibo marocchino o cibo italiano
+253-1	4286-4290	cibo	Rising	cibo?	PSB033	254-0	linguistic	none	_	_	_	_	_
+253-2	4291-4293	ti	_	ti	_	254-1	linguistic	none	_	_	_	_	_
+253-3	4294-4299	piace	_	piace	_	254-2	linguistic	none	_	_	_	_	_
+253-4	4300-4302	di	_	di	_	254-3	linguistic	none	_	_	_	_	_
+253-5	4303-4306	più	_	più	_	254-4	linguistic	none	_	_	_	_	_
+253-6	4307-4311	cibo	_	cibo	_	254-5	linguistic	none	_	_	_	_	_
+253-7	4312-4322	marocchino	_	marocchino	_	254-6	linguistic	none	_	_	_	_	_
+253-8	4323-4324	o	_	o	_	254-7	linguistic	none	_	_	_	_	_
+253-9	4325-4329	cibo	_	cibo	_	254-8	linguistic	none	_	_	_	_	_
+253-10	4330-4338	italiano	Rising	italiano?	_	254-9	linguistic	none	_	_	_	_	_
+
+#Text=cosa cibo
+254-1	4339-4343	cosa	_	°cosa	PSB034	255-0	linguistic	none	_	_	_	_	_
+254-2	4344-4348	cibo	Rising	cibo?°	_	255-1	linguistic	none	_	_	_	_	_
+
+#Text=cibo cibo
+255-1	4349-4353	cibo	WeaklyRising	cibo:,	PSB033	256-0	linguistic	none	3x1	_	_	_	_
+255-2	4354-4358	cibo	_	\[°cibo°\]	_	256-1	linguistic	none	_	_	_	*->64-1	*[64]
+
+#Text=pizza pasta
+256-1	4359-4364	pizza	WeaklyRising	\[pizza\],	PSB014	257-0	linguistic	none	_	_	_	_	_
+256-2	4365-4370	pasta	_	pasta	_	257-1	linguistic	none	_	_	_	_	_
+
+#Text=pizza pasta o
+257-1	4371-4376	pizza	_	\[pizza\]	PSB033	258-0	linguistic	none	_	_	_	*->65-1	*[65]
+257-2	4377-4382	pasta	WeaklyRising	pasta,	_	258-1	linguistic	none	_	_	_	_	_
+257-3	4383-4384	o	_	o::	_	258-2	linguistic	none	0x2	_	_	_	_
+
+#Text=ṭājīn ((ride))
+258-1	4385-4390	ṭājīn	_	#_ ṭājīn	PSB034	259-0	linguistic	other	_	_	_	_	_
+258-2	4391-4399	((ride))	_	((ride))	_	259-1	nonverbalbehavior	yes	_	_	_	_	_
+
+#Text=ṭājīn eh
+259-1	4400-4405	ṭājīn	_	#_ ṭāj\[īn	PSB033	260-0	linguistic	other	_	_	_	_	_
+259-1.1	4400-4402	ṭā	_	_	_	_	_	_	_	_	_	*->67-1	*[67]
+259-2	4406-4408	eh	_	eh\]	_	260-1	linguistic	other	_	_	_	*->67-2	*[67]
+
+#Text=ṭājīn ((ride)) e quindi preferisci quello marocchino
+260-1	4409-4414	ṭājīn	_	#ṭājīn	PSB014	261-0	linguistic	other	_	_	_	_	_
+260-2	4415-4423	((ride))	_	((ride))	_	261-1	nonverbalbehavior	yes	_	_	_	_	_
+260-3	4424-4425	e	_	e	_	261-2	linguistic	yes	_	_	_	_	_
+260-4	4426-4432	quindi	_	quindi	_	261-3	linguistic	yes	_	_	_	_	_
+260-5	4433-4443	preferisci	_	preferisci	_	261-4	linguistic	yes	_	_	_	_	_
+260-6	4444-4450	quello	_	quello	_	261-5	linguistic	yes	_	_	_	_	_
+260-7	4451-4461	marocchino	Rising	\[marocchino\]?	_	261-6	linguistic	yes	_	_	_	*->68-1	*[68]
+
+#Text=ta~ ṭājīn o pizza
+261-1	4462-4465	ta~	_	\[ta~\]	PSB033	262-0	linguistic	yes	_	_	_	*->68-2	*[68]
+261-2	4466-4471	ṭājīn	_	#ṭājīn	_	262-1	linguistic	other	_	_	_	_	_
+261-3	4472-4473	o	_	o	_	262-2	linguistic	yes	_	_	_	_	_
+261-4	4474-4479	pizza	Rising	pizza?	_	262-3	linguistic	yes	_	_	_	_	_
+
+#Text=ṭājīn
+262-1	4480-4485	ṭājīn	_	#_ ṭāj\[īn\]	PSB033	263-0	linguistic	other	_	_	_	_	_
+262-1.1	4480-4482	ṭā	_	_	_	_	_	_	_	_	_	*->69-1	*[69]
+
+#Text=ṭājīn ṭājīn ((ride))
+263-1	4486-4491	ṭājīn	_	#_ \[ṭājīn\]	PSB034	264-0	linguistic	other	_	_	_	_	_
+263-1.1	4486-4488	ṭā	_	_	_	_	_	_	_	_	_	*->69-2	*[69]
+263-2	4492-4497	ṭājīn	_	ṭājīn	_	264-1	linguistic	other	_	_	_	_	_
+263-3	4498-4506	((ride))	_	((ride))	_	264-2	nonverbalbehavior	yes	_	_	_	_	_
+
+#Text=meglio ṭājīn più buono
+264-1	4507-4513	meglio	_	meglio	PSB033	265-0	linguistic	yes	_	_	_	_	_
+264-2	4514-4519	ṭājīn	_	\[#ṭājīn\]	_	265-1	linguistic	other	_	_	_	_	_
+264-3	4520-4523	più	_	più	_	265-2	linguistic	yes	_	_	_	_	_
+264-4	4524-4529	buono	_	buo\[no\]	_	265-3	linguistic	yes	_	_	_	_	_
+
+#Text=eh lo so è un casino
+265-1	4530-4532	eh	WeaklyRising	\[e::h\],	PSB014	266-0	linguistic	none	0x2	_	_	*->188-1	*[188]
+265-2	4533-4535	lo	_	lo	_	266-1	linguistic	none	_	_	_	_	_
+265-3	4536-4538	so	WeaklyRising	so,	_	266-2	linguistic	none	_	_	_	_	_
+265-4	4539-4540	è	_	è	_	266-3	linguistic	none	_	_	_	_	_
+265-5	4541-4543	un	_	un	_	266-4	linguistic	none	_	_	_	_	_
+265-6	4544-4550	casino	_	casino	_	266-5	linguistic	none	_	_	_	_	_
+
+#Text=e (.) qua a bologna
+266-1	4551-4552	e	_	e	PSB033	267-0	linguistic	none	_	_	_	_	_
+266-2	4553-4556	(.)	_	(.)	_	267-1	shortpause	none	_	_	_	_	_
+266-3	4557-4560	qua	_	qua	_	267-2	linguistic	none	_	_	_	_	_
+266-4	4561-4562	a	_	a	_	267-3	linguistic	none	_	_	_	_	_
+266-5	4563-4570	bologna	_	bolo\[gna\]	_	267-4	linguistic	none	_	_	_	_	_
+266-5.1	4567-4570	gna	_	_	_	_	_	_	_	_	_	*->70-1	*[70]
+
+#Text=però pizza è buono
+267-1	4571-4575	però	_	\[però\]	PSB034	268-0	linguistic	none	_	_	_	*->70-2	*[70]
+267-2	4576-4581	pizza	_	pizza	_	268-1	linguistic	none	_	_	_	_	_
+267-3	4582-4583	è	_	è	_	268-2	linguistic	none	_	_	_	_	_
+267-4	4584-4589	buono	_	b(u)ono	_	268-3	linguistic	none	_	_	_	_	_
+
+#Text=buona è buona
+268-1	4590-4595	buona	WeaklyRising	buo\[na\],	PSB033	269-0	linguistic	none	_	_	_	_	_
+268-1.1	4593-4595	na	_	_	_	_	_	_	_	_	_	*->71-1	*[71]
+268-2	4596-4597	è	_	°è	_	269-1	linguistic	none	_	_	_	_	_
+268-3	4598-4603	buona	_	buona°	_	269-2	linguistic	none	_	_	_	_	_
+
+#Text=pizz~ è
+269-1	4604-4609	pizz~	_	\[pizz~	PSB014	270-0	linguistic	none	_	_	_	*->71-2	*[71]
+269-2	4610-4611	è	_	è\]	_	270-1	linguistic	none	_	_	_	*->71-3	*[71]
+
+#Text=e
+270-1	4612-4613	e	_	e::	PSB033	271-0	linguistic	none	0x2	_	_	_	_
+
+#Text=in italia in marocco no
+271-1	4614-4616	in	_	\[in\]	PSB034	272-0	linguistic	none	_	_	_	*->72-1	*[72]
+271-2	4617-4623	italia	WeaklyRising	italia,	_	272-1	linguistic	none	_	_	_	_	_
+271-3	4624-4626	in	_	in	_	272-2	linguistic	none	_	_	_	_	_
+271-4	4627-4634	marocco	_	marocco	_	272-3	linguistic	none	_	_	_	_	_
+271-5	4635-4637	no	_	no	_	272-4	linguistic	none	_	_	_	_	_
+
+#Text=eh ((ride))
+272-1	4638-4640	eh	_	\[e:h	PSB033	273-0	linguistic	none	0x1	_	_	*->73-1	*[73]
+272-2	4641-4649	((ride))	_	((ride))\]	_	273-1	nonverbalbehavior	none	_	_	_	*->73-2	*[73]
+
+#Text=eh eh sì lo so
+273-1	4650-4652	eh	WeaklyRising	\[e:h\],	PSB014	274-0	linguistic	none	0x1	_	_	*->73-3	*[73]
+273-2	4653-4655	eh	_	eh	_	274-1	linguistic	none	_	_	_	_	_
+273-3	4656-4658	sì	WeaklyRising	sì,	_	274-2	linguistic	none	_	_	_	_	_
+273-4	4659-4661	lo	_	lo	_	274-3	linguistic	none	_	_	_	_	_
+273-5	4662-4664	so	_	so	_	274-4	linguistic	none	_	_	_	_	_
+
+#Text=((ride))
+274-1	4665-4673	((ride))	_	((ride))	PSB033	275-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=((ride))
+275-1	4674-4682	((ride))	_	((ride))	PSB034	276-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=e qua dove dove mangi il ṭājīn (.) lo fai a casa
+276-1	4683-4684	e	_	e	PSB033	277-0	linguistic	yes	_	_	_	_	_
+276-2	4685-4688	qua	WeaklyRising	qua,	_	277-1	linguistic	yes	_	_	_	_	_
+276-3	4689-4693	dove	WeaklyRising	dove,	_	277-2	linguistic	yes	_	_	_	_	_
+276-4	4694-4698	dove	_	dove	_	277-3	linguistic	yes	_	_	_	_	_
+276-5	4699-4704	mangi	_	mangi	_	277-4	linguistic	yes	_	_	_	_	_
+276-6	4705-4707	il	_	il	_	277-5	linguistic	yes	_	_	_	_	_
+276-7	4708-4713	ṭājīn	Rising	#ṭājīn?	_	277-6	linguistic	other	_	_	_	_	_
+276-8	4714-4717	(.)	_	(.)	_	277-7	shortpause	yes	_	_	_	_	_
+276-9	4718-4720	lo	_	lo	_	277-8	linguistic	yes	_	_	_	_	_
+276-10	4721-4724	fai	_	fai	_	277-9	linguistic	yes	_	_	_	_	_
+276-11	4725-4726	a	_	a	_	277-10	linguistic	yes	_	_	_	_	_
+276-12	4727-4731	casa	Rising	casa:?	_	277-11	linguistic	yes	3x1	_	_	_	_
+
+#Text=lo sai fare te
+277-1	4732-4734	lo	_	lo	PSB014	278-0	linguistic	none	_	_	_	_	_
+277-2	4735-4738	sai	_	sai	_	278-1	linguistic	none	_	_	_	_	_
+277-3	4739-4743	fare	_	fare	_	278-2	linguistic	none	_	_	_	_	_
+277-4	4744-4746	te	Rising	te?	_	278-3	linguistic	none	_	_	_	_	_
+
+#Text=sì vado a casaxxx
+278-1	4747-4749	sì	_	°sì	PSB034	279-0	linguistic	none	_	_	_	_	_
+278-2	4750-4754	vado	_	vado	_	279-1	linguistic	none	_	_	_	_	_
+278-3	4755-4756	a	_	a	_	279-2	linguistic	none	_	_	_	_	_
+278-4	4757-4764	casaxxx	_	\[casaxxx°\]	_	279-3	linguistic	none	_	_	_	_	_
+
+#Text=ah
+279-1	4765-4767	ah	_	\[ah\]	PSB033	280-0	linguistic	none	_	_	_	*->74-1	*[74]
+
+#Text=ah
+280-1	4768-4770	ah	_	\[A::H\]	PSB014	281-0	linguistic	none	0x2	_	_	*->75-1	*[75]
+
+#Text=ma quindi aspetta lavori in un ristorante italiano
+281-1	4771-4773	ma	_	ma	PSB014	282-0	linguistic	none	_	_	_	_	_
+281-2	4774-4780	quindi	WeaklyRising	quindi,	_	282-1	linguistic	none	_	_	_	_	_
+281-3	4781-4788	aspetta	WeaklyRising	aspetta,	_	282-2	linguistic	none	_	_	_	_	_
+281-4	4789-4795	lavori	_	lavori	_	282-3	linguistic	none	_	_	_	_	_
+281-5	4796-4798	in	_	in	_	282-4	linguistic	none	_	_	_	_	_
+281-6	4799-4801	un	_	un	_	282-5	linguistic	none	_	_	_	_	_
+281-7	4802-4812	ristorante	_	ristorante	_	282-6	linguistic	none	_	_	_	_	_
+281-8	4813-4821	italiano	Rising	italiano?	_	282-7	linguistic	none	_	_	_	_	_
+
+#Text=sì
+282-1	4822-4824	sì	_	sì	PSB034	283-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+283-1	4825-4827	sì	_	sì	PSB033	284-0	linguistic	none	_	_	_	_	_
+
+#Text=quindi stai cioè sai fare cose italiane magari tipo la pasta
+284-1	4828-4834	quindi	_	quindi	PSB014	285-0	linguistic	none	_	_	_	_	_
+284-2	4835-4839	stai	WeaklyRising	stai:,	_	285-1	linguistic	none	3x1	_	_	_	_
+284-3	4840-4844	cioè	_	c(io)è	_	285-2	linguistic	none	_	_	_	_	_
+284-4	4845-4848	sai	_	sai	_	285-3	linguistic	none	_	_	_	_	_
+284-5	4849-4853	fare	_	fare	_	285-4	linguistic	none	_	_	_	_	_
+284-6	4854-4858	cose	_	cose	_	285-5	linguistic	none	_	_	_	_	_
+284-7	4859-4867	italiane	_	italiane	_	285-6	linguistic	none	_	_	_	_	_
+284-8	4868-4874	magari	WeaklyRising	magari,	_	285-7	linguistic	none	_	_	_	_	_
+284-9	4875-4879	tipo	_	tipo	_	285-8	linguistic	none	_	_	_	_	_
+284-10	4880-4882	la	_	la	_	285-9	linguistic	none	_	_	_	_	_
+284-11	4883-4888	pasta	_	pasta:	_	285-10	linguistic	none	4x1	_	_	_	_
+
+#Text=sì sì
+285-1	4889-4891	sì	_	sì	PSB034	286-0	linguistic	none	_	_	_	_	_
+285-2	4892-4894	sì	_	sì	_	286-1	linguistic	none	_	_	_	_	_
+
+#Text=sì sai cucinare
+286-1	4895-4897	sì	WeaklyRising	sì,	PSB014	287-0	linguistic	none	_	_	_	_	_
+286-2	4898-4901	sai	_	sai	_	287-1	linguistic	none	_	_	_	_	_
+286-3	4902-4910	cucinare	_	cucinare	_	287-2	linguistic	none	_	_	_	_	_
+
+#Text=ah
+287-1	4911-4913	ah	_	a::h	PSB014	288-0	linguistic	none	0x2	_	_	_	_
+
+#Text=okay
+288-1	4914-4918	okay	_	°okay°	PSB033	289-0	linguistic	none	_	_	_	_	_
+
+#Text=ehm invece non so come trascrivere questo suono
+289-1	4919-4922	ehm	WeaklyRising	e:hm:,	PSB014	290-0	linguistic	none	0x1,2x1	_	_	_	_
+289-2	4923-4929	invece	WeaklyRising	invece::,	_	290-1	linguistic	none	5x2	_	_	_	_
+289-3	4930-4933	non	_	(non	_	290-2	linguistic	none	_	_	0-3(0)	_	_
+289-4	4934-4936	so	_	so	_	290-3	linguistic	none	_	_	0-2(0)	_	_
+289-5	4937-4941	come	_	come	_	290-4	linguistic	none	_	_	0-4(0)	_	_
+289-6	4942-4953	trascrivere	_	trascrivere	_	290-5	linguistic	none	_	_	0-11(0)	_	_
+289-7	4954-4960	questo	_	questo	_	290-6	linguistic	none	_	_	0-6(0)	_	_
+289-8	4961-4966	suono	_	suono)	_	290-7	linguistic	none	_	_	0-5(0)	_	_
+
+#Text=e tuo fratello invece ha imparato italiano vivendo qua hai detto oppure ha fatto anche lui una scuola
+290-1	4967-4968	e	_	e	PSB014	291-0	linguistic	none	_	_	_	_	_
+290-2	4969-4972	tuo	_	tuo	_	291-1	linguistic	none	_	_	_	_	_
+290-3	4973-4981	fratello	_	fratello	_	291-2	linguistic	none	_	_	_	_	_
+290-4	4982-4988	invece	_	invece	_	291-3	linguistic	none	_	_	_	_	_
+290-5	4989-4991	ha	_	ha	_	291-4	linguistic	none	_	_	_	_	_
+290-6	4992-5000	imparato	_	imparato	_	291-5	linguistic	none	_	_	_	_	_
+290-7	5001-5009	italiano	WeaklyRising	italiano,	_	291-6	linguistic	none	_	_	_	_	_
+290-8	5010-5017	vivendo	_	vivendo	_	291-7	linguistic	none	_	_	_	_	_
+290-9	5018-5021	qua	_	qua	_	291-8	linguistic	none	_	_	_	_	_
+290-10	5022-5025	hai	_	hai	_	291-9	linguistic	none	_	_	_	_	_
+290-11	5026-5031	detto	WeaklyRising	detto,	_	291-10	linguistic	none	_	_	_	_	_
+290-12	5032-5038	oppure	_	>oppure	_	291-11	linguistic	none	_	Fast=0-6(0)	_	_	_
+290-13	5039-5041	ha	_	ha	_	291-12	linguistic	none	_	Fast=0-2(0)	_	_	_
+290-14	5042-5047	fatto	_	fatto	_	291-13	linguistic	none	_	Fast=0-5(0)	_	_	_
+290-15	5048-5053	anche	_	anche	_	291-14	linguistic	none	_	Fast=0-5(0)	_	_	_
+290-16	5054-5057	lui	_	lui	_	291-15	linguistic	none	_	Fast=0-3(0)	_	_	_
+290-17	5058-5061	una	_	una	_	291-16	linguistic	none	_	Fast=0-3(0)	_	_	_
+290-18	5062-5068	scuola	Rising	scuola<?	_	291-17	linguistic	none	_	Fast=0-6(0)	_	_	_
+
+#Text=il mio fratello
+291-1	5069-5071	il	_	°il	PSB034	292-0	linguistic	none	_	_	_	_	_
+291-2	5072-5075	mio	_	mio	_	292-1	linguistic	none	_	_	_	_	_
+291-3	5076-5084	fratello	Rising	fratello?°	_	292-2	linguistic	none	_	_	_	_	_
+
+#Text=mhmh
+292-1	5085-5089	mhmh	_	mhmh	PSB014	293-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+293-1	5090-5092	sì	_	sì	PSB034	294-0	linguistic	none	_	_	_	_	_
+
+#Text=ha fatto una scuola anche lui come questa
+294-1	5093-5095	ha	_	ha	PSB014	295-0	linguistic	none	_	_	_	_	_
+294-2	5096-5101	fatto	_	fatto	_	295-1	linguistic	none	_	_	_	_	_
+294-3	5102-5105	una	_	una	_	295-2	linguistic	none	_	_	_	_	_
+294-4	5106-5112	scuola	_	scuola	_	295-3	linguistic	none	_	_	_	_	_
+294-5	5113-5118	anche	_	anche	_	295-4	linguistic	none	_	_	_	_	_
+294-6	5119-5122	lui	Rising	lui?	_	295-5	linguistic	none	_	_	_	_	_
+294-7	5123-5127	come	_	come	_	295-6	linguistic	none	_	_	_	_	_
+294-8	5128-5134	questa	Rising	questa?	_	295-7	linguistic	none	_	_	_	_	_
+
+#Text=no
+295-1	5135-5137	no	_	no	PSB034	296-0	linguistic	none	_	_	_	_	_
+
+#Text=no no
+296-1	5138-5140	no	_	no	PSB014	297-0	linguistic	none	_	_	_	_	_
+296-2	5141-5143	no	_	no	_	297-1	linguistic	none	_	_	_	_	_
+
+#Text=lui studiare in imola
+297-1	5144-5147	lui	_	lui	PSB034	298-0	linguistic	none	_	_	_	_	_
+297-2	5148-5156	studiare	_	studiare	_	298-1	linguistic	none	_	_	_	_	_
+297-3	5157-5159	in	_	in	_	298-2	linguistic	none	_	_	_	_	_
+297-4	5160-5165	imola	_	imola	_	298-3	linguistic	none	_	_	_	_	_
+
+#Text=imola
+298-1	5166-5171	imola	Rising	im\[ola\]?	PSB014	299-0	linguistic	none	_	_	_	_	_
+298-1.1	5168-5171	ola	_	_	_	_	_	_	_	_	_	*->76-1	*[76]
+
+#Text=ah imola
+299-1	5172-5174	ah	WeaklyRising	a:h,	PSB033	300-0	linguistic	none	0x1	_	_	_	_
+299-2	5175-5180	imola	_	\[°imola°\]	_	300-1	linguistic	none	_	_	_	_	_
+
+#Text=imola sì
+300-1	5181-5186	imola	_	\[°imola	PSB034	301-0	linguistic	none	_	_	_	*->77-1	*[77]
+300-2	5187-5189	sì	_	sì\]	_	301-1	linguistic	none	_	_	_	*->77-2	*[77]
+
+#Text=ma in un' altra scuola quindi
+301-1	5190-5192	ma	WeaklyRising	ma::,	PSB014	302-0	linguistic	none	1x2	_	_	_	_
+301-2	5193-5195	in	_	>in	_	302-1	linguistic	none	_	Fast=0-2(0)	_	_	_
+301-3	5196-5199	un'	_	un'	_	302-2	linguistic	none	_	Fast=0-3(0)	_	_	_
+301-4	5200-5205	altra	_	altra	_	302-3	linguistic	none	_	Fast=0-5(0)	_	_	_
+301-5	5206-5212	scuola	_	scuola<	_	302-4	linguistic	none	_	Fast=0-6(0)	_	_	_
+301-6	5213-5219	quindi	Rising	quindi?	_	302-5	linguistic	none	_	_	_	_	_
+
+#Text=sì un' altra scuola
+302-1	5220-5222	sì	_	sì	PSB034	303-0	linguistic	none	_	_	_	_	_
+302-2	5223-5226	un'	_	un'	_	303-1	linguistic	none	_	_	_	_	_
+302-3	5227-5232	altra	_	al\[tra	_	303-2	linguistic	none	_	_	_	_	_
+302-3.1	5229-5232	tra	_	_	_	_	_	_	_	_	_	*->78-1	*[78]
+302-4	5233-5239	scuola	_	°scuola°\]	_	303-3	linguistic	none	_	_	_	*->78-2	*[78]
+
+#Text=ah
+303-1	5240-5242	ah	_	\[a::h\]	PSB014	304-0	linguistic	none	0x2	_	_	*->78-3	*[78]
+
+#Text=e che cosa fa tuo fratello che lavora fa
+304-1	5243-5244	e	_	e	PSB033	305-0	linguistic	none	_	_	_	_	_
+304-2	5245-5248	che	WeaklyRising	che:,	_	305-1	linguistic	none	2x1	_	_	_	_
+304-3	5249-5253	cosa	_	cosa	_	305-2	linguistic	none	_	_	_	_	_
+304-4	5254-5256	fa	_	fa	_	305-3	linguistic	none	_	_	_	_	_
+304-5	5257-5260	tuo	_	tuo	_	305-4	linguistic	none	_	_	_	_	_
+304-6	5261-5269	fratello	Rising	fratello?	_	305-5	linguistic	none	_	_	_	_	_
+304-7	5270-5273	che	_	che	_	305-6	linguistic	none	_	_	_	_	_
+304-8	5274-5280	lavora	_	lavora	_	305-7	linguistic	none	_	_	_	_	_
+304-9	5281-5283	fa	Rising	fa?	_	305-8	linguistic	none	_	_	_	_	_
+
+#Text=eh chef de ristorante
+305-1	5284-5286	eh	_	e:h	PSB034	306-0	linguistic	none	0x1	_	_	_	_
+305-2	5287-5291	chef	_	chef	_	306-1	linguistic	none	_	_	_	_	_
+305-3	5292-5294	de	_	de	_	306-2	linguistic	none	_	_	_	_	_
+305-4	5295-5305	ristorante	_	ristorante	_	306-3	linguistic	none	_	_	_	_	_
+
+#Text=ah bello ma s~ sempre qua a bologna
+306-1	5306-5308	ah	_	\[A::H	PSB014	307-0	linguistic	none	0x2	_	_	*->79-1	*[79]
+306-2	5309-5314	bello	WeaklyRising	BELLO\],	_	307-1	linguistic	none	_	_	_	*->79-2	*[79]
+306-3	5315-5317	ma	_	ma	_	307-2	linguistic	none	_	_	_	_	_
+306-4	5318-5320	s~	_	s~	_	307-3	linguistic	none	_	_	_	_	_
+306-5	5321-5327	sempre	WeaklyRising	sempre,	_	307-4	linguistic	none	_	_	_	_	_
+306-6	5328-5331	qua	_	qua	_	307-5	linguistic	none	_	_	_	_	_
+306-7	5332-5333	a	_	a	_	307-6	linguistic	none	_	_	_	_	_
+306-8	5334-5341	bologna	Rising	bologna?	_	307-7	linguistic	none	_	_	_	_	_
+
+#Text=ah bello
+307-1	5342-5344	ah	_	\[°a::h	PSB033	308-0	linguistic	none	0x2	_	_	*->79-3	*[79]
+307-2	5345-5350	bello	_	bello°\]	_	308-1	linguistic	none	_	_	_	*->79-4	*[79]
+
+#Text=sì
+308-1	5351-5353	sì	_	sì	PSB034	309-0	linguistic	none	_	_	_	_	_
+
+#Text=ah
+309-1	5354-5356	ah	_	°a:h°	PSB033	310-0	linguistic	none	0x1	_	_	_	_
+
+#Text=quindi lavori nel suo ristornate per caso com~ con lui
+310-1	5357-5363	quindi	_	quindi	PSB014	311-0	linguistic	none	_	_	_	_	_
+310-2	5364-5370	lavori	_	lavori	_	311-1	linguistic	none	_	_	_	_	_
+310-3	5371-5374	nel	_	nel	_	311-2	linguistic	none	_	_	_	_	_
+310-4	5375-5378	suo	_	suo	_	311-3	linguistic	none	_	_	_	_	_
+310-5	5379-5389	ristornate	_	ristornate	_	311-4	linguistic	none	_	_	_	_	_
+310-6	5390-5393	per	_	per	_	311-5	linguistic	none	_	_	_	_	_
+310-7	5394-5398	caso	Rising	caso?	_	311-6	linguistic	none	_	_	_	_	_
+310-8	5399-5403	com~	_	com~	_	311-7	linguistic	none	_	_	_	_	_
+310-9	5404-5407	con	_	con	_	311-8	linguistic	none	_	_	_	_	_
+310-10	5408-5411	lui	Rising	lui?	_	311-9	linguistic	none	_	_	_	_	_
+
+#Text=sì
+311-1	5412-5414	sì	_	sì	PSB034	312-0	linguistic	none	_	_	_	_	_
+
+#Text=ah
+312-1	5415-5417	ah	_	\[A::H\]	PSB014	313-0	linguistic	none	0x2	_	_	*->81-1	*[81]
+
+#Text=ah ah okay okay bello
+313-1	5418-5420	ah	_	\[A::H\]	PSB033	314-0	linguistic	none	0x2	_	_	*->81-2	*[81]
+313-2	5421-5423	ah	_	ah	_	314-1	linguistic	none	_	_	_	_	_
+313-3	5424-5428	okay	_	okay	_	314-2	linguistic	none	_	_	_	_	_
+313-4	5429-5433	okay	WeaklyRising	okay,	_	314-3	linguistic	none	_	_	_	_	_
+313-5	5434-5439	bello	_	\[bello\]	_	314-4	linguistic	none	_	_	_	*->82-1	*[82]
+
+#Text=e quindi ti aiuta lui insomma
+314-1	5440-5441	e	_	\[e	PSB014	315-0	linguistic	none	_	_	_	*->82-2	*[82]
+314-2	5442-5448	quindi	_	quindi\]	_	315-1	linguistic	none	_	_	_	*->82-3	*[82]
+314-3	5449-5451	ti	_	ti	_	315-2	linguistic	none	_	_	_	_	_
+314-4	5452-5457	aiuta	_	aiuta	_	315-3	linguistic	none	_	_	_	_	_
+314-5	5458-5461	lui	_	lui	_	315-4	linguistic	none	_	_	_	_	_
+314-6	5462-5469	insomma	_	inso\[mma\]	_	315-5	linguistic	none	_	_	_	_	_
+314-6.1	5466-5469	mma	_	_	_	_	_	_	_	_	_	*->83-1	*[83]
+
+#Text=sì sì
+315-1	5470-5472	sì	_	\[°sì	PSB034	316-0	linguistic	none	_	_	_	*->83-2	*[83]
+315-2	5473-5475	sì	_	sì°\]	_	316-1	linguistic	none	_	_	_	*->83-3	*[83]
+
+#Text=bello bello (.) ehm adesso lui quindi è bravo in italiano sa parlare
+316-1	5476-5481	bello	WeaklyRising	bello,	PSB014	317-0	linguistic	none	_	_	_	_	_
+316-2	5482-5487	bello	_	bello	_	317-1	linguistic	none	_	_	_	_	_
+316-3	5488-5491	(.)	_	(.)	_	317-2	shortpause	none	_	_	_	_	_
+316-4	5492-5495	ehm	WeaklyRising	e:hm:,	_	317-3	linguistic	none	0x1,2x1	_	_	_	_
+316-5	5496-5502	adesso	_	adesso	_	317-4	linguistic	none	_	_	_	_	_
+316-6	5503-5506	lui	_	lui	_	317-5	linguistic	none	_	_	_	_	_
+316-7	5507-5513	quindi	_	quindi	_	317-6	linguistic	none	_	_	_	_	_
+316-8	5514-5515	è	_	è	_	317-7	linguistic	none	_	_	_	_	_
+316-9	5516-5521	bravo	_	bravo	_	317-8	linguistic	none	_	_	_	_	_
+316-10	5522-5524	in	_	in	_	317-9	linguistic	none	_	_	_	_	_
+316-11	5525-5533	italiano	WeaklyRising	italiano,	_	317-10	linguistic	none	_	_	_	_	_
+316-12	5534-5536	sa	_	sa	_	317-11	linguistic	none	_	_	_	_	_
+316-13	5537-5544	parlare	_	parlare	_	317-12	linguistic	none	_	_	_	_	_
+
+#Text=ti aiuta immagino
+317-1	5545-5547	ti	_	ti	PSB014	318-0	linguistic	none	_	_	_	_	_
+317-2	5548-5553	aiuta	_	aiuta	_	318-1	linguistic	none	_	_	_	_	_
+317-3	5554-5562	immagino	_	immagino	_	318-2	linguistic	none	_	_	_	_	_
+
+#Text=sì
+318-1	5563-5565	sì	_	sì	PSB034	319-0	linguistic	none	_	_	_	_	_
+
+#Text=((ride)) eh allora ce la puoi fare anche te
+319-1	5566-5574	((ride))	_	((ride))	PSB014	320-0	nonverbalbehavior	none	_	_	_	_	_
+319-2	5575-5577	eh	_	eh	_	320-1	linguistic	none	_	_	_	_	_
+319-3	5578-5584	allora	_	allora	_	320-2	linguistic	none	_	_	_	_	_
+319-4	5585-5587	ce	_	ce	_	320-3	linguistic	none	_	_	_	_	_
+319-5	5588-5590	la	_	la	_	320-4	linguistic	none	_	_	_	_	_
+319-6	5591-5595	puoi	_	puoi	_	320-5	linguistic	none	_	_	_	_	_
+319-7	5596-5600	fare	_	fare	_	320-6	linguistic	none	_	_	_	_	_
+319-8	5601-5606	anche	_	anche	_	320-7	linguistic	none	_	_	_	_	_
+319-9	5607-5609	te	_	te	_	320-8	linguistic	none	_	_	_	_	_
+
+#Text=((ride))
+320-1	5610-5618	((ride))	_	((ride))	PSB033	321-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=ah sì
+321-1	5619-5621	ah	_	ah	PSB034	322-0	linguistic	none	_	_	_	_	_
+321-2	5622-5624	sì	_	sì	_	322-1	linguistic	none	_	_	_	_	_
+
+#Text=ce l' ha fatta lui piano piano
+322-1	5625-5627	ce	_	ce	PSB033	323-0	linguistic	none	_	_	_	_	_
+322-2	5628-5630	l'	_	l'	_	323-1	linguistic	none	_	_	_	_	_
+322-3	5631-5633	ha	_	ha	_	323-2	linguistic	none	_	_	_	_	_
+322-4	5634-5639	fatta	_	fatta	_	323-3	linguistic	none	_	_	_	_	_
+322-5	5640-5643	lui	_	lui	_	323-4	linguistic	none	_	_	_	_	_
+322-6	5644-5649	piano	_	piano	_	323-5	linguistic	none	_	_	_	_	_
+322-7	5650-5655	piano	_	piano	_	323-6	linguistic	none	_	_	_	_	_
+
+#Text=piano piano difficile
+323-1	5656-5661	piano	_	piano	PSB014	324-0	linguistic	none	_	_	_	_	_
+323-2	5662-5667	piano	WeaklyRising	piano,	_	324-1	linguistic	none	_	_	_	_	_
+323-3	5668-5677	difficile	_	dif\[ficile\]	_	324-2	linguistic	none	_	_	_	_	_
+323-3.1	5671-5677	ficile	_	_	_	_	_	_	_	_	_	*->190-1	*[190]
+
+#Text=piano piano
+324-1	5678-5683	piano	WeaklyRising	\[piano,	PSB034	325-0	linguistic	none	_	_	_	*->190-2	*[190]
+324-2	5684-5689	piano	_	piano\]	_	325-1	linguistic	none	_	_	_	*->190-3	*[190]
+
+#Text=lui
+325-1	5690-5693	lui	_	\[lui:\]	PSB033	326-0	linguistic	none	2x1	_	_	*->190-4	*[190]
+
+#Text=sìsìsìsìsì
+326-1	5694-5704	sìsìsìsìsì	_	>sìsìsìsìsì<	PSB014	327-0	linguistic	none	_	Fast=0-10(0)	_	_	_
+
+#Text=ehm ((soffio))
+327-1	5705-5708	ehm	_	e:hm:	PSB033	328-0	linguistic	none	0x1,2x1	_	_	_	_
+327-2	5709-5719	((soffio))	_	((soffio))	_	328-1	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=((sciocco_con_la_lingua)) e hai detto che hai amici marocchini oltre agli italiani
+328-1	5720-5745	((sciocco_con_la_lingua))	_	((sciocco_con_la_lingua))	PSB014	329-0	nonverbalbehavior	none	_	_	_	_	_
+328-2	5746-5747	e	WeaklyRising	e::,	_	329-1	linguistic	none	0x2	_	_	_	_
+328-3	5748-5751	hai	_	hai	_	329-2	linguistic	none	_	_	_	_	_
+328-4	5752-5757	detto	_	detto	_	329-3	linguistic	none	_	_	_	_	_
+328-5	5758-5761	che	_	che	_	329-4	linguistic	none	_	_	_	_	_
+328-6	5762-5765	hai	_	hai	_	329-5	linguistic	none	_	_	_	_	_
+328-7	5766-5771	amici	_	amici	_	329-6	linguistic	none	_	_	_	_	_
+328-8	5772-5782	marocchini	WeaklyRising	marocchini,	_	329-7	linguistic	none	_	_	_	_	_
+328-9	5783-5788	oltre	_	oltre	_	329-8	linguistic	none	_	_	_	_	_
+328-10	5789-5793	agli	_	agli	_	329-9	linguistic	none	_	_	_	_	_
+328-11	5794-5802	italiani	_	italiani	_	329-10	linguistic	none	_	_	_	_	_
+
+#Text=mhmh
+329-1	5803-5807	mhmh	_	mh\[mh\]	PSB014	330-0	linguistic	none	_	_	_	_	_
+329-1.1	5805-5807	mh	_	_	_	_	_	_	_	_	_	*->85-1	*[85]
+
+#Text=no
+330-1	5808-5810	no	_	no	PSB034	331-0	linguistic	none	_	_	_	_	_
+
+#Text=non ancora insomma
+331-1	5811-5814	non	_	non	PSB014	332-0	linguistic	none	_	_	_	_	_
+331-2	5815-5821	ancora	_	ancora	_	332-1	linguistic	none	_	_	_	_	_
+331-3	5822-5829	insomma	_	insomma	_	332-2	linguistic	none	_	_	_	_	_
+
+#Text=no ancora
+332-1	5830-5832	no	_	no	PSB034	333-0	linguistic	none	_	_	_	_	_
+332-2	5833-5839	ancora	_	ancora	_	333-1	linguistic	none	_	_	_	_	_
+
+#Text=vabbè sei qua da poco
+333-1	5840-5845	vabbè	WeaklyRising	vabbè,	PSB014	334-0	linguistic	none	_	_	_	_	_
+333-2	5846-5849	sei	_	sei	_	334-1	linguistic	none	_	_	_	_	_
+333-3	5850-5853	qua	_	qua	_	334-2	linguistic	none	_	_	_	_	_
+333-4	5854-5856	da	_	da	_	334-3	linguistic	none	_	_	_	_	_
+333-5	5857-5861	poco	_	poco	_	334-4	linguistic	none	_	_	_	_	_
+
+#Text=eh infatti
+334-1	5862-5864	eh	_	eh	PSB033	335-0	linguistic	none	_	_	_	_	_
+334-2	5865-5872	infatti	_	\[infa\]tti	_	335-1	linguistic	none	_	_	_	_	_
+334-2.1	5865-5869	infa	_	_	_	_	_	_	_	_	_	*->87-1	*[87]
+
+#Text=poco
+335-1	5873-5877	poco	_	°poco°	PSB034	336-0	linguistic	none	_	_	_	_	_
+
+#Text=magari anche quello aiuterà molto avere amici in~ in italiano
+336-1	5878-5884	magari	WeaklyRising	<magari::>,	PSB014	337-0	linguistic	none	5x2	Slow=0-6(0)	_	_	_
+336-2	5885-5890	anche	_	anche	_	337-1	linguistic	none	_	_	_	_	_
+336-3	5891-5897	quello	_	quello	_	337-2	linguistic	none	_	_	_	_	_
+336-4	5898-5905	aiuterà	_	aiuterà	_	337-3	linguistic	none	_	_	_	_	_
+336-5	5906-5911	molto	WeaklyRising	molto,	_	337-4	linguistic	none	_	_	_	_	_
+336-6	5912-5917	avere	_	avere	_	337-5	linguistic	none	_	_	_	_	_
+336-7	5918-5923	amici	_	amici	_	337-6	linguistic	none	_	_	_	_	_
+336-8	5924-5927	in~	_	in~	_	337-7	linguistic	none	_	_	_	_	_
+336-9	5928-5930	in	_	in	_	337-8	linguistic	none	_	_	_	_	_
+336-10	5931-5939	italiano	_	italiano:	_	337-9	linguistic	none	7x1	_	_	_	_
+
+#Text=mhmh
+337-1	5940-5944	mhmh	_	mhmh	PSB033	338-0	linguistic	none	_	_	_	_	_
+
+#Text=mhmh
+338-1	5945-5949	mhmh	_	mhmh	PSB014	339-0	linguistic	none	_	_	_	_	_
+
+#Text=e eh ehm
+339-1	5950-5951	e	_	e	PSB033	340-0	linguistic	none	_	_	_	_	_
+339-2	5952-5954	eh	_	eh	_	340-1	linguistic	none	_	_	_	_	_
+339-3	5955-5958	ehm	_	eh\[m::\]	_	340-2	linguistic	none	2x2	_	_	_	_
+339-3.1	5957-5958	m	_	_	_	_	_	_	_	_	_	*->88-1	*[88]
+
+#Text=nel tuo tempo libero cosa fai
+340-1	5959-5962	nel	_	nel	PSB014	341-0	linguistic	none	_	_	_	_	_
+340-2	5963-5966	tuo	_	tuo	_	341-1	linguistic	none	_	_	_	_	_
+340-3	5967-5972	tempo	_	tempo	_	341-2	linguistic	none	_	_	_	_	_
+340-4	5973-5979	libero	Rising	libero?	_	341-3	linguistic	none	_	_	_	_	_
+340-5	5980-5984	cosa	_	cosa	_	341-4	linguistic	none	_	_	_	_	_
+340-6	5985-5988	fai	Rising	fai?	_	341-5	linguistic	none	_	_	_	_	_
+
+#Text=tempo libero
+341-1	5989-5994	tempo	_	tempo	PSB014	342-0	linguistic	none	_	_	_	_	_
+341-2	5995-6001	libero	_	libero	_	342-1	linguistic	none	_	_	_	_	_
+
+#Text=ehm
+342-1	6002-6005	ehm	_	e:hm::	PSB033	343-0	linguistic	none	0x1,2x2	_	_	_	_
+
+#Text=ne ehm
+343-1	6006-6008	ne	_	ne::	PSB034	344-0	linguistic	none	1x2	_	_	_	_
+343-2	6009-6012	ehm	_	e:hm::	_	344-1	linguistic	none	0x1,2x2	_	_	_	_
+
+#Text=andato io con il mio amico (.) vai al centro
+344-1	6013-6019	andato	_	>andato	PSB034	345-0	linguistic	none	_	Fast=0-6(0)	_	_	_
+344-2	6020-6022	io	_	io<	_	345-1	linguistic	none	_	Fast=0-2(0)	_	_	_
+344-3	6023-6026	con	_	con	_	345-2	linguistic	none	_	_	_	_	_
+344-4	6027-6029	il	_	il	_	345-3	linguistic	none	_	_	_	_	_
+344-5	6030-6033	mio	WeaklyRising	mio::,	_	345-4	linguistic	none	2x2	_	_	_	_
+344-6	6034-6039	amico	_	amico	_	345-5	linguistic	none	_	_	_	_	_
+344-7	6040-6043	(.)	_	(.)	_	345-6	shortpause	none	_	_	_	_	_
+344-8	6044-6047	vai	_	vai	_	345-7	linguistic	none	_	_	_	_	_
+344-9	6048-6050	al	_	al	_	345-8	linguistic	none	_	_	_	_	_
+344-10	6051-6057	centro	_	centro	_	345-9	linguistic	none	_	_	_	_	_
+
+#Text=ah
+345-1	6058-6060	ah	_	\[°ah°\]	PSB033	346-0	linguistic	none	_	_	_	*->89-1	*[89]
+
+#Text=centro mhmh
+346-1	6061-6067	centro	WeaklyRising	\[centr\]o,	PSB014	347-0	linguistic	none	_	_	_	_	_
+346-1.1	6061-6066	centr	_	_	_	_	_	_	_	_	_	*->89-2	*[89]
+346-2	6068-6072	mhmh	_	mhmh	_	347-1	linguistic	none	_	_	_	_	_
+
+#Text=e vedi torri
+347-1	6073-6074	e	_	e:	PSB014	348-0	linguistic	none	0x1	_	_	_	_
+347-2	6075-6079	vedi	_	vedi	_	348-1	linguistic	none	_	_	_	_	_
+347-3	6080-6085	torri	Rising	torri?	_	348-2	linguistic	none	_	_	_	_	_
+
+#Text=sì
+348-1	6086-6088	sì	_	sì	PSB034	349-0	linguistic	none	_	_	_	_	_
+
+#Text=sì xxx
+349-1	6089-6091	sì	Rising	sì?	PSB014	350-0	linguistic	none	_	_	_	_	_
+349-2	6092-6095	xxx	_	xxx	_	350-1	unknown	none	_	_	_	_	_
+
+#Text=sì
+350-1	6096-6098	sì	_	sì	PSB034	351-0	linguistic	none	_	_	_	_	_
+
+#Text=ah ah e centro commericale magari
+351-1	6099-6101	ah	_	ah	PSB014	352-0	linguistic	none	_	_	_	_	_
+351-2	6102-6104	ah	WeaklyRising	ah,	_	352-1	linguistic	none	_	_	_	_	_
+351-3	6105-6106	e	_	e:	_	352-2	linguistic	none	0x1	_	_	_	_
+351-4	6107-6113	centro	_	centro	_	352-3	linguistic	none	_	_	_	_	_
+351-5	6114-6125	commericale	_	commericale	_	352-4	linguistic	none	_	_	_	_	_
+351-6	6126-6132	magari	Rising	magari?	_	352-5	linguistic	none	_	_	_	_	_
+
+#Text=tipo
+352-1	6133-6137	tipo	_	tipo::	PSB014	353-0	linguistic	none	3x2	_	_	_	_
+
+#Text=il gran reno conosci
+353-1	6138-6140	il	_	il	PSB014	354-0	linguistic	none	_	_	_	_	_
+353-2	6141-6145	gran	_	gran	_	354-1	linguistic	none	_	_	_	_	_
+353-3	6146-6150	reno	WeaklyRising	reno,	_	354-2	linguistic	none	_	_	_	_	_
+353-4	6151-6158	conosci	Rising	conosci?	_	354-3	linguistic	none	_	_	_	_	_
+
+#Text=no
+354-1	6159-6161	no	_	no	PSB034	355-0	linguistic	none	_	_	_	_	_
+
+#Text=no okay
+355-1	6162-6164	no	Rising	no?	PSB014	356-0	linguistic	none	_	_	_	_	_
+355-2	6165-6169	okay	_	okay	_	356-1	linguistic	none	_	_	_	_	_
+
+#Text=eh eheheh ehm
+356-1	6170-6172	eh	WeaklyRising	e:h,	PSB033	357-0	linguistic	none	0x1	_	_	_	_
+356-2	6173-6179	eheheh	_	eheheh	_	357-1	linguistic	none	_	_	_	_	_
+356-3	6180-6183	ehm	_	e:hm::	_	357-2	linguistic	none	0x1,2x2	_	_	_	_
+
+#Text=mh
+357-1	6184-6186	mh	_	m::h	PSB014	358-0	linguistic	none	0x2	_	_	_	_
+
+#Text=vediamo e hai abbiamo parlato di calcio (.) musica ascolti musica
+358-1	6187-6194	vediamo	WeaklyRising	vediamo,	PSB014	359-0	linguistic	none	_	_	_	_	_
+358-2	6195-6196	e	WeaklyRising	e:,	_	359-1	linguistic	none	0x1	_	_	_	_
+358-3	6197-6200	hai	_	hai	_	359-2	linguistic	none	_	_	_	_	_
+358-4	6201-6208	abbiamo	_	>abbiamo	_	359-3	linguistic	none	_	Fast=0-7(0)	_	_	_
+358-5	6209-6216	parlato	_	parlato	_	359-4	linguistic	none	_	Fast=0-7(0)	_	_	_
+358-6	6217-6219	di	_	di<	_	359-5	linguistic	none	_	Fast=0-2(0)	_	_	_
+358-7	6220-6226	calcio	_	<calcio:>	_	359-6	linguistic	none	5x1	Slow=0-6(0)	_	_	_
+358-8	6227-6230	(.)	_	(.)	_	359-7	shortpause	none	_	_	_	_	_
+358-9	6231-6237	musica	WeaklyRising	musica,	_	359-8	linguistic	none	_	_	_	_	_
+358-10	6238-6245	ascolti	_	ascolti	_	359-9	linguistic	none	_	_	_	_	_
+358-11	6246-6252	musica	Rising	musica?	_	359-10	linguistic	none	_	_	_	_	_
+
+#Text=sì
+359-1	6253-6255	sì	_	sì	PSB034	360-0	linguistic	none	_	_	_	_	_
+
+#Text=italiana o araba
+360-1	6256-6264	italiana	_	italiana	PSB014	361-0	linguistic	none	_	_	_	_	_
+360-2	6265-6266	o	_	o	_	361-1	linguistic	none	_	_	_	_	_
+360-3	6267-6272	araba	Rising	araba?	_	361-2	linguistic	none	_	_	_	_	_
+
+#Text=italiana e araba
+361-1	6273-6281	italiana	_	italiana	PSB034	362-0	linguistic	none	_	_	_	_	_
+361-2	6282-6283	e	_	e	_	362-1	linguistic	none	_	_	_	_	_
+361-3	6284-6289	araba	_	araba	_	362-2	linguistic	none	_	_	_	_	_
+
+#Text=mh
+362-1	6290-6292	mh	_	mh	PSB033	363-0	linguistic	none	_	_	_	_	_
+
+#Text=ah di italiano cosa ascolti
+363-1	6293-6295	ah	WeaklyRising	ah,	PSB014	364-0	linguistic	none	_	_	_	_	_
+363-2	6296-6298	di	_	di	_	364-1	linguistic	none	_	_	_	_	_
+363-3	6299-6307	italiano	_	italiano	_	364-2	linguistic	none	_	_	_	_	_
+363-4	6308-6312	cosa	_	cosa	_	364-3	linguistic	none	_	_	_	_	_
+363-5	6313-6320	ascolti	Rising	ascolti?	_	364-4	linguistic	none	_	_	_	_	_
+
+#Text=ghali
+364-1	6321-6326	ghali	_	ghali	PSB034	365-0	linguistic	none	_	_	_	_	_
+
+#Text=ghali ((ride))
+365-1	6327-6332	ghali	_	gha\[li	PSB033	366-0	linguistic	none	_	_	_	_	_
+365-1.1	6330-6332	li	_	_	_	_	_	_	_	_	_	*->90-1	*[90]
+365-2	6333-6341	((ride))	_	((ride))\]	_	366-1	nonverbalbehavior	none	_	_	_	*->90-2	*[90]
+
+#Text=ghali ((ride)) (.) giustamente
+366-1	6342-6347	ghali	_	\[ghali	PSB014	367-0	linguistic	none	_	_	_	*->90-3	*[90]
+366-2	6348-6356	((ride))	_	((ride))	_	367-1	nonverbalbehavior	none	_	_	_	*->90-4	*[90]
+366-3	6357-6360	(.)	_	(.)	_	367-2	shortpause	none	_	_	_	*->90-5	*[90]
+366-4	6361-6372	giustamente	_	giustamente\]	_	367-3	linguistic	none	_	_	_	*->90-6	*[90]
+
+#Text=eh ghali aiuta
+367-1	6373-6375	eh	_	eh	PSB014	368-0	linguistic	none	_	_	_	_	_
+367-2	6376-6381	ghali	_	ghali::	_	368-1	linguistic	none	4x2	_	_	_	_
+367-3	6382-6387	aiuta	_	aiuta	_	368-2	linguistic	none	_	_	_	_	_
+
+#Text=e baby gang
+368-1	6388-6389	e	WeaklyRising	°e::,	PSB034	369-0	linguistic	yes	0x2	_	_	_	_
+368-2	6390-6394	baby	_	#baby	_	369-1	linguistic	other	_	_	_	_	_
+368-3	6395-6399	gang	_	gang°	_	369-2	linguistic	yes	_	_	_	_	_
+
+#Text=baby gang ((ride)) eccoci
+369-1	6400-6404	baby	_	#ba\[by	PSB014	370-0	linguistic	other	_	_	_	_	_
+369-2	6405-6409	gang	_	gang\]	_	370-1	linguistic	yes	_	_	_	_	_
+369-3	6410-6418	((ride))	_	((ride))	_	370-2	nonverbalbehavior	yes	_	_	_	_	_
+369-4	6419-6425	eccoci	_	ecco\[ci\]	_	370-3	linguistic	yes	_	_	_	_	_
+
+#Text=ah baby gang
+370-1	6426-6428	ah	_	°ah	PSB033	371-0	linguistic	yes	_	_	_	_	_
+370-2	6429-6433	baby	_	#baby	_	371-1	linguistic	other	_	_	_	_	_
+370-3	6434-6438	gang	_	gang°	_	371-2	linguistic	yes	_	_	_	_	_
+
+#Text=il suo cantante preferito baby gang
+371-1	6439-6441	il	_	\[il	PSB034	372-0	linguistic	yes	_	_	_	*->191-1	*[191]
+371-2	6442-6445	suo	_	suo\]	_	372-1	linguistic	yes	_	_	_	*->191-2	*[191]
+371-3	6446-6454	cantante	_	cantante	_	372-2	linguistic	yes	_	_	_	_	_
+371-4	6455-6464	preferito	_	preferito	_	372-3	linguistic	yes	_	_	_	_	_
+371-5	6465-6469	baby	_	\[#baby	_	372-4	linguistic	other	_	_	_	*->91-1	*[91]
+371-6	6470-6474	gang	_	gang\]	_	372-5	linguistic	yes	_	_	_	*->91-2	*[91]
+
+#Text=non è vero
+372-1	6475-6478	non	_	\[NON	PSB014	373-0	linguistic	none	_	_	_	*->91-3	*[91]
+372-2	6479-6480	è	_	è	_	373-1	linguistic	none	_	_	_	*->91-4	*[91]
+372-3	6481-6485	vero	_	VERO::\]	_	373-2	linguistic	none	3x2	_	_	*->91-5	*[91]
+
+#Text=sì sì lei ama baby gang
+373-1	6486-6488	sì	_	°\[sì	PSB033	374-0	linguistic	yes	_	_	_	_	_
+373-2	6489-6491	sì	WeaklyRising	sì\],	_	374-1	linguistic	yes	_	_	_	_	_
+373-3	6492-6495	lei	_	lei	_	374-2	linguistic	yes	_	_	_	_	_
+373-4	6496-6499	ama	_	ama	_	374-3	linguistic	yes	_	_	_	_	_
+373-5	6500-6504	baby	_	#baby	_	374-4	linguistic	other	_	_	_	_	_
+373-6	6505-6509	gang	_	gang	_	374-5	linguistic	yes	_	_	_	_	_
+
+#Text=non è vero
+374-1	6510-6513	non	_	\[non	PSB014	375-0	linguistic	none	_	_	_	*->93-1	*[93]
+374-2	6514-6515	è	_	è	_	375-1	linguistic	none	_	_	_	*->93-2	*[93]
+374-3	6516-6520	vero	_	vero\]	_	375-2	linguistic	none	_	_	_	*->93-3	*[93]
+
+#Text=e non è vero
+375-1	6521-6522	e	WeaklyRising	E::,	PSB014	376-0	linguistic	none	0x2	_	_	_	_
+375-2	6523-6526	non	_	non	_	376-1	linguistic	none	_	_	_	_	_
+375-3	6527-6528	è	_	è	_	376-2	linguistic	none	_	_	_	_	_
+375-4	6529-6533	vero	_	vero	_	376-3	linguistic	none	_	_	_	_	_
+
+#Text=però è vero
+376-1	6534-6538	però	WeaklyRising	°però,	PSB033	377-0	linguistic	none	_	_	_	_	_
+376-2	6539-6540	è	_	è	_	377-1	linguistic	none	_	_	_	_	_
+376-3	6541-6545	vero	_	\[vero\]°	_	377-2	linguistic	none	_	_	_	*->95-1	*[95]
+
+#Text=e ah bene bene e i~ (.) anche araba hai detto e quale ti piace di più
+377-1	6546-6547	e	WeaklyRising	e::,	PSB014	378-0	linguistic	none	0x2	_	_	_	_
+377-2	6548-6550	ah	_	ah	_	378-1	linguistic	none	_	_	_	_	_
+377-3	6551-6555	bene	_	bene	_	378-2	linguistic	none	_	_	_	_	_
+377-4	6556-6560	bene	WeaklyRising	bene,	_	378-3	linguistic	none	_	_	_	_	_
+377-5	6561-6562	e	_	e::	_	378-4	linguistic	none	0x2	_	_	_	_
+377-6	6563-6565	i~	_	i~	_	378-5	linguistic	none	_	_	_	_	_
+377-7	6566-6569	(.)	_	(.)	_	378-6	shortpause	none	_	_	_	_	_
+377-8	6570-6575	anche	_	anche	_	378-7	linguistic	none	_	_	_	_	_
+377-9	6576-6581	araba	_	araba	_	378-8	linguistic	none	_	_	_	_	_
+377-10	6582-6585	hai	_	hai	_	378-9	linguistic	none	_	_	_	_	_
+377-11	6586-6591	detto	Rising	detto?	_	378-10	linguistic	none	_	_	_	_	_
+377-12	6592-6593	e	_	>e	_	378-11	linguistic	none	_	Fast=0-1(0)	_	_	_
+377-13	6594-6599	quale	_	quale	_	378-12	linguistic	none	_	Fast=0-5(0)	_	_	_
+377-14	6600-6602	ti	_	ti	_	378-13	linguistic	none	_	Fast=0-2(0)	_	_	_
+377-15	6603-6608	piace	_	piace	_	378-14	linguistic	none	_	Fast=0-5(0)	_	_	_
+377-16	6609-6611	di	_	di	_	378-15	linguistic	none	_	Fast=0-2(0)	_	_	_
+377-17	6612-6615	più	Rising	più<?	_	378-16	linguistic	none	_	Fast=0-3(0)	_	_	_
+
+#Text=e l' arabo (.) il marocchino il dārija
+378-1	6616-6617	e	WeaklyRising	e::,	PSB034	379-0	linguistic	yes	0x2	_	_	_	_
+378-2	6618-6620	l'	_	l'	_	379-1	linguistic	yes	_	_	_	_	_
+378-3	6621-6626	arabo	_	arabo	_	379-2	linguistic	yes	_	_	_	_	_
+378-4	6627-6630	(.)	_	(.)	_	379-3	shortpause	yes	_	_	_	_	_
+378-5	6631-6633	il	_	>il	_	379-4	linguistic	yes	_	Fast=0-2(0)	_	_	_
+378-6	6634-6644	marocchino	WeaklyRising	marocchino<,	_	379-5	linguistic	yes	_	Fast=0-10(0)	_	_	_
+378-7	6645-6647	il	_	\[il	_	379-6	linguistic	yes	_	_	_	*->96-1	*[96]
+378-8	6648-6654	dārija	_	#dārija\]	_	379-7	linguistic	other	_	_	_	*->96-2	*[96]
+
+#Text=marocchino
+379-1	6655-6665	marocchino	_	marocchino	PSB014	380-0	linguistic	none	_	_	_	_	_
+
+#Text=okay sì lo conosco ((ride))
+380-1	6666-6670	okay	WeaklyRising	okay,	PSB014	381-0	linguistic	none	_	_	_	_	_
+380-2	6671-6673	sì	_	sì	_	381-1	linguistic	none	_	_	_	_	_
+380-3	6674-6676	lo	_	lo	_	381-2	linguistic	none	_	_	_	_	_
+380-4	6677-6684	conosco	_	conosco	_	381-3	linguistic	none	_	_	_	_	_
+380-5	6685-6693	((ride))	_	((ride))	_	381-4	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=sì ((ride))
+381-1	6694-6696	sì	_	sì	PSB014	382-0	linguistic	none	_	_	_	_	_
+381-2	6697-6705	((ride))	_	((ride))	_	382-1	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=((ride))
+382-1	6706-6714	((ride))	_	((ride))	PSB034	383-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=eh io no io non lo conosco
+383-1	6715-6717	eh	_	eh	PSB033	384-0	linguistic	none	_	_	_	_	_
+383-2	6718-6720	io	_	io	_	384-1	linguistic	none	_	_	_	_	_
+383-3	6721-6723	no	WeaklyRising	no,	_	384-2	linguistic	none	_	_	_	_	_
+383-4	6724-6726	io	_	io	_	384-3	linguistic	none	_	_	_	_	_
+383-5	6727-6730	non	_	non	_	384-4	linguistic	none	_	_	_	_	_
+383-6	6731-6733	lo	_	lo	_	384-5	linguistic	none	_	_	_	_	_
+383-7	6734-6741	conosco	_	\[conosco\]	_	384-6	linguistic	none	_	_	_	*->98-1	*[98]
+
+#Text=xxx vuol dire tipo tipo pistola
+384-1	6742-6745	xxx	_	#xxx	PSB014	385-0	linguistic	other	_	_	_	_	_
+384-2	6746-6750	vuol	_	vuol	_	385-1	linguistic	yes	_	_	_	_	_
+384-3	6751-6755	dire	_	dire	_	385-2	linguistic	yes	_	_	_	_	_
+384-4	6756-6760	tipo	WeaklyRising	tipo:,	_	385-3	linguistic	yes	3x1	_	_	_	_
+384-5	6761-6765	tipo	_	tipo	_	385-4	linguistic	yes	_	_	_	_	_
+384-6	6766-6773	pistola	_	pistola	_	385-5	linguistic	yes	_	_	_	_	_
+
+#Text=ah
+385-1	6774-6776	ah	_	ah	PSB033	386-0	linguistic	none	_	_	_	_	_
+
+#Text=xxx ((ride))
+386-1	6777-6780	xxx	_	xxx	PSB014	387-0	unknown	none	_	_	_	_	_
+386-2	6781-6789	((ride))	_	((ride))	_	387-1	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=xxx ((ride))
+387-1	6790-6793	xxx	_	xxx	PSB033	388-0	unknown	none	_	_	_	_	_
+387-2	6794-6802	((ride))	_	((ride))	_	388-1	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=ehm okay (.) quindi tipo ascoltando ghali magari impari anche lì italiano ti piace
+388-1	6803-6806	ehm	WeaklyRising	e::hm::,	PSB014	389-0	linguistic	none	0x2,2x2	_	_	_	_
+388-2	6807-6811	okay	_	okay	_	389-1	linguistic	none	_	_	_	_	_
+388-3	6812-6815	(.)	_	(.)	_	389-2	shortpause	none	_	_	_	_	_
+388-4	6816-6822	quindi	_	quindi	_	389-3	linguistic	none	_	_	_	_	_
+388-5	6823-6827	tipo	WeaklyRising	tipo,	_	389-4	linguistic	none	_	_	_	_	_
+388-6	6828-6838	ascoltando	_	ascoltando	_	389-5	linguistic	none	_	_	_	_	_
+388-7	6839-6844	ghali	WeaklyRising	ghali:,	_	389-6	linguistic	none	4x1	_	_	_	_
+388-8	6845-6851	magari	_	magari	_	389-7	linguistic	none	_	_	_	_	_
+388-9	6852-6858	impari	_	impari	_	389-8	linguistic	none	_	_	_	_	_
+388-10	6859-6864	anche	_	anche	_	389-9	linguistic	none	_	_	_	_	_
+388-11	6865-6867	lì	_	lì	_	389-10	linguistic	none	_	_	_	_	_
+388-12	6868-6876	italiano	WeaklyRising	italiano,	_	389-11	linguistic	none	_	_	_	_	_
+388-13	6877-6879	ti	_	ti	_	389-12	linguistic	none	_	_	_	_	_
+388-14	6880-6885	piace	_	piace	_	389-13	linguistic	none	_	_	_	_	_
+
+#Text=sì
+389-1	6886-6888	sì	_	°sì°	PSB034	390-0	linguistic	none	_	_	_	_	_
+
+#Text=capisci un po'
+390-1	6889-6896	capisci	_	capisci	PSB014	391-0	linguistic	none	_	_	_	_	_
+390-2	6897-6899	un	_	un	_	391-1	linguistic	none	_	_	_	_	_
+390-3	6900-6903	po'	_	\[po'\]	_	391-2	linguistic	none	_	_	_	*->100-1	*[100]
+
+#Text=sìsì
+391-1	6904-6908	sìsì	_	\[sì\]sì	PSB034	392-0	linguistic	none	_	_	_	_	_
+391-1.1	6904-6906	sì	_	_	_	_	_	_	_	_	_	*->100-2	*[100]
+
+#Text=sì
+392-1	6909-6911	sì	_	sì	PSB014	393-0	linguistic	none	_	_	_	_	_
+
+#Text=capisci un po'
+393-1	6912-6919	capisci	_	°capisci	PSB034	394-0	linguistic	none	_	_	_	_	_
+393-2	6920-6922	un	_	un	_	394-1	linguistic	none	_	_	_	_	_
+393-3	6923-6926	po'	_	po'°	_	394-2	linguistic	none	_	_	_	_	_
+
+#Text=capisci
+394-1	6927-6934	capisci	Rising	capisci?	PSB014	395-0	linguistic	none	_	_	_	_	_
+
+#Text=mhmh
+395-1	6935-6939	mhmh	_	mhmh	PSB033	396-0	linguistic	none	_	_	_	_	_
+
+#Text=mhmh (.) u~ una canzone che ti piace
+396-1	6940-6944	mhmh	_	mhmh	PSB014	397-0	linguistic	none	_	_	_	_	_
+396-2	6945-6948	(.)	_	(.)	_	397-1	shortpause	none	_	_	_	_	_
+396-3	6949-6951	u~	_	u~	_	397-2	linguistic	none	_	_	_	_	_
+396-4	6952-6955	una	_	>una	_	397-3	linguistic	none	_	Fast=0-3(0)	_	_	_
+396-5	6956-6963	canzone	_	canzone	_	397-4	linguistic	none	_	Fast=0-7(0)	_	_	_
+396-6	6964-6967	che	_	che	_	397-5	linguistic	none	_	Fast=0-3(0)	_	_	_
+396-7	6968-6970	ti	_	ti	_	397-6	linguistic	none	_	Fast=0-2(0)	_	_	_
+396-8	6971-6976	piace	Rising	piace<?	_	397-7	linguistic	none	_	Fast=0-5(0)	_	_	_
+
+#Text=mh non lo so
+397-1	6977-6979	mh	WeaklyRising	m::h,	PSB034	398-0	linguistic	none	0x2	_	_	_	_
+397-2	6980-6983	non	_	°non	_	398-1	linguistic	none	_	_	_	_	_
+397-3	6984-6986	lo	_	lo	_	398-2	linguistic	none	_	_	_	_	_
+397-4	6987-6989	so	_	so°	_	398-3	linguistic	none	_	_	_	_	_
+
+#Text=non ti piace
+398-1	6990-6993	non	_	non	PSB014	399-0	linguistic	none	_	_	_	_	_
+398-2	6994-6996	ti	_	ti	_	399-1	linguistic	none	_	_	_	_	_
+398-3	6997-7002	piace	Rising	piace?	_	399-2	linguistic	none	_	_	_	_	_
+
+#Text=gne
+399-1	7003-7006	gne	_	gne	PSB014	400-0	linguistic	none	_	_	_	_	_
+
+#Text=ehm
+400-1	7007-7010	ehm	_	e::hm::	PSB014	401-0	linguistic	none	0x2,2x2	_	_	_	_
+
+#Text=ti trovi bene qua
+401-1	7011-7013	ti	_	>ti	PSB014	402-0	linguistic	none	_	Fast=0-2(0)	_	_	_
+401-2	7014-7019	trovi	_	trovi	_	402-1	linguistic	none	_	Fast=0-5(0)	_	_	_
+401-3	7020-7024	bene	_	bene	_	402-2	linguistic	none	_	Fast=0-4(0)	_	_	_
+401-4	7025-7028	qua	Rising	qua<?	_	402-3	linguistic	none	_	Fast=0-3(0)	_	_	_
+
+#Text=sì
+402-1	7029-7031	sì	_	sì	PSB034	403-0	linguistic	none	_	_	_	_	_
+
+#Text=capisci insomma come fanno le lezioni
+403-1	7032-7039	capisci	_	capisci	PSB014	404-0	linguistic	none	_	_	_	_	_
+403-2	7040-7047	insomma	_	insomma	_	404-1	linguistic	none	_	_	_	_	_
+403-3	7048-7052	come	_	come::	_	404-2	linguistic	none	3x2	_	_	_	_
+403-4	7053-7058	fanno	_	fan(no)	_	404-3	linguistic	none	_	_	3-5(0)	_	_
+403-5	7059-7061	le	_	le	_	404-4	linguistic	none	_	_	_	_	_
+403-6	7062-7069	lezioni	Rising	lezioni::?	_	404-5	linguistic	none	6x2	_	_	_	_
+
+#Text=sì
+404-1	7070-7072	sì	_	\[sì\]	PSB034	405-0	linguistic	none	_	_	_	*->101-1	*[101]
+
+#Text=piano piano
+405-1	7073-7078	piano	WeaklyRising	\[pia\]no,	PSB014	406-0	linguistic	none	_	_	_	_	_
+405-1.1	7073-7076	pia	_	_	_	_	_	_	_	_	_	*->101-2	*[101]
+405-2	7079-7084	piano	_	piano	_	406-1	linguistic	none	_	_	_	_	_
+
+#Text=sì
+406-1	7085-7087	sì	_	sì	PSB034	407-0	linguistic	none	_	_	_	_	_
+
+#Text=mhmhmh
+407-1	7088-7094	mhmhmh	_	mhmhmh	PSB014	408-0	linguistic	none	_	_	_	_	_
+
+#Text=mh
+408-1	7095-7097	mh	_	°m:::h°	PSB033	409-0	linguistic	none	0x3	_	_	_	_
+
+#Text=((ride))
+409-1	7098-7106	((ride))	_	((ride))	PSB014	410-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=bene
+410-1	7107-7111	bene	_	°(bene)°	PSB033	411-0	linguistic	none	_	_	0-4(0)	_	_
+
+#Text=eh abbiamo detto sport cinema potevam~ di~ guardi la televisione l' abbiamo detto tv la guardi
+411-1	7112-7114	eh	WeaklyRising	e::h,	PSB014	412-0	linguistic	none	0x2	_	_	_	_
+411-2	7115-7122	abbiamo	_	>abbiamo	_	412-1	linguistic	none	_	Fast=0-7(0)	_	_	_
+411-3	7123-7128	detto	_	detto<	_	412-2	linguistic	none	_	Fast=0-5(0)	_	_	_
+411-4	7129-7134	sport	WeaklyRising	sport,	_	412-3	linguistic	none	_	Slow=0-5(0)	_	_	_
+411-5	7135-7141	cinema	WeaklyRising	cinema,	_	412-4	linguistic	none	_	Slow=0-6(0)	_	_	_
+411-6	7142-7150	potevam~	_	>(potevam~	_	412-5	linguistic	none	_	Fast=0-8(1)	0-8(0)	_	_
+411-7	7151-7154	di~	_	di~)	_	412-6	linguistic	none	_	Fast=0-3(1)	0-3(0)	_	_
+411-8	7155-7161	guardi	_	guardi	_	412-7	linguistic	none	_	Fast=0-6(1)	_	_	_
+411-9	7162-7164	la	_	la	_	412-8	linguistic	none	_	Fast=0-2(1)	_	_	_
+411-10	7165-7176	televisione	Rising	televisione<?	_	412-9	linguistic	none	_	Fast=0-11(1)	_	_	_
+411-11	7177-7179	l'	_	l'	_	412-10	linguistic	none	_	_	_	_	_
+411-12	7180-7187	abbiamo	_	abbiamo	_	412-11	linguistic	none	_	_	_	_	_
+411-13	7188-7193	detto	Rising	detto?	_	412-12	linguistic	none	_	_	_	_	_
+411-14	7194-7196	tv	WeaklyRising	tv,	_	412-13	linguistic	none	_	_	_	_	_
+411-15	7197-7199	la	_	la	_	412-14	linguistic	none	_	_	_	_	_
+411-16	7200-7206	guardi	Rising	guardi?	_	412-15	linguistic	none	_	_	_	_	_
+
+#Text=poco
+412-1	7207-7211	poco	_	poco	PSB034	413-0	linguistic	none	_	_	_	_	_
+
+#Text=poco
+413-1	7212-7216	poco	_	poco	PSB033	414-0	linguistic	none	_	_	_	_	_
+
+#Text=anch~ anche in italiano
+414-1	7217-7222	anch~	_	anch~	PSB014	415-0	linguistic	none	_	_	_	_	_
+414-2	7223-7228	anche	_	>anche	_	415-1	linguistic	none	_	Fast=0-5(0)	_	_	_
+414-3	7229-7231	in	_	in	_	415-2	linguistic	none	_	Fast=0-2(0)	_	_	_
+414-4	7232-7240	italiano	Rising	italiano<?	_	415-3	linguistic	none	_	Fast=0-8(0)	_	_	_
+
+#Text=sì
+415-1	7241-7243	sì	_	sì	PSB034	416-0	linguistic	none	_	_	_	_	_
+
+#Text=tipo
+416-1	7244-7248	tipo	Rising	tipo?	PSB014	417-0	linguistic	none	_	_	_	_	_
+
+#Text=guardi programmi (.) non so della natura film mh
+417-1	7249-7255	guardi	_	guardi	PSB014	418-0	linguistic	none	_	_	_	_	_
+417-2	7256-7265	programmi	_	programmi:	_	418-1	linguistic	none	8x1	_	_	_	_
+417-3	7266-7269	(.)	_	(.)	_	418-2	shortpause	none	_	_	_	_	_
+417-4	7270-7273	non	_	non	_	418-3	linguistic	none	_	_	_	_	_
+417-5	7274-7276	so	WeaklyRising	so,	_	418-4	linguistic	none	_	_	_	_	_
+417-6	7277-7282	della	_	della	_	418-5	linguistic	none	_	_	_	_	_
+417-7	7283-7289	natura	WeaklyRising	natura:,	_	418-6	linguistic	none	5x1	_	_	_	_
+417-8	7290-7294	film	WeaklyRising	film,	_	418-7	linguistic	none	_	_	_	_	_
+417-9	7295-7297	mh	_	m::h	_	418-8	linguistic	none	0x2	_	_	_	_
+
+#Text=film
+418-1	7298-7302	film	_	film	PSB034	419-0	linguistic	none	_	_	_	_	_
+
+#Text=film
+419-1	7303-7307	film	Rising	film?	PSB014	420-0	linguistic	none	_	_	_	_	_
+
+#Text=okay
+420-1	7308-7312	okay	_	okay	PSB033	421-0	linguistic	none	_	_	_	_	_
+
+#Text=cosa ti piace
+421-1	7313-7317	cosa	_	>cosa	PSB014	422-0	linguistic	none	_	Fast=0-4(0)	_	_	_
+421-2	7318-7320	ti	_	ti	_	422-1	linguistic	none	_	Fast=0-2(0)	_	_	_
+421-3	7321-7326	piace	Rising	pi\[ace\]<?	_	422-2	linguistic	none	_	Fast=0-5(0)	_	_	_
+421-3.1	7323-7326	ace	_	_	_	_	_	_	_	_	_	*->102-1	*[102]
+
+#Text=piace film d' azione film polizia film di misteri (.) film paura
+422-1	7327-7332	piace	_	\[pia\]ce	PSB033	423-0	linguistic	none	_	_	_	_	_
+422-1.1	7327-7330	pia	_	_	_	_	_	_	_	_	_	*->102-2	*[102]
+422-2	7333-7337	film	_	film:	_	423-1	linguistic	none	3x1	_	_	_	_
+422-3	7338-7340	d'	_	d'	_	423-2	linguistic	none	_	_	_	_	_
+422-4	7341-7347	azione	Rising	azione?	_	423-3	linguistic	none	_	_	_	_	_
+422-5	7348-7352	film	_	film	_	423-4	linguistic	none	_	_	_	_	_
+422-6	7353-7360	polizia	WeaklyRising	polizia:,	_	423-5	linguistic	none	6x1	_	_	_	_
+422-7	7361-7365	film	_	\[film	_	423-6	linguistic	none	_	_	_	*->103-1	*[103]
+422-8	7366-7368	di	_	di	_	423-7	linguistic	none	_	_	_	*->103-2	*[103]
+422-9	7369-7376	misteri	_	miste\]ri:	_	423-8	linguistic	none	6x1	_	_	_	_
+422-9.1	7369-7374	miste	_	_	_	_	_	_	_	_	_	*->103-3	*[103]
+422-10	7377-7380	(.)	_	(.)	_	423-9	shortpause	none	_	_	_	_	_
+422-11	7381-7385	film	_	\[film	_	423-10	linguistic	none	_	_	_	*->104-1	*[104]
+422-12	7386-7391	paura	_	paura:\]	_	423-11	linguistic	none	4x1	_	_	*->104-2	*[104]
+
+#Text=thriller horror
+423-1	7392-7400	thriller	WeaklyRising	thriller,	PSB014	424-0	linguistic	none	_	_	_	_	_
+423-2	7401-7407	horror	_	horror	_	424-1	linguistic	none	_	_	_	_	_
+
+#Text=no film di polizia
+424-1	7408-7410	no	WeaklyRising	no::,	PSB034	425-0	linguistic	none	1x2	_	_	_	_
+424-2	7411-7415	film	_	\[film	_	425-1	linguistic	none	_	_	_	*->104-3	*[104]
+424-3	7416-7418	di	_	di	_	425-2	linguistic	none	_	_	_	*->104-4	*[104]
+424-4	7419-7426	polizia	_	polizia\]	_	425-3	linguistic	none	_	_	_	*->104-5	*[104]
+
+#Text=polizia
+425-1	7427-7434	polizia	Rising	POLI\[ZIA\]?	PSB014	426-0	linguistic	none	_	_	_	_	_
+425-1.1	7431-7434	zia	_	_	_	_	_	_	_	_	_	*->105-1	*[105]
+
+#Text=polizia
+426-1	7435-7442	polizia	_	\[poli\]zia	PSB033	427-0	linguistic	none	_	_	_	_	_
+426-1.1	7435-7439	poli	_	_	_	_	_	_	_	_	_	*->105-2	*[105]
+
+#Text=ahah
+427-1	7443-7447	ahah	_	ahah	PSB014	428-0	linguistic	none	_	_	_	_	_
+
+#Text=e mh mh
+428-1	7448-7449	e	_	e::	PSB014	429-0	linguistic	none	0x2	_	_	_	_
+428-2	7450-7452	mh	_	m::h	_	429-1	linguistic	none	0x2	_	_	_	_
+428-3	7453-7455	mh	_	°m::h°	_	429-2	linguistic	none	0x2	_	_	_	_
+
+#Text=stai
+429-1	7456-7460	stai	_	(°stai°)	PSB033	430-0	linguistic	none	_	_	0-4(0)	_	_
+
+#Text=ehm abbiamo detto che lavori lavori tanto
+430-1	7461-7464	ehm	WeaklyRising	e:hm,	PSB014	431-0	linguistic	none	0x1	_	_	_	_
+430-2	7465-7472	abbiamo	_	>abbiam(o)	_	431-1	linguistic	none	_	Fast=0-7(0)	6-7(0)	_	_
+430-3	7473-7478	detto	_	detto	_	431-2	linguistic	none	_	Fast=0-5(0)	_	_	_
+430-4	7479-7482	che	_	che	_	431-3	linguistic	none	_	Fast=0-3(0)	_	_	_
+430-5	7483-7489	lavori	WeaklyRising	lavori<,	_	431-4	linguistic	none	_	Fast=0-6(0)	_	_	_
+430-6	7490-7496	lavori	_	lavori	_	431-5	linguistic	none	_	_	_	_	_
+430-7	7497-7502	tanto	Rising	tanto?	_	431-6	linguistic	none	_	_	_	_	_
+
+#Text=ì
+431-1	7503-7504	ì	Rising	ì:?	PSB014	432-0	linguistic	none	0x1	_	_	_	_
+
+#Text=sì
+432-1	7505-7507	sì	_	sì	PSB034	433-0	linguistic	none	_	_	_	_	_
+
+#Text=quante ore al giorno lavori
+433-1	7508-7514	quante	_	quante:	PSB014	434-0	linguistic	none	5x1	_	_	_	_
+433-2	7515-7518	ore	_	ore	_	434-1	linguistic	none	_	_	_	_	_
+433-3	7519-7521	al	_	al	_	434-2	linguistic	none	_	_	_	_	_
+433-4	7522-7528	giorno	_	giorno	_	434-3	linguistic	none	_	_	_	_	_
+433-5	7529-7535	lavori	Rising	lavori?	_	434-4	linguistic	none	_	_	_	_	_
+
+#Text=tutte settimana
+434-1	7536-7541	tutte	_	tutte	PSB034	435-0	linguistic	none	_	_	_	_	_
+434-2	7542-7551	settimana	_	settimana	_	435-1	linguistic	none	_	_	_	_	_
+
+#Text=tutta la settimana
+435-1	7552-7557	tutta	_	tutta	PSB014	436-0	linguistic	none	_	_	_	_	_
+435-2	7558-7560	la	_	la	_	436-1	linguistic	none	_	_	_	_	_
+435-3	7561-7570	settimana	_	sett\[imana\]	_	436-2	linguistic	none	_	_	_	_	_
+435-3.1	7565-7570	imana	_	_	_	_	_	_	_	_	_	*->107-1	*[107]
+
+#Text=tre
+436-1	7571-7574	tre	_	\[tre::\]	PSB034	437-0	linguistic	none	2x2	_	_	*->107-2	*[107]
+
+#Text=lunedì chiuso lunedì no
+437-1	7575-7581	lunedì	_	lunedì	PSB034	438-0	linguistic	none	_	_	_	_	_
+437-2	7582-7588	chiuso	WeaklyRising	chiuso,	_	438-1	linguistic	none	_	_	_	_	_
+437-3	7589-7595	lunedì	_	lunedì	_	438-2	linguistic	none	_	_	_	_	_
+437-4	7596-7598	no	_	no	_	438-3	linguistic	none	_	_	_	_	_
+
+#Text=lunedì no okay (.) e cosa fai lunedì di solito ti riposi
+438-1	7599-7605	lunedì	_	>lu(ne)dì<	PSB014	439-0	linguistic	none	_	Fast=0-6(0)	2-4(0)	_	_
+438-2	7606-7608	no	WeaklyRising	no,	_	439-1	linguistic	none	_	Slow=0-2(0)	_	_	_
+438-3	7609-7613	okay	_	okay	_	439-2	linguistic	none	_	Slow=0-4(0)	_	_	_
+438-4	7614-7617	(.)	_	(.)	_	439-3	shortpause	none	_	_	_	_	_
+438-5	7618-7619	e	_	>e	_	439-4	linguistic	none	_	Fast=0-1(1)	_	_	_
+438-6	7620-7624	cosa	_	cosa	_	439-5	linguistic	none	_	Fast=0-4(1)	_	_	_
+438-7	7625-7628	fai	_	fai	_	439-6	linguistic	none	_	Fast=0-3(1)	_	_	_
+438-8	7629-7635	lunedì	_	lunedì	_	439-7	linguistic	none	_	Fast=0-6(1)	_	_	_
+438-9	7636-7638	di	_	di	_	439-8	linguistic	none	_	Fast=0-2(1)	_	_	_
+438-10	7639-7645	solito	Rising	solito<?	_	439-9	linguistic	none	_	Fast=0-6(1)	_	_	_
+438-11	7646-7648	ti	_	ti	_	439-10	linguistic	none	_	_	_	_	_
+438-12	7649-7655	riposi	Rising	riposi?	_	439-11	linguistic	none	_	_	_	_	_
+
+#Text=lunedì
+439-1	7656-7662	lunedì	_	lunedì	PSB014	440-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+440-1	7663-7665	sì	_	sì	PSB034	441-0	linguistic	none	_	_	_	_	_
+
+#Text=cosa fai
+441-1	7666-7670	cosa	_	>cosa	PSB014	442-0	linguistic	none	_	Fast=0-4(0)	_	_	_
+441-2	7671-7674	fai	Rising	fai<?	_	442-1	linguistic	none	_	Fast=0-3(0)	_	_	_
+
+#Text=ti riposi
+442-1	7675-7677	ti	_	ti	PSB014	443-0	linguistic	none	_	_	_	_	_
+442-2	7678-7684	riposi	Rising	riposi?	_	443-1	linguistic	none	_	_	_	_	_
+
+#Text=riposi
+443-1	7685-7691	riposi	_	riposi	PSB034	444-0	linguistic	none	_	_	_	_	_
+
+#Text=riposo a riposare a casa a cas~ a ((ride))
+444-1	7692-7698	riposo	WeaklyRising	riposo,	PSB014	445-0	linguistic	none	_	_	_	_	_
+444-2	7699-7700	a	_	a	_	445-1	linguistic	none	_	_	_	_	_
+444-3	7701-7709	riposare	WeaklyRising	riposare,	_	445-2	linguistic	none	_	_	_	_	_
+444-4	7710-7711	a	_	a	_	445-3	linguistic	none	_	_	_	_	_
+444-5	7712-7716	casa	WeaklyRising	casa,	_	445-4	linguistic	none	_	_	_	_	_
+444-6	7717-7718	a	_	a	_	445-5	linguistic	none	_	_	_	_	_
+444-7	7719-7723	cas~	_	cas~	_	445-6	linguistic	none	_	_	_	_	_
+444-8	7724-7725	a	_	a	_	445-7	linguistic	none	_	_	_	_	_
+444-9	7726-7734	((ride))	_	((ride))	_	445-8	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=((ride))
+445-1	7735-7743	((ride))	_	((ride))	PSB034	446-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=((ride))
+446-1	7744-7752	((ride))	_	((ride))	PSB034	447-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=eh poi adesso fa freddo
+447-1	7753-7755	eh	WeaklyRising	e:h,	PSB014	448-0	linguistic	none	0x1	_	_	_	_
+447-2	7756-7759	poi	_	poi	_	448-1	linguistic	none	_	_	_	_	_
+447-3	7760-7766	adesso	_	adesso	_	448-2	linguistic	none	_	_	_	_	_
+447-4	7767-7769	fa	_	fa	_	448-3	linguistic	none	_	_	_	_	_
+447-5	7770-7776	freddo	_	\[freddo:\]	_	448-4	linguistic	none	5x1	_	_	*->109-1	*[109]
+
+#Text=eh la sera vado al centro
+448-1	7777-7779	eh	WeaklyRising	\[e:h\],	PSB034	449-0	linguistic	none	0x1	_	_	*->109-2	*[109]
+448-2	7780-7782	la	_	la	_	449-1	linguistic	none	_	_	_	_	_
+448-3	7783-7787	sera	WeaklyRising	sera,	_	449-2	linguistic	none	_	_	_	_	_
+448-4	7788-7792	vado	_	vado	_	449-3	linguistic	none	_	_	_	_	_
+448-5	7793-7795	al	_	al	_	449-4	linguistic	none	_	_	_	_	_
+448-6	7796-7802	centro	_	centro	_	449-5	linguistic	none	_	_	_	_	_
+
+#Text=mhmh e cosa fai giri
+449-1	7803-7807	mhmh	WeaklyRising	mhmh,	PSB014	450-0	linguistic	none	_	_	_	_	_
+449-2	7808-7809	e	_	e	_	450-1	linguistic	none	_	_	_	_	_
+449-3	7810-7814	cosa	_	cosa	_	450-2	linguistic	none	_	_	_	_	_
+449-4	7815-7818	fai	WeaklyRising	fai,	_	450-3	linguistic	none	_	_	_	_	_
+449-5	7819-7823	giri	Rising	giri?	_	450-4	linguistic	none	_	_	_	_	_
+
+#Text=mh
+450-1	7824-7826	mh	_	\[mh\]	PSB033	451-0	linguistic	none	_	_	_	*->110-1	*[110]
+
+#Text=sì
+451-1	7827-7829	sì	_	sì	PSB034	452-0	linguistic	none	_	_	_	_	_
+
+#Text=fare un po' di giri
+452-1	7830-7834	fare	_	fare	PSB014	453-0	linguistic	none	_	_	_	_	_
+452-2	7835-7837	un	_	un	_	453-1	linguistic	none	_	_	_	_	_
+452-3	7838-7841	po'	_	po'	_	453-2	linguistic	none	_	_	_	_	_
+452-4	7842-7844	di	_	di	_	453-3	linguistic	none	_	_	_	_	_
+452-5	7845-7849	giri	_	giri	_	453-4	linguistic	none	_	_	_	_	_
+
+#Text=sì
+453-1	7850-7852	sì	_	sì	PSB034	454-0	linguistic	none	_	_	_	_	_
+
+#Text=ci sta ci sta
+454-1	7853-7855	ci	_	ci	PSB014	455-0	linguistic	none	_	_	_	_	_
+454-2	7856-7859	sta	WeaklyRising	sta,	_	455-1	linguistic	none	_	_	_	_	_
+454-3	7860-7862	ci	_	ci	_	455-2	linguistic	none	_	_	_	_	_
+454-4	7863-7866	sta	_	sta	_	455-3	linguistic	none	_	_	_	_	_
+
+#Text=e hai detto che lavori mh (.) ti piacerebbe fare un altro lavoro o ti piace
+455-1	7867-7868	e	WeaklyRising	e::,	PSB014	456-0	linguistic	none	0x2	_	_	_	_
+455-2	7869-7872	hai	_	>hai	_	456-1	linguistic	none	_	Fast=0-3(0)	_	_	_
+455-3	7873-7878	detto	_	detto	_	456-2	linguistic	none	_	Fast=0-5(0)	_	_	_
+455-4	7879-7882	che	_	che<	_	456-3	linguistic	none	_	Fast=0-3(0)	_	_	_
+455-5	7883-7889	lavori	WeaklyRising	<lavori>:,	_	456-4	linguistic	none	5x1	Slow=0-6(0)	_	_	_
+455-6	7890-7892	mh	_	m::h	_	456-5	linguistic	none	0x2	_	_	_	_
+455-7	7893-7896	(.)	_	(.)	_	456-6	shortpause	none	_	_	_	_	_
+455-8	7897-7899	ti	_	>ti	_	456-7	linguistic	none	_	Fast=0-2(1)	_	_	_
+455-9	7900-7910	piacerebbe	_	piacerebbe	_	456-8	linguistic	none	_	Fast=0-10(1)	_	_	_
+455-10	7911-7915	fare	_	fare	_	456-9	linguistic	none	_	Fast=0-4(1)	_	_	_
+455-11	7916-7918	un	_	un	_	456-10	linguistic	none	_	Fast=0-2(1)	_	_	_
+455-12	7919-7924	altro	_	altro	_	456-11	linguistic	none	_	Fast=0-5(1)	_	_	_
+455-13	7925-7931	lavoro	_	lavoro<	_	456-12	linguistic	none	_	Fast=0-6(1)	_	_	_
+455-14	7932-7933	o	_	<o	_	456-13	linguistic	none	_	Slow=0-1(1)	_	_	_
+455-15	7934-7936	ti	_	ti	_	456-14	linguistic	none	_	Slow=0-2(1)	_	_	_
+455-16	7937-7942	piace	Rising	piace>?	_	456-15	linguistic	none	_	Slow=0-5(1)	_	_	_
+
+#Text=da buono
+456-1	7943-7945	da	_	da	PSB034	457-0	linguistic	none	_	_	_	_	_
+456-2	7946-7951	buono	_	\[(°b(u)ono)°\]	_	457-1	linguistic	none	_	_	_	*->111-1	*[111]
+
+#Text=cambiare?, ti piacerebbe cambiare
+457-1	7952-7962	cambiare?,	_	\[cambiare\]?,	PSB014	458-0	error	none	_	_	_	*->111-2	*[111]
+457-2	7963-7965	ti	_	ti	_	458-1	linguistic	none	_	_	_	_	_
+457-3	7966-7976	piacerebbe	_	piacerebbe	_	458-2	linguistic	none	_	_	_	_	_
+457-4	7977-7985	cambiare	Rising	cambiare?	_	458-3	linguistic	none	_	_	_	_	_
+
+#Text=sì
+458-1	7986-7988	sì	_	sì	PSB034	459-0	linguistic	none	_	_	_	_	_
+
+#Text=un altro lavoro
+459-1	7989-7991	un	_	un	PSB014	460-0	linguistic	none	_	_	_	_	_
+459-2	7992-7997	altro	_	altro	_	460-1	linguistic	none	_	_	_	_	_
+459-3	7998-8004	lavoro	Rising	lavoro?	_	460-2	linguistic	none	_	_	_	_	_
+
+#Text=sì
+460-1	8005-8007	sì	_	°sì°	PSB034	461-0	linguistic	none	_	_	_	_	_
+
+#Text=tipo
+461-1	8008-8012	tipo	Rising	tipo?	PSB014	462-0	linguistic	none	_	_	_	_	_
+
+#Text=non lo so ((ride))
+462-1	8013-8016	non	_	non	PSB034	463-0	linguistic	none	_	_	_	_	_
+462-2	8017-8019	lo	_	lo	_	463-1	linguistic	none	_	_	_	_	_
+462-3	8020-8022	so	_	so	_	463-2	linguistic	none	_	_	_	_	_
+462-4	8023-8031	((ride))	_	((ride))	_	463-3	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=per adesso non sai insomma
+463-1	8032-8035	per	_	per	PSB014	464-0	linguistic	none	_	_	_	_	_
+463-2	8036-8042	adesso	_	adesso	_	464-1	linguistic	none	_	_	_	_	_
+463-3	8043-8046	non	_	non	_	464-2	linguistic	none	_	_	_	_	_
+463-4	8047-8050	sai	_	sai	_	464-3	linguistic	none	_	_	_	_	_
+463-5	8051-8058	insomma	_	insomma	_	464-4	linguistic	none	_	_	_	_	_
+
+#Text=((ride))
+464-1	8059-8067	((ride))	_	((ride))	PSB034	465-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=okay
+465-1	8068-8072	okay	_	o\[kay\]	PSB014	466-0	linguistic	none	_	_	_	_	_
+465-1.1	8069-8072	kay	_	_	_	_	_	_	_	_	_	*->113-1	*[113]
+
+#Text=adesso non lo so
+466-1	8073-8079	adesso	_	\[ades\]so	PSB034	467-0	linguistic	none	_	_	_	_	_
+466-1.1	8073-8077	ades	_	_	_	_	_	_	_	_	_	*->113-2	*[113]
+466-2	8080-8083	non	_	non	_	467-1	linguistic	none	_	_	_	_	_
+466-3	8084-8086	lo	_	lo	_	467-2	linguistic	none	_	_	_	_	_
+466-4	8087-8089	so	_	so	_	467-3	linguistic	none	_	_	_	_	_
+
+#Text=okay
+467-1	8090-8094	okay	_	o\[kay\]	PSB014	468-0	linguistic	none	_	_	_	_	_
+467-1.1	8091-8094	kay	_	_	_	_	_	_	_	_	_	*->114-1	*[114]
+
+#Text=okay
+468-1	8095-8099	okay	_	\[okay\]	PSB033	469-0	linguistic	none	_	_	_	*->114-2	*[114]
+
+#Text=e hai viaggiato per caso
+469-1	8100-8101	e	WeaklyRising	e:,	PSB014	470-0	linguistic	none	0x1	_	_	_	_
+469-2	8102-8105	hai	_	hai	_	470-1	linguistic	none	_	_	_	_	_
+469-3	8106-8115	viaggiato	_	viaggiato	_	470-2	linguistic	none	_	_	_	_	_
+469-4	8116-8119	per	_	per	_	470-3	linguistic	none	_	_	_	_	_
+469-5	8120-8124	caso	Rising	caso?	_	470-4	linguistic	none	_	_	_	_	_
+
+#Text=mh
+470-1	8125-8127	mh	Rising	mh?	PSB034	471-0	linguistic	none	_	_	_	_	_
+
+#Text=hai viaggiato altri paesi
+471-1	8128-8131	hai	_	hai	PSB014	472-0	linguistic	none	_	_	_	_	_
+471-2	8132-8141	viaggiato	Rising	viaggiato?	_	472-1	linguistic	none	_	_	_	_	_
+471-3	8142-8147	altri	_	altri	_	472-2	linguistic	none	_	_	_	_	_
+471-4	8148-8153	paesi	Rising	paesi?	_	472-3	linguistic	none	_	_	_	_	_
+
+#Text=altri paesi
+472-1	8154-8159	altri	WeaklyRising	altri,	PSB034	473-0	linguistic	none	_	_	_	_	_
+472-2	8160-8165	paesi	Rising	paesi?	_	473-1	linguistic	none	_	_	_	_	_
+
+#Text=mh (.) hai visto s~ hai visto il marocco l' italia basta
+473-1	8166-8168	mh	_	mh	PSB014	474-0	linguistic	none	_	_	_	_	_
+473-2	8169-8172	(.)	_	(.)	_	474-1	shortpause	none	_	_	_	_	_
+473-3	8173-8176	hai	_	hai	_	474-2	linguistic	none	_	_	_	_	_
+473-4	8177-8182	visto	_	visto	_	474-3	linguistic	none	_	_	_	_	_
+473-5	8183-8185	s~	WeaklyRising	s~,	_	474-4	linguistic	none	_	_	_	_	_
+473-6	8186-8189	hai	_	hai	_	474-5	linguistic	none	_	_	_	_	_
+473-7	8190-8195	visto	_	visto	_	474-6	linguistic	none	_	_	_	_	_
+473-8	8196-8198	il	_	il	_	474-7	linguistic	none	_	_	_	_	_
+473-9	8199-8206	marocco	WeaklyRising	marocco,	_	474-8	linguistic	none	_	_	_	_	_
+473-10	8207-8209	l'	_	l'	_	474-9	linguistic	none	_	_	_	_	_
+473-11	8210-8216	italia	WeaklyRising	italia,	_	474-10	linguistic	none	_	_	_	_	_
+473-12	8217-8222	basta	Rising	basta?	_	474-11	linguistic	none	_	_	_	_	_
+
+#Text=basta sì
+474-1	8223-8228	basta	WeaklyRising	basta,	PSB034	475-0	linguistic	none	_	_	_	_	_
+474-2	8229-8231	sì	_	°sì°	_	475-1	linguistic	none	_	_	_	_	_
+
+#Text=basta
+475-1	8232-8237	basta	_	°basta°	PSB033	476-0	linguistic	none	_	_	_	_	_
+
+#Text=dove (.) ti piacerebbe andare nel futuro
+476-1	8238-8242	dove	_	dove	PSB014	477-0	linguistic	none	_	_	_	_	_
+476-2	8243-8246	(.)	_	(.)	_	477-1	shortpause	none	_	_	_	_	_
+476-3	8247-8249	ti	_	>ti	_	477-2	linguistic	none	_	Fast=0-2(0)	_	_	_
+476-4	8250-8260	piacerebbe	_	piacerebbe<	_	477-3	linguistic	none	_	Fast=0-10(0)	_	_	_
+476-5	8261-8267	andare	WeaklyRising	<andare,	_	477-4	linguistic	none	_	Slow=0-6(0)	_	_	_
+476-6	8268-8271	nel	_	nel	_	477-5	linguistic	none	_	Slow=0-3(0)	_	_	_
+476-7	8272-8278	futuro	Rising	futuro>?	_	477-6	linguistic	none	_	Slow=0-6(0)	_	_	_
+
+#Text=in germania
+477-1	8279-8281	in	_	°in°	PSB034	478-0	linguistic	none	_	_	_	_	_
+477-2	8282-8290	germania	_	germania	_	478-1	linguistic	none	_	_	_	_	_
+
+#Text=germania
+478-1	8291-8299	germania	Rising	germania?	PSB014	479-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+479-1	8300-8302	sì	_	°sì°	PSB033	480-0	linguistic	none	_	_	_	_	_
+
+#Text=perché
+480-1	8303-8309	perché	Rising	perché?	PSB014	481-0	linguistic	none	_	_	_	_	_
+
+#Text=perché è bellissima ((ride))
+481-1	8310-8316	perché	_	°perché	PSB034	482-0	linguistic	none	_	_	_	_	_
+481-2	8317-8318	è	_	è	_	482-1	linguistic	none	_	_	_	_	_
+481-3	8319-8329	bellissima	_	bellissima°	_	482-2	linguistic	none	_	_	_	_	_
+481-4	8330-8338	((ride))	_	((ride))	_	482-3	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=bir~ bella berlino
+482-1	8339-8343	bir~	_	bir~	PSB014	483-0	linguistic	none	_	_	_	_	_
+482-2	8344-8349	bella	Rising	bella?	_	483-1	linguistic	none	_	_	_	_	_
+482-3	8350-8357	berlino	Rising	berlino?	_	483-2	linguistic	none	_	_	_	_	_
+
+#Text=((ride)) sìsì berlino
+483-1	8358-8366	((ride))	_	((ride))	PSB033	484-0	nonverbalbehavior	none	_	_	_	_	_
+483-2	8367-8371	sìsì	_	°sìsì	_	484-1	linguistic	none	_	_	_	_	_
+483-3	8372-8379	berlino	_	berlino°	_	484-2	linguistic	none	_	_	_	_	_
+
+#Text=però la lingua è difficile
+484-1	8380-8384	però	_	però	PSB014	485-0	linguistic	none	_	_	_	_	_
+484-2	8385-8387	la	_	la	_	485-1	linguistic	none	_	_	_	_	_
+484-3	8388-8394	lingua	_	lingua	_	485-2	linguistic	none	_	_	_	_	_
+484-4	8395-8396	è	_	è	_	485-3	linguistic	none	_	_	_	_	_
+484-5	8397-8406	difficile	Rising	difficile?	_	485-4	linguistic	none	_	_	_	_	_
+
+#Text=sì
+485-1	8407-8409	sì	_	sì	PSB034	486-0	linguistic	none	_	_	_	_	_
+
+#Text=c' è
+486-1	8410-8412	c'	_	\[c'	PSB014	487-0	linguistic	none	_	_	_	*->119-1	*[119]
+486-2	8413-8414	è	_	è\]	_	487-1	linguistic	none	_	_	_	*->119-2	*[119]
+
+#Text=no (.) nono difficile
+487-1	8415-8417	no	_	\[no\]	PSB034	488-0	linguistic	none	_	_	_	*->119-3	*[119]
+487-2	8418-8421	(.)	_	(.)	_	488-1	shortpause	none	_	_	_	_	_
+487-3	8422-8426	nono	WeaklyRising	nono,	_	488-2	linguistic	none	_	_	_	_	_
+487-4	8427-8436	difficile	_	\[diffic\]ile	_	488-3	linguistic	none	_	_	_	_	_
+487-4.1	8427-8433	diffic	_	_	_	_	_	_	_	_	_	*->120-1	*[120]
+
+#Text=tedesco
+488-1	8437-8444	tedesco	_	tede\[sco\]	PSB014	489-0	linguistic	none	_	_	_	_	_
+488-1.1	8441-8444	sco	_	_	_	_	_	_	_	_	_	*->120-2	*[120]
+
+#Text=è difficilissimo
+489-1	8445-8446	è	_	\[è	PSB014	490-0	linguistic	none	_	_	_	*->121-1	*[121]
+489-2	8447-8461	difficilissimo	_	difficilissim\]o	_	490-1	linguistic	none	_	_	_	_	_
+489-2.1	8447-8460	difficilissim	_	_	_	_	_	_	_	_	_	*->121-2	*[121]
+
+#Text=eh sì
+490-1	8462-8464	eh	_	\[°eh	PSB033	491-0	linguistic	none	_	_	_	*->121-3	*[121]
+490-2	8465-8467	sì	_	sì°\]	_	491-1	linguistic	none	_	_	_	*->121-4	*[121]
+
+#Text=xxx
+491-1	8468-8471	xxx	_	xxx	PSB034	492-0	unknown	none	_	_	_	_	_
+
+#Text=io parlo tedesco e difficile
+492-1	8472-8474	io	_	io	PSB014	493-0	linguistic	none	_	_	_	_	_
+492-2	8475-8480	parlo	_	parlo	_	493-1	linguistic	none	_	_	_	_	_
+492-3	8481-8488	tedesco	_	tedesco	_	493-2	linguistic	none	_	_	_	_	_
+492-4	8489-8490	e	WeaklyRising	e,	_	493-3	linguistic	none	_	_	_	_	_
+492-5	8491-8500	difficile	_	\[difficile\]	_	493-4	linguistic	none	_	_	_	*->122-1	*[122]
+
+#Text=xxx
+493-1	8501-8504	xxx	_	xxx	PSB033	494-0	unknown	none	_	_	_	_	_
+
+#Text=((ride))
+494-1	8505-8513	((ride))	_	\[((ride))\]	PSB034	495-0	nonverbalbehavior	none	_	_	_	*->123-1	*[123]
+
+#Text=più var~ più d' italiano
+495-1	8514-8517	più	_	più	PSB033	496-0	linguistic	none	_	_	_	_	_
+495-2	8518-8522	var~	WeaklyRising	var~,	_	496-1	linguistic	none	_	_	_	_	_
+495-3	8523-8526	più	_	più	_	496-2	linguistic	none	_	_	_	_	_
+495-4	8527-8529	d'	_	d'	_	496-3	linguistic	none	_	_	_	_	_
+495-5	8530-8538	italiano	_	\[italiano\]	_	496-4	linguistic	none	_	_	_	*->124-1	*[124]
+
+#Text=più più dell' italiano
+496-1	8539-8542	più	WeaklyRising	\[più\],	PSB014	497-0	linguistic	none	_	_	_	*->124-2	*[124]
+496-2	8543-8546	più	_	più	_	497-1	linguistic	none	_	_	_	_	_
+496-3	8547-8552	dell'	_	dell'	_	497-2	linguistic	none	_	_	_	_	_
+496-4	8553-8561	italiano	Rising	italiano?	_	497-3	linguistic	none	_	_	_	_	_
+
+#Text=sì
+497-1	8562-8564	sì	_	sì	PSB034	498-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+498-1	8565-8567	sì	_	sì	PSB014	499-0	linguistic	none	_	_	_	_	_
+
+#Text=eh
+499-1	8568-8570	eh	_	°eh°	PSB033	500-0	linguistic	none	_	_	_	_	_
+
+#Text=però se ti piace (.) fa mol- fa molto freddo poi in germania
+500-1	8571-8575	però	WeaklyRising	però::,	PSB014	501-0	linguistic	none	3x2	_	_	_	_
+500-2	8576-8578	se	_	se	_	501-1	linguistic	none	_	_	_	_	_
+500-3	8579-8581	ti	_	ti	_	501-2	linguistic	none	_	_	_	_	_
+500-4	8582-8587	piace	_	piace	_	501-3	linguistic	none	_	_	_	_	_
+500-5	8588-8591	(.)	_	(.)	_	501-4	shortpause	none	_	_	_	_	_
+500-6	8592-8594	fa	_	>fa	_	501-5	linguistic	none	_	Fast=0-2(0)	_	_	_
+500-7	8595-8599	mol-	WeaklyRising	mol-<,	_	501-6	linguistic	none	_	Fast=0-4(0)	_	_	_
+500-8	8600-8602	fa	_	fa	_	501-7	linguistic	none	_	_	_	_	_
+500-9	8603-8608	molto	_	molto	_	501-8	linguistic	none	_	_	_	_	_
+500-10	8609-8615	freddo	_	freddo	_	501-9	linguistic	none	_	_	_	_	_
+500-11	8616-8619	poi	_	poi	_	501-10	linguistic	none	_	_	_	_	_
+500-12	8620-8622	in	_	in	_	501-11	linguistic	none	_	_	_	_	_
+500-13	8623-8631	germania	_	germania	_	501-12	linguistic	none	_	_	_	_	_
+
+#Text=sì
+501-1	8632-8634	sì	_	sì	PSB034	502-0	linguistic	none	_	_	_	_	_
+
+#Text=freddo
+502-1	8635-8641	freddo	_	freddo	PSB014	503-0	linguistic	none	_	_	_	_	_
+
+#Text=ti piace il f~
+503-1	8642-8644	ti	_	\[ti	PSB014	504-0	linguistic	none	_	_	_	*->125-1	*[125]
+503-2	8645-8650	piace	_	piace	_	504-1	linguistic	none	_	_	_	*->125-2	*[125]
+503-3	8651-8653	il	_	il	_	504-2	linguistic	none	_	_	_	*->125-3	*[125]
+503-4	8654-8656	f~	Rising	f~\]?	_	504-3	linguistic	none	_	_	_	*->125-4	*[125]
+
+#Text=italia è freddo
+504-1	8657-8663	italia	_	\[(italia	PSB034	505-0	linguistic	none	_	_	0-6(0)	*->125-5	*[125]
+504-2	8664-8665	è	_	è\]	_	505-1	linguistic	none	_	_	0-1(0)	*->125-6	*[125]
+504-3	8666-8672	freddo	_	freddo)	_	505-2	linguistic	none	_	_	0-6(0)	_	_
+
+#Text=ti piace il freddo o il caldo quale preferisci
+505-1	8673-8675	ti	_	\[ti	PSB014	506-0	linguistic	none	_	_	_	*->126-1	*[126]
+505-2	8676-8681	piace	_	piace	_	506-1	linguistic	none	_	_	_	*->126-2	*[126]
+505-3	8682-8684	il	_	il\]	_	506-2	linguistic	none	_	_	_	*->126-3	*[126]
+505-4	8685-8691	freddo	_	freddo	_	506-3	linguistic	none	_	_	_	_	_
+505-5	8692-8693	o	_	o	_	506-4	linguistic	none	_	_	_	_	_
+505-6	8694-8696	il	_	il	_	506-5	linguistic	none	_	_	_	_	_
+505-7	8697-8702	caldo	WeaklyRising	caldo,	_	506-6	linguistic	none	_	_	_	_	_
+505-8	8703-8708	quale	_	quale	_	506-7	linguistic	none	_	_	_	_	_
+505-9	8709-8719	preferisci	Rising	preferisci?	_	506-8	linguistic	none	_	_	_	_	_
+
+#Text=è vero
+506-1	8720-8721	è	_	\[°è	PSB033	507-0	linguistic	none	_	_	_	*->126-4	*[126]
+506-2	8722-8726	vero	_	vero°\]	_	507-1	linguistic	none	_	_	_	*->126-5	*[126]
+
+#Text=freddo
+507-1	8727-8733	freddo	_	freddo	PSB034	508-0	linguistic	none	_	_	_	_	_
+
+#Text=freddo
+508-1	8734-8740	freddo	Rising	fr\[eddo\]?	PSB033	509-0	linguistic	none	_	_	_	_	_
+508-1.1	8736-8740	eddo	_	_	_	_	_	_	_	_	_	*->127-1	*[127]
+
+#Text=ah
+509-1	8741-8743	ah	_	\[a:::h\]	PSB014	510-0	linguistic	none	0x3	_	_	_	_
+
+#Text=sì
+510-1	8744-8746	sì	_	\[sì\]	PSB034	511-0	linguistic	none	_	_	_	*->129-1	*[129]
+
+#Text=marocco caldo quanti caldo
+511-1	8747-8754	marocco	_	marocco	PSB034	512-0	linguistic	none	_	_	_	_	_
+511-2	8755-8760	caldo	WeaklyRising	caldo,	_	512-1	linguistic	none	_	_	_	_	_
+511-3	8761-8767	quanti	_	quanti	_	512-2	linguistic	none	_	_	_	_	_
+511-4	8768-8773	caldo	_	caldo	_	512-3	linguistic	none	_	_	_	_	_
+
+#Text=troppo caldo ((ride)) , lo so
+512-1	8774-8780	troppo	_	troppo	PSB014	513-0	linguistic	none	_	_	_	_	_
+512-2	8781-8786	caldo	_	caldo	_	513-1	linguistic	none	_	_	_	_	_
+512-3	8787-8795	((ride))	_	\[((ride))	_	513-2	nonverbalbehavior	none	_	_	_	*->131-1	*[131]
+512-4	8796-8797	,	_	,	_	513-3	error	none	_	_	_	_	_
+512-5	8798-8800	lo	_	lo	_	513-4	linguistic	none	_	_	_	*->131-2	*[131]
+512-6	8801-8803	so	_	so\]	_	513-5	linguistic	none	_	_	_	*->131-3	*[131]
+
+#Text=((ride))
+513-1	8804-8812	((ride))	_	\[((ride))\]	PSB034	514-0	nonverbalbehavior	none	_	_	_	*->131-4	*[131]
+
+#Text=però a me non piace il freddo
+514-1	8813-8817	però	WeaklyRising	però::,	PSB014	515-0	linguistic	none	3x2	_	_	_	_
+514-2	8818-8819	a	_	a	_	515-1	linguistic	none	_	_	_	_	_
+514-3	8820-8822	me	_	me	_	515-2	linguistic	none	_	_	_	_	_
+514-4	8823-8826	non	_	non	_	515-3	linguistic	none	_	_	_	_	_
+514-5	8827-8832	piace	_	piace	_	515-4	linguistic	none	_	_	_	_	_
+514-6	8833-8835	il	_	il	_	515-5	linguistic	none	_	_	_	_	_
+514-7	8836-8842	freddo	_	freddo	_	515-6	linguistic	none	_	_	_	_	_
+
+#Text=mh (.) invece tipo la montagna il mare cosa preferisci
+515-1	8843-8845	mh	_	mh	PSB014	516-0	linguistic	none	_	_	_	_	_
+515-2	8846-8849	(.)	_	(.)	_	516-1	shortpause	none	_	_	_	_	_
+515-3	8850-8856	invece	_	invece	_	516-2	linguistic	none	_	_	_	_	_
+515-4	8857-8861	tipo	WeaklyRising	tipo,	_	516-3	linguistic	none	_	_	_	_	_
+515-5	8862-8864	la	_	la	_	516-4	linguistic	none	_	_	_	_	_
+515-6	8865-8873	montagna	WeaklyRising	montagna,	_	516-5	linguistic	none	_	_	_	_	_
+515-7	8874-8876	il	_	il	_	516-6	linguistic	none	_	_	_	_	_
+515-8	8877-8881	mare	WeaklyRising	mare,	_	516-7	linguistic	none	_	_	_	_	_
+515-9	8882-8886	cosa	_	cosa	_	516-8	linguistic	none	_	_	_	_	_
+515-10	8887-8897	preferisci	Rising	preferisci?	_	516-9	linguistic	none	_	_	_	_	_
+
+#Text=xx xx
+516-1	8898-8900	xx	_	#(xx	PSB034	517-0	linguistic	other	_	_	1-3(0)	_	_
+516-2	8901-8903	xx	_	xx)	_	517-1	unknown	yes	_	_	0-2(0)	_	_
+
+#Text=entrambi
+517-1	8904-8912	entrambi	Rising	entrambi?	PSB014	518-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+518-1	8913-8915	sì	_	°sì°	PSB034	519-0	linguistic	none	_	_	_	_	_
+
+#Text=mh
+519-1	8916-8918	mh	_	m::h	PSB033	520-0	linguistic	none	0x2	_	_	_	_
+
+#Text=ah apposto qua in italia hai visto bologna e basta
+520-1	8919-8921	ah	_	>ah	PSB014	521-0	linguistic	none	_	Fast=0-2(0)	_	_	_
+520-2	8922-8929	apposto	WeaklyRising	apposto<,	_	521-1	linguistic	none	_	Fast=0-7(0)	_	_	_
+520-3	8930-8933	qua	_	qua	_	521-2	linguistic	none	_	_	_	_	_
+520-4	8934-8936	in	_	in	_	521-3	linguistic	none	_	_	_	_	_
+520-5	8937-8943	italia	_	italia	_	521-4	linguistic	none	_	_	_	_	_
+520-6	8944-8947	hai	_	hai	_	521-5	linguistic	none	_	_	_	_	_
+520-7	8948-8953	visto	_	visto	_	521-6	linguistic	none	_	_	_	_	_
+520-8	8954-8961	bologna	WeaklyRising	bologna,	_	521-7	linguistic	none	_	_	_	_	_
+520-9	8962-8963	e	_	e	_	521-8	linguistic	none	_	_	_	_	_
+520-10	8964-8969	basta	Rising	basta?	_	521-9	linguistic	none	_	_	_	_	_
+
+#Text=di città
+521-1	8970-8972	di	_	di	PSB014	522-0	linguistic	none	_	_	_	_	_
+521-2	8973-8978	città	Rising	città?	_	522-1	linguistic	none	_	_	_	_	_
+
+#Text=no
+522-1	8979-8981	no	_	no	PSB034	523-0	linguistic	none	_	_	_	_	_
+
+#Text=quali altre città hai visto
+523-1	8982-8987	quali	_	quali	PSB014	524-0	linguistic	none	_	_	_	_	_
+523-2	8988-8993	altre	_	altre	_	524-1	linguistic	none	_	_	_	_	_
+523-3	8994-8999	città	_	città	_	524-2	linguistic	none	_	_	_	_	_
+523-4	9000-9003	hai	_	hai	_	524-3	linguistic	none	_	_	_	_	_
+523-5	9004-9009	visto	Rising	visto?	_	524-4	linguistic	none	_	_	_	_	_
+
+#Text=eh milano
+524-1	9010-9012	eh	WeaklyRising	e::h,	PSB034	525-0	linguistic	none	0x2	_	_	_	_
+524-2	9013-9019	milano	_	milano	_	525-1	linguistic	none	_	_	_	_	_
+
+#Text=ah
+525-1	9020-9022	ah	_	a::h	PSB033	526-0	linguistic	none	0x2	_	_	_	_
+
+#Text=okay
+526-1	9023-9027	okay	_	okay	PSB014	527-0	linguistic	none	_	_	_	_	_
+
+#Text=verona
+527-1	9028-9034	verona	_	verona	PSB034	528-0	linguistic	none	_	_	_	_	_
+
+#Text=ah
+528-1	9035-9037	ah	_	a::h	PSB014	529-0	linguistic	none	0x2	_	_	_	_
+
+#Text=peschiera
+529-1	9038-9047	peschiera	_	peschiera	PSB034	530-0	linguistic	none	_	_	_	_	_
+
+#Text=ah
+530-1	9048-9050	ah	_	a:h	PSB033	531-0	linguistic	none	0x1	_	_	_	_
+
+#Text=toscana
+531-1	9051-9058	toscana	_	toscana	PSB034	532-0	linguistic	none	_	_	_	_	_
+
+#Text=ah
+532-1	9059-9061	ah	_	a:h	PSB014	533-0	linguistic	none	0x1	_	_	_	_
+
+#Text=e modena
+533-1	9062-9063	e	_	e	PSB034	534-0	linguistic	none	_	_	_	_	_
+533-2	9064-9070	modena	_	modena	_	534-1	linguistic	none	_	_	_	_	_
+
+#Text=ah tanti posti
+534-1	9071-9073	ah	_	ah	PSB033	535-0	linguistic	none	_	_	_	_	_
+534-2	9074-9079	tanti	_	tanti	_	535-1	linguistic	none	_	_	_	_	_
+534-3	9080-9085	posti	_	\[posti\]	_	535-2	linguistic	none	_	_	_	*->133-1	*[133]
+
+#Text=io sono di modena
+535-1	9086-9088	io	_	\[io	PSB014	536-0	linguistic	none	_	_	_	*->133-2	*[133]
+535-2	9089-9093	sono	_	son(o)\]	_	536-1	linguistic	none	_	_	3-4(0)	*->133-3	*[133]
+535-3	9094-9096	di	_	di	_	536-2	linguistic	none	_	_	_	_	_
+535-4	9097-9103	modena	_	modena	_	536-3	linguistic	none	_	_	_	_	_
+
+#Text=sì
+536-1	9104-9106	sì	_	°sì°	PSB034	537-0	linguistic	none	_	_	_	_	_
+
+#Text=((ride)) sì ((ride))
+537-1	9107-9115	((ride))	_	\[((ride))	PSB014	538-0	nonverbalbehavior	none	_	_	_	*->134-1	*[134]
+537-2	9116-9118	sì	_	sì	_	538-1	linguistic	none	_	_	_	*->134-2	*[134]
+537-3	9119-9127	((ride))	_	((ride))\]	_	538-2	nonverbalbehavior	none	_	_	_	*->134-3	*[134]
+
+#Text=tu sei di modena ((ride))
+538-1	9128-9130	tu	_	\[°tu	PSB034	539-0	linguistic	none	_	_	_	*->134-4	*[134]
+538-2	9131-9134	sei	_	sei	_	539-1	linguistic	none	_	_	_	*->134-5	*[134]
+538-3	9135-9137	di	_	di	_	539-2	linguistic	none	_	_	_	*->134-6	*[134]
+538-4	9138-9144	modena	Rising	modena?°\]	_	539-3	linguistic	none	_	_	_	*->134-7	*[134]
+538-5	9145-9153	((ride))	_	((ride))	_	539-4	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=com' è modena ti piace
+539-1	9154-9158	com'	_	com'	PSB014	540-0	linguistic	none	_	_	_	_	_
+539-2	9159-9160	è	_	è	_	540-1	linguistic	none	_	_	_	_	_
+539-3	9161-9167	modena	Rising	modena?	_	540-2	linguistic	none	_	_	_	_	_
+539-4	9168-9170	ti	_	ti	_	540-3	linguistic	none	_	_	_	_	_
+539-5	9171-9176	piace	Rising	piace?	_	540-4	linguistic	none	_	_	_	_	_
+
+#Text=poco
+540-1	9177-9181	poco	_	poco	PSB034	541-0	linguistic	none	_	_	_	_	_
+
+#Text=((ride))
+541-1	9182-9190	((ride))	_	((ride))	PSB033	542-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=quale preferisci
+542-1	9191-9196	quale	_	quale	PSB014	543-0	linguistic	none	_	_	_	_	_
+542-2	9197-9207	preferisci	Rising	preferisci?	_	543-1	linguistic	none	_	_	_	_	_
+
+#Text=mh
+543-1	9208-9210	mh	_	m::h	PSB034	544-0	linguistic	none	0x2	_	_	_	_
+
+#Text=tra tutte quelle che hai visto
+544-1	9211-9214	tra	_	tra	PSB014	545-0	linguistic	none	_	_	_	_	_
+544-2	9215-9220	tutte	_	tutte	_	545-1	linguistic	none	_	_	_	_	_
+544-3	9221-9227	quelle	_	quelle	_	545-2	linguistic	none	_	_	_	_	_
+544-4	9228-9231	che	_	che	_	545-3	linguistic	none	_	_	_	_	_
+544-5	9232-9235	hai	_	hai	_	545-4	linguistic	none	_	_	_	_	_
+544-6	9236-9241	visto	_	visto	_	545-5	linguistic	none	_	_	_	_	_
+
+#Text=ce l' hai a modena i miei amici
+545-1	9242-9244	ce	_	ce	PSB034	546-0	linguistic	none	_	_	_	_	_
+545-2	9245-9247	l'	_	l'	_	546-1	linguistic	none	_	_	_	_	_
+545-3	9248-9251	hai	_	hai	_	546-2	linguistic	none	_	_	_	_	_
+545-4	9252-9253	a	_	a	_	546-3	linguistic	none	_	_	_	_	_
+545-5	9254-9260	modena	_	modena	_	546-4	linguistic	none	_	_	_	_	_
+545-6	9261-9262	i	_	i	_	546-5	linguistic	none	_	_	_	_	_
+545-7	9263-9267	miei	_	miei	_	546-6	linguistic	none	_	_	_	_	_
+545-8	9268-9273	amici	_	amici	_	546-7	linguistic	none	_	_	_	_	_
+
+#Text=ah
+546-1	9274-9276	ah	_	A:H	PSB014	547-0	linguistic	none	0x1	_	_	_	_
+
+#Text=ah
+547-1	9277-9279	ah	_	°ah°	PSB033	548-0	linguistic	none	_	_	_	_	_
+
+#Text=tanti miei amici a modena
+548-1	9280-9285	tanti	_	tanti	PSB034	549-0	linguistic	none	_	_	_	_	_
+548-2	9286-9290	miei	_	miei	_	549-1	linguistic	none	_	_	_	_	_
+548-3	9291-9296	amici	_	amici	_	549-2	linguistic	none	_	_	_	_	_
+548-4	9297-9298	a	_	a	_	549-3	linguistic	none	_	_	_	_	_
+548-5	9299-9305	modena	_	modena	_	549-4	linguistic	none	_	_	_	_	_
+
+#Text=è bella
+549-1	9306-9307	è	_	\[è	PSB014	550-0	linguistic	none	_	_	_	*->137-1	*[137]
+549-2	9308-9313	bella	Rising	bel\]la?	_	550-1	linguistic	none	_	_	_	_	_
+549-2.1	9308-9311	bel	_	_	_	_	_	_	_	_	_	*->137-2	*[137]
+
+#Text=mh
+550-1	9314-9316	mh	_	\[°m:h°\]	PSB033	551-0	linguistic	none	0x1	_	_	*->137-3	*[137]
+
+#Text=sì bella
+551-1	9317-9319	sì	WeaklyRising	sì,	PSB034	552-0	linguistic	none	_	_	_	_	_
+551-2	9320-9325	bella	_	°bel(l)a°	_	552-1	linguistic	none	_	_	3-4(0)	_	_
+
+#Text=e milano
+552-1	9326-9327	e	_	\[e	PSB014	553-0	linguistic	none	_	_	_	*->138-1	*[138]
+552-2	9328-9334	milano	Rising	milano\]?	_	553-1	linguistic	none	_	_	_	*->138-2	*[138]
+
+#Text=e invece ti piace milano
+553-1	9335-9336	e	WeaklyRising	\[e::\],	PSB033	554-0	linguistic	none	0x2	_	_	*->138-3	*[138]
+553-2	9337-9343	invece	_	invece	_	554-1	linguistic	none	_	_	_	_	_
+553-3	9344-9346	ti	_	ti	_	554-2	linguistic	none	_	_	_	_	_
+553-4	9347-9352	piace	_	piace	_	554-3	linguistic	none	_	_	_	_	_
+553-5	9353-9359	milano	Rising	milano?	_	554-4	linguistic	none	_	_	_	_	_
+
+#Text=milano sì
+554-1	9360-9366	milano	_	milano	PSB034	555-0	linguistic	none	_	_	_	_	_
+554-2	9367-9369	sì	_	sì	_	555-1	linguistic	none	_	_	_	_	_
+
+#Text=bella
+555-1	9370-9375	bella	Rising	bella?	PSB033	556-0	linguistic	none	_	_	_	_	_
+
+#Text=ehm
+556-1	9376-9379	ehm	_	e:hm::	PSB014	557-0	linguistic	none	0x1,2x2	_	_	_	_
+
+#Text=milano piena
+557-1	9380-9386	milano	_	milano	PSB034	558-0	linguistic	none	_	_	_	_	_
+557-2	9387-9392	piena	_	(piena)	_	558-1	linguistic	none	_	_	0-5(0)	_	_
+
+#Text=piena
+558-1	9393-9398	piena	_	\[<PIE:NA>\]	PSB014	559-0	linguistic	none	2x1	Slow=0-5(0)	_	*->139-1	*[139]
+
+#Text=eh vero
+559-1	9399-9401	eh	WeaklyRising	\[eh,	PSB033	560-0	linguistic	none	_	_	_	*->139-2	*[139]
+559-2	9402-9406	vero	Rising	vero\]?	_	560-1	linguistic	none	_	_	_	*->139-3	*[139]
+
+#Text=eh lo so ma anche ma anche modena
+560-1	9407-9409	eh	_	>eh	PSB014	561-0	linguistic	none	_	Fast=0-2(0)	_	_	_
+560-2	9410-9412	lo	_	lo	_	561-1	linguistic	none	_	Fast=0-2(0)	_	_	_
+560-3	9413-9415	so	WeaklyRising	so,	_	561-2	linguistic	none	_	Fast=0-2(0)	_	_	_
+560-4	9416-9418	ma	_	ma	_	561-3	linguistic	none	_	Fast=0-2(0)	_	_	_
+560-5	9419-9424	anche	WeaklyRising	anche,	_	561-4	linguistic	none	_	Fast=0-5(0)	_	_	_
+560-6	9425-9427	ma	_	ma	_	561-5	linguistic	none	_	Fast=0-2(0)	_	_	_
+560-7	9428-9433	anche	_	anche<	_	561-6	linguistic	none	_	Fast=0-5(0)	_	_	_
+560-8	9434-9440	modena	_	\[<modena>\]	_	561-7	linguistic	none	_	Slow=0-6(0)	_	*->140-1	*[140]
+
+#Text=piena
+561-1	9441-9446	piena	_	\[<piena::>\]	PSB034	562-0	linguistic	none	4x2	Slow=0-5(0)	_	*->140-2	*[140]
+
+#Text=beh anche bologna
+562-1	9447-9450	beh	WeaklyRising	beh,	PSB033	563-0	linguistic	none	_	_	_	_	_
+562-2	9451-9456	anche	_	anche	_	563-1	linguistic	none	_	_	_	_	_
+562-3	9457-9464	bologna	_	bologna	_	563-2	linguistic	none	_	_	_	_	_
+
+#Text=anche bologna
+563-1	9465-9470	anche	_	anche	PSB014	564-0	linguistic	none	_	_	_	_	_
+563-2	9471-9478	bologna	_	bologna	_	564-1	linguistic	none	_	_	_	_	_
+
+#Text=e
+564-1	9479-9480	e	_	\[e:::\]	PSB014	565-0	linguistic	none	0x3	_	_	*->141-1	*[141]
+
+#Text=e bologna vieni a bangladesh
+565-1	9481-9482	e	_	\[e:\]	PSB034	566-0	linguistic	none	0x1	_	_	*->141-2	*[141]
+565-2	9483-9490	bologna	WeaklyRising	bologna:,	_	566-1	linguistic	none	6x1	_	_	_	_
+565-3	9491-9496	vieni	_	vieni	_	566-2	linguistic	none	_	_	_	_	_
+565-4	9497-9498	a	_	a	_	566-3	linguistic	none	_	_	_	_	_
+565-5	9499-9509	bangladesh	_	bangladesh	_	566-4	linguistic	none	_	_	_	_	_
+
+#Text=eh
+566-1	9510-9512	eh	_	e::h	PSB014	567-0	linguistic	none	0x2	_	_	_	_
+
+#Text=e pakistan
+567-1	9513-9514	e	_	e	PSB034	568-0	linguistic	none	_	_	_	_	_
+567-2	9515-9523	pakistan	_	pakistan	_	568-1	linguistic	none	_	_	_	_	_
+
+#Text=eh
+568-1	9524-9526	eh	_	e:h	PSB033	569-0	linguistic	none	0x1	_	_	_	_
+
+#Text=è vero sisisi
+569-1	9527-9528	è	_	è	PSB014	570-0	linguistic	none	_	_	_	_	_
+569-2	9529-9533	vero	WeaklyRising	vero,	_	570-1	linguistic	none	_	_	_	_	_
+569-3	9534-9540	sisisi	_	>sisisi<	_	570-2	linguistic	none	_	Fast=0-6(0)	_	_	_
+
+#Text=ehm
+570-1	9541-9544	ehm	_	e:hm::	PSB014	571-0	linguistic	none	0x1,2x2	_	_	_	_
+
+#Text=tra tutte queste città milano modena bologna (.) qual è quella che tu hai amato di più quella che ti piace di più
+571-1	9545-9548	tra	_	>tra	PSB014	572-0	linguistic	none	_	Fast=0-3(0)	_	_	_
+571-2	9549-9554	tutte	_	tutte	_	572-1	linguistic	none	_	Fast=0-5(0)	_	_	_
+571-3	9555-9561	queste	_	queste	_	572-2	linguistic	none	_	Fast=0-6(0)	_	_	_
+571-4	9562-9567	città	WeaklyRising	città<,	_	572-3	linguistic	none	_	Fast=0-5(0)	_	_	_
+571-5	9568-9574	milano	WeaklyRising	milano,	_	572-4	linguistic	none	_	_	_	_	_
+571-6	9575-9581	modena	WeaklyRising	modena,	_	572-5	linguistic	none	_	_	_	_	_
+571-7	9582-9589	bologna	_	bologna	_	572-6	linguistic	none	_	_	_	_	_
+571-8	9590-9593	(.)	_	(.)	_	572-7	shortpause	none	_	_	_	_	_
+571-9	9594-9598	qual	_	qual	_	572-8	linguistic	none	_	_	_	_	_
+571-10	9599-9600	è	_	è	_	572-9	linguistic	none	_	_	_	_	_
+571-11	9601-9607	quella	_	quella	_	572-10	linguistic	none	_	_	_	_	_
+571-12	9608-9611	che	WeaklyRising	che,	_	572-11	linguistic	none	_	_	_	_	_
+571-13	9612-9614	tu	_	tu	_	572-12	linguistic	none	_	_	_	_	_
+571-14	9615-9618	hai	_	hai	_	572-13	linguistic	none	_	_	_	_	_
+571-15	9619-9624	amato	_	amato	_	572-14	linguistic	none	_	_	_	_	_
+571-16	9625-9627	di	_	di	_	572-15	linguistic	none	_	_	_	_	_
+571-17	9628-9631	più	Rising	più?	_	572-16	linguistic	none	_	_	_	_	_
+571-18	9632-9638	quella	_	quella	_	572-17	linguistic	none	_	_	_	_	_
+571-19	9639-9642	che	_	che	_	572-18	linguistic	none	_	_	_	_	_
+571-20	9643-9645	ti	_	ti	_	572-19	linguistic	none	_	_	_	_	_
+571-21	9646-9651	piace	_	piace	_	572-20	linguistic	none	_	_	_	_	_
+571-22	9652-9654	di	_	di	_	572-21	linguistic	none	_	_	_	_	_
+571-23	9655-9658	più	_	più	_	572-22	linguistic	none	_	_	_	_	_
+
+#Text=dove ti trovi meglio
+572-1	9659-9663	dove	_	>dove	PSB014	573-0	linguistic	none	_	Fast=0-4(0)	_	_	_
+572-2	9664-9666	ti	_	ti	_	573-1	linguistic	none	_	Fast=0-2(0)	_	_	_
+572-3	9667-9672	trovi	_	trovi<	_	573-2	linguistic	none	_	Fast=0-5(0)	_	_	_
+572-4	9673-9679	meglio	Rising	<meglio:>?	_	573-3	linguistic	none	5x1	Slow=0-6(0)	_	_	_
+
+#Text=niente
+573-1	9680-9686	niente	_	niente	PSB034	574-0	linguistic	none	_	_	_	_	_
+
+#Text=mh
+574-1	9687-9689	mh	_	mh	PSB014	575-0	linguistic	none	_	_	_	_	_
+
+#Text=milano c' è miei amici modena (.) toscana c' è mia sorella
+575-1	9690-9696	milano	_	milano	PSB034	576-0	linguistic	none	_	_	_	_	_
+575-2	9697-9699	c'	_	c'	_	576-1	linguistic	none	_	_	_	_	_
+575-3	9700-9701	è	WeaklyRising	è::,	_	576-2	linguistic	none	0x2	_	_	_	_
+575-4	9702-9706	miei	_	miei	_	576-3	linguistic	none	_	_	_	_	_
+575-5	9707-9712	amici	_	amici	_	576-4	linguistic	none	_	_	_	_	_
+575-6	9713-9719	modena	_	modena	_	576-5	linguistic	none	_	_	_	_	_
+575-7	9720-9723	(.)	_	(.)	_	576-6	shortpause	none	_	_	_	_	_
+575-8	9724-9731	toscana	_	toscana	_	576-7	linguistic	none	_	_	_	_	_
+575-9	9732-9734	c'	_	c'	_	576-8	linguistic	none	_	_	_	_	_
+575-10	9735-9736	è	_	è	_	576-9	linguistic	none	_	_	_	_	_
+575-11	9737-9740	mia	_	mia	_	576-10	linguistic	none	_	_	_	_	_
+575-12	9741-9748	sorella	_	sorella	_	576-11	linguistic	none	_	_	_	_	_
+
+#Text=mh
+576-1	9749-9751	mh	_	\[m::h\]	PSB014	577-0	linguistic	none	0x2	_	_	*->142-1	*[142]
+
+#Text=mh
+577-1	9752-9754	mh	_	\[°mh°\]	PSB033	578-0	linguistic	none	_	_	_	*->142-2	*[142]
+
+#Text=verona c' è (.) mio cugino
+578-1	9755-9761	verona	_	verona	PSB034	579-0	linguistic	none	_	_	_	_	_
+578-2	9762-9764	c'	_	c'	_	579-1	linguistic	none	_	_	_	_	_
+578-3	9765-9766	è	_	è::	_	579-2	linguistic	none	0x2	_	_	_	_
+578-4	9767-9770	(.)	_	(.)	_	579-3	shortpause	none	_	_	_	_	_
+578-5	9771-9774	mio	_	mio	_	579-4	linguistic	none	_	_	_	_	_
+578-6	9775-9781	cugino	_	cugino	_	579-5	linguistic	none	_	_	_	_	_
+
+#Text=ah
+579-1	9782-9784	ah	_	\[°ah°\]	PSB033	580-0	linguistic	none	_	_	_	*->143-1	*[143]
+
+#Text=okay quindi un po' famiglia da~ dappertutto
+580-1	9785-9789	okay	WeaklyRising	\[okay\],	PSB014	581-0	linguistic	none	_	_	_	*->143-2	*[143]
+580-2	9790-9796	quindi	_	quindi	_	581-1	linguistic	none	_	_	_	_	_
+580-3	9797-9799	un	_	un	_	581-2	linguistic	none	_	_	_	_	_
+580-4	9800-9803	po'	_	po'	_	581-3	linguistic	none	_	_	_	_	_
+580-5	9804-9812	famiglia	_	famiglia	_	581-4	linguistic	none	_	_	_	_	_
+580-6	9813-9816	da~	WeaklyRising	da~,	_	581-5	linguistic	none	_	_	_	_	_
+580-7	9817-9828	dappertutto	_	dappertutto	_	581-6	linguistic	none	_	_	_	_	_
+
+#Text=sì
+581-1	9829-9831	sì	_	°sì°	PSB034	582-0	linguistic	none	_	_	_	_	_
+
+#Text=ah e toscana com' è
+582-1	9832-9834	ah	WeaklyRising	a::h,	PSB014	583-0	linguistic	none	0x2	_	_	_	_
+582-2	9835-9836	e	_	>e	_	583-1	linguistic	none	_	Fast=0-1(0)	_	_	_
+582-3	9837-9844	toscana	_	toscana	_	583-2	linguistic	none	_	Fast=0-7(0)	_	_	_
+582-4	9845-9849	com'	_	com'	_	583-3	linguistic	none	_	Fast=0-4(0)	_	_	_
+582-5	9850-9851	è	Rising	è<?	_	583-4	linguistic	none	_	Fast=0-1(0)	_	_	_
+
+#Text=toscana firenze sei andato
+583-1	9852-9859	toscana	_	toscana	PSB014	584-0	linguistic	none	_	_	_	_	_
+583-2	9860-9867	firenze	WeaklyRising	firenze,	_	584-1	linguistic	none	_	_	_	_	_
+583-3	9868-9871	sei	_	sei	_	584-2	linguistic	none	_	_	_	_	_
+583-4	9872-9878	andato	Rising	andato?	_	584-3	linguistic	none	_	_	_	_	_
+
+#Text=mh lucca
+584-1	9879-9881	mh	WeaklyRising	m::h,	PSB034	585-0	linguistic	none	0x2	_	_	_	_
+584-2	9882-9887	lucca	_	lucca	_	585-1	linguistic	none	_	_	_	_	_
+
+#Text=lucca ah
+585-1	9888-9893	lucca	Rising	\[lucca?	PSB014	586-0	linguistic	none	_	_	_	*->144-1	*[144]
+585-2	9894-9896	ah	_	a::h\]	_	586-1	linguistic	none	0x2	_	_	*->144-2	*[144]
+
+#Text=ah okay
+586-1	9897-9899	ah	_	\[°ah	PSB033	587-0	linguistic	none	_	_	_	*->144-3	*[144]
+586-2	9900-9904	okay	_	okay°\]	_	587-1	linguistic	none	_	_	_	*->144-4	*[144]
+
+#Text=e com' è bella
+587-1	9905-9906	e	_	e	PSB014	588-0	linguistic	none	_	_	_	_	_
+587-2	9907-9911	com'	_	com'	_	588-1	linguistic	none	_	_	_	_	_
+587-3	9912-9913	è	Rising	è?	_	588-2	linguistic	none	_	_	_	_	_
+587-4	9914-9919	bella	Rising	bella?	_	588-3	linguistic	none	_	_	_	_	_
+
+#Text=mhmh ((ride))
+588-1	9920-9924	mhmh	WeaklyRising	mh\[mh,	PSB033	589-0	linguistic	none	_	_	_	_	_
+588-1.1	9922-9924	mh	_	_	_	_	_	_	_	_	_	*->192-1	*[192]
+588-2	9925-9933	((ride))	_	((ride))\]	_	589-1	nonverbalbehavior	none	_	_	_	*->192-2	*[192]
+
+#Text=poco ((ride))
+589-1	9934-9938	poco	_	\[poco	PSB034	590-0	linguistic	none	_	_	_	*->192-3	*[192]
+589-2	9939-9947	((ride))	_	((ride))\]	_	590-1	nonverbalbehavior	none	_	_	_	*->192-4	*[192]
+
+#Text=((ride))
+590-1	9948-9956	((ride))	_	\[((ride))\]	PSB014	591-0	nonverbalbehavior	none	_	_	_	*->192-5	*[192]
+
+#Text=meglio bologna
+591-1	9957-9963	meglio	_	meglio	PSB014	592-0	linguistic	none	_	_	_	_	_
+591-2	9964-9971	bologna	Rising	bolo\[gna\]?	_	592-1	linguistic	none	_	_	_	_	_
+591-2.1	9968-9971	gna	_	_	_	_	_	_	_	_	_	*->145-1	*[145]
+
+#Text=((ride))
+592-1	9972-9980	((ride))	_	\[((ride))\]	PSB034	593-0	nonverbalbehavior	none	_	_	_	*->145-2	*[145]
+
+#Text=meglio bologna
+593-1	9981-9987	meglio	_	meglio	PSB014	594-0	linguistic	none	_	_	_	_	_
+593-2	9988-9995	bologna	Rising	bologna?	_	594-1	linguistic	none	_	_	_	_	_
+
+#Text=ah bologna bella
+594-1	9996-9998	ah	WeaklyRising	ah,	PSB034	595-0	linguistic	none	_	_	_	_	_
+594-2	9999-10006	bologna	_	bologna	_	595-1	linguistic	none	_	_	_	_	_
+594-3	10007-10012	bella	_	°bel(l)a°	_	595-2	linguistic	none	_	_	3-4(0)	_	_
+
+#Text=bella eh sìsì è bella grande
+595-1	10013-10018	bella	WeaklyRising	\[bella\],	PSB014	596-0	linguistic	none	_	_	_	*->146-1	*[146]
+595-2	10019-10021	eh	WeaklyRising	\[e:h,	_	596-1	linguistic	none	0x1	_	_	*->147-1	*[147]
+595-3	10022-10026	sìsì	WeaklyRising	sìsì\],	_	596-2	linguistic	none	_	_	_	*->147-2	*[147]
+595-4	10027-10028	è	_	è	_	596-3	linguistic	none	_	_	_	_	_
+595-5	10029-10034	bella	_	bella	_	596-4	linguistic	none	_	_	_	_	_
+595-6	10035-10041	grande	_	grande:	_	596-5	linguistic	none	5x1	_	_	_	_
+
+#Text=bella
+596-1	10042-10047	bella	_	\[bella\]	PSB033	597-0	linguistic	none	_	_	_	*->146-2	*[146]
+
+#Text=eh
+597-1	10048-10050	eh	_	\[°e:h°\]	PSB033	598-0	linguistic	none	0x1	_	_	*->147-3	*[147]
+
+#Text=sì
+598-1	10051-10053	sì	_	sì	PSB034	599-0	linguistic	none	_	_	_	_	_
+
+#Text=sìsìsì ti piace la città grande oppure campagna
+599-1	10054-10060	sìsìsì	WeaklyRising	>sìsìsì<,	PSB014	600-0	linguistic	none	_	Fast=0-6(0)	_	_	_
+599-2	10061-10063	ti	_	ti	_	600-1	linguistic	none	_	_	_	_	_
+599-3	10064-10069	piace	_	piace	_	600-2	linguistic	none	_	_	_	_	_
+599-4	10070-10072	la	_	la	_	600-3	linguistic	none	_	_	_	_	_
+599-5	10073-10078	città	_	città	_	600-4	linguistic	none	_	_	_	_	_
+599-6	10079-10085	grande	WeaklyRising	grande,	_	600-5	linguistic	none	_	_	_	_	_
+599-7	10086-10092	oppure	WeaklyRising	oppure,	_	600-6	linguistic	none	_	_	_	_	_
+599-8	10093-10101	campagna	Rising	campagna?	_	600-7	linguistic	none	_	_	_	_	_
+
+#Text=città grande
+600-1	10102-10107	città	_	città	PSB034	601-0	linguistic	none	_	_	_	_	_
+600-2	10108-10114	grande	_	grande	_	601-1	linguistic	none	_	_	_	_	_
+
+#Text=città grande
+601-1	10115-10120	città	_	città	PSB014	602-0	linguistic	none	_	_	_	_	_
+601-2	10121-10127	grande	_	gr\[an°de°\]	_	602-1	linguistic	none	_	_	_	_	_
+601-2.1	10123-10127	ande	_	_	_	_	_	_	_	_	_	*->148-1	*[148]
+
+#Text=sì
+602-1	10128-10130	sì	_	\[°sì°\]	PSB034	603-0	linguistic	none	_	_	_	*->148-2	*[148]
+
+#Text=mh perché c' è tanta gente
+603-1	10131-10133	mh	WeaklyRising	m::h,	PSB014	604-0	linguistic	none	0x2	_	_	_	_
+603-2	10134-10140	perché	_	perché	_	604-1	linguistic	none	_	_	_	_	_
+603-3	10141-10143	c'	_	c'	_	604-2	linguistic	none	_	_	_	_	_
+603-4	10144-10145	è	_	è	_	604-3	linguistic	none	_	_	_	_	_
+603-5	10146-10151	tanta	_	tanta	_	604-4	linguistic	none	_	_	_	_	_
+603-6	10152-10157	gente	Rising	gente:?	_	604-5	linguistic	none	4x1	_	_	_	_
+
+#Text=sì
+604-1	10158-10160	sì	Rising	sì:?	PSB014	605-0	linguistic	none	1x1	_	_	_	_
+
+#Text=sì
+605-1	10161-10163	sì	_	°sì°	PSB034	606-0	linguistic	none	_	_	_	_	_
+
+#Text=mhmh
+606-1	10164-10168	mhmh	_	mhmh	PSB014	607-0	linguistic	none	_	_	_	_	_
+
+#Text=((sciocco_con_la_lingua)) mh
+607-1	10169-10194	((sciocco_con_la_lingua))	_	((sciocco_con_la_lingua))	PSB014	608-0	nonverbalbehavior	none	_	_	_	_	_
+607-2	10195-10197	mh	_	m::h	_	608-1	linguistic	none	0x2	_	_	_	_
+
+#Text=allora abbiamo detto parli solamente arabo e italiano hai detto
+608-1	10198-10204	allora	WeaklyRising	allo:ra:,	PSB014	609-0	linguistic	none	3x1,5x1	_	_	_	_
+608-2	10205-10212	abbiamo	_	abbiamo	_	609-1	linguistic	none	_	_	_	_	_
+608-3	10213-10218	detto	WeaklyRising	detto,	_	609-2	linguistic	none	_	_	_	_	_
+608-4	10219-10224	parli	_	>parli	_	609-9	linguistic	none	_	Fast=0-5(0)	_	_	_
+608-5	10225-10234	solamente	_	solamente<	_	609-3	linguistic	none	_	Fast=0-9(0)	_	_	_
+608-6	10235-10240	arabo	_	arabo	_	609-4	linguistic	none	_	_	_	_	_
+608-7	10241-10242	e	_	e	_	609-5	linguistic	none	_	_	_	_	_
+608-8	10243-10251	italiano	_	italiano	_	609-6	linguistic	none	_	_	_	_	_
+608-9	10252-10255	hai	_	hai	_	609-7	linguistic	none	_	_	_	_	_
+608-10	10256-10261	detto	Rising	detto?	_	609-8	linguistic	none	_	_	_	_	_
+
+#Text=sì
+609-1	10262-10264	sì	_	\[sì\]	PSB033	610-0	linguistic	none	_	_	_	*->149-1	*[149]
+
+#Text=sì
+610-1	10265-10267	sì	_	\[sì\]	PSB034	611-0	linguistic	none	_	_	_	*->149-2	*[149]
+
+#Text=e d- sono molto diverse come lingue
+611-1	10268-10269	e	_	>e	PSB014	612-0	linguistic	none	_	Fast=0-1(0)	_	_	_
+611-2	10270-10272	d-	_	d-<	_	612-1	linguistic	none	_	Fast=0-2(0)	_	_	_
+611-3	10273-10277	sono	_	sono	_	612-2	linguistic	none	_	_	_	_	_
+611-4	10278-10283	molto	_	molto	_	612-3	linguistic	none	_	_	_	_	_
+611-5	10284-10291	diverse	_	diverse	_	612-4	linguistic	none	_	_	_	_	_
+611-6	10292-10296	come	_	come	_	612-5	linguistic	none	_	_	_	_	_
+611-7	10297-10303	lingue	_	lingue	_	612-6	linguistic	none	_	_	_	_	_
+
+#Text=sì
+612-1	10304-10306	sì	_	sì	PSB034	613-0	linguistic	none	_	_	_	_	_
+
+#Text=mhmh
+613-1	10307-10311	mhmh	_	mhmh	PSB014	614-0	linguistic	none	_	_	_	_	_
+
+#Text=e cos' è la cosa più diffi~ abbiamo detto i verbi e l' alfabeto invece facile
+614-1	10312-10313	e	WeaklyRising	e::,	PSB014	615-0	linguistic	none	0x2	_	_	_	_
+614-2	10314-10318	cos'	_	>cos'	_	615-1	linguistic	none	_	Fast=0-4(0)	_	_	_
+614-3	10319-10320	è	_	è	_	615-2	linguistic	none	_	Fast=0-1(0)	_	_	_
+614-4	10321-10323	la	_	la	_	615-3	linguistic	none	_	Fast=0-2(0)	_	_	_
+614-5	10324-10328	cosa	_	cosa	_	615-4	linguistic	none	_	Fast=0-4(0)	_	_	_
+614-6	10329-10332	più	_	più	_	615-5	linguistic	none	_	Fast=0-3(0)	_	_	_
+614-7	10333-10339	diffi~	_	diffi~	_	615-6	linguistic	none	_	Fast=0-6(0)	_	_	_
+614-8	10340-10347	abbiamo	_	abbiamo	_	615-7	linguistic	none	_	Fast=0-7(0)	_	_	_
+614-9	10348-10353	detto	_	detto	_	615-8	linguistic	none	_	Fast=0-5(0)	_	_	_
+614-10	10354-10355	i	_	i	_	615-9	linguistic	none	_	Fast=0-1(0)	_	_	_
+614-11	10356-10361	verbi	WeaklyRising	verbi<,	_	615-10	linguistic	none	_	Fast=0-5(0)	_	_	_
+614-12	10362-10363	e	WeaklyRising	e::,	_	615-11	linguistic	none	0x2	_	_	_	_
+614-13	10364-10366	l'	_	l'	_	615-12	linguistic	none	_	_	_	_	_
+614-14	10367-10375	alfabeto	_	alfabeto	_	615-13	linguistic	none	_	_	_	_	_
+614-15	10376-10382	invece	WeaklyRising	invece,	_	615-14	linguistic	none	_	_	_	_	_
+614-16	10383-10389	facile	Rising	facile?	_	615-15	linguistic	none	_	_	_	_	_
+
+#Text=poco
+615-1	10390-10394	poco	_	poco	PSB034	616-0	linguistic	none	_	_	_	_	_
+
+#Text=poco
+616-1	10395-10399	poco	Rising	poco?	PSB014	617-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+617-1	10400-10402	sì	_	°sì°	PSB033	618-0	linguistic	none	_	_	_	_	_
+
+#Text=mh
+618-1	10403-10405	mh	_	m::h	PSB014	619-0	linguistic	none	0x2	_	_	_	_
+
+#Text=ma quando scrivi in arabo scrivi con alfabeto arabo o scrivi con le lettere italiane
+619-1	10406-10408	ma	WeaklyRising	ma::,	PSB033	620-0	linguistic	none	1x2	_	_	_	_
+619-2	10409-10415	quando	WeaklyRising	quando:,	_	620-1	linguistic	none	5x1	_	_	_	_
+619-3	10416-10422	scrivi	_	scrivi	_	620-2	linguistic	none	_	_	_	_	_
+619-4	10423-10425	in	_	in	_	620-3	linguistic	none	_	_	_	_	_
+619-5	10426-10431	arabo	_	arabo	_	620-4	linguistic	none	_	_	_	_	_
+619-6	10432-10438	scrivi	_	scrivi	_	620-5	linguistic	none	_	_	_	_	_
+619-7	10439-10442	con	_	con	_	620-6	linguistic	none	_	_	_	_	_
+619-8	10443-10451	alfabeto	_	alfabeto	_	620-7	linguistic	none	_	_	_	_	_
+619-9	10452-10457	arabo	_	arabo	_	620-8	linguistic	none	_	_	_	_	_
+619-10	10458-10459	o	_	o	_	620-9	linguistic	none	_	_	_	_	_
+619-11	10460-10466	scrivi	_	scrivi	_	620-10	linguistic	none	_	_	_	_	_
+619-12	10467-10470	con	_	con	_	620-11	linguistic	none	_	_	_	_	_
+619-13	10471-10473	le	_	le	_	620-12	linguistic	none	_	_	_	_	_
+619-14	10474-10481	lettere	_	lettere:	_	620-13	linguistic	none	6x1	_	_	_	_
+619-15	10482-10490	italiane	Rising	italiane?	_	620-14	linguistic	none	_	_	_	_	_
+
+#Text=quando ma~ mandi i messaggi
+620-1	10491-10497	quando	_	quando	PSB033	621-0	linguistic	none	_	_	_	_	_
+620-2	10498-10501	ma~	_	ma~	_	621-1	linguistic	none	_	_	_	_	_
+620-3	10502-10507	mandi	_	mandi	_	621-2	linguistic	none	_	_	_	_	_
+620-4	10508-10509	i	_	i	_	621-3	linguistic	none	_	_	_	_	_
+620-5	10510-10518	messaggi	_	messaggi	_	621-4	linguistic	none	_	_	_	_	_
+
+#Text=nono
+621-1	10519-10523	nono	_	nono	PSB034	622-0	linguistic	none	_	_	_	_	_
+
+#Text=in arabo
+622-1	10524-10526	in	_	in	PSB033	623-0	linguistic	none	_	_	_	_	_
+622-2	10527-10532	arabo	Rising	arabo?	_	623-1	linguistic	none	_	_	_	_	_
+
+#Text=arabo sì
+623-1	10533-10538	arabo	_	ar\[abo	PSB034	624-0	linguistic	none	_	_	_	_	_
+623-1.1	10535-10538	abo	_	_	_	_	_	_	_	_	_	*->150-1	*[150]
+623-2	10539-10541	sì	_	sì\]	_	624-1	linguistic	none	_	_	_	*->150-2	*[150]
+
+#Text=arabo
+624-1	10542-10547	arabo	_	\[arabo\]	PSB033	625-0	linguistic	none	_	_	_	*->150-3	*[150]
+
+#Text=alfabeto arabo
+625-1	10548-10556	alfabeto	_	alfabeto	PSB014	626-0	linguistic	none	_	_	_	_	_
+625-2	10557-10562	arabo	Rising	arabo?	_	626-1	linguistic	none	_	_	_	_	_
+
+#Text=sì
+626-1	10563-10565	sì	_	\[sì\]	PSB034	627-0	linguistic	none	_	_	_	*->151-1	*[151]
+
+#Text=mh
+627-1	10566-10568	mh	_	\[m::h\]	PSB014	628-0	linguistic	none	0x2	_	_	_	_
+
+#Text=okay
+628-1	10569-10573	okay	_	°okay°	PSB033	629-0	linguistic	none	_	_	_	_	_
+
+#Text=mhmh beh quindi sai anche il f~ cioè sai due alfabeti
+629-1	10574-10578	mhmh	WeaklyRising	mhmh,	PSB014	630-0	linguistic	none	_	_	_	_	_
+629-2	10579-10582	beh	WeaklyRising	beh,	_	630-1	linguistic	none	_	_	_	_	_
+629-3	10583-10589	quindi	_	quindi:	_	630-2	linguistic	none	5x1	_	_	_	_
+629-4	10590-10593	sai	_	sai	_	630-3	linguistic	none	_	_	_	_	_
+629-5	10594-10599	anche	_	anche	_	630-4	linguistic	none	_	_	_	_	_
+629-6	10600-10602	il	_	il	_	630-5	linguistic	none	_	_	_	_	_
+629-7	10603-10605	f~	WeaklyRising	f~,	_	630-6	linguistic	none	_	_	_	_	_
+629-8	10606-10610	cioè	WeaklyRising	c(io)è,	_	630-7	linguistic	none	_	_	_	_	_
+629-9	10611-10614	sai	_	sai	_	630-8	linguistic	none	_	_	_	_	_
+629-10	10615-10618	due	_	due	_	630-9	linguistic	none	_	_	_	_	_
+629-11	10619-10627	alfabeti	_	alfabeti	_	630-10	linguistic	none	_	_	_	_	_
+
+#Text=bello
+630-1	10628-10633	bello	_	bello	PSB014	631-0	linguistic	none	_	_	_	_	_
+
+#Text=e hai detto che abiti mh qua vicino
+631-1	10634-10635	e	WeaklyRising	e::,	PSB014	632-0	linguistic	none	0x2	_	_	_	_
+631-2	10636-10639	hai	_	hai	_	632-1	linguistic	none	_	_	_	_	_
+631-3	10640-10645	detto	_	detto	_	632-2	linguistic	none	_	_	_	_	_
+631-4	10646-10649	che	_	che	_	632-3	linguistic	none	_	_	_	_	_
+631-5	10650-10655	abiti	_	abiti::	_	632-4	linguistic	none	4x2	_	_	_	_
+631-6	10656-10658	mh	WeaklyRising	mh,	_	632-5	linguistic	none	_	_	_	_	_
+631-7	10659-10662	qua	_	qua	_	632-6	linguistic	none	_	_	_	_	_
+631-8	10663-10669	vicino	Rising	vicino?	_	632-7	linguistic	none	_	_	_	_	_
+
+#Text=in che zona abiti di bologna
+632-1	10670-10672	in	_	in	PSB014	633-0	linguistic	none	_	_	_	_	_
+632-2	10673-10676	che	_	che	_	633-1	linguistic	none	_	_	_	_	_
+632-3	10677-10681	zona	_	zona	_	633-2	linguistic	none	_	_	_	_	_
+632-4	10682-10687	abiti	WeaklyRising	abiti,	_	633-3	linguistic	none	_	_	_	_	_
+632-5	10688-10690	di	_	di	_	633-4	linguistic	none	_	_	_	_	_
+632-6	10691-10698	bologna	Rising	bologna?	_	633-5	linguistic	none	_	_	_	_	_
+
+#Text=qua vicino
+633-1	10699-10702	qua	_	(qu)a	PSB034	634-0	linguistic	none	_	_	0-2(0)	_	_
+633-2	10703-10709	vicino	_	vici°no°	_	634-1	linguistic	none	_	_	_	_	_
+
+#Text=qua vicino
+634-1	10710-10713	qua	_	QUA	PSB014	635-0	linguistic	none	_	_	_	_	_
+634-2	10714-10720	vicino	_	VICINO	_	635-1	linguistic	none	_	_	_	_	_
+
+#Text=sì
+635-1	10721-10723	sì	_	°sì°	PSB034	636-0	linguistic	none	_	_	_	_	_
+
+#Text=mh e
+636-1	10724-10726	mh	WeaklyRising	m::h,	PSB014	637-0	linguistic	none	0x2	_	_	_	_
+636-2	10727-10728	e	_	\[e\]	_	637-1	linguistic	none	_	_	_	*->154-1	*[154]
+
+#Text=@nomeluogo
+637-1	10729-10739	@nomeluogo	_	\[@nome\]luogo	PSB034	638-0	anonymized	none	_	_	_	_	_
+637-1.1	10729-10734	@nome	_	_	_	_	_	_	_	_	_	*->154-2	*[154]
+
+#Text=@nomeluogo e per andare in centro vai a piedi autobus
+638-1	10740-10750	@nomeluogo	WeaklyRising	@nomeluogo,	PSB014	639-0	anonymized	none	_	_	_	_	_
+638-2	10751-10752	e	WeaklyRising	e,	_	639-1	linguistic	none	_	_	_	_	_
+638-3	10753-10756	per	_	per	_	639-2	linguistic	none	_	_	_	_	_
+638-4	10757-10763	andare	_	andare	_	639-3	linguistic	none	_	_	_	_	_
+638-5	10764-10766	in	_	in	_	639-4	linguistic	none	_	_	_	_	_
+638-6	10767-10773	centro	_	centro	_	639-5	linguistic	none	_	_	_	_	_
+638-7	10774-10777	vai	_	vai	_	639-6	linguistic	none	_	_	_	_	_
+638-8	10778-10779	a	_	a	_	639-7	linguistic	none	_	_	_	_	_
+638-9	10780-10785	piedi	WeaklyRising	piedi,	_	639-8	linguistic	none	_	_	_	_	_
+638-10	10786-10793	autobus	Rising	autobus:?	_	639-9	linguistic	none	6x1	_	_	_	_
+
+#Text=autobus
+639-1	10794-10801	autobus	_	autobus	PSB034	640-0	linguistic	none	_	_	_	_	_
+
+#Text=autobus
+640-1	10802-10809	autobus	_	autobus	PSB014	641-0	linguistic	none	_	_	_	_	_
+
+#Text=autobus o menopatino
+641-1	10810-10817	autobus	WeaklyRising	autobus,	PSB034	642-0	linguistic	none	_	_	_	_	_
+641-2	10818-10819	o	WeaklyRising	o::,	_	642-1	linguistic	none	0x2	_	_	_	_
+641-3	10820-10830	menopatino	_	$meno°patino°	_	642-2	linguistic	yes	_	_	_	_	_
+
+#Text=ah
+642-1	10831-10833	ah	_	\[°ah°\]	PSB033	643-0	linguistic	none	_	_	_	*->155-1	*[155]
+
+#Text=ah monopattino bello e quanto ci metti
+643-1	10834-10836	ah	_	\[A:H\]	PSB014	644-0	linguistic	none	0x1	_	_	*->155-2	*[155]
+643-2	10837-10848	monopattino	WeaklyRising	monopattino:,	_	644-1	linguistic	none	10x1	_	_	_	_
+643-3	10849-10854	bello	WeaklyRising	bello::,	_	644-2	linguistic	none	4x2	_	_	_	_
+643-4	10855-10856	e	_	e	_	644-3	linguistic	none	_	_	_	_	_
+643-5	10857-10863	quanto	_	quanto	_	644-4	linguistic	none	_	_	_	_	_
+643-6	10864-10866	ci	_	ci	_	644-5	linguistic	none	_	_	_	_	_
+643-7	10867-10872	metti	Rising	metti?	_	644-6	linguistic	none	_	_	_	_	_
+
+#Text=e quanto tempo ci metti
+644-1	10873-10874	e	WeaklyRising	e:,	PSB014	645-0	linguistic	none	0x1	_	_	_	_
+644-2	10875-10881	quanto	_	quanto	_	645-1	linguistic	none	_	_	_	_	_
+644-3	10882-10887	tempo	_	tempo	_	645-2	linguistic	none	_	_	_	_	_
+644-4	10888-10890	ci	_	ci	_	645-3	linguistic	none	_	_	_	_	_
+644-5	10891-10896	metti	Rising	metti?	_	645-4	linguistic	none	_	_	_	_	_
+
+#Text=quindici minuti
+645-1	10897-10905	quindici	_	quindici:	PSB034	646-0	linguistic	none	7x1	_	_	_	_
+645-2	10906-10912	minuti	_	\[minuti\]	_	646-1	linguistic	none	_	_	_	*->156-1	*[156]
+
+#Text=quindici minuti quindi vicino
+646-1	10913-10921	quindici	_	\[quindici	PSB033	647-0	linguistic	none	_	_	_	_	_
+646-2	10922-10928	minuti	WeaklyRising	minuti\],	_	647-1	linguistic	none	_	_	_	_	_
+646-3	10929-10935	quindi	_	quindi	_	647-2	linguistic	none	_	_	_	_	_
+646-4	10936-10942	vicino	_	vicino	_	647-3	linguistic	none	_	_	_	_	_
+
+#Text=sì
+647-1	10943-10945	sì	_	°sì°	PSB034	648-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+648-1	10946-10948	sì	_	°sì°	PSB034	649-0	linguistic	none	_	_	_	_	_
+
+#Text=mh
+649-1	10949-10951	mh	_	m::h	PSB014	650-0	linguistic	none	0x2	_	_	_	_
+
+#Text=e il bus ti piace
+650-1	10952-10953	e	_	e::	PSB014	651-0	linguistic	none	0x2	_	_	_	_
+650-2	10954-10956	il	_	il	_	651-1	linguistic	none	_	_	_	_	_
+650-3	10957-10960	bus	_	bus	_	651-2	linguistic	none	_	_	_	_	_
+650-4	10961-10963	ti	_	ti	_	651-3	linguistic	none	_	_	_	_	_
+650-5	10964-10969	piace	Rising	piace?	_	651-4	linguistic	none	_	_	_	_	_
+
+#Text=cosa~ quale preferisci monopattino autobus
+651-1	10970-10975	cosa~	_	>cosa~	PSB014	652-0	linguistic	none	_	Fast=0-5(0)	_	_	_
+651-2	10976-10981	quale	_	quale	_	652-1	linguistic	none	_	Fast=0-5(0)	_	_	_
+651-3	10982-10992	preferisci	WeaklyRising	preferisci<,	_	652-2	linguistic	none	_	Fast=0-10(0)	_	_	_
+651-4	10993-11004	monopattino	WeaklyRising	monopattino,	_	652-3	linguistic	none	_	_	_	_	_
+651-5	11005-11012	autobus	Rising	autobus:?	_	652-4	linguistic	none	6x1	_	_	_	_
+
+#Text=monopattino
+652-1	11013-11024	monopattino	_	mono°pattino°	PSB034	653-0	linguistic	none	_	_	_	_	_
+
+#Text=monopattino perché ((ride))
+653-1	11025-11036	monopattino	WeaklyRising	\[monopattino\],	PSB014	654-0	linguistic	none	_	_	_	*->193-1	*[193]
+653-2	11037-11043	perché	Rising	perché?	_	654-1	linguistic	none	_	_	_	_	_
+653-3	11044-11052	((ride))	_	((ride))	_	654-2	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=monopattino
+654-1	11053-11064	monopattino	_	\[monopattino\]	PSB033	655-0	linguistic	none	_	_	_	*->193-2	*[193]
+
+#Text=più divertente
+655-1	11065-11068	più	_	più	PSB033	656-0	linguistic	none	_	_	_	_	_
+655-2	11069-11079	divertente	_	diver\[tente\]	_	656-1	linguistic	none	_	_	_	_	_
+655-2.1	11074-11079	tente	_	_	_	_	_	_	_	_	_	*->159-1	*[159]
+
+#Text=((ride)) sì ((ride))
+656-1	11080-11088	((ride))	_	\[((ride))\]	PSB034	657-0	nonverbalbehavior	none	_	_	_	*->159-2	*[159]
+656-2	11089-11091	sì	_	sì	_	657-1	linguistic	none	_	_	_	_	_
+656-3	11092-11100	((ride))	_	\[((ride))\]	_	657-2	nonverbalbehavior	none	_	_	_	*->160-1	*[160]
+
+#Text=per il vento
+657-1	11101-11104	per	_	\[per	PSB033	658-0	linguistic	none	_	_	_	*->160-2	*[160]
+657-2	11105-11107	il	_	il\]	_	658-1	linguistic	none	_	_	_	*->160-3	*[160]
+657-3	11108-11113	vento	Rising	vento?	_	658-2	linguistic	none	_	_	_	_	_
+
+#Text=sì
+658-1	11114-11116	sì	_	sì	PSB034	659-0	linguistic	none	_	_	_	_	_
+
+#Text=((ride))
+659-1	11117-11125	((ride))	_	\[((ride))\]	PSB033	660-0	nonverbalbehavior	none	_	_	_	*->194-1	*[194]
+
+#Text=oh a me fa paura
+660-1	11126-11128	oh	WeaklyRising	\[O::H\],	PSB014	661-0	linguistic	none	0x2	_	_	*->194-2	*[194]
+660-2	11129-11130	a	_	\[a	_	661-1	linguistic	none	_	_	_	*->161-1	*[161]
+660-3	11131-11133	me	_	me	_	661-2	linguistic	none	_	_	_	*->161-2	*[161]
+660-4	11134-11136	fa	_	fa	_	661-3	linguistic	none	_	_	_	*->161-3	*[161]
+660-5	11137-11142	paura	_	paura\]	_	661-4	linguistic	none	_	_	_	*->161-4	*[161]
+
+#Text=((ride))
+661-1	11143-11151	((ride))	_	\[((ride))\]	PSB034	662-0	nonverbalbehavior	none	_	_	_	*->161-5	*[161]
+
+#Text=((colpo_di_tosse))
+662-1	11152-11170	((colpo_di_tosse))	_	((colpo_di_tosse))	PSB033	663-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=((sospiro))
+663-1	11171-11182	((sospiro))	_	((sospiro))	PSB034	664-0	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=a te ((ride))
+664-1	11183-11184	a	_	°a	PSB014	665-0	linguistic	none	_	_	_	_	_
+664-2	11185-11187	te	Rising	te?°	_	665-1	linguistic	none	_	_	_	_	_
+664-3	11188-11196	((ride))	_	((ride))	_	665-2	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=a me piace il monopattino
+665-1	11197-11198	a	_	a	PSB033	666-0	linguistic	none	_	_	_	_	_
+665-2	11199-11201	me	_	me	_	666-1	linguistic	none	_	_	_	_	_
+665-3	11202-11207	piace	_	piace	_	666-2	linguistic	none	_	_	_	_	_
+665-4	11208-11210	il	_	il	_	666-3	linguistic	none	_	_	_	_	_
+665-5	11211-11222	monopattino	_	mono\[°pattino°\]	_	666-4	linguistic	none	_	_	_	_	_
+665-5.1	11215-11222	pattino	_	_	_	_	_	_	_	_	_	*->163-1	*[163]
+
+#Text=a me no ((ride))
+666-1	11223-11224	a	_	\[a	PSB014	667-0	linguistic	none	_	_	_	*->163-2	*[163]
+666-2	11225-11227	me	_	me\]	_	667-1	linguistic	none	_	_	_	*->163-3	*[163]
+666-3	11228-11230	no	_	no	_	667-2	linguistic	none	_	_	_	_	_
+666-4	11231-11239	((ride))	_	((ride))	_	667-3	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=è divertente sìsì tu hai la luce
+667-1	11240-11241	è	_	è	PSB033	668-0	linguistic	none	_	_	_	_	_
+667-2	11242-11252	divertente	WeaklyRising	divertente,	_	668-1	linguistic	none	_	_	_	_	_
+667-3	11253-11257	sìsì	WeaklyRising	\[sìsì,	_	668-2	linguistic	none	_	_	_	*->195-1	*[195]
+667-4	11258-11260	tu	_	(°tu	_	668-3	linguistic	none	_	_	0-2(0)	*->195-2	*[195]
+667-5	11261-11264	hai	_	hai	_	668-4	linguistic	none	_	_	0-3(0)	*->195-3	*[195]
+667-6	11265-11267	la	_	la	_	668-5	linguistic	none	_	_	0-2(0)	*->195-4	*[195]
+667-7	11268-11272	luce	Rising	luce?°)\]	_	668-6	linguistic	none	_	_	0-4(0)	*->195-5	*[195]
+
+#Text=però l' auc~ eh
+668-1	11273-11277	però	_	\[però	PSB014	669-0	linguistic	none	_	_	_	_	_
+668-2	11278-11280	l'	_	l'	_	669-1	linguistic	none	_	_	_	_	_
+668-3	11281-11285	auc~	WeaklyRising	auc~\],	_	669-2	linguistic	none	_	_	_	_	_
+668-4	11286-11288	eh	_	\[e::h\]	_	669-3	linguistic	none	0x2	_	_	_	_
+
+#Text=perché non mi piace
+669-1	11289-11295	perché	_	\[perché\]	PSB034	670-0	linguistic	none	_	_	_	*->195-6	*[195]
+669-2	11296-11299	non	_	non	_	670-1	linguistic	none	_	_	_	_	_
+669-3	11300-11302	mi	_	mi	_	670-2	linguistic	none	_	_	_	_	_
+669-4	11303-11308	piace	_	piace	_	670-3	linguistic	none	_	_	_	_	_
+
+#Text=no
+670-1	11309-11311	no	Rising	no:?	PSB014	671-0	linguistic	none	1x1	_	_	_	_
+
+#Text=però l' autobus c' è tante gente non mi piace neanche quindi
+671-1	11312-11316	però	_	però	PSB014	672-0	linguistic	none	_	_	_	_	_
+671-2	11317-11319	l'	_	l'	_	672-1	linguistic	none	_	_	_	_	_
+671-3	11320-11327	autobus	WeaklyRising	autobus:,	_	672-2	linguistic	none	6x1	_	_	_	_
+671-4	11328-11330	c'	_	c'	_	672-3	linguistic	none	_	_	_	_	_
+671-5	11331-11332	è	_	è	_	672-4	linguistic	none	_	_	_	_	_
+671-6	11333-11338	tante	_	tante	_	672-5	linguistic	none	_	_	_	_	_
+671-7	11339-11344	gente	WeaklyRising	gente:,	_	672-6	linguistic	none	4x1	_	_	_	_
+671-8	11345-11348	non	_	non	_	672-7	linguistic	none	_	_	_	_	_
+671-9	11349-11351	mi	_	mi	_	672-8	linguistic	none	_	_	_	_	_
+671-10	11352-11357	piace	_	piace	_	672-9	linguistic	none	_	_	_	_	_
+671-11	11358-11365	neanche	WeaklyRising	neanche,	_	672-10	linguistic	none	_	_	_	_	_
+671-12	11366-11372	quindi	_	quindi::	_	672-11	linguistic	none	5x2	_	_	_	_
+
+#Text=hai preso anche il treno per caso treno
+672-1	11373-11376	hai	_	hai	PSB014	673-0	linguistic	none	_	_	_	_	_
+672-2	11377-11382	preso	_	preso	_	673-1	linguistic	none	_	_	_	_	_
+672-3	11383-11388	anche	_	anche	_	673-2	linguistic	none	_	_	_	_	_
+672-4	11389-11391	il	_	il	_	673-3	linguistic	none	_	_	_	_	_
+672-5	11392-11397	treno	WeaklyRising	treno,	_	673-4	linguistic	none	_	_	_	_	_
+672-6	11398-11401	per	_	per	_	673-5	linguistic	none	_	_	_	_	_
+672-7	11402-11406	caso	Rising	caso?	_	673-6	linguistic	none	_	_	_	_	_
+672-8	11407-11412	treno	_	treno	_	673-7	linguistic	none	_	_	_	_	_
+
+#Text=sì sì
+673-1	11413-11415	sì	WeaklyRising	\[sì\],	PSB034	674-0	linguistic	none	_	_	_	*->165-1	*[165]
+673-2	11416-11418	sì	_	sì	_	674-1	linguistic	none	_	_	_	_	_
+
+#Text=mhmh per andare nelle altre città
+674-1	11419-11423	mhmh	WeaklyRising	mhmh,	PSB014	675-0	linguistic	none	_	_	_	_	_
+674-2	11424-11427	per	_	per	_	675-1	linguistic	none	_	_	_	_	_
+674-3	11428-11434	andare	_	andare	_	675-2	linguistic	none	_	_	_	_	_
+674-4	11435-11440	nelle	_	nelle	_	675-3	linguistic	none	_	_	_	_	_
+674-5	11441-11446	altre	_	altre	_	675-4	linguistic	none	_	_	_	_	_
+674-6	11447-11452	città	Rising	città?	_	675-5	linguistic	none	_	_	_	_	_
+
+#Text=sì
+675-1	11453-11455	sì	_	sì	PSB034	676-0	linguistic	none	_	_	_	_	_
+
+#Text=mh okay
+676-1	11456-11458	mh	WeaklyRising	m:h,	PSB014	677-0	linguistic	none	0x1	_	_	_	_
+676-2	11459-11463	okay	_	okay	_	677-1	linguistic	none	_	_	_	_	_
+
+#Text=e milano hai detto era bella però forse c' è troppa gente
+677-1	11464-11465	e	WeaklyRising	e::,	PSB014	678-0	linguistic	none	0x2	_	_	_	_
+677-2	11466-11472	milano	_	milano	_	678-1	linguistic	none	_	_	_	_	_
+677-3	11473-11476	hai	_	hai	_	678-2	linguistic	none	_	_	_	_	_
+677-4	11477-11482	detto	WeaklyRising	detto:,	_	678-3	linguistic	none	4x1	_	_	_	_
+677-5	11483-11486	era	_	era	_	678-4	linguistic	none	_	_	_	_	_
+677-6	11487-11492	bella	WeaklyRising	bella,	_	678-5	linguistic	none	_	_	_	_	_
+677-7	11493-11497	però	_	però	_	678-6	linguistic	none	_	_	_	_	_
+677-8	11498-11503	forse	_	forse	_	678-7	linguistic	none	_	_	_	_	_
+677-9	11504-11506	c'	_	c'	_	678-8	linguistic	none	_	_	_	_	_
+677-10	11507-11508	è	_	è	_	678-9	linguistic	none	_	_	_	_	_
+677-11	11509-11515	troppa	_	troppa	_	678-10	linguistic	none	_	_	_	_	_
+677-12	11516-11521	gente	Rising	gente?	_	678-11	linguistic	none	_	_	_	_	_
+
+#Text=sì
+678-1	11522-11524	sì	_	sì	PSB034	679-0	linguistic	none	_	_	_	_	_
+
+#Text=troppa
+679-1	11525-11531	troppa	Rising	troppa?	PSB014	680-0	linguistic	none	_	_	_	_	_
+
+#Text=piena
+680-1	11532-11537	piena	_	<PIENA>	PSB033	681-0	linguistic	none	_	Slow=0-5(0)	_	_	_
+
+#Text=piena
+681-1	11538-11543	piena	_	<PIENA>	PSB014	682-0	linguistic	none	_	Slow=0-5(0)	_	_	_
+
+#Text=xxx
+682-1	11544-11547	xxx	_	xxx	PSB034	683-0	unknown	none	_	_	_	_	_
+
+#Text=troppo
+683-1	11548-11554	troppo	_	troppo	PSB014	684-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+684-1	11555-11557	sì	_	°sì°	PSB034	685-0	linguistic	none	_	_	_	_	_
+
+#Text=ride oh vabbè ehm o t- ti piace la tua zona dove abiti ti piace
+685-1	11558-11562	ride	WeaklyRising	\[((ride))\],	PSB014	686-0	linguistic	none	_	_	_	*->167-1	*[167]
+685-2	11563-11565	oh	WeaklyRising	o::h,	_	686-1	linguistic	none	0x2	_	_	_	_
+685-3	11566-11571	vabbè	WeaklyRising	vabbè,	_	686-2	linguistic	none	_	_	_	_	_
+685-4	11572-11575	ehm	WeaklyRising	e::hm::,	_	686-3	linguistic	none	0x2,2x2	_	_	_	_
+685-5	11576-11577	o	_	>o	_	686-4	linguistic	none	_	Fast=0-1(0)	_	_	_
+685-6	11578-11580	t-	WeaklyRising	t-<,	_	686-5	linguistic	none	_	Fast=0-2(0)	_	_	_
+685-7	11581-11583	ti	_	>ti	_	686-6	linguistic	none	_	Fast=0-2(1)	_	_	_
+685-8	11584-11589	piace	_	piace<	_	686-7	linguistic	none	_	Fast=0-5(1)	_	_	_
+685-9	11590-11592	la	_	la	_	686-8	linguistic	none	_	_	_	_	_
+685-10	11593-11596	tua	_	tua	_	686-9	linguistic	none	_	_	_	_	_
+685-11	11597-11601	zona	_	zona	_	686-10	linguistic	none	_	_	_	_	_
+685-12	11602-11606	dove	_	dove	_	686-11	linguistic	none	_	_	_	_	_
+685-13	11607-11612	abiti	WeaklyRising	abiti,	_	686-12	linguistic	none	_	_	_	_	_
+685-14	11613-11615	ti	_	ti	_	686-13	linguistic	none	_	_	_	_	_
+685-15	11616-11621	piace	Rising	pi\[ace\]?	_	686-14	linguistic	none	_	_	_	_	_
+685-15.1	11618-11621	ace	_	_	_	_	_	_	_	_	_	*->166-1	*[166]
+
+#Text=((ride))
+686-1	11622-11630	((ride))	_	\[((ride))\]	PSB034	687-0	nonverbalbehavior	none	_	_	_	*->167-2	*[167]
+
+#Text=sìsì
+687-1	11631-11635	sìsì	_	\[sìsì\]	PSB034	688-0	linguistic	none	_	_	_	*->166-2	*[166]
+
+#Text=mhmh c' è tutto vicino
+688-1	11636-11640	mhmh	WeaklyRising	mhmh,	PSB014	689-0	linguistic	none	_	_	_	_	_
+688-2	11641-11643	c'	_	c'	_	689-1	linguistic	none	_	_	_	_	_
+688-3	11644-11645	è	_	è	_	689-2	linguistic	none	_	_	_	_	_
+688-4	11646-11651	tutto	_	\[tutto	_	689-3	linguistic	none	_	_	_	*->168-1	*[168]
+688-5	11652-11658	vicino	_	vicino\]	_	689-4	linguistic	none	_	_	_	*->168-2	*[168]
+
+#Text=tranquilla zona tranquilla sì
+689-1	11659-11669	tranquilla	_	\[°tranquilla	PSB034	690-0	linguistic	none	_	_	_	*->168-3	*[168]
+689-2	11670-11674	zona	WeaklyRising	zo\]na,	_	690-1	linguistic	none	_	_	_	_	_
+689-2.1	11670-11672	zo	_	_	_	_	_	_	_	_	_	*->168-4	*[168]
+689-3	11675-11685	tranquilla	_	\[tranquilla	_	690-2	linguistic	none	_	_	_	*->169-1	*[169]
+689-4	11686-11688	sì	_	sì°\]	_	690-3	linguistic	none	_	_	_	*->169-2	*[169]
+
+#Text=tranquilla
+690-1	11689-11699	tranquilla	Rising	\[tranquilla\]?	PSB014	691-0	linguistic	none	_	_	_	*->169-3	*[169]
+
+#Text=ah
+691-1	11700-11702	ah	_	\[°ah°\]	PSB033	692-0	linguistic	none	_	_	_	*->170-1	*[170]
+
+#Text=non ci succede niente di brutto
+692-1	11703-11706	non	_	\[non	PSB014	693-0	linguistic	none	_	_	_	*->170-2	*[170]
+692-2	11707-11709	ci	_	ci\]	_	693-1	linguistic	none	_	_	_	*->170-3	*[170]
+692-3	11710-11717	succede	_	succede	_	693-2	linguistic	none	_	_	_	_	_
+692-4	11718-11724	niente	_	niente	_	693-3	linguistic	none	_	_	_	_	_
+692-5	11725-11727	di	_	di	_	693-4	linguistic	none	_	_	_	_	_
+692-6	11728-11734	brutto	_	brutto:	_	693-5	linguistic	none	5x1	_	_	_	_
+
+#Text=sì no
+693-1	11735-11737	sì	WeaklyRising	sì,	PSB034	694-0	linguistic	none	_	_	_	_	_
+693-2	11738-11740	no	_	no	_	694-1	linguistic	none	_	_	_	_	_
+
+#Text=no tranquilla
+694-1	11741-11743	no	WeaklyRising	no,	PSB014	695-0	linguistic	none	_	_	_	_	_
+694-2	11744-11754	tranquilla	_	tranquilla	_	695-1	linguistic	none	_	_	_	_	_
+
+#Text=non c' è
+695-1	11755-11758	non	_	non	PSB034	696-0	linguistic	none	_	_	_	_	_
+695-2	11759-11761	c'	_	c'	_	696-1	linguistic	none	_	_	_	_	_
+695-3	11762-11763	è	_	è	_	696-2	linguistic	none	_	_	_	_	_
+
+#Text=mhmhmh
+696-1	11764-11770	mhmhmh	_	>mhmhmh<	PSB014	697-0	linguistic	none	_	Fast=0-6(0)	_	_	_
+
+#Text=io invece abito lontano pilastro ((ride)) , quindi
+697-1	11771-11773	io	_	io	PSB014	698-0	linguistic	none	_	_	_	_	_
+697-2	11774-11780	invece	_	>invece<	_	698-1	linguistic	none	_	Fast=0-6(0)	_	_	_
+697-3	11781-11786	abito	_	abito	_	698-2	linguistic	none	_	_	_	_	_
+697-4	11787-11794	lontano	WeaklyRising	lontano,	_	698-3	linguistic	none	_	_	_	_	_
+697-5	11795-11803	pilastro	_	pilastro	_	698-4	linguistic	none	_	_	_	_	_
+697-6	11804-11812	((ride))	_	((ride))	_	698-5	nonverbalbehavior	none	_	_	_	_	_
+697-7	11813-11814	,	_	,	_	698-6	error	none	_	_	_	_	_
+697-8	11815-11821	quindi	_	quindi	_	698-7	linguistic	none	_	_	_	_	_
+
+#Text=eh vabbè
+698-1	11822-11824	eh	_	°eh	PSB033	699-0	linguistic	none	_	_	_	_	_
+698-2	11825-11830	vabbè	_	vabbè°	_	699-1	linguistic	none	_	_	_	_	_
+
+#Text=eh
+699-1	11831-11833	eh	_	eh	PSB014	700-0	linguistic	none	_	_	_	_	_
+
+#Text=ehm quindi ti piace insomma
+700-1	11834-11837	ehm	WeaklyRising	e::hm::,	PSB014	701-0	linguistic	none	0x2,2x2	_	_	_	_
+700-2	11838-11844	quindi	_	quindi	_	701-1	linguistic	none	_	_	_	_	_
+700-3	11845-11847	ti	_	ti	_	701-2	linguistic	none	_	_	_	_	_
+700-4	11848-11853	piace	_	piace	_	701-3	linguistic	none	_	_	_	_	_
+700-5	11854-11861	insomma	_	insomma	_	701-4	linguistic	none	_	_	_	_	_
+
+#Text=e ti sei mai spostato oppure hai sempre vissuto qua in @nomeluogo sempre @nomeluogo
+701-1	11862-11863	e	WeaklyRising	e::,	PSB014	702-0	linguistic	none	0x2	_	_	_	_
+701-2	11864-11866	ti	_	ti	_	702-1	linguistic	none	_	_	_	_	_
+701-3	11867-11870	sei	_	sei	_	702-2	linguistic	none	_	_	_	_	_
+701-4	11871-11874	mai	_	mai	_	702-3	linguistic	none	_	_	_	_	_
+701-5	11875-11883	spostato	WeaklyRising	spostato,	_	702-4	linguistic	none	_	_	_	_	_
+701-6	11884-11890	oppure	_	oppure	_	702-5	linguistic	none	_	_	_	_	_
+701-7	11891-11894	hai	_	hai	_	702-6	linguistic	none	_	_	_	_	_
+701-8	11895-11901	sempre	_	sempre	_	702-7	linguistic	none	_	_	_	_	_
+701-9	11902-11909	vissuto	_	vissuto	_	702-8	linguistic	none	_	_	_	_	_
+701-10	11910-11913	qua	_	qua	_	702-9	linguistic	none	_	_	_	_	_
+701-11	11914-11916	in	_	in	_	702-10	linguistic	none	_	_	_	_	_
+701-12	11917-11927	@nomeluogo	Rising	@nomeluogo?	_	702-11	anonymized	none	_	_	_	_	_
+701-13	11928-11934	sempre	_	sempre	_	702-12	linguistic	none	_	_	_	_	_
+701-14	11935-11945	@nomeluogo	Rising	@nomeluogo?	_	702-13	anonymized	none	_	_	_	_	_
+
+#Text=sempre @nomeluogo sì
+702-1	11946-11952	sempre	_	sempre	PSB034	703-0	linguistic	none	_	_	_	_	_
+702-2	11953-11963	@nomeluogo	_	@nomeluogo	_	703-1	anonymized	none	_	_	_	_	_
+702-3	11964-11966	sì	_	\[°sì°\]	_	703-2	linguistic	none	_	_	_	*->172-1	*[172]
+
+#Text=okay
+703-1	11967-11971	okay	_	\[ok\]ay	PSB014	704-0	linguistic	none	_	_	_	_	_
+703-1.1	11967-11969	ok	_	_	_	_	_	_	_	_	_	*->172-2	*[172]
+
+#Text=però ti piacerebbe andare a- altrove
+704-1	11972-11976	però	WeaklyRising	però:,	PSB014	705-0	linguistic	none	3x1	_	_	_	_
+704-2	11977-11979	ti	_	ti	_	705-1	linguistic	none	_	_	_	_	_
+704-3	11980-11990	piacerebbe	_	piacerebbe	_	705-2	linguistic	none	_	_	_	_	_
+704-4	11991-11997	andare	_	>andare	_	705-3	linguistic	none	_	Fast=0-6(0)	_	_	_
+704-5	11998-12000	a-	WeaklyRising	a-<,	_	705-4	linguistic	none	_	Fast=0-2(0)	_	_	_
+704-6	12001-12008	altrove	Rising	altrove?	_	705-5	linguistic	none	_	_	_	_	_
+
+#Text=non capito
+705-1	12009-12012	non	_	non	PSB034	706-0	linguistic	none	_	_	_	_	_
+705-2	12013-12019	capito	_	capi°to°	_	706-1	linguistic	none	_	_	_	_	_
+
+#Text=ehm
+706-1	12020-12023	ehm	_	ehm::	PSB014	707-0	linguistic	none	2x2	_	_	_	_
+
+#Text=ti piacerebbe spostarti magari altra città
+707-1	12024-12026	ti	_	ti	PSB014	708-0	linguistic	none	_	_	_	_	_
+707-2	12027-12037	piacerebbe	_	piacerebbe	_	708-1	linguistic	none	_	_	_	_	_
+707-3	12038-12047	spostarti	_	spostarti	_	708-2	linguistic	none	_	_	_	_	_
+707-4	12048-12054	magari	Rising	magari?	_	708-3	linguistic	none	_	_	_	_	_
+707-5	12055-12060	altra	_	altra	_	708-4	linguistic	none	_	_	_	_	_
+707-6	12061-12066	città	Rising	città?	_	708-5	linguistic	none	_	_	_	_	_
+
+#Text=mh no
+708-1	12067-12069	mh	WeaklyRising	m::h,	PSB034	709-0	linguistic	none	0x2	_	_	_	_
+708-2	12070-12072	no	_	no	_	709-1	linguistic	none	_	_	_	_	_
+
+#Text=no
+709-1	12073-12075	no	Rising	no:?	PSB014	710-0	linguistic	none	1x1	_	_	_	_
+
+#Text=no
+710-1	12076-12078	no	_	no	PSB034	711-0	linguistic	none	_	_	_	_	_
+
+#Text=nono okay
+711-1	12079-12083	nono	_	nono	PSB014	712-0	linguistic	none	_	_	_	_	_
+711-2	12084-12088	okay	_	\[ok°ay°\]	_	712-1	linguistic	none	_	_	_	*->173-1	*[173]
+
+#Text=meglio qua si sta bene qua
+712-1	12089-12095	meglio	_	\[me\]glio	PSB033	713-0	linguistic	none	_	_	_	_	_
+712-1.1	12089-12091	me	_	_	_	_	_	_	_	_	_	*->173-2	*[173]
+712-2	12096-12099	qua	WeaklyRising	qua,	_	713-1	linguistic	none	_	_	_	_	_
+712-3	12100-12102	si	_	si	_	713-2	linguistic	none	_	_	_	_	_
+712-4	12103-12106	sta	_	sta	_	713-3	linguistic	none	_	_	_	_	_
+712-5	12107-12111	bene	_	bene	_	713-4	linguistic	none	_	_	_	_	_
+712-6	12112-12115	qua	_	qua	_	713-5	linguistic	none	_	_	_	_	_
+
+#Text=sì ((ride))
+713-1	12116-12118	sì	_	sì	PSB034	714-0	linguistic	none	_	_	_	_	_
+713-2	12119-12127	((ride))	_	\[((ride))\]	_	714-1	nonverbalbehavior	none	_	_	_	*->174-1	*[174]
+
+#Text=okay ehm hai detto che hai provato cibo italiano mh ti piace quindi e
+714-1	12128-12132	okay	WeaklyRising	\[okay,	PSB014	715-0	linguistic	none	_	_	_	*->174-2	*[174]
+714-2	12133-12136	ehm	WeaklyRising	e:hm:\],	_	715-1	linguistic	none	0x1,2x1	_	_	*->174-3	*[174]
+714-3	12137-12140	hai	_	>hai	_	715-2	linguistic	none	_	Fast=0-3(0)	_	_	_
+714-4	12141-12146	detto	_	detto	_	715-3	linguistic	none	_	Fast=0-5(0)	_	_	_
+714-5	12147-12150	che	_	che	_	715-4	linguistic	none	_	Fast=0-3(0)	_	_	_
+714-6	12151-12154	hai	_	hai	_	715-5	linguistic	none	_	Fast=0-3(0)	_	_	_
+714-7	12155-12162	provato	_	provato<	_	715-6	linguistic	none	_	Fast=0-7(0)	_	_	_
+714-8	12163-12167	cibo	_	cibo	_	715-7	linguistic	none	_	_	_	_	_
+714-9	12168-12176	italiano	WeaklyRising	italiano,	_	715-8	linguistic	none	_	_	_	_	_
+714-10	12177-12179	mh	WeaklyRising	m::h,	_	715-9	linguistic	none	0x2	_	_	_	_
+714-11	12180-12182	ti	_	ti	_	715-10	linguistic	none	_	_	_	_	_
+714-12	12183-12188	piace	_	piace	_	715-11	linguistic	none	_	_	_	_	_
+714-13	12189-12195	quindi	Rising	quindi?	_	715-12	linguistic	none	_	_	_	_	_
+714-14	12196-12197	e	_	e::	_	715-13	linguistic	none	0x2	_	_	_	_
+
+#Text=piatto preferito
+715-1	12198-12204	piatto	_	piatto	PSB033	716-0	linguistic	none	_	_	_	_	_
+715-2	12205-12214	preferito	Rising	preferito?	_	716-1	linguistic	none	_	_	_	_	_
+
+#Text=italiano
+716-1	12215-12223	italiano	_	italiano	PSB014	717-0	linguistic	none	_	_	_	_	_
+
+#Text=e la pasta
+717-1	12224-12225	e	_	e	PSB033	718-0	linguistic	none	_	_	_	_	_
+717-2	12226-12228	la	_	la	_	718-1	linguistic	none	_	_	_	_	_
+717-3	12229-12234	pasta	_	pasta:	_	718-2	linguistic	none	4x1	_	_	_	_
+
+#Text=e
+718-1	12235-12236	e	_	\[e:::\]	PSB033	719-0	linguistic	none	0x3	_	_	*->196-1	*[196]
+
+#Text=sì
+719-1	12237-12239	sì	_	\[sì\]	PSB034	720-0	linguistic	none	_	_	_	*->196-2	*[196]
+
+#Text=quale ti piace di più
+720-1	12240-12245	quale	_	\[quale\]	PSB014	721-0	linguistic	none	_	_	_	*->196-3	*[196]
+720-2	12246-12248	ti	_	ti	_	721-1	linguistic	none	_	_	_	_	_
+720-3	12249-12254	piace	_	piace	_	721-2	linguistic	none	_	_	_	_	_
+720-4	12255-12257	di	_	di	_	721-3	linguistic	none	_	_	_	_	_
+720-5	12258-12261	più	Rising	più?	_	721-4	linguistic	none	_	_	_	_	_
+
+#Text=la più buona
+721-1	12262-12264	la	_	la	PSB033	722-0	linguistic	none	_	_	_	_	_
+721-2	12265-12268	più	_	\[più	_	722-1	linguistic	none	_	_	_	*->175-1	*[175]
+721-3	12269-12274	buona	_	buona\]	_	722-2	linguistic	none	_	_	_	*->175-2	*[175]
+
+#Text=la migliore
+722-1	12275-12277	la	_	\[la	PSB014	723-0	linguistic	none	_	_	_	*->175-3	*[175]
+722-2	12278-12286	migliore	_	migliore\]	_	723-1	linguistic	none	_	_	_	*->175-4	*[175]
+
+#Text=la più buona
+723-1	12287-12289	la	_	la	PSB033	724-0	linguistic	none	_	_	_	_	_
+723-2	12290-12293	più	_	più	_	724-1	linguistic	none	_	_	_	_	_
+723-3	12294-12299	buona	_	buona	_	724-2	linguistic	none	_	_	_	_	_
+
+#Text=eh
+724-1	12300-12302	eh	_	\[e:::h\]	PSB033	725-0	linguistic	none	0x3	_	_	*->176-1	*[176]
+
+#Text=mh
+725-1	12303-12305	mh	_	\[m:::h\]	PSB034	726-0	linguistic	none	0x3	_	_	_	_
+
+#Text=la carbonara la pasta col pomodoro
+726-1	12306-12308	la	_	<la	PSB033	727-0	linguistic	none	_	Slow=0-2(0)	_	_	_
+726-2	12309-12318	carbonara	WeaklyRising	carbonara:,	_	727-1	linguistic	none	8x1	Slow=0-9(0)	_	_	_
+726-3	12319-12321	la	_	la	_	727-2	linguistic	none	_	Slow=0-2(0)	_	_	_
+726-4	12322-12327	pasta	_	pasta	_	727-3	linguistic	none	_	Slow=0-5(0)	_	_	_
+726-5	12328-12331	col	_	col	_	727-4	linguistic	none	_	Slow=0-3(0)	_	_	_
+726-6	12332-12340	pomodoro	_	pomodoro:>	_	727-5	linguistic	none	7x1	Slow=0-8(0)	_	_	_
+
+#Text=pasta e pizza
+727-1	12341-12346	pasta	_	pasta	PSB034	728-0	linguistic	none	_	_	_	_	_
+727-2	12347-12348	e	WeaklyRising	e::,	_	728-1	linguistic	none	0x2	_	_	_	_
+727-3	12349-12354	pizza	_	pizza	_	728-2	linguistic	none	_	_	_	_	_
+
+#Text=ah azz~
+728-1	12355-12357	ah	WeaklyRising	°ah,	PSB033	729-0	linguistic	none	_	_	_	_	_
+728-2	12358-12362	azz~	_	(azz~)°	_	729-1	linguistic	none	_	_	0-4(0)	_	_
+
+#Text=lasagna l' hai provata
+729-1	12363-12370	lasagna	_	lasagna	PSB014	730-0	linguistic	none	_	_	_	_	_
+729-2	12371-12373	l'	_	l'	_	730-1	linguistic	none	_	_	_	_	_
+729-3	12374-12377	hai	_	hai	_	730-2	linguistic	none	_	_	_	_	_
+729-4	12378-12385	provata	Rising	provata?	_	730-3	linguistic	none	_	_	_	_	_
+
+#Text=lasagna
+730-1	12386-12393	lasagna	Rising	\[lasagna\]?	PSB014	731-0	linguistic	none	_	_	_	*->178-1	*[178]
+
+#Text=no mi piace lasagne
+731-1	12394-12396	no	WeaklyRising	\[no,	PSB034	732-0	linguistic	none	_	_	_	*->178-2	*[178]
+731-2	12397-12399	mi	_	mi	_	732-1	linguistic	none	_	_	_	*->178-3	*[178]
+731-3	12400-12405	piace	_	pia\]ce	_	732-2	linguistic	none	_	_	_	_	_
+731-3.1	12400-12403	pia	_	_	_	_	_	_	_	_	_	*->178-4	*[178]
+731-4	12406-12413	lasagne	_	\[°lasagne°\]	_	732-3	linguistic	none	_	_	_	*->179-1	*[179]
+
+#Text=sì
+732-1	12414-12416	sì	Rising	\[sì:\]?	PSB014	733-0	linguistic	none	1x1	_	_	*->179-2	*[179]
+
+#Text=buona
+733-1	12417-12422	buona	_	°bu\[ona°\]	PSB034	734-0	linguistic	none	_	_	_	_	_
+733-1.1	12419-12422	ona	_	_	_	_	_	_	_	_	_	*->180-1	*[180]
+
+#Text=e cos' altro c' è
+734-1	12423-12424	e	WeaklyRising	\[e::\],	PSB014	735-0	linguistic	none	0x2	_	_	*->180-2	*[180]
+734-2	12425-12429	cos'	_	cos'	_	735-1	linguistic	none	_	_	_	_	_
+734-3	12430-12435	altro	_	altro	_	735-2	linguistic	none	_	_	_	_	_
+734-4	12436-12438	c'	_	c'	_	735-3	linguistic	none	_	_	_	_	_
+734-5	12439-12440	è	Rising	è?	_	735-4	linguistic	none	_	_	_	_	_
+
+#Text=a bologna ci sono i tortellini però
+735-1	12441-12442	a	_	>a	PSB014	736-0	linguistic	none	_	Fast=0-1(0)	_	_	_
+735-2	12443-12450	bologna	_	bologna	_	736-1	linguistic	none	_	Fast=0-7(0)	_	_	_
+735-3	12451-12453	ci	_	ci	_	736-2	linguistic	none	_	Fast=0-2(0)	_	_	_
+735-4	12454-12458	sono	_	sono	_	736-3	linguistic	none	_	Fast=0-4(0)	_	_	_
+735-5	12459-12460	i	_	i	_	736-4	linguistic	none	_	Fast=0-1(0)	_	_	_
+735-6	12461-12471	tortellini	WeaklyRising	tortellini<,	_	736-5	linguistic	none	_	Fast=0-10(0)	_	_	_
+735-7	12472-12476	però	_	però::	_	736-6	linguistic	none	3x2	_	_	_	_
+
+#Text=tortellini no
+736-1	12477-12487	tortellini	_	tor\[tellini	PSB034	737-0	linguistic	none	_	_	_	_	_
+736-1.1	12480-12487	tellini	_	_	_	_	_	_	_	_	_	*->181-1	*[181]
+736-2	12488-12490	no	_	no\]	_	737-1	linguistic	none	_	_	_	*->181-2	*[181]
+
+#Text=tortellini no
+737-1	12491-12501	tortellini	_	\[>tortellini	PSB014	738-0	linguistic	none	_	Fast=0-10(0)	_	*->181-3	*[181]
+737-2	12502-12504	no	_	no<\]	_	738-1	linguistic	none	_	Fast=0-2(0)	_	*->181-4	*[181]
+
+#Text=no
+738-1	12505-12507	no	Rising	no:?	PSB033	739-0	linguistic	none	1x1	_	_	_	_
+
+#Text=eh no infatti no neanch' io
+739-1	12508-12510	eh	_	\[eh\]	PSB014	740-0	linguistic	none	_	_	_	*->182-1	*[182]
+739-2	12511-12513	no	WeaklyRising	no,	_	740-1	linguistic	none	_	_	_	_	_
+739-3	12514-12521	infatti	_	infatti	_	740-2	linguistic	none	_	_	_	_	_
+739-4	12522-12524	no	WeaklyRising	no,	_	740-3	linguistic	none	_	_	_	_	_
+739-5	12525-12532	neanch'	_	\[neanch'	_	740-4	linguistic	none	_	_	_	*->183-1	*[183]
+739-6	12533-12535	io	_	io\]	_	740-5	linguistic	none	_	_	_	*->183-2	*[183]
+
+#Text=ah
+740-1	12536-12538	ah	_	\[ah\]	PSB033	741-0	linguistic	none	_	_	_	*->182-2	*[182]
+
+#Text=eh
+741-1	12539-12541	eh	_	\[°eh°\]	PSB033	742-0	linguistic	none	_	_	_	*->183-3	*[183]
+
+#Text=ehm
+742-1	12542-12545	ehm	_	e::hm:	PSB014	743-0	linguistic	none	0x2,2x1	_	_	_	_
+
+#Text=basta
+743-1	12546-12551	basta	_	°basta°	PSB033	744-0	linguistic	none	_	_	_	_	_
+
+#Text=quanto abbiamo fatto
+744-1	12552-12558	quanto	_	>°quanto	PSB014	745-0	linguistic	none	_	Fast=0-6(0)	_	_	_
+744-2	12559-12566	abbiamo	_	abbiamo	_	745-1	linguistic	none	_	Fast=0-7(0)	_	_	_
+744-3	12567-12572	fatto	Rising	fatto?°<	_	745-2	linguistic	none	_	Fast=0-5(0)	_	_	_
+
+#Text=un quarto d' ora
+745-1	12573-12575	un	_	°un	PSB033	746-0	linguistic	none	_	_	_	_	_
+745-2	12576-12582	quarto	_	quarto	_	746-1	linguistic	none	_	_	_	_	_
+745-3	12583-12585	d'	_	d'	_	746-2	linguistic	none	_	_	_	_	_
+745-4	12586-12589	ora	_	ora°	_	746-3	linguistic	none	_	_	_	_	_
+
+#Text=vabbè vabbene graz~ abbiamo fatto
+746-1	12590-12595	vabbè	WeaklyRising	>vabbè,	PSB014	747-0	linguistic	none	_	Fast=0-5(0)	_	_	_
+746-2	12596-12603	vabbene	WeaklyRising	vabbene,	_	747-1	linguistic	none	_	Fast=0-7(0)	_	_	_
+746-3	12604-12609	graz~	WeaklyRising	graz~,	_	747-2	linguistic	none	_	Fast=0-5(0)	_	_	_
+746-4	12610-12617	abbiamo	_	abbiamo	_	747-3	linguistic	none	_	Fast=0-7(0)	_	_	_
+746-5	12618-12623	fatto	_	fatto<	_	747-4	linguistic	none	_	Fast=0-5(0)	_	_	_
+
+#Text=siamo apposto grazie e scusaci un attimo un attimo aspetta aspetta
+747-1	12624-12629	siamo	_	siamo	PSB033	748-0	linguistic	none	_	_	_	_	_
+747-2	12630-12637	apposto	WeaklyRising	apposto,	_	748-1	linguistic	none	_	_	_	_	_
+747-3	12638-12644	grazie	WeaklyRising	\[grazie,	_	748-2	linguistic	none	_	_	_	_	_
+747-4	12645-12646	e	_	e	_	748-3	linguistic	none	_	_	_	_	_
+747-5	12647-12654	scusaci	_	scusaci	_	748-4	linguistic	none	_	_	_	_	_
+747-6	12655-12657	un	_	un	_	748-5	linguistic	none	_	_	_	_	_
+747-7	12658-12664	attimo	WeaklyRising	attimo,	_	748-6	linguistic	none	_	_	_	_	_
+747-8	12665-12667	un	_	un	_	748-7	linguistic	none	_	_	_	_	_
+747-9	12668-12674	attimo	WeaklyRising	attimo\],	_	748-8	linguistic	none	_	_	_	_	_
+747-10	12675-12682	aspetta	WeaklyRising	\[aspetta,	_	748-9	linguistic	none	_	_	_	_	_
+747-11	12683-12690	aspetta	_	aspetta\]	_	748-10	linguistic	none	_	_	_	_	_
+
+#Text=grazie mille e scusaci per averti disturbato
+748-1	12691-12697	grazie	_	\[GRAZIE	PSB014	749-0	linguistic	none	_	_	_	*->197-1	*[197]
+748-2	12698-12703	mille	_	MILLE	_	749-1	linguistic	none	_	_	_	*->197-2	*[197]
+748-3	12704-12705	e	_	e	_	749-2	linguistic	none	_	_	_	*->197-3	*[197]
+748-4	12706-12713	scusaci	_	scusaci	_	749-3	linguistic	none	_	_	_	*->197-4	*[197]
+748-5	12714-12717	per	_	per	_	749-4	linguistic	none	_	_	_	*->197-5	*[197]
+748-6	12718-12724	averti	_	averti	_	749-5	linguistic	none	_	_	_	*->197-6	*[197]
+748-7	12725-12735	disturbato	_	disturbato\]	_	749-6	linguistic	none	_	_	_	*->197-7	*[197]
+
+#Text=grazie mille ciao
+749-1	12736-12742	grazie	_	\[grazie	PSB034	750-0	linguistic	none	_	_	_	*->197-8	*[197]
+749-2	12743-12748	mille	WeaklyRising	mille,	_	750-1	linguistic	none	_	_	_	*->197-9	*[197]
+749-3	12749-12753	ciao	_	ciao\]	_	750-2	linguistic	none	_	_	_	*->197-10	*[197]
+
+#Text=buona lezione
+750-1	12754-12759	buona	_	BUO\[NA	PSB014	751-0	linguistic	none	_	_	_	_	_
+750-1.1	12757-12759	na	_	_	_	_	_	_	_	_	_	*->184-1	*[184]
+750-2	12760-12767	lezione	_	LEZIONE\]	_	751-1	linguistic	none	_	_	_	*->184-2	*[184]
+
+#Text=mh
+751-1	12768-12770	mh	_	\[mh\]	PSB033	752-0	linguistic	none	_	_	_	*->184-3	*[184]

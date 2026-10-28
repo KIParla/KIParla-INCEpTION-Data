@@ -1,0 +1,2267 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_SP=webanno.custom.Type|Type_values
+#T_SP=webanno.custom.code_variation|code_variation_values
+#T_SP=webanno.custom.Prolongation|Prolongation_values
+#T_SP=webanno.custom.Pace|Pace_values
+#T_SP=webanno.custom.Guesses|Guesses_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=ci siete
+1-1	0-2	ci	_	ci	PST211	0-0	linguistic	none	_	_	_	_	_
+1-2	3-8	siete	Rising	siete?	_	0-1	linguistic	none	_	_	_	_	_
+
+#Text=okay allora chi ci manca @mirela ci manca @noemi
+2-1	9-13	okay	_	okay	PST203	1-0	linguistic	none	_	_	_	_	_
+2-2	14-20	allora	_	allora	_	1-1	linguistic	none	_	_	_	_	_
+2-3	21-24	chi	_	chi	_	1-2	linguistic	none	_	_	_	_	_
+2-4	25-27	ci	_	ci	_	1-3	linguistic	none	_	_	_	_	_
+2-5	28-33	manca	_	manca	_	1-4	linguistic	none	_	_	_	_	_
+2-6	34-41	@mirela	_	@mirela	_	1-5	anonymized	none	_	_	_	_	_
+2-7	42-44	ci	_	\[ci	_	1-6	linguistic	none	_	_	_	*->1-1	*[1]
+2-8	45-50	manca	_	manca	_	1-7	linguistic	none	_	_	_	*->1-2	*[1]
+2-9	51-57	@noemi	_	@noemi\]	_	1-8	anonymized	none	_	_	_	*->1-3	*[1]
+
+#Text=ehm @noemi che è in bagno
+3-1	58-61	ehm	_	\[e::hm	PST211	2-0	linguistic	none	0x2	_	_	*->1-4	*[1]
+3-2	62-68	@noemi	_	@noemi	_	2-1	anonymized	none	_	_	_	*->1-5	*[1]
+3-3	69-72	che	_	che	_	2-2	linguistic	none	_	_	_	*->1-6	*[1]
+3-4	73-74	è	_	è	_	2-3	linguistic	none	_	_	_	*->1-7	*[1]
+3-5	75-77	in	_	in	_	2-4	linguistic	none	_	_	_	*->1-8	*[1]
+3-6	78-83	bagno	_	bagno\]	_	2-5	linguistic	none	_	_	_	*->1-9	*[1]
+
+#Text=okay aspettiamo @noemi che è in bagno
+4-1	84-88	okay	_	okay	PST203	3-0	linguistic	none	_	_	_	_	_
+4-2	89-99	aspettiamo	_	aspettiamo	_	3-1	linguistic	none	_	_	_	_	_
+4-3	100-106	@noemi	_	@noemi	_	3-2	anonymized	none	_	_	_	_	_
+4-4	107-110	che	_	che	_	3-3	linguistic	none	_	_	_	_	_
+4-5	111-112	è	_	è	_	3-4	linguistic	none	_	_	_	_	_
+4-6	113-115	in	_	in	_	3-5	linguistic	none	_	_	_	_	_
+4-7	116-121	bagno	WeaklyRising	bagno,	_	3-6	linguistic	none	_	_	_	_	_
+
+#Text=adesso ovviamente indovinate un po' cosa faremo
+5-1	122-128	adesso	_	adesso	PST203	4-0	linguistic	none	_	_	_	_	_
+5-2	129-139	ovviamente	_	ovviamente	_	4-1	linguistic	none	_	_	_	_	_
+5-3	140-150	indovinate	_	indovinate	_	4-2	linguistic	none	_	_	_	_	_
+5-4	151-153	un	_	un	_	4-3	linguistic	none	_	_	_	_	_
+5-5	154-157	po'	_	po'	_	4-4	linguistic	none	_	_	_	_	_
+5-6	158-162	cosa	_	cosa	_	4-5	linguistic	none	_	_	_	_	_
+5-7	163-169	faremo	_	faremo	_	4-6	linguistic	none	_	_	_	_	_
+
+#Text=ci racconteremo ogni gruppo racconterà all' altro
+6-1	170-172	ci	_	ci	PST203	5-0	linguistic	none	_	_	_	_	_
+6-2	173-185	racconteremo	_	racconteremo	_	5-1	linguistic	none	_	_	_	_	_
+6-3	186-190	ogni	_	ogni	_	5-2	linguistic	none	_	_	_	_	_
+6-4	191-197	gruppo	_	gruppo	_	5-3	linguistic	none	_	_	_	_	_
+6-5	198-208	racconterà	_	racconterà	_	5-4	linguistic	none	_	_	_	_	_
+6-6	209-213	all'	_	all'	_	5-5	linguistic	none	_	_	_	_	_
+6-7	214-219	altro	WeaklyRising	altro,	_	5-6	linguistic	none	_	_	_	_	_
+
+#Text=più o meno a quello che avete pensato alcune cose saranno in comu~ tanto siete sempre voi non è che ehm le farà altra gente
+7-1	220-223	più	_	più	PST203	6-0	linguistic	none	_	_	_	_	_
+7-2	224-225	o	_	o	_	6-1	linguistic	none	_	_	_	_	_
+7-3	226-230	meno	_	meno	_	6-2	linguistic	none	_	_	_	_	_
+7-4	231-232	a	_	a	_	6-3	linguistic	none	_	_	_	_	_
+7-5	233-239	quello	_	quello	_	6-4	linguistic	none	_	_	_	_	_
+7-6	240-243	che	_	che	_	6-5	linguistic	none	_	_	_	_	_
+7-7	244-249	avete	_	avete	_	6-6	linguistic	none	_	_	_	_	_
+7-8	250-257	pensato	_	pensato	_	6-7	linguistic	none	_	_	_	_	_
+7-9	258-264	alcune	_	alcune	_	6-8	linguistic	none	_	_	_	_	_
+7-10	265-269	cose	_	cose	_	6-9	linguistic	none	_	_	_	_	_
+7-11	270-277	saranno	_	saranno	_	6-10	linguistic	none	_	_	_	_	_
+7-12	278-280	in	_	in	_	6-11	linguistic	none	_	_	_	_	_
+7-13	281-286	comu~	_	comu~	_	6-12	linguistic	none	_	_	_	_	_
+7-14	287-292	tanto	_	tanto	_	6-13	linguistic	none	_	_	_	_	_
+7-15	293-298	siete	_	siete	_	6-14	linguistic	none	_	_	_	_	_
+7-16	299-305	sempre	_	sempre	_	6-15	linguistic	none	_	_	_	_	_
+7-17	306-309	voi	_	voi	_	6-16	linguistic	none	_	_	_	_	_
+7-18	310-313	non	_	non	_	6-17	linguistic	none	_	_	_	_	_
+7-19	314-315	è	_	è	_	6-18	linguistic	none	_	_	_	_	_
+7-20	316-319	che	_	che	_	6-19	linguistic	none	_	_	_	_	_
+7-21	320-323	ehm	_	ehm	_	6-20	linguistic	none	_	_	_	_	_
+7-22	324-326	le	_	\[le	_	6-21	linguistic	none	_	_	_	*->2-1	*[2]
+7-23	327-331	farà	_	farà\]	_	6-22	linguistic	none	_	_	_	*->2-2	*[2]
+7-24	332-337	altra	_	altra	_	6-23	linguistic	none	_	_	_	_	_
+7-25	338-343	gente	_	gente	_	6-24	linguistic	none	_	_	_	_	_
+
+#Text=sì sì
+8-1	344-346	sì	_	\[sì	PST092	7-0	linguistic	none	_	_	_	*->2-3	*[2]
+8-2	347-349	sì	_	sì\]	_	7-1	linguistic	none	_	_	_	*->2-4	*[2]
+
+#Text=quindi alcune cose saranno in comune altre (.) saranno insomma
+9-1	350-356	quindi	_	quindi	PST203	8-0	linguistic	none	_	_	_	_	_
+9-2	357-363	alcune	_	alcune	_	8-1	linguistic	none	_	_	_	_	_
+9-3	364-368	cose	_	cose	_	8-2	linguistic	none	_	_	_	_	_
+9-4	369-376	saranno	_	saranno	_	8-3	linguistic	none	_	_	_	_	_
+9-5	377-379	in	_	in	_	8-4	linguistic	none	_	_	_	_	_
+9-6	380-386	comune	_	comune	_	8-5	linguistic	none	_	_	_	_	_
+9-7	387-392	altre	_	altre:	_	8-6	linguistic	none	4x1	_	_	_	_
+9-8	393-396	(.)	_	(.)	_	8-7	shortpause	none	_	_	_	_	_
+9-9	397-404	saranno	_	saranno:	_	8-8	linguistic	none	6x1	_	_	_	_
+9-10	405-412	insomma	_	insomma	_	8-9	linguistic	none	_	_	_	_	_
+
+#Text=ci ridivideremo
+10-1	413-415	ci	_	ci	PST203	9-0	linguistic	none	_	_	_	_	_
+10-2	416-428	ridivideremo	_	ridivideremo	_	9-1	linguistic	none	_	_	_	_	_
+
+#Text=okay
+11-1	429-433	okay	Rising	okay?	PST203	10-0	linguistic	none	_	_	_	_	_
+
+#Text=allora aspettiamo solo che arrivino
+12-1	434-440	allora	_	allora	PST203	11-0	linguistic	none	_	_	_	_	_
+12-2	441-451	aspettiamo	_	aspettiamo	_	11-1	linguistic	none	_	_	_	_	_
+12-3	452-456	solo	_	solo	_	11-2	linguistic	none	_	_	_	_	_
+12-4	457-460	che	_	che	_	11-3	linguistic	none	_	_	_	_	_
+12-5	461-469	arrivino	_	arrivino	_	11-4	linguistic	none	_	_	_	_	_
+
+#Text=no
+13-1	470-472	no	_	no	PST203	12-0	linguistic	none	_	_	_	_	_
+
+#Text=lo finite
+14-1	473-475	lo	_	lo	PST203	13-0	linguistic	none	_	_	_	_	_
+14-2	476-482	finite	_	finite	_	13-1	linguistic	none	_	_	_	_	_
+
+#Text=non adesso la prossima volta (.) durante la settimana
+15-1	483-486	non	_	non	PST203	14-0	linguistic	none	_	_	_	_	_
+15-2	487-493	adesso	_	adesso:	_	14-1	linguistic	none	5x1	_	_	_	_
+15-3	494-496	la	_	la	_	14-2	linguistic	none	_	_	_	_	_
+15-4	497-505	prossima	_	\[prossima	_	14-3	linguistic	none	_	_	_	*->3-1	*[3]
+15-5	506-511	volta	_	volta	_	14-4	linguistic	none	_	_	_	*->3-2	*[3]
+15-6	512-515	(.)	_	(.)	_	14-5	shortpause	none	_	_	_	*->3-3	*[3]
+15-7	516-523	durante	_	durante\]	_	14-6	linguistic	none	_	_	_	*->3-4	*[3]
+15-8	524-526	la	_	la	_	14-7	linguistic	none	_	_	_	_	_
+15-9	527-536	settimana	_	settimana:	_	14-8	linguistic	none	8x1	_	_	_	_
+
+#Text=dite la vostra idea dite mh
+16-1	537-541	dite	_	\[dite	PST211	15-0	linguistic	none	_	_	_	*->3-5	*[3]
+16-2	542-544	la	_	la	_	15-1	linguistic	none	_	_	_	*->3-6	*[3]
+16-3	545-551	vostra	_	vostra	_	15-2	linguistic	none	_	_	_	*->3-7	*[3]
+16-4	552-556	idea	_	idea	_	15-3	linguistic	none	_	_	_	*->3-8	*[3]
+16-5	557-561	dite	_	dite	_	15-4	linguistic	none	_	_	_	*->3-9	*[3]
+16-6	562-564	mh	_	mh:\]	_	15-5	linguistic	none	1x1	_	_	*->3-10	*[3]
+
+#Text=ma avete anche quello con i ruoli
+17-1	565-567	ma	_	ma	PST211	16-0	linguistic	none	_	_	_	_	_
+17-2	568-573	avete	_	avete	_	16-1	linguistic	none	_	_	_	_	_
+17-3	574-579	anche	_	anche	_	16-2	linguistic	none	_	_	_	_	_
+17-4	580-586	quello	_	quello	_	16-3	linguistic	none	_	_	_	_	_
+17-5	587-590	con	_	con	_	16-4	linguistic	none	_	_	_	_	_
+17-6	591-592	i	_	i	_	16-5	linguistic	none	_	_	_	_	_
+17-7	593-598	ruoli	Rising	ruoli?	_	16-6	linguistic	none	_	_	_	_	_
+
+#Text=no
+18-1	599-601	no	_	no	PST092	17-0	linguistic	none	_	_	_	_	_
+
+#Text=voi
+19-1	602-605	voi	Rising	voi?	PST211	18-0	linguistic	none	_	_	_	_	_
+
+#Text=no i ruoli loro non li han fatti
+20-1	606-608	no	_	no	PST203	19-0	linguistic	none	_	_	_	_	_
+20-2	609-610	i	_	i	_	19-1	linguistic	none	_	_	_	_	_
+20-3	611-616	ruoli	_	ruoli	_	19-2	linguistic	none	_	_	_	_	_
+20-4	617-621	loro	_	loro	_	19-3	linguistic	none	_	_	_	_	_
+20-5	622-625	non	_	non	_	19-4	linguistic	none	_	_	_	_	_
+20-6	626-628	li	_	li	_	19-5	linguistic	none	_	_	_	_	_
+20-7	629-632	han	_	han	_	19-6	linguistic	none	_	_	_	_	_
+20-8	633-638	fatti	_	\[fatti\]	_	19-7	linguistic	none	_	_	_	*->4-1	*[4]
+
+#Text=ah okay
+21-1	639-641	ah	_	\[ah	PST211	20-0	linguistic	none	_	_	_	*->4-2	*[4]
+21-2	642-646	okay	_	okay\]	_	20-1	linguistic	none	_	_	_	*->4-3	*[4]
+
+#Text=incominciate a fare i ruoli
+22-1	647-659	incominciate	_	incominciate	PST203	21-0	linguistic	none	_	_	_	_	_
+22-2	660-661	a	_	a	_	21-1	linguistic	none	_	_	_	_	_
+22-3	662-666	fare	_	fare	_	21-2	linguistic	none	_	_	_	_	_
+22-4	667-668	i	_	i	_	21-3	linguistic	none	_	_	_	_	_
+22-5	669-674	ruoli	_	ruoli	_	21-4	linguistic	none	_	_	_	_	_
+
+#Text=pensa
+23-1	675-680	pensa	_	pensa:::	PST211	22-0	linguistic	none	4x3	_	_	_	_
+
+#Text=allora tan~ comincia a dire questa cosa
+24-1	681-687	allora	_	allora	PST203	23-0	linguistic	none	_	_	_	_	_
+24-2	688-692	tan~	_	tan~	_	23-1	linguistic	none	_	_	_	_	_
+24-3	693-701	comincia	_	comincia	_	23-2	linguistic	none	_	_	_	_	_
+24-4	702-703	a	_	a	_	23-3	linguistic	none	_	_	_	_	_
+24-5	704-708	dire	_	dire	_	23-4	linguistic	none	_	_	_	_	_
+24-6	709-715	questa	_	questa	_	23-5	linguistic	none	_	_	_	_	_
+24-7	716-720	cosa	_	\[cosa\]	_	23-6	linguistic	none	_	_	_	*->5-1	*[5]
+
+#Text=ah sì sullo stesso va bene sì tanto
+25-1	721-723	ah	_	\[ah	PST211	24-0	linguistic	none	_	_	_	*->5-2	*[5]
+25-2	724-726	sì	_	sì\]	_	24-1	linguistic	none	_	_	_	*->5-3	*[5]
+25-3	727-732	sullo	_	sullo	_	24-2	linguistic	none	_	_	_	_	_
+25-4	733-739	stesso	_	stesso	_	24-3	linguistic	none	_	_	_	_	_
+25-5	740-742	va	_	va	_	24-4	linguistic	none	_	_	_	_	_
+25-6	743-747	bene	_	bene	_	24-5	linguistic	none	_	_	_	_	_
+25-7	748-750	sì	_	sì	_	24-6	linguistic	none	_	_	_	_	_
+25-8	751-756	tanto	_	\[tanto\]	_	24-7	linguistic	none	_	_	_	*->6-1	*[6]
+
+#Text=adesso non so se è successo di qua o di là
+26-1	757-763	adesso	_	\[adesso\]	PST203	25-0	linguistic	none	_	_	_	*->6-2	*[6]
+26-2	764-767	non	_	non	_	25-1	linguistic	none	_	_	_	_	_
+26-3	768-770	so	_	so	_	25-2	linguistic	none	_	_	_	_	_
+26-4	771-773	se	_	se	_	25-3	linguistic	none	_	_	_	_	_
+26-5	774-775	è	_	è	_	25-4	linguistic	none	_	_	_	_	_
+26-6	776-784	successo	_	successo	_	25-5	linguistic	none	_	_	_	_	_
+26-7	785-787	di	_	di	_	25-6	linguistic	none	_	_	_	_	_
+26-8	788-791	qua	_	qua	_	25-7	linguistic	none	_	_	_	_	_
+26-9	792-793	o	_	o	_	25-8	linguistic	none	_	_	_	_	_
+26-10	794-796	di	_	di	_	25-9	linguistic	none	_	_	_	_	_
+26-11	797-799	là	_	là	_	25-10	linguistic	none	_	_	_	_	_
+
+#Text=tante persone soprattutto sul pensare le inquadrature pensare come lavorare (.) non avete tenuto conto ma giustamente perché non ci siamo arrivati che esiste il montaggio quindi
+27-1	800-805	tante	_	tante	PST203	26-0	linguistic	none	_	_	_	_	_
+27-2	806-813	persone	_	persone	_	26-1	linguistic	none	_	_	_	_	_
+27-3	814-825	soprattutto	_	soprattutto	_	26-2	linguistic	none	_	_	_	_	_
+27-4	826-829	sul	_	sul	_	26-3	linguistic	none	_	_	_	_	_
+27-5	830-837	pensare	_	pensare	_	26-4	linguistic	none	_	_	_	_	_
+27-6	838-840	le	_	le	_	26-5	linguistic	none	_	_	_	_	_
+27-7	841-853	inquadrature	_	inquadrature	_	26-6	linguistic	none	_	_	_	_	_
+27-8	854-861	pensare	_	pensare	_	26-7	linguistic	none	_	_	_	_	_
+27-9	862-866	come	_	come	_	26-8	linguistic	none	_	_	_	_	_
+27-10	867-875	lavorare	_	lavorare	_	26-9	linguistic	none	_	_	_	_	_
+27-11	876-879	(.)	_	(.)	_	26-10	shortpause	none	_	_	_	_	_
+27-12	880-883	non	_	non	_	26-11	linguistic	none	_	_	_	_	_
+27-13	884-889	avete	_	avete	_	26-12	linguistic	none	_	_	_	_	_
+27-14	890-896	tenuto	_	tenuto	_	26-13	linguistic	none	_	_	_	_	_
+27-15	897-902	conto	_	conto	_	26-14	linguistic	none	_	_	_	_	_
+27-16	903-905	ma	_	ma	_	26-15	linguistic	none	_	_	_	_	_
+27-17	906-917	giustamente	_	giustamente	_	26-16	linguistic	none	_	_	_	_	_
+27-18	918-924	perché	_	perché	_	26-17	linguistic	none	_	_	_	_	_
+27-19	925-928	non	_	non	_	26-18	linguistic	none	_	_	_	_	_
+27-20	929-931	ci	_	ci	_	26-19	linguistic	none	_	_	_	_	_
+27-21	932-937	siamo	_	siamo	_	26-20	linguistic	none	_	_	_	_	_
+27-22	938-946	arrivati	_	arrivati	_	26-21	linguistic	none	_	_	_	_	_
+27-23	947-950	che	_	che	_	26-22	linguistic	none	_	_	_	_	_
+27-24	951-957	esiste	_	esiste	_	26-23	linguistic	none	_	_	_	_	_
+27-25	958-960	il	_	il	_	26-24	linguistic	none	_	_	_	_	_
+27-26	961-970	montaggio	_	montaggio	_	26-25	linguistic	none	_	_	_	_	_
+27-27	971-977	quindi	_	quindi	_	26-26	linguistic	none	_	_	_	_	_
+
+#Text=non è che cioè se tu vuoi fare una scena di una persona che balla e poi un' altra persona che ti spiega cosa stai vedendo quindi
+28-1	978-981	non	_	non	PST203	27-0	linguistic	none	_	_	_	_	_
+28-2	982-983	è	_	\[è	_	27-1	linguistic	none	_	_	_	*->7-1	*[7]
+28-3	984-987	che	_	che\]	_	27-2	linguistic	none	_	_	_	*->7-2	*[7]
+28-4	988-992	cioè	_	cioè	_	27-3	linguistic	none	_	_	_	_	_
+28-5	993-995	se	_	se	_	27-4	linguistic	none	_	_	_	_	_
+28-6	996-998	tu	_	tu	_	27-5	linguistic	none	_	_	_	_	_
+28-7	999-1003	vuoi	_	vuoi	_	27-6	linguistic	none	_	_	_	_	_
+28-8	1004-1008	fare	_	fare	_	27-7	linguistic	none	_	_	_	_	_
+28-9	1009-1012	una	_	una	_	27-8	linguistic	none	_	_	_	_	_
+28-10	1013-1018	scena	_	scena	_	27-9	linguistic	none	_	_	_	_	_
+28-11	1019-1021	di	_	di	_	27-10	linguistic	none	_	_	_	_	_
+28-12	1022-1025	una	_	una	_	27-11	linguistic	none	_	_	_	_	_
+28-13	1026-1033	persona	_	persona	_	27-12	linguistic	none	_	_	_	_	_
+28-14	1034-1037	che	_	che	_	27-13	linguistic	none	_	_	_	_	_
+28-15	1038-1043	balla	_	balla	_	27-14	linguistic	none	_	_	_	_	_
+28-16	1044-1045	e	_	e	_	27-15	linguistic	none	_	_	_	_	_
+28-17	1046-1049	poi	_	poi	_	27-16	linguistic	none	_	_	_	_	_
+28-18	1050-1053	un'	_	un'	_	27-17	linguistic	none	_	_	_	_	_
+28-19	1054-1059	altra	_	altra	_	27-18	linguistic	none	_	_	_	_	_
+28-20	1060-1067	persona	_	persona	_	27-19	linguistic	none	_	_	_	_	_
+28-21	1068-1071	che	_	che	_	27-20	linguistic	none	_	_	_	_	_
+28-22	1072-1074	ti	_	ti	_	27-21	linguistic	none	_	_	_	_	_
+28-23	1075-1081	spiega	_	spiega	_	27-22	linguistic	none	_	_	_	_	_
+28-24	1082-1086	cosa	_	cosa	_	27-23	linguistic	none	_	_	_	_	_
+28-25	1087-1091	stai	_	stai	_	27-24	linguistic	none	_	_	_	_	_
+28-26	1092-1099	vedendo	_	vedendo	_	27-25	linguistic	none	_	_	_	_	_
+28-27	1100-1106	quindi	_	quindi	_	27-26	linguistic	none	_	_	_	_	_
+
+#Text=@noemi
+29-1	1107-1113	@noemi	_	\[@noemi\]	PST085	28-0	anonymized	none	_	_	_	*->7-3	*[7]
+
+#Text=attraverso un' intervista (.) non lo devi fare nello stesso momento lo puoi fare in due momenti diversi (.) e poi col montaggio
+30-1	1114-1124	attraverso	_	attraverso	PST203	29-0	linguistic	none	_	_	_	_	_
+30-2	1125-1128	un'	_	un'	_	29-1	linguistic	none	_	_	_	_	_
+30-3	1129-1139	intervista	_	intervista	_	29-2	linguistic	none	_	_	_	_	_
+30-4	1140-1143	(.)	_	(.)	_	29-3	shortpause	none	_	_	_	_	_
+30-5	1144-1147	non	_	non	_	29-4	linguistic	none	_	_	_	_	_
+30-6	1148-1150	lo	_	lo	_	29-5	linguistic	none	_	_	_	_	_
+30-7	1151-1155	devi	_	devi	_	29-6	linguistic	none	_	_	_	_	_
+30-8	1156-1160	fare	_	fare	_	29-7	linguistic	none	_	_	_	_	_
+30-9	1161-1166	nello	_	nello	_	29-8	linguistic	none	_	_	_	_	_
+30-10	1167-1173	stesso	_	stesso	_	29-9	linguistic	none	_	_	_	_	_
+30-11	1174-1181	momento	_	momento	_	29-10	linguistic	none	_	_	_	_	_
+30-12	1182-1184	lo	_	lo	_	29-11	linguistic	none	_	_	_	_	_
+30-13	1185-1189	puoi	_	puoi	_	29-12	linguistic	none	_	_	_	_	_
+30-14	1190-1194	fare	_	fare	_	29-13	linguistic	none	_	_	_	_	_
+30-15	1195-1197	in	_	in	_	29-14	linguistic	none	_	_	_	_	_
+30-16	1198-1201	due	_	due	_	29-15	linguistic	none	_	_	_	_	_
+30-17	1202-1209	momenti	_	momenti	_	29-16	linguistic	none	_	_	_	_	_
+30-18	1210-1217	diversi	_	diversi	_	29-17	linguistic	none	_	_	_	_	_
+30-19	1218-1221	(.)	_	(.)	_	29-18	shortpause	none	_	_	_	_	_
+30-20	1222-1223	e	_	e	_	29-19	linguistic	none	_	_	_	_	_
+30-21	1224-1227	poi	_	poi	_	29-20	linguistic	none	_	_	_	_	_
+30-22	1228-1231	col	_	col	_	29-21	linguistic	none	_	_	_	_	_
+30-23	1232-1241	montaggio	WeaklyRising	montaggio,	_	29-22	linguistic	none	_	_	_	_	_
+
+#Text=fai dialogare questi due momenti
+31-1	1242-1245	fai	_	fai	PST203	30-0	linguistic	none	_	_	_	_	_
+31-2	1246-1255	dialogare	_	dialogare	_	30-1	linguistic	none	_	_	_	_	_
+31-3	1256-1262	questi	_	questi	_	30-2	linguistic	none	_	_	_	_	_
+31-4	1263-1266	due	_	due	_	30-3	linguistic	none	_	_	_	_	_
+31-5	1267-1274	momenti	_	momenti	_	30-4	linguistic	none	_	_	_	_	_
+
+#Text=okay
+32-1	1275-1279	okay	Rising	okay?	PST203	31-0	linguistic	none	_	_	_	_	_
+
+#Text=sì
+33-1	1280-1282	sì	_	sì	PST083	32-0	linguistic	none	_	_	_	_	_
+
+#Text=cioè
+34-1	1283-1287	cioè	_	\[cioè\]	PST203	33-0	linguistic	none	_	_	_	*->9-1	*[9]
+
+#Text=anzi @noemi
+35-1	1288-1292	anzi	_	\[anzi\]	PST093	34-0	linguistic	none	_	_	_	*->9-2	*[9]
+35-2	1293-1299	@noemi	_	@noemi	_	34-1	anonymized	none	_	_	_	_	_
+
+#Text=cioè non @noemi
+36-1	1300-1304	cioè	_	cioè	PST093	35-0	linguistic	none	_	_	_	_	_
+36-2	1305-1308	non	_	non	_	35-1	linguistic	none	_	_	_	_	_
+36-3	1309-1315	@noemi	_	@noemi	_	35-2	anonymized	none	_	_	_	_	_
+
+#Text=@noemi
+37-1	1316-1322	@noemi	_	@noemi	PST085	36-0	anonymized	none	_	_	_	_	_
+
+#Text=@ilaria
+38-1	1323-1330	@ilaria	_	@ilaria	PST093	37-0	anonymized	none	_	_	_	_	_
+
+#Text=va bene
+39-1	1331-1333	va	_	\[va	PST203	38-0	linguistic	none	_	_	_	*->55-1	*[55]
+39-2	1334-1338	bene	_	bene\]	_	38-1	linguistic	none	_	_	_	*->55-2	*[55]
+
+#Text=son dietro di te
+40-1	1339-1342	son	_	\[son	PST092	39-0	linguistic	none	_	_	_	*->55-3	*[55]
+40-2	1343-1349	dietro	_	dietro\]	_	39-1	linguistic	none	_	_	_	*->55-4	*[55]
+40-3	1350-1352	di	_	di	_	39-2	linguistic	none	_	_	_	_	_
+40-4	1353-1355	te	_	te	_	39-3	linguistic	none	_	_	_	_	_
+
+#Text=dai allora facciamo solo un' attimo questa cosa poi mh poi
+41-1	1356-1359	dai	_	dai	PST203	40-0	linguistic	none	_	_	_	_	_
+41-2	1360-1366	allora	_	allora	_	40-1	linguistic	none	_	_	_	_	_
+41-3	1367-1375	facciamo	_	facciamo	_	40-2	linguistic	none	_	_	_	_	_
+41-4	1376-1380	solo	_	solo	_	40-3	linguistic	none	_	_	_	_	_
+41-5	1381-1384	un'	_	un'	_	40-4	linguistic	none	_	_	_	_	_
+41-6	1385-1391	attimo	_	attimo	_	40-5	linguistic	none	_	_	_	_	_
+41-7	1392-1398	questa	_	questa	_	40-6	linguistic	none	_	_	_	_	_
+41-8	1399-1403	cosa	_	cosa	_	40-7	linguistic	none	_	_	_	_	_
+41-9	1404-1407	poi	_	poi	_	40-8	linguistic	none	_	_	_	_	_
+41-10	1408-1410	mh	_	mh	_	40-9	linguistic	none	_	_	_	_	_
+41-11	1411-1414	poi	_	poi	_	40-10	linguistic	none	_	_	_	_	_
+
+#Text=lasciamo la parte di @edoardo allora
+42-1	1415-1423	lasciamo	_	lasciamo	PST203	41-0	linguistic	none	_	_	_	_	_
+42-2	1424-1426	la	_	la	_	41-1	linguistic	none	_	_	_	_	_
+42-3	1427-1432	parte	_	parte	_	41-2	linguistic	none	_	_	_	_	_
+42-4	1433-1435	di	_	di	_	41-3	linguistic	none	_	_	_	_	_
+42-5	1436-1444	@edoardo	_	@edoardo	_	41-4	anonymized	none	_	_	_	_	_
+42-6	1445-1451	allora	_	allora	_	41-5	linguistic	none	_	_	_	_	_
+
+#Text=((batte_le_mani)) gruppo che era di là sulle scale
+43-1	1452-1469	((batte_le_mani))	_	((batte_le_mani))	PST203	42-0	nonverbalbehavior	none	_	_	_	_	_
+43-2	1470-1476	gruppo	_	gruppo	_	42-1	linguistic	none	_	_	_	_	_
+43-3	1477-1480	che	_	che	_	42-2	linguistic	none	_	_	_	_	_
+43-4	1481-1484	era	_	era	_	42-3	linguistic	none	_	_	_	_	_
+43-5	1485-1487	di	_	di	_	42-4	linguistic	none	_	_	_	_	_
+43-6	1488-1490	là	_	là	_	42-5	linguistic	none	_	_	_	_	_
+43-7	1491-1496	sulle	_	sulle	_	42-6	linguistic	none	_	_	_	_	_
+43-8	1497-1502	scale	_	scale	_	42-7	linguistic	none	_	_	_	_	_
+
+#Text=che scene avete pensato (.) anche quelle che non avete scritto ma avete raccontato a me
+44-1	1503-1506	che	_	che	PST203	43-0	linguistic	none	_	_	_	_	_
+44-2	1507-1512	scene	_	scene	_	43-1	linguistic	none	_	_	_	_	_
+44-3	1513-1518	avete	_	avete	_	43-2	linguistic	none	_	_	_	_	_
+44-4	1519-1526	pensato	_	pensato	_	43-3	linguistic	none	_	_	_	_	_
+44-5	1527-1530	(.)	_	(.)	_	43-4	shortpause	none	_	_	_	_	_
+44-6	1531-1536	anche	_	anche	_	43-5	linguistic	none	_	_	_	_	_
+44-7	1537-1543	quelle	_	quelle	_	43-6	linguistic	none	_	_	_	_	_
+44-8	1544-1547	che	_	che	_	43-7	linguistic	none	_	_	_	_	_
+44-9	1548-1551	non	_	non	_	43-8	linguistic	none	_	_	_	_	_
+44-10	1552-1557	avete	_	avete	_	43-9	linguistic	none	_	_	_	_	_
+44-11	1558-1565	scritto	_	scritto	_	43-10	linguistic	none	_	_	_	_	_
+44-12	1566-1568	ma	_	ma	_	43-11	linguistic	none	_	_	_	_	_
+44-13	1569-1574	avete	_	avete	_	43-12	linguistic	none	_	_	_	_	_
+44-14	1575-1585	raccontato	_	raccontato	_	43-13	linguistic	none	_	_	_	_	_
+44-15	1586-1587	a	_	a	_	43-14	linguistic	none	_	_	_	_	_
+44-16	1588-1590	me	_	me	_	43-15	linguistic	none	_	_	_	_	_
+
+#Text=dai forza raccontatele (.) a loro
+45-1	1591-1594	dai	_	dai	PST203	44-0	linguistic	none	_	_	_	_	_
+45-2	1595-1600	forza	_	forza	_	44-1	linguistic	none	_	_	_	_	_
+45-3	1601-1613	raccontatele	_	raccontatele	_	44-2	linguistic	none	_	_	_	_	_
+45-4	1614-1617	(.)	_	(.)	_	44-3	shortpause	none	_	_	_	_	_
+45-5	1618-1619	a	_	a	_	44-4	linguistic	none	_	_	_	_	_
+45-6	1620-1624	loro	_	loro	_	44-5	linguistic	none	_	_	_	_	_
+
+#Text=abbiam pensato a una scena con la danza e i costumi
+46-1	1625-1631	abbiam	_	abbiam	PST087	45-0	linguistic	none	_	_	_	_	_
+46-2	1632-1639	pensato	_	pensato:	_	45-1	linguistic	none	6x1	_	_	_	_
+46-3	1640-1641	a	_	a:	_	45-2	linguistic	none	0x1	_	_	_	_
+46-4	1642-1645	una	_	una	_	45-3	linguistic	none	_	_	_	_	_
+46-5	1646-1651	scena	_	scena	_	45-4	linguistic	none	_	_	_	_	_
+46-6	1652-1655	con	_	con:	_	45-5	linguistic	none	2x1	_	_	_	_
+46-7	1656-1658	la	_	la	_	45-6	linguistic	none	_	_	_	_	_
+46-8	1659-1664	danza	_	danza	_	45-7	linguistic	none	_	_	_	_	_
+46-9	1665-1666	e	_	e	_	45-8	linguistic	none	_	_	_	_	_
+46-10	1667-1668	i	_	i	_	45-9	linguistic	none	_	_	_	_	_
+46-11	1669-1676	costumi	WeaklyRising	costumi,	_	45-10	linguistic	none	_	_	_	_	_
+
+#Text=in cui appunto siamo magari in sala di danza
+47-1	1677-1679	in	_	in	PST087	46-0	linguistic	none	_	_	_	_	_
+47-2	1680-1683	cui	_	cui:	_	46-1	linguistic	none	2x1	_	_	_	_
+47-3	1684-1691	appunto	_	appunto	_	46-2	linguistic	none	_	_	_	_	_
+47-4	1692-1697	siamo	_	siamo	_	46-3	linguistic	none	_	_	_	_	_
+47-5	1698-1704	magari	_	magari:	_	46-4	linguistic	none	5x1	_	_	_	_
+47-6	1705-1707	in	_	in	_	46-5	linguistic	none	_	_	_	_	_
+47-7	1708-1712	sala	_	sala:	_	46-6	linguistic	none	3x1	_	_	_	_
+47-8	1713-1715	di	_	di	_	46-7	linguistic	none	_	_	_	_	_
+47-9	1716-1721	danza	WeaklyRising	danza,	_	46-8	linguistic	none	_	_	_	_	_
+
+#Text=mentre ci prepariamo per uno spettacolo con i costumi popolari
+48-1	1722-1728	mentre	_	mentre	PST087	47-0	linguistic	none	_	_	_	_	_
+48-2	1729-1731	ci	_	ci	_	47-1	linguistic	none	_	_	_	_	_
+48-3	1732-1742	prepariamo	_	prepariamo	_	47-2	linguistic	none	_	_	_	_	_
+48-4	1743-1746	per	_	per	_	47-3	linguistic	none	_	_	_	_	_
+48-5	1747-1750	uno	_	uno	_	47-4	linguistic	none	_	_	_	_	_
+48-6	1751-1761	spettacolo	_	spettacolo	_	47-5	linguistic	none	_	_	_	_	_
+48-7	1762-1765	con	_	con	_	47-6	linguistic	none	_	_	_	_	_
+48-8	1766-1767	i	_	i	_	47-7	linguistic	none	_	_	_	_	_
+48-9	1768-1775	costumi	_	costumi	_	47-8	linguistic	none	_	_	_	_	_
+48-10	1776-1784	popolari	WeaklyRising	popolari,	_	47-9	linguistic	none	_	_	_	_	_
+
+#Text=e poi dopo esserci preparate appunto andiamo a fare lo spettacolo
+49-1	1785-1786	e	_	e:::	PST087	48-0	linguistic	none	0x3	_	_	_	_
+49-2	1787-1790	poi	_	poi	_	48-1	linguistic	none	_	_	_	_	_
+49-3	1791-1795	dopo	_	dopo	_	48-2	linguistic	none	_	_	_	_	_
+49-4	1796-1803	esserci	_	esserci	_	48-3	linguistic	none	_	_	_	_	_
+49-5	1804-1813	preparate	_	preparate	_	48-4	linguistic	none	_	_	_	_	_
+49-6	1814-1821	appunto	_	appunto	_	48-5	linguistic	none	_	_	_	_	_
+49-7	1822-1829	andiamo	_	andiamo	_	48-6	linguistic	none	_	_	_	_	_
+49-8	1830-1831	a	_	a	_	48-7	linguistic	none	_	_	_	_	_
+49-9	1832-1836	fare	_	fare	_	48-8	linguistic	none	_	_	_	_	_
+49-10	1837-1839	lo	_	lo	_	48-9	linguistic	none	_	_	_	_	_
+49-11	1840-1850	spettacolo	WeaklyRising	spettacolo,	_	48-10	linguistic	none	_	_	_	_	_
+
+#Text=e magari nel mentre dello spettacolo e delle prove eh mettiamo una personcina che
+50-1	1851-1852	e	_	e	PST087	49-0	linguistic	none	_	_	_	_	_
+50-2	1853-1859	magari	_	magari	_	49-1	linguistic	none	_	_	_	_	_
+50-3	1860-1863	nel	_	nel	_	49-2	linguistic	none	_	_	_	_	_
+50-4	1864-1870	mentre	_	mentre	_	49-3	linguistic	none	_	_	_	_	_
+50-5	1871-1876	dello	_	dello	_	49-4	linguistic	none	_	_	_	_	_
+50-6	1877-1887	spettacolo	_	spettacolo	_	49-5	linguistic	none	_	_	_	_	_
+50-7	1888-1889	e	_	e	_	49-6	linguistic	none	_	_	_	_	_
+50-8	1890-1895	delle	_	delle	_	49-7	linguistic	none	_	_	_	_	_
+50-9	1896-1901	prove	_	prove::	_	49-8	linguistic	none	4x2	_	_	_	_
+50-10	1902-1904	eh	_	eh	_	49-9	linguistic	none	_	_	_	_	_
+50-11	1905-1913	mettiamo	_	mettiamo	_	49-10	linguistic	none	_	_	_	_	_
+50-12	1914-1917	una	_	una	_	49-11	linguistic	none	_	_	_	_	_
+50-13	1918-1928	personcina	_	personcina	_	49-12	linguistic	none	_	_	_	_	_
+50-14	1929-1932	che	_	che:	_	49-13	linguistic	none	2x1	_	_	_	_
+
+#Text=pensavamo fosse @michi magari
+51-1	1933-1942	pensavamo	_	°pensavamo	PST092	50-0	linguistic	none	_	_	_	_	_
+51-2	1943-1948	fosse	_	fosse	_	50-1	linguistic	none	_	_	_	_	_
+51-3	1949-1955	@michi	_	@michi	_	50-2	anonymized	none	_	_	_	_	_
+51-4	1956-1962	magari	_	magari°	_	50-3	linguistic	none	_	_	_	_	_
+
+#Text=sì (.) che
+52-1	1963-1965	sì	_	sì	PST087	51-0	linguistic	none	_	_	_	_	_
+52-2	1966-1969	(.)	_	(.)	_	51-1	shortpause	none	_	_	_	_	_
+52-3	1970-1973	che	_	ch\[e::\]	_	51-2	linguistic	none	2x2	_	_	_	_
+52-3.1	1972-1973	e	_	_	_	_	_	_	_	_	_	*->10-1	*[10]
+
+#Text=che fosse
+53-1	1974-1977	che	_	\[che\]	PST211	52-0	linguistic	none	_	_	_	*->10-2	*[10]
+53-2	1978-1983	fosse	Rising	fosse?	_	52-1	linguistic	none	_	_	_	_	_
+
+#Text=@michi una ragazza del centru
+54-1	1984-1990	@michi	_	@michi	PST092	53-0	anonymized	yes	_	_	_	_	_
+54-2	1991-1994	una	_	una	_	53-1	linguistic	yes	_	_	_	_	_
+54-3	1995-2002	ragazza	_	ragazza	_	53-2	linguistic	yes	_	_	_	_	_
+54-4	2003-2006	del	_	del	_	53-3	linguistic	yes	_	_	_	_	_
+54-5	2007-2013	centru	_	#centru	_	53-4	linguistic	other	_	_	_	_	_
+
+#Text=ah okay
+55-1	2014-2016	ah	_	\[ah	PST211	54-0	linguistic	none	_	_	_	*->11-1	*[11]
+55-2	2017-2021	okay	_	okay\]	_	54-1	linguistic	none	_	_	_	*->11-2	*[11]
+
+#Text=e che parla e spiega appunto cosa facciamo noi nei balli e
+56-1	2022-2023	e	_	e	PST087	55-0	linguistic	none	_	_	_	_	_
+56-2	2024-2027	che	_	che	_	55-1	linguistic	none	_	_	_	_	_
+56-3	2028-2033	parla	_	parla:	_	55-2	linguistic	none	4x1	_	_	_	_
+56-4	2034-2035	e	_	e	_	55-3	linguistic	none	_	_	_	_	_
+56-5	2036-2042	spiega	_	spiega	_	55-4	linguistic	none	_	_	_	_	_
+56-6	2043-2050	appunto	_	appunto	_	55-5	linguistic	none	_	_	_	_	_
+56-7	2051-2055	cosa	_	cosa	_	55-6	linguistic	none	_	_	_	_	_
+56-8	2056-2064	facciamo	_	facciamo	_	55-7	linguistic	none	_	_	_	_	_
+56-9	2065-2068	noi	_	noi	_	55-8	linguistic	none	_	_	_	_	_
+56-10	2069-2072	nei	_	nei	_	55-9	linguistic	none	_	_	_	_	_
+56-11	2073-2078	balli	_	balli	_	55-10	linguistic	none	_	_	_	_	_
+56-12	2079-2080	e	_	e::	_	55-11	linguistic	none	0x2	_	_	_	_
+
+#Text=oppure semplicemente magari la ripresa in sala da danza (.) mentre ci vestiamo
+57-1	2081-2087	oppure	_	\[oppure\]	PST092	56-0	linguistic	none	_	_	_	*->12-1	*[12]
+57-2	2088-2101	semplicemente	_	semplicemente	_	56-1	linguistic	none	_	_	_	_	_
+57-3	2102-2108	magari	_	magari	_	56-2	linguistic	none	_	_	_	_	_
+57-4	2109-2111	la	_	la	_	56-3	linguistic	none	_	_	_	_	_
+57-5	2112-2119	ripresa	_	ripresa	_	56-4	linguistic	none	_	_	_	_	_
+57-6	2120-2122	in	_	in	_	56-5	linguistic	none	_	_	_	_	_
+57-7	2123-2127	sala	_	sala	_	56-6	linguistic	none	_	_	_	_	_
+57-8	2128-2130	da	_	da	_	56-7	linguistic	none	_	_	_	_	_
+57-9	2131-2136	danza	_	danza	_	56-8	linguistic	none	_	_	_	_	_
+57-10	2137-2140	(.)	_	(.)	_	56-9	shortpause	none	_	_	_	_	_
+57-11	2141-2147	mentre	_	mentre:	_	56-10	linguistic	none	5x1	_	_	_	_
+57-12	2148-2150	ci	_	ci	_	56-11	linguistic	none	_	_	_	_	_
+57-13	2151-2159	vestiamo	_	vestiamo	_	56-12	linguistic	none	_	_	_	_	_
+
+#Text=okay
+58-1	2160-2164	okay	_	\[okay\]	PST211	57-0	linguistic	none	_	_	_	*->12-2	*[12]
+
+#Text=magari quando siamo già cu cu xxx cămașa mentre ci mettiamo xx fare la ripresa là
+59-1	2165-2171	magari	_	magari	PST092	58-0	linguistic	yes	_	_	_	_	_
+59-2	2172-2178	quando	_	quando	_	58-1	linguistic	yes	_	_	_	_	_
+59-3	2179-2184	siamo	_	siamo	_	58-2	linguistic	yes	_	_	_	_	_
+59-4	2185-2188	già	_	già	_	58-3	linguistic	yes	_	_	_	_	_
+59-5	2189-2191	cu	_	#cu::	_	58-4	linguistic	other	1x2	_	_	_	_
+59-6	2192-2194	cu	_	#cu	_	58-5	linguistic	other	_	_	_	_	_
+59-7	2195-2198	xxx	_	xxx	_	58-6	unknown	yes	_	_	_	_	_
+59-8	2199-2205	cămașa	_	#cămașa	_	58-7	linguistic	other	_	_	_	_	_
+59-9	2206-2212	mentre	_	mentre	_	58-8	linguistic	yes	_	_	_	_	_
+59-10	2213-2215	ci	_	ci	_	58-9	linguistic	yes	_	_	_	_	_
+59-11	2216-2224	mettiamo	_	mettiamo	_	58-10	linguistic	yes	_	_	_	_	_
+59-12	2225-2227	xx	_	xx	_	58-11	unknown	yes	_	_	_	_	_
+59-13	2228-2232	fare	_	fare	_	58-12	linguistic	yes	_	_	_	_	_
+59-14	2233-2235	la	_	la	_	58-13	linguistic	yes	_	_	_	_	_
+59-15	2236-2243	ripresa	_	ripresa	_	58-14	linguistic	yes	_	_	_	_	_
+59-16	2244-2246	là	_	là	_	58-15	linguistic	yes	_	_	_	_	_
+
+#Text=mentre per la seconda scena pensavamo di fare taraful e canto
+60-1	2247-2253	mentre	_	mentre	PST092	60-0	linguistic	yes	_	_	_	_	_
+60-2	2254-2257	per	_	per:	_	60-1	linguistic	yes	2x1	_	_	_	_
+60-3	2258-2260	la	_	la	_	60-2	linguistic	yes	_	_	_	_	_
+60-4	2261-2268	seconda	_	seconda	_	60-3	linguistic	yes	_	_	_	_	_
+60-5	2269-2274	scena	_	scena	_	60-4	linguistic	yes	_	_	_	_	_
+60-6	2275-2284	pensavamo	_	pensavamo	_	60-5	linguistic	yes	_	_	_	_	_
+60-7	2285-2287	di	_	di	_	60-6	linguistic	yes	_	_	_	_	_
+60-8	2288-2292	fare	_	fare	_	60-7	linguistic	yes	_	_	_	_	_
+60-9	2293-2300	taraful	_	#taraful	_	60-8	linguistic	other	_	_	_	_	_
+60-10	2301-2302	e	_	e	_	60-9	linguistic	yes	_	_	_	_	_
+60-11	2303-2308	canto	_	canto	_	60-10	linguistic	yes	_	_	_	_	_
+
+#Text=xxx e anche solista
+61-1	2309-2312	xxx	_	xxx	PST092	61-0	unknown	none	_	_	_	_	_
+61-2	2313-2314	e	_	e	_	61-1	linguistic	none	_	_	_	_	_
+61-3	2315-2320	anche	_	anche	_	61-2	linguistic	none	_	_	_	_	_
+61-4	2321-2328	solista	_	solista	_	61-3	linguistic	none	_	_	_	_	_
+
+#Text=magari (.) chiedendo a te
+62-1	2329-2335	magari	_	magari	PST092	62-0	linguistic	none	_	_	_	_	_
+62-2	2336-2339	(.)	_	(.)	_	62-1	shortpause	none	_	_	_	_	_
+62-3	2340-2349	chiedendo	_	chiedendo	_	62-2	linguistic	none	_	_	_	_	_
+62-4	2350-2351	a	_	a	_	62-3	linguistic	none	_	_	_	_	_
+62-5	2352-2354	te	_	te	_	62-4	linguistic	none	_	_	_	_	_
+
+#Text=per solista
+63-1	2355-2358	per	_	per	PST092	63-0	linguistic	none	_	_	_	_	_
+63-2	2359-2366	solista	WeaklyRising	solista,	_	63-1	linguistic	none	_	_	_	_	_
+
+#Text=ehm e taraful chiamare @iacob
+64-1	2367-2370	ehm	_	ehm	PST092	64-0	linguistic	yes	_	_	_	_	_
+64-2	2371-2372	e	_	e	_	64-1	linguistic	yes	_	_	_	_	_
+64-3	2373-2380	taraful	_	#taraful	_	64-2	linguistic	other	_	_	_	_	_
+64-4	2381-2389	chiamare	_	chiamare	_	64-3	linguistic	yes	_	_	_	_	_
+64-5	2390-2396	@iacob	_	@iacob	_	64-4	anonymized	yes	_	_	_	_	_
+
+#Text=che spiega un po (.) sia canto di gruppo e orchestra come viene organizzato
+65-1	2397-2400	che	_	che	PST092	65-0	linguistic	none	_	_	_	_	_
+65-2	2401-2407	spiega	_	spiega	_	65-1	linguistic	none	_	_	_	_	_
+65-3	2408-2410	un	_	un	_	65-2	linguistic	none	_	_	_	_	_
+65-4	2411-2413	po	_	po:	_	65-3	linguistic	none	1x1	_	_	_	_
+65-5	2414-2417	(.)	_	(.)	_	65-4	shortpause	none	_	_	_	_	_
+65-6	2418-2421	sia	_	sia	_	65-5	linguistic	none	_	_	_	_	_
+65-7	2422-2427	canto	_	\[cant\]o	_	65-6	linguistic	none	_	_	_	_	_
+65-7.1	2422-2426	cant	_	_	_	_	_	_	_	_	_	*->13-1	*[13]
+65-8	2428-2430	di	_	di	_	65-7	linguistic	none	_	_	_	_	_
+65-9	2431-2437	gruppo	_	gruppo	_	65-8	linguistic	none	_	_	_	_	_
+65-10	2438-2439	e	_	e	_	65-9	linguistic	none	_	_	_	_	_
+65-11	2440-2449	orchestra	_	orchestra	_	65-10	linguistic	none	_	_	_	_	_
+65-12	2450-2454	come	_	come	_	65-11	linguistic	none	_	_	_	_	_
+65-13	2455-2460	viene	_	viene	_	65-12	linguistic	none	_	_	_	_	_
+65-14	2461-2472	organizzato	_	organizzato	_	65-13	linguistic	none	_	_	_	_	_
+
+#Text=come si
+66-1	2473-2477	come	_	\[come	PST087	66-0	linguistic	none	_	_	_	*->13-2	*[13]
+66-2	2478-2480	si	_	si\]	_	66-1	linguistic	none	_	_	_	*->13-3	*[13]
+
+#Text=sì
+67-1	2481-2483	sì	_	sì	PST083	67-0	linguistic	none	_	_	_	_	_
+
+#Text=la cosa bella che avete detto l' aggiungo io perché non l' avete detta sarebbe carino girarla alla tesoriera questa cosa
+68-1	2484-2486	la	_	la	PST203	68-0	linguistic	none	_	_	_	_	_
+68-2	2487-2491	cosa	_	cosa	_	68-1	linguistic	none	_	_	_	_	_
+68-3	2492-2497	bella	_	bella	_	68-2	linguistic	none	_	_	_	_	_
+68-4	2498-2501	che	_	che	_	68-3	linguistic	none	_	_	_	_	_
+68-5	2502-2507	avete	_	avete	_	68-4	linguistic	none	_	_	_	_	_
+68-6	2508-2513	detto	_	detto	_	68-5	linguistic	none	_	_	_	_	_
+68-7	2514-2516	l'	_	l'	_	68-6	linguistic	none	_	_	_	_	_
+68-8	2517-2525	aggiungo	_	aggiungo	_	68-7	linguistic	none	_	_	_	_	_
+68-9	2526-2528	io	_	io	_	68-8	linguistic	none	_	_	_	_	_
+68-10	2529-2535	perché	_	perché	_	68-9	linguistic	none	_	_	_	_	_
+68-11	2536-2539	non	_	non	_	68-10	linguistic	none	_	_	_	_	_
+68-12	2540-2542	l'	_	l'	_	68-11	linguistic	none	_	_	_	_	_
+68-13	2543-2548	avete	_	avete	_	68-12	linguistic	none	_	_	_	_	_
+68-14	2549-2554	detta	_	detta	_	68-13	linguistic	none	_	_	_	_	_
+68-15	2555-2562	sarebbe	_	sarebbe	_	68-14	linguistic	none	_	_	_	_	_
+68-16	2563-2569	carino	_	carino	_	68-15	linguistic	none	_	_	_	_	_
+68-17	2570-2577	girarla	_	girarla	_	68-16	linguistic	none	_	_	_	_	_
+68-18	2578-2582	alla	_	alla	_	68-17	linguistic	none	_	_	_	_	_
+68-19	2583-2592	tesoriera	_	tesoriera	_	68-18	linguistic	none	_	_	_	_	_
+68-20	2593-2599	questa	_	questa	_	68-19	linguistic	none	_	_	_	_	_
+68-21	2600-2604	cosa	_	cosa	_	68-20	linguistic	none	_	_	_	_	_
+
+#Text=se @ecaterina ci permette se c' è il tempo se ci sono i mezzi
+69-1	2605-2607	se	_	se	PST203	69-0	linguistic	none	_	_	_	_	_
+69-2	2608-2618	@ecaterina	_	@ecaterina	_	69-1	anonymized	none	_	_	_	_	_
+69-3	2619-2621	ci	_	ci	_	69-2	linguistic	none	_	_	_	_	_
+69-4	2622-2630	permette	_	permette	_	69-3	linguistic	none	_	_	_	_	_
+69-5	2631-2633	se	_	se	_	69-4	linguistic	none	_	_	_	_	_
+69-6	2634-2636	c'	_	c'	_	69-5	linguistic	none	_	_	_	_	_
+69-7	2637-2638	è	_	è	_	69-6	linguistic	none	_	_	_	_	_
+69-8	2639-2641	il	_	il	_	69-7	linguistic	none	_	_	_	_	_
+69-9	2642-2647	tempo	_	tempo	_	69-8	linguistic	none	_	_	_	_	_
+69-10	2648-2650	se	_	se	_	69-9	linguistic	none	_	_	_	_	_
+69-11	2651-2653	ci	_	ci	_	69-10	linguistic	none	_	_	_	_	_
+69-12	2654-2658	sono	_	sono	_	69-11	linguistic	none	_	_	_	_	_
+69-13	2659-2660	i	_	i	_	69-12	linguistic	none	_	_	_	_	_
+69-14	2661-2666	mezzi	WeaklyRising	mezzi,	_	69-13	linguistic	none	_	_	_	_	_
+
+#Text=ovviamente abbiamo detto tutti noi abbiamo un cellulare si può usare per fare le inquadrature
+70-1	2667-2677	ovviamente	_	ovviamente	PST203	70-0	linguistic	none	_	_	_	_	_
+70-2	2678-2685	abbiamo	_	abbiamo	_	70-1	linguistic	none	_	_	_	_	_
+70-3	2686-2691	detto	_	detto	_	70-2	linguistic	none	_	_	_	_	_
+70-4	2692-2697	tutti	_	tutti	_	70-3	linguistic	none	_	_	_	_	_
+70-5	2698-2701	noi	_	noi	_	70-4	linguistic	none	_	_	_	_	_
+70-6	2702-2709	abbiamo	_	abbiamo	_	70-5	linguistic	none	_	_	_	_	_
+70-7	2710-2712	un	_	un	_	70-6	linguistic	none	_	_	_	_	_
+70-8	2713-2722	cellulare	_	cellulare	_	70-7	linguistic	none	_	_	_	_	_
+70-9	2723-2725	si	_	si	_	70-8	linguistic	none	_	_	_	_	_
+70-10	2726-2729	può	_	può	_	70-9	linguistic	none	_	_	_	_	_
+70-11	2730-2735	usare	_	usare	_	70-10	linguistic	none	_	_	_	_	_
+70-12	2736-2739	per	_	per	_	70-11	linguistic	none	_	_	_	_	_
+70-13	2740-2744	fare	_	fare	_	70-12	linguistic	none	_	_	_	_	_
+70-14	2745-2747	le	_	le	_	70-13	linguistic	none	_	_	_	_	_
+70-15	2748-2760	inquadrature	WeaklyRising	inquadrature,	_	70-14	linguistic	none	_	_	_	_	_
+
+#Text=quel giorno lì (.) per fare le inquadrature quelle più decisive magari veniamo noi col nostro materiale vi aiutiamo magari lo usare sempre voi però
+71-1	2761-2765	quel	_	quel	PST203	71-0	linguistic	none	_	_	_	_	_
+71-2	2766-2772	giorno	_	giorno	_	71-1	linguistic	none	_	_	_	_	_
+71-3	2773-2775	lì	_	lì	_	71-2	linguistic	none	_	_	_	_	_
+71-4	2776-2779	(.)	_	(.)	_	71-3	shortpause	none	_	_	_	_	_
+71-5	2780-2783	per	_	per	_	71-4	linguistic	none	_	_	_	_	_
+71-6	2784-2788	fare	_	fare::	_	71-5	linguistic	none	3x2	_	_	_	_
+71-7	2789-2791	le	_	le	_	71-6	linguistic	none	_	_	_	_	_
+71-8	2792-2804	inquadrature	_	inquadrature	_	71-7	linguistic	none	_	_	_	_	_
+71-9	2805-2811	quelle	_	quelle	_	71-8	linguistic	none	_	_	_	_	_
+71-10	2812-2815	più	_	più	_	71-9	linguistic	none	_	_	_	_	_
+71-11	2816-2824	decisive	_	decisive	_	71-10	linguistic	none	_	_	_	_	_
+71-12	2825-2831	magari	_	magari	_	71-11	linguistic	none	_	_	_	_	_
+71-13	2832-2839	veniamo	_	veniamo	_	71-12	linguistic	none	_	_	_	_	_
+71-14	2840-2843	noi	_	noi	_	71-13	linguistic	none	_	_	_	_	_
+71-15	2844-2847	col	_	col	_	71-14	linguistic	none	_	_	_	_	_
+71-16	2848-2854	nostro	_	nostro	_	71-15	linguistic	none	_	_	_	_	_
+71-17	2855-2864	materiale	_	materia:le	_	71-16	linguistic	none	6x1	_	_	_	_
+71-18	2865-2867	vi	_	vi	_	71-17	linguistic	none	_	_	_	_	_
+71-19	2868-2876	aiutiamo	_	aiutia:mo	_	71-18	linguistic	none	5x1	_	_	_	_
+71-20	2877-2883	magari	_	magari	_	71-19	linguistic	none	_	_	_	_	_
+71-21	2884-2886	lo	_	lo	_	71-20	linguistic	none	_	_	_	_	_
+71-22	2887-2892	usare	_	usare	_	71-21	linguistic	none	_	_	_	_	_
+71-23	2893-2899	sempre	_	sempre	_	71-22	linguistic	none	_	_	_	_	_
+71-24	2900-2903	voi	_	voi	_	71-23	linguistic	none	_	_	_	_	_
+71-25	2904-2908	però	WeaklyRising	però,	_	71-24	linguistic	none	_	_	_	_	_
+
+#Text=ve lo portiamo noi così avete anche magari una barra due telecamere in più okay (.) poi altra scena dite voi
+72-1	2909-2911	ve	_	ve	PST203	72-0	linguistic	none	_	_	_	_	_
+72-2	2912-2914	lo	_	lo	_	72-1	linguistic	none	_	_	_	_	_
+72-3	2915-2923	portiamo	_	portiamo	_	72-2	linguistic	none	_	_	_	_	_
+72-4	2924-2927	noi	_	noi	_	72-3	linguistic	none	_	_	_	_	_
+72-5	2928-2932	così	_	così	_	72-4	linguistic	none	_	_	_	_	_
+72-6	2933-2938	avete	_	avete	_	72-5	linguistic	none	_	_	_	_	_
+72-7	2939-2944	anche	_	anche	_	72-6	linguistic	none	_	_	_	_	_
+72-8	2945-2951	magari	_	magari	_	72-7	linguistic	none	_	_	_	_	_
+72-9	2952-2955	una	_	una	_	72-8	linguistic	none	_	_	_	_	_
+72-10	2956-2961	barra	_	barra	_	72-9	linguistic	none	_	_	_	_	_
+72-11	2962-2965	due	_	due	_	72-10	linguistic	none	_	_	_	_	_
+72-12	2966-2976	telecamere	_	telecamere:	_	72-11	linguistic	none	9x1	_	_	_	_
+72-13	2977-2979	in	_	in	_	72-12	linguistic	none	_	_	_	_	_
+72-14	2980-2983	più	_	più	_	72-13	linguistic	none	_	_	_	_	_
+72-15	2984-2988	okay	Rising	okay?	_	72-14	linguistic	none	_	_	_	_	_
+72-16	2989-2992	(.)	_	(.)	_	72-15	shortpause	none	_	_	_	_	_
+72-17	2993-2996	poi	_	poi	_	72-16	linguistic	none	_	_	_	_	_
+72-18	2997-3002	altra	_	altra	_	72-17	linguistic	none	_	_	_	_	_
+72-19	3003-3008	scena	_	scena	_	72-18	linguistic	none	_	_	_	_	_
+72-20	3009-3013	dite	_	dite	_	72-19	linguistic	none	_	_	_	_	_
+72-21	3014-3017	voi	Rising	voi?	_	72-20	linguistic	none	_	_	_	_	_
+
+#Text=dite la
+73-1	3018-3022	dite	_	\[dite	PST211	73-0	linguistic	none	_	_	_	*->14-1	*[14]
+73-2	3023-3025	la	_	la:\]	_	73-1	linguistic	none	1x1	_	_	*->14-2	*[14]
+
+#Text=eh sulla
+74-1	3026-3028	eh	_	\[e::h	PST083	74-0	linguistic	none	0x2	_	_	_	_
+74-2	3029-3034	sulla	_	sulla\]	_	74-1	linguistic	none	_	_	_	_	_
+
+#Text=così mettiamo insieme tutt' e due
+75-1	3035-3039	così	_	così	PST211	75-0	linguistic	none	_	_	_	_	_
+75-2	3040-3048	mettiamo	_	mettiamo	_	75-1	linguistic	none	_	_	_	_	_
+75-3	3049-3056	insieme	_	insieme	_	75-2	linguistic	none	_	_	_	_	_
+75-4	3057-3062	tutt'	_	\[tutt'	_	75-3	linguistic	none	_	_	_	_	_
+75-5	3063-3064	e	_	e	_	75-4	linguistic	none	_	_	_	_	_
+75-6	3065-3068	due	_	due\]	_	75-5	linguistic	none	_	_	_	_	_
+
+#Text=sì sulla cosa dei balli cioè noi avevamo pensato a una cosa simile ovvero appunto riprendere magari
+76-1	3069-3071	sì	_	\[sì	PST083	76-0	linguistic	none	_	_	_	_	_
+76-2	3072-3077	sulla	_	\[sulla	_	76-1	linguistic	none	_	_	_	_	_
+76-3	3078-3082	cosa	_	cosa	_	76-2	linguistic	none	_	_	_	_	_
+76-4	3083-3086	dei	_	dei\]	_	76-3	linguistic	none	_	_	_	_	_
+76-5	3087-3092	balli	_	balli	_	76-4	linguistic	none	_	_	_	_	_
+76-6	3093-3097	cioè	_	c(io)è	_	76-5	linguistic	none	_	_	_	_	_
+76-7	3098-3101	noi	_	noi	_	76-6	linguistic	none	_	_	_	_	_
+76-8	3102-3109	avevamo	_	avevamo	_	76-7	linguistic	none	_	_	_	_	_
+76-9	3110-3117	pensato	_	pensato	_	76-8	linguistic	none	_	_	_	_	_
+76-10	3118-3119	a	_	a	_	76-9	linguistic	none	_	_	_	_	_
+76-11	3120-3123	una	_	una	_	76-10	linguistic	none	_	_	_	_	_
+76-12	3124-3128	cosa	_	cosa	_	76-11	linguistic	none	_	_	_	_	_
+76-13	3129-3135	simile	_	simile	_	76-12	linguistic	none	_	_	_	_	_
+76-14	3136-3142	ovvero	_	ovvero	_	76-13	linguistic	none	_	_	_	_	_
+76-15	3143-3150	appunto	_	appunto	_	76-14	linguistic	none	_	_	_	_	_
+76-16	3151-3161	riprendere	_	riprendere	_	76-15	linguistic	none	_	_	_	_	_
+76-17	3162-3168	magari	_	magari	_	76-16	linguistic	none	_	_	_	_	_
+
+#Text=ad uno spettacolo noi che balliamo
+77-1	3169-3171	ad	_	ad	PST083	77-0	linguistic	none	_	_	_	_	_
+77-2	3172-3175	uno	_	uno	_	77-1	linguistic	none	_	_	_	_	_
+77-3	3176-3186	spettacolo	_	spettacolo	_	77-2	linguistic	none	_	_	_	_	_
+77-4	3187-3190	noi	_	noi	_	77-3	linguistic	none	_	_	_	_	_
+77-5	3191-3194	che	_	che	_	77-4	linguistic	none	_	_	_	_	_
+77-6	3195-3203	balliamo	WeaklyRising	balliamo,	_	77-5	linguistic	none	_	_	_	_	_
+
+#Text=quindi con tutto il gruppo
+78-1	3204-3210	quindi	_	quindi	PST083	78-0	linguistic	none	_	_	_	_	_
+78-2	3211-3214	con	_	con	_	78-1	linguistic	none	_	_	_	_	_
+78-3	3215-3220	tutto	_	tutto	_	78-2	linguistic	none	_	_	_	_	_
+78-4	3221-3223	il	_	il	_	78-3	linguistic	none	_	_	_	_	_
+78-5	3224-3230	gruppo	WeaklyRising	gruppo,	_	78-4	linguistic	none	_	_	_	_	_
+
+#Text=ehm principalmente appunto magari prendere
+79-1	3231-3234	ehm	_	e:::hm:::	PST083	79-0	linguistic	none	0x3,2x3	_	_	_	_
+79-2	3235-3249	principalmente	_	principalmente	_	79-1	linguistic	none	_	_	_	_	_
+79-3	3250-3257	appunto	_	appunto	_	79-2	linguistic	none	_	_	_	_	_
+79-4	3258-3264	magari	_	magari	_	79-3	linguistic	none	_	_	_	_	_
+79-5	3265-3273	prendere	WeaklyRising	prendere,	_	79-4	linguistic	none	_	_	_	_	_
+
+#Text=uno dei balli che diciamo (.) può intrattenere di più per esempio ruginoasă oppure bacău oppure un ballo più
+80-1	3274-3277	uno	_	uno	PST083	80-0	linguistic	yes	_	_	_	_	_
+80-2	3278-3281	dei	_	dei	_	80-1	linguistic	yes	_	_	_	_	_
+80-3	3282-3287	balli	_	balli	_	80-2	linguistic	yes	_	_	_	_	_
+80-4	3288-3291	che	_	che	_	80-3	linguistic	yes	_	_	_	_	_
+80-5	3292-3299	diciamo	_	diciamo	_	80-4	linguistic	yes	_	_	_	_	_
+80-6	3300-3303	(.)	_	(.)	_	80-5	shortpause	yes	_	_	_	_	_
+80-7	3304-3307	può	_	può	_	80-6	linguistic	yes	_	_	_	_	_
+80-8	3308-3320	intrattenere	_	intrattenere	_	80-7	linguistic	yes	_	_	_	_	_
+80-9	3321-3323	di	_	di	_	80-8	linguistic	yes	_	_	_	_	_
+80-10	3324-3327	più	_	più	_	80-9	linguistic	yes	_	_	_	_	_
+80-11	3328-3331	per	_	per	_	80-10	linguistic	yes	_	_	_	_	_
+80-12	3332-3339	esempio	_	esempio	_	80-11	linguistic	yes	_	_	_	_	_
+80-13	3340-3349	ruginoasă	_	#ruginoasă	_	80-12	linguistic	other	_	_	_	_	_
+80-14	3350-3356	oppure	_	oppure	_	80-13	linguistic	yes	_	_	_	_	_
+80-15	3357-3362	bacău	_	#bacău	_	80-14	linguistic	other	_	_	_	_	_
+80-16	3363-3369	oppure	_	oppure	_	80-15	linguistic	yes	_	_	_	_	_
+80-17	3370-3372	un	_	un	_	80-16	linguistic	yes	_	_	_	_	_
+80-18	3373-3378	ballo	_	ballo:	_	80-17	linguistic	yes	4x1	_	_	_	_
+80-19	3379-3382	più	_	più	_	80-18	linguistic	yes	_	_	_	_	_
+
+#Text=strong
+81-1	3383-3389	strong	_	strong	PST083	81-0	linguistic	none	_	_	_	_	_
+
+#Text=eh
+82-1	3390-3392	eh	_	e:::h	PST083	82-0	linguistic	none	0x3	_	_	_	_
+
+#Text=sì poi in realtà (.) non non sappiamo se è proprio questo però @ecaterina tipo ci aveva parlato di sto spettacolo del nove poi (.) non so vediamo
+83-1	3393-3395	sì	_	sì	PST083	83-0	linguistic	none	_	_	_	_	_
+83-2	3396-3399	poi	_	poi	_	83-1	linguistic	none	_	_	_	_	_
+83-3	3400-3402	in	_	in	_	83-2	linguistic	none	_	_	_	_	_
+83-4	3403-3409	realtà	_	realtà	_	83-3	linguistic	none	_	_	_	_	_
+83-5	3410-3413	(.)	_	(.)	_	83-4	shortpause	none	_	_	_	_	_
+83-6	3414-3417	non	_	non	_	83-5	linguistic	none	_	_	_	_	_
+83-7	3418-3421	non	_	non	_	83-6	linguistic	none	_	_	_	_	_
+83-8	3422-3430	sappiamo	_	sappiamo	_	83-7	linguistic	none	_	_	_	_	_
+83-9	3431-3433	se	_	se	_	83-8	linguistic	none	_	_	_	_	_
+83-10	3434-3435	è	_	è	_	83-9	linguistic	none	_	_	_	_	_
+83-11	3436-3443	proprio	_	proprio	_	83-10	linguistic	none	_	_	_	_	_
+83-12	3444-3450	questo	_	questo	_	83-11	linguistic	none	_	_	_	_	_
+83-13	3451-3455	però	_	però	_	83-12	linguistic	none	_	_	_	_	_
+83-14	3456-3466	@ecaterina	_	@ecaterina	_	83-13	anonymized	none	_	_	_	_	_
+83-15	3467-3471	tipo	_	tipo	_	83-14	linguistic	none	_	_	_	_	_
+83-16	3472-3474	ci	_	ci	_	83-15	linguistic	none	_	_	_	_	_
+83-17	3475-3480	aveva	_	aveva	_	83-16	linguistic	none	_	_	_	_	_
+83-18	3481-3488	parlato	_	parlato	_	83-17	linguistic	none	_	_	_	_	_
+83-19	3489-3491	di	_	di	_	83-18	linguistic	none	_	_	_	_	_
+83-20	3492-3495	sto	_	sto	_	83-19	linguistic	none	_	_	_	_	_
+83-21	3496-3506	spettacolo	_	spettacolo	_	83-20	linguistic	none	_	_	_	_	_
+83-22	3507-3510	del	_	del	_	83-21	linguistic	none	_	_	_	_	_
+83-23	3511-3515	nove	_	nove	_	83-22	linguistic	none	_	_	_	_	_
+83-24	3516-3519	poi	_	poi	_	83-23	linguistic	none	_	_	_	_	_
+83-25	3520-3523	(.)	_	(.)	_	83-24	shortpause	none	_	_	_	_	_
+83-26	3524-3527	non	_	non	_	83-25	linguistic	none	_	_	_	_	_
+83-27	3528-3530	so	_	so	_	83-26	linguistic	none	_	_	_	_	_
+83-28	3531-3538	vediamo	Rising	vediamo?	_	83-27	linguistic	none	_	_	_	_	_
+
+#Text=avevamo anche noi avuto quest' idea
+84-1	3539-3546	avevamo	_	avevamo	PST092	84-0	linguistic	none	_	_	_	_	_
+84-2	3547-3552	anche	_	anche	_	84-1	linguistic	none	_	_	_	_	_
+84-3	3553-3556	noi	_	noi	_	84-2	linguistic	none	_	_	_	_	_
+84-4	3557-3562	avuto	_	avuto	_	84-3	linguistic	none	_	_	_	_	_
+84-5	3563-3569	quest'	_	quest'	_	84-4	linguistic	none	_	_	_	_	_
+84-6	3570-3574	idea	_	idea	_	84-5	linguistic	none	_	_	_	_	_
+
+#Text=sì
+85-1	3575-3577	sì	_	sì	PST083	85-0	linguistic	none	_	_	_	_	_
+
+#Text=e poi ne abbiamo scelto un' altra con un' intervista a doamna @ecaterina
+86-1	3578-3579	e	_	e	PST083	86-0	linguistic	yes	_	_	_	_	_
+86-2	3580-3583	poi	_	poi::	_	86-1	linguistic	yes	2x2	_	_	_	_
+86-3	3584-3586	ne	_	ne	_	86-2	linguistic	yes	_	_	_	_	_
+86-4	3587-3594	abbiamo	_	abbiamo	_	86-3	linguistic	yes	_	_	_	_	_
+86-5	3595-3601	scelto	_	scelto	_	86-4	linguistic	yes	_	_	_	_	_
+86-6	3602-3605	un'	_	un'	_	86-5	linguistic	yes	_	_	_	_	_
+86-7	3606-3611	altra	_	altra:	_	86-6	linguistic	yes	4x1	_	_	_	_
+86-8	3612-3615	con	_	con:	_	86-7	linguistic	yes	2x1	_	_	_	_
+86-9	3616-3619	un'	_	un'	_	86-8	linguistic	yes	_	_	_	_	_
+86-10	3620-3630	intervista	_	intervista	_	86-9	linguistic	yes	_	_	_	_	_
+86-11	3631-3632	a	_	a	_	86-10	linguistic	yes	_	_	_	_	_
+86-12	3633-3639	doamna	_	#doamna	_	86-11	linguistic	other	_	_	_	_	_
+86-13	3640-3650	@ecaterina	_	@ecaterina	_	86-12	anonymized	yes	_	_	_	_	_
+
+#Text=e dove ehm appunto lei f~ cioè facciamo in modo che si spieghi un po' la nascita del centro
+87-1	3651-3652	e	_	e	PST083	87-0	linguistic	none	_	_	_	_	_
+87-2	3653-3657	dove	_	dove	_	87-1	linguistic	none	_	_	_	_	_
+87-3	3658-3661	ehm	_	ehm	_	87-2	linguistic	none	_	_	_	_	_
+87-4	3662-3669	appunto	_	appunto:	_	87-3	linguistic	none	6x1	_	_	_	_
+87-5	3670-3673	lei	_	lei	_	87-4	linguistic	none	_	_	_	_	_
+87-6	3674-3676	f~	_	f~	_	87-5	linguistic	none	_	_	_	_	_
+87-7	3677-3681	cioè	_	cioè	_	87-6	linguistic	none	_	_	_	_	_
+87-8	3682-3690	facciamo	_	facciamo	_	87-7	linguistic	none	_	_	_	_	_
+87-9	3691-3693	in	_	in	_	87-8	linguistic	none	_	_	_	_	_
+87-10	3694-3698	modo	_	modo	_	87-9	linguistic	none	_	_	_	_	_
+87-11	3699-3702	che	_	che	_	87-10	linguistic	none	_	_	_	_	_
+87-12	3703-3705	si	_	si	_	87-11	linguistic	none	_	_	_	_	_
+87-13	3706-3713	spieghi	_	spieghi	_	87-12	linguistic	none	_	_	_	_	_
+87-14	3714-3716	un	_	un	_	87-13	linguistic	none	_	_	_	_	_
+87-15	3717-3720	po'	_	po':	_	87-14	linguistic	none	1x1	_	_	_	_
+87-16	3721-3723	la	_	la	_	87-15	linguistic	none	_	_	_	_	_
+87-17	3724-3731	nascita	_	nascita	_	87-16	linguistic	none	_	_	_	_	_
+87-18	3732-3735	del	_	del	_	87-17	linguistic	none	_	_	_	_	_
+87-19	3736-3742	centro	_	centro:	_	87-18	linguistic	none	5x1	_	_	_	_
+
+#Text=e tutta questa storia
+88-1	3743-3744	e	_	e	PST083	88-0	linguistic	none	_	_	_	_	_
+88-2	3745-3750	tutta	_	tutta	_	88-1	linguistic	none	_	_	_	_	_
+88-3	3751-3757	questa	_	questa	_	88-2	linguistic	none	_	_	_	_	_
+88-4	3758-3764	storia	_	storia::	_	88-3	linguistic	none	5x2	_	_	_	_
+
+#Text=del eh
+89-1	3765-3768	del	_	del::	PST083	89-0	linguistic	none	2x2	_	_	_	_
+89-2	3769-3771	eh	_	eh	_	89-1	linguistic	none	_	_	_	_	_
+
+#Text=della piccola romania qua al centro diciamo (.) questa cosa qua
+90-1	3772-3777	della	_	della	PST083	90-0	linguistic	none	_	_	_	_	_
+90-2	3778-3785	piccola	_	piccola	_	90-1	linguistic	none	_	_	_	_	_
+90-3	3786-3793	romania	_	romania	_	90-2	linguistic	none	_	_	_	_	_
+90-4	3794-3797	qua	_	qua	_	90-3	linguistic	none	_	_	_	_	_
+90-5	3798-3800	al	_	al	_	90-4	linguistic	none	_	_	_	_	_
+90-6	3801-3807	centro	_	centro	_	90-5	linguistic	none	_	_	_	_	_
+90-7	3808-3815	diciamo	_	diciamo	_	90-6	linguistic	none	_	_	_	_	_
+90-8	3816-3819	(.)	_	(.)	_	90-7	shortpause	none	_	_	_	_	_
+90-9	3820-3826	questa	_	questa	_	90-8	linguistic	none	_	_	_	_	_
+90-10	3827-3831	cosa	_	cosa	_	90-9	linguistic	none	_	_	_	_	_
+90-11	3832-3835	qua	_	qua	_	90-10	linguistic	none	_	_	_	_	_
+
+#Text=okay e le altre vostre idee invece
+91-1	3836-3840	okay	_	okay	PST211	91-0	linguistic	none	_	_	_	_	_
+91-2	3841-3842	e	_	e	_	91-1	linguistic	none	_	_	_	_	_
+91-3	3843-3845	le	_	le	_	91-2	linguistic	none	_	_	_	_	_
+91-4	3846-3851	altre	_	altre	_	91-3	linguistic	none	_	_	_	_	_
+91-5	3852-3858	vostre	_	vostre	_	91-4	linguistic	none	_	_	_	_	_
+91-6	3859-3863	idee	_	idee	_	91-5	linguistic	none	_	_	_	_	_
+91-7	3864-3870	invece	Rising	invece?	_	91-6	linguistic	none	_	_	_	_	_
+
+#Text=vai tu
+92-1	3871-3874	vai	_	vai	PST087	92-0	linguistic	none	_	_	_	_	_
+92-2	3875-3877	tu	Rising	tu?	_	92-1	linguistic	none	_	_	_	_	_
+
+#Text=((ride)) wait aspetta (.) me la devo ricordare aspetta
+93-1	3878-3886	((ride))	_	((ride))	PST092	93-0	nonverbalbehavior	yes	_	_	_	_	_
+93-2	3887-3891	wait	_	#wait	_	93-1	linguistic	other	_	_	_	_	_
+93-3	3892-3899	aspetta	_	aspetta	_	93-2	linguistic	yes	_	_	_	_	_
+93-4	3900-3903	(.)	_	(.)	_	93-3	shortpause	yes	_	_	_	_	_
+93-5	3904-3906	me	_	me	_	93-4	linguistic	yes	_	_	_	_	_
+93-6	3907-3909	la	_	la	_	93-5	linguistic	yes	_	_	_	_	_
+93-7	3910-3914	devo	_	devo	_	93-6	linguistic	yes	_	_	_	_	_
+93-8	3915-3924	ricordare	_	ricordare	_	93-7	linguistic	yes	_	_	_	_	_
+93-9	3925-3932	aspetta	_	aspetta	_	93-8	linguistic	yes	_	_	_	_	_
+
+#Text=eh no canti di gruppo taraf e ballo
+94-1	3933-3935	eh	_	eh	PST087	94-0	linguistic	yes	_	_	_	_	_
+94-2	3936-3938	no	_	no	_	94-1	linguistic	yes	_	_	_	_	_
+94-3	3939-3944	canti	_	(canti	_	94-2	linguistic	yes	_	_	0-5(0)	_	_
+94-4	3945-3947	di	_	di	_	94-3	linguistic	yes	_	_	0-2(0)	_	_
+94-5	3948-3954	gruppo	_	gruppo)	_	94-4	linguistic	yes	_	_	0-6(0)	_	_
+94-6	3955-3960	taraf	_	#taraf	_	94-5	linguistic	other	_	_	_	_	_
+94-7	3961-3962	e	_	e	_	94-6	linguistic	yes	_	_	_	_	_
+94-8	3963-3968	ballo	_	ballo	_	94-7	linguistic	yes	_	_	_	_	_
+
+#Text=eh sì
+95-1	3969-3971	eh	_	eh	PST092	95-0	linguistic	none	_	_	_	_	_
+95-2	3972-3974	sì	_	sì	_	95-1	linguistic	none	_	_	_	_	_
+
+#Text=ah vabbè poi la scena l' abbiam scritta però quella di con le uova di pasqua
+96-1	3975-3977	ah	_	ah	PST087	96-0	linguistic	none	_	_	_	_	_
+96-2	3978-3983	vabbè	_	vabbè	_	96-1	linguistic	none	_	_	_	_	_
+96-3	3984-3987	poi	_	poi	_	96-2	linguistic	none	_	_	_	_	_
+96-4	3988-3990	la	_	la	_	96-3	linguistic	none	_	_	_	_	_
+96-5	3991-3996	scena	_	scena	_	96-4	linguistic	none	_	_	_	_	_
+96-6	3997-3999	l'	_	l'	_	96-5	linguistic	none	_	_	_	_	_
+96-7	4000-4006	abbiam	_	abbiam	_	96-6	linguistic	none	_	_	_	_	_
+96-8	4007-4014	scritta	_	scritta	_	96-7	linguistic	none	_	_	_	_	_
+96-9	4015-4019	però	_	però	_	96-8	linguistic	none	_	_	_	_	_
+96-10	4020-4026	quella	_	quella	_	96-9	linguistic	none	_	_	_	_	_
+96-11	4027-4029	di	_	di:	_	96-10	linguistic	none	1x1	_	_	_	_
+96-12	4030-4033	con	_	con	_	96-11	linguistic	none	_	_	_	_	_
+96-13	4034-4036	le	_	le	_	96-12	linguistic	none	_	_	_	_	_
+96-14	4037-4041	uova	_	uova	_	96-13	linguistic	none	_	_	_	_	_
+96-15	4042-4044	di	_	di	_	96-14	linguistic	none	_	_	_	_	_
+96-16	4045-4051	pasqua	_	pasqua	_	96-15	linguistic	none	_	_	_	_	_
+
+#Text=ah si volevamo
+97-1	4052-4054	ah	_	\[ah	PST092	97-0	linguistic	none	_	_	_	*->17-1	*[17]
+97-2	4055-4057	si	_	si	_	97-1	linguistic	none	_	_	_	*->17-2	*[17]
+97-3	4058-4066	volevamo	_	volevamo::\]	_	97-2	linguistic	none	7x2	_	_	*->17-3	*[17]
+
+#Text=io stavo (.) pensando tipo
+98-1	4067-4069	io	_	\[io	PST087	98-0	linguistic	none	_	_	_	_	_
+98-2	4070-4075	stavo	_	stavo::\]	_	98-1	linguistic	none	4x2	_	_	_	_
+98-3	4076-4079	(.)	_	(.)	_	98-2	shortpause	none	_	_	_	_	_
+98-4	4080-4088	pensando	_	\[pensa\]ndo	_	98-3	linguistic	none	_	_	_	_	_
+98-5	4089-4093	tipo	_	tipo:	_	98-4	linguistic	none	3x1	_	_	_	_
+
+#Text=avevo quest' idea che magari mentre ci sono magari tipo
+99-1	4094-4099	avevo	_	avevo	PST087	99-0	linguistic	none	_	_	_	_	_
+99-2	4100-4106	quest'	_	quest'	_	99-1	linguistic	none	_	_	_	_	_
+99-3	4107-4111	idea	_	idea	_	99-2	linguistic	none	_	_	_	_	_
+99-4	4112-4115	che	_	che	_	99-3	linguistic	none	_	_	_	_	_
+99-5	4116-4122	magari	_	magari:	_	99-4	linguistic	none	5x1	_	_	_	_
+99-6	4123-4129	mentre	_	mentre	_	99-5	linguistic	none	_	_	_	_	_
+99-7	4130-4132	ci	_	ci	_	99-6	linguistic	none	_	_	_	_	_
+99-8	4133-4137	sono	_	sono	_	99-7	linguistic	none	_	_	_	_	_
+99-9	4138-4144	magari	_	magari	_	99-8	linguistic	none	_	_	_	_	_
+99-10	4145-4149	tipo	_	tipo::	_	99-9	linguistic	none	3x2	_	_	_	_
+
+#Text=le mamme e le nonne che magari vengono dalla romania che si mettono a
+100-1	4150-4152	le	_	le	PST087	100-0	linguistic	none	_	_	_	_	_
+100-2	4153-4158	mamme	_	mamme	_	100-1	linguistic	none	_	_	_	_	_
+100-3	4159-4160	e	_	e	_	100-2	linguistic	none	_	_	_	_	_
+100-4	4161-4163	le	_	le	_	100-3	linguistic	none	_	_	_	_	_
+100-5	4164-4169	nonne	_	nonne	_	100-4	linguistic	none	_	_	_	_	_
+100-6	4170-4173	che	_	che	_	100-5	linguistic	none	_	_	_	_	_
+100-7	4174-4180	magari	_	magari	_	100-6	linguistic	none	_	_	_	_	_
+100-8	4181-4188	vengono	_	vengono	_	100-7	linguistic	none	_	_	_	_	_
+100-9	4189-4194	dalla	_	dalla	_	100-8	linguistic	none	_	_	_	_	_
+100-10	4195-4202	romania	_	romania	_	100-9	linguistic	none	_	_	_	_	_
+100-11	4203-4206	che	_	che	_	100-10	linguistic	none	_	_	_	_	_
+100-12	4207-4209	si	_	si	_	100-11	linguistic	none	_	_	_	_	_
+100-13	4210-4217	mettono	_	mettono	_	100-12	linguistic	none	_	_	_	_	_
+100-14	4218-4219	a	_	a:::	_	100-13	linguistic	none	0x3	_	_	_	_
+
+#Text=appunto decorare le uova
+101-1	4220-4227	appunto	_	appunto	PST087	101-0	linguistic	none	_	_	_	_	_
+101-2	4228-4236	decorare	_	decorare	_	101-1	linguistic	none	_	_	_	_	_
+101-3	4237-4239	le	_	le	_	101-2	linguistic	none	_	_	_	_	_
+101-4	4240-4244	uova	Rising	uova?	_	101-3	linguistic	none	_	_	_	_	_
+
+#Text=magari oltre a spiegare il significato che poi si ricollegherà anche ai costumi (.) perché ogni costume
+102-1	4245-4251	magari	_	magari	PST087	102-0	linguistic	none	_	_	_	_	_
+102-2	4252-4257	oltre	_	oltre	_	102-1	linguistic	none	_	_	_	_	_
+102-3	4258-4259	a	_	a	_	102-2	linguistic	none	_	_	_	_	_
+102-4	4260-4268	spiegare	_	spiegare	_	102-3	linguistic	none	_	_	_	_	_
+102-5	4269-4271	il	_	il	_	102-4	linguistic	none	_	_	_	_	_
+102-6	4272-4283	significato	_	significato	_	102-5	linguistic	none	_	_	_	_	_
+102-7	4284-4287	che	_	che	_	102-6	linguistic	none	_	_	_	_	_
+102-8	4288-4291	poi	_	poi	_	102-7	linguistic	none	_	_	_	_	_
+102-9	4292-4294	si	_	si	_	102-8	linguistic	none	_	_	_	_	_
+102-10	4295-4307	ricollegherà	_	ricollegherà	_	102-9	linguistic	none	_	_	_	_	_
+102-11	4308-4313	anche	_	anche	_	102-10	linguistic	none	_	_	_	_	_
+102-12	4314-4316	ai	_	ai	_	102-11	linguistic	none	_	_	_	_	_
+102-13	4317-4324	costumi	_	costumi	_	102-12	linguistic	none	_	_	_	_	_
+102-14	4325-4328	(.)	_	(.)	_	102-13	shortpause	none	_	_	_	_	_
+102-15	4329-4335	perché	_	perché	_	102-14	linguistic	none	_	_	_	_	_
+102-16	4336-4340	ogni	_	ogni	_	102-15	linguistic	none	_	_	_	_	_
+102-17	4341-4348	costume	_	\[costume\]	_	102-16	linguistic	none	_	_	_	*->18-1	*[18]
+
+#Text=xx
+103-1	4349-4351	xx	_	\[xx\]	PST085	103-0	unknown	none	_	_	_	*->18-2	*[18]
+
+#Text=xx
+104-1	4352-4354	xx	_	xx	PST083	104-0	unknown	none	_	_	_	_	_
+
+#Text=ehm poi magari eh per introdurre anche un altro argomento magari che ne so c' è una nonna che è venuta dalla romania qua
+105-1	4355-4358	ehm	_	eh::m	PST087	105-0	linguistic	none	1x2	_	_	_	_
+105-2	4359-4362	poi	_	poi	_	105-1	linguistic	none	_	_	_	_	_
+105-3	4363-4369	magari	_	magari::	_	105-2	linguistic	none	5x2	_	_	_	_
+105-4	4370-4372	eh	_	e:h	_	105-3	linguistic	none	0x1	_	_	_	_
+105-5	4373-4376	per	_	per	_	105-4	linguistic	none	_	_	_	_	_
+105-6	4377-4387	introdurre	_	introdurre	_	105-5	linguistic	none	_	_	_	_	_
+105-7	4388-4393	anche	_	anche	_	105-6	linguistic	none	_	_	_	_	_
+105-8	4394-4396	un	_	un	_	105-7	linguistic	none	_	_	_	_	_
+105-9	4397-4402	altro	_	altro	_	105-8	linguistic	none	_	_	_	_	_
+105-10	4403-4412	argomento	_	argomento	_	105-9	linguistic	none	_	_	_	_	_
+105-11	4413-4419	magari	_	magari	_	105-10	linguistic	none	_	_	_	_	_
+105-12	4420-4423	che	_	che	_	105-11	linguistic	none	_	_	_	_	_
+105-13	4424-4426	ne	_	ne	_	105-12	linguistic	none	_	_	_	_	_
+105-14	4427-4429	so	_	so	_	105-13	linguistic	none	_	_	_	_	_
+105-15	4430-4432	c'	_	c'	_	105-14	linguistic	none	_	_	_	_	_
+105-16	4433-4434	è	_	è	_	105-15	linguistic	none	_	_	_	_	_
+105-17	4435-4438	una	_	una	_	105-16	linguistic	none	_	_	_	_	_
+105-18	4439-4444	nonna	_	nonna	_	105-17	linguistic	none	_	_	_	_	_
+105-19	4445-4448	che	_	che	_	105-18	linguistic	none	_	_	_	_	_
+105-20	4449-4450	è	_	è	_	105-19	linguistic	none	_	_	_	_	_
+105-21	4451-4457	venuta	_	venuta	_	105-20	linguistic	none	_	_	_	_	_
+105-22	4458-4463	dalla	_	dalla	_	105-21	linguistic	none	_	_	_	_	_
+105-23	4464-4471	romania	_	romania	_	105-22	linguistic	none	_	_	_	_	_
+105-24	4472-4475	qua	_	qua::	_	105-23	linguistic	none	2x2	_	_	_	_
+
+#Text=o anche solo le mamme che si ricordano di com' era da loro in infanzia come facevano in romania appunto parlano
+106-1	4476-4477	o	_	o	PST087	106-0	linguistic	none	_	_	_	_	_
+106-2	4478-4483	anche	_	anche	_	106-1	linguistic	none	_	_	_	_	_
+106-3	4484-4488	solo	_	solo	_	106-2	linguistic	none	_	_	_	_	_
+106-4	4489-4491	le	_	le	_	106-3	linguistic	none	_	_	_	_	_
+106-5	4492-4497	mamme	_	mamme	_	106-4	linguistic	none	_	_	_	_	_
+106-6	4498-4501	che	_	che	_	106-5	linguistic	none	_	_	_	_	_
+106-7	4502-4504	si	_	si	_	106-6	linguistic	none	_	_	_	_	_
+106-8	4505-4514	ricordano	_	ricordano	_	106-7	linguistic	none	_	_	_	_	_
+106-9	4515-4517	di	_	di	_	106-8	linguistic	none	_	_	_	_	_
+106-10	4518-4522	com'	_	com'	_	106-9	linguistic	none	_	_	_	_	_
+106-11	4523-4526	era	_	era	_	106-10	linguistic	none	_	_	_	_	_
+106-12	4527-4529	da	_	da	_	106-11	linguistic	none	_	_	_	_	_
+106-13	4530-4534	loro	_	loro	_	106-12	linguistic	none	_	_	_	_	_
+106-14	4535-4537	in	_	in	_	106-13	linguistic	none	_	_	_	_	_
+106-15	4538-4546	infanzia	_	infanzia	_	106-14	linguistic	none	_	_	_	_	_
+106-16	4547-4551	come	_	come:	_	106-15	linguistic	none	3x1	_	_	_	_
+106-17	4552-4560	facevano	_	facevano	_	106-16	linguistic	none	_	_	_	_	_
+106-18	4561-4563	in	_	in	_	106-17	linguistic	none	_	_	_	_	_
+106-19	4564-4571	romania	_	romania	_	106-18	linguistic	none	_	_	_	_	_
+106-20	4572-4579	appunto	_	appunto	_	106-19	linguistic	none	_	_	_	_	_
+106-21	4580-4587	parlano	WeaklyRising	parlano,	_	106-20	linguistic	none	_	_	_	_	_
+
+#Text=e però poi fanno anche tipo i confronti con l' italia quindi con (.) sì (.) confronti tra italia e romania
+107-1	4588-4589	e	_	e	PST087	107-0	linguistic	none	_	_	_	_	_
+107-2	4590-4594	però	_	però:	_	107-1	linguistic	none	3x1	_	_	_	_
+107-3	4595-4598	poi	_	poi	_	107-2	linguistic	none	_	_	_	_	_
+107-4	4599-4604	fanno	_	fanno	_	107-3	linguistic	none	_	_	_	_	_
+107-5	4605-4610	anche	_	anche	_	107-4	linguistic	none	_	_	_	_	_
+107-6	4611-4615	tipo	_	tipo	_	107-5	linguistic	none	_	_	_	_	_
+107-7	4616-4617	i	_	i	_	107-6	linguistic	none	_	_	_	_	_
+107-8	4618-4627	confronti	_	confronti	_	107-7	linguistic	none	_	_	_	_	_
+107-9	4628-4631	con	_	con	_	107-8	linguistic	none	_	_	_	_	_
+107-10	4632-4634	l'	_	l'	_	107-9	linguistic	none	_	_	_	_	_
+107-11	4635-4641	italia	_	itali\[a	_	107-10	linguistic	none	_	_	_	_	_
+107-11.1	4640-4641	a	_	_	_	_	_	_	_	_	_	*->19-1	*[19]
+107-12	4642-4648	quindi	_	°quindi	_	107-11	linguistic	none	_	_	_	*->19-2	*[19]
+107-13	4649-4652	con	_	con°\]	_	107-12	linguistic	none	_	_	_	*->19-3	*[19]
+107-14	4653-4656	(.)	_	(.)	_	107-13	shortpause	none	_	_	_	_	_
+107-15	4657-4659	sì	_	sì	_	107-14	linguistic	none	_	_	_	_	_
+107-16	4660-4663	(.)	_	(.)	_	107-15	shortpause	none	_	_	_	_	_
+107-17	4664-4673	confronti	_	confronti	_	107-16	linguistic	none	_	_	_	_	_
+107-18	4674-4677	tra	_	tra	_	107-17	linguistic	none	_	_	_	_	_
+107-19	4678-4684	italia	_	italia	_	107-18	linguistic	none	_	_	_	_	_
+107-20	4685-4686	e	_	e	_	107-19	linguistic	none	_	_	_	_	_
+107-21	4687-4694	romania	WeaklyRising	romania,	_	107-20	linguistic	none	_	_	_	_	_
+
+#Text=vorbesc de amintiri
+108-1	4695-4702	vorbesc	_	#_ \[vorbesc	PST092	108-0	linguistic	other	_	_	_	_	_
+108-1.1	4695-4699	vorb	_	_	_	_	_	_	_	_	_	*->19-4	*[19]
+108-2	4703-4705	de	_	de	_	108-1	linguistic	other	_	_	_	*->19-5	*[19]
+108-3	4706-4714	amintiri	_	amintiri\]	_	108-2	linguistic	other	_	_	_	*->19-6	*[19]
+
+#Text=è una bella idea
+109-1	4715-4716	è	_	è	PST083	110-0	linguistic	none	_	_	_	_	_
+109-2	4717-4720	una	_	una	_	110-1	linguistic	none	_	_	_	_	_
+109-3	4721-4726	bella	_	bella	_	110-2	linguistic	none	_	_	_	_	_
+109-4	4727-4731	idea	_	idea	_	110-3	linguistic	none	_	_	_	_	_
+
+#Text=come abbiamo la sala della nonna (.) e abbiamo eh
+110-1	4732-4736	come	_	(come)	PST083	111-0	linguistic	none	_	_	0-4(0)	_	_
+110-2	4737-4744	abbiamo	_	abbiamo	_	111-1	linguistic	none	_	_	_	_	_
+110-3	4745-4747	la	_	la	_	111-2	linguistic	none	_	_	_	_	_
+110-4	4748-4752	sala	_	sala	_	111-3	linguistic	none	_	_	_	_	_
+110-5	4753-4758	della	_	della	_	111-4	linguistic	none	_	_	_	_	_
+110-6	4759-4764	nonna	_	nonna	_	111-5	linguistic	none	_	_	_	_	_
+110-7	4765-4768	(.)	_	(.)	_	111-6	shortpause	none	_	_	_	_	_
+110-8	4769-4770	e	_	e	_	111-7	linguistic	none	_	_	_	_	_
+110-9	4771-4778	abbiamo	_	abbiamo	_	111-8	linguistic	none	_	_	_	_	_
+110-10	4779-4781	eh	_	e::h	_	111-9	linguistic	none	0x2	_	_	_	_
+
+#Text=ah xx sì sì
+111-1	4782-4784	ah	_	\[ah	PST092	112-0	linguistic	none	_	_	_	*->20-1	*[20]
+111-2	4785-4787	xx	_	xx\]	_	112-1	unknown	none	_	_	_	*->20-2	*[20]
+111-3	4788-4790	sì	_	sì	_	112-2	linguistic	none	_	_	_	_	_
+111-4	4791-4793	sì	_	sì	_	112-3	linguistic	none	_	_	_	_	_
+
+#Text=ah (.) sì
+112-1	4794-4796	ah	_	\[ah	PST087	113-0	linguistic	none	_	_	_	*->20-3	*[20]
+112-2	4797-4800	(.)	_	(.)	_	113-1	shortpause	none	_	_	_	*->20-4	*[20]
+112-3	4801-4803	sì	_	sì\]	_	113-2	linguistic	none	_	_	_	*->20-5	*[20]
+
+#Text=mia mamma fa (.) lavora al telaio (.) ehm tipo anche adesso teoricamente sta lavorando e potremmo fare anche una scena in cui riprendiamo lei
+113-1	4804-4807	mia	_	mia	PST083	114-0	linguistic	none	_	_	_	_	_
+113-2	4808-4813	mamma	_	mamma	_	114-1	linguistic	none	_	_	_	_	_
+113-3	4814-4816	fa	_	\[fa::\]	_	114-2	linguistic	none	1x2	_	_	*->21-1	*[21]
+113-4	4817-4820	(.)	_	(.)	_	114-3	shortpause	none	_	_	_	_	_
+113-5	4821-4827	lavora	_	lavora:	_	114-4	linguistic	none	5x1	_	_	_	_
+113-6	4828-4830	al	_	al	_	114-5	linguistic	none	_	_	_	_	_
+113-7	4831-4837	telaio	_	tel\[aio	_	114-6	linguistic	none	_	_	_	_	_
+113-7.1	4834-4837	aio	_	_	_	_	_	_	_	_	_	*->22-1	*[22]
+113-8	4838-4841	(.)	_	(.)\]	_	114-7	shortpause	none	_	_	_	*->22-2	*[22]
+113-9	4842-4845	ehm	_	ehm	_	114-8	linguistic	none	_	_	_	_	_
+113-10	4846-4850	tipo	_	tipo	_	114-9	linguistic	none	_	_	_	_	_
+113-11	4851-4856	anche	_	anche	_	114-10	linguistic	none	_	_	_	_	_
+113-12	4857-4863	adesso	_	adesso	_	114-11	linguistic	none	_	_	_	_	_
+113-13	4864-4876	teoricamente	_	teoricamente	_	114-12	linguistic	none	_	_	_	_	_
+113-14	4877-4880	sta	_	sta	_	114-13	linguistic	none	_	_	_	_	_
+113-15	4881-4890	lavorando	_	lavorando	_	114-14	linguistic	none	_	_	_	_	_
+113-16	4891-4892	e	_	e	_	114-15	linguistic	none	_	_	_	_	_
+113-17	4893-4901	potremmo	_	potremmo	_	114-16	linguistic	none	_	_	_	_	_
+113-18	4902-4906	fare	_	fare	_	114-17	linguistic	none	_	_	_	_	_
+113-19	4907-4912	anche	_	anche	_	114-18	linguistic	none	_	_	_	_	_
+113-20	4913-4916	una	_	una	_	114-19	linguistic	none	_	_	_	_	_
+113-21	4917-4922	scena	_	scena	_	114-20	linguistic	none	_	_	_	_	_
+113-22	4923-4925	in	_	in	_	114-21	linguistic	none	_	_	_	_	_
+113-23	4926-4929	cui	_	cui	_	114-22	linguistic	none	_	_	_	_	_
+113-24	4930-4941	riprendiamo	_	riprendiamo	_	114-23	linguistic	none	_	_	_	_	_
+113-25	4942-4945	lei	_	lei	_	114-24	linguistic	none	_	_	_	_	_
+
+#Text=telaio
+114-1	4946-4952	telaio	_	\[telaio\]	PST087	115-0	linguistic	none	_	_	_	*->21-2	*[21]
+
+#Text=al telaio ((ride))
+115-1	4953-4955	al	_	\[al	PST092	116-0	linguistic	none	_	_	_	*->22-3	*[22]
+115-2	4956-4962	telaio	_	telaio\]	_	116-1	linguistic	none	_	_	_	*->22-4	*[22]
+115-3	4963-4971	((ride))	_	((ride))	_	116-2	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=che tesse e magari spiega un po'
+116-1	4972-4975	che	_	che::	PST083	117-0	linguistic	none	2x2	_	_	_	_
+116-2	4976-4981	tesse	_	\[tesse\]	_	117-1	linguistic	none	_	_	_	*->56-1	*[56]
+116-3	4982-4983	e	_	e	_	117-2	linguistic	none	_	_	_	_	_
+116-4	4984-4990	magari	_	magari	_	117-3	linguistic	none	_	_	_	_	_
+116-5	4991-4997	spiega	_	spiega	_	117-4	linguistic	none	_	_	_	_	_
+116-6	4998-5000	un	_	un	_	117-5	linguistic	none	_	_	_	_	_
+116-7	5001-5004	po'	_	po'	_	117-6	linguistic	none	_	_	_	_	_
+
+#Text=sì
+117-1	5005-5007	sì	_	\[sì\]	PST092	118-0	linguistic	none	_	_	_	*->56-2	*[56]
+
+#Text=bello
+118-1	5008-5013	bello	_	\[bello\]	PST211	119-0	linguistic	none	_	_	_	*->56-3	*[56]
+
+#Text=sì lì è meglio
+119-1	5014-5016	sì	_	sì	PST087	120-0	linguistic	none	_	_	_	_	_
+119-2	5017-5019	lì	_	lì	_	120-1	linguistic	none	_	_	_	_	_
+119-3	5020-5021	è	_	è	_	120-2	linguistic	none	_	_	_	_	_
+119-4	5022-5028	meglio	_	meglio	_	120-3	linguistic	none	_	_	_	_	_
+
+#Text=posso (.) vabbè poi la scrivo
+120-1	5029-5034	posso	_	posso	PST083	121-0	linguistic	none	_	_	_	_	_
+120-2	5035-5038	(.)	_	(.)	_	121-1	shortpause	none	_	_	_	_	_
+120-3	5039-5044	vabbè	_	vabbè	_	121-2	linguistic	none	_	_	_	_	_
+120-4	5045-5048	poi	_	poi	_	121-3	linguistic	none	_	_	_	_	_
+120-5	5049-5051	la	_	\[la	_	121-4	linguistic	none	_	_	_	*->24-1	*[24]
+120-6	5052-5058	scrivo	_	scrivo\]	_	121-5	linguistic	none	_	_	_	*->24-2	*[24]
+
+#Text=sì
+121-1	5059-5061	sì	_	sì	PST203	122-0	linguistic	none	_	_	_	_	_
+
+#Text=sì sì
+122-1	5062-5064	sì	_	\[sì	PST211	123-0	linguistic	none	_	_	_	*->24-3	*[24]
+122-2	5065-5067	sì	_	sì\]	_	123-1	linguistic	none	_	_	_	*->24-4	*[24]
+
+#Text=mi raccomando
+123-1	5068-5070	mi	_	mi	PST203	124-0	linguistic	none	_	_	_	_	_
+123-2	5071-5081	raccomando	_	raccoma\[ndo\]	_	124-1	linguistic	none	_	_	_	_	_
+123-2.1	5078-5081	ndo	_	_	_	_	_	_	_	_	_	*->25-1	*[25]
+
+#Text=tanto di
+124-1	5082-5087	tanto	_	\[tanto	PST211	125-0	linguistic	none	_	_	_	*->25-2	*[25]
+124-2	5088-5090	di	_	di\]	_	125-1	linguistic	none	_	_	_	*->25-3	*[25]
+
+#Text=no questa è molto bella questa cosa (.) secondo me dico dico il mio parere personale poi fateci quello che volete
+125-1	5091-5093	no	_	no	PST203	126-0	linguistic	none	_	_	_	_	_
+125-2	5094-5100	questa	_	questa	_	126-1	linguistic	none	_	_	_	_	_
+125-3	5101-5102	è	_	è	_	126-2	linguistic	none	_	_	_	_	_
+125-4	5103-5108	molto	_	molto	_	126-3	linguistic	none	_	_	_	_	_
+125-5	5109-5114	bella	_	bella	_	126-4	linguistic	none	_	_	_	_	_
+125-6	5115-5121	questa	_	questa	_	126-5	linguistic	none	_	_	_	_	_
+125-7	5122-5126	cosa	_	cosa	_	126-6	linguistic	none	_	_	_	_	_
+125-8	5127-5130	(.)	_	(.)	_	126-7	shortpause	none	_	_	_	_	_
+125-9	5131-5138	secondo	_	secondo	_	126-8	linguistic	none	_	_	_	_	_
+125-10	5139-5141	me	_	me	_	126-9	linguistic	none	_	_	_	_	_
+125-11	5142-5146	dico	_	dico	_	126-10	linguistic	none	_	_	_	_	_
+125-12	5147-5151	dico	_	dico	_	126-11	linguistic	none	_	_	_	_	_
+125-13	5152-5154	il	_	il	_	126-12	linguistic	none	_	_	_	_	_
+125-14	5155-5158	mio	_	mio	_	126-13	linguistic	none	_	_	_	_	_
+125-15	5159-5165	parere	_	\[parere	_	126-14	linguistic	none	_	_	_	*->26-1	*[26]
+125-16	5166-5175	personale	_	personale	_	126-15	linguistic	none	_	_	_	*->26-2	*[26]
+125-17	5176-5179	poi	_	poi	_	126-16	linguistic	none	_	_	_	*->26-3	*[26]
+125-18	5180-5186	fateci	_	fateci\]	_	126-17	linguistic	none	_	_	_	*->26-4	*[26]
+125-19	5187-5193	quello	_	quello	_	126-18	linguistic	none	_	_	_	_	_
+125-20	5194-5197	che	_	che	_	126-19	linguistic	none	_	_	_	_	_
+125-21	5198-5204	volete	_	volete	_	126-20	linguistic	none	_	_	_	_	_
+
+#Text=scrivi quella lì
+126-1	5205-5211	scrivi	_	\[scrivi	PST092	127-0	linguistic	none	_	_	_	*->26-5	*[26]
+126-2	5212-5218	quella	_	quella	_	127-1	linguistic	none	_	_	_	*->26-6	*[26]
+126-3	5219-5221	lì	_	lì\]	_	127-2	linguistic	none	_	_	_	*->26-7	*[26]
+
+#Text=una scena del genere dove ci sono le persone che fanno delle cose sarebbe anche carino intervenire poco
+127-1	5222-5225	una	_	una	PST203	128-0	linguistic	none	_	_	_	_	_
+127-2	5226-5231	scena	_	scena	_	128-1	linguistic	none	_	_	_	_	_
+127-3	5232-5235	del	_	del	_	128-2	linguistic	none	_	_	_	_	_
+127-4	5236-5242	genere	_	genere	_	128-3	linguistic	none	_	_	_	_	_
+127-5	5243-5247	dove	_	dove	_	128-4	linguistic	none	_	_	_	_	_
+127-6	5248-5250	ci	_	ci	_	128-5	linguistic	none	_	_	_	_	_
+127-7	5251-5255	sono	_	sono	_	128-6	linguistic	none	_	_	_	_	_
+127-8	5256-5258	le	_	le	_	128-7	linguistic	none	_	_	_	_	_
+127-9	5259-5266	persone	_	persone	_	128-8	linguistic	none	_	_	_	_	_
+127-10	5267-5270	che	_	che	_	128-9	linguistic	none	_	_	_	_	_
+127-11	5271-5276	fanno	_	F:Anno	_	128-10	linguistic	none	0x1	_	_	_	_
+127-12	5277-5282	delle	_	delle	_	128-11	linguistic	none	_	_	_	_	_
+127-13	5283-5287	cose	_	cose	_	128-12	linguistic	none	_	_	_	_	_
+127-14	5288-5295	sarebbe	_	sarebbe	_	128-13	linguistic	none	_	_	_	_	_
+127-15	5296-5301	anche	_	anche	_	128-14	linguistic	none	_	_	_	_	_
+127-16	5302-5308	carino	_	carino	_	128-15	linguistic	none	_	_	_	_	_
+127-17	5309-5320	intervenire	_	intervenire::	_	128-16	linguistic	none	10x2	_	_	_	_
+127-18	5321-5325	poco	_	poco	_	128-17	linguistic	none	_	_	_	_	_
+
+#Text=quindi metti (.) metti la macchina lì e la lasci correre per mezz' ora un' ora
+128-1	5326-5332	quindi	_	quindi	PST203	129-0	linguistic	none	_	_	_	_	_
+128-2	5333-5338	metti	_	\[metti	_	129-1	linguistic	none	_	_	_	*->27-1	*[27]
+128-3	5339-5342	(.)	_	(.)	_	129-2	shortpause	none	_	_	_	*->27-2	*[27]
+128-4	5343-5348	metti	_	metti\]	_	129-3	linguistic	none	_	_	_	*->27-3	*[27]
+128-5	5349-5351	la	_	la	_	129-4	linguistic	none	_	_	_	_	_
+128-6	5352-5360	macchina	_	macchina	_	129-5	linguistic	none	_	_	_	_	_
+128-7	5361-5363	lì	_	lì	_	129-6	linguistic	none	_	_	_	_	_
+128-8	5364-5365	e	_	e	_	129-7	linguistic	none	_	_	_	_	_
+128-9	5366-5368	la	_	la	_	129-8	linguistic	none	_	_	_	_	_
+128-10	5369-5374	lasci	_	lasci	_	129-9	linguistic	none	_	_	_	_	_
+128-11	5375-5382	correre	_	correre	_	129-10	linguistic	none	_	_	_	_	_
+128-12	5383-5386	per	_	per	_	129-11	linguistic	none	_	_	_	_	_
+128-13	5387-5392	mezz'	_	mezz'	_	129-12	linguistic	none	_	_	_	_	_
+128-14	5393-5396	ora	_	ora	_	129-13	linguistic	none	_	_	_	_	_
+128-15	5397-5400	un'	_	un'	_	129-14	linguistic	none	_	_	_	_	_
+128-16	5401-5404	ora	_	ora	_	129-15	linguistic	none	_	_	_	_	_
+
+#Text=sì esatto anche solo
+129-1	5405-5407	sì	_	\[sì	PST083	130-0	linguistic	none	_	_	_	*->27-4	*[27]
+129-2	5408-5414	esatto	_	esatto	_	130-1	linguistic	none	_	_	_	*->27-5	*[27]
+129-3	5415-5420	anche	_	anche	_	130-2	linguistic	none	_	_	_	*->27-6	*[27]
+129-4	5421-5425	solo	_	solo::\]	_	130-3	linguistic	none	3x2	_	_	*->27-7	*[27]
+
+#Text=guardi cosa succede (.) e e poi piuttosto in un altro momento ci facciamo raccontare magari dalla tua mamma
+130-1	5426-5432	guardi	_	guardi	PST203	131-0	linguistic	none	_	_	_	_	_
+130-2	5433-5437	cosa	_	cosa	_	131-1	linguistic	none	_	_	_	_	_
+130-3	5438-5445	succede	_	succede	_	131-2	linguistic	none	_	_	_	_	_
+130-4	5446-5449	(.)	_	(.)	_	131-3	shortpause	none	_	_	_	_	_
+130-5	5450-5451	e	_	e:	_	131-4	linguistic	none	0x1	_	_	_	_
+130-6	5452-5453	e	_	e	_	131-5	linguistic	none	_	_	_	_	_
+130-7	5454-5457	poi	_	poi	_	131-6	linguistic	none	_	_	_	_	_
+130-8	5458-5467	piuttosto	_	piuttosto	_	131-7	linguistic	none	_	_	_	_	_
+130-9	5468-5470	in	_	in	_	131-8	linguistic	none	_	_	_	_	_
+130-10	5471-5473	un	_	un	_	131-9	linguistic	none	_	_	_	_	_
+130-11	5474-5479	altro	_	altro	_	131-10	linguistic	none	_	_	_	_	_
+130-12	5480-5487	momento	_	momento	_	131-11	linguistic	none	_	_	_	_	_
+130-13	5488-5490	ci	_	ci	_	131-12	linguistic	none	_	_	_	_	_
+130-14	5491-5499	facciamo	_	facciamo	_	131-13	linguistic	none	_	_	_	_	_
+130-15	5500-5510	raccontare	_	raccontare	_	131-14	linguistic	none	_	_	_	_	_
+130-16	5511-5517	magari	_	magari	_	131-15	linguistic	none	_	_	_	_	_
+130-17	5518-5523	dalla	_	dalla	_	131-16	linguistic	none	_	_	_	_	_
+130-18	5524-5527	tua	_	tua	_	131-17	linguistic	none	_	_	_	_	_
+130-19	5528-5533	mamma	WeaklyRising	mamma,	_	131-18	linguistic	none	_	_	_	_	_
+
+#Text=che (.) che cosa si fa tecnica di tessitura gli abiti eccetera però questo è (.) secondo me questo e le uova
+131-1	5534-5537	che	_	che	PST203	132-0	linguistic	none	_	_	_	_	_
+131-2	5538-5541	(.)	_	(.)	_	132-1	shortpause	none	_	_	_	_	_
+131-3	5542-5545	che	_	che	_	132-2	linguistic	none	_	_	_	_	_
+131-4	5546-5550	cosa	_	cosa	_	132-3	linguistic	none	_	_	_	_	_
+131-5	5551-5553	si	_	si	_	132-4	linguistic	none	_	_	_	_	_
+131-6	5554-5556	fa	_	fa::	_	132-5	linguistic	none	1x2	_	_	_	_
+131-7	5557-5564	tecnica	_	tecnica	_	132-6	linguistic	none	_	_	_	_	_
+131-8	5565-5567	di	_	di	_	132-7	linguistic	none	_	_	_	_	_
+131-9	5568-5577	tessitura	_	tessitura	_	132-8	linguistic	none	_	_	_	_	_
+131-10	5578-5581	gli	_	gli	_	132-9	linguistic	none	_	_	_	_	_
+131-11	5582-5587	abiti	_	abiti	_	132-10	linguistic	none	_	_	_	_	_
+131-12	5588-5596	eccetera	_	eccetera	_	132-11	linguistic	none	_	_	_	_	_
+131-13	5597-5601	però	_	però	_	132-12	linguistic	none	_	_	_	_	_
+131-14	5602-5608	questo	_	questo	_	132-13	linguistic	none	_	_	_	_	_
+131-15	5609-5610	è	_	è	_	132-14	linguistic	none	_	_	_	_	_
+131-16	5611-5614	(.)	_	(.)	_	132-15	shortpause	none	_	_	_	_	_
+131-17	5615-5622	secondo	_	secondo	_	132-16	linguistic	none	_	_	_	_	_
+131-18	5623-5625	me	_	me	_	132-17	linguistic	none	_	_	_	_	_
+131-19	5626-5632	questo	_	questo	_	132-18	linguistic	none	_	_	_	_	_
+131-20	5633-5634	e	_	e	_	132-19	linguistic	none	_	_	_	_	_
+131-21	5635-5637	le	_	le	_	132-20	linguistic	none	_	_	_	_	_
+131-22	5638-5642	uova	WeaklyRising	uova,	_	132-21	linguistic	none	_	_	_	_	_
+
+#Text=spaccano (.) cioè secondo me perché (.) la sala di là è proprio bella da vedere
+132-1	5643-5651	spaccano	_	spaccano	PST203	133-0	linguistic	none	_	_	_	_	_
+132-2	5652-5655	(.)	_	\[(.)\]	_	133-1	shortpause	none	_	_	_	*->28-1	*[28]
+132-3	5656-5660	cioè	_	c(io)è	_	133-2	linguistic	none	_	_	_	_	_
+132-4	5661-5668	secondo	_	secondo	_	133-3	linguistic	none	_	_	_	_	_
+132-5	5669-5671	me	_	me	_	133-4	linguistic	none	_	_	_	_	_
+132-6	5672-5678	perché	_	perché	_	133-5	linguistic	none	_	_	_	_	_
+132-7	5679-5682	(.)	_	(.)	_	133-6	shortpause	none	_	_	_	_	_
+132-8	5683-5685	la	_	la	_	133-7	linguistic	none	_	_	_	_	_
+132-9	5686-5690	sala	_	sala	_	133-8	linguistic	none	_	_	_	_	_
+132-10	5691-5693	di	_	di	_	133-9	linguistic	none	_	_	_	_	_
+132-11	5694-5696	là	_	là	_	133-10	linguistic	none	_	_	_	_	_
+132-12	5697-5698	è	_	è	_	133-11	linguistic	none	_	_	_	_	_
+132-13	5699-5706	proprio	_	proprio	_	133-12	linguistic	none	_	_	_	_	_
+132-14	5707-5712	bella	_	bella	_	133-13	linguistic	none	_	_	_	_	_
+132-15	5713-5715	da	_	\[da	_	133-14	linguistic	none	_	_	_	*->29-1	*[29]
+132-16	5716-5722	vedere	_	vedere::\]	_	133-15	linguistic	none	5x2	_	_	*->29-2	*[29]
+
+#Text=sì
+133-1	5723-5725	sì	_	sì	PST083	134-0	linguistic	none	_	_	_	_	_
+
+#Text=esatto
+134-1	5726-5732	esatto	_	\[esatto\]	PST083	135-0	linguistic	none	_	_	_	*->29-3	*[29]
+
+#Text=quindi come volevamo registrare la roba di danza
+135-1	5733-5739	quindi	_	quindi	PST092	136-0	linguistic	none	_	_	_	_	_
+135-2	5740-5744	come	_	come	_	136-1	linguistic	none	_	_	_	_	_
+135-3	5745-5753	volevamo	_	volevamo	_	136-2	linguistic	none	_	_	_	_	_
+135-4	5754-5764	registrare	_	registrare	_	136-3	linguistic	none	_	_	_	_	_
+135-5	5765-5767	la	_	la	_	136-4	linguistic	none	_	_	_	_	_
+135-6	5768-5772	roba	_	roba	_	136-5	linguistic	none	_	_	_	_	_
+135-7	5773-5775	di	_	di	_	136-6	linguistic	none	_	_	_	_	_
+135-8	5776-5781	danza	Rising	danza?	_	136-7	linguistic	none	_	_	_	_	_
+
+#Text=come scusa
+136-1	5782-5786	come	_	come	PST203	137-0	linguistic	none	_	_	_	_	_
+136-2	5787-5792	scusa	Rising	scusa?	_	137-1	linguistic	none	_	_	_	_	_
+
+#Text=come volevamo registrare le cose dei balli con la persona che spiega
+137-1	5793-5797	come	_	come	PST092	138-0	linguistic	none	_	_	_	_	_
+137-2	5798-5806	volevamo	_	volevamo	_	138-1	linguistic	none	_	_	_	_	_
+137-3	5807-5817	registrare	_	registrare	_	138-2	linguistic	none	_	_	_	_	_
+137-4	5818-5820	le	_	le	_	138-3	linguistic	none	_	_	_	_	_
+137-5	5821-5825	cose	_	cose	_	138-4	linguistic	none	_	_	_	_	_
+137-6	5826-5829	dei	_	dei	_	138-5	linguistic	none	_	_	_	_	_
+137-7	5830-5835	balli	_	balli	_	138-6	linguistic	none	_	_	_	_	_
+137-8	5836-5839	con	_	con	_	138-7	linguistic	none	_	_	_	_	_
+137-9	5840-5842	la	_	la	_	138-8	linguistic	none	_	_	_	_	_
+137-10	5843-5850	persona	_	persona	_	138-9	linguistic	none	_	_	_	_	_
+137-11	5851-5854	che	_	che	_	138-10	linguistic	none	_	_	_	_	_
+137-12	5855-5861	spiega	_	spiega	_	138-11	linguistic	none	_	_	_	_	_
+
+#Text=mh cioè volevi aggiungere un pezzo
+138-1	5862-5864	mh	_	mh	PST203	139-0	linguistic	none	_	_	_	_	_
+138-2	5865-5869	cioè	_	cioè	_	139-1	linguistic	none	_	_	_	_	_
+138-3	5870-5876	volevi	_	volevi	_	139-2	linguistic	none	_	_	_	_	_
+138-4	5877-5887	aggiungere	_	aggiungere	_	139-3	linguistic	none	_	_	_	_	_
+138-5	5888-5890	un	_	un	_	139-4	linguistic	none	_	_	_	_	_
+138-6	5891-5896	pezzo	Rising	pezzo?	_	139-5	linguistic	none	_	_	_	_	_
+
+#Text=no voleva raccontarlo a noi
+139-1	5897-5899	no	_	no	PST211	140-0	linguistic	none	_	_	_	_	_
+139-2	5900-5906	voleva	_	voleva	_	140-1	linguistic	none	_	_	_	_	_
+139-3	5907-5918	raccontarlo	_	raccontarlo	_	140-2	linguistic	none	_	_	_	_	_
+139-4	5919-5920	a	_	a	_	140-3	linguistic	none	_	_	_	_	_
+139-5	5921-5924	noi	_	\[noi\]	_	140-4	linguistic	none	_	_	_	*->30-1	*[30]
+
+#Text=a scusa dillo dillo
+140-1	5925-5926	a	_	\[a	PST203	141-0	linguistic	none	_	_	_	*->30-2	*[30]
+140-2	5927-5932	scusa	_	sc\]usa	_	141-1	linguistic	none	_	_	_	_	_
+140-2.1	5927-5929	sc	_	_	_	_	_	_	_	_	_	*->30-3	*[30]
+140-3	5933-5938	dillo	_	dillo	_	141-2	linguistic	none	_	_	_	_	_
+140-4	5939-5944	dillo	_	dillo	_	141-3	linguistic	none	_	_	_	_	_
+
+#Text=per (.) i balli pensavamo di mettere una telecamera davanti alle persone che ballano e poi una davanti a @michi
+141-1	5945-5948	per	_	per	PST092	142-0	linguistic	none	_	_	_	_	_
+141-2	5949-5952	(.)	_	(.)	_	142-1	shortpause	none	_	_	_	_	_
+141-3	5953-5954	i	_	i	_	142-2	linguistic	none	_	_	_	_	_
+141-4	5955-5960	balli	_	balli	_	142-3	linguistic	none	_	_	_	_	_
+141-5	5961-5970	pensavamo	_	\[pensavamo	_	142-4	linguistic	none	_	_	_	*->31-1	*[31]
+141-6	5971-5973	di	_	di	_	142-5	linguistic	none	_	_	_	*->31-2	*[31]
+141-7	5974-5981	mettere	_	mettere\]	_	142-6	linguistic	none	_	_	_	*->31-3	*[31]
+141-8	5982-5985	una	_	una	_	142-7	linguistic	none	_	_	_	_	_
+141-9	5986-5996	telecamera	_	telecamera	_	142-8	linguistic	none	_	_	_	_	_
+141-10	5997-6004	davanti	_	davanti	_	142-9	linguistic	none	_	_	_	_	_
+141-11	6005-6009	alle	_	alle	_	142-10	linguistic	none	_	_	_	_	_
+141-12	6010-6017	persone	_	persone	_	142-11	linguistic	none	_	_	_	_	_
+141-13	6018-6021	che	_	che	_	142-12	linguistic	none	_	_	_	_	_
+141-14	6022-6029	ballano	_	ballano	_	142-13	linguistic	none	_	_	_	_	_
+141-15	6030-6031	e	_	e	_	142-14	linguistic	none	_	_	_	_	_
+141-16	6032-6035	poi	_	poi	_	142-15	linguistic	none	_	_	_	_	_
+141-17	6036-6039	una	_	una	_	142-16	linguistic	none	_	_	_	_	_
+141-18	6040-6047	davanti	_	davanti	_	142-17	linguistic	none	_	_	_	_	_
+141-19	6048-6049	a	_	a	_	142-18	linguistic	none	_	_	_	_	_
+141-20	6050-6056	@michi	_	@michi	_	142-19	anonymized	none	_	_	_	_	_
+
+#Text=scusa perché io lo s~
+142-1	6057-6062	scusa	_	\[scusa	PST203	143-0	linguistic	none	_	_	_	*->31-4	*[31]
+142-2	6063-6069	perché	_	perché	_	143-1	linguistic	none	_	_	_	*->31-5	*[31]
+142-3	6070-6072	io	_	io	_	143-2	linguistic	none	_	_	_	*->31-6	*[31]
+142-4	6073-6075	lo	_	lo	_	143-3	linguistic	none	_	_	_	*->31-7	*[31]
+142-5	6076-6078	s~	_	s~\]	_	143-4	linguistic	none	_	_	_	*->31-8	*[31]
+
+#Text=da un' altra parte così da alternare i balli e @michi mentre spiega e si sente in sottofondo la musica
+143-1	6079-6081	da	_	da	PST092	144-0	linguistic	none	_	_	_	_	_
+143-2	6082-6085	un'	_	un'	_	144-1	linguistic	none	_	_	_	_	_
+143-3	6086-6091	altra	_	altra	_	144-2	linguistic	none	_	_	_	_	_
+143-4	6092-6097	parte	_	parte	_	144-3	linguistic	none	_	_	_	_	_
+143-5	6098-6102	così	_	così	_	144-4	linguistic	none	_	_	_	_	_
+143-6	6103-6105	da	_	da	_	144-5	linguistic	none	_	_	_	_	_
+143-7	6106-6115	alternare	_	alternare	_	144-6	linguistic	none	_	_	_	_	_
+143-8	6116-6117	i	_	i	_	144-7	linguistic	none	_	_	_	_	_
+143-9	6118-6123	balli	_	balli	_	144-8	linguistic	none	_	_	_	_	_
+143-10	6124-6125	e	_	e	_	144-9	linguistic	none	_	_	_	_	_
+143-11	6126-6132	@michi	_	@michi	_	144-10	anonymized	none	_	_	_	_	_
+143-12	6133-6139	mentre	_	mentre	_	144-11	linguistic	none	_	_	_	_	_
+143-13	6140-6146	spiega	_	spiega	_	144-12	linguistic	none	_	_	_	_	_
+143-14	6147-6148	e	_	e	_	144-13	linguistic	none	_	_	_	_	_
+143-15	6149-6151	si	_	si	_	144-14	linguistic	none	_	_	_	_	_
+143-16	6152-6157	sente	_	sente	_	144-15	linguistic	none	_	_	_	_	_
+143-17	6158-6160	in	_	in	_	144-16	linguistic	none	_	_	_	_	_
+143-18	6161-6171	sottofondo	_	sottofondo	_	144-17	linguistic	none	_	_	_	_	_
+143-19	6172-6174	la	_	la	_	144-18	linguistic	none	_	_	_	_	_
+143-20	6175-6181	musica	_	musica	_	144-19	linguistic	none	_	_	_	_	_
+
+#Text=così da non fare tipo
+144-1	6182-6186	così	_	\[così\]	PST092	145-0	linguistic	none	_	_	_	*->32-1	*[32]
+144-2	6187-6189	da	_	da	_	145-1	linguistic	none	_	_	_	_	_
+144-3	6190-6193	non	_	non	_	145-2	linguistic	none	_	_	_	_	_
+144-4	6194-6198	fare	_	fare	_	145-3	linguistic	none	_	_	_	_	_
+144-5	6199-6203	tipo	_	tipo:	_	145-4	linguistic	none	3x1	_	_	_	_
+
+#Text=sì
+145-1	6204-6206	sì	_	\[sì\]	PST087	146-0	linguistic	none	_	_	_	*->32-2	*[32]
+
+#Text=una cosa sopra l' altra
+146-1	6207-6210	una	_	una	PST092	147-0	linguistic	none	_	_	_	_	_
+146-2	6211-6215	cosa	_	cosa	_	147-1	linguistic	none	_	_	_	_	_
+146-3	6216-6221	sopra	_	sopra	_	147-2	linguistic	none	_	_	_	_	_
+146-4	6222-6224	l'	_	l'	_	147-3	linguistic	none	_	_	_	_	_
+146-5	6225-6230	altra	_	altr\[a\]	_	147-4	linguistic	none	_	_	_	_	_
+146-5.1	6229-6230	a	_	_	_	_	_	_	_	_	_	*->33-1	*[33]
+
+#Text=mhmh
+147-1	6231-6235	mhmh	_	mh\[mh\]	PST211	148-0	linguistic	none	_	_	_	_	_
+147-1.1	6233-6235	mh	_	_	_	_	_	_	_	_	_	*->34-1	*[34]
+
+#Text=lei aveva in mente la reaction proprio da da twitch
+148-1	6236-6239	lei	_	\[lei\]	PST203	149-0	linguistic	none	_	_	_	*->34-2	*[34]
+148-2	6240-6245	aveva	_	aveva	_	149-1	linguistic	none	_	_	_	_	_
+148-3	6246-6248	in	_	in	_	149-2	linguistic	none	_	_	_	_	_
+148-4	6249-6254	mente	_	mente	_	149-3	linguistic	none	_	_	_	_	_
+148-5	6255-6257	la	_	la	_	149-4	linguistic	none	_	_	_	_	_
+148-6	6258-6266	reaction	_	re\[action	_	149-5	linguistic	none	_	_	_	_	_
+148-6.1	6260-6266	action	_	_	_	_	_	_	_	_	_	*->35-1	*[35]
+148-7	6267-6274	proprio	_	proprio\]	_	149-6	linguistic	none	_	_	_	*->35-2	*[35]
+148-8	6275-6277	da	_	da	_	149-7	linguistic	none	_	_	_	_	_
+148-9	6278-6280	da	_	da	_	149-8	linguistic	none	_	_	_	_	_
+148-10	6281-6287	twitch	_	twitch	_	149-9	linguistic	none	_	_	_	_	_
+
+#Text=sì sì sì
+149-1	6288-6290	sì	_	\[sì	PST092	150-0	linguistic	none	_	_	_	*->35-3	*[35]
+149-2	6291-6293	sì	_	sì	_	150-1	linguistic	none	_	_	_	*->35-4	*[35]
+149-3	6294-6296	sì	_	sì\]	_	150-2	linguistic	none	_	_	_	*->35-5	*[35]
+
+#Text=mh
+150-1	6297-6299	mh	_	\[m::h\]	PST211	151-0	linguistic	none	0x2	_	_	_	_
+
+#Text=((ride)) eh mi è venuta in mentequella
+151-1	6300-6308	((ride))	_	((ride))	PST092	152-0	nonverbalbehavior	none	_	_	_	_	_
+151-2	6309-6311	eh	_	eh	_	152-1	linguistic	none	_	_	_	_	_
+151-3	6312-6314	mi	_	mi	_	152-2	linguistic	none	_	_	_	_	_
+151-4	6315-6316	è	_	è	_	152-3	linguistic	none	_	_	_	_	_
+151-5	6317-6323	venuta	_	venuta	_	152-4	linguistic	none	_	_	_	_	_
+151-6	6324-6326	in	_	in	_	152-5	linguistic	none	_	_	_	_	_
+151-7	6327-6338	mentequella	_	mentequella	_	152-6	linguistic	none	_	_	_	_	_
+
+#Text=@edoardo tu lo sai che cos' è la reaction
+152-1	6339-6347	@edoardo	_	@edoardo	PST203	153-0	anonymized	none	_	_	_	_	_
+152-2	6348-6350	tu	_	tu	_	153-1	linguistic	none	_	_	_	_	_
+152-3	6351-6353	lo	_	lo	_	153-2	linguistic	none	_	_	_	_	_
+152-4	6354-6357	sai	_	sai	_	153-3	linguistic	none	_	_	_	_	_
+152-5	6358-6361	che	_	che	_	153-4	linguistic	none	_	_	_	_	_
+152-6	6362-6366	cos'	_	cos'	_	153-5	linguistic	none	_	_	_	_	_
+152-7	6367-6368	è	_	è	_	153-6	linguistic	none	_	_	_	_	_
+152-8	6369-6371	la	_	la	_	153-7	linguistic	none	_	_	_	_	_
+152-9	6372-6380	reaction	Rising	reaction?	_	153-8	linguistic	none	_	_	_	_	_
+
+#Text=non lo sa e non lo vuole sapere ((ride))
+153-1	6381-6384	non	_	non	PST211	154-0	linguistic	none	_	_	_	_	_
+153-2	6385-6387	lo	_	lo	_	154-1	linguistic	none	_	_	_	_	_
+153-3	6388-6390	sa	_	sa	_	154-2	linguistic	none	_	_	_	_	_
+153-4	6391-6392	e	_	e	_	154-3	linguistic	none	_	_	_	_	_
+153-5	6393-6396	non	_	non	_	154-4	linguistic	none	_	_	_	_	_
+153-6	6397-6399	lo	_	lo	_	154-5	linguistic	none	_	_	_	_	_
+153-7	6400-6405	vuole	_	vuole	_	154-6	linguistic	none	_	_	_	_	_
+153-8	6406-6412	sapere	_	sapere	_	154-7	linguistic	none	_	_	_	_	_
+153-9	6413-6421	((ride))	_	((ride))	_	154-8	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=eh lo so ma immagino che i registi sono sempre contro a queste cose
+154-1	6422-6424	eh	_	eh	PST203	155-0	linguistic	none	_	_	_	_	_
+154-2	6425-6427	lo	_	lo	_	155-1	linguistic	none	_	_	_	_	_
+154-3	6428-6430	so	_	so	_	155-2	linguistic	none	_	_	_	_	_
+154-4	6431-6433	ma	_	ma	_	155-3	linguistic	none	_	_	_	_	_
+154-5	6434-6442	immagino	_	immagino	_	155-4	linguistic	none	_	_	_	_	_
+154-6	6443-6446	che	_	che:	_	155-5	linguistic	none	2x1	_	_	_	_
+154-7	6447-6448	i	_	i	_	155-6	linguistic	none	_	_	_	_	_
+154-8	6449-6456	registi	_	registi	_	155-7	linguistic	none	_	_	_	_	_
+154-9	6457-6461	sono	_	sono	_	155-8	linguistic	none	_	_	_	_	_
+154-10	6462-6468	sempre	_	sempre	_	155-9	linguistic	none	_	_	_	_	_
+154-11	6469-6475	contro	_	contro	_	155-10	linguistic	none	_	_	_	_	_
+154-12	6476-6477	a	_	a	_	155-11	linguistic	none	_	_	_	_	_
+154-13	6478-6484	queste	_	queste	_	155-12	linguistic	none	_	_	_	_	_
+154-14	6485-6489	cose	_	\[cose\]	_	155-13	linguistic	none	_	_	_	*->36-1	*[36]
+
+#Text=tanto è una lingua talmente barbara che deve usare il latino quindi ho capito lo stesso la relazione perché
+155-1	6490-6495	tanto	_	\[tanto\]	??	156-0	linguistic	none	_	_	_	*->36-2	*[36]
+155-2	6496-6497	è	_	è	_	156-1	linguistic	none	_	_	_	_	_
+155-3	6498-6501	una	_	una	_	156-2	linguistic	none	_	_	_	_	_
+155-4	6502-6508	lingua	_	lingua	_	156-3	linguistic	none	_	_	_	_	_
+155-5	6509-6517	talmente	_	talmente	_	156-4	linguistic	none	_	_	_	_	_
+155-6	6518-6525	barbara	_	barbara	_	156-5	linguistic	none	_	_	_	_	_
+155-7	6526-6529	che	_	che	_	156-6	linguistic	none	_	_	_	_	_
+155-8	6530-6534	deve	_	deve	_	156-7	linguistic	none	_	_	_	_	_
+155-9	6535-6540	usare	_	usare	_	156-8	linguistic	none	_	_	_	_	_
+155-10	6541-6543	il	_	il	_	156-9	linguistic	none	_	_	_	_	_
+155-11	6544-6550	latino	_	latino	_	156-10	linguistic	none	_	_	_	_	_
+155-12	6551-6557	quindi	_	quindi	_	156-11	linguistic	none	_	_	_	_	_
+155-13	6558-6560	ho	_	ho	_	156-12	linguistic	none	_	_	_	_	_
+155-14	6561-6567	capito	_	capito	_	156-13	linguistic	none	_	_	_	_	_
+155-15	6568-6570	lo	_	lo	_	156-14	linguistic	none	_	_	_	_	_
+155-16	6571-6577	stesso	_	stesso	_	156-15	linguistic	none	_	_	_	_	_
+155-17	6578-6580	la	_	la	_	156-16	linguistic	none	_	_	_	_	_
+155-18	6581-6590	relazione	_	relazione	_	156-17	linguistic	none	_	_	_	_	_
+155-19	6591-6597	perché	_	perché	_	156-18	linguistic	none	_	_	_	_	_
+
+#Text=alla fine c' hanno quattro vocaboli gli altri sono i nostri x xx xx
+156-1	6598-6602	alla	_	alla	??	157-0	linguistic	none	_	_	_	_	_
+156-2	6603-6607	fine	_	fine	_	157-1	linguistic	none	_	_	_	_	_
+156-3	6608-6610	c'	_	c'	_	157-2	linguistic	none	_	_	_	_	_
+156-4	6611-6616	hanno	_	hanno	_	157-3	linguistic	none	_	_	_	_	_
+156-5	6617-6624	quattro	_	quattro	_	157-4	linguistic	none	_	_	_	_	_
+156-6	6625-6633	vocaboli	_	vocaboli	_	157-5	linguistic	none	_	_	_	_	_
+156-7	6634-6637	gli	_	gli	_	157-6	linguistic	none	_	_	_	_	_
+156-8	6638-6643	altri	_	altri	_	157-7	linguistic	none	_	_	_	_	_
+156-9	6644-6648	sono	_	sono	_	157-8	linguistic	none	_	_	_	_	_
+156-10	6649-6650	i	_	i	_	157-9	linguistic	none	_	_	_	_	_
+156-11	6651-6657	nostri	_	nostri	_	157-10	linguistic	none	_	_	_	_	_
+156-12	6658-6659	x	_	x	_	157-11	unknown	none	_	_	_	_	_
+156-13	6660-6662	xx	_	xx	_	157-12	unknown	none	_	_	_	_	_
+156-14	6663-6665	xx	_	xx	_	157-13	unknown	none	_	_	_	_	_
+
+#Text=tesse
+157-1	6666-6671	tesse	_	\[tesse\]	PST092	158-0	linguistic	none	_	_	_	*->37-1	*[37]
+
+#Text=parlo dell' inglese
+158-1	6672-6677	parlo	_	\[parlo	??	159-0	linguistic	none	_	_	_	*->37-2	*[37]
+158-2	6678-6683	dell'	_	dell'	_	159-1	linguistic	none	_	_	_	*->37-3	*[37]
+158-3	6684-6691	inglese	_	inglese\]	_	159-2	linguistic	none	_	_	_	*->37-4	*[37]
+
+#Text=sì
+159-1	6692-6694	sì	_	\[sì\]	PST092	160-0	linguistic	none	_	_	_	*->38-1	*[38]
+
+#Text=tessere
+160-1	6695-6702	tessere	_	\[tessere\]	PST211	161-0	linguistic	none	_	_	_	*->38-2	*[38]
+
+#Text=no cioè
+161-1	6703-6705	no	_	no	PST083	162-0	linguistic	none	_	_	_	_	_
+161-2	6706-6710	cioè	_	cioè	_	162-1	linguistic	none	_	_	_	_	_
+
+#Text=@georgeta
+162-1	6711-6720	@georgeta	_	@georgeta	PST083	163-0	anonymized	none	_	_	_	_	_
+
+#Text=tesse
+163-1	6721-6726	tesse	_	tesse	PST211	164-0	linguistic	none	_	_	_	_	_
+
+#Text=tesse (.) okay
+164-1	6727-6732	tesse	_	tesse	PST083	165-0	linguistic	none	_	_	_	_	_
+164-2	6733-6736	(.)	_	(.)	_	165-1	shortpause	none	_	_	_	_	_
+164-3	6737-6741	okay	_	okay	_	165-2	linguistic	none	_	_	_	_	_
+
+#Text=@georgeta è tua mamma
+165-1	6742-6751	@georgeta	_	@georgeta	PST211	166-0	anonymized	none	_	_	_	_	_
+165-2	6752-6753	è	_	è	_	166-1	linguistic	none	_	_	_	_	_
+165-3	6754-6757	tua	_	tua	_	166-2	linguistic	none	_	_	_	_	_
+165-4	6758-6763	mamma	_	mamma	_	166-3	linguistic	none	_	_	_	_	_
+
+#Text=sì
+166-1	6764-6766	sì	_	\[sì\]	PST083	167-0	linguistic	none	_	_	_	*->39-1	*[39]
+
+#Text=@georgeta è tua mamm~
+167-1	6767-6776	@georgeta	_	\[@georgeta	PST203	168-0	anonymized	none	_	_	_	*->39-2	*[39]
+167-2	6777-6778	è	_	è	_	168-1	linguistic	none	_	_	_	*->39-3	*[39]
+167-3	6779-6782	tua	_	tua	_	168-2	linguistic	none	_	_	_	*->39-4	*[39]
+167-4	6783-6788	mamm~	Rising	mamm~\]?	_	168-3	linguistic	none	_	_	_	*->39-5	*[39]
+
+#Text=eh l' ho scritto poi tra parentesi nel caso perché ce n' è anche un' altra di @georgeta quindi
+168-1	6789-6791	eh	_	e::h	PST083	169-0	linguistic	none	0x2	_	_	_	_
+168-2	6792-6794	l'	_	l'	_	169-1	linguistic	none	_	_	_	_	_
+168-3	6795-6797	ho	_	ho	_	169-2	linguistic	none	_	_	_	_	_
+168-4	6798-6805	scritto	_	scritto	_	169-3	linguistic	none	_	_	_	_	_
+168-5	6806-6809	poi	_	poi	_	169-4	linguistic	none	_	_	_	_	_
+168-6	6810-6813	tra	_	tra	_	169-5	linguistic	none	_	_	_	_	_
+168-7	6814-6823	parentesi	_	parentesi	_	169-6	linguistic	none	_	_	_	_	_
+168-8	6824-6827	nel	_	nel	_	169-7	linguistic	none	_	_	_	_	_
+168-9	6828-6832	caso	_	caso	_	169-8	linguistic	none	_	_	_	_	_
+168-10	6833-6839	perché	_	perché	_	169-9	linguistic	none	_	_	_	_	_
+168-11	6840-6842	ce	_	ce	_	169-10	linguistic	none	_	_	_	_	_
+168-12	6843-6845	n'	_	n'	_	169-11	linguistic	none	_	_	_	_	_
+168-13	6846-6847	è	_	è	_	169-12	linguistic	none	_	_	_	_	_
+168-14	6848-6853	anche	_	anche	_	169-13	linguistic	none	_	_	_	_	_
+168-15	6854-6857	un'	_	un'	_	169-14	linguistic	none	_	_	_	_	_
+168-16	6858-6863	altra	_	altra	_	169-15	linguistic	none	_	_	_	_	_
+168-17	6864-6866	di	_	di	_	169-16	linguistic	none	_	_	_	_	_
+168-18	6867-6876	@georgeta	_	@georgeta	_	169-17	anonymized	none	_	_	_	_	_
+168-19	6877-6883	quindi	_	quindi	_	169-18	linguistic	none	_	_	_	_	_
+
+#Text=okay
+169-1	6884-6888	okay	_	okay	PST211	170-0	linguistic	none	_	_	_	_	_
+
+#Text=bo abbiamo un po' di scene
+170-1	6889-6891	bo	_	bo	PST203	171-0	linguistic	none	_	_	_	_	_
+170-2	6892-6899	abbiamo	_	abbiamo	_	171-1	linguistic	none	_	_	_	_	_
+170-3	6900-6902	un	_	un	_	171-2	linguistic	none	_	_	_	_	_
+170-4	6903-6906	po'	_	po'	_	171-3	linguistic	none	_	_	_	_	_
+170-5	6907-6909	di	_	di	_	171-4	linguistic	none	_	_	_	_	_
+170-6	6910-6915	scene	_	scene	_	171-5	linguistic	none	_	_	_	_	_
+
+#Text=ah
+171-1	6916-6918	ah	WeaklyRising	a:\[:h\],	PST087	172-0	linguistic	none	0x2	_	_	_	_
+171-1.1	6917-6918	h	_	_	_	_	_	_	_	_	_	*->40-1	*[40]
+
+#Text=abbiamo
+172-1	6919-6926	abbiamo	_	\[abbi\]amo	PST211	173-0	linguistic	none	_	_	_	_	_
+172-1.1	6919-6923	abbi	_	_	_	_	_	_	_	_	_	*->40-2	*[40]
+
+#Text=o se no tipo stavam pensando per il canto di gruppo e per l' orchestra
+173-1	6927-6928	o	_	o	PST087	174-0	linguistic	none	_	_	_	_	_
+173-2	6929-6931	se	_	se	_	174-1	linguistic	none	_	_	_	_	_
+173-3	6932-6934	no	_	no	_	174-2	linguistic	none	_	_	_	_	_
+173-4	6935-6939	tipo	_	tipo	_	174-3	linguistic	none	_	_	_	_	_
+173-5	6940-6946	stavam	_	stavam	_	174-4	linguistic	none	_	_	_	_	_
+173-6	6947-6955	pensando	_	pensando	_	174-5	linguistic	none	_	_	_	_	_
+173-7	6956-6959	per	_	per	_	174-6	linguistic	none	_	_	_	_	_
+173-8	6960-6962	il	_	il	_	174-7	linguistic	none	_	_	_	_	_
+173-9	6963-6968	canto	_	canto	_	174-8	linguistic	none	_	_	_	_	_
+173-10	6969-6971	di	_	di	_	174-9	linguistic	none	_	_	_	_	_
+173-11	6972-6978	gruppo	_	gruppo::	_	174-10	linguistic	none	5x2	_	_	_	_
+173-12	6979-6980	e	_	e	_	174-11	linguistic	none	_	_	_	_	_
+173-13	6981-6984	per	_	per	_	174-12	linguistic	none	_	_	_	_	_
+173-14	6985-6987	l'	_	l'	_	174-13	linguistic	none	_	_	_	_	_
+173-15	6988-6997	orchestra	WeaklyRising	orchestra,	_	174-14	linguistic	none	_	_	_	_	_
+
+#Text=se non riuscivamo più a farlo magari quando siamo tutti vestiti così
+174-1	6998-7000	se	_	se	PST087	175-0	linguistic	none	_	_	_	_	_
+174-2	7001-7004	non	_	non	_	175-1	linguistic	none	_	_	_	_	_
+174-3	7005-7015	riuscivamo	_	riuscivamo	_	175-2	linguistic	none	_	_	_	_	_
+174-4	7016-7019	più	_	più	_	175-3	linguistic	none	_	_	_	_	_
+174-5	7020-7021	a	_	a	_	175-4	linguistic	none	_	_	_	_	_
+174-6	7022-7027	farlo	_	farlo	_	175-5	linguistic	none	_	_	_	_	_
+174-7	7028-7034	magari	_	magari	_	175-6	linguistic	none	_	_	_	_	_
+174-8	7035-7041	quando	_	quando	_	175-7	linguistic	none	_	_	_	_	_
+174-9	7042-7047	siamo	_	siamo	_	175-8	linguistic	none	_	_	_	_	_
+174-10	7048-7053	tutti	_	tutti	_	175-9	linguistic	none	_	_	_	_	_
+174-11	7054-7061	vestiti	_	vestiti	_	175-10	linguistic	none	_	_	_	_	_
+174-12	7062-7066	così	WeaklyRising	così,	_	175-11	linguistic	none	_	_	_	_	_
+
+#Text=di riprendere una delle lezioni di canto (.) in cui magari facciamo delle dei le canzoni di gruppo riscaldamento vocale (.) sì e poi con l' orch~
+175-1	7067-7069	di	_	di	PST087	176-0	linguistic	none	_	_	_	_	_
+175-2	7070-7080	riprendere	_	riprendere	_	176-1	linguistic	none	_	_	_	_	_
+175-3	7081-7084	una	_	una	_	176-2	linguistic	none	_	_	_	_	_
+175-4	7085-7090	delle	_	delle	_	176-3	linguistic	none	_	_	_	_	_
+175-5	7091-7098	lezioni	_	lezioni	_	176-4	linguistic	none	_	_	_	_	_
+175-6	7099-7101	di	_	di	_	176-5	linguistic	none	_	_	_	_	_
+175-7	7102-7107	canto	_	canto	_	176-6	linguistic	none	_	_	_	_	_
+175-8	7108-7111	(.)	_	(.)	_	176-7	shortpause	none	_	_	_	_	_
+175-9	7112-7114	in	_	in	_	176-8	linguistic	none	_	_	_	_	_
+175-10	7115-7118	cui	_	cui	_	176-9	linguistic	none	_	_	_	_	_
+175-11	7119-7125	magari	_	ma\[gari	_	176-10	linguistic	none	_	_	_	_	_
+175-11.1	7121-7125	gari	_	_	_	_	_	_	_	_	_	*->41-1	*[41]
+175-12	7126-7134	facciamo	_	facciamo	_	176-11	linguistic	none	_	_	_	*->41-2	*[41]
+175-13	7135-7140	delle	_	del\]le	_	176-12	linguistic	none	_	_	_	_	_
+175-13.1	7135-7138	del	_	_	_	_	_	_	_	_	_	*->41-3	*[41]
+175-14	7141-7144	dei	_	dei	_	176-13	linguistic	none	_	_	_	_	_
+175-15	7145-7147	le	_	le	_	176-14	linguistic	none	_	_	_	_	_
+175-16	7148-7155	canzoni	_	canzoni	_	176-15	linguistic	none	_	_	_	_	_
+175-17	7156-7158	di	_	di	_	176-16	linguistic	none	_	_	_	_	_
+175-18	7159-7165	gruppo	_	gruppo	_	176-17	linguistic	none	_	_	_	_	_
+175-19	7166-7179	riscaldamento	_	ri\[scaldamento	_	176-18	linguistic	none	_	_	_	_	_
+175-19.1	7168-7179	scaldamento	_	_	_	_	_	_	_	_	_	*->42-1	*[42]
+175-20	7180-7186	vocale	_	vocale\]	_	176-19	linguistic	none	_	_	_	*->42-2	*[42]
+175-21	7187-7190	(.)	_	(.)	_	176-20	shortpause	none	_	_	_	_	_
+175-22	7191-7193	sì	_	sì	_	176-21	linguistic	none	_	_	_	_	_
+175-23	7194-7195	e	_	e	_	176-22	linguistic	none	_	_	_	_	_
+175-24	7196-7199	poi	_	poi	_	176-23	linguistic	none	_	_	_	_	_
+175-25	7200-7203	con	_	con	_	176-24	linguistic	none	_	_	_	_	_
+175-26	7204-7206	l'	_	l'	_	176-25	linguistic	none	_	_	_	_	_
+175-27	7207-7212	orch~	_	orch~	_	176-26	linguistic	none	_	_	_	_	_
+
+#Text=mhmh
+176-1	7213-7217	mhmh	_	\[mhmh\]	PST203	177-0	linguistic	none	_	_	_	*->41-4	*[41]
+
+#Text=e con i ragazzi dietro
+177-1	7218-7219	e	_	\[e	PST092	178-0	linguistic	none	_	_	_	*->42-3	*[42]
+177-2	7220-7223	con	_	con	_	178-1	linguistic	none	_	_	_	*->42-4	*[42]
+177-3	7224-7225	i	_	i	_	178-2	linguistic	none	_	_	_	*->42-5	*[42]
+177-4	7226-7233	ragazzi	_	ragazzi	_	178-3	linguistic	none	_	_	_	*->42-6	*[42]
+177-5	7234-7240	dietro	_	dietro\]	_	178-4	linguistic	none	_	_	_	*->42-7	*[42]
+
+#Text=con i ragazzi dietro che suonano
+178-1	7241-7244	con	_	con	PST092	179-0	linguistic	none	_	_	_	_	_
+178-2	7245-7246	i	_	i	_	179-1	linguistic	none	_	_	_	_	_
+178-3	7247-7254	ragazzi	_	ragazzi	_	179-2	linguistic	none	_	_	_	_	_
+178-4	7255-7261	dietro	_	dietro	_	179-3	linguistic	none	_	_	_	_	_
+178-5	7262-7265	che	_	che	_	179-4	linguistic	none	_	_	_	_	_
+178-6	7266-7273	suonano	_	suonano	_	179-5	linguistic	none	_	_	_	_	_
+
+#Text=allora da questo momento siete voi
+179-1	7274-7280	allora	_	allora	PST203	180-0	linguistic	none	_	_	_	_	_
+179-2	7281-7283	da	_	da	_	180-1	linguistic	none	_	_	_	_	_
+179-3	7284-7290	questo	_	questo	_	180-2	linguistic	none	_	_	_	_	_
+179-4	7291-7298	momento	_	momento	_	180-3	linguistic	none	_	_	_	_	_
+179-5	7299-7304	siete	_	siete	_	180-4	linguistic	none	_	_	_	_	_
+179-6	7305-7308	voi	Falling	voi.	_	180-5	linguistic	none	_	_	_	_	_
+
+#Text=nel senso che
+180-1	7309-7312	nel	_	nel	PST203	181-0	linguistic	none	_	_	_	_	_
+180-2	7313-7318	senso	_	senso	_	181-1	linguistic	none	_	_	_	_	_
+180-3	7319-7322	che	_	che	_	181-2	linguistic	none	_	_	_	_	_
+
+#Text=tutto quello che potete fare con il cellulare in questi momenti (.) lo fate
+181-1	7323-7328	tutto	_	tutto	PST203	182-0	linguistic	none	_	_	_	_	_
+181-2	7329-7335	quello	_	quello	_	182-1	linguistic	none	_	_	_	_	_
+181-3	7336-7339	che	_	che	_	182-2	linguistic	none	_	_	_	_	_
+181-4	7340-7346	potete	_	potete	_	182-3	linguistic	none	_	_	_	_	_
+181-5	7347-7351	fare	_	fare	_	182-4	linguistic	none	_	_	_	_	_
+181-6	7352-7355	con	_	con	_	182-5	linguistic	none	_	_	_	_	_
+181-7	7356-7358	il	_	il	_	182-6	linguistic	none	_	_	_	_	_
+181-8	7359-7368	cellulare	_	cellulare	_	182-7	linguistic	none	_	_	_	_	_
+181-9	7369-7371	in	_	in	_	182-8	linguistic	none	_	_	_	_	_
+181-10	7372-7378	questi	_	questi	_	182-9	linguistic	none	_	_	_	_	_
+181-11	7379-7386	momenti	_	momenti	_	182-10	linguistic	none	_	_	_	_	_
+181-12	7387-7390	(.)	_	(.)	_	182-11	shortpause	none	_	_	_	_	_
+181-13	7391-7393	lo	_	lo	_	182-12	linguistic	none	_	_	_	_	_
+181-14	7394-7398	fate	Falling	fate.	_	182-13	linguistic	none	_	_	_	_	_
+
+#Text=okay
+182-1	7399-7403	okay	Rising	okay?	PST203	183-0	linguistic	none	_	_	_	_	_
+
+#Text=quindi non non aspettate più che vi diciamo noi okay vai fai pre~ (.) no
+183-1	7404-7410	quindi	_	quindi	PST203	184-0	linguistic	none	_	_	_	_	_
+183-2	7411-7414	non	_	non	_	184-1	linguistic	none	_	_	_	_	_
+183-3	7415-7418	non	_	non	_	184-2	linguistic	none	_	_	_	_	_
+183-4	7419-7428	aspettate	_	aspettate	_	184-3	linguistic	none	_	_	_	_	_
+183-5	7429-7432	più	_	più	_	184-4	linguistic	none	_	_	_	_	_
+183-6	7433-7436	che	_	che	_	184-5	linguistic	none	_	_	_	_	_
+183-7	7437-7439	vi	_	vi	_	184-6	linguistic	none	_	_	_	_	_
+183-8	7440-7447	diciamo	_	diciamo	_	184-7	linguistic	none	_	_	_	_	_
+183-9	7448-7451	noi	_	noi:	_	184-8	linguistic	none	2x1	_	_	_	_
+183-10	7452-7456	okay	_	okay	_	184-9	linguistic	none	_	_	_	_	_
+183-11	7457-7460	vai	_	vai	_	184-10	linguistic	none	_	_	_	_	_
+183-12	7461-7464	fai	_	fai	_	184-11	linguistic	none	_	_	_	_	_
+183-13	7465-7469	pre~	_	pre~	_	184-12	linguistic	none	_	_	_	_	_
+183-14	7470-7473	(.)	_	(.)	_	184-13	shortpause	none	_	_	_	_	_
+183-15	7474-7476	no	_	no	_	184-14	linguistic	none	_	_	_	_	_
+
+#Text=prendi il cellulare fai una scena ti chiedono perché dici è per il (.) documentario sull' asociazione sulla cultura romena a torino
+184-1	7477-7483	prendi	_	prendi	PST203	185-0	linguistic	none	_	_	_	_	_
+184-2	7484-7486	il	_	il	_	185-1	linguistic	none	_	_	_	_	_
+184-3	7487-7496	cellulare	_	cellulare	_	185-2	linguistic	none	_	_	_	_	_
+184-4	7497-7500	fai	_	fai	_	185-3	linguistic	none	_	_	_	_	_
+184-5	7501-7504	una	_	una	_	185-4	linguistic	none	_	_	_	_	_
+184-6	7505-7510	scena	_	scena	_	185-5	linguistic	none	_	_	_	_	_
+184-7	7511-7513	ti	_	ti	_	185-6	linguistic	none	_	_	_	_	_
+184-8	7514-7522	chiedono	_	chiedono	_	185-7	linguistic	none	_	_	_	_	_
+184-9	7523-7529	perché	_	perché	_	185-8	linguistic	none	_	_	_	_	_
+184-10	7530-7534	dici	_	dici	_	185-9	linguistic	none	_	_	_	_	_
+184-11	7535-7536	è	_	è	_	185-10	linguistic	none	_	_	_	_	_
+184-12	7537-7540	per	_	per	_	185-11	linguistic	none	_	_	_	_	_
+184-13	7541-7543	il	_	il	_	185-12	linguistic	none	_	_	_	_	_
+184-14	7544-7547	(.)	_	(.)	_	185-13	shortpause	none	_	_	_	_	_
+184-15	7548-7560	documentario	_	documentario	_	185-14	linguistic	none	_	_	_	_	_
+184-16	7561-7566	sull'	_	sull'	_	185-15	linguistic	none	_	_	_	_	_
+184-17	7567-7578	asociazione	_	asociazione	_	185-16	linguistic	none	_	_	_	_	_
+184-18	7579-7584	sulla	_	sulla	_	185-17	linguistic	none	_	_	_	_	_
+184-19	7585-7592	cultura	_	cultura	_	185-18	linguistic	none	_	_	_	_	_
+184-20	7593-7599	romena	_	romena	_	185-19	linguistic	none	_	_	_	_	_
+184-21	7600-7601	a	_	a	_	185-20	linguistic	none	_	_	_	_	_
+184-22	7602-7608	torino	Falling	torino.	_	185-21	linguistic	none	_	_	_	_	_
+
+#Text=okay
+185-1	7609-7613	okay	Rising	okay?	PST203	186-0	linguistic	none	_	_	_	_	_
+
+#Text=quindi prendete e fate
+186-1	7614-7620	quindi	_	quindi	PST203	187-0	linguistic	none	_	_	_	_	_
+186-2	7621-7629	prendete	_	prendete	_	187-1	linguistic	none	_	_	_	_	_
+186-3	7630-7631	e	_	e	_	187-2	linguistic	none	_	_	_	_	_
+186-4	7632-7636	fate	_	fate	_	187-3	linguistic	none	_	_	_	_	_
+
+#Text=cercando ovviamente di applicare le cose che nei giorni vi spieghiamo
+187-1	7637-7645	cercando	_	cercando	PST203	188-0	linguistic	none	_	_	_	_	_
+187-2	7646-7656	ovviamente	_	ovviamente	_	188-1	linguistic	none	_	_	_	_	_
+187-3	7657-7659	di	_	di	_	188-2	linguistic	none	_	_	_	_	_
+187-4	7660-7669	applicare	_	applicare	_	188-3	linguistic	none	_	_	_	_	_
+187-5	7670-7672	le	_	le	_	188-4	linguistic	none	_	_	_	_	_
+187-6	7673-7677	cose	_	cose	_	188-5	linguistic	none	_	_	_	_	_
+187-7	7678-7681	che	_	che	_	188-6	linguistic	none	_	_	_	_	_
+187-8	7682-7685	nei	_	nei	_	188-7	linguistic	none	_	_	_	_	_
+187-9	7686-7692	giorni	_	giorni	_	188-8	linguistic	none	_	_	_	_	_
+187-10	7693-7695	vi	_	vi	_	188-9	linguistic	none	_	_	_	_	_
+187-11	7696-7706	spieghiamo	_	spieghiamo	_	188-10	linguistic	none	_	_	_	_	_
+
+#Text=però (.) fate
+188-1	7707-7711	però	_	però	PST203	189-0	linguistic	none	_	_	_	_	_
+188-2	7712-7715	(.)	_	(.)	_	189-1	shortpause	none	_	_	_	_	_
+188-3	7716-7720	fate	_	fate	_	189-2	linguistic	none	_	_	_	_	_
+
+#Text=più vi vi ricordate più riuscite a fare quel passaggio che (.) applicate una cosa che avete ascoltato (.) meglio viene il lavoro però
+189-1	7721-7724	più	_	più	PST203	190-0	linguistic	none	_	_	_	_	_
+189-2	7725-7727	vi	_	vi	_	190-1	linguistic	none	_	_	_	_	_
+189-3	7728-7730	vi	_	vi	_	190-2	linguistic	none	_	_	_	_	_
+189-4	7731-7740	ricordate	_	ricordate	_	190-3	linguistic	none	_	_	_	_	_
+189-5	7741-7744	più	_	più	_	190-4	linguistic	none	_	_	_	_	_
+189-6	7745-7753	riuscite	_	riuscite	_	190-5	linguistic	none	_	_	_	_	_
+189-7	7754-7755	a	_	a	_	190-6	linguistic	none	_	_	_	_	_
+189-8	7756-7760	fare	_	fare	_	190-7	linguistic	none	_	_	_	_	_
+189-9	7761-7765	quel	_	quel	_	190-8	linguistic	none	_	_	_	_	_
+189-10	7766-7775	passaggio	_	passaggio	_	190-9	linguistic	none	_	_	_	_	_
+189-11	7776-7779	che	_	che	_	190-10	linguistic	none	_	_	_	_	_
+189-12	7780-7783	(.)	_	(.)	_	190-11	shortpause	none	_	_	_	_	_
+189-13	7784-7793	applicate	_	applicate	_	190-12	linguistic	none	_	_	_	_	_
+189-14	7794-7797	una	_	una	_	190-13	linguistic	none	_	_	_	_	_
+189-15	7798-7802	cosa	_	cosa	_	190-14	linguistic	none	_	_	_	_	_
+189-16	7803-7806	che	_	che	_	190-15	linguistic	none	_	_	_	_	_
+189-17	7807-7812	avete	_	avete	_	190-16	linguistic	none	_	_	_	_	_
+189-18	7813-7822	ascoltato	_	ascoltato	_	190-17	linguistic	none	_	_	_	_	_
+189-19	7823-7826	(.)	_	(.)	_	190-18	shortpause	none	_	_	_	_	_
+189-20	7827-7833	meglio	_	meglio	_	190-19	linguistic	none	_	_	_	_	_
+189-21	7834-7839	viene	_	viene	_	190-20	linguistic	none	_	_	_	_	_
+189-22	7840-7842	il	_	il	_	190-21	linguistic	none	_	_	_	_	_
+189-23	7843-7849	lavoro	_	lavoro	_	190-22	linguistic	none	_	_	_	_	_
+189-24	7850-7854	però	WeaklyRising	però,	_	190-23	linguistic	none	_	_	_	_	_
+
+#Text=mettetevi e fate perché non c' è altro modo di imparare
+190-1	7855-7864	mettetevi	_	mettetevi	PST203	191-0	linguistic	none	_	_	_	_	_
+190-2	7865-7866	e	_	e	_	191-1	linguistic	none	_	_	_	_	_
+190-3	7867-7871	fate	_	fate	_	191-2	linguistic	none	_	_	_	_	_
+190-4	7872-7878	perché	_	perché	_	191-3	linguistic	none	_	_	_	_	_
+190-5	7879-7882	non	_	non	_	191-4	linguistic	none	_	_	_	_	_
+190-6	7883-7885	c'	_	c'	_	191-5	linguistic	none	_	_	_	_	_
+190-7	7886-7887	è	_	è	_	191-6	linguistic	none	_	_	_	_	_
+190-8	7888-7893	altro	_	altro	_	191-7	linguistic	none	_	_	_	_	_
+190-9	7894-7898	modo	_	modo	_	191-8	linguistic	none	_	_	_	_	_
+190-10	7899-7901	di	_	di	_	191-9	linguistic	none	_	_	_	_	_
+190-11	7902-7910	imparare	_	imparare	_	191-10	linguistic	none	_	_	_	_	_
+
+#Text=e poi iniziate a pensare invece con maniera più strutturata (.) nei i momenti più complessi da registrare per cui magari (.) ci vogliono le nostre cose
+191-1	7911-7912	e	_	e	PST211	192-0	linguistic	none	_	_	_	_	_
+191-2	7913-7916	poi	_	poi	_	192-1	linguistic	none	_	_	_	_	_
+191-3	7917-7925	iniziate	_	iniziate	_	192-2	linguistic	none	_	_	_	_	_
+191-4	7926-7927	a	_	a	_	192-3	linguistic	none	_	_	_	_	_
+191-5	7928-7935	pensare	_	pensare	_	192-4	linguistic	none	_	_	_	_	_
+191-6	7936-7942	invece	_	invece	_	192-5	linguistic	none	_	_	_	_	_
+191-7	7943-7946	con	_	con	_	192-6	linguistic	none	_	_	_	_	_
+191-8	7947-7954	maniera	_	maniera	_	192-7	linguistic	none	_	_	_	_	_
+191-9	7955-7958	più	_	più	_	192-8	linguistic	none	_	_	_	_	_
+191-10	7959-7970	strutturata	_	strutturata::	_	192-9	linguistic	none	10x2	_	_	_	_
+191-11	7971-7974	(.)	_	(.)	_	192-10	shortpause	none	_	_	_	_	_
+191-12	7975-7978	nei	_	nei	_	192-11	linguistic	none	_	_	_	_	_
+191-13	7979-7980	i	_	i	_	192-12	linguistic	none	_	_	_	_	_
+191-14	7981-7988	momenti	_	momenti	_	192-13	linguistic	none	_	_	_	_	_
+191-15	7989-7992	più	_	più	_	192-14	linguistic	none	_	_	_	_	_
+191-16	7993-8002	complessi	_	complessi	_	192-15	linguistic	none	_	_	_	_	_
+191-17	8003-8005	da	_	da	_	192-16	linguistic	none	_	_	_	_	_
+191-18	8006-8016	registrare	_	registrare	_	192-17	linguistic	none	_	_	_	_	_
+191-19	8017-8020	per	_	per	_	192-18	linguistic	none	_	_	_	_	_
+191-20	8021-8024	cui	_	cui	_	192-19	linguistic	none	_	_	_	_	_
+191-21	8025-8031	magari	_	magari	_	192-20	linguistic	none	_	_	_	_	_
+191-22	8032-8035	(.)	_	(.)	_	192-21	shortpause	none	_	_	_	_	_
+191-23	8036-8038	ci	_	ci	_	192-22	linguistic	none	_	_	_	_	_
+191-24	8039-8047	vogliono	_	vogliono	_	192-23	linguistic	none	_	_	_	_	_
+191-25	8048-8050	le	_	le	_	192-24	linguistic	none	_	_	_	_	_
+191-26	8051-8057	nostre	_	nostre	_	192-25	linguistic	none	_	_	_	_	_
+191-27	8058-8062	cose	WeaklyRising	cose,	_	192-26	linguistic	none	_	_	_	_	_
+
+#Text=allora quelli li calendarizziamo insieme e fissiamo dei momenti in cui farli
+192-1	8063-8069	allora	_	allora	PST211	193-0	linguistic	none	_	_	_	_	_
+192-2	8070-8076	quelli	_	quelli	_	193-1	linguistic	none	_	_	_	_	_
+192-3	8077-8079	li	_	li	_	193-2	linguistic	none	_	_	_	_	_
+192-4	8080-8095	calendarizziamo	_	calendarizziamo	_	193-3	linguistic	none	_	_	_	_	_
+192-5	8096-8103	insieme	_	insieme	_	193-4	linguistic	none	_	_	_	_	_
+192-6	8104-8105	e	_	e	_	193-5	linguistic	none	_	_	_	_	_
+192-7	8106-8114	fissiamo	_	fissiamo	_	193-6	linguistic	none	_	_	_	_	_
+192-8	8115-8118	dei	_	dei	_	193-7	linguistic	none	_	_	_	_	_
+192-9	8119-8126	momenti	_	momenti	_	193-8	linguistic	none	_	_	_	_	_
+192-10	8127-8129	in	_	in	_	193-9	linguistic	none	_	_	_	_	_
+192-11	8130-8133	cui	_	cui	_	193-10	linguistic	none	_	_	_	_	_
+192-12	8134-8139	farli	_	farli	_	193-11	linguistic	none	_	_	_	_	_
+
+#Text=no
+193-1	8140-8142	no	Rising	no?	PST211	194-0	linguistic	none	_	_	_	_	_
+
+#Text=yes cioè
+194-1	8143-8146	yes	_	#yes:	PST203	195-0	linguistic	other	2x1	_	_	_	_
+194-2	8147-8151	cioè	_	c(io)è	_	195-1	linguistic	yes	_	_	_	_	_
+
+#Text=quindi queste due cose un po' in autonomia quello che riuscite a fare fatelo
+195-1	8152-8158	quindi	_	quindi	PST211	196-0	linguistic	none	_	_	_	_	_
+195-2	8159-8165	queste	_	queste	_	196-1	linguistic	none	_	_	_	_	_
+195-3	8166-8169	due	_	due	_	196-2	linguistic	none	_	_	_	_	_
+195-4	8170-8174	cose	_	cose	_	196-3	linguistic	none	_	_	_	_	_
+195-5	8175-8177	un	_	un	_	196-4	linguistic	none	_	_	_	_	_
+195-6	8178-8181	po'	_	po'	_	196-5	linguistic	none	_	_	_	_	_
+195-7	8182-8184	in	_	in	_	196-6	linguistic	none	_	_	_	_	_
+195-8	8185-8194	autonomia	_	autonomia	_	196-7	linguistic	none	_	_	_	_	_
+195-9	8195-8201	quello	_	quello	_	196-8	linguistic	none	_	_	_	_	_
+195-10	8202-8205	che	_	che	_	196-9	linguistic	none	_	_	_	_	_
+195-11	8206-8214	riuscite	_	riuscite	_	196-10	linguistic	none	_	_	_	_	_
+195-12	8215-8216	a	_	a	_	196-11	linguistic	none	_	_	_	_	_
+195-13	8217-8221	fare	_	fare	_	196-12	linguistic	none	_	_	_	_	_
+195-14	8222-8228	fatelo	WeaklyRising	fatelo,	_	196-13	linguistic	none	_	_	_	_	_
+
+#Text=e invece iniziate a
+196-1	8229-8230	e	_	e	PST211	197-0	linguistic	none	_	_	_	_	_
+196-2	8231-8237	invece	_	invece	_	197-1	linguistic	none	_	_	_	_	_
+196-3	8238-8246	iniziate	_	iniziate	_	197-2	linguistic	none	_	_	_	_	_
+196-4	8247-8248	a	_	a::	_	197-3	linguistic	none	0x2	_	_	_	_
+
+#Text=farvi una scaletta mentale di quando si può fare che cosa quindi
+197-1	8249-8254	farvi	_	farvi	PST211	198-0	linguistic	none	_	_	_	_	_
+197-2	8255-8258	una	_	una	_	198-1	linguistic	none	_	_	_	_	_
+197-3	8259-8267	scaletta	_	scaletta	_	198-2	linguistic	none	_	_	_	_	_
+197-4	8268-8275	mentale	_	mentale	_	198-3	linguistic	none	_	_	_	_	_
+197-5	8276-8278	di	_	di	_	198-4	linguistic	none	_	_	_	_	_
+197-6	8279-8285	quando	_	quando	_	198-5	linguistic	none	_	_	_	_	_
+197-7	8286-8288	si	_	si	_	198-6	linguistic	none	_	_	_	_	_
+197-8	8289-8292	può	_	può	_	198-7	linguistic	none	_	_	_	_	_
+197-9	8293-8297	fare	_	fare	_	198-8	linguistic	none	_	_	_	_	_
+197-10	8298-8301	che	_	che	_	198-9	linguistic	none	_	_	_	_	_
+197-11	8302-8306	cosa	_	cosa	_	198-10	linguistic	none	_	_	_	_	_
+197-12	8307-8313	quindi	_	quindi::	_	198-11	linguistic	none	5x2	_	_	_	_
+
+#Text=quando inivitare la mamma di @anita (.) quando mh lo spettacolo quando le uova e cosi via
+198-1	8314-8320	quando	_	quando	PST211	199-0	linguistic	none	_	_	_	_	_
+198-2	8321-8330	inivitare	_	inivitare	_	199-1	linguistic	none	_	_	_	_	_
+198-3	8331-8333	la	_	la	_	199-2	linguistic	none	_	_	_	_	_
+198-4	8334-8339	mamma	_	mamma	_	199-3	linguistic	none	_	_	_	_	_
+198-5	8340-8342	di	_	di:	_	199-4	linguistic	none	1x1	_	_	_	_
+198-6	8343-8349	@anita	_	@anita	_	199-5	anonymized	none	_	_	_	_	_
+198-7	8350-8353	(.)	_	(.)	_	199-6	shortpause	none	_	_	_	_	_
+198-8	8354-8360	quando	_	quando::	_	199-7	linguistic	none	5x2	_	_	_	_
+198-9	8361-8363	mh	_	m::h	_	199-8	linguistic	none	0x2	_	_	_	_
+198-10	8364-8366	lo	_	lo	_	199-9	linguistic	none	_	_	_	_	_
+198-11	8367-8377	spettacolo	_	spettacolo	_	199-10	linguistic	none	_	_	_	_	_
+198-12	8378-8384	quando	_	quando	_	199-11	linguistic	none	_	_	_	_	_
+198-13	8385-8387	le	_	le	_	199-12	linguistic	none	_	_	_	_	_
+198-14	8388-8392	uova	_	uova	_	199-13	linguistic	none	_	_	_	_	_
+198-15	8393-8394	e	_	e	_	199-14	linguistic	none	_	_	_	_	_
+198-16	8395-8399	cosi	_	cosi	_	199-15	linguistic	none	_	_	_	_	_
+198-17	8400-8403	via	_	via	_	199-16	linguistic	none	_	_	_	_	_
+
+#Text=per le interviste magari veniamo noi
+199-1	8404-8407	per	_	per	PST203	200-0	linguistic	none	_	_	_	_	_
+199-2	8408-8410	le	_	le	_	200-1	linguistic	none	_	_	_	_	_
+199-3	8411-8421	interviste	_	interviste	_	200-2	linguistic	none	_	_	_	_	_
+199-4	8422-8428	magari	_	magari	_	200-3	linguistic	none	_	_	_	_	_
+199-5	8429-8436	veniamo	_	veniamo	_	200-4	linguistic	none	_	_	_	_	_
+199-6	8437-8440	noi	WeaklyRising	noi:,	_	200-5	linguistic	none	2x1	_	_	_	_
+
+#Text=perché anche solo per microfonare la persona magari la microfoniamo con un microfonino un po' un po' bello così viene un audio
+200-1	8441-8447	perché	_	perché	PST203	201-0	linguistic	none	_	_	_	_	_
+200-2	8448-8453	anche	_	anche	_	201-1	linguistic	none	_	_	_	_	_
+200-3	8454-8458	solo	_	solo	_	201-2	linguistic	none	_	_	_	_	_
+200-4	8459-8462	per	_	per	_	201-3	linguistic	none	_	_	_	_	_
+200-5	8463-8474	microfonare	_	microfonare	_	201-4	linguistic	none	_	_	_	_	_
+200-6	8475-8477	la	_	la	_	201-5	linguistic	none	_	_	_	_	_
+200-7	8478-8485	persona	_	persona	_	201-6	linguistic	none	_	_	_	_	_
+200-8	8486-8492	magari	_	magari	_	201-7	linguistic	none	_	_	_	_	_
+200-9	8493-8495	la	_	la	_	201-8	linguistic	none	_	_	_	_	_
+200-10	8496-8508	microfoniamo	_	microfoniamo	_	201-9	linguistic	none	_	_	_	_	_
+200-11	8509-8512	con	_	con:	_	201-10	linguistic	none	2x1	_	_	_	_
+200-12	8513-8515	un	_	un	_	201-11	linguistic	none	_	_	_	_	_
+200-13	8516-8527	microfonino	_	microfonino	_	201-12	linguistic	none	_	_	_	_	_
+200-14	8528-8530	un	_	\[un	_	201-13	linguistic	none	_	_	_	*->43-1	*[43]
+200-15	8531-8534	po'	_	po'::\]	_	201-14	linguistic	none	1x2	_	_	*->43-2	*[43]
+200-16	8535-8537	un	_	un	_	201-15	linguistic	none	_	_	_	_	_
+200-17	8538-8541	po'	_	po'	_	201-16	linguistic	none	_	_	_	_	_
+200-18	8542-8547	bello	_	bello	_	201-17	linguistic	none	_	_	_	_	_
+200-19	8548-8552	così	_	così	_	201-18	linguistic	none	_	_	_	_	_
+200-20	8553-8558	viene	_	viene	_	201-19	linguistic	none	_	_	_	_	_
+200-21	8559-8561	un	_	un	_	201-20	linguistic	none	_	_	_	_	_
+200-22	8562-8567	audio	_	audio:	_	201-21	linguistic	none	4x1	_	_	_	_
+
+#Text=mhmh
+201-1	8568-8572	mhmh	_	\[mhmh\]	PST211	202-0	linguistic	none	_	_	_	*->43-3	*[43]
+
+#Text=sì poi magari sull' intervista si può fare un mh
+202-1	8573-8575	sì	_	sì	PST211	203-0	linguistic	none	_	_	_	_	_
+202-2	8576-8579	poi	_	poi	_	203-1	linguistic	none	_	_	_	_	_
+202-3	8580-8586	magari	_	magari	_	203-2	linguistic	none	_	_	_	_	_
+202-4	8587-8592	sull'	_	sull'	_	203-3	linguistic	none	_	_	_	_	_
+202-5	8593-8603	intervista	_	intervista	_	203-4	linguistic	none	_	_	_	_	_
+202-6	8604-8606	si	_	si	_	203-5	linguistic	none	_	_	_	_	_
+202-7	8607-8610	può	_	può	_	203-6	linguistic	none	_	_	_	_	_
+202-8	8611-8615	fare	_	fare	_	203-7	linguistic	none	_	_	_	_	_
+202-9	8616-8618	un	_	un::	_	203-8	linguistic	none	1x2	_	_	_	_
+202-10	8619-8621	mh	_	m::h	_	203-9	linguistic	none	0x2	_	_	_	_
+
+#Text=una piccola riflessione prima cioè nel senso che vi preparate qualche domanda poi ovvio che @ecaterina la conoscete bene quindi non è che dovete
+203-1	8622-8625	una	_	una	PST211	204-0	linguistic	none	_	_	_	_	_
+203-2	8626-8633	piccola	_	piccola	_	204-1	linguistic	none	_	_	_	_	_
+203-3	8634-8645	riflessione	_	ri\[flessione\]	_	204-2	linguistic	none	_	_	_	_	_
+203-3.1	8636-8645	flessione	_	_	_	_	_	_	_	_	_	*->45-1	*[45]
+203-4	8646-8651	prima	_	prima	_	204-3	linguistic	none	_	_	_	_	_
+203-5	8652-8656	cioè	_	cioè	_	204-4	linguistic	none	_	_	_	_	_
+203-6	8657-8660	nel	_	nel	_	204-5	linguistic	none	_	_	_	_	_
+203-7	8661-8666	senso	_	senso	_	204-6	linguistic	none	_	_	_	_	_
+203-8	8667-8670	che	_	che	_	204-7	linguistic	none	_	_	_	_	_
+203-9	8671-8673	vi	_	vi	_	204-8	linguistic	none	_	_	_	_	_
+203-10	8674-8683	preparate	_	\[preparate\]	_	204-9	linguistic	none	_	_	_	*->46-1	*[46]
+203-11	8684-8691	qualche	_	qualche	_	204-10	linguistic	none	_	_	_	_	_
+203-12	8692-8699	domanda	_	domanda	_	204-11	linguistic	none	_	_	_	_	_
+203-13	8700-8703	poi	_	poi	_	204-12	linguistic	none	_	_	_	_	_
+203-14	8704-8709	ovvio	_	ovvio	_	204-13	linguistic	none	_	_	_	_	_
+203-15	8710-8713	che	_	che	_	204-14	linguistic	none	_	_	_	_	_
+203-16	8714-8724	@ecaterina	_	@ecaterina	_	204-15	anonymized	none	_	_	_	_	_
+203-17	8725-8727	la	_	la	_	204-16	linguistic	none	_	_	_	_	_
+203-18	8728-8737	conoscete	_	conoscete	_	204-17	linguistic	none	_	_	_	_	_
+203-19	8738-8742	bene	_	bene	_	204-18	linguistic	none	_	_	_	_	_
+203-20	8743-8749	quindi	_	quindi	_	204-19	linguistic	none	_	_	_	_	_
+203-21	8750-8753	non	_	non	_	204-20	linguistic	none	_	_	_	_	_
+203-22	8754-8755	è	_	è	_	204-21	linguistic	none	_	_	_	_	_
+203-23	8756-8759	che	_	che	_	204-22	linguistic	none	_	_	_	_	_
+203-24	8760-8766	dovete	_	dovete::	_	204-23	linguistic	none	5x2	_	_	_	_
+
+#Text=eh
+204-1	8767-8769	eh	_	\[eh\]	PST203	205-0	linguistic	none	_	_	_	*->45-2	*[45]
+
+#Text=esatto
+205-1	8770-8776	esatto	_	\[esatto\]	PST203	206-0	linguistic	none	_	_	_	*->46-2	*[46]
+
+#Text=in modo che sia comunque una cosa (.) naturale però comunque un po' xxx
+206-1	8777-8779	in	_	(in	PST083	207-0	linguistic	none	_	_	0-2(0)	_	_
+206-2	8780-8784	modo	_	modo)	_	207-1	linguistic	none	_	_	0-4(0)	_	_
+206-3	8785-8788	che	_	\[che\]	_	207-2	linguistic	none	_	_	_	*->48-1	*[48]
+206-4	8789-8792	sia	_	sia	_	207-3	linguistic	none	_	_	_	_	_
+206-5	8793-8801	comunque	_	comunque	_	207-4	linguistic	none	_	_	_	_	_
+206-6	8802-8805	una	_	una	_	207-5	linguistic	none	_	_	_	_	_
+206-7	8806-8810	cosa	_	cosa	_	207-6	linguistic	none	_	_	_	_	_
+206-8	8811-8814	(.)	_	(.)	_	207-7	shortpause	none	_	_	_	_	_
+206-9	8815-8823	naturale	_	naturale	_	207-8	linguistic	none	_	_	_	_	_
+206-10	8824-8828	però	_	\[però	_	207-9	linguistic	none	_	_	_	*->57-1	*[57]
+206-11	8829-8837	comunque	_	comunque	_	207-10	linguistic	none	_	_	_	*->57-2	*[57]
+206-12	8838-8840	un	_	un	_	207-11	linguistic	none	_	_	_	*->57-3	*[57]
+206-13	8841-8844	po'	_	po'	_	207-12	linguistic	none	_	_	_	*->57-4	*[57]
+206-14	8845-8848	xxx	_	xxx\]	_	207-13	unknown	none	_	_	_	*->57-5	*[57]
+
+#Text=però
+207-1	8849-8853	però	_	\[però\]	PST211	208-0	linguistic	none	_	_	_	*->47-1	*[47]
+
+#Text=esatto
+208-1	8854-8860	esatto	_	\[esatto\]	PST211	209-0	linguistic	none	_	_	_	*->48-2	*[48]
+
+#Text=brava
+209-1	8861-8866	brava	_	\[brava\]	PST211	210-0	linguistic	none	_	_	_	*->57-6	*[57]
+
+#Text=esatto
+210-1	8867-8873	esatto	_	\[esatto\]	PST203	211-0	linguistic	none	_	_	_	*->57-7	*[57]
+
+#Text=esatto
+211-1	8874-8880	esatto	_	\[esatto\]	PST211	212-0	linguistic	none	_	_	_	*->58-1	*[58]
+
+#Text=magari vi aiutiamo noi a
+212-1	8881-8887	magari	_	\[magari\]	PST203	213-0	linguistic	none	_	_	_	*->58-2	*[58]
+212-2	8888-8890	vi	_	vi	_	213-1	linguistic	none	_	_	_	_	_
+212-3	8891-8899	aiutiamo	_	aiutiamo	_	213-2	linguistic	none	_	_	_	_	_
+212-4	8900-8903	noi	_	\[noi	_	213-3	linguistic	none	_	_	_	*->49-1	*[49]
+212-5	8904-8905	a	_	a\]	_	213-4	linguistic	none	_	_	_	*->49-2	*[49]
+
+#Text=così
+213-1	8906-8910	così	_	\[così\]	PST211	214-0	linguistic	none	_	_	_	*->49-3	*[49]
+
+#Text=a scriverla l' intervista poi
+214-1	8911-8912	a	_	a	PST203	215-0	linguistic	none	_	_	_	_	_
+214-2	8913-8922	scriverla	_	scriverla	_	215-1	linguistic	none	_	_	_	_	_
+214-3	8923-8925	l'	_	l'	_	215-2	linguistic	none	_	_	_	_	_
+214-4	8926-8936	intervista	_	intervista	_	215-3	linguistic	none	_	_	_	_	_
+214-5	8937-8940	poi	_	\[poi\]	_	215-4	linguistic	none	_	_	_	*->50-1	*[50]
+
+#Text=esatto
+215-1	8941-8947	esatto	_	\[esatto\]	PST211	216-0	linguistic	none	_	_	_	*->50-2	*[50]
+
+#Text=poi la conversazione va
+216-1	8948-8951	poi	_	poi	PST211	217-0	linguistic	none	_	_	_	_	_
+216-2	8952-8954	la	_	la	_	217-1	linguistic	none	_	_	_	_	_
+216-3	8955-8968	conversazione	_	conversazione	_	217-2	linguistic	none	_	_	_	_	_
+216-4	8969-8971	va	_	va	_	217-3	linguistic	none	_	_	_	_	_
+
+#Text=però almeno avere un' idea di quello che si vuole chiedere
+217-1	8972-8976	però	_	però	PST211	218-0	linguistic	none	_	_	_	_	_
+217-2	8977-8983	almeno	_	almeno	_	218-1	linguistic	none	_	_	_	_	_
+217-3	8984-8989	avere	_	avere	_	218-2	linguistic	none	_	_	_	_	_
+217-4	8990-8993	un'	_	un'	_	218-3	linguistic	none	_	_	_	_	_
+217-5	8994-8998	idea	_	idea:	_	218-4	linguistic	none	3x1	_	_	_	_
+217-6	8999-9001	di	_	di	_	218-5	linguistic	none	_	_	_	_	_
+217-7	9002-9008	quello	_	quello	_	218-6	linguistic	none	_	_	_	_	_
+217-8	9009-9012	che	_	che::	_	218-7	linguistic	none	2x2	_	_	_	_
+217-9	9013-9015	si	_	si	_	218-8	linguistic	none	_	_	_	_	_
+217-10	9016-9021	vuole	_	vuole:	_	218-9	linguistic	none	4x1	_	_	_	_
+217-11	9022-9030	chiedere	_	chiedere	_	218-10	linguistic	none	_	_	_	_	_
+
+#Text=ricordatevi sempre voi nella vostra testa la state vedendo in un modo
+218-1	9031-9042	ricordatevi	_	ricordatevi	PST203	219-0	linguistic	none	_	_	_	_	_
+218-2	9043-9049	sempre	_	sempre	_	219-1	linguistic	none	_	_	_	_	_
+218-3	9050-9053	voi	_	voi	_	219-2	linguistic	none	_	_	_	_	_
+218-4	9054-9059	nella	_	nella	_	219-3	linguistic	none	_	_	_	_	_
+218-5	9060-9066	vostra	_	vostra	_	219-4	linguistic	none	_	_	_	_	_
+218-6	9067-9072	testa	_	testa	_	219-5	linguistic	none	_	_	_	_	_
+218-7	9073-9075	la	_	la	_	219-6	linguistic	none	_	_	_	_	_
+218-8	9076-9081	state	_	state	_	219-7	linguistic	none	_	_	_	_	_
+218-9	9082-9089	vedendo	_	vedendo	_	219-8	linguistic	none	_	_	_	_	_
+218-10	9090-9092	in	_	in	_	219-9	linguistic	none	_	_	_	_	_
+218-11	9093-9095	un	_	un	_	219-10	linguistic	none	_	_	_	_	_
+218-12	9096-9100	modo	_	modo	_	219-11	linguistic	none	_	_	_	_	_
+
+#Text=la scena
+219-1	9101-9103	la	_	la	PST203	220-0	linguistic	none	_	_	_	_	_
+219-2	9104-9109	scena	WeaklyRising	scena,	_	220-1	linguistic	none	_	_	_	_	_
+
+#Text=dopo che la girate sarà un po' diversa e questo cambierà le carte in tavola
+220-1	9110-9114	dopo	_	dopo	PST203	221-0	linguistic	none	_	_	_	_	_
+220-2	9115-9118	che	_	che	_	221-1	linguistic	none	_	_	_	_	_
+220-3	9119-9121	la	_	la	_	221-2	linguistic	none	_	_	_	_	_
+220-4	9122-9128	girate	_	girate	_	221-3	linguistic	none	_	_	_	_	_
+220-5	9129-9133	sarà	_	sarà	_	221-4	linguistic	none	_	_	_	_	_
+220-6	9134-9136	un	_	un	_	221-5	linguistic	none	_	_	_	_	_
+220-7	9137-9140	po'	_	po'	_	221-6	linguistic	none	_	_	_	_	_
+220-8	9141-9148	diversa	_	diversa	_	221-7	linguistic	none	_	_	_	_	_
+220-9	9149-9150	e	_	e	_	221-8	linguistic	none	_	_	_	_	_
+220-10	9151-9157	questo	_	\[questo	_	221-9	linguistic	none	_	_	_	*->51-1	*[51]
+220-11	9158-9166	cambierà	_	cambierà	_	221-10	linguistic	none	_	_	_	*->51-2	*[51]
+220-12	9167-9169	le	_	le	_	221-11	linguistic	none	_	_	_	*->51-3	*[51]
+220-13	9170-9175	carte	_	carte	_	221-12	linguistic	none	_	_	_	*->51-4	*[51]
+220-14	9176-9178	in	_	in	_	221-13	linguistic	none	_	_	_	*->51-5	*[51]
+220-15	9179-9185	tavola	_	tavola\]	_	221-14	linguistic	none	_	_	_	*->51-6	*[51]
+
+#Text=finisci di completarla ((ride))
+221-1	9186-9193	finisci	_	\[finisci	PST087	222-0	linguistic	none	_	_	_	*->51-7	*[51]
+221-2	9194-9196	di	_	di	_	222-1	linguistic	none	_	_	_	*->51-8	*[51]
+221-3	9197-9208	completarla	_	completarla	_	222-2	linguistic	none	_	_	_	*->51-9	*[51]
+221-4	9209-9217	((ride))	_	((ride))\]	_	222-3	nonverbalbehavior	none	_	_	_	*->51-10	*[51]
+
+#Text=qui ho messo una delle due opzioni (.) perché o
+222-1	9218-9221	qui	_	qui	PST087	223-0	linguistic	none	_	_	_	_	_
+222-2	9222-9224	ho	_	ho	_	223-1	linguistic	none	_	_	_	_	_
+222-3	9225-9230	messo	_	messo	_	223-2	linguistic	none	_	_	_	_	_
+222-4	9231-9234	una	_	una	_	223-3	linguistic	none	_	_	_	_	_
+222-5	9235-9240	delle	_	delle	_	223-4	linguistic	none	_	_	_	_	_
+222-6	9241-9244	due	_	due	_	223-5	linguistic	none	_	_	_	_	_
+222-7	9245-9252	opzioni	_	\[opzioni	_	223-6	linguistic	none	_	_	_	*->52-1	*[52]
+222-8	9253-9256	(.)	_	(.)	_	223-7	shortpause	none	_	_	_	*->52-2	*[52]
+222-9	9257-9263	perché	_	perché	_	223-8	linguistic	none	_	_	_	*->52-3	*[52]
+222-10	9264-9265	o	_	o::\]	_	223-9	linguistic	none	0x2	_	_	*->52-4	*[52]
+
+#Text=però per adesso non ci pensiamo~ adesso dovete
+223-1	9266-9270	però	_	\[però	PST203	224-0	linguistic	none	_	_	_	*->52-5	*[52]
+223-2	9271-9274	per	_	per	_	224-1	linguistic	none	_	_	_	*->52-6	*[52]
+223-3	9275-9281	adesso	_	adesso	_	224-2	linguistic	none	_	_	_	*->52-7	*[52]
+223-4	9282-9285	non	_	non	_	224-3	linguistic	none	_	_	_	*->52-8	*[52]
+223-5	9286-9288	ci	_	ci	_	224-4	linguistic	none	_	_	_	*->52-9	*[52]
+223-6	9289-9298	pensiamo~	_	pensiamo~	_	224-5	linguistic	none	_	_	_	*->52-10	*[52]
+223-7	9299-9305	adesso	_	adesso	_	224-6	linguistic	none	_	_	_	*->52-11	*[52]
+223-8	9306-9312	dovete	_	dovete\]	_	224-7	linguistic	none	_	_	_	*->52-12	*[52]
+
+#Text=rompere un po' il fiato e iniziare a fare le cose
+224-1	9313-9320	rompere	_	rompere	PST203	225-0	linguistic	none	_	_	_	_	_
+224-2	9321-9323	un	_	un	_	225-1	linguistic	none	_	_	_	_	_
+224-3	9324-9327	po'	_	po'	_	225-2	linguistic	none	_	_	_	_	_
+224-4	9328-9330	il	_	il	_	225-3	linguistic	none	_	_	_	_	_
+224-5	9331-9336	fiato	_	fi\[ato	_	225-4	linguistic	none	_	_	_	_	_
+224-6	9337-9338	e	_	e	_	225-5	linguistic	none	_	_	_	_	_
+224-7	9339-9347	iniziare	_	iniziare	_	225-6	linguistic	none	_	_	_	_	_
+224-8	9348-9349	a	_	a	_	225-7	linguistic	none	_	_	_	_	_
+224-9	9350-9354	fare	_	far\]e	_	225-8	linguistic	none	_	_	_	_	_
+224-10	9355-9357	le	_	le	_	225-9	linguistic	none	_	_	_	_	_
+224-11	9358-9362	cose	_	cose	_	225-10	linguistic	none	_	_	_	_	_
+
+#Text=a posto
+225-1	9363-9364	a	_	\[a	PST087	226-0	linguistic	none	_	_	_	*->53-1	*[53]
+225-2	9365-9370	posto	Rising	posto\]?	_	226-1	linguistic	none	_	_	_	*->53-2	*[53]
+
+#Text=mhmh
+226-1	9371-9375	mhmh	_	\[mhmh\]	PST092	227-0	linguistic	none	_	_	_	*->54-1	*[54]
+
+#Text=va bene
+227-1	9376-9378	va	_	va	PST203	228-0	linguistic	none	_	_	_	_	_
+227-2	9379-9383	bene	Rising	bene?	_	228-1	linguistic	none	_	_	_	_	_
+
+#Text=sì
+228-1	9384-9386	sì	_	sì	PST083	229-0	linguistic	none	_	_	_	_	_
+
+#Text=@noemi va bene sei con noi
+229-1	9387-9393	@noemi	_	@noemi	PST203	230-0	anonymized	none	_	_	_	_	_
+229-2	9394-9396	va	_	va	_	230-1	linguistic	none	_	_	_	_	_
+229-3	9397-9401	bene	_	bene	_	230-2	linguistic	none	_	_	_	_	_
+229-4	9402-9405	sei	_	sei	_	230-3	linguistic	none	_	_	_	_	_
+229-5	9406-9409	con	_	con	_	230-4	linguistic	none	_	_	_	_	_
+229-6	9410-9413	noi	Rising	noi?	_	230-5	linguistic	none	_	_	_	_	_
+
+#Text=xxx faccio le stesse cose ((ride))
+230-1	9414-9417	xxx	_	xxx	PST087	231-0	unknown	none	_	_	_	_	_
+230-2	9418-9424	faccio	_	faccio	_	231-1	linguistic	none	_	_	_	_	_
+230-3	9425-9427	le	_	le	_	231-2	linguistic	none	_	_	_	_	_
+230-4	9428-9434	stesse	_	stesse	_	231-3	linguistic	none	_	_	_	_	_
+230-5	9435-9439	cose	_	cose	_	231-4	linguistic	none	_	_	_	_	_
+230-6	9440-9448	((ride))	_	((ride))	_	231-5	nonverbalbehavior	none	_	_	_	_	_
+
+#Text=okay beh direi che è andata bene
+231-1	9449-9453	okay	_	okay	PST203	232-0	linguistic	none	_	_	_	_	_
+231-2	9454-9457	beh	_	beh	_	232-1	linguistic	none	_	_	_	_	_
+231-3	9458-9463	direi	_	direi	_	232-2	linguistic	none	_	_	_	_	_
+231-4	9464-9467	che	_	che	_	232-3	linguistic	none	_	_	_	_	_
+231-5	9468-9469	è	_	è	_	232-4	linguistic	none	_	_	_	_	_
+231-6	9470-9476	andata	_	andata	_	232-5	linguistic	none	_	_	_	_	_
+231-7	9477-9481	bene	WeaklyRising	bene,	_	232-6	linguistic	none	_	_	_	_	_
+
+#Text=brave tutte ehm domande dubbi
+232-1	9482-9487	brave	_	brave	PST203	233-0	linguistic	none	_	_	_	_	_
+232-2	9488-9493	tutte	_	tutte	_	233-1	linguistic	none	_	_	_	_	_
+232-3	9494-9497	ehm	_	eh::m::	_	233-2	linguistic	none	1x2,2x2	_	_	_	_
+232-4	9498-9505	domande	_	domande	_	233-3	linguistic	none	_	_	_	_	_
+232-5	9506-9511	dubbi	Rising	dubbi?	_	233-4	linguistic	none	_	_	_	_	_
+
+#Text=@edoardo direi che ci sei tu
+233-1	9512-9520	@edoardo	_	@edoardo	PST203	234-0	anonymized	none	_	_	_	_	_
+233-2	9521-9526	direi	_	direi	_	234-1	linguistic	none	_	_	_	_	_
+233-3	9527-9530	che	_	che::	_	234-2	linguistic	none	2x2	_	_	_	_
+233-4	9531-9533	ci	_	ci	_	234-3	linguistic	none	_	_	_	_	_
+233-5	9534-9537	sei	_	sei	_	234-4	linguistic	none	_	_	_	_	_
+233-6	9538-9540	tu	_	tu	_	234-5	linguistic	none	_	_	_	_	_

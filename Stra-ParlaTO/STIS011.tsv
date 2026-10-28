@@ -1,0 +1,851 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=webanno.custom.Intonation|Intonation_values
+#T_SP=webanno.custom.Jefferson|Jefferson_values
+#T_SP=webanno.custom.Speaker|Speaker_values
+#T_SP=webanno.custom.TokenID|TokenID_values
+#T_SP=webanno.custom.Type|Type_values
+#T_SP=webanno.custom.code_variation|code_variation_values
+#T_SP=webanno.custom.Prolongation|Prolongation_values
+#T_SP=webanno.custom.Pace|Pace_values
+#T_SP=webanno.custom.Guesses|Guesses_values
+#T_CH=webanno.custom.OverlapsLink|referenceRelation|referenceType
+
+
+#Text=italiano pero si n~ no puede responder en italiano normal en español okay
+1-1	0-8	italiano	_	#_ italiano	PST209	0-0	linguistic	other	_	_	_	_	_
+1-2	9-13	pero	_	pero	_	0-1	linguistic	other	_	_	_	_	_
+1-3	14-16	si	_	si:	_	0-2	linguistic	other	1x1	_	_	_	_
+1-4	17-19	n~	_	n~	_	0-3	linguistic	other	_	_	_	_	_
+1-5	20-22	no	_	no	_	0-4	linguistic	other	_	_	_	_	_
+1-6	23-28	puede	_	puede	_	0-5	linguistic	other	_	_	_	_	_
+1-7	29-38	responder	_	responder	_	0-6	linguistic	other	_	_	_	_	_
+1-8	39-41	en	_	en	_	0-7	linguistic	other	_	_	_	_	_
+1-9	42-50	italiano	_	italiano	_	0-8	linguistic	other	_	_	_	_	_
+1-10	51-57	normal	_	normal	_	0-9	linguistic	other	_	_	_	_	_
+1-11	58-60	en	_	en	_	0-10	linguistic	other	_	_	_	_	_
+1-12	61-68	español	_	español	_	0-11	linguistic	other	_	_	_	_	_
+1-13	69-73	okay	Rising	okay?	_	0-12	linguistic	other	_	_	_	_	_
+
+#Text=sólo que aquí vienen a veces las personas te voy a interrumpir que vas a hacer un
+2-1	74-78	sólo	_	#_ sólo	PST066	2-0	linguistic	other	_	_	_	_	_
+2-2	79-82	que	_	que	_	2-1	linguistic	other	_	_	_	_	_
+2-3	83-87	aquí	_	aquí	_	2-2	linguistic	other	_	_	_	_	_
+2-4	88-94	vienen	_	vienen	_	2-3	linguistic	other	_	_	_	_	_
+2-5	95-96	a	_	a	_	2-4	linguistic	other	_	_	_	_	_
+2-6	97-102	veces	_	veces	_	2-5	linguistic	other	_	_	_	_	_
+2-7	103-106	las	_	las	_	2-6	linguistic	other	_	_	_	_	_
+2-8	107-115	personas	_	personas	_	2-7	linguistic	other	_	_	_	_	_
+2-9	116-118	te	_	te	_	2-8	linguistic	other	_	_	_	_	_
+2-10	119-122	voy	_	voy	_	2-9	linguistic	other	_	_	_	_	_
+2-11	123-124	a	_	a	_	2-10	linguistic	other	_	_	_	_	_
+2-12	125-136	interrumpir	_	interrumpir	_	2-11	linguistic	other	_	_	_	_	_
+2-13	137-140	que	_	que	_	2-12	linguistic	other	_	_	_	_	_
+2-14	141-144	vas	_	vas	_	2-13	linguistic	other	_	_	_	_	_
+2-15	145-146	a	_	a	_	2-14	linguistic	other	_	_	_	_	_
+2-16	147-152	hacer	_	hacer	_	2-15	linguistic	other	_	_	_	_	_
+2-17	153-155	un	_	un:	_	2-16	linguistic	other	1x1	_	_	_	_
+
+#Text=eh fa niente
+3-1	156-158	eh	_	e::::h	PST211	4-0	linguistic	none	0x4	_	_	_	_
+3-2	159-161	fa	_	fa	_	4-1	linguistic	none	_	_	_	_	_
+3-3	162-168	niente	_	niente	_	4-2	linguistic	none	_	_	_	_	_
+
+#Text=ciao (.) volevi qualcosa
+4-1	169-173	ciao	_	ciao	PST066	5-0	linguistic	none	_	_	_	_	_
+4-2	174-177	(.)	_	(.)	_	5-1	shortpause	none	_	_	_	_	_
+4-3	178-184	volevi	_	volevi	_	5-2	linguistic	none	_	_	_	_	_
+4-4	185-193	qualcosa	Rising	qualcosa?	_	5-3	linguistic	none	_	_	_	_	_
+
+#Text=un agua grande
+5-1	194-196	un	_	#_ un	??	6-0	linguistic	other	_	_	_	_	_
+5-2	197-201	agua	_	agua	_	6-1	linguistic	other	_	_	_	_	_
+5-3	202-208	grande	_	grande	_	6-2	linguistic	other	_	_	_	_	_
+
+#Text=se acabó joven sólo hay pequeño de medio litro
+6-1	209-211	se	_	#_ se	PST066	7-0	linguistic	other	_	_	_	_	_
+6-2	212-217	acabó	_	acabó:	_	7-1	linguistic	other	4x1	_	_	_	_
+6-3	218-223	joven	WeaklyRising	jo:ven,	_	7-2	linguistic	other	1x1	_	_	_	_
+6-4	224-228	sólo	_	sólo	_	7-3	linguistic	other	_	_	_	_	_
+6-5	229-232	hay	_	hay	_	7-4	linguistic	other	_	_	_	_	_
+6-6	233-240	pequeño	_	pequeño	_	7-5	linguistic	other	_	_	_	_	_
+6-7	241-243	de	_	de	_	7-6	linguistic	other	_	_	_	_	_
+6-8	244-249	medio	_	medio	_	7-7	linguistic	other	_	_	_	_	_
+6-9	250-255	litro	_	litro	_	7-8	linguistic	other	_	_	_	_	_
+
+#Text=segundo frigider (.) etiqueta celeste natural
+7-1	256-263	segundo	_	#_ segundo	PST066	9-0	linguistic	other	_	_	_	_	_
+7-2	264-272	frigider	_	frigider	_	9-1	linguistic	other	_	_	_	_	_
+7-3	273-276	(.)	_	(.)	_	9-2	shortpause	yes	_	_	_	_	_
+7-4	277-285	etiqueta	_	etiqueta	_	9-3	linguistic	other	_	_	_	_	_
+7-5	286-293	celeste	_	celeste	_	9-4	linguistic	other	_	_	_	_	_
+7-6	294-301	natural	WeaklyRising	natural,	_	9-5	linguistic	other	_	_	_	_	_
+
+#Text=xxxxx
+8-1	302-307	xxxxx	_	xxxxx	??	11-0	unknown	none	_	_	_	_	_
+
+#Text=mira está la blanca la la roja y la azul
+9-1	308-312	mira	_	mira	??	12-0	linguistic	yes	_	_	_	_	_
+9-2	313-317	está	_	está	_	12-1	linguistic	yes	_	_	_	_	_
+9-3	318-320	la	_	la	_	12-2	linguistic	yes	_	_	_	_	_
+9-4	321-327	blanca	WeaklyRising	#blanca,	_	12-3	linguistic	other	_	_	_	_	_
+9-5	328-330	la	_	la	_	12-4	linguistic	yes	_	_	_	_	_
+9-6	331-333	la	_	la	_	12-5	linguistic	yes	_	_	_	_	_
+9-7	334-338	roja	_	#roja	_	12-6	linguistic	other	_	_	_	_	_
+9-8	339-340	y	_	#y:::	_	12-7	linguistic	other	0x3	_	_	_	_
+9-9	341-343	la	_	la	_	12-8	linguistic	yes	_	_	_	_	_
+9-10	344-348	azul	_	#azul	_	12-9	linguistic	other	_	_	_	_	_
+
+#Text=ma s~ che se tratta de las preguntas de latino america del
+10-1	349-351	ma	_	ma	PST066	14-0	linguistic	yes	_	_	_	_	_
+10-2	352-354	s~	_	s~	_	14-1	linguistic	yes	_	_	_	_	_
+10-3	355-358	che	_	#\*che	_	14-2	linguistic	unsure	_	_	_	_	_
+10-4	359-361	se	_	#\*se	_	14-3	linguistic	unsure	_	_	_	_	_
+10-5	362-368	tratta	_	tratta	_	14-4	linguistic	yes	_	_	_	_	_
+10-6	369-371	de	_	#de:	_	14-5	linguistic	other	1x1	_	_	_	_
+10-7	372-375	las	_	#las	_	14-6	linguistic	other	_	_	_	_	_
+10-8	376-385	preguntas	_	#preguntas	_	14-7	linguistic	other	_	_	_	_	_
+10-9	386-388	de	_	#\*de	_	14-8	linguistic	unsure	_	_	_	_	_
+10-10	389-395	latino	_	latino	_	14-9	linguistic	yes	_	_	_	_	_
+10-11	396-403	america	_	america	_	14-10	linguistic	yes	_	_	_	_	_
+10-12	404-407	del	_	del	_	14-11	linguistic	yes	_	_	_	_	_
+
+#Text=sí sobre la independencia xx
+11-1	408-410	sí	_	#_ sí::	PST209	16-0	linguistic	other	1x2	_	_	_	_
+11-2	411-416	sobre	_	sobre	_	16-1	linguistic	other	_	_	_	_	_
+11-3	417-419	la	_	la	_	16-2	linguistic	other	_	_	_	_	_
+11-4	420-433	independencia	_	\[independencia	_	16-3	linguistic	other	_	_	_	*->1-1	*[1]
+11-5	434-436	xx	_	xx\]	_	16-4	unknown	yes	_	_	_	*->1-2	*[1]
+
+#Text=sì en general (.) sì
+12-1	437-439	sì	_	#_ \[sì	PST063	18-0	linguistic	other	_	_	_	*->1-3	*[1]
+12-2	440-442	en	_	en	_	18-1	linguistic	other	_	_	_	*->1-4	*[1]
+12-3	443-450	general	_	gene\]ral	_	18-2	linguistic	other	_	_	_	_	_
+12-3.1	443-447	gene	_	_	_	_	_	_	_	_	_	*->1-5	*[1]
+12-4	451-454	(.)	_	(.)	_	18-3	shortpause	yes	_	_	_	_	_
+12-5	455-457	sì	_	\[sì\]	_	18-4	linguistic	other	_	_	_	*->3-1	*[3]
+
+#Text=ah
+13-1	458-460	ah	_	\[ah\]	PST066	20-0	linguistic	none	_	_	_	*->2-1	*[2]
+
+#Text=la festa
+14-1	461-463	la	_	\[la	PST211	21-0	linguistic	none	_	_	_	*->3-2	*[3]
+14-2	464-469	festa	_	fes\]ta	_	21-1	linguistic	none	_	_	_	_	_
+14-2.1	464-467	fes	_	_	_	_	_	_	_	_	_	*->3-3	*[3]
+
+#Text=sobre la fiesta más que todo (.) eh cómo los festejamos en el país como lo festejan en torino
+15-1	470-475	sobre	_	#_ sobre	PST063	22-0	linguistic	other	_	_	_	_	_
+15-2	476-478	la	_	la	_	22-1	linguistic	other	_	_	_	_	_
+15-3	479-485	fiesta	_	fiesta	_	22-2	linguistic	other	_	_	_	_	_
+15-4	486-489	más	_	más	_	22-3	linguistic	other	_	_	_	_	_
+15-5	490-493	que	_	que	_	22-4	linguistic	other	_	_	_	_	_
+15-6	494-498	todo	_	todo	_	22-5	linguistic	other	_	_	_	_	_
+15-7	499-502	(.)	_	(.)	_	22-6	shortpause	yes	_	_	_	_	_
+15-8	503-505	eh	_	\[e::::h\]	_	22-7	linguistic	other	0x4	_	_	*->4-1	*[4]
+15-9	506-510	cómo	_	cómo	_	22-8	linguistic	other	_	_	_	_	_
+15-10	511-514	los	_	los	_	22-9	linguistic	other	_	_	_	_	_
+15-11	515-525	festejamos	_	festejamos	_	22-10	linguistic	other	_	_	_	_	_
+15-12	526-528	en	_	e::n	_	22-11	linguistic	other	0x2	_	_	_	_
+15-13	529-531	el	_	el	_	22-12	linguistic	other	_	_	_	_	_
+15-14	532-536	país	_	país	_	22-13	linguistic	other	_	_	_	_	_
+15-15	537-541	como	_	como	_	22-14	linguistic	other	_	_	_	_	_
+15-16	542-544	lo	_	lo	_	22-15	linguistic	other	_	_	_	_	_
+15-17	545-553	festejan	_	festejan	_	22-16	linguistic	other	_	_	_	_	_
+15-18	554-556	en	_	en	_	22-17	linguistic	other	_	_	_	_	_
+15-19	557-563	torino	_	torino	_	22-18	linguistic	other	_	_	_	_	_
+
+#Text=xxxxxx
+16-1	564-570	xxxxxx	_	\[xxxxxx\]	PST209	24-0	unknown	none	_	_	_	*->4-2	*[4]
+
+#Text=eh dos euros joven
+17-1	571-573	eh	_	#_ e:::h	PST066	25-0	linguistic	other	0x3	_	_	_	_
+17-2	574-577	dos	_	dos	_	25-1	linguistic	other	_	_	_	_	_
+17-3	578-583	euros	_	euro(s)	_	25-2	linguistic	other	_	_	_	_	_
+17-4	584-589	joven	_	joven	_	25-3	linguistic	other	_	_	_	_	_
+
+#Text=grazie
+18-1	590-596	grazie	_	grazie	??	27-0	linguistic	none	_	_	_	_	_
+
+#Text=gracias
+19-1	597-604	gracias	_	#gracias	PST066	28-0	linguistic	other	_	_	_	_	_
+
+#Text=ah beh dígame rapidito (.) chicos
+20-1	605-607	ah	_	#_ ah	PST066	29-0	linguistic	other	_	_	_	_	_
+20-2	608-611	beh	_	beh	_	29-1	linguistic	other	_	_	_	_	_
+20-3	612-618	dígame	_	dígame	_	29-2	linguistic	other	_	_	_	_	_
+20-4	619-627	rapidito	_	rapidito	_	29-3	linguistic	other	_	_	_	_	_
+20-5	628-631	(.)	_	\[(.)	_	29-4	shortpause	yes	_	_	_	*->6-1	*[6]
+20-6	632-638	chicos	_	chicos\]	_	29-5	linguistic	other	_	_	_	*->6-2	*[6]
+
+#Text=cosa chiedo
+21-1	639-643	cosa	_	\[(cosa	PST209	31-0	linguistic	none	_	_	0-4(0)	*->6-3	*[6]
+21-2	644-650	chiedo	Rising	chiedo?)\]	_	31-1	linguistic	none	_	_	0-6(0)	*->6-4	*[6]
+
+#Text=ok
+22-1	651-653	ok	_	(ok)	PST209	32-0	linguistic	none	_	_	0-2(0)	_	_
+
+#Text=ah dónde comenzamos entonces eh come ti come ti chiami
+23-1	654-656	ah	_	a:::h	PST209	33-0	linguistic	yes	0x3	_	_	_	_
+23-2	657-662	dónde	_	(#dónde	_	33-1	linguistic	other	_	_	0-6(0)	_	_
+23-3	663-673	comenzamos	_	#comenzamos	_	33-2	linguistic	other	_	_	0-11(0)	_	_
+23-4	674-682	entonces	_	#entonces)	_	33-3	linguistic	other	_	_	0-9(0)	_	_
+23-5	683-685	eh	_	e::h	_	33-4	linguistic	yes	0x2	_	_	_	_
+23-6	686-690	come	_	come	_	33-5	linguistic	yes	_	_	_	_	_
+23-7	691-693	ti	_	ti	_	33-6	linguistic	yes	_	_	_	_	_
+23-8	694-698	come	_	come	_	33-7	linguistic	yes	_	_	_	_	_
+23-9	699-701	ti	_	ti	_	33-8	linguistic	yes	_	_	_	_	_
+23-10	702-708	chiami	WeaklyRising	chiami,	_	33-9	linguistic	yes	_	_	_	_	_
+
+#Text=sono @garcia sandra
+24-1	709-713	sono	_	sono	PST066	35-0	linguistic	none	_	_	_	_	_
+24-2	714-721	@garcia	_	@garcia	_	35-1	anonymized	none	_	_	_	_	_
+24-3	722-728	sandra	_	sandra	_	35-2	linguistic	none	_	_	_	_	_
+
+#Text=ah da dove vieni
+25-1	729-731	ah	_	ah	PST209	36-0	linguistic	none	_	_	_	_	_
+25-2	732-734	da	_	da	_	36-1	linguistic	none	_	_	_	_	_
+25-3	735-739	dove	_	dove	_	36-2	linguistic	none	_	_	_	_	_
+25-4	740-745	vieni	Rising	vieni?	_	36-3	linguistic	none	_	_	_	_	_
+
+#Text=del perù (.) lima
+26-1	746-749	del	_	del	PST066	37-0	linguistic	none	_	_	_	_	_
+26-2	750-754	perù	_	perù	_	37-1	linguistic	none	_	_	_	_	_
+26-3	755-758	(.)	_	(.)	_	37-2	shortpause	none	_	_	_	_	_
+26-4	759-763	lima	_	lima	_	37-3	linguistic	none	_	_	_	_	_
+
+#Text=quanto tempo sei a a torino
+27-1	764-770	quanto	_	quanto	PST209	38-0	linguistic	none	_	_	_	_	_
+27-2	771-776	tempo	_	tempo	_	38-1	linguistic	none	_	_	_	_	_
+27-3	777-780	sei	_	sei	_	38-2	linguistic	none	_	_	_	_	_
+27-4	781-782	a	_	a:	_	38-3	linguistic	none	0x1	_	_	_	_
+27-5	783-784	a	_	a	_	38-4	linguistic	none	_	_	_	_	_
+27-6	785-791	torino	Rising	torino?	_	38-5	linguistic	none	_	_	_	_	_
+
+#Text=eh venticinque anni
+28-1	792-794	eh	_	eh	PST066	39-0	linguistic	none	_	_	_	_	_
+28-2	795-806	venticinque	_	venticinque	_	39-1	linguistic	none	_	_	_	_	_
+28-3	807-811	anni	_	anni	_	39-2	linguistic	none	_	_	_	_	_
+
+#Text=perché sei venuta qua a torino (.) italia
+29-1	812-818	perché	_	perché	PST209	40-0	linguistic	none	_	_	_	_	_
+29-2	819-822	sei	_	sei	_	40-1	linguistic	none	_	_	_	_	_
+29-3	823-829	venuta	_	venuta	_	40-2	linguistic	none	_	_	_	_	_
+29-4	830-833	qua	_	qua	_	40-3	linguistic	none	_	_	_	_	_
+29-5	834-835	a	_	a	_	40-4	linguistic	none	_	_	_	_	_
+29-6	836-842	torino	_	torino	_	40-5	linguistic	none	_	_	_	_	_
+29-7	843-846	(.)	_	(.)	_	40-6	shortpause	none	_	_	_	_	_
+29-8	847-853	italia	_	italia	_	40-7	linguistic	none	_	_	_	_	_
+
+#Text=eh (.) sono venuta di una maniera
+30-1	854-856	eh	_	eh	PST066	41-0	linguistic	none	_	_	_	_	_
+30-2	857-860	(.)	_	(.)	_	41-1	shortpause	none	_	_	_	_	_
+30-3	861-865	sono	_	sono	_	41-2	linguistic	none	_	_	_	_	_
+30-4	866-872	venuta	_	venuta	_	41-3	linguistic	none	_	_	_	_	_
+30-5	873-875	di	_	di	_	41-4	linguistic	none	_	_	_	_	_
+30-6	876-879	una	_	una	_	41-5	linguistic	none	_	_	_	_	_
+30-7	880-887	maniera	_	maniera	_	41-6	linguistic	none	_	_	_	_	_
+
+#Text=eh prospettiva poi volevo fare un po' de turismo
+31-1	888-890	eh	_	eh	PST066	42-0	linguistic	yes	_	_	_	_	_
+31-2	891-902	prospettiva	_	prospettiva	_	42-1	linguistic	yes	_	_	_	_	_
+31-3	903-906	poi	_	poi	_	42-2	linguistic	yes	_	_	_	_	_
+31-4	907-913	volevo	_	volevo	_	42-3	linguistic	yes	_	_	_	_	_
+31-5	914-918	fare	_	fare	_	42-4	linguistic	yes	_	_	_	_	_
+31-6	919-921	un	_	un	_	42-5	linguistic	yes	_	_	_	_	_
+31-7	922-925	po'	_	po'	_	42-6	linguistic	yes	_	_	_	_	_
+31-8	926-928	de	_	#\*de	_	42-7	linguistic	unsure	_	_	_	_	_
+31-9	929-936	turismo	_	turismo	_	42-8	linguistic	yes	_	_	_	_	_
+
+#Text=sono venuta con l' idea de stare qui
+32-1	937-941	sono	_	sono	PST066	43-0	linguistic	yes	_	_	_	_	_
+32-2	942-948	venuta	_	venuta	_	43-1	linguistic	yes	_	_	_	_	_
+32-3	949-952	con	_	con	_	43-2	linguistic	yes	_	_	_	_	_
+32-4	953-955	l'	_	l'	_	43-3	linguistic	yes	_	_	_	_	_
+32-5	956-960	idea	_	idea	_	43-4	linguistic	yes	_	_	_	_	_
+32-6	961-963	de	_	#\*de	_	43-5	linguistic	unsure	_	_	_	_	_
+32-7	964-969	stare	_	stare	_	43-6	linguistic	yes	_	_	_	_	_
+32-8	970-973	qui	_	qui	_	43-7	linguistic	yes	_	_	_	_	_
+
+#Text=un anno due anni poi tornare e ancora sono qui
+33-1	974-976	un	_	un	PST066	44-0	linguistic	none	_	_	_	_	_
+33-2	977-981	anno	_	anno	_	44-1	linguistic	none	_	_	_	_	_
+33-3	982-985	due	_	due	_	44-2	linguistic	none	_	_	_	_	_
+33-4	986-990	anni	_	anni	_	44-3	linguistic	none	_	_	_	_	_
+33-5	991-994	poi	_	poi	_	44-4	linguistic	none	_	_	_	_	_
+33-6	995-1002	tornare	_	tornare	_	44-5	linguistic	none	_	_	_	_	_
+33-7	1003-1004	e	_	e	_	44-6	linguistic	none	_	_	_	_	_
+33-8	1005-1011	ancora	_	ancora	_	44-7	linguistic	none	_	_	_	_	_
+33-9	1012-1016	sono	_	sono	_	44-8	linguistic	none	_	_	_	_	_
+33-10	1017-1020	qui	_	qui	_	44-9	linguistic	none	_	_	_	_	_
+
+#Text=ah okay ho capito (.) ah cos' è il perù per te qua a torino
+34-1	1021-1023	ah	_	ah	PST209	45-0	linguistic	none	_	_	_	_	_
+34-2	1024-1028	okay	_	okay	_	45-1	linguistic	none	_	_	_	_	_
+34-3	1029-1031	ho	_	ho	_	45-2	linguistic	none	_	_	_	_	_
+34-4	1032-1038	capito	_	capito	_	45-3	linguistic	none	_	_	_	_	_
+34-5	1039-1042	(.)	_	(.)	_	45-4	shortpause	none	_	_	_	_	_
+34-6	1043-1045	ah	_	a:h	_	45-5	linguistic	none	0x1	_	_	_	_
+34-7	1046-1050	cos'	_	cos'	_	45-6	linguistic	none	_	_	_	_	_
+34-8	1051-1052	è	_	è	_	45-7	linguistic	none	_	_	_	_	_
+34-9	1053-1055	il	_	il	_	45-8	linguistic	none	_	_	_	_	_
+34-10	1056-1060	perù	_	perù	_	45-9	linguistic	none	_	_	_	_	_
+34-11	1061-1064	per	_	per	_	45-10	linguistic	none	_	_	_	_	_
+34-12	1065-1067	te	_	te	_	45-11	linguistic	none	_	_	_	_	_
+34-13	1068-1071	qua	_	qua	_	45-12	linguistic	none	_	_	_	_	_
+34-14	1072-1073	a	_	a	_	45-13	linguistic	none	_	_	_	_	_
+34-15	1074-1080	torino	_	torino	_	45-14	linguistic	none	_	_	_	_	_
+
+#Text=come
+35-1	1081-1085	come	Rising	come?	PST066	46-0	linguistic	none	_	_	_	_	_
+
+#Text=cos' è il perù per te qua a torino dove lo trovi
+36-1	1086-1090	cos'	_	cos'	PST209	47-0	linguistic	none	_	_	_	_	_
+36-2	1091-1092	è	_	è	_	47-1	linguistic	none	_	_	_	_	_
+36-3	1093-1095	il	_	il	_	47-2	linguistic	none	_	_	_	_	_
+36-4	1096-1100	perù	_	perù	_	47-3	linguistic	none	_	_	_	_	_
+36-5	1101-1104	per	_	per	_	47-4	linguistic	none	_	_	_	_	_
+36-6	1105-1107	te	_	te	_	47-5	linguistic	none	_	_	_	_	_
+36-7	1108-1111	qua	_	qua	_	47-6	linguistic	none	_	_	_	_	_
+36-8	1112-1113	a	_	a	_	47-7	linguistic	none	_	_	_	_	_
+36-9	1114-1120	torino	_	torino	_	47-8	linguistic	none	_	_	_	_	_
+36-10	1121-1125	dove	_	dove	_	47-9	linguistic	none	_	_	_	_	_
+36-11	1126-1128	lo	_	lo	_	47-10	linguistic	none	_	_	_	_	_
+36-12	1129-1134	trovi	Rising	trovi?	_	47-11	linguistic	none	_	_	_	_	_
+
+#Text=perù perù
+37-1	1135-1139	perù	_	perù:	PST066	48-0	linguistic	none	3x1	_	_	_	_
+37-2	1140-1144	perù	_	perù	_	48-1	linguistic	none	_	_	_	_	_
+
+#Text=eh
+38-1	1145-1147	eh	_	e:::h	PST066	49-0	linguistic	none	0x3	_	_	_	_
+
+#Text=indescriptible è la mia terra (.) eh è parte della mia vita
+39-1	1148-1162	indescriptible	_	#indescriptible	PST066	50-0	linguistic	other	_	_	_	_	_
+39-2	1163-1164	è	_	è	_	50-1	linguistic	yes	_	_	_	_	_
+39-3	1165-1167	la	_	la	_	50-2	linguistic	yes	_	_	_	_	_
+39-4	1168-1171	mia	_	mia	_	50-3	linguistic	yes	_	_	_	_	_
+39-5	1172-1177	terra	_	terra::	_	50-4	linguistic	yes	4x2	_	_	_	_
+39-6	1178-1181	(.)	_	(.)	_	50-5	shortpause	yes	_	_	_	_	_
+39-7	1182-1184	eh	_	e:::h	_	50-6	linguistic	yes	0x3	_	_	_	_
+39-8	1185-1186	è	_	è	_	50-7	linguistic	yes	_	_	_	_	_
+39-9	1187-1192	parte	_	parte	_	50-8	linguistic	yes	_	_	_	_	_
+39-10	1193-1198	della	_	della	_	50-9	linguistic	yes	_	_	_	_	_
+39-11	1199-1202	mia	_	mia	_	50-10	linguistic	yes	_	_	_	_	_
+39-12	1203-1207	vita	_	vita	_	50-11	linguistic	yes	_	_	_	_	_
+
+#Text=perù vuol dire tanto (.) non so mh ((inspira)) cómo espiegarte perché essendo peruviana noi amiamo la nostra cultura (.) eh la nostra gastronomia
+40-1	1208-1212	perù	_	perù	PST066	52-0	linguistic	yes	_	_	_	_	_
+40-2	1213-1217	vuol	_	vuol	_	52-1	linguistic	yes	_	_	_	_	_
+40-3	1218-1222	dire	_	dire	_	52-2	linguistic	yes	_	_	_	_	_
+40-4	1223-1228	tanto	_	tanto	_	52-3	linguistic	yes	_	_	_	_	_
+40-5	1229-1232	(.)	_	(.)	_	52-4	shortpause	yes	_	_	_	_	_
+40-6	1233-1236	non	_	non	_	52-5	linguistic	yes	_	_	_	_	_
+40-7	1237-1239	so	_	so	_	52-6	linguistic	yes	_	_	_	_	_
+40-8	1240-1242	mh	_	mh	_	52-7	linguistic	yes	_	_	_	_	_
+40-9	1243-1254	((inspira))	_	((inspira))	_	52-8	nonverbalbehavior	yes	_	_	_	_	_
+40-10	1255-1259	cómo	_	#cómo	_	52-9	linguistic	other	_	_	_	_	_
+40-11	1260-1270	espiegarte	_	$espiegarte	_	52-10	linguistic	yes	_	_	_	_	_
+40-12	1271-1277	perché	_	perché:	_	52-11	linguistic	yes	5x1	_	_	_	_
+40-13	1278-1285	essendo	_	essendo	_	52-12	linguistic	yes	_	_	_	_	_
+40-14	1286-1295	peruviana	_	peruviana	_	52-13	linguistic	yes	_	_	_	_	_
+40-15	1296-1299	noi	_	noi	_	52-14	linguistic	yes	_	_	_	_	_
+40-16	1300-1306	amiamo	_	amiamo	_	52-15	linguistic	yes	_	_	_	_	_
+40-17	1307-1309	la	_	la	_	52-16	linguistic	yes	_	_	_	_	_
+40-18	1310-1316	nostra	_	nostra	_	52-17	linguistic	yes	_	_	_	_	_
+40-19	1317-1324	cultura	_	cultura	_	52-18	linguistic	yes	_	_	_	_	_
+40-20	1325-1328	(.)	_	(.)	_	52-19	shortpause	yes	_	_	_	_	_
+40-21	1329-1331	eh	_	e:h	_	52-20	linguistic	yes	0x1	_	_	_	_
+40-22	1332-1334	la	_	la	_	52-21	linguistic	yes	_	_	_	_	_
+40-23	1335-1341	nostra	_	nostra	_	52-22	linguistic	yes	_	_	_	_	_
+40-24	1342-1353	gastronomia	_	gastronomia	_	52-23	linguistic	yes	_	_	_	_	_
+
+#Text=cerchiamo de difundir el nostro folclor
+41-1	1354-1363	cerchiamo	_	cerchiamo	PST066	53-0	linguistic	yes	_	_	_	_	_
+41-2	1364-1366	de	_	#\*de	_	53-1	linguistic	unsure	_	_	_	_	_
+41-3	1367-1375	difundir	_	#difundir	_	53-2	linguistic	other	_	_	_	_	_
+41-4	1376-1378	el	_	#el	_	53-3	linguistic	other	_	_	_	_	_
+41-5	1379-1385	nostro	_	nostro	_	53-4	linguistic	yes	_	_	_	_	_
+41-6	1386-1393	folclor	_	#folclor	_	53-5	linguistic	other	_	_	_	_	_
+
+#Text=hay algo que te xx del perù
+42-1	1394-1397	hay	_	#_ hay	PST063	55-0	linguistic	other	_	_	_	_	_
+42-2	1398-1402	algo	_	algo	_	55-1	linguistic	other	_	_	_	_	_
+42-3	1403-1406	que	_	que	_	55-2	linguistic	other	_	_	_	_	_
+42-4	1407-1409	te	_	te	_	55-3	linguistic	other	_	_	_	_	_
+42-5	1410-1412	xx	_	xx	_	55-4	unknown	yes	_	_	_	_	_
+42-6	1413-1416	del	_	del	_	55-5	linguistic	other	_	_	_	_	_
+42-7	1417-1421	perù	_	perù	_	55-6	linguistic	other	_	_	_	_	_
+
+#Text=eh la verdad (.) sì
+43-1	1422-1424	eh	_	#_ e::::h	PST066	57-0	linguistic	other	0x4	_	_	_	_
+43-2	1425-1427	la	_	la	_	57-1	linguistic	other	_	_	_	_	_
+43-3	1428-1434	verdad	_	verdad	_	57-2	linguistic	other	_	_	_	_	_
+43-4	1435-1438	(.)	_	(.)	_	57-3	shortpause	yes	_	_	_	_	_
+43-5	1439-1441	sì	_	s:ì	_	57-4	linguistic	other	0x1	_	_	_	_
+
+#Text=porque siendo (.) essendo che noi (.) peruviani non rinunciamo alle nostre tradizione (.) eh la gastronomia noi cerchiamo di (.) di prepararlo qui coi (.) i cibi che sono proprio nostri tradizionali
+44-1	1442-1448	porque	_	#porque:::	PST066	59-0	linguistic	other	5x3	_	_	_	_
+44-2	1449-1455	siendo	_	#siendo:	_	59-1	linguistic	other	5x1	_	_	_	_
+44-3	1456-1459	(.)	_	(.)	_	59-2	shortpause	yes	_	_	_	_	_
+44-4	1460-1467	essendo	_	essendo	_	59-3	linguistic	yes	_	_	_	_	_
+44-5	1468-1471	che	_	che	_	59-4	linguistic	yes	_	_	_	_	_
+44-6	1472-1475	noi	_	noi	_	59-5	linguistic	yes	_	_	_	_	_
+44-7	1476-1479	(.)	_	(.)	_	59-6	shortpause	yes	_	_	_	_	_
+44-8	1480-1489	peruviani	_	peruviani	_	59-7	linguistic	yes	_	_	_	_	_
+44-9	1490-1493	non	_	non	_	59-8	linguistic	yes	_	_	_	_	_
+44-10	1494-1504	rinunciamo	_	rinunciamo	_	59-9	linguistic	yes	_	_	_	_	_
+44-11	1505-1509	alle	_	alle	_	59-10	linguistic	yes	_	_	_	_	_
+44-12	1510-1516	nostre	_	nostre	_	59-11	linguistic	yes	_	_	_	_	_
+44-13	1517-1527	tradizione	_	tradizione	_	59-12	linguistic	yes	_	_	_	_	_
+44-14	1528-1531	(.)	_	(.)	_	59-13	shortpause	yes	_	_	_	_	_
+44-15	1532-1534	eh	_	eh	_	59-14	linguistic	yes	_	_	_	_	_
+44-16	1535-1537	la	_	la	_	59-15	linguistic	yes	_	_	_	_	_
+44-17	1538-1549	gastronomia	_	gastronomia	_	59-16	linguistic	yes	_	_	_	_	_
+44-18	1550-1553	noi	_	noi	_	59-17	linguistic	yes	_	_	_	_	_
+44-19	1554-1563	cerchiamo	_	cerchiamo	_	59-18	linguistic	yes	_	_	_	_	_
+44-20	1564-1566	di	_	di:	_	59-19	linguistic	yes	1x1	_	_	_	_
+44-21	1567-1570	(.)	_	(.)	_	59-20	shortpause	yes	_	_	_	_	_
+44-22	1571-1573	di	_	di	_	59-21	linguistic	yes	_	_	_	_	_
+44-23	1574-1584	prepararlo	_	prepararlo	_	59-22	linguistic	yes	_	_	_	_	_
+44-24	1585-1588	qui	_	qui	_	59-23	linguistic	yes	_	_	_	_	_
+44-25	1589-1592	coi	_	coi	_	59-24	linguistic	yes	_	_	_	_	_
+44-26	1593-1596	(.)	_	(.)	_	59-25	shortpause	yes	_	_	_	_	_
+44-27	1597-1598	i	_	i	_	59-26	linguistic	yes	_	_	_	_	_
+44-28	1599-1603	cibi	_	cibi	_	59-27	linguistic	yes	_	_	_	_	_
+44-29	1604-1607	che	_	che	_	59-28	linguistic	yes	_	_	_	_	_
+44-30	1608-1612	sono	_	sono	_	59-29	linguistic	yes	_	_	_	_	_
+44-31	1613-1620	proprio	_	proprio	_	59-30	linguistic	yes	_	_	_	_	_
+44-32	1621-1627	nostri	_	nostri	_	59-31	linguistic	yes	_	_	_	_	_
+44-33	1628-1640	tradizionali	_	tradizionali	_	59-32	linguistic	yes	_	_	_	_	_
+
+#Text=e infatti io tre anni fa ho aperto un negozio (.) con la venta dei prodotti peruviani (.) proprio per quello
+45-1	1641-1642	e	_	e	PST066	60-0	linguistic	yes	_	_	_	_	_
+45-2	1643-1650	infatti	_	infatti	_	60-1	linguistic	yes	_	_	_	_	_
+45-3	1651-1653	io	_	io::	_	60-2	linguistic	yes	1x2	_	_	_	_
+45-4	1654-1657	tre	_	tre	_	60-3	linguistic	yes	_	_	_	_	_
+45-5	1658-1662	anni	_	anni	_	60-4	linguistic	yes	_	_	_	_	_
+45-6	1663-1665	fa	_	fa	_	60-5	linguistic	yes	_	_	_	_	_
+45-7	1666-1668	ho	_	ho	_	60-6	linguistic	yes	_	_	_	_	_
+45-8	1669-1675	aperto	_	aperto	_	60-7	linguistic	yes	_	_	_	_	_
+45-9	1676-1678	un	_	un	_	60-8	linguistic	yes	_	_	_	_	_
+45-10	1679-1686	negozio	_	negozio	_	60-9	linguistic	yes	_	_	_	_	_
+45-11	1687-1690	(.)	_	(.)	_	60-10	shortpause	yes	_	_	_	_	_
+45-12	1691-1694	con	_	con	_	60-11	linguistic	yes	_	_	_	_	_
+45-13	1695-1697	la	_	la	_	60-12	linguistic	yes	_	_	_	_	_
+45-14	1698-1703	venta	_	#venta	_	60-13	linguistic	other	_	_	_	_	_
+45-15	1704-1707	dei	_	dei	_	60-14	linguistic	yes	_	_	_	_	_
+45-16	1708-1716	prodotti	_	prodotti	_	60-15	linguistic	yes	_	_	_	_	_
+45-17	1717-1726	peruviani	_	peruviani	_	60-16	linguistic	yes	_	_	_	_	_
+45-18	1727-1730	(.)	_	(.)	_	60-17	shortpause	yes	_	_	_	_	_
+45-19	1731-1738	proprio	_	proprio	_	60-18	linguistic	yes	_	_	_	_	_
+45-20	1739-1742	per	_	per	_	60-19	linguistic	yes	_	_	_	_	_
+45-21	1743-1749	quello	_	quello	_	60-20	linguistic	yes	_	_	_	_	_
+
+#Text=e poi mia figlia è nata qua ho una figlia diciannove anni (.) e lei da piccola voleva (.) ballare le nostre (.) il nostro folclor
+46-1	1750-1751	e	_	e	PST066	62-0	linguistic	yes	_	_	_	_	_
+46-2	1752-1755	poi	_	poi	_	62-1	linguistic	yes	_	_	_	_	_
+46-3	1756-1759	mia	_	mia	_	62-2	linguistic	yes	_	_	_	_	_
+46-4	1760-1766	figlia	_	figlia	_	62-3	linguistic	yes	_	_	_	_	_
+46-5	1767-1768	è	_	è	_	62-4	linguistic	yes	_	_	_	_	_
+46-6	1769-1773	nata	_	nata	_	62-5	linguistic	yes	_	_	_	_	_
+46-7	1774-1777	qua	_	qua	_	62-6	linguistic	yes	_	_	_	_	_
+46-8	1778-1780	ho	_	ho	_	62-7	linguistic	yes	_	_	_	_	_
+46-9	1781-1784	una	_	una	_	62-8	linguistic	yes	_	_	_	_	_
+46-10	1785-1791	figlia	_	figlia	_	62-9	linguistic	yes	_	_	_	_	_
+46-11	1792-1802	diciannove	_	diciannove	_	62-10	linguistic	yes	_	_	_	_	_
+46-12	1803-1807	anni	_	anni	_	62-11	linguistic	yes	_	_	_	_	_
+46-13	1808-1811	(.)	_	(.)	_	62-12	shortpause	yes	_	_	_	_	_
+46-14	1812-1813	e	_	e	_	62-13	linguistic	yes	_	_	_	_	_
+46-15	1814-1817	lei	_	lei	_	62-14	linguistic	yes	_	_	_	_	_
+46-16	1818-1820	da	_	da	_	62-15	linguistic	yes	_	_	_	_	_
+46-17	1821-1828	piccola	_	piccola	_	62-16	linguistic	yes	_	_	_	_	_
+46-18	1829-1835	voleva	_	voleva	_	62-17	linguistic	yes	_	_	_	_	_
+46-19	1836-1839	(.)	_	(.)	_	62-18	shortpause	yes	_	_	_	_	_
+46-20	1840-1847	ballare	_	ballare	_	62-19	linguistic	yes	_	_	_	_	_
+46-21	1848-1850	le	_	le	_	62-20	linguistic	yes	_	_	_	_	_
+46-22	1851-1857	nostre	_	nostre::	_	62-21	linguistic	yes	5x2	_	_	_	_
+46-23	1858-1861	(.)	_	(.)	_	62-22	shortpause	yes	_	_	_	_	_
+46-24	1862-1864	il	_	il	_	62-23	linguistic	yes	_	_	_	_	_
+46-25	1865-1871	nostro	_	nostro	_	62-24	linguistic	yes	_	_	_	_	_
+46-26	1872-1879	folclor	_	#folclor	_	62-25	linguistic	other	_	_	_	_	_
+
+#Text=mhmh
+47-1	1880-1884	mhmh	_	mhmh	PST211	64-0	linguistic	none	_	_	_	_	_
+
+#Text=e quindi io la portavo alla escuola di ballo
+48-1	1885-1886	e	_	e	PST066	65-0	linguistic	none	_	_	_	_	_
+48-2	1887-1893	quindi	_	quindi	_	65-1	linguistic	none	_	_	_	_	_
+48-3	1894-1896	io	_	io	_	65-2	linguistic	none	_	_	_	_	_
+48-4	1897-1899	la	_	la	_	65-3	linguistic	none	_	_	_	_	_
+48-5	1900-1907	portavo	_	portavo	_	65-4	linguistic	none	_	_	_	_	_
+48-6	1908-1912	alla	_	alla	_	65-5	linguistic	none	_	_	_	_	_
+48-7	1913-1920	escuola	_	$escuola	_	65-6	linguistic	yes	_	_	_	_	_
+48-8	1921-1923	di	_	di	_	65-7	linguistic	none	_	_	_	_	_
+48-9	1924-1929	ballo	_	ballo	_	65-8	linguistic	none	_	_	_	_	_
+
+#Text=e balla diversi balli (.) e poi eh soprattutto è rimasta con la marinera
+49-1	1930-1931	e	_	e	PST066	66-0	linguistic	none	_	_	_	_	_
+49-2	1932-1937	balla	_	balla	_	66-1	linguistic	none	_	_	_	_	_
+49-3	1938-1945	diversi	_	diversi	_	66-2	linguistic	none	_	_	_	_	_
+49-4	1946-1951	balli	_	balli	_	66-3	linguistic	none	_	_	_	_	_
+49-5	1952-1955	(.)	_	(.)	_	66-4	shortpause	none	_	_	_	_	_
+49-6	1956-1957	e	_	e	_	66-5	linguistic	none	_	_	_	_	_
+49-7	1958-1961	poi	_	poi:	_	66-6	linguistic	none	2x1	_	_	_	_
+49-8	1962-1964	eh	_	eh	_	66-7	linguistic	none	_	_	_	_	_
+49-9	1965-1976	soprattutto	_	soprattutto	_	66-8	linguistic	none	_	_	_	_	_
+49-10	1977-1978	è	_	è	_	66-9	linguistic	none	_	_	_	_	_
+49-11	1979-1986	rimasta	_	rimasta	_	66-10	linguistic	none	_	_	_	_	_
+49-12	1987-1990	con	_	con	_	66-11	linguistic	none	_	_	_	_	_
+49-13	1991-1993	la	_	la	_	66-12	linguistic	none	_	_	_	_	_
+49-14	1994-2002	marinera	_	marinera	_	66-13	linguistic	none	_	_	_	_	_
+
+#Text=eh siccome qua eh noi cioè (.) accogliamo tanto il nostro ballo (.) noi facevamo anche le gare a livello europeo
+50-1	2003-2005	eh	_	e::h	PST066	67-0	linguistic	none	0x2	_	_	_	_
+50-2	2006-2013	siccome	_	siccome	_	67-1	linguistic	none	_	_	_	_	_
+50-3	2014-2017	qua	_	qua	_	67-2	linguistic	none	_	_	_	_	_
+50-4	2018-2020	eh	_	e::h	_	67-3	linguistic	none	0x2	_	_	_	_
+50-5	2021-2024	noi	_	noi	_	67-4	linguistic	none	_	_	_	_	_
+50-6	2025-2029	cioè	_	>cioè<	_	67-5	linguistic	none	_	Fast=0-4(0)	_	_	_
+50-7	2030-2033	(.)	_	(.)	_	67-6	shortpause	none	_	_	_	_	_
+50-8	2034-2044	accogliamo	_	accogliamo	_	67-7	linguistic	none	_	_	_	_	_
+50-9	2045-2050	tanto	_	tanto	_	67-8	linguistic	none	_	_	_	_	_
+50-10	2051-2053	il	_	il	_	67-9	linguistic	none	_	_	_	_	_
+50-11	2054-2060	nostro	_	nostro	_	67-10	linguistic	none	_	_	_	_	_
+50-12	2061-2066	ballo	_	ballo	_	67-11	linguistic	none	_	_	_	_	_
+50-13	2067-2070	(.)	_	(.)	_	67-12	shortpause	none	_	_	_	_	_
+50-14	2071-2074	noi	_	noi	_	67-13	linguistic	none	_	_	_	_	_
+50-15	2075-2083	facevamo	_	facevamo	_	67-14	linguistic	none	_	_	_	_	_
+50-16	2084-2089	anche	_	anche	_	67-15	linguistic	none	_	_	_	_	_
+50-17	2090-2092	le	_	le	_	67-16	linguistic	none	_	_	_	_	_
+50-18	2093-2097	gare	_	gare	_	67-17	linguistic	none	_	_	_	_	_
+50-19	2098-2099	a	_	a	_	67-18	linguistic	none	_	_	_	_	_
+50-20	2100-2107	livello	_	livello:	_	67-19	linguistic	none	6x1	_	_	_	_
+50-21	2108-2115	europeo	_	europeo	_	67-20	linguistic	none	_	_	_	_	_
+
+#Text=sì
+51-1	2116-2118	sì	_	sì	PST209	68-0	linguistic	none	_	_	_	_	_
+
+#Text=ah il ventotto di lu~ luglio è l' indipendenza del perù (.) cos' è per te l' independenza
+52-1	2119-2121	ah	_	a::h	PST209	69-0	linguistic	none	0x2	_	_	_	_
+52-2	2122-2124	il	_	il	_	69-1	linguistic	none	_	_	_	_	_
+52-3	2125-2133	ventotto	_	ventotto	_	69-2	linguistic	none	_	_	_	_	_
+52-4	2134-2136	di	_	di	_	69-3	linguistic	none	_	_	_	_	_
+52-5	2137-2140	lu~	_	lu~	_	69-4	linguistic	none	_	_	_	_	_
+52-6	2141-2147	luglio	_	luglio	_	69-5	linguistic	none	_	_	_	_	_
+52-7	2148-2149	è	_	è	_	69-6	linguistic	none	_	_	_	_	_
+52-8	2150-2152	l'	_	l'	_	69-7	linguistic	none	_	_	_	_	_
+52-9	2153-2165	indipendenza	_	indipendenza	_	69-8	linguistic	none	_	_	_	_	_
+52-10	2166-2169	del	_	del	_	69-9	linguistic	none	_	_	_	_	_
+52-11	2170-2174	perù	_	perù	_	69-10	linguistic	none	_	_	_	_	_
+52-12	2175-2178	(.)	_	(.)	_	69-11	shortpause	none	_	_	_	_	_
+52-13	2179-2183	cos'	_	cos'	_	69-12	linguistic	none	_	_	_	_	_
+52-14	2184-2185	è	_	è	_	69-13	linguistic	none	_	_	_	_	_
+52-15	2186-2189	per	_	per	_	69-14	linguistic	none	_	_	_	_	_
+52-16	2190-2192	te	_	te	_	69-15	linguistic	none	_	_	_	_	_
+52-17	2193-2195	l'	_	l'	_	69-16	linguistic	none	_	_	_	_	_
+52-18	2196-2208	independenza	Rising	independenza?	_	69-17	linguistic	none	_	_	_	_	_
+
+#Text=ma è la festa grande che celebriamo
+53-1	2209-2211	ma	_	ma	PST066	70-0	linguistic	none	_	_	_	_	_
+53-2	2212-2213	è	_	è	_	70-1	linguistic	none	_	_	_	_	_
+53-3	2214-2216	la	_	la	_	70-2	linguistic	none	_	_	_	_	_
+53-4	2217-2222	festa	_	festa	_	70-3	linguistic	none	_	_	_	_	_
+53-5	2223-2229	grande	_	grande	_	70-4	linguistic	none	_	_	_	_	_
+53-6	2230-2233	che	_	che	_	70-5	linguistic	none	_	_	_	_	_
+53-7	2234-2244	celebriamo	_	celebriamo:	_	70-6	linguistic	none	9x1	_	_	_	_
+
+#Text=come noi tutti peruviani (.) è (.) tipo il nostro compleanno è una festa che aspettiamo tanto
+54-1	2245-2249	come	_	come	PST066	71-0	linguistic	none	_	_	_	_	_
+54-2	2250-2253	noi	_	noi	_	71-1	linguistic	none	_	_	_	_	_
+54-3	2254-2259	tutti	_	tutti	_	71-2	linguistic	none	_	_	_	_	_
+54-4	2260-2269	peruviani	_	peruviani	_	71-3	linguistic	none	_	_	_	_	_
+54-5	2270-2273	(.)	_	(.)	_	71-4	shortpause	none	_	_	_	_	_
+54-6	2274-2275	è	_	è	_	71-5	linguistic	none	_	_	_	_	_
+54-7	2276-2279	(.)	_	(.)	_	71-6	shortpause	none	_	_	_	_	_
+54-8	2280-2284	tipo	_	tipo	_	71-7	linguistic	none	_	_	_	_	_
+54-9	2285-2287	il	_	il	_	71-8	linguistic	none	_	_	_	_	_
+54-10	2288-2294	nostro	_	nostro	_	71-9	linguistic	none	_	_	_	_	_
+54-11	2295-2305	compleanno	_	compleanno	_	71-10	linguistic	none	_	_	_	_	_
+54-12	2306-2307	è	_	è	_	71-11	linguistic	none	_	_	_	_	_
+54-13	2308-2311	una	_	una	_	71-12	linguistic	none	_	_	_	_	_
+54-14	2312-2317	festa	_	festa	_	71-13	linguistic	none	_	_	_	_	_
+54-15	2318-2321	che	_	che	_	71-14	linguistic	none	_	_	_	_	_
+54-16	2322-2332	aspettiamo	_	aspettiamo	_	71-15	linguistic	none	_	_	_	_	_
+54-17	2333-2338	tanto	_	tanto	_	71-16	linguistic	none	_	_	_	_	_
+
+#Text=cómo si festeggia la independencia in perù e come si festeggia qua a torino
+55-1	2339-2343	cómo	_	#cómo	PST209	72-0	linguistic	other	_	_	_	_	_
+55-2	2344-2346	si	_	si	_	72-1	linguistic	yes	_	_	_	_	_
+55-3	2347-2356	festeggia	_	festeggia	_	72-2	linguistic	yes	_	_	_	_	_
+55-4	2357-2359	la	_	la	_	72-3	linguistic	yes	_	_	_	_	_
+55-5	2360-2373	independencia	_	#independencia	_	72-4	linguistic	other	_	_	_	_	_
+55-6	2374-2376	in	_	in	_	72-5	linguistic	yes	_	_	_	_	_
+55-7	2377-2381	perù	_	perù	_	72-6	linguistic	yes	_	_	_	_	_
+55-8	2382-2383	e	_	e	_	72-7	linguistic	yes	_	_	_	_	_
+55-9	2384-2388	come	_	come	_	72-8	linguistic	yes	_	_	_	_	_
+55-10	2389-2391	si	_	si	_	72-9	linguistic	yes	_	_	_	_	_
+55-11	2392-2401	festeggia	_	festeggia	_	72-10	linguistic	yes	_	_	_	_	_
+55-12	2402-2405	qua	_	qua	_	72-11	linguistic	yes	_	_	_	_	_
+55-13	2406-2407	a	_	a	_	72-12	linguistic	yes	_	_	_	_	_
+55-14	2408-2414	torino	_	torino	_	72-13	linguistic	yes	_	_	_	_	_
+
+#Text=in perù festeggiamo con gran compañerismo (.) è una data proprio (.) che aspettiamo (.) cioè è un punto di incontro (.) è gioia per noi
+56-1	2415-2417	in	_	in	PST066	74-0	linguistic	yes	_	_	_	_	_
+56-2	2418-2422	perù	_	perù	_	74-1	linguistic	yes	_	_	_	_	_
+56-3	2423-2434	festeggiamo	_	festeggiamo	_	74-2	linguistic	yes	_	_	_	_	_
+56-4	2435-2438	con	_	con	_	74-3	linguistic	yes	_	_	_	_	_
+56-5	2439-2443	gran	_	gran	_	74-4	linguistic	yes	_	_	_	_	_
+56-6	2444-2456	compañerismo	_	#compañerismo	_	74-5	linguistic	other	_	_	_	_	_
+56-7	2457-2460	(.)	_	(.)	_	74-6	shortpause	yes	_	_	_	_	_
+56-8	2461-2462	è	_	è	_	74-7	linguistic	yes	_	_	_	_	_
+56-9	2463-2466	una	_	una	_	74-8	linguistic	yes	_	_	_	_	_
+56-10	2467-2471	data	_	data	_	74-9	linguistic	yes	_	_	_	_	_
+56-11	2472-2479	proprio	_	proprio	_	74-10	linguistic	yes	_	_	_	_	_
+56-12	2480-2483	(.)	_	(.)	_	74-11	shortpause	yes	_	_	_	_	_
+56-13	2484-2487	che	_	che	_	74-12	linguistic	yes	_	_	_	_	_
+56-14	2488-2498	aspettiamo	_	aspettiamo	_	74-13	linguistic	yes	_	_	_	_	_
+56-15	2499-2502	(.)	_	(.)	_	74-14	shortpause	yes	_	_	_	_	_
+56-16	2503-2507	cioè	_	>cioè<	_	74-15	linguistic	yes	_	Fast=0-4(0)	_	_	_
+56-17	2508-2509	è	_	è	_	74-16	linguistic	yes	_	_	_	_	_
+56-18	2510-2512	un	_	un	_	74-17	linguistic	yes	_	_	_	_	_
+56-19	2513-2518	punto	_	punto	_	74-18	linguistic	yes	_	_	_	_	_
+56-20	2519-2521	di	_	di	_	74-19	linguistic	yes	_	_	_	_	_
+56-21	2522-2530	incontro	_	incontro	_	74-20	linguistic	yes	_	_	_	_	_
+56-22	2531-2534	(.)	_	(.)	_	74-21	shortpause	yes	_	_	_	_	_
+56-23	2535-2536	è	_	è	_	74-22	linguistic	yes	_	_	_	_	_
+56-24	2537-2542	gioia	_	gioia	_	74-23	linguistic	yes	_	_	_	_	_
+56-25	2543-2546	per	_	per	_	74-24	linguistic	yes	_	_	_	_	_
+56-26	2547-2550	noi	_	noi	_	74-25	linguistic	yes	_	_	_	_	_
+
+#Text=se ah (.) cantare il nostro inno (.) nazionale
+57-1	2551-2553	se	_	se::	PST066	76-0	linguistic	none	1x2	_	_	_	_
+57-2	2554-2556	ah	_	ah	_	76-1	linguistic	none	_	_	_	_	_
+57-3	2557-2560	(.)	_	(.)	_	76-2	shortpause	none	_	_	_	_	_
+57-4	2561-2568	cantare	_	cantare	_	76-3	linguistic	none	_	_	_	_	_
+57-5	2569-2571	il	_	il	_	76-4	linguistic	none	_	_	_	_	_
+57-6	2572-2578	nostro	_	nostro	_	76-5	linguistic	none	_	_	_	_	_
+57-7	2579-2583	inno	_	inno	_	76-6	linguistic	none	_	_	_	_	_
+57-8	2584-2587	(.)	_	(.)	_	76-7	shortpause	none	_	_	_	_	_
+57-9	2588-2597	nazionale	_	nazionale	_	76-8	linguistic	none	_	_	_	_	_
+
+#Text=qua celebriamo de qualche maniera si fa le organizzazione (.) che fanno questa celebrazione
+58-1	2598-2601	qua	_	qua	PST066	77-0	linguistic	yes	_	_	_	_	_
+58-2	2602-2612	celebriamo	_	celebriamo	_	77-1	linguistic	yes	_	_	_	_	_
+58-3	2613-2615	de	_	#\*de	_	77-2	linguistic	unsure	_	_	_	_	_
+58-4	2616-2623	qualche	_	qualche	_	77-3	linguistic	yes	_	_	_	_	_
+58-5	2624-2631	maniera	_	maniera	_	77-4	linguistic	yes	_	_	_	_	_
+58-6	2632-2634	si	_	si::	_	77-5	linguistic	yes	1x2	_	_	_	_
+58-7	2635-2637	fa	_	fa	_	77-6	linguistic	yes	_	_	_	_	_
+58-8	2638-2640	le	_	le	_	77-7	linguistic	yes	_	_	_	_	_
+58-9	2641-2655	organizzazione	_	organizzazione	_	77-8	linguistic	yes	_	_	_	_	_
+58-10	2656-2659	(.)	_	(.)	_	77-9	shortpause	yes	_	_	_	_	_
+58-11	2660-2663	che	_	che	_	77-10	linguistic	yes	_	_	_	_	_
+58-12	2664-2669	fanno	_	fanno	_	77-11	linguistic	yes	_	_	_	_	_
+58-13	2670-2676	questa	_	questa	_	77-12	linguistic	yes	_	_	_	_	_
+58-14	2677-2689	celebrazione	_	celebrazione	_	77-13	linguistic	yes	_	_	_	_	_
+
+#Text=comunque sempre eh cerchiamo di partecipare
+59-1	2690-2698	comunque	_	comunque	PST066	78-0	linguistic	none	_	_	_	_	_
+59-2	2699-2705	sempre	_	sempre	_	78-1	linguistic	none	_	_	_	_	_
+59-3	2706-2708	eh	_	eh	_	78-2	linguistic	none	_	_	_	_	_
+59-4	2709-2718	cerchiamo	_	cerchiamo	_	78-3	linguistic	none	_	_	_	_	_
+59-5	2719-2721	di	_	di	_	78-4	linguistic	none	_	_	_	_	_
+59-6	2722-2733	partecipare	_	partecipare	_	78-5	linguistic	none	_	_	_	_	_
+
+#Text=ah come ti stai preparando per la festa
+60-1	2734-2736	ah	_	a:h	PST209	79-0	linguistic	none	0x1	_	_	_	_
+60-2	2737-2741	come	_	come	_	79-1	linguistic	none	_	_	_	_	_
+60-3	2742-2744	ti	_	ti	_	79-2	linguistic	none	_	_	_	_	_
+60-4	2745-2749	stai	_	stai	_	79-3	linguistic	none	_	_	_	_	_
+60-5	2750-2760	preparando	_	preparando	_	79-4	linguistic	none	_	_	_	_	_
+60-6	2761-2764	per	_	per	_	79-5	linguistic	none	_	_	_	_	_
+60-7	2765-2767	la	_	la	_	79-6	linguistic	none	_	_	_	_	_
+60-8	2768-2773	festa	_	festa	_	79-7	linguistic	none	_	_	_	_	_
+
+#Text=eh per questo ventisette ventotto luglio stiamo preparando una gran (.) una festicciola che proprio lo faranno in un centro sportivo
+61-1	2774-2776	eh	_	e:h	PST066	80-0	linguistic	none	0x1	_	_	_	_
+61-2	2777-2780	per	_	per	_	80-1	linguistic	none	_	_	_	_	_
+61-3	2781-2787	questo	_	questo:	_	80-2	linguistic	none	5x1	_	_	_	_
+61-4	2788-2798	ventisette	_	ventisette	_	80-3	linguistic	none	_	_	_	_	_
+61-5	2799-2807	ventotto	_	ventotto	_	80-4	linguistic	none	_	_	_	_	_
+61-6	2808-2814	luglio	_	luglio	_	80-5	linguistic	none	_	_	_	_	_
+61-7	2815-2821	stiamo	_	stiamo	_	80-6	linguistic	none	_	_	_	_	_
+61-8	2822-2832	preparando	_	preparando	_	80-7	linguistic	none	_	_	_	_	_
+61-9	2833-2836	una	_	una	_	80-8	linguistic	none	_	_	_	_	_
+61-10	2837-2841	gran	_	gran::	_	80-9	linguistic	none	3x2	_	_	_	_
+61-11	2842-2845	(.)	_	(.)	_	80-10	shortpause	none	_	_	_	_	_
+61-12	2846-2849	una	_	una	_	80-11	linguistic	none	_	_	_	_	_
+61-13	2850-2861	festicciola	_	festicciola	_	80-12	linguistic	none	_	_	_	_	_
+61-14	2862-2865	che	_	che	_	80-13	linguistic	none	_	_	_	_	_
+61-15	2866-2873	proprio	_	proprio	_	80-14	linguistic	none	_	_	_	_	_
+61-16	2874-2876	lo	_	lo	_	80-15	linguistic	none	_	_	_	_	_
+61-17	2877-2884	faranno	_	faranno	_	80-16	linguistic	none	_	_	_	_	_
+61-18	2885-2887	in	_	in	_	80-17	linguistic	none	_	_	_	_	_
+61-19	2888-2890	un	_	un	_	80-18	linguistic	none	_	_	_	_	_
+61-20	2891-2897	centro	_	centro	_	80-19	linguistic	none	_	_	_	_	_
+61-21	2898-2906	sportivo	_	sportivo	_	80-20	linguistic	none	_	_	_	_	_
+
+#Text=faranno due giorni con diversión per i bambini (.) nuestro ballo folclórico gastronomia peruviana (.) e i ragazzi faranno il calcetto che si fa in perù
+62-1	2907-2914	faranno	_	faranno	PST066	81-0	linguistic	yes	_	_	_	_	_
+62-2	2915-2918	due	_	due	_	81-1	linguistic	yes	_	_	_	_	_
+62-3	2919-2925	giorni	_	giorni	_	81-2	linguistic	yes	_	_	_	_	_
+62-4	2926-2929	con	_	co::n	_	81-3	linguistic	yes	1x2	_	_	_	_
+62-5	2930-2939	diversión	_	#diversión	_	81-4	linguistic	other	_	_	_	_	_
+62-6	2940-2943	per	_	per	_	81-5	linguistic	yes	_	_	_	_	_
+62-7	2944-2945	i	_	i	_	81-6	linguistic	yes	_	_	_	_	_
+62-8	2946-2953	bambini	_	bambini	_	81-7	linguistic	yes	_	_	_	_	_
+62-9	2954-2957	(.)	_	(.)	_	81-8	shortpause	yes	_	_	_	_	_
+62-10	2958-2965	nuestro	_	#nuestro	_	81-9	linguistic	other	_	_	_	_	_
+62-11	2966-2971	ballo	_	ballo	_	81-10	linguistic	yes	_	_	_	_	_
+62-12	2972-2982	folclórico	_	#folclórico	_	81-11	linguistic	other	_	_	_	_	_
+62-13	2983-2994	gastronomia	_	gastronomia	_	81-12	linguistic	yes	_	_	_	_	_
+62-14	2995-3004	peruviana	_	peruviana	_	81-13	linguistic	yes	_	_	_	_	_
+62-15	3005-3008	(.)	_	(.)	_	81-14	shortpause	yes	_	_	_	_	_
+62-16	3009-3010	e	_	e:	_	81-15	linguistic	yes	0x1	_	_	_	_
+62-17	3011-3012	i	_	i	_	81-16	linguistic	yes	_	_	_	_	_
+62-18	3013-3020	ragazzi	_	ragazzi	_	81-17	linguistic	yes	_	_	_	_	_
+62-19	3021-3028	faranno	_	faranno	_	81-18	linguistic	yes	_	_	_	_	_
+62-20	3029-3031	il	_	il	_	81-19	linguistic	yes	_	_	_	_	_
+62-21	3032-3040	calcetto	_	calcetto	_	81-20	linguistic	yes	_	_	_	_	_
+62-22	3041-3044	che	_	che	_	81-21	linguistic	yes	_	_	_	_	_
+62-23	3045-3047	si	_	si	_	81-22	linguistic	yes	_	_	_	_	_
+62-24	3048-3050	fa	_	fa:	_	81-23	linguistic	yes	1x1	_	_	_	_
+62-25	3051-3053	in	_	in	_	81-24	linguistic	yes	_	_	_	_	_
+62-26	3054-3058	perù	_	perù	_	81-25	linguistic	yes	_	_	_	_	_
+
+#Text=quei calcetti che fanno per (.) età (.) più meno
+63-1	3059-3063	quei	_	quei	PST066	83-0	linguistic	none	_	_	_	_	_
+63-2	3064-3072	calcetti	_	calcetti	_	83-1	linguistic	none	_	_	_	_	_
+63-3	3073-3076	che	_	che	_	83-2	linguistic	none	_	_	_	_	_
+63-4	3077-3082	fanno	_	fanno	_	83-3	linguistic	none	_	_	_	_	_
+63-5	3083-3086	per	_	per:	_	83-4	linguistic	none	2x1	_	_	_	_
+63-6	3087-3090	(.)	_	(.)	_	83-5	shortpause	none	_	_	_	_	_
+63-7	3091-3094	età	_	età	_	83-6	linguistic	none	_	_	_	_	_
+63-8	3095-3098	(.)	_	(.)	_	83-7	shortpause	none	_	_	_	_	_
+63-9	3099-3102	più	_	più	_	83-8	linguistic	none	_	_	_	_	_
+63-10	3103-3107	meno	_	meno	_	83-9	linguistic	none	_	_	_	_	_
+
+#Text=e faranno anche portano gli artisti del perù (.) giorno ventisette arriva una (.) ragazza il giorno ventotto un' altra ragazza che fa musica cumbia tropical
+64-1	3108-3109	e	_	e	PST066	84-0	linguistic	yes	_	_	_	_	_
+64-2	3110-3117	faranno	_	faranno	_	84-1	linguistic	yes	_	_	_	_	_
+64-3	3118-3123	anche	_	anche	_	84-2	linguistic	yes	_	_	_	_	_
+64-4	3124-3131	portano	_	portano	_	84-3	linguistic	yes	_	_	_	_	_
+64-5	3132-3135	gli	_	gli	_	84-4	linguistic	yes	_	_	_	_	_
+64-6	3136-3143	artisti	_	artisti	_	84-5	linguistic	yes	_	_	_	_	_
+64-7	3144-3147	del	_	del	_	84-6	linguistic	yes	_	_	_	_	_
+64-8	3148-3152	perù	_	perù	_	84-7	linguistic	yes	_	_	_	_	_
+64-9	3153-3156	(.)	_	(.)	_	84-8	shortpause	yes	_	_	_	_	_
+64-10	3157-3163	giorno	_	giorno	_	84-9	linguistic	yes	_	_	_	_	_
+64-11	3164-3174	ventisette	_	ventisette	_	84-10	linguistic	yes	_	_	_	_	_
+64-12	3175-3181	arriva	_	arriva	_	84-11	linguistic	yes	_	_	_	_	_
+64-13	3182-3185	una	_	una	_	84-12	linguistic	yes	_	_	_	_	_
+64-14	3186-3189	(.)	_	(.)	_	84-13	shortpause	yes	_	_	_	_	_
+64-15	3190-3197	ragazza	_	ragazza	_	84-14	linguistic	yes	_	_	_	_	_
+64-16	3198-3200	il	_	il	_	84-15	linguistic	yes	_	_	_	_	_
+64-17	3201-3207	giorno	_	giorno	_	84-16	linguistic	yes	_	_	_	_	_
+64-18	3208-3216	ventotto	_	ventotto	_	84-17	linguistic	yes	_	_	_	_	_
+64-19	3217-3220	un'	_	un'	_	84-18	linguistic	yes	_	_	_	_	_
+64-20	3221-3226	altra	_	altra	_	84-19	linguistic	yes	_	_	_	_	_
+64-21	3227-3234	ragazza	_	ragazza	_	84-20	linguistic	yes	_	_	_	_	_
+64-22	3235-3238	che	_	che	_	84-21	linguistic	yes	_	_	_	_	_
+64-23	3239-3241	fa	_	fa	_	84-22	linguistic	yes	_	_	_	_	_
+64-24	3242-3248	musica	_	musica	_	84-23	linguistic	yes	_	_	_	_	_
+64-25	3249-3255	cumbia	_	cumbia	_	84-24	linguistic	yes	_	_	_	_	_
+64-26	3256-3264	tropical	_	#tropical	_	84-25	linguistic	other	_	_	_	_	_
+
+#Text=e quindi (.) è questo (.) el programma noi celebriamo sempre tutti gli anni
+65-1	3265-3266	e	_	e	PST066	85-0	linguistic	yes	_	_	_	_	_
+65-2	3267-3273	quindi	_	quindi	_	85-1	linguistic	yes	_	_	_	_	_
+65-3	3274-3277	(.)	_	(.)	_	85-2	shortpause	yes	_	_	_	_	_
+65-4	3278-3279	è	_	è	_	85-3	linguistic	yes	_	_	_	_	_
+65-5	3280-3286	questo	_	questo	_	85-4	linguistic	yes	_	_	_	_	_
+65-6	3287-3290	(.)	_	(.)	_	85-5	shortpause	yes	_	_	_	_	_
+65-7	3291-3293	el	_	#el	_	85-6	linguistic	other	_	_	_	_	_
+65-8	3294-3303	programma	_	programma	_	85-7	linguistic	yes	_	_	_	_	_
+65-9	3304-3307	noi	_	noi	_	85-8	linguistic	yes	_	_	_	_	_
+65-10	3308-3318	celebriamo	_	celebriamo	_	85-9	linguistic	yes	_	_	_	_	_
+65-11	3319-3325	sempre	_	sempre	_	85-10	linguistic	yes	_	_	_	_	_
+65-12	3326-3331	tutti	_	tutti	_	85-11	linguistic	yes	_	_	_	_	_
+65-13	3332-3335	gli	_	gli	_	85-12	linguistic	yes	_	_	_	_	_
+65-14	3336-3340	anni	_	anni	_	85-13	linguistic	yes	_	_	_	_	_
+
+#Text=chi lo fa andiamo all' incontro appoggiamo e partecipiamo di qualche maniera
+66-1	3341-3344	chi	_	chi	PST066	86-0	linguistic	none	_	_	_	_	_
+66-2	3345-3347	lo	_	lo	_	86-1	linguistic	none	_	_	_	_	_
+66-3	3348-3350	fa	_	fa	_	86-2	linguistic	none	_	_	_	_	_
+66-4	3351-3358	andiamo	_	(an)diamo	_	86-3	linguistic	none	_	_	0-2(0)	_	_
+66-5	3359-3363	all'	_	all'	_	86-4	linguistic	none	_	_	_	_	_
+66-6	3364-3372	incontro	_	incontro	_	86-5	linguistic	none	_	_	_	_	_
+66-7	3373-3383	appoggiamo	_	appoggiamo	_	86-6	linguistic	none	_	_	_	_	_
+66-8	3384-3385	e	_	e:	_	86-7	linguistic	none	0x1	_	_	_	_
+66-9	3386-3398	partecipiamo	_	partecipiamo	_	86-8	linguistic	none	_	_	_	_	_
+66-10	3399-3401	di	_	di	_	86-9	linguistic	none	_	_	_	_	_
+66-11	3402-3409	qualche	_	qualche	_	86-10	linguistic	none	_	_	_	_	_
+66-12	3410-3417	maniera	_	maniera	_	86-11	linguistic	none	_	_	_	_	_
+
+#Text=eh beh è bellissimo eh cosa è successo il giorno dell' independenza
+67-1	3418-3420	eh	_	(eh	PST209	87-0	linguistic	none	_	_	0-2(0)	_	_
+67-2	3421-3424	beh	_	beh)	_	87-1	linguistic	none	_	_	0-3(0)	_	_
+67-3	3425-3426	è	_	è	_	87-2	linguistic	none	_	_	_	_	_
+67-4	3427-3437	bellissimo	_	bellissimo	_	87-3	linguistic	none	_	_	_	_	_
+67-5	3438-3440	eh	_	e:h	_	87-4	linguistic	none	0x1	_	_	_	_
+67-6	3441-3445	cosa	_	cosa	_	87-5	linguistic	none	_	_	_	_	_
+67-7	3446-3447	è	_	è	_	87-6	linguistic	none	_	_	_	_	_
+67-8	3448-3456	successo	_	successo	_	87-7	linguistic	none	_	_	_	_	_
+67-9	3457-3459	il	_	il	_	87-8	linguistic	none	_	_	_	_	_
+67-10	3460-3466	giorno	_	giorno	_	87-9	linguistic	none	_	_	_	_	_
+67-11	3467-3472	dell'	_	dell'	_	87-10	linguistic	none	_	_	_	_	_
+67-12	3473-3485	independenza	WeaklyRising	independenza,	_	87-11	linguistic	none	_	_	_	_	_
+
+#Text=la historia
+68-1	3486-3488	la	_	la	PST209	88-0	linguistic	yes	_	_	_	_	_
+68-2	3489-3497	historia	_	#historia	_	88-1	linguistic	other	_	_	_	_	_
+
+#Text=eh guarda
+69-1	3498-3500	eh	_	eh	PST066	90-0	linguistic	none	_	_	_	_	_
+69-2	3501-3507	guarda	_	guarda	_	90-1	linguistic	none	_	_	_	_	_
+
+#Text=è stato una festa proprio per noi peruviani che siamo (.) ci siamo liberati un po' (.) abbiamo (.) trovato la nostra libertà la nostra independenza
+70-1	3508-3509	è	_	è	PST066	91-0	linguistic	none	_	_	_	_	_
+70-2	3510-3515	stato	_	stato	_	91-1	linguistic	none	_	_	_	_	_
+70-3	3516-3519	una	_	una	_	91-2	linguistic	none	_	_	_	_	_
+70-4	3520-3525	festa	_	festa	_	91-3	linguistic	none	_	_	_	_	_
+70-5	3526-3533	proprio	_	proprio	_	91-4	linguistic	none	_	_	_	_	_
+70-6	3534-3537	per	_	per	_	91-5	linguistic	none	_	_	_	_	_
+70-7	3538-3541	noi	_	noi	_	91-6	linguistic	none	_	_	_	_	_
+70-8	3542-3551	peruviani	_	peruviani	_	91-7	linguistic	none	_	_	_	_	_
+70-9	3552-3555	che	_	che	_	91-8	linguistic	none	_	_	_	_	_
+70-10	3556-3561	siamo	_	siamo:	_	91-9	linguistic	none	4x1	_	_	_	_
+70-11	3562-3565	(.)	_	(.)	_	91-10	shortpause	none	_	_	_	_	_
+70-12	3566-3568	ci	_	ci	_	91-11	linguistic	none	_	_	_	_	_
+70-13	3569-3574	siamo	_	siamo	_	91-12	linguistic	none	_	_	_	_	_
+70-14	3575-3583	liberati	_	liberati	_	91-13	linguistic	none	_	_	_	_	_
+70-15	3584-3586	un	_	un	_	91-14	linguistic	none	_	_	_	_	_
+70-16	3587-3590	po'	_	po'	_	91-15	linguistic	none	_	_	_	_	_
+70-17	3591-3594	(.)	_	(.)	_	91-16	shortpause	none	_	_	_	_	_
+70-18	3595-3602	abbiamo	_	abbiamo::	_	91-17	linguistic	none	6x2	_	_	_	_
+70-19	3603-3606	(.)	_	(.)	_	91-18	shortpause	none	_	_	_	_	_
+70-20	3607-3614	trovato	_	trovato	_	91-19	linguistic	none	_	_	_	_	_
+70-21	3615-3617	la	_	la	_	91-20	linguistic	none	_	_	_	_	_
+70-22	3618-3624	nostra	_	nostra	_	91-21	linguistic	none	_	_	_	_	_
+70-23	3625-3632	libertà	_	libertà	_	91-22	linguistic	none	_	_	_	_	_
+70-24	3633-3635	la	_	la	_	91-23	linguistic	none	_	_	_	_	_
+70-25	3636-3642	nostra	_	nostra	_	91-24	linguistic	none	_	_	_	_	_
+70-26	3643-3655	independenza	_	independenza	_	91-25	linguistic	none	_	_	_	_	_
+
+#Text=e lo celebriamo (.) orgogliosi
+71-1	3656-3657	e	_	e	PST066	92-0	linguistic	none	_	_	_	_	_
+71-2	3658-3660	lo	_	lo	_	92-1	linguistic	none	_	_	_	_	_
+71-3	3661-3671	celebriamo	_	celebriamo	_	92-2	linguistic	none	_	_	_	_	_
+71-4	3672-3675	(.)	_	(.)	_	92-3	shortpause	none	_	_	_	_	_
+71-5	3676-3686	orgogliosi	_	orgogliosi	_	92-4	linguistic	none	_	_	_	_	_
+
+#Text=grazie mille è un piacere
+72-1	3687-3693	grazie	_	grazie	PST209	93-0	linguistic	none	_	_	_	_	_
+72-2	3694-3699	mille	_	mille	_	93-1	linguistic	none	_	_	_	_	_
+72-3	3700-3701	è	_	è	_	93-2	linguistic	none	_	_	_	_	_
+72-4	3702-3704	un	_	un	_	93-3	linguistic	none	_	_	_	_	_
+72-5	3705-3712	piacere	_	piacere	_	93-4	linguistic	none	_	_	_	_	_
+
+#Text=mh grazie
+73-1	3713-3715	mh	_	mh	PST063	94-0	linguistic	none	_	_	_	_	_
+73-2	3716-3722	grazie	_	gra:zie	_	94-1	linguistic	none	2x1	_	_	_	_
